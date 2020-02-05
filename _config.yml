@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Srinivas Rahul Sapireddy"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Artificial Intelligence Portfolio"
   location         : "Hyderabad, India"
   email            :
