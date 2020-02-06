@@ -1,6 +1,6 @@
 ---
 title: "Curriculum vitae"
-permalink: /Curriculum vitae/
+permalink: /curriculum-vitae/
 ---
 
 Education
