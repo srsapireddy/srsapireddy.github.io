@@ -2,10 +2,10 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Machine Learning"
-    url: /machile-learning/
+  - title: "Projects"
+    url: /projects/
   - title: "Curriculum vitae"
-    url: /curriculum-vitae/
+    url: /CV/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
