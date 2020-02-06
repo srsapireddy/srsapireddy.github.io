@@ -26,5 +26,13 @@ CONFERENCES
 <br>
 
 AWARDS
+<br>
 Recipient of Dean’s International Scholar Award, University of Missouri Kansas City, 2015
+<br>
+
+INDEPENDENT COURSEWORK(ONLINE)
+<br>
+Fundamentals of Programming offered by Coursera and University of Toronto<br>
+Statistical Learning offered by Stanford Online Learning<br>
+C Programming for Embedded Applications, LinkedIn
 <br>
