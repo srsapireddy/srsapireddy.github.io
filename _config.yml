@@ -108,8 +108,8 @@ analytics:
 # Site Author
 author:
   name             : "Srinivas Rahul Sapireddy"
-  avatar           : "/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Artificial Intelligence Portfolio"
+  avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Data Science Portfolio"
   location         : "Hyderabad, India"
   email            :
   github           : "srsapireddy"
