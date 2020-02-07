@@ -17,12 +17,12 @@ PUBLICATIONS
 <br>
 [J2] Srinivas Rahul Sapireddy, “CAM Cell Based Memory Architecture for Extreme Searching Operations”. International Journal of Advances in Electronics& Computer Science. vol. 3, issue 8, pp. 80-83, Aug 2016.
 <br>
-[J1] S. Srinivas Rahul, P. Naga Tejaswi, Y. Mohan Sandeep, K. Hari Krishna “Two StageOperational Amplifier with a Gain Boosted, Source Follower Buffer”.International Journal of Engineering Trends & Technology. vol. 34, no. 6, pp. 256-259, April 2016. CONFERENCES [C1] Srinivas Rahul Sapireddy “CAM Cell Based Memory Architecture for Extreme Searching Operations”. International Conference on Recent Innovationsin Electrical, Electronics, Computer, Information, Communication and Mechanical Engineering” (ICRIEECICME 2016)
+[J1] S. Srinivas Rahul, P. Naga Tejaswi, Y. Mohan Sandeep, K. Hari Krishna “Two Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer”. International Journal of Engineering Trends & Technology. vol. 34, no. 6, pp. 256-259, April 2016.
 <br>
 
 CONFERENCES
 <br>
-[C1] Srinivas Rahul Sapireddy “CAM Cell Based Memory Architecture for Extreme Searching Operations”. International Conference on Recent Innovationsin Electrical, Electronics, Computer, Information, Communication and Mechanical Engineering” (ICRIEECICME 2016)
+[C1] Srinivas Rahul Sapireddy “CAM Cell Based Memory Architecture for Extreme Searching Operations”. International Conference on Recent Innovations in Electrical, Electronics, Computer, Information, Communication and Mechanical Engineering” (ICRIEECICME 2016)
 <br>
 
 AWARDS
