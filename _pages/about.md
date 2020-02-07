@@ -4,6 +4,8 @@ permalink: /about/
 header:
     image: "/images/zakim.jpg"
 ---
+Hi. I'am Srinivas.
+
 PERSONAL DETAILS
 <br>
 
