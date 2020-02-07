@@ -5,7 +5,7 @@ header:
     image: "/images/zakim.jpg"
 ---
 PERSONAL DETAILS
-<br><br>
+<br>
 
 A few interesting things about me. I love to read science fiction. I am also an avid gamer. Lastly, I love learning. Every day I push myself to learn something new, whether that be about machine learning, software engineering, or miscellaneous facts about the universe.
 <br>
