@@ -11,3 +11,10 @@ A few interesting things about me. I love to read science fiction. I am also an 
 <br>
 
 I just finished my diploma program in Artificial Intelligence at National Institute of Electronics and Information Technology where I have learnt many concepts in machine learning, deep learning and reinforcement learning. I plan on searching for Data Science positions in Hyderabad, Mumbai, and Bangalore.
+
+<form action="https://formspree.io/sapireddyrahul@gmail.com"
+      method="POST">
+    <input type="text" placeholder="Name" name="name">
+    <input type="email" placeholder="Email" name="_replyto" required>
+    <input type="submit" value="Send">
+</form>
