@@ -3,7 +3,7 @@ title: "Machine Learning Project: Linear Regression"
 date: 2020-02-08
 tags: [Machine learning, data science, regression]
 header:
-    image: "/images/linear-regression/linear_regression.png"
+    image: "/images/linear_regression/linear_regression.png"
 excerpt: "Machine Learning, Regression, Data Science"
 ---
 
