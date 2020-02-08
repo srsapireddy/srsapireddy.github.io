@@ -3,7 +3,7 @@ title: "Machine Learning Project: Decision Tree Regression"
 date: 2020-02-08
 tags: [Machine learning, data science, Decision Tree]
 header:
-    image: "/images/decision_tree/dt1.png"
+    image: "/images/decision_tree/dt1.jpg"
 excerpt: "Machine Learning, Regression, Data Science"
 ---
 
