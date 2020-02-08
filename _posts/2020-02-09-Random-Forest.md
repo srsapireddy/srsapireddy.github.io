@@ -117,7 +117,7 @@ Also Decision trees are computationally expensive to train, carry a big risk of 
 
 To address these weaknesses, we turn to Random Forest :) which illustrates the power of combining many decision trees into one model.
 
-Feature and Advantages of Random Forest :
+## Feature and Advantages of Random Forest :
 * It is one of the most accurate learning algorithms available. For many data sets, it produces a highly accurate classifier.
 * It runs efficiently on large databases.
 * It can handle thousands of input variables without variable deletion.
@@ -125,6 +125,6 @@ Feature and Advantages of Random Forest :
 * It generates an internal unbiased estimate of the generalization error as the forest building progresses.
 * It has an effective method for estimating missing data and maintains accuracy when a large proportion of the data are missing.
 
-Disadvantages of Random Forest :
+## Disadvantages of Random Forest :
 * Random forests have been observed to overfit for some datasets with noisy classification/regression tasks.
 * For data including categorical variables with different number of levels, random forests are biased in favor of those attributes with more levels. Therefore, the variable importance scores from random forest are not reliable for this type of data.
