@@ -71,6 +71,8 @@ plt.ylabel('Salary')
 plt.show()
 ```
 
+Output:
+
 R code block:
 ```r
 # Simple Linear Regression
@@ -127,6 +129,17 @@ ggplot() +
 # Linear Regression Line whether we keep training_set or the test_set here
 
 ```
+
+Output:
+
+
+## Applications of Linear Regression
+* Sales Driver Analysis — Linear Regression can be used to predict the sale of products in the future based on past buying behaviour<br>
+* Predict Economic Growth — Economists use Linear Regression to predict the economic growth of a country or state<br>
+* Score Prediction — Sports analyst use linear regression to predict the number of runs or goals a player would score in the coming matches based on previous performances<br>
+* Salary Estimation — An organisation can use linear regression to figure out how much they would pay to a new joiner based on the years of experience<br>
+* House Price Prediction — Linear regression analysis can help a builder to predict how much houses it would sell in the coming months and at what price<br>
+* Oil Price Prediction — Petroleum prices can be predicted using Linear Regression<br>
 
 ## H2 Heading
 
