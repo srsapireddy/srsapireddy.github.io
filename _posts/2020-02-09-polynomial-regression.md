@@ -125,7 +125,7 @@ y_pred = predict(poly_reg, data.frame(Level = 6.5,
 ```
 
 Output:
-<img src="{{ site.url }}{{ site.baseurl }}/images/polynomial_regression/pr3.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/polynomial_regression/pr3.PNG" alt="linearly separable data">
 
 ## Advantages of using Polynomial Regression:
 * Broad range of function can be fit under it.
