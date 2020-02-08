@@ -7,7 +7,7 @@ header:
 excerpt: "Machine Learning, Regression, Data Science"
 ---
 
-# Multiple Linear Regression —
+# Multiple Linear Regression:
 Simple linear regression : a single independent variable is used to predict the value of a dependent variable.
 
 Equation : y=A+BX

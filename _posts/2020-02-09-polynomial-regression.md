@@ -7,7 +7,7 @@ header:
 excerpt: "Machine Learning, Regression, Data Science"
 ---
 
-# Polynomial Linear Regression —
+# Polynomial Linear Regression:
 Polynomial Regression is a form of linear regression in which the relationship between the independent variable x and dependent variable y is modeled as an nth degree polynomial. Polynomial regression fits a nonlinear relationship between the value of x and the corresponding conditional mean of y, denoted E(y |x).
 
 Link to my GitHub page [polynomial_regression](https://github.com/srsapireddy/Machine-Learning-Files-in-Python-and-R/tree/master/Regression/4.%20Polynomial%20Regression)
