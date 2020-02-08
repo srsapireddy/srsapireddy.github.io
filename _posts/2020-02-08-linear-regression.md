@@ -26,7 +26,7 @@ X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 1].values
 
 # Splitting the dataset into the Training set and Test set
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 1/3, random_state = 0)
 
 #*** Here Python will take care of Feature Scaling here The libraries are gonna take of that ***
@@ -72,6 +72,8 @@ plt.show()
 ```
 
 Output:
+<img src="{{ site.url }}{{ site.baseurl }}/images/linear_regression/lr1.jpg" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/linear_regression/lr2.jpg" alt="linearly separable data">
 
 R code block:
 ```r
@@ -131,7 +133,7 @@ ggplot() +
 ```
 
 Output:
-
+<img src="{{ site.url }}{{ site.baseurl }}/images/linear_regression/linsep.jpg" alt="linearly separable data">
 
 ## Applications of Linear Regression
 * Sales Driver Analysis — Linear Regression can be used to predict the sale of products in the future based on past buying behaviour<br>
@@ -140,30 +142,3 @@ Output:
 * Salary Estimation — An organisation can use linear regression to figure out how much they would pay to a new joiner based on the years of experience<br>
 * House Price Prediction — Linear regression analysis can help a builder to predict how much houses it would sell in the coming months and at what price<br>
 * Oil Price Prediction — Petroleum prices can be predicted using Linear Regression<br>
-
-## H2 Heading
-
-### H3 Heading
-
-Here's some basic text.
-
-And here's some *italics*
-
-Here's some **bold** text.
-
-What about a [link](https://github.com/dataoptimal?)
-
-Here's a bulleted list:
-* First item
-+ Second item
-- third item
-
-Here's a numbered list:
-1. First
-2. Second
-3. Third
-
-Here's some inline code `x+y`.
-
-Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg" alt="linearly separable data">
