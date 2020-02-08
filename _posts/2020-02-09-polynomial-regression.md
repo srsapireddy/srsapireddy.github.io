@@ -71,6 +71,10 @@ Output:
 <img src="{{ site.url }}{{ site.baseurl }}/images/polynomial_regression/pr1.png" alt="linearly separable data">
 <img src="{{ site.url }}{{ site.baseurl }}/images/polynomial_regression/pr2.png" alt="linearly separable data">
 
+Output:
+<img src="{{ site.url }}{{ site.baseurl }}/images/linear_regression/lr3.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/linear_regression/lr4.png" alt="linearly separable data">
+
 R code block:
 ```r
 # Importing the dataset
