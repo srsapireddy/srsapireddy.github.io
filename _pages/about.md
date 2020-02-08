@@ -18,5 +18,6 @@ Liked this website and want to here more?
 <form action="https://formspree.io/sapireddyrahul@gmail.com"
       method="POST">
     <input type="text" placeholder="Name" name="name">
+    <input type="text" placeholder="Question" name="Question">
     <input type="email" placeholder="Email" name="_replyto" required><input type="submit" value="Send">
 </form>
