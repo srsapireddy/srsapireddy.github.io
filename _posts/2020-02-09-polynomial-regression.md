@@ -67,6 +67,10 @@ plt.ylabel('Salaries')
 plt.show()
 ```
 
+Output:
+<img src="{{ site.url }}{{ site.baseurl }}/images/polynomial_regression/pr1.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/polynomial_regression/pr2.png" alt="linearly separable data">
+
 R code block:
 ```r
 # Importing the dataset
@@ -121,7 +125,7 @@ y_pred = predict(poly_reg, data.frame(Level = 6.5,
 ```
 
 Output:
-<img src="{{ site.url }}{{ site.baseurl }}/images/polynomial_regression/pr3.png" alt="Polynomially separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/polynomial_regression/pr3.png" alt="linearly separable data">
 
 ## Advantages of using Polynomial Regression:
 * Broad range of function can be fit under it.
