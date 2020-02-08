@@ -127,13 +127,13 @@ ggplot() +
   ggtitle('Years of Experience vs Salary (Training Set)') +
   xlab('Years of Experience') +
   ylab('Salary')
-# As our regressor is already trained on the Training Set there is no need to change the geom_line. We obtain the same Simple
-# Linear Regression Line whether we keep training_set or the test_set here
+# As our regressor is already trained on the Training Set there is no need to change the geom_line. We obtain the same Simple Linear Regression Line whether we keep training_set or the test_set here
 
 ```
 
 Output:
-<img src="{{ site.url }}{{ site.baseurl }}/images/linear_regression/linsep.jpg" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/linear_regression/lr3.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/linear_regression/lr4.png" alt="linearly separable data">
 
 ## Applications of Linear Regression
 * Sales Driver Analysis — Linear Regression can be used to predict the sale of products in the future based on past buying behaviour<br>
