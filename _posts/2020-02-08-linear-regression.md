@@ -72,7 +72,7 @@ plt.show()
 ```
 
 Output:
-<img src="{{ site.url }}{{ site.baseurl }}/images/linear_regression/lr1.png" alt="linearly separable data"><br>
+<img src="{{ site.url }}{{ site.baseurl }}/images/linear_regression/lr1.png" alt="linearly separable data">
 <img src="{{ site.url }}{{ site.baseurl }}/images/linear_regression/lr2.png" alt="linearly separable data">
 
 R code block:
