@@ -120,10 +120,10 @@ author:
       url: mailto:sapireddyrahul@gmail.com
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/srsapireddy/"
+      # url: "https://www.linkedin.com/in/srsapireddy/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/srsapireddy"
+      # url: "https://github.com/srsapireddy"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
