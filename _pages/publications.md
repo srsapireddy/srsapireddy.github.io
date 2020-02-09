@@ -13,5 +13,5 @@ Publications citing this paper<br>
 [ Citation 2 ](http://e-jurnal.pnl.ac.id/index.php/JSTR/article/view/1474/1217)
 
 
-Citation Count: 2
+Citation Count: 2<br>
 [ Google Scholar Page ](https://scholar.google.com/citations?user=08fgpdIAAAAJ&hl=en)
