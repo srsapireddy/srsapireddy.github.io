@@ -102,7 +102,7 @@ ggplot() + geom_point(aes(x = dataset$Level, y = dataset$Salary), colour = 'red'
 ```
 
 Output:
-<img src="{{ site.url }}{{ site.baseurl }}/images/decision_tree/dt3.JPG" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/decision_tree/dt3.jpg" alt="linearly separable data">
 
 ## Applications of Decision Tree Regression
 Decision trees have a natural “if … then … else …” construction that makes it fit easily into a programmatic structure. They also are well suited to categorization problems where attributes or features are systematically checked to determine a final category. For example, a decision tree could be used effectively to determine the species of an animal.
