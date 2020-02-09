@@ -3,9 +3,7 @@ title: "Publications"
 permalink: /publications/
 ---
 
-[J3] Bhavya Teja Gurijala, Srinivas Rahul Sapireddy, “Automation of Patient Medical Record Dispatch System Software Application”, International Journalof Advanced Research in Science, Engineering and Technology. vol. 5, issue 6, pp. 6074-6097, June 2018.
-
-[Bhavya Teja Gurijala, Srinivas Rahul Sapireddy, “Automation of Patient Medical Record Dispatch System Software Application”, International Journalof Advanced Research in Science, Engineering and Technology. vol. 5, issue 6, pp. 6074-6097, June 2018](http://www.ijarset.com/upload/2018/june/11-IJARSET-_rahul-modified.pdf)
+[ Bhavya Teja Gurijala, Srinivas Rahul Sapireddy, “Automation of Patient Medical Record Dispatch System Software Application”, International Journal of Advanced Research in Science, Engineering and Technology. vol. 5, issue 6, pp. 6074-6097, June 2018](http://www.ijarset.com/upload/2018/june/11-IJARSET-_rahul-modified.pdf)
 
 [J2] Srinivas Rahul Sapireddy, “CAM Cell Based Memory Architecture for Extreme Searching Operations”. International Journal of Advances in Electronics& Computer Science. vol. 3, issue 8, pp. 80-83, Aug 2016.
 
