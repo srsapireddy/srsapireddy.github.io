@@ -9,6 +9,9 @@ permalink: /publications/
 
 [ S. Srinivas Rahul, P. Naga Tejaswi, Y. Mohan Sandeep, K. Hari Krishna “Two Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer”. International Journal of Engineering Trends & Technology. vol. 34, no. 6, pp. 256-259, April 2016 ](https://pdfs.semanticscholar.org/6e0b/b2acc41e163e3f85790571e20367a450b5cb.pdf)<br>
 Publications citing this paper<br>
-[ Citation - Semantic scholar ](https://www.semanticscholar.org/paper/Two-Stage-Operational-Amplifier-with-a-Gain-Source-Rahul-Tejaswi/6e0bb2acc41e163e3f85790571e20367a450b5cb#citing-papers)
+[ Citation 1 - Semantic scholar ](https://www.semanticscholar.org/paper/Two-Stage-Operational-Amplifier-with-a-Gain-Source-Rahul-Tejaswi/6e0bb2acc41e163e3f85790571e20367a450b5cb#citing-papers)
+[ Citation 2 ](http://e-jurnal.pnl.ac.id/index.php/JSTR/article/view/1474/1217)
 
-Citation Count: 1
+
+Citation Count: 2
+[ Google Scholar Page ](https://scholar.google.com/citations?user=08fgpdIAAAAJ&hl=en)
