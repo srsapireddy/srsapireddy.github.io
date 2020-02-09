@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "PDF Résumé"
+    url: "/cv/Resume.pdf"
   - title: "About"
     url: /about/
   - title: "Projects"
