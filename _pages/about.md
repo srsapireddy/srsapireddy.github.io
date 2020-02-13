@@ -21,3 +21,5 @@ Liked this website and want to here more?
     <input type="text" placeholder="Question" name="Question">
     <input type="email" placeholder="Email" name="_replyto" required><input type="submit" value="Send">
 </form>
+
+<a href="https://www.testdome.com/cert/cf44c90a71584acea3434a0a53663e5c" class="testdome-certificate-stamp gold"><span class="testdome-certificate-name">Sapireddy Sriniva...</span><span class="testdome-certificate-test-name">Python </span><span class="testdome-certificate-card-logo">TestDome<br />Certificate</span></a><script>var stylesheet = "https://www.testdome.com/content/source/stylesheets/embed.css", link = document.createElement("link"); link.href = stylesheet, link.type = "text/css", link.rel = "stylesheet", link.media = "screen,print", document.getElementsByTagName("head")[0].appendChild(link);</script>
