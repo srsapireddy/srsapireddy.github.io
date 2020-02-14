@@ -14,6 +14,8 @@ A few interesting things about me. I love to read science fiction. I am also an 
 
 I just finished my diploma program in Artificial Intelligence at National Institute of Electronics and Information Technology where I have learnt many concepts in machine learning, deep learning and reinforcement learning. I plan on searching for Data Science positions in Hyderabad, Mumbai, and Bangalore.
 
+To my blog: [ Medium ](https://medium.com/@sapireddyrahul)
+
 Liked this website and want to here more?
 <form action="https://formspree.io/sapireddyrahul@gmail.com"
       method="POST">
