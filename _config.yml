@@ -125,7 +125,7 @@ author:
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/srsapireddy"
     - label: "Medium"
-      icon: "fas fa-fw fa-Medium"
+      icon: "fas fa-fw fa-medium"
       # url: "https://medium.com/@sapireddyrahul"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
