@@ -20,7 +20,7 @@ title                    : "Srinivas Rahul Sapireddy's Homepage"
 title_separator          : "-"
 subtitle                 : "Data Science Portfolio" # site tagline that appears below site title in masthead
 name                     : "Srinivas Rahul Sapireddy"
-description              : "Data Science Portfolio"
+description              : # "Data Science Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -120,7 +120,7 @@ author:
       url: mailto:sapireddyrahul@gmail.com
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      # url: "https://www.linkedin.com/in/srsapireddy/"
+      # url: "https://www.linkedin.com/in/srsapireddy2020/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/srsapireddy"
@@ -145,7 +145,7 @@ footer:
       url: mailto:sapireddyrahul@gmail.com
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/srsapireddy/"
+      url: "https://www.linkedin.com/in/srsapireddy2020/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/srsapireddy"
