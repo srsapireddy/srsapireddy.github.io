@@ -2,9 +2,6 @@
 title: "Machine Learning Project: Perceptron"
 date: 2020-02-07
 tags: [Machine learning, data science, neural network]
-header:
-    image: "/images/perceptron/percept.jpg"
-excerpt: "Machine Learning, Perceptron, Data Science"
 ---
 
 # H1 Heading
