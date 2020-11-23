@@ -2,6 +2,7 @@
 title: "Machine Learning Project: Perceptron"
 date: 2020-02-07
 tags: [Machine learning, data science, neural network]
+excerpt: "Perceptron"
 ---
 
 # H1 Heading
