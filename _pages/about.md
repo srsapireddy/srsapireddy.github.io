@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-    image: "/images/springfield.jpg"
+    image: "/images/springfield_50.jpg"
 ---
 Hi. I'am Srinivas.
 
