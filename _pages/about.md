@@ -14,6 +14,7 @@ A few interesting things about me. I love to read science fiction. I am also an 
 
 I am a thinker kind of person. I spend most of my time reading and watching documentaries. I think the most important in life is technology of any kind and how to use this technology efficiently to make people's lives simpler. My passion is to see things for what they could be. When I face hard decisions, I think of every possible good and bad consequences and compare results.
 <br>
+
 When I’m not on the job, I love motorbike riding, working my way through every recipe in the cookbook, and indulging my love for seeing new places. Interests: LinkedIn Networking, Social Networking, Web Design, Hiking, I love to cook! Ok, that's a little bit of stretch, maybe we should just say I love to reheat with occasional boiling. I am a voracious reader of books on programming, body language, Statistical thinking. And I love spending time with my family!
 <br>
 
