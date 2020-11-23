@@ -1,9 +1,8 @@
 ---
 title: "About"
 permalink: /about/
-header:
-    image: "/images/"
 ---
+
 Hi. I'am Srinivas.
 
 PERSONAL DETAILS
