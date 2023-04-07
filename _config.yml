@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Srinivas's Homepage"
+title                    : "Homepage"
 title_separator          : "-"
 subtitle                 : # "Data Science Portfolio" # site tagline that appears below site title in masthead
-name                     : "Srinivas Rahul Sapireddy"
-description              : # "Data Science Portfolio"
+name                     : "Srinivas Rahul"
+description              : "Personal Website"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -110,7 +110,7 @@ author:
   name             : # "Srinivas Rahul Sapireddy"
   avatar           : # "/images/image.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : # "Data Science Portfolio"
-  location         : "Hyderabad, Telangana, India"
+  location         : "United States"
   email            :
   github           : "srsapireddy"
   linkedin         : "srsapireddy2020"
