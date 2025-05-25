@@ -121,6 +121,30 @@ Below are my academic degrees and diploma certificates.
   </div>
 </div>
 
+---
+
+## 🏅 Honors & Recognition
+
+Special awards, honors, and memberships that highlight my academic and professional journey.
+
+<div class="cert-grid" id="honorGrid">
+  <div class="cert-card">
+    <img src="/images/guinness_world_record.png" alt="Guinness World Record">
+    <div class="cert-title">Guinness World Record – Participation Certificate</div>
+  </div>
+
+  <div class="cert-card">
+    <img src="/images/ieee_hkn_certificate.jpeg" alt="IEEE-HKN Membership">
+    <div class="cert-title">IEEE Eta Kappa Nu (HKN) – Honor Society Member</div>
+  </div>
+
+  <div class="cert-card">
+    <img src="/images/mspe_membership.png" alt="MSPE Membership">
+    <div class="cert-title">Member – Missouri Society of Professional Engineers (Western Chapter)</div>
+  </div>
+</div>
+
+
 <!-- Lightbox -->
 <div class="lightbox" id="lightbox">
   <img id="lightbox-img" src="" alt="">
