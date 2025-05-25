@@ -7,7 +7,7 @@ permalink: /publications/
   <h2>Publications</h2>
   <ul>
     <li>
-      <strong>Naznin Akther, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “RF Modulation Classification Using CAF-Based Bin Selection and Multi-Model Evaluation of Hybrid Time-Frequency Features”, <em>IEEE MILCOM 2025 Conference</em>, October 28–30, 2025, Los Angeles, CA, USA. (to be submitted)
+      <strong>Naznin Akther,<strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “RF Modulation Classification Using CAF-Based Bin Selection and Multi-Model Evaluation of Hybrid Time-Frequency Features”, <em>IEEE MILCOM 2025 Conference</em>, October 28–30, 2025, Los Angeles, CA, USA. (to be submitted)
     </li>
     <li>
       Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “Reclaiming Security in Internet-of-Thing Networks: The Power of Early Detection Against Adversarial Examples”, <em>ACM Transactions on Cyber Physical Systems</em>, 2025. (under review)
