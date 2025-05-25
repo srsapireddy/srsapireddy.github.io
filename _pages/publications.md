@@ -7,22 +7,19 @@ permalink: /publications/
   <h2>Publications</h2>
   <ul>
     <li>
-      Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “Reclaiming Security in Internet-of-Thing Networks: The Power of Early Detection Against Adversarial Examples”, <em>ACM Transactions on Cyber Physical Systems</em>, 2025. (under review)
-    </li>
-    <li>
-      Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “An Opensource Framework for Offloading Big Data and AI Tasks (OFFLOAD) to Heterogeneous Compute Units”, <em>GLSVLSI</em>, New Orleans, LA, 2025. (under review)
-    </li>
-    <li>
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”, <em>ACM SIGDA, GLSVLSI</em>, New Orleans, LA, 2025. (accepted)
     </li>
     <li>
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “Re-Visiting R: Statistical Envelope Analysis for Lightweight Modulation Classification”, <em>International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025. (accepted)
     </li>
     <li>
-      <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman, “Simplifying Activations with Linear Approximations in Neural Networks”, <em>Memories - Materials, Devices, Circuits and Systems</em>, 2024. (under review)
+      Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “Reclaiming Security in Internet-of-Thing Networks: The Power of Early Detection Against Adversarial Examples”, <em>ACM Transactions on Cyber Physical Systems</em>, 2025. (under review)
     </li>
     <li>
-      <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “A Survey on Activation Function Designing Techniques for Efficient Neural Network Deployment on Edge Devices”, <em>Edge Computing</em>, vol. 3, article 100071, 2023. <a href="https://www.sciencedirect.com/science/article/pii/S2773064623000713" target="_blank">[ScienceDirect]</a>
+      Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “An Opensource Framework for Offloading Big Data and AI Tasks (OFFLOAD) to Heterogeneous Compute Units”, <em>GLSVLSI</em>, New Orleans, LA, 2025. (under review)
+    </li>
+    <li>
+      <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman, “Simplifying Activations with Linear Approximations in Neural Networks”, <em>Memories - Materials, Devices, Circuits and Systems</em>, 2024. (under review)
     </li>
     <li>
       Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., & Rahman, M., “A review of crosstalk polymorphic circuits and their scalability”, <em>Memories - Materials, Devices, Circuits and Systems</em>, vol. 7, 100094, 2023. <a href="https://doi.org/10.1016/j.memori.2023.100094" target="_blank">[DOI]</a>
