@@ -62,7 +62,8 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
 }
 </style>
 
-<div class="cert-grid" id="certGrid">
+<!-- Certifications -->
+<div class="cert-grid lightbox-gallery">
   <div class="cert-card">
     <img src="/images/statistical_learning.png" alt="Statistical Learning">
     <div class="cert-title">Statistical Learning – Stanford University</div>
@@ -95,14 +96,13 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <img src="/images/intel_cloud.png" alt="Intel Cloud">
     <div class="cert-title">Intel Solution Pro Cloud Business Professional</div>
   </div>
-  <!-- Add more certification cards as needed -->
 </div>
+
+---
 
 ## 🎓 Degrees & Diplomas
 
-Below are my academic degrees and diploma certificates.
-
-<div class="cert-grid" id="degreeGrid">
+<div class="cert-grid lightbox-gallery">
   <div class="cert-card">
     <img src="/images/ms_cs_uis.png" alt="MS CS Degree">
     <div class="cert-title">M.S. in Computer Science – University of Illinois, Springfield</div>
@@ -125,19 +125,15 @@ Below are my academic degrees and diploma certificates.
 
 ## 🏅 Honors & Recognition
 
-Special awards, honors, and memberships that highlight my academic and professional journey.
-
-<div class="cert-grid" id="honorGrid">
+<div class="cert-grid lightbox-gallery">
   <div class="cert-card">
     <img src="/images/guinness_world_record.png" alt="Guinness World Record">
     <div class="cert-title">Guinness World Record – Participation Certificate</div>
   </div>
-
   <div class="cert-card">
     <img src="/images/ieee_hkn_certificate.jpg" alt="IEEE-HKN Membership">
     <div class="cert-title">IEEE Eta Kappa Nu (HKN) – Honor Society Member</div>
   </div>
-
   <div class="cert-card">
     <img src="/images/mspe_membership.png" alt="MSPE Membership">
     <div class="cert-title">Member – Missouri Society of Professional Engineers (Western Chapter)</div>
@@ -148,9 +144,7 @@ Special awards, honors, and memberships that highlight my academic and professio
 
 ## 🏆 Hackathon Awards
 
-Achievements from Hack-A-Roo competitions held by the University of Missouri – Kansas City.
-
-<div class="cert-grid" id="hackathonGrid">
+<div class="cert-grid lightbox-gallery">
   <div class="cert-card">
     <img src="/images/hackaroo_2022.png" alt="Hack-A-Roo 2022">
     <div class="cert-title">2nd Place – Hack-A-Roo Fall 2022 (Entrepreneur Track)</div>
@@ -161,7 +155,6 @@ Achievements from Hack-A-Roo competitions held by the University of Missouri –
   </div>
 </div>
 
-
 <!-- Lightbox -->
 <div class="lightbox" id="lightbox">
   <img id="lightbox-img" src="" alt="">
@@ -169,7 +162,7 @@ Achievements from Hack-A-Roo competitions held by the University of Missouri –
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const images = document.querySelectorAll("#certGrid img");
+  const images = document.querySelectorAll(".lightbox-gallery img");
   const lightbox = document.getElementById("lightbox");
   const lightboxImg = document.getElementById("lightbox-img");
 
