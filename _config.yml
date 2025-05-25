@@ -107,9 +107,9 @@ analytics:
 
 # Site Author
 author:
-  name             : # "Srinivas Rahul Sapireddy"
-  avatar           : # "/images/image.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : # "Data Science Portfolio"
+  name             : "Srinivas Rahul Sapireddy"
+  avatar           : "/images/image.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Data Science Portfolio"
   location         : "United States"
   email            :
   github           : "srsapireddy"
@@ -120,16 +120,16 @@ author:
       url: mailto:sapireddyrahul@gmail.com
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      # url: "https://www.linkedin.com/in/srsapireddy2020/"
+      url: "https://www.linkedin.com/in/srsapireddy2020/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/srsapireddy"
+      url: "https://github.com/srsapireddy"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
