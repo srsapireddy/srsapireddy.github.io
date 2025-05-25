@@ -144,6 +144,23 @@ Special awards, honors, and memberships that highlight my academic and professio
   </div>
 </div>
 
+---
+
+## 🏆 Hackathon Awards
+
+Achievements from Hack-A-Roo competitions held by the University of Missouri – Kansas City.
+
+<div class="cert-grid" id="hackathonGrid">
+  <div class="cert-card">
+    <img src="/images/hackaroo_2022.png" alt="Hack-A-Roo 2022">
+    <div class="cert-title">2nd Place – Hack-A-Roo Fall 2022 (Entrepreneur Track)</div>
+  </div>
+  <div class="cert-card">
+    <img src="/images/hackaroo_2021.png" alt="Hack-A-Roo 2021">
+    <div class="cert-title">3rd Place – Hack-A-Roo Fall 2021 (CS/IT Track)</div>
+  </div>
+</div>
+
 
 <!-- Lightbox -->
 <div class="lightbox" id="lightbox">
