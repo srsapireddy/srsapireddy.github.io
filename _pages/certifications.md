@@ -80,11 +80,11 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <div class="cert-title">Mathematics for ML – Imperial College London</div>
   </div>
   <div class="cert-card">
-    <img src="images/device_packaging.png" alt="Device Packaging">
+    <img src="/images/device_packaging.png" alt="Device Packaging">
     <div class="cert-title">Introduction to Device and System Packaging</div>
   </div>
   <div class="cert-card">
-    <img src="images/semiconductor_basics.png" alt="Semiconductor Basics">
+    <img src="/images/semiconductor_basics.png" alt="Semiconductor Basics">
     <div class="cert-title">Basics of Semiconductor Device Technology</div>
   </div>
   <div class="cert-card">
