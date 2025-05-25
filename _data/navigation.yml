@@ -2,16 +2,16 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Blog"
-    url: /blog/
   - title: "Resume"
     url: /resume/
   - title: "Publications"
     url: /publications/
-  - title: "Gallery"
-    url: /gallery/
   - title: "Certifications"
     url: /certifications/
+  - title: "Blog"
+    url: /blog/
+  - title: "Gallery"
+    url: /gallery/
   - title: "Search"
     url: /search/
   # - title: "About"
