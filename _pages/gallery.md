@@ -59,4 +59,5 @@ document.addEventListener("DOMContentLoaded", function () {
   <img src="/images/grad2.jpg" alt="Graduation Ceremony">
   <img src="/images/grad3.jpg" alt="Graduation Ceremony">
   <img src="/images/grad4.jpg" alt="Graduation Ceremony">
+  <img src="/images/grad5.jpg" alt="Graduation Ceremony">
 </div>
