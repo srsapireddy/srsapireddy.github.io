@@ -1,32 +1,68 @@
 ---
 title: "About"
+layout: single
 permalink: /about/
+author_profile: true
 ---
 
-Hi. I'am Srinivas.
+👋 I'm **Srinivas Rahul Sapireddy**, a Ph.D. candidate in Electrical and Computer Engineering at the **University of Missouri – Kansas City (UMKC)**, where I specialize in low-power hardware-aware AI and VLSI design.
 
-PERSONAL DETAILS
-<br>
+I am currently teaching **Logic Design** and **Engineering Computation**, and have previously instructed **ASIC Physical Design**, **Analog IC Design**, and more. I bring both depth and clarity to technical teaching, backed by practical industry exposure and academic research.
 
-A few interesting things about me. I love to read science fiction. I am also an avid gamer. Lastly, I love learning. Every day I push myself to learn something new, whether that be about machine learning, software engineering, or miscellaneous facts about the universe.
-<br>
+---
 
-I am a thinker kind of person. I spend most of my time reading and watching documentaries. I think the most important in life is technology of any kind and how to use this technology efficiently to make people's lives simpler. My passion is to see things for what they could be. When I face hard decisions, I think of every possible good and bad consequences and compare results.
-<br>
+### 🧠 Research & Interests
 
-When I’m not on the job, I love motorbike riding, working my way through every recipe in the cookbook, and indulging my love for seeing new places. Interests: LinkedIn Networking, Social Networking, Web Design, Hiking, I love to cook! Ok, that's a little bit of stretch, maybe we should just say I love to reheat with occasional boiling. I am a voracious reader of books on programming, body language, Statistical thinking. And I love spending time with my family!
-<br>
+My research lies at the intersection of **hardware design**, **signal processing**, and **artificial intelligence**. I focus on:
 
+- Efficient activation functions for deep learning on edge devices  
+- RF modulation classification using hybrid time-frequency features  
+- System-on-Chip (SoC) design and embedded AI acceleration  
+- Piecewise linear approximations in neural network deployment  
 
+I’ve worked as a Research Assistant at the **Missouri Institute of Defense and Energy**, and held an AI internship at **SmartBridge Pvt. Ltd.**
 
-To my blog: [ Medium ](https://medium.com/@sapireddyrahul)
+---
 
-Liked my profile and want to here more?
-<form action="https://formspree.io/sapireddyrahul@gmail.com"
-      method="POST">
-    <input type="text" placeholder="Name" name="name">
-    <input type="text" placeholder="Question" name="Question">
-    <input type="email" placeholder="Your Email" name="_replyto" required><input type="submit" value="Send">
-</form>
+### 📚 Publications
 
+I’ve authored and co-authored several papers including:
 
+- ✅ **GLSVLSI 2025**: *Custom Activation Functions for LSTMs*  
+- ✅ **RFCoN 2025**: *Statistical Envelope Analysis for RF Modulation*  
+- 🕵️ *Under review at ACM Transactions on Cyber Physical Systems*  
+- 📖 Published in *Memories - Materials, Devices, Circuits and Systems*
+
+> 👉 [Full list of publications](/publications/)
+
+---
+
+### 🏆 Awards & Recognitions
+
+- 🥈 2nd Place – UMKC Hackathon (Fall 2022)  
+- 🥉 3rd Place – UMKC Hackathon (Fall 2021)  
+- 🎓 Dean’s International Scholar Award (UMKC)  
+- 🇺🇸 CS Balaji Memorial Travel Grant, 2025  
+- 🏅 Member – Eta Kappa Nu Honors Society
+
+---
+
+### 🔗 Certifications
+
+- Certified in Product Management – CII  
+- AI & MLOps – Duke University, CDAC  
+- Statistical Learning – Stanford University  
+- Mathematics for ML – Imperial College London
+
+---
+
+### 📬 Let’s Connect
+
+- GitHub: [@srsapireddy](https://github.com/srsapireddy)  
+- Google Scholar: [View Profile](https://scholar.google.com/citations?user=08fgpdIAAAAJ&hl=en)  
+- ORCID: [0000-0002-9898-6810](https://orcid.org/0000-0002-9898-6810)  
+- OpenReview: [Profile](https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1)
+
+---
+
+I’m always open to collaborative opportunities in hardware-aware ML, RF signal processing, and edge-AI deployment. Feel free to reach out!
