@@ -3,44 +3,108 @@ layout: default
 title: "Home"
 ---
 
-<div class="page">
-  <header class="page__header">
-    <h1>Welcome to My Homepage</h1>
-    <p><strong>Srinivas Rahul Sapireddy</strong> — Ph.D. Candidate, Electrical & Computer Engineering, UMKC</p>
-  </header>
+<style>
+  .custom-home {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 3px solid #ddd;
+    border-radius: 16px;
+    background-color: #fafafa;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  }
 
-  <section class="page__content">
-    <p>I specialize in:</p>
+  .custom-home h1 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .custom-section {
+    border: 2px dashed #aaa;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+  }
+
+  .custom-section h2 {
+    color: #1a73e8;
+    margin-top: 0;
+  }
+
+  .custom-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .feature-box {
+    border: 1.5px solid #1a73e8;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #ffffff;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
+
+  .feature-box:hover {
+    background-color: #f0f8ff;
+    transform: translateY(-4px);
+  }
+
+  .feature-box h3 {
+    margin-bottom: 0.5rem;
+  }
+</style>
+
+<div class="custom-home">
+
+  <h1>Welcome to My Personal Site</h1>
+  <p><strong>Srinivas Rahul Sapireddy</strong><br>
+    Ph.D. Candidate, Electrical & Computer Engineering – UMKC<br>
+    Exploring hardware-aware AI, RF signal processing, and custom activation functions.
+  </p>
+
+  <div class="custom-section">
+    <h2>🔬 Research Interests</h2>
     <ul>
-      <li>🔬 RF Signal Processing</li>
-      <li>⚙️ VLSI Design & Timing Analysis</li>
-      <li>🤖 Hardware-Aware Deep Learning</li>
-      <li>📚 Teaching Logic Design and ASIC Flow</li>
+      <li>Custom Activation Functions for Deep Learning</li>
+      <li>VLSI Physical Design & RTL Synthesis</li>
+      <li>RF Modulation Classification using Time-Frequency Features</li>
+      <li>Hardware-Aware AI for Edge Deployment</li>
     </ul>
+  </div>
 
-    <p>Here are key areas of my work:</p>
-
-    <div class="feature__wrapper">
-      <div class="feature__item">
+  <div class="custom-section">
+    <h2>📂 Explore My Work</h2>
+    <div class="custom-feature-grid">
+      <div class="feature-box">
         <h3><a href="/resume/">📄 Resume</a></h3>
-        <p>My academic background, teaching, and professional experience in structured form.</p>
+        <p>Education, teaching, industry & academic experience</p>
       </div>
 
-      <div class="feature__item">
+      <div class="feature-box">
         <h3><a href="/publications/">📝 Publications</a></h3>
-        <p>Recent conference papers and journal articles in RF, AI, and hardware-efficient models.</p>
+        <p>Peer-reviewed papers and accepted conference contributions</p>
       </div>
 
-      <div class="feature__item">
+      <div class="feature-box">
         <h3><a href="/blog/">✍️ Blog</a></h3>
-        <p>My Medium blog covering AI deployment, VLSI, and research tutorials.</p>
+        <p>Medium articles on AI, hardware, VLSI & tutorials</p>
       </div>
     </div>
+  </div>
 
-    <p>🔗 Connect with me on 
-      <a href="https://github.com/srsapireddy" target="_blank">GitHub</a>, 
-      <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank">Google Scholar</a>, or 
-      <a href="https://medium.com/@srsapireddy" target="_blank">Medium</a>.
+  <div class="custom-section">
+    <h2>📬 Connect with Me</h2>
+    <p>
+      🔗 <a href="https://github.com/srsapireddy" target="_blank">GitHub</a> | 
+      🎓 <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank">Google Scholar</a> | 
+      ✍️ <a href="https://medium.com/@srsapireddy" target="_blank">Medium</a> | 
+      💼 <a href="https://www.linkedin.com/in/srsapireddy2020/" target="_blank">LinkedIn</a>
     </p>
-  </section>
+  </div>
+
 </div>
