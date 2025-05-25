@@ -26,38 +26,104 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
   transform: scale(1.03);
   border-color: #1a73e8;
 }
+
+.lightbox {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  display: none;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 12px;
+}
+
+.lightbox .arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 2rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 6px;
+  transform: translateY(-50%);
+}
+
+.lightbox .arrow:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.lightbox .prev {
+  left: 2%;
+}
+
+.lightbox .next {
+  right: 2%;
+}
 </style>
 
-<!-- Lightbox Fullscreen Script -->
+<div class="gallery-grid" id="gallery">
+  <img src="/images/grad1.jpg" alt="Graduation 1">
+  <img src="/images/grad2.jpg" alt="Graduation 2">
+  <img src="/images/grad3.jpg" alt="Graduation 3">
+  <img src="/images/grad4.jpg" alt="Graduation 4">
+  <img src="/images/grad5.jpg" alt="Graduation 5">
+</div>
+
+<div class="lightbox" id="lightbox">
+  <span class="arrow prev" onclick="prevImage()">‹</span>
+  <img id="lightbox-img" src="" alt="">
+  <span class="arrow next" onclick="nextImage()">›</span>
+</div>
+
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const imgs = document.querySelectorAll(".gallery-grid img");
-  imgs.forEach(img => {
-    img.addEventListener("click", () => {
-      const src = img.getAttribute("src");
-      const overlay = document.createElement("div");
-      overlay.style.position = "fixed";
-      overlay.style.top = 0;
-      overlay.style.left = 0;
-      overlay.style.width = "100vw";
-      overlay.style.height = "100vh";
-      overlay.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
-      overlay.style.display = "flex";
-      overlay.style.alignItems = "center";
-      overlay.style.justifyContent = "center";
-      overlay.style.zIndex = 1000;
-      overlay.innerHTML = `<img src="${src}" style="max-width: 90vw; max-height: 90vh; border-radius: 12px;">`;
-      overlay.addEventListener("click", () => overlay.remove());
-      document.body.appendChild(overlay);
+  const images = Array.from(document.querySelectorAll('#gallery img'));
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  let current = 0;
+
+  images.forEach((img, i) => {
+    img.addEventListener('click', () => {
+      current = i;
+      showImage();
     });
   });
-});
-</script>
 
-<div class="gallery-grid">
-  <img src="/images/grad1.jpg" alt="Graduation Ceremony">
-  <img src="/images/grad2.jpg" alt="Graduation Ceremony">
-  <img src="/images/grad3.jpg" alt="Graduation Ceremony">
-  <img src="/images/grad4.jpg" alt="Graduation Ceremony">
-  <img src="/images/grad5.jpg" alt="Graduation Ceremony">
-</div>
+  function showImage() {
+    lightboxImg.src = images[current].src;
+    lightbox.style.display = 'flex';
+  }
+
+  function prevImage() {
+    current = (current - 1 + images.length) % images.length;
+    showImage();
+  }
+
+  function nextImage() {
+    current = (current + 1) % images.length;
+    showImage();
+  }
+
+  lightbox.addEventListener('click', e => {
+    if (e.target === lightbox || e.target === lightboxImg) {
+      lightbox.style.display = 'none';
+    }
+  });
+
+  document.addEventListener('keydown', e => {
+    if (lightbox.style.display === 'flex') {
+      if (e.key === 'ArrowRight') nextImage();
+      if (e.key === 'ArrowLeft') prevImage();
+      if (e.key === 'Escape') lightbox.style.display = 'none';
+    }
+  });
+</script>
