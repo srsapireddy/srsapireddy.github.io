@@ -55,9 +55,8 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 <div class="gallery-grid">
-  <img src="/assets/images/gallery/grad1.jpg" alt="Graduation Ceremony">
-  <img src="/assets/images/gallery/grad2.jpg" alt="Graduation Ceremony">
-  <img src="/assets/images/gallery/grad3.jpg" alt="Graduation Ceremony">
-  <img src="/assets/images/gallery/grad4.jpg" alt="Graduation Ceremony">
-  <img src="/assets/images/gallery/grad5.jpg" alt="Graduation Ceremony">
+  <img src="/images/grad1.jpg" alt="Graduation Ceremony">
+  <img src="/images/grad2.jpg" alt="Graduation Ceremony">
+  <img src="/images/grad3.jpg" alt="Graduation Ceremony">
+  <img src="/images/grad4.jpg" alt="Graduation Ceremony">
 </div>
