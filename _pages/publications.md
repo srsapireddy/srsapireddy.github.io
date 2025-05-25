@@ -7,16 +7,19 @@ permalink: /publications/
   <h2>Publications</h2>
   <ul>
     <li>
-      <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”, <em>ACM SIGDA, GLSVLSI</em>, New Orleans, LA, 2025. (accepted)
-    </li>
-    <li>
-      <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “Re-Visiting R: Statistical Envelope Analysis for Lightweight Modulation Classification”, <em>International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025. (accepted)
+      <strong>Naznin Akther, </strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “RF Modulation Classification Using CAF-Based Bin Selection and Multi-Model Evaluation of Hybrid Time-Frequency Features”, <em>IEEE MILCOM 2025 Conference</em>, October 28–30, 2025, Los Angeles, CA, USA. (to be submitted)
     </li>
     <li>
       Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “Reclaiming Security in Internet-of-Thing Networks: The Power of Early Detection Against Adversarial Examples”, <em>ACM Transactions on Cyber Physical Systems</em>, 2025. (under review)
     </li>
     <li>
       Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “An Opensource Framework for Offloading Big Data and AI Tasks (OFFLOAD) to Heterogeneous Compute Units”, <em>GLSVLSI</em>, New Orleans, LA, 2025. (under review)
+    </li>
+    <li>
+      <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”, <em>ACM SIGDA, GLSVLSI</em>, New Orleans, LA, 2025. (accepted)
+    </li>
+    <li>
+      <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman, “Re-Visiting R: Statistical Envelope Analysis for Lightweight Modulation Classification”, <em>International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025. (accepted)
     </li>
     <li>
       <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman, “Simplifying Activations with Linear Approximations in Neural Networks”, <em>Memories - Materials, Devices, Circuits and Systems</em>, 2024. (under review)
@@ -37,6 +40,7 @@ permalink: /publications/
 </section>
 
 <p>
+  Citation Count: 4<br>
   <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ&hl=en" target="_blank">Google Scholar Page</a><br>
   ORCID ID: <a href="https://orcid.org/0000-0002-9898-6810" target="_blank">https://orcid.org/0000-0002-9898-6810</a>
 </p>
