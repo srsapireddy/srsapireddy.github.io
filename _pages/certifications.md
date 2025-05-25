@@ -68,7 +68,7 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <div class="cert-title">Statistical Learning – Stanford University</div>
   </div>
   <div class="cert-card">
-    <img src="/images/mlops_specialization.jpg" alt="MLOps Specialization">
+    <img src="/images/mlops_specialization.jpeg" alt="MLOps Specialization">
     <div class="cert-title">MLOps Specialization</div>
   </div>
   <div class="cert-card">
@@ -88,11 +88,11 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <div class="cert-title">Basics of Semiconductor Device Technology</div>
   </div>
   <div class="cert-card">
-    <img src="/images/network_security.jpg" alt="Network Security">
+    <img src="/images/network_security.jpeg" alt="Network Security">
     <div class="cert-title">Network Security Associate</div>
   </div>
   <div class="cert-card">
-    <img src="/images/intel_cloud.jpg" alt="Intel Cloud">
+    <img src="/images/intel_cloud.png" alt="Intel Cloud">
     <div class="cert-title">Intel Solution Pro Cloud Business Professional</div>
   </div>
   <!-- Add more certification cards as needed -->
