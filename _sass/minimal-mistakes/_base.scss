@@ -11,15 +11,16 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: $text-color;
+  background-color: #ffffff; // White background
+  color: #000000; // Black text
   font-family: $global-font-family;
   line-height: 1.5;
 
   &.overflow--hidden {
-    /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
 }
+
 
 h1,
 h2,
