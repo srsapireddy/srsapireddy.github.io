@@ -134,7 +134,7 @@ Special awards, honors, and memberships that highlight my academic and professio
   </div>
 
   <div class="cert-card">
-    <img src="/images/ieee_hkn_certificate.jpeg" alt="IEEE-HKN Membership">
+    <img src="/images/ieee_hkn_certificate.jpg" alt="IEEE-HKN Membership">
     <div class="cert-title">IEEE Eta Kappa Nu (HKN) – Honor Society Member</div>
   </div>
 
