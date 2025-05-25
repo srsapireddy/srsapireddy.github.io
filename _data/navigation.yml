@@ -10,6 +10,8 @@ main:
     url: /publications/
   - title: "Gallery"
     url: /gallery/
+  - title: "Certifications"
+    url: /certifications/
   - title: "Search"
     url: /search/
   # - title: "About"
