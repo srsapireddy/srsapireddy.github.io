@@ -4,8 +4,8 @@ main:
     url: /about/
   - title: "Blog"
     url: /blog/
-  - title: "PDF Résumé"
-    url: "/cv/Resume.pdf"
+  - title: "Resume"
+    url: /resume/
   - title: "Publications"
     url: /publications/
   - title: "Search"
