@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Srinivas Rahul Sapireddy"
   avatar           : "/images/image.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Portfolio"
+  bio              : "Ph.D. Student | ECE | UMKC"
   location         : "United States"
   email            :
   github           : "srsapireddy"
@@ -117,7 +117,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:sapireddyrahul@gmail.com
+      url: mailto:sapireddysrinivas2020@gmail.com
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/srsapireddy2020/"
