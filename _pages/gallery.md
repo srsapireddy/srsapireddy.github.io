@@ -72,6 +72,7 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
 </style>
 
 <div class="gallery-grid" id="gallery">
+  <img src="/images/grad0.jpg" alt="Graduation 1">
   <img src="/images/grad1.jpg" alt="Graduation 1">
   <img src="/images/grad2.jpg" alt="Graduation 2">
   <img src="/images/grad3.jpg" alt="Graduation 3">
