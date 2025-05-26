@@ -44,7 +44,7 @@ author_profile: true
     <h4>UMKC Assistant Teaching Professor Interview</h4>
   </div>
 
-  <div class="presentation-card" onclick="openLightbox('/publications/MIDE_Dec_2022_CT.pptx')">
+  <div class="presentation-card" onclick="openLightbox('https://github.com/srsapireddy/srsapireddy.github.io/blob/master/publications/Army%20PPT%20Presentation%20-%20Updated%20-%20Aug%202nd.pdf')">
     <img src="/images/mide_ct_thumbnail.png" alt="MIDE Presentation">
     <h4>MIDE Capstone Talk – December 2022</h4>
   </div>
