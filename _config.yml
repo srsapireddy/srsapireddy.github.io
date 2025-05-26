@@ -108,7 +108,7 @@ analytics:
 # Site Author (Sidebar Bio)
 author:
   name             : "Srinivas Rahul Sapireddy"
-  avatar           : "/images/image.jpeg"  # Ensure this file exists
+  avatar           : "/images/image.jpeg"
   bio              : "Ph.D. Student | Electrical & Computer Engineering | UMKC"
   location         : "Kansas City, MO"
   email            : "sapireddysrinivas2020@gmail.com"
@@ -139,12 +139,20 @@ author:
       url: "https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1"
 
 
+
 # Site Footer (Bottom of the page)
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/srsapireddy"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/srsapireddy2020/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:sapireddysrinivas2020@gmail.com"
+
 
 
 
