@@ -142,27 +142,10 @@ author:
 # Site Footer (Bottom of the page)
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:sapireddysrinivas2020@gmail.com"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/srsapireddy2020/"
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/srsapireddy"
-    - label: "Medium"
-      icon: "fab fa-medium"
-      url: "https://medium.com/@srsapireddy"
-    - label: "Google Scholar"
-      icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=08fgpdIAAAAJ"
-    - label: "ORCID"
-      icon: "ai ai-orcid"
-      url: "https://orcid.org/0000-0002-9898-6810"
-    - label: "OpenReview"
-      icon: "fas fa-file-alt"
-      url: "https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1"
+
 
 
 
