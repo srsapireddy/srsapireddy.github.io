@@ -45,20 +45,22 @@ author_profile: true
 }
 
 .table-wrapper {
-  border: 2px solid var(--accent);
+  display: inline-block;
   background: var(--table-bg);
+  border: 2px solid var(--accent);
   border-radius: 10px;
   padding: 1rem;
   overflow-x: auto;
+  margin-top: 1rem;
 }
 
 .resume-table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 0.5rem;
 }
 
-.resume-table th, .resume-table td {
+.resume-table th,
+.resume-table td {
   border: 1px solid var(--border);
   padding: 0.7rem;
   text-align: left;
@@ -150,7 +152,7 @@ author_profile: true
 </tbody>
 </table>
 </div>
-👉 See full list on [Publications](/publications/)
+<p>👉 See full list on <a href="/publications/">Publications</a></p>
 </div>
 
 <div class="resume-section">
