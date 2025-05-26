@@ -49,6 +49,16 @@ author_profile: true
     <h4>MIDE Capstone Talk – December 2022</h4>
   </div>
 
+  <div class="presentation-card" onclick="openPDF('/publications/Falcon.pdf')">
+    <img src="/images/Falcon.png" alt="Falcon Labs">
+    <h4>Falcon Labs SaaS Platform</h4>
+  </div>
+
+  <div class="presentation-card" onclick="openPDF('/publications/Lunar.pdf')">
+    <img src="/images/Lunar.png" alt="Lunar Lander">
+    <h4>Lunar Lander using Deep Q-Learning</h4>
+  </div>
+
   <div class="presentation-card" onclick="openLightbox('/publications/DNN_Presentation.pptx')">
     <img src="/images/rahul_nn_presentation.png" alt="DNN Slides">
     <h4>Presentation on Deep Neural Networks</h4>
