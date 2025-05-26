@@ -12,6 +12,7 @@ author_profile: true
   --section-bg: #ffffff;
   --text: #1a1a1a;
   --border: #e0ecf8;
+  --table-bg: #f0f8ff;
 }
 
 .resume-container {
@@ -43,6 +44,14 @@ author_profile: true
   margin-bottom: 1rem;
 }
 
+.table-wrapper {
+  border: 2px solid var(--accent);
+  background: var(--table-bg);
+  border-radius: 10px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
 .resume-table {
   width: 100%;
   border-collapse: collapse;
@@ -57,7 +66,7 @@ author_profile: true
 }
 
 .resume-table th {
-  background: #f0f8ff;
+  background: #e1f0ff;
   color: var(--accent);
 }
 
@@ -76,6 +85,7 @@ author_profile: true
 
 <div class="resume-section">
 <h2>🎓 Education</h2>
+<div class="table-wrapper">
 <table class="resume-table">
 <thead><tr><th>Degree</th><th>Institution</th><th>Duration</th><th>GPA</th></tr></thead>
 <tbody>
@@ -87,9 +97,11 @@ author_profile: true
 </tbody>
 </table>
 </div>
+</div>
 
 <div class="resume-section">
 <h2>👨‍🏫 Teaching Experience</h2>
+<div class="table-wrapper">
 <table class="resume-table">
 <thead><tr><th>Role</th><th>Institution</th><th>Courses</th></tr></thead>
 <tbody>
@@ -98,9 +110,11 @@ author_profile: true
 </tbody>
 </table>
 </div>
+</div>
 
 <div class="resume-section">
 <h2>🔬 Research & Industry Experience</h2>
+<div class="table-wrapper">
 <table class="resume-table">
 <thead><tr><th>Role</th><th>Organization</th><th>Duration</th></tr></thead>
 <tbody>
@@ -108,6 +122,7 @@ author_profile: true
 <tr><td>AI Intern</td><td>SmartBridge Pvt. Ltd.</td><td>06/2020 – 07/2020</td></tr>
 </tbody>
 </table>
+</div>
 </div>
 
 <div class="resume-section">
@@ -124,6 +139,7 @@ author_profile: true
 
 <div class="resume-section">
 <h2>📚 Selected Publications</h2>
+<div class="table-wrapper">
 <table class="resume-table">
 <thead><tr><th>Title</th><th>Venue</th><th>Status</th></tr></thead>
 <tbody>
@@ -133,11 +149,13 @@ author_profile: true
 <tr><td>Review: Crosstalk Polymorphic Circuits</td><td>Memories Journal</td><td>Published</td></tr>
 </tbody>
 </table>
+</div>
 👉 See full list on [Publications](/publications/)
 </div>
 
 <div class="resume-section">
 <h2>🏆 Awards & Honors</h2>
+<div class="table-wrapper">
 <table class="resume-table">
 <thead><tr><th>Award</th><th>By</th><th>Year</th></tr></thead>
 <tbody>
@@ -149,9 +167,11 @@ author_profile: true
 </tbody>
 </table>
 </div>
+</div>
 
 <div class="resume-section">
 <h2>📜 Certifications</h2>
+<div class="table-wrapper">
 <table class="resume-table">
 <thead><tr><th>Certification</th><th>Issued By</th><th>Year</th></tr></thead>
 <tbody>
@@ -162,6 +182,7 @@ author_profile: true
 <tr><td>Math for ML</td><td>Imperial College London</td><td>2023</td></tr>
 </tbody>
 </table>
+</div>
 </div>
 
 </div>
