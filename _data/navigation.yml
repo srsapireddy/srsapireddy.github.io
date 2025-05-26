@@ -12,6 +12,8 @@ main:
     url: /blog/
   - title: "Gallery"
     url: /gallery/
+  - title: "Moments"
+    url: /moments/
   - title: "Search"
     url: /search/
   # - title: "About"
