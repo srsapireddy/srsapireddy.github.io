@@ -1,7 +1,7 @@
 ---
 title: "Moments"
 layout: single
-permalink: /Moments/
+permalink: /moments/
 author_profile: true
 ---
 
