@@ -12,7 +12,7 @@ author_profile: true
   --section-bg: #ffffff;
   --text: #1a1a1a;
   --border: #e0ecf8;
-  --table-bg: #f0f8ff;
+  --table-bg: #ffffff;
 }
 
 .resume-container {
@@ -22,21 +22,13 @@ author_profile: true
 }
 
 .resume-section {
-  background: var(--section-bg);
   margin: 2rem 0;
-  padding: 1.5rem 2rem;
-  border-radius: 12px;
-  border: 1.5px solid var(--border);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.03);
-  transition: 0.3s ease-in-out;
-}
-
-.resume-section:hover {
-  box-shadow: 0 6px 22px rgba(0,0,0,0.06);
+  padding: 1rem 1.5rem;
+  background: var(--section-bg);
+  border-radius: 8px;
 }
 
 .resume-section h2 {
-  margin-top: 0;
   font-size: 1.4rem;
   color: var(--accent);
   border-left: 4px solid var(--accent);
@@ -45,13 +37,11 @@ author_profile: true
 }
 
 .table-wrapper {
-  display: inline-block;
-  background: var(--table-bg);
   border: 2px solid var(--accent);
   border-radius: 10px;
+  background-color: var(--table-bg);
   padding: 1rem;
   overflow-x: auto;
-  margin-top: 1rem;
 }
 
 .resume-table {
@@ -68,7 +58,7 @@ author_profile: true
 }
 
 .resume-table th {
-  background: #e1f0ff;
+  background: #e8f4ff;
   color: var(--accent);
 }
 
