@@ -17,16 +17,18 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
 
 .cert-card {
   text-align: center;
-  border: 2px solid #ccc;
+  border: 2px solid #1a73e8; /* blue border */
   border-radius: 10px;
   padding: 0.5rem;
   background: #fff;
-  transition: 0.2s ease;
+  transition: 0.3s ease;
 }
 
 .cert-card:hover {
   transform: scale(1.02);
-  border-color: #1a73e8;
+  border-color: #0c57c2;
+  background-color: #f0f8ff;
+  box-shadow: 0 4px 12px rgba(26, 115, 232, 0.15);
 }
 
 .cert-card img {
