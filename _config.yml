@@ -105,68 +105,66 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
-# Site Author
+# Site Author (Sidebar Bio)
 author:
   name             : "Srinivas Rahul Sapireddy"
-  avatar           : "/images/image.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D. Student | ECE | UMKC"
-  location         : "United States"
-  email            :
+  avatar           : "/images/image.jpeg"  # Ensure this file exists
+  bio              : "Ph.D. Student | Electrical & Computer Engineering | UMKC"
+  location         : "Kansas City, MO"
+  email            : "sapireddysrinivas2020@gmail.com"
   github           : "srsapireddy"
   linkedin         : "srsapireddy2020"
+  twitter          : "srsapireddy"
+  orcid            : "0000-0002-9898-6810"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:sapireddysrinivas2020@gmail.com
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fas fa-envelope"
+      url: "mailto:sapireddysrinivas2020@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/srsapireddy2020/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github"
       url: "https://github.com/srsapireddy"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Medium"
+      icon: "fab fa-medium"
+      url: "https://medium.com/@srsapireddy"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=08fgpdIAAAAJ"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0002-9898-6810"
+    - label: "OpenReview"
+      icon: "fas fa-file-alt"
+      url: "https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1"
 
-# Site Footer
+
+# Site Footer (Bottom of the page)
 footer:
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:sapireddyrahul@gmail.com
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fas fa-envelope"
+      url: "mailto:sapireddysrinivas2020@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/srsapireddy2020/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github"
       url: "https://github.com/srsapireddy"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    - label: "Medium"
+      icon: "fab fa-medium"
+      url: "https://medium.com/@srsapireddy"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=08fgpdIAAAAJ"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0002-9898-6810"
+    - label: "OpenReview"
+      icon: "fas fa-file-alt"
+      url: "https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1"
+
 
 
 # Reading Files
