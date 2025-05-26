@@ -45,17 +45,17 @@ author_profile: true
   </div>
 
   <div class="presentation-card" onclick="openLightbox('/publications/MIDE_Dec_2022_CT.pptx')">
-    <img src="/images/mide_ct_thumbnail.jpg" alt="MIDE Presentation">
+    <img src="/images/mide_ct_thumbnail.png" alt="MIDE Presentation">
     <h4>MIDE Capstone Talk – December 2022</h4>
   </div>
 
   <div class="presentation-card" onclick="openLightbox('/publications/Srinivas_Rahul_Presentation.pptx')">
-    <img src="/images/rahul_nn_presentation.jpg" alt="DNN Slides">
+    <img src="/images/rahul_nn_presentation.png" alt="DNN Slides">
     <h4>Presentation on Deep Neural Networks</h4>
   </div>
 
   <div class="presentation-card" onclick="openLightbox('/publications/Army_PPT_Presentation_Updated_Aug_2nd.pptx')">
-    <img src="/images/army_ppt_thumbnail.jpg" alt="Army Presentation">
+    <img src="/images/army_ppt_thumbnail.png" alt="Army Presentation">
     <h4>U.S. Army Research Overview – August 2023</h4>
   </div>
 </div>
