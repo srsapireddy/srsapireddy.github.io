@@ -14,6 +14,8 @@ main:
     url: /gallery/
   - title: "Moments"
     url: /moments/
+  - title: "Presentations"
+    url: /presentations/ 
   - title: "Search"
     url: /search/
   # - title: "About"
