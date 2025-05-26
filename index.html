@@ -1,16 +1,16 @@
 ---
-layout: default
 title: "Home"
+layout: default
 ---
 
 <style>
   .custom-home {
-    max-width: 960px;
+    max-width: 1000px;
     margin: 2rem auto;
     padding: 2rem;
     border-radius: 16px;
-    background: linear-gradient(135deg, #ffffff, #f8f9fa);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    background: linear-gradient(135deg, #ffffff, #f8f9fc);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
     animation: fadeIn 1.2s ease-in-out;
   }
 
@@ -20,48 +20,45 @@ title: "Home"
   }
 
   .custom-home h1 {
-    border-bottom: 2px solid #eee;
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     color: #1a73e8;
-    padding-bottom: 0.4rem;
-    margin-bottom: 1.2rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .custom-home img.profile {
-    width: 120px;
+    width: 130px;
     border-radius: 50%;
-    margin-bottom: 1rem;
-    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    margin-bottom: 1.2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
   }
 
   .custom-section {
     background: #ffffff;
     border: 2px solid #1a73e8;
-    border-radius: 12px;
+    border-radius: 14px;
     padding: 1.5rem;
     margin: 2rem 0;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
-    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    transition: 0.3s;
   }
 
   .custom-section:hover {
-    background: #f9fbfd;
-    border-color: #0f57c9;
+    background: #f1faff;
   }
 
   .custom-section h2 {
-    margin-top: 0;
     color: #1a73e8;
-    font-size: 1.5rem;
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1rem;
   }
 
   .custom-feature-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1.5rem;
-    margin-top: 1rem;
   }
 
   .feature-box {
@@ -70,11 +67,11 @@ title: "Home"
     padding: 1rem;
     background-color: #ffffff;
     text-align: center;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s;
   }
 
   .feature-box:hover {
-    background-color: #e9f3ff;
+    background-color: #e8f2ff;
     transform: scale(1.02);
   }
 
@@ -83,9 +80,27 @@ title: "Home"
     color: #1a73e8;
   }
 
-  .feature-box p {
-    font-size: 0.95rem;
-    color: #333;
+  .media-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .media-item {
+    flex: 1 1 300px;
+    border: 2px solid #1a73e8;
+    border-radius: 12px;
+    padding: 1rem;
+    background: #f9fbff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  }
+
+  .media-item iframe,
+  .media-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
   }
 
   .connect-links a {
@@ -93,58 +108,66 @@ title: "Home"
     text-decoration: none;
     color: #1a73e8;
     font-weight: bold;
-    transition: 0.2s ease-in-out;
-  }
-
-  .connect-links a:hover {
-    text-decoration: underline;
-    color: #0f57c9;
-  }
-
-  @media (max-width: 600px) {
-    .feature-box p {
-      font-size: 0.85rem;
-    }
   }
 </style>
 
 <div class="custom-home">
-
   <center>
     <img src="https://raw.githubusercontent.com/srsapireddy/srsapireddy/master/pacman.svg" alt="Profile Photo" class="profile">
-    <h1>Welcome to My Personal Site</h1>
-    <p><strong>Srinivas Rahul Sapireddy</strong><br>
-    Ph.D. Candidate, Electrical & Computer Engineering – UMKC</p>
+    <h1>Welcome to My Digital Portfolio</h1>
+    <p><strong>Srinivas Rahul Sapireddy</strong><br>Ph.D. Candidate · Electrical & Computer Engineering · UMKC</p>
   </center>
 
   <div class="custom-section">
-    <h2>🔬 Research Interests</h2>
+    <h2>🔬 Research Areas</h2>
     <ul>
-      <li>Custom Activation Functions for Deep Learning</li>
-      <li>VLSI Physical Design & RTL Synthesis</li>
-      <li>RF Modulation Classification using Time-Frequency Features</li>
-      <li>Hardware-Aware AI for Edge Deployment</li>
+      <li>Custom Piecewise Activation Functions for Neural Networks</li>
+      <li>Efficient RF Modulation Classification (CAF/STFT/PDE)</li>
+      <li>Hardware Acceleration and RTL-to-GDSII Physical Design</li>
+      <li>Edge-AI Model Optimization & Embedded Inference</li>
     </ul>
   </div>
 
   <div class="custom-section">
-    <h2>📂 Explore My Work</h2>
+    <h2>📂 Quick Access</h2>
     <div class="custom-feature-grid">
-      <div class="feature-box">
-        <h3><a href="/resume/">📄 Resume</a></h3>
-        <p>Education, teaching, and technical experience</p>
+      <div class="feature-box"><h3><a href="/resume/">📄 Resume</a></h3><p>Academics, teaching & research roles</p></div>
+      <div class="feature-box"><h3><a href="/publications/">📝 Publications</a></h3><p>Journals, conferences, under-review</p></div>
+      <div class="feature-box"><h3><a href="/blog/">✍️ Blog</a></h3><p>Insights into ML, VLSI, and tools</p></div>
+      <div class="feature-box"><h3><a href="/certifications/">🎓 Certifications</a></h3><p>Courses, awards, honors</p></div>
+      <div class="feature-box"><h3><a href="/presentations/">📽️ Presentations</a></h3><p>Talks, demos, pitch decks</p></div>
+      <div class="feature-box"><h3><a href="/moments/">📸 Moments</a></h3><p>Classroom & campus snapshots</p></div>
+    </div>
+  </div>
+
+  <div class="custom-section">
+    <h2>🎥 Featured Demos</h2>
+    <div class="media-showcase">
+      <div class="media-item">
+        <iframe src="https://www.youtube.com/embed/aRM4DP-gUbg" title="Hackathon Fall 2021" frameborder="0" allowfullscreen></iframe>
+        <strong>🏆 Hackathon Win – Fall 2021</strong>
       </div>
-      <div class="feature-box">
-        <h3><a href="/publications/">📝 Publications</a></h3>
-        <p>Peer-reviewed papers and conference contributions</p>
+      <div class="media-item">
+        <iframe src="https://www.youtube.com/embed/cJ4JHmoTgas" title="Hackathon Fall 2022" frameborder="0" allowfullscreen></iframe>
+        <strong>🏆 Hackathon Win – Fall 2022</strong>
       </div>
-      <div class="feature-box">
-        <h3><a href="/blog/">✍️ Blog</a></h3>
-        <p>Articles on AI, hardware, and design automation</p>
+      <div class="media-item">
+        <iframe src="https://www.youtube.com/embed/E9ItHVkHuy8" title="Internship Showcase" frameborder="0" allowfullscreen></iframe>
+        <strong>🎓 Internship Summary: SmartBridge</strong>
       </div>
-      <div class="feature-box">
-        <h3><a href="/certifications/">🎓 Certifications</a></h3>
-        <p>Degrees, professional courses, and hackathon awards</p>
+    </div>
+  </div>
+
+  <div class="custom-section">
+    <h2>🖼️ Highlights from My Journey</h2>
+    <div class="media-showcase">
+      <div class="media-item">
+        <img src="/images/sg_senator_result.png" alt="SGA Re-election">
+        <strong>🎓 Elected SGA Senator (SSE) – 2024-25</strong>
+      </div>
+      <div class="media-item">
+        <img src="/images/asic_class_fall2023.png" alt="ASIC Teaching">
+        <strong>👨‍🏫 Instructor – ASIC Physical Design, Fall 2023</strong>
       </div>
     </div>
   </div>
@@ -152,11 +175,10 @@ title: "Home"
   <div class="custom-section">
     <h2>📬 Connect with Me</h2>
     <p class="connect-links">
-      🔗 <a href="https://github.com/srsapireddy" target="_blank">GitHub</a>
-      🎓 <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank">Google Scholar</a>
-      ✍️ <a href="https://medium.com/@srsapireddy" target="_blank">Medium</a>
-      💼 <a href="https://www.linkedin.com/in/srsapireddy2020/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/srsapireddy" target="_blank">GitHub</a>
+      <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank">Google Scholar</a>
+      <a href="https://medium.com/@srsapireddy" target="_blank">Medium</a>
+      <a href="https://www.linkedin.com/in/srsapireddy2020/" target="_blank">LinkedIn</a>
     </p>
   </div>
-
 </div>
