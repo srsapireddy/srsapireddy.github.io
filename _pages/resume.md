@@ -5,82 +5,147 @@ permalink: /resume/
 author_profile: true
 ---
 
-Welcome! Below is a structured summary of my resume using tables for easy readability.
+<style>
+  .resume-section {
+    margin-bottom: 2rem;
+    border-left: 4px solid #1a73e8;
+    background: #f9fcff;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+  }
+
+  .resume-section h2 {
+    color: #1a73e8;
+    margin-top: 0;
+    font-size: 1.4rem;
+  }
+
+  .resume-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.8rem;
+  }
+
+  .resume-table th,
+  .resume-table td {
+    border: 1px solid #d0e4f7;
+    padding: 0.6rem 0.8rem;
+    text-align: left;
+  }
+
+  .resume-table th {
+    background-color: #e1f0ff;
+    color: #1a73e8;
+  }
+
+  .resume-table tr:hover {
+    background-color: #f0f8ff;
+    transition: 0.2s;
+  }
+
+  ul.research-list {
+    margin-top: 0.5rem;
+    padding-left: 1.2rem;
+  }
+</style>
 
 ---
 
-## 🎓 Education
+<div class="resume-section">
+  <h2>🎓 Education</h2>
+  <table class="resume-table">
+    <thead>
+      <tr>
+        <th>Degree</th>
+        <th>Institution</th>
+        <th>Duration</th>
+        <th>GPA</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Ph.D. in Electrical & Computer Engineering</td><td>University of Missouri – Kansas City, MO</td><td>09/2021 – 07/2025</td><td>4.0 / 4.0</td></tr>
+      <tr><td>Advanced Diploma in AI</td><td>NIELIT (India)</td><td>09/2020 – 01/2021</td><td>88 / 100</td></tr>
+      <tr><td>M.S. in Computer Science</td><td>University of Illinois – Springfield, IL</td><td>01/2017 – 12/2018</td><td>3.92 / 4.0</td></tr>
+      <tr><td>M.S. in Electrical Engineering</td><td>University of Missouri – Kansas City, MO</td><td>01/2015 – 01/2016</td><td>3.51 / 4.0</td></tr>
+      <tr><td>B.Tech in ECE</td><td>GRIET – JNTU Hyderabad, India</td><td>09/2011 – 04/2014</td><td>3.86 / 4.0</td></tr>
+    </tbody>
+  </table>
+</div>
 
-| Degree                                      | Institution                                                      | Duration         | GPA        |
-|--------------------------------------------|------------------------------------------------------------------|------------------|------------|
-| Ph.D. in Electrical & Computer Engineering | University of Missouri – Kansas City, MO                         | 09/2021 – 07/2025 | 4.0 / 4.0  |
-| Advanced Diploma in AI                     | NIELIT (India)                                                   | 09/2020 – 01/2021 | 88 / 100   |
-| M.S. in Computer Science                   | University of Illinois – Springfield, IL                         | 01/2017 – 12/2018 | 3.92 / 4.0 |
-| M.S. in Electrical Engineering             | University of Missouri – Kansas City, MO                         | 01/2015 – 01/2016 | 3.51 / 4.0 |
-| B.Tech in ECE                              | Gokaraju Rangaraju Institute of Engineering & Technology, India  | 09/2011 – 04/2014 | 3.86 / 4.0 |
+<div class="resume-section">
+  <h2>👨‍🏫 Teaching Experience</h2>
+  <table class="resume-table">
+    <thead>
+      <tr><th>Role</th><th>Institution</th><th>Courses Taught</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Instructor</td><td>UMKC</td><td>ENGR E&C 226, 216, 447/5547, 402/5533</td></tr>
+      <tr><td>Teaching Assistant</td><td>UMKC</td><td>ENGR E&C 442/5542, 228, 402/403</td></tr>
+    </tbody>
+  </table>
+</div>
 
----
+<div class="resume-section">
+  <h2>🔬 Research & Industry Experience</h2>
+  <table class="resume-table">
+    <thead><tr><th>Role</th><th>Organization</th><th>Duration</th></tr></thead>
+    <tbody>
+      <tr><td>Research Assistant</td><td>Missouri Institute of Defense and Energy</td><td>09/2021 – 07/2022</td></tr>
+      <tr><td>AI Intern</td><td>SmartBridge Pvt. Ltd.</td><td>06/2020 – 07/2020</td></tr>
+    </tbody>
+  </table>
+</div>
 
-## 👨‍🏫 Teaching Experience
+<div class="resume-section">
+  <h2>🧠 Research Interests</h2>
+  <ul class="research-list">
+    <li>VLSI Design</li>
+    <li>Hardware Description Language (HDL)</li>
+    <li>RF Signal Processing</li>
+    <li>Embedded Systems</li>
+    <li>System-on-Chip (SoC)</li>
+    <li>Hardware-Aware AI</li>
+  </ul>
+</div>
 
-| Role               | Institution   | Courses Taught                                                                 |
-|--------------------|---------------|--------------------------------------------------------------------------------|
-| Instructor         | UMKC          | ENGR E&C 226, 216, 447/5547, 402/5533                                          |
-| Teaching Assistant | UMKC          | ENGR E&C 442/5542, 228, 402/403                                                |
+<div class="resume-section">
+  <h2>📚 Selected Publications</h2>
+  <table class="resume-table">
+    <thead><tr><th>Title</th><th>Conference / Journal</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td>Re-Visiting R: Statistical Envelope Analysis for RF Modulation</td><td>RFCoN 2025</td><td>Accepted</td></tr>
+      <tr><td>On the Effectiveness of Custom Activations in LSTMs</td><td>GLSVLSI 2025</td><td>Accepted</td></tr>
+      <tr><td>Linear Activation Approximation in Neural Networks</td><td>Memories Journal</td><td>Under Review</td></tr>
+      <tr><td>Review of Crosstalk Polymorphic Circuits</td><td>Memories Journal</td><td>Published</td></tr>
+    </tbody>
+  </table>
+  👉 See full list on [Publications](/publications/)
+</div>
 
----
+<div class="resume-section">
+  <h2>🏆 Awards & Honors</h2>
+  <table class="resume-table">
+    <thead><tr><th>Award / Honor</th><th>Institution / Organization</th><th>Year</th></tr></thead>
+    <tbody>
+      <tr><td>CS Balaji Krithikaivasan Travel Grant</td><td>UMKC</td><td>2025</td></tr>
+      <tr><td>Dean’s International Scholar Award</td><td>UMKC</td><td>2015–2016</td></tr>
+      <tr><td>2nd Prize – UMKC Hackathon</td><td>UMKC</td><td>Fall 2022</td></tr>
+      <tr><td>3rd Prize – UMKC Hackathon</td><td>UMKC</td><td>Fall 2021</td></tr>
+      <tr><td>Eta Kappa Nu Honors Society (IEEE-HKN)</td><td>UMKC</td><td>Ongoing</td></tr>
+    </tbody>
+  </table>
+</div>
 
-## 🔬 Research & Industry Experience
-
-| Role               | Organization                                | Duration         |
-|--------------------|---------------------------------------------|------------------|
-| Research Assistant | Missouri Institute of Defense and Energy    | 09/2021 – 07/2022 |
-| AI Intern          | SmartBridge Pvt. Ltd.                       | 06/2020 – 07/2020 |
-
----
-
-## 🧠 Research Interests
-
-- VLSI Design  
-- Hardware Description Language (HDL)  
-- RF Signal Processing  
-- Embedded Systems  
-- System-on-Chip (SoC)  
-- Hardware-Aware AI  
-
----
-
-## 📚 Selected Publications
-
-| Title                                                                 | Conference / Journal                    | Status        |
-|-----------------------------------------------------------------------|------------------------------------------|---------------|
-| Re-Visiting R: Statistical Envelope Analysis for RF Modulation        | RFCoN 2025                               | Accepted      |
-| On the Effectiveness of Custom Activations in LSTMs                  | GLSVLSI 2025                             | Accepted      |
-| Linear Activation Approximation in Neural Networks                   | Memories Journal                         | Under Review  |
-| Review of Crosstalk Polymorphic Circuits                             | Memories Journal                         | Published     |
-
-👉 See full list on [Publications](/publications/)
-
----
-
-## 🏆 Awards & Honors
-
-| Award / Honor                                  | Institution / Organization              | Year       |
-|------------------------------------------------|------------------------------------------|------------|
-| CS Balaji Krithikaivasan Travel Grant         | UMKC                                     | 2025       |
-| Dean’s International Scholar Award            | UMKC                                     | 2015–2016  |
-| 2nd Prize – UMKC Hackathon                    | UMKC                                     | Fall 2022  |
-| 3rd Prize – UMKC Hackathon                    | UMKC                                     | Fall 2021  |
-| Eta Kappa Nu Honors Society (IEEE-HKN)        | UMKC                                     | Ongoing    |
-
----
-
-## 📜 Certifications
-
-| Certification                         | Issued By                          | Year       |
-|--------------------------------------|------------------------------------|------------|
-| Product Management                    | CII                                 | 2023       |
-| Accelerated AI                       | CDAC                                | 2022       |
-| Statistical Learning                 | Stanford University (Online)       | 2017       |
-| MLOps Certification                  | Duke University                     | 2023       |
-| Mathematics for Machine Learning     | Imperial College London             | 2023       |
+<div class="resume-section">
+  <h2>📜 Certifications</h2>
+  <table class="resume-table">
+    <thead><tr><th>Certification</th><th>Issued By</th><th>Year</th></tr></thead>
+    <tbody>
+      <tr><td>Product Management</td><td>Confederation of Indian Industry (CII)</td><td>2023</td></tr>
+      <tr><td>Accelerated AI</td><td>CDAC India</td><td>2022</td></tr>
+      <tr><td>Statistical Learning</td><td>Stanford University (Online)</td><td>2017</td></tr>
+      <tr><td>MLOps Certification</td><td>Duke University</td><td>2023</td></tr>
+      <tr><td>Mathematics for Machine Learning</td><td>Imperial College London</td><td>2023</td></tr>
+    </tbody>
+  </table>
+</div>
