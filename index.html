@@ -5,39 +5,60 @@ title: "Home"
 
 <style>
   .custom-home {
-    max-width: 900px;
+    max-width: 960px;
     margin: 2rem auto;
     padding: 2rem;
-    border: 3px solid #ddd;
     border-radius: 16px;
-    background-color: #fafafa;
-    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    animation: fadeIn 1.2s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
   }
 
   .custom-home h1 {
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 0.5rem;
-    font-size: 2.2rem;
+    border-bottom: 2px solid #eee;
+    font-size: 2.4rem;
+    color: #1a73e8;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .custom-home img.profile {
+    width: 120px;
+    border-radius: 50%;
     margin-bottom: 1rem;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
   }
 
   .custom-section {
-    border: 2px dashed #aaa;
-    border-radius: 12px;
-    padding: 1rem 1.5rem;
-    margin-bottom: 2rem;
-    background-color: #fff;
+    background: #fff;
+    border-left: 5px solid #1a73e8;
+    padding: 1.2rem 1.5rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+    transition: 0.3s ease;
+  }
+
+  .custom-section:hover {
+    border-left-color: #0f57c9;
+    background: #f9fbfd;
   }
 
   .custom-section h2 {
-    color: #1a73e8;
     margin-top: 0;
+    color: #1a73e8;
+    font-size: 1.5rem;
   }
 
   .custom-feature-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1.5rem;
+    margin-top: 1rem;
   }
 
   .feature-box {
@@ -50,22 +71,48 @@ title: "Home"
   }
 
   .feature-box:hover {
-    background-color: #f0f8ff;
-    transform: translateY(-4px);
+    background-color: #e9f3ff;
+    transform: scale(1.02);
   }
 
-  .feature-box h3 {
-    margin-bottom: 0.5rem;
+  .feature-box h3 a {
+    text-decoration: none;
+    color: #1a73e8;
+  }
+
+  .feature-box p {
+    font-size: 0.95rem;
+    color: #333;
+  }
+
+  .connect-links a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+  }
+
+  .connect-links a:hover {
+    text-decoration: underline;
+    color: #0f57c9;
+  }
+
+  @media (max-width: 600px) {
+    .feature-box p {
+      font-size: 0.85rem;
+    }
   }
 </style>
 
 <div class="custom-home">
 
-  <h1>Welcome to My Personal Site</h1>
-  <p><strong>Srinivas Rahul Sapireddy</strong><br>
-    Ph.D. Candidate, Electrical & Computer Engineering – UMKC<br>
-    Exploring hardware-aware AI, RF signal processing, and custom activation functions.
-  </p>
+  <center>
+    <img src="/assets/images/profile.jpg" alt="Profile Photo" class="profile">
+    <h1>Welcome to My Personal Site</h1>
+    <p><strong>Srinivas Rahul Sapireddy</strong><br>
+    Ph.D. Candidate, Electrical & Computer Engineering – UMKC</p>
+  </center>
 
   <div class="custom-section">
     <h2>🔬 Research Interests</h2>
@@ -82,27 +129,32 @@ title: "Home"
     <div class="custom-feature-grid">
       <div class="feature-box">
         <h3><a href="/resume/">📄 Resume</a></h3>
-        <p>Education, teaching, industry & academic experience</p>
+        <p>Education, teaching, and technical experience</p>
       </div>
 
       <div class="feature-box">
         <h3><a href="/publications/">📝 Publications</a></h3>
-        <p>Peer-reviewed papers and accepted conference contributions</p>
+        <p>Peer-reviewed papers and conference contributions</p>
       </div>
 
       <div class="feature-box">
         <h3><a href="/blog/">✍️ Blog</a></h3>
-        <p>Medium articles on AI, hardware, VLSI & tutorials</p>
+        <p>Articles on AI, hardware, and design automation</p>
+      </div>
+
+      <div class="feature-box">
+        <h3><a href="/certifications/">🎓 Certifications</a></h3>
+        <p>Degrees, professional courses, and hackathon awards</p>
       </div>
     </div>
   </div>
 
   <div class="custom-section">
     <h2>📬 Connect with Me</h2>
-    <p>
-      🔗 <a href="https://github.com/srsapireddy" target="_blank">GitHub</a> | 
-      🎓 <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank">Google Scholar</a> | 
-      ✍️ <a href="https://medium.com/@srsapireddy" target="_blank">Medium</a> | 
+    <p class="connect-links">
+      🔗 <a href="https://github.com/srsapireddy" target="_blank">GitHub</a>
+      🎓 <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank">Google Scholar</a>
+      ✍️ <a href="https://medium.com/@srsapireddy" target="_blank">Medium</a>
       💼 <a href="https://www.linkedin.com/in/srsapireddy2020/" target="_blank">LinkedIn</a>
     </p>
   </div>
