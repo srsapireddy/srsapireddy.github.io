@@ -5,64 +5,111 @@ permalink: /about/
 author_profile: true
 ---
 
-👋 I'm **Srinivas Rahul Sapireddy**, a Ph.D. candidate in Electrical and Computer Engineering at the **University of Missouri – Kansas City (UMKC)**, where I specialize in low-power hardware-aware AI and VLSI design.
+<style>
+:root {
+  --blue: #1a73e8;
+  --lightblue: #e8f0fe;
+  --border-radius: 10px;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
 
-I am currently teaching **Logic Design** and **Engineering Computation**, and have previously instructed **ASIC Physical Design**, **Analog IC Design**, and more. I bring both depth and clarity to technical teaching, backed by practical industry exposure and academic research.
+.about-section {
+  border-left: 4px solid var(--blue);
+  background: var(--lightblue);
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
 
----
+.about-section h3 {
+  margin-top: 0;
+  color: var(--blue);
+}
 
-### 🧠 Research & Interests
+.about-section ul {
+  padding-left: 1.4rem;
+}
 
-My research lies at the intersection of **hardware design**, **signal processing**, and **artificial intelligence**. I focus on:
+.about-section li {
+  margin-bottom: 0.3rem;
+}
 
-- Efficient activation functions for deep learning on edge devices  
-- RF modulation classification using hybrid time-frequency features  
-- System-on-Chip (SoC) design and embedded AI acceleration  
-- Piecewise linear approximations in neural network deployment  
+a {
+  color: var(--blue);
+  font-weight: 500;
+}
 
-I’ve worked as a Research Assistant at the **Missouri Institute of Defense and Energy**, and held an AI internship at **SmartBridge Pvt. Ltd.**
+a:hover {
+  text-decoration: underline;
+}
+</style>
 
----
+<div class="about-section">
+<h3>👋 About Me</h3>
+<p>
+I'm <strong>Srinivas Rahul Sapireddy</strong>, a Ph.D. candidate in Electrical and Computer Engineering at the <strong>University of Missouri – Kansas City (UMKC)</strong>, where I specialize in low-power hardware-aware AI and VLSI design.
+</p>
+<p>
+I am currently teaching <strong>Logic Design</strong> and <strong>Engineering Computation</strong>, and have previously instructed <em>ASIC Physical Design</em>, <em>Analog IC Design</em>, and more. My teaching combines technical depth with real-world clarity.
+</p>
+</div>
 
-### 📚 Publications
+<div class="about-section">
+<h3>🧠 Research & Interests</h3>
+<ul>
+  <li>Efficient activation functions for deep learning on edge devices</li>
+  <li>RF modulation classification using hybrid time-frequency features</li>
+  <li>System-on-Chip (SoC) design and embedded AI acceleration</li>
+  <li>Piecewise linear approximations in neural network deployment</li>
+</ul>
+<p>
+I've worked as a Research Assistant at the <strong>Missouri Institute of Defense and Energy</strong>, and completed an AI internship at <strong>SmartBridge Pvt. Ltd.</strong>
+</p>
+</div>
 
-I’ve authored and co-authored several papers including:
+<div class="about-section">
+<h3>📚 Publications</h3>
+<ul>
+  <li>✅ <strong>GLSVLSI 2025</strong>: <em>Custom Activation Functions for LSTMs</em></li>
+  <li>✅ <strong>RFCoN 2025</strong>: <em>Statistical Envelope Analysis for RF Modulation</em></li>
+  <li>🕵️ <em>Under review at ACM Transactions on Cyber Physical Systems</em></li>
+  <li>📖 Published in <em>Memories – Materials, Devices, Circuits and Systems</em></li>
+</ul>
+<p>👉 <a href="/publications/">View full publication list</a></p>
+</div>
 
-- ✅ **GLSVLSI 2025**: *Custom Activation Functions for LSTMs*  
-- ✅ **RFCoN 2025**: *Statistical Envelope Analysis for RF Modulation*  
-- 🕵️ *Under review at ACM Transactions on Cyber Physical Systems*  
-- 📖 Published in *Memories - Materials, Devices, Circuits and Systems*
+<div class="about-section">
+<h3>🏆 Awards & Recognitions</h3>
+<ul>
+  <li>🥈 2nd Place – UMKC Hackathon (Fall 2022)</li>
+  <li>🥉 3rd Place – UMKC Hackathon (Fall 2021)</li>
+  <li>🎓 Dean’s International Scholar Award – UMKC</li>
+  <li>🇺🇸 CS Balaji Memorial Travel Grant (2025)</li>
+  <li>🏅 Member – Eta Kappa Nu (IEEE-HKN) Honor Society</li>
+</ul>
+</div>
 
-> 👉 [Full list of publications](/publications/)
+<div class="about-section">
+<h3>📜 Certifications</h3>
+<ul>
+  <li>Product Management – CII</li>
+  <li>AI & MLOps – Duke University, CDAC</li>
+  <li>Statistical Learning – Stanford University</li>
+  <li>Mathematics for ML – Imperial College London</li>
+</ul>
+</div>
 
----
+<div class="about-section">
+<h3>📬 Let’s Connect</h3>
+<ul>
+  <li>💻 GitHub: <a href="https://github.com/srsapireddy" target="_blank">@srsapireddy</a></li>
+  <li>📖 Google Scholar: <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ&hl=en" target="_blank">View Profile</a></li>
+  <li>🧬 ORCID: <a href="https://orcid.org/0000-0002-9898-6810" target="_blank">0000-0002-9898-6810</a></li>
+  <li>📝 OpenReview: <a href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank">Profile</a></li>
+</ul>
+</div>
 
-### 🏆 Awards & Recognitions
-
-- 🥈 2nd Place – UMKC Hackathon (Fall 2022)  
-- 🥉 3rd Place – UMKC Hackathon (Fall 2021)  
-- 🎓 Dean’s International Scholar Award (UMKC)  
-- 🇺🇸 CS Balaji Memorial Travel Grant, 2025  
-- 🏅 Member – Eta Kappa Nu Honors Society
-
----
-
-### 🔗 Certifications
-
-- Certified in Product Management – CII  
-- AI & MLOps – Duke University, CDAC  
-- Statistical Learning – Stanford University  
-- Mathematics for ML – Imperial College London
-
----
-
-### 📬 Let’s Connect
-
-- GitHub: [@srsapireddy](https://github.com/srsapireddy)  
-- Google Scholar: [View Profile](https://scholar.google.com/citations?user=08fgpdIAAAAJ&hl=en)  
-- ORCID: [0000-0002-9898-6810](https://orcid.org/0000-0002-9898-6810)  
-- OpenReview: [Profile](https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1)
-
----
-
-I’m always open to collaborative opportunities in hardware-aware ML, RF signal processing, and edge-AI deployment. Feel free to reach out!
+<div class="about-section">
+<p>I’m always open to collaborative opportunities in <strong>hardware-aware ML</strong>, <strong>RF signal processing</strong>, and <strong>edge-AI deployment</strong>. Feel free to connect or collaborate!</p>
+</div>
