@@ -8,13 +8,13 @@ author_profile: true
 <style>
 :root {
   --blue: #1a73e8;
-  --lightblue: #e8f0fe;
+  --lightblue: #ffffff;
   --border-radius: 10px;
   --shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .about-section {
-  border-left: 4px solid var(--blue);
+  border: 2px solid var(--blue);
   background: var(--lightblue);
   padding: 1.2rem 1.5rem;
   margin-bottom: 1.5rem;
