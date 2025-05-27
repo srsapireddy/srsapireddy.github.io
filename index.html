@@ -41,7 +41,6 @@ layout: default
     padding: 1.5rem;
     margin: 2rem 0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-    transition: 0.3s;
   }
 
   .custom-section:hover {
@@ -80,27 +79,52 @@ layout: default
     color: #1a73e8;
   }
 
-  .media-showcase {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center;
-  }
-
-  .media-item {
-    flex: 1 1 300px;
-    border: 2px solid #1a73e8;
+  .slider-container {
+    width: 672px;
+    height: 672px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
     border-radius: 12px;
-    padding: 1rem;
-    background: #f9fbff;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    border: 2px solid #1a73e8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   }
 
-  .media-item iframe,
-  .media-item img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 0.5rem;
+  .slider-image {
+    display: none;
+    width: 672px;
+    height: 672px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .slider-image.active {
+    display: block;
+  }
+
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(26, 115, 232, 0.8);
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .slider-button:hover {
+    background-color: rgba(15, 87, 201, 0.9);
+  }
+
+  .slider-prev {
+    left: 10px;
+  }
+
+  .slider-next {
+    right: 10px;
   }
 
   .connect-links a {
@@ -109,41 +133,32 @@ layout: default
     color: #1a73e8;
     font-weight: bold;
   }
-
-  /* Image Slider */
-  .image-slider-container {
-    position: relative;
-    width: 576px;
-    height: 576px;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 12px;
-    border: 2px solid #1a73e8;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  }
-
-  .image-slider-wrapper {
-    display: flex;
-    width: 400%;
-    animation: slide 16s infinite ease-in-out;
-  }
-
-  .image-slider-wrapper img {
-    width: 576px;
-    height: 576px;
-    object-fit: cover;
-    flex-shrink: 0;
-    border-radius: 12px;
-  }
-
-  @keyframes slide {
-    0%   { transform: translateX(0%); }
-    25%  { transform: translateX(-100%); }
-    50%  { transform: translateX(-200%); }
-    75%  { transform: translateX(-300%); }
-    100% { transform: translateX(0%); }
-  }
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    let currentIndex = 0;
+    const images = document.querySelectorAll('.slider-image');
+
+    function showImage(index) {
+      images.forEach((img, i) => {
+        img.classList.toggle('active', i === index);
+      });
+    }
+
+    document.getElementById('prevBtn').addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      showImage(currentIndex);
+    });
+
+    document.getElementById('nextBtn').addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % images.length;
+      showImage(currentIndex);
+    });
+
+    showImage(currentIndex); // Initial image
+  });
+</script>
 
 <div class="custom-home">
   <center>
@@ -175,32 +190,14 @@ layout: default
   </div>
 
   <div class="custom-section">
-    <h2>🎥 Featured Demos</h2>
-    <div class="media-showcase">
-      <div class="media-item">
-        <iframe src="https://www.youtube.com/embed/aRM4DP-gUbg" title="Hackathon Fall 2021" frameborder="0" allowfullscreen></iframe>
-        <strong>🏆 Hackathon Win – Fall 2021</strong>
-      </div>
-      <div class="media-item">
-        <iframe src="https://www.youtube.com/embed/cJ4JHmoTgas" title="Hackathon Fall 2022" frameborder="0" allowfullscreen></iframe>
-        <strong>🏆 Hackathon Win – Fall 2022</strong>
-      </div>
-      <div class="media-item">
-        <iframe src="https://www.youtube.com/embed/E9ItHVkHuy8" title="Internship Showcase" frameborder="0" allowfullscreen></iframe>
-        <strong>🎓 Internship Summary: SmartBridge</strong>
-      </div>
-    </div>
-  </div>
-
-  <div class="custom-section">
     <h2>🖼️ Highlights from My Journey</h2>
-    <div class="image-slider-container">
-      <div class="image-slider-wrapper">
-        <img src="/images/sg_senator_result.png" alt="SGA Re-election">
-        <img src="/images/asic_class_fall2023.png" alt="ASIC Teaching">
-        <img src="/images/Falcon.png" alt="Falcon Project">
-        <img src="/images/Lunar.png" alt="Lunar Lander">
-      </div>
+    <div class="slider-container">
+      <button id="prevBtn" class="slider-button slider-prev">&#10094;</button>
+      <img src="/images/sg_senator_result.png" alt="SGA Result" class="slider-image active">
+      <img src="/images/asic_class_fall2023.png" alt="ASIC Teaching" class="slider-image">
+      <img src="/images/Falcon.png" alt="Falcon Project" class="slider-image">
+      <img src="/images/Lunar.png" alt="Lunar Project" class="slider-image">
+      <button id="nextBtn" class="slider-button slider-next">&#10095;</button>
     </div>
   </div>
 
