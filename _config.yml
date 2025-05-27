@@ -107,13 +107,13 @@ analytics:
 
 # Site Author (Sidebar Bio)
 author:
-  name             : 
+  name             : "Srinivas Rahul Sapireddy"
   avatar           : 
-  bio              : 
-  location         : 
-  email            : 
-  github           : 
-  linkedin         : 
+  bio              : "Ph.D. Candidate | Electrical & Computer Engineering | UMKC"
+  location         : "United States"
+  email            : "sapireddysrinivas2020@gmail.com"
+  github           : "srsapireddy"
+  linkedin         : "srsapireddy2020"
   orcid            : 
   
 
