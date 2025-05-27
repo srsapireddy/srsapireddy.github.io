@@ -14,6 +14,23 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "contrast" 
 
+# SEO metadata
+title: "Srinivas Rahul Sapireddy"
+description: "Ph.D. Candidate in ECE | Research in Hardware-Aware AI, VLSI Design, and RF Signal Processing"
+url: "https://srsapireddy.github.io"
+baseurl: "" # if your site is hosted at root
+author:
+  name: "Srinivas Rahul Sapireddy"
+  email: "sapireddysrinivas2020@gmail.com"
+  twitter: "srsapireddy" # if available
+social:
+  name: "Srinivas Rahul Sapireddy"
+  links:
+    - "https://github.com/srsapireddy"
+    - "https://linkedin.com/in/srsapireddy2020"
+    - "https://medium.com/@srsapireddy"
+    - "mailto:sapireddysrinivas2020@gmail.com"
+
 # Site Settings
 locale                   : "en-US"
 title                    : "Homepage"
@@ -214,6 +231,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
