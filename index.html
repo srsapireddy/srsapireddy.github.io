@@ -111,30 +111,29 @@ layout: default
   }
 
   /* Image Slider */
-  .slider-box {
-    border: 2px solid #1a73e8;
-    border-radius: 12px;
-    background: #ffffff;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    padding: 1rem;
-    margin-top: 2rem;
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+  .image-slider-container {
+    position: relative;
+    width: 576px;
+    height: 576px;
+    margin: 0 auto;
     overflow: hidden;
+    border-radius: 12px;
+    border: 2px solid #1a73e8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   }
 
-  .slider-wrapper {
+  .image-slider-wrapper {
     display: flex;
-    animation: slide 12s infinite ease-in-out;
     width: 400%;
+    animation: slide 16s infinite ease-in-out;
   }
 
-  .slider-wrapper img {
-    width: 100%;
-    border-radius: 10px;
-    object-fit: contain;
-    flex: 0 0 100%;
+  .image-slider-wrapper img {
+    width: 576px;
+    height: 576px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 12px;
   }
 
   @keyframes slide {
@@ -195,12 +194,12 @@ layout: default
 
   <div class="custom-section">
     <h2>🖼️ Highlights from My Journey</h2>
-    <div class="slider-box">
-      <div class="slider-wrapper">
-        <img src="/images/sg_senator_result.png" alt="SGA Senator">
+    <div class="image-slider-container">
+      <div class="image-slider-wrapper">
+        <img src="/images/sg_senator_result.png" alt="SGA Re-election">
         <img src="/images/asic_class_fall2023.png" alt="ASIC Teaching">
         <img src="/images/Falcon.png" alt="Falcon Project">
-        <img src="/images/Lunar.png" alt="Lunar Project">
+        <img src="/images/Lunar.png" alt="Lunar Lander">
       </div>
     </div>
   </div>
