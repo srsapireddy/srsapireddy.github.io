@@ -110,32 +110,38 @@ layout: default
     font-weight: bold;
   }
 
-  /* Image slider */
-  .slider-container {
-    max-width: 100%;
-    overflow: hidden;
-    border-radius: 14px;
-    margin-bottom: 2rem;
-  }
-
-  .slider-track {
-    display: flex;
-    width: 400%;
-    animation: slide 16s infinite;
-  }
-
-  .slider-track img {
-    width: 100%;
+  /* Image Slider */
+  .slider-box {
+    border: 2px solid #1a73e8;
     border-radius: 12px;
-    flex: 1 0 100%;
-    transition: transform 0.5s ease;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    padding: 1rem;
+    margin-top: 2rem;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+  .slider-wrapper {
+    display: flex;
+    animation: slide 12s infinite ease-in-out;
+    width: 400%;
+  }
+
+  .slider-wrapper img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+    flex: 0 0 100%;
   }
 
   @keyframes slide {
-    0% { transform: translateX(0%); }
-    25% { transform: translateX(-100%); }
-    50% { transform: translateX(-200%); }
-    75% { transform: translateX(-300%); }
+    0%   { transform: translateX(0%); }
+    25%  { transform: translateX(-100%); }
+    50%  { transform: translateX(-200%); }
+    75%  { transform: translateX(-300%); }
     100% { transform: translateX(0%); }
   }
 </style>
@@ -146,16 +152,6 @@ layout: default
     <h1>Welcome to My Digital Portfolio</h1>
     <p><strong>Srinivas Rahul Sapireddy</strong><br>Ph.D. Candidate · Electrical & Computer Engineering · UMKC</p>
   </center>
-
-  <!-- 🔄 Image Slider -->
-  <div class="slider-container">
-    <div class="slider-track">
-      <img src="/images/sg_senator_result.png" alt="SGA">
-      <img src="/images/asic_class_fall2023.png" alt="Class">
-      <img src="/images/Falcon.png" alt="Falcon">
-      <img src="/images/Lunar.png" alt="Lunar">
-    </div>
-  </div>
 
   <div class="custom-section">
     <h2>🔬 Research Areas</h2>
@@ -193,6 +189,18 @@ layout: default
       <div class="media-item">
         <iframe src="https://www.youtube.com/embed/E9ItHVkHuy8" title="Internship Showcase" frameborder="0" allowfullscreen></iframe>
         <strong>🎓 Internship Summary: SmartBridge</strong>
+      </div>
+    </div>
+  </div>
+
+  <div class="custom-section">
+    <h2>🖼️ Highlights from My Journey</h2>
+    <div class="slider-box">
+      <div class="slider-wrapper">
+        <img src="/images/sg_senator_result.png" alt="SGA Senator">
+        <img src="/images/asic_class_fall2023.png" alt="ASIC Teaching">
+        <img src="/images/Falcon.png" alt="Falcon Project">
+        <img src="/images/Lunar.png" alt="Lunar Project">
       </div>
     </div>
   </div>
