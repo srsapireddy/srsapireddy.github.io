@@ -41,6 +41,7 @@ layout: default
     padding: 1.5rem;
     margin: 2rem 0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    transition: 0.3s;
   }
 
   .custom-section:hover {
@@ -79,9 +80,42 @@ layout: default
     color: #1a73e8;
   }
 
+  .media-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .media-item {
+    flex: 1 1 300px;
+    border: 2px solid #1a73e8;
+    border-radius: 12px;
+    padding: 1rem;
+    background: #f9fbff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  }
+
+  .media-item iframe,
+  .media-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+  }
+
+  .connect-links a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: bold;
+  }
+
+  /* Slider styles */
   .slider-container {
     width: 672px;
+    max-width: 100%;
     height: 672px;
+    max-height: 100%;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -92,10 +126,11 @@ layout: default
 
   .slider-image {
     display: none;
-    width: 672px;
-    height: 672px;
-    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     border-radius: 12px;
+    background: #fff;
   }
 
   .slider-image.active {
@@ -109,56 +144,31 @@ layout: default
     background-color: rgba(26, 115, 232, 0.8);
     border: none;
     color: white;
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding: 0.4rem 0.8rem;
     border-radius: 6px;
     cursor: pointer;
+    z-index: 10;
   }
 
   .slider-button:hover {
     background-color: rgba(15, 87, 201, 0.9);
   }
 
-  .slider-prev {
-    left: 10px;
-  }
+  .slider-prev { left: 10px; }
+  .slider-next { right: 10px; }
 
-  .slider-next {
-    right: 10px;
-  }
-
-  .connect-links a {
-    margin-right: 1rem;
-    text-decoration: none;
-    color: #1a73e8;
-    font-weight: bold;
+  @media (max-width: 700px) {
+    .slider-container {
+      width: 95vw;
+      height: 95vw;
+    }
+    .slider-button {
+      font-size: 1.5rem;
+      padding: 0.3rem 0.6rem;
+    }
   }
 </style>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    let currentIndex = 0;
-    const images = document.querySelectorAll('.slider-image');
-
-    function showImage(index) {
-      images.forEach((img, i) => {
-        img.classList.toggle('active', i === index);
-      });
-    }
-
-    document.getElementById('prevBtn').addEventListener('click', () => {
-      currentIndex = (currentIndex - 1 + images.length) % images.length;
-      showImage(currentIndex);
-    });
-
-    document.getElementById('nextBtn').addEventListener('click', () => {
-      currentIndex = (currentIndex + 1) % images.length;
-      showImage(currentIndex);
-    });
-
-    showImage(currentIndex); // Initial image
-  });
-</script>
 
 <div class="custom-home">
   <center>
@@ -190,6 +200,24 @@ layout: default
   </div>
 
   <div class="custom-section">
+    <h2>🎥 Featured Demos</h2>
+    <div class="media-showcase">
+      <div class="media-item">
+        <iframe src="https://www.youtube.com/embed/aRM4DP-gUbg" title="Hackathon Fall 2021" frameborder="0" allowfullscreen></iframe>
+        <strong>🏆 Hackathon Win – Fall 2021</strong>
+      </div>
+      <div class="media-item">
+        <iframe src="https://www.youtube.com/embed/cJ4JHmoTgas" title="Hackathon Fall 2022" frameborder="0" allowfullscreen></iframe>
+        <strong>🏆 Hackathon Win – Fall 2022</strong>
+      </div>
+      <div class="media-item">
+        <iframe src="https://www.youtube.com/embed/E9ItHVkHuy8" title="Internship Showcase" frameborder="0" allowfullscreen></iframe>
+        <strong>🎓 Internship Summary: SmartBridge</strong>
+      </div>
+    </div>
+  </div>
+
+  <div class="custom-section">
     <h2>🖼️ Highlights from My Journey</h2>
     <div class="slider-container">
       <button id="prevBtn" class="slider-button slider-prev">&#10094;</button>
@@ -211,3 +239,28 @@ layout: default
     </p>
   </div>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  let currentIndex = 0;
+  const images = document.querySelectorAll('.slider-image');
+
+  function showImage(index) {
+    images.forEach((img, i) => {
+      img.classList.toggle('active', i === index);
+    });
+  }
+
+  document.getElementById('prevBtn').addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage(currentIndex);
+  });
+
+  document.getElementById('nextBtn').addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImage(currentIndex);
+  });
+
+  showImage(currentIndex);
+});
+</script>
