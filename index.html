@@ -109,6 +109,35 @@ layout: default
     color: #1a73e8;
     font-weight: bold;
   }
+
+  /* Image slider */
+  .slider-container {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 14px;
+    margin-bottom: 2rem;
+  }
+
+  .slider-track {
+    display: flex;
+    width: 400%;
+    animation: slide 16s infinite;
+  }
+
+  .slider-track img {
+    width: 100%;
+    border-radius: 12px;
+    flex: 1 0 100%;
+    transition: transform 0.5s ease;
+  }
+
+  @keyframes slide {
+    0% { transform: translateX(0%); }
+    25% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    100% { transform: translateX(0%); }
+  }
 </style>
 
 <div class="custom-home">
@@ -117,6 +146,16 @@ layout: default
     <h1>Welcome to My Digital Portfolio</h1>
     <p><strong>Srinivas Rahul Sapireddy</strong><br>Ph.D. Candidate · Electrical & Computer Engineering · UMKC</p>
   </center>
+
+  <!-- 🔄 Image Slider -->
+  <div class="slider-container">
+    <div class="slider-track">
+      <img src="/images/sg_senator_result.png" alt="SGA">
+      <img src="/images/asic_class_fall2023.png" alt="Class">
+      <img src="/images/Falcon.png" alt="Falcon">
+      <img src="/images/Lunar.png" alt="Lunar">
+    </div>
+  </div>
 
   <div class="custom-section">
     <h2>🔬 Research Areas</h2>
@@ -154,20 +193,6 @@ layout: default
       <div class="media-item">
         <iframe src="https://www.youtube.com/embed/E9ItHVkHuy8" title="Internship Showcase" frameborder="0" allowfullscreen></iframe>
         <strong>🎓 Internship Summary: SmartBridge</strong>
-      </div>
-    </div>
-  </div>
-
-  <div class="custom-section">
-    <h2>🖼️ Highlights from My Journey</h2>
-    <div class="media-showcase">
-      <div class="media-item">
-        <img src="/images/sg_senator_result.png" alt="SGA Re-election">
-        <strong>🎓 Elected SGA Senator (SSE) – 2024-25</strong>
-      </div>
-      <div class="media-item">
-        <img src="/images/asic_class_fall2023.png" alt="ASIC Teaching">
-        <strong>👨‍🏫 Instructor – ASIC Physical Design, Fall 2023</strong>
       </div>
     </div>
   </div>
