@@ -107,9 +107,9 @@ analytics:
 
 # Site Author (Sidebar Bio)
 author:
-  name             : "Srinivas Rahul Sapireddy"
+  name             : 
   avatar           : 
-  bio              : "Ph.D. Student | Electrical & Computer Engineering | UMKC"
+  bio              : 
   location         : "Kansas City, MO"
   email            : "sapireddysrinivas2020@gmail.com"
   github           : "srsapireddy"
