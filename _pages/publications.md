@@ -157,20 +157,21 @@ permalink: /publications/
     </div>
   </div>
 
-  <div class="logo-row">
-    <a href="https://www.ieee.org/" target="_blank" title="IEEE">
-      <img src="/images/IEEE.jpg" alt="IEEE Logo" />
-    </a>
-    <a href="https://www.acm.org/" target="_blank" title="ACM">
-      <img src="/images/ACM.png" alt="ACM Logo" />
-    </a>
-    <a href="https://www.ornl.gov/" target="_blank" title="Oak Ridge National Laboratory">
-      <img src="/images/Oak.png" alt="ORNL Logo" />
-    </a>
-    <a href="https://openreview.net/" target="_blank" title="OpenReview">
-      <img src="/images/OPEN.jpg" alt="OpenReview Logo" />
-    </a>
-  </div>
+<div class="logo-row">
+  <a href="https://www.ieee.org/" target="_blank" title="IEEE">
+    <img src="/images/ieee.png" alt="IEEE Logo" />
+  </a>
+  <a href="https://www.acm.org/" target="_blank" title="ACM">
+    <img src="/images/acm.png" alt="ACM Logo" />
+  </a>
+  <a href="https://www.ornl.gov/" target="_blank" title="Oak Ridge National Laboratory">
+    <img src="/images/ornl.png" alt="ORNL Logo" />
+  </a>
+  <a href="https://openreview.net/" target="_blank" title="OpenReview">
+    <img src="/images/openreview.png" alt="OpenReview Logo" />
+  </a>
+</div>
+
 </section>
 
 <footer class="pub-footer">
