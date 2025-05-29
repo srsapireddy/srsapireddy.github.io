@@ -60,14 +60,7 @@ author_profile: true
   <h2>🚀 Hackathon Projects</h2>
   <div class="project-grid">
     <div class="project-box">
-      <a href="https://github.com/srsapireddy/Data_Centers" target="_blank">Data Centers</a>
-      <p>Smart data center analytics with optimized power usage and real-time monitoring dashboards.</p>
-    </div>
-    <div class="project-box">
-      <a href="https://github.com/srsapireddy/Falcon-Application" target="_blank">Falcon Application</a>
-      <p>Personal assistant app.</p>
-    </div>
-        <div class="project-box">
+              <div class="project-box">
       <a href="https://github.com/srsapireddy/lunar_lander_using_DQN" target="_blank">Lunar Lander using DQN</a>
       <p>Deep Q-Learning based game simulation using OpenAI Gym for dynamic control.</p>
     </div>
@@ -75,6 +68,14 @@ author_profile: true
       <a href="https://github.com/srsapireddy/Intelligent-Worker-Safety-System-with-Real-Time-Alerts-and-Machine-Control" target="_blank">Worker Safety System</a>
       <p>IoT-based smart safety monitoring system for industrial workers with instant alerting.</p>
     </div>
+      <a href="https://github.com/srsapireddy/Data_Centers" target="_blank">Data Centers</a>
+      <p>Smart data center analytics with optimized power usage and real-time monitoring dashboards.</p>
+    </div>
+    <div class="project-box">
+      <a href="https://github.com/srsapireddy/Falcon-Application" target="_blank">Falcon Application</a>
+      <p>Personal assistant app.</p>
+    </div>
+
 
   </div>
 </div>
