@@ -1,9 +1,12 @@
 <!-- projects.html -->
 ---
-layout: default
 title: "Projects"
 permalink: /projects/
+layout: single
+classes: wide
+author_profile: true
 ---
+
 
 <style>
   .projects-section {
