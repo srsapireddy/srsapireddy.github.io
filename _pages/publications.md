@@ -1,7 +1,6 @@
 ---
 title: "Publications"
 permalink: /publications/
-layout: single
 ---
 
 <style>
@@ -63,26 +62,6 @@ layout: single
 .pub-footer a:hover {
   text-decoration: underline;
 }
-
-.logo-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  margin-top: 3rem;
-  flex-wrap: wrap;
-}
-
-.logo-row img {
-  height: 50px;
-  max-width: 120px;
-  transition: transform 0.3s ease;
-  object-fit: contain;
-}
-
-.logo-row img:hover {
-  transform: scale(1.1);
-}
 </style>
 
 <section id="publications">
@@ -95,49 +74,42 @@ layout: single
       <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
       <span class="status pending">Submitted</span>
     </div>
-
-    <div class="pub-card">
-      Naznin Akther, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
+        <div class="pub-card">
+      Naznin Akther, <strong>Srinivas Rahul Sapireddy</strong> Mostafizur Rahman<br>
       <em>“Unsupervised Learning of Transient RF Features for Device Identity Discovery and Tracking in Edge Environments”</em><br>
       <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
       <span class="status pending">Submitted</span>
     </div>
-
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>“On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”</em><br>
       <a href="https://www.glsvlsi.org" target="_blank">ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA. 
       <span class="status accepted">Accepted</span>
     </div>
-
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>“Re-Visiting R: Statistical Envelope Analysis for Lightweight Modulation Classification”</em><br>
       International Conference on Radio Frequency Communication and Networks (RFCoN), 2025.
       <span class="status accepted">Accepted</span>
     </div>
-
     <div class="pub-card">
       Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>“Reclaiming Security in Internet-of-Thing Networks: The Power of Early Detection Against Adversarial Examples”</em><br>
       <em>ACM Transactions on Cyber-Physical Systems (TCPS)</em>, 2025.
       <span class="status review">Under Review</span>
     </div>
-
     <div class="pub-card">
       Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>“An Opensource Framework for Offloading Big Data and AI Tasks (OFFLOAD) to Heterogeneous Compute Units”</em><br>
       <a href="https://www.glsvlsi.org" target="_blank">ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA.
       <span class="status review">Under Review</span>
     </div>
-
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
       <em>“Simplifying Activations with Linear Approximations in Neural Networks”</em><br>
-      <em>IEEE Transactions on Artificial Intelligence (TAI)</em>, 2024.
+      <em>IEEE Transactions on artificial intelligence (TAI)</em>, 2024.
       <span class="status pending">Submitted</span>
     </div>
-
     <div class="pub-card">
       Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
       <em>“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</em><br>
@@ -145,48 +117,24 @@ layout: single
       <a href="https://doi.org/10.1016/j.memori.2023.100094" target="_blank">[DOI]</a>
       <span class="status published">Published</span>
     </div>
-
     <div class="pub-card">
       Bhavya Teja Gurijala, <strong>Srinivas Rahul Sapireddy</strong><br>
       <em>“Automation of Patient Medical Record Dispatch System Software Application”</em><br>
       <em>International Journal of Advanced Research in Science, Engineering and Technology (IJARSET)</em>, vol. 5, issue 6, pp. 6074–6097, June 2018.
       <span class="status published">Published</span>
     </div>
-
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong><br>
       <em>“CAM Cell Based Memory Architecture for Extreme Searching Operations”</em><br>
       <em>International Journal of Advances in Electronics & Computer Science</em>, vol. 3, issue 8, pp. 80–83, August 2016.
       <span class="status published">Published</span>
     </div>
-
     <div class="pub-card">
       <strong>Sapireddy, Srinivas Rahul</strong>, P. N. Tejaswi, Y. M. Sandeep, K. Hari Krishna<br>
       <em>“Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer”</em><br>
       <em>International Journal of Engineering Trends and Technology (IJETT)</em>, vol. 34, no. 6, pp. 256–259, April 2016.
       <span class="status published">Published</span>
     </div>
-  </div>
-
-  <div class="logo-row">
-    <a href="https://www.ieee.org/" target="_blank" title="IEEE">
-      <img src="/images/ieee.jpg" alt="IEEE Logo" />
-    </a>
-    <a href="https://www.acm.org/" target="_blank" title="ACM">
-      <img src="/images/acm.png" alt="ACM Logo" />
-    </a>
-    <a href="https://www.ornl.gov/" target="_blank" title="Oak Ridge National Laboratory">
-      <img src="/images/ornl.jpg" alt="ORNL Logo" />
-    </a>
-    <a href="https://openreview.net/" target="_blank" title="OpenReview">
-      <img src="/images/openreview.jpg" alt="OpenReview Logo" />
-    </a>
-    <a href="https://www.uis.edu/" target="_blank" title="UIS">
-      <img src="/images/uis.png" alt="UIS Logo" />
-    </a>
-    <a href="https://www.umkc.edu/" target="_blank" title="UMKC">
-      <img src="/images/umkc.png" alt="UMKC Logo" />
-    </a>
   </div>
 </section>
 
