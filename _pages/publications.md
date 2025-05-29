@@ -4,6 +4,27 @@ permalink: /publications/
 ---
 
 <style>
+.logo-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.logo-row img {
+  height: 50px;
+  max-width: 120px;
+  transition: transform 0.3s ease;
+  object-fit: contain;
+}
+
+.logo-row img:hover {
+  transform: scale(1.1);
+}
+
+  
 .pub-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -136,6 +157,28 @@ permalink: /publications/
       <span class="status published">Published</span>
     </div>
   </div>
+
+  <div class="logo-row">
+  <a href="https://www.ieee.org/" target="_blank" title="IEEE">
+    <img src="/images/IEEE.jpg" alt="IEEE Logo" />
+  </a>
+  <a href="https://www.acm.org/" target="_blank" title="ACM">
+    <img src="/images/ACM.png" alt="ACM Logo" />
+  </a>
+  <a href="https://www.ornl.gov/" target="_blank" title="Oak Ridge National Laboratory">
+    <img src="/images/Oak.jpg" alt="ORNL Logo" />
+  </a>
+  <a href="https://openreview.net/" target="_blank" title="OpenReview">
+    <img src="/images/OPEN.jpg" alt="OpenReview Logo" />
+  </a>
+  <a href="https://www.uis.edu/" target="_blank" title="UIS">
+    <img src="/images/UIS.png" alt="UIS Logo" />
+  </a>
+  <a href="https://www.umkc.edu/" target="_blank" title="UMKC">
+    <img src="/images/UMKC.png" alt="UMKC Logo" />
+  </a>
+</div>
+
 </section>
 
 <footer class="pub-footer">
