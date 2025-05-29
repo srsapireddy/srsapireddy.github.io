@@ -62,6 +62,26 @@ permalink: /publications/
 .pub-footer a:hover {
   text-decoration: underline;
 }
+
+.logo-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.logo-row img {
+  height: 50px;
+  max-width: 120px;
+  transition: transform 0.3s ease;
+  object-fit: contain;
+}
+
+.logo-row img:hover {
+  transform: scale(1.1);
+}
 </style>
 
 <section id="publications">
@@ -74,8 +94,8 @@ permalink: /publications/
       <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
       <span class="status pending">Submitted</span>
     </div>
-        <div class="pub-card">
-      Naznin Akther, <strong>Srinivas Rahul Sapireddy</strong> Mostafizur Rahman<br>
+    <div class="pub-card">
+      Naznin Akther, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>“Unsupervised Learning of Transient RF Features for Device Identity Discovery and Tracking in Edge Environments”</em><br>
       <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
       <span class="status pending">Submitted</span>
@@ -107,7 +127,7 @@ permalink: /publications/
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
       <em>“Simplifying Activations with Linear Approximations in Neural Networks”</em><br>
-      <em>IEEE Transactions on artificial intelligence (TAI)</em>, 2024.
+      <em>IEEE Transactions on Artificial Intelligence (TAI)</em>, 2024.
       <span class="status pending">Submitted</span>
     </div>
     <div class="pub-card">
@@ -135,6 +155,21 @@ permalink: /publications/
       <em>International Journal of Engineering Trends and Technology (IJETT)</em>, vol. 34, no. 6, pp. 256–259, April 2016.
       <span class="status published">Published</span>
     </div>
+  </div>
+
+  <div class="logo-row">
+    <a href="https://www.ieee.org/" target="_blank" title="IEEE">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/IEEE_logo.svg/320px-IEEE_logo.svg.png" alt="IEEE Logo" />
+    </a>
+    <a href="https://www.acm.org/" target="_blank" title="ACM">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Association_for_Computing_Machinery_%28ACM%29_logo.svg/320px-Association_for_Computing_Machinery_%28ACM%29_logo.svg.png" alt="ACM Logo" />
+    </a>
+    <a href="https://openreview.net/" target="_blank" title="OpenReview">
+      <img src="https://openreview.net/static/images/logo.svg" alt="OpenReview Logo" />
+    </a>
+    <a href="https://www.ornl.gov/" target="_blank" title="Oak Ridge National Laboratory">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Oak_Ridge_National_Laboratory_logo.svg/320px-Oak_Ridge_National_Laboratory_logo.svg.png" alt="ORNL Logo" />
+    </a>
   </div>
 </section>
 
