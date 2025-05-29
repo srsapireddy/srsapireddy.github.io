@@ -1,7 +1,9 @@
 ---
 title: "Publications"
 permalink: /publications/
+layout: single
 ---
+
 
 <style>
 .pub-grid {
