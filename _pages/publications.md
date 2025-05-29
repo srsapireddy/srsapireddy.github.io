@@ -72,7 +72,13 @@ permalink: /publications/
       <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
       <em>“RF Modulation Classification Using CAF-Based Bin Selection and Multi-Model Evaluation of Hybrid Time-Frequency Features”</em><br>
       <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
-      <span class="status pending">To Be Submitted</span>
+      <span class="status pending">Submitted</span>
+    </div>
+        <div class="pub-card">
+      Naznin Akther, <strong>Srinivas Rahul Sapireddy</strong> Mostafizur Rahman<br>
+      <em>“Unsupervised Learning of Transient RF Features for Device Identity Discovery and Tracking in Edge Environments”</em><br>
+      <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
+      <span class="status pending">Submitted</span>
     </div>
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
@@ -101,8 +107,8 @@ permalink: /publications/
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
       <em>“Simplifying Activations with Linear Approximations in Neural Networks”</em><br>
-      <em>Memories – Materials, Devices, Circuits and Systems</em>, 2024.
-      <span class="status review">Under Review</span>
+      <em>IEEE Transactions on artificial intelligence (TAI)</em>, 2024.
+      <span class="status pending">Submitted</span>
     </div>
     <div class="pub-card">
       Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
