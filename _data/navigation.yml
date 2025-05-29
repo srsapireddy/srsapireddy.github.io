@@ -16,6 +16,8 @@ main:
     url: /moments/
   - title: "Presentations"
     url: /presentations/ 
+  - title: "Projects"
+    url: /projects/
   - title: "Search"
     url: /search/
   # - title: "About"
