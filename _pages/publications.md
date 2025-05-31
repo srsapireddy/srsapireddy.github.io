@@ -91,7 +91,7 @@ permalink: /publications/
   <div class="pub-grid">
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
-      <em>“RF Modulation Classification Using CAF-Based Bin Selection and Multi-Model Evaluation of Hybrid Time-Frequency Features”</em><br>
+      <em>“Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Autocorrelation-Based Binning”</em><br>
       <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
       <span class="status pending">Submitted</span>
     </div>
