@@ -95,12 +95,6 @@ permalink: /publications/
       <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
       <span class="status pending">Submitted</span>
     </div>
-        <div class="pub-card">
-      Naznin Akther, <strong>Srinivas Rahul Sapireddy</strong> Mostafizur Rahman<br>
-      <em>“Unsupervised Learning of Transient RF Features for Device Identity Discovery and Tracking in Edge Environments”</em><br>
-      <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
-      <span class="status pending">Submitted</span>
-    </div>
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>“On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”</em><br>
