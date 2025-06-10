@@ -116,7 +116,7 @@ permalink: /publications/
     <div class="pub-card">
       Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>“An Opensource Framework for Offloading Big Data and AI Tasks (OFFLOAD) to Heterogeneous Compute Units”</em><br>
-      <a href="https://www.glsvlsi.org" target="_blank">ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA.
+      <em>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</em>, 2025.
       <span class="status review">Under Review</span>
     </div>
     <div class="pub-card">
