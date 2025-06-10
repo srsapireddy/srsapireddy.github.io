@@ -110,7 +110,7 @@ permalink: /publications/
     <div class="pub-card">
       Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>“Reclaiming Security in Internet-of-Thing Networks: The Power of Early Detection Against Adversarial Examples”</em><br>
-      <em>ACM Transactions on Cyber-Physical Systems (TCPS)</em>, 2025.
+      <em>MDPI Electronics</em>, 2025.
       <span class="status review">Under Review</span>
     </div>
     <div class="pub-card">
