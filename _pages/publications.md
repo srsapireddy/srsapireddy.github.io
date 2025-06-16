@@ -122,8 +122,8 @@ permalink: /publications/
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
       <em>“Simplifying Activations with Linear Approximations in Neural Networks”</em><br>
-      <em>IEEE Transactions on artificial intelligence (TAI)</em>, 2024.
-      <span class="status pending">Submitted</span>
+      <em>Memories – Materials, Devices, Circuits and Systems</em>, 2024.
+      <span class="status review">Submitted</span>
     </div>
     <div class="pub-card">
       Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
