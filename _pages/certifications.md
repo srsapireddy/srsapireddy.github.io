@@ -64,7 +64,7 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
 }
 </style>
 
-## Certifications
+## 🌐 Certifications
 <!-- Certifications -->
 <div class="cert-grid lightbox-gallery">
   <div class="cert-card">
@@ -145,7 +145,7 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
 
 ---
 
-## Professional Memberships
+## 🌐 Professional Memberships
 
 <div class="cert-grid lightbox-gallery">
   <div class="cert-card">
