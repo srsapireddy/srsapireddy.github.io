@@ -69,7 +69,7 @@ author_profile: true
 <div class="presentation-grid">
   <div class="presentation-card" onclick="openLightbox('/publications/rfcon.pdf')">
     <img src="/images/rfcon_presentation_thumbnail.png" alt="RFcoN 2025 Presentation">
-    <h4>UMKC Assistant Teaching Professor Interview</h4>
+    <h4>International Conference on RF Communication and Networks (RFCoN-2025) Presentation</h4>
   </div>
   
   <div class="presentation-card" onclick="openLightbox('/publications/UMKC_ATP_Interview_Presentation_Rahul.pdf')">
