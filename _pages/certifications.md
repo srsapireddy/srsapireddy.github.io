@@ -64,6 +64,34 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
 }
 </style>
 
+## Professional Memberships
+
+<div class="cert-grid lightbox-gallery">
+  <div class="cert-card">
+    <img src="/images/ACM_Membership.png" alt="ACM Membership">
+    <div class="cert-title">
+      ACM Member<br>
+      <small>Membership ID: 8325933</small>
+    </div>
+  </div>
+  <div class="cert-card">
+    <img src="/images/IEEE_Membership.png" alt="IEEE Membership">
+    <div class="cert-title">
+      IEEE Member<br>
+      <small>Membership ID: 93943359</small>
+    </div>
+  </div>
+  <div class="cert-card">
+    <img src="/images/aaai_placeholder.png" alt="AAAI Membership">
+    <div class="cert-title">
+      AAAI Member<br>
+      <small>Membership ID: 648148</small>
+    </div>
+  </div>
+</div>
+
+
+
 <!-- Certifications -->
 <div class="cert-grid lightbox-gallery">
   <div class="cert-card">
