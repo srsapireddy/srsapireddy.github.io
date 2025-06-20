@@ -67,6 +67,11 @@ author_profile: true
 ## 🎤 Featured Presentations
 
 <div class="presentation-grid">
+  <div class="presentation-card" onclick="openLightbox('/publications/rfcon.pdf')">
+    <img src="/images/rfcon_presentation_thumbnail.png" alt="RFcoN 2025 Presentation">
+    <h4>UMKC Assistant Teaching Professor Interview</h4>
+  </div>
+  
   <div class="presentation-card" onclick="openLightbox('/publications/UMKC_ATP_Interview_Presentation_Rahul.pdf')">
     <img src="/images/umkc_presentation_thumbnail.png" alt="UMKC Presentation">
     <h4>UMKC Assistant Teaching Professor Interview</h4>
