@@ -82,7 +82,7 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     </div>
   </div>
   <div class="cert-card">
-    <img src="/images/aaai_placeholder.png" alt="AAAI Membership">
+    <img src="/images/aaai_placeholder.jpg" alt="AAAI Membership">
     <div class="cert-title">
       AAAI Member<br>
       <small>Membership ID: 648148</small>
