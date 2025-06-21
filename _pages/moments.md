@@ -73,7 +73,7 @@ author_profile: true
   <div class="highlight-card">
     <img src="/images/rfcon_award.png" alt="Best Paper Award – RFCoN 2025">
     <h4>🏆 Best Paper Award – RFCoN 2025</h4>
-    <p>Honored to receive the Best Paper Award at the 1st Intl. Conf. on RF Communication and Networks (Track 2, Session II).</p>
+    <p>Honored to receive the Best Paper Award at the IEEE International Conference on RF Communication and Networks (Track 2, Session II).</p>
   </div>
 
   <div class="highlight-card">
