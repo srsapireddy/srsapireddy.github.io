@@ -1,5 +1,5 @@
 ---
-title: "Presentations"
+title: "Presentations & Talks"
 layout: single
 permalink: /presentations/
 author_profile: true
