@@ -94,10 +94,11 @@ Research Assistant at <strong>Missouri Institute of Defense and Energy</strong> 
 <div class="about-section">
 <h3>🏅 Awards & Recognitions</h3>
 <ul>
+  <li>🏆 Best Paper Award – RFCoN 2025 (Track 2, Session II)</li>
   <li>🥈 2nd Prize – Hack-A-Roo Fall 2022 (Entrepreneur Track)</li>
   <li>🥉 3rd Prize – Hack-A-Roo Fall 2021 (CS/IT Track)</li>
   <li>🎓 Dean’s International Scholar Award – UMKC</li>
-  <li>🇺🇸 CS Balaji Memorial Travel Grant – 2025</li>
+  <li>🎓 CS Balaji Memorial Travel Grant – 2025</li>
   <li>🏅 Honor Society – IEEE-HKN (Eta Kappa Nu)</li>
 </ul>
 </div>
