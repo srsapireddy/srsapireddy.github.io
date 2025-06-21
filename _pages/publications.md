@@ -104,7 +104,7 @@ permalink: /publications/
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>“Re-Visiting R: Statistical Envelope Analysis for Lightweight Modulation Classification”</em><br>
-      International Conference on Radio Frequency Communication and Networks (RFCoN), 2025.  
+      <em>IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)<em>, 2025. 
       <span class="status accepted">🏆 Best Paper Award</span><br>
       <small><em>Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12%</em></small>
     </div>
