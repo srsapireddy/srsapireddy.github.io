@@ -135,7 +135,7 @@ author_profile: true
 <table class="resume-table">
 <thead><tr><th>Title</th><th>Venue</th><th>Status</th></tr></thead>
 <tbody>
-<tr><td>Re-Visiting R: Statistical Envelope Analysis</td><td>RFCoN 2025</td><td>Accepted</td></tr>
+<tr><td>🏆 Re-Visiting R: Statistical Envelope Analysis (Best Paper Award)</td><td>RFCoN 2025</td><td>Awarded</td></tr>
 <tr><td>Custom Activations in LSTM</td><td>GLSVLSI 2025</td><td>Accepted</td></tr>
 <tr><td>Linear Approx. Activations</td><td>Memories Journal</td><td>Under Review</td></tr>
 <tr><td>Review: Crosstalk Polymorphic Circuits</td><td>Memories Journal</td><td>Published</td></tr>
