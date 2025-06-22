@@ -112,7 +112,7 @@ author_profile: true
     <img src="/images/glsposter.png" alt="GLSVLSI">
     <div class="cert-title">GLSVLSI 2025 – Poster Presentation</div>
   </div>
-  <div class="cert-card">
+  <div class="presentation-grid">
     <img src="/images/rfcon_presenter.png" alt="RFconN">
     <div class="cert-title">RFCoN 2025 – Oral Presentation</div>
   </div>
