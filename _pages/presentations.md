@@ -109,8 +109,8 @@ author_profile: true
 
 <div class="presentation-grid">
 
-  <div class="presentation-card" onclick="openLightbox('/images/glsposter.png.pdf')">
-    <img src="/images/glsposter" alt="GLSVLSI Poster Presentation">
+  <div class="presentation-card" onclick="openLightbox('/images/glsposter.png')">
+    <img src="/images/glsposter.png" alt="GLSVLSI Poster Presentation">
     <h4>GLSVLSI 2025 – Poster Presentation</h4>
   </div>
 
