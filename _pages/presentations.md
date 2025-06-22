@@ -105,6 +105,25 @@ author_profile: true
 
 ---
 
+## 🧾 Conference Presentations & Posters
+
+<div class="presentation-grid">
+
+  <div class="presentation-card" onclick="openLightbox('/images/glsposter.png.pdf')">
+    <img src="/images/glsposter" alt="GLSVLSI Poster Presentation">
+    <h4>GLSVLSI 2025 – Poster Presentation</h4>
+  </div>
+
+  <div class="presentation-card" onclick="openLightbox('/images/rfcon_presenter.jpg')">
+    <img src="/images/rfcon_pres.jpg" alt="RFCoN Presentation">
+    <h4>RFCoN 2025 – Oral Presentation</h4>
+  </div>
+
+</div>
+
+
+---
+
 ## 🎥 Hackathons & Internship – YouTube Highlights
 
 <div class="youtube-card-grid">
