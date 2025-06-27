@@ -98,12 +98,13 @@ permalink: /publications/
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>“On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”</em><br>
-      <a href="https://www.glsvlsi.org" target="_blank">ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA. 
-      <span class="status accepted">Accepted</span>
+      <a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA. 
+      <span class="status accepted">Accepted</span><br>
+      <small><em> Session: VLSI for Machine Learning and Artificial Intelligence | Acceptance rate: 27%</em></small>
     </div>
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-      <em>“Re-Visiting R: Statistical Envelope Analysis for Lightweight Modulation Classification”</em><br>
+      <em><a href="https://arxiv.org/abs/2506.19956" target="_blank">“Re-Visiting R: Statistical Envelope Analysis for Lightweight Modulation Classification”</a></em><br>
       <em>IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025. 
       <span class="status accepted">🏆 Best Paper Award</span><br>
       <small><em>Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12%</em></small>
