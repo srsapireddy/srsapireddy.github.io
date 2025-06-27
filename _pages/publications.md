@@ -169,6 +169,9 @@ permalink: /publications/
   <a href="https://orcid.org/0009-0004-6956-0652" target="_blank" title="ORCID">
     <img src="/images/orcid.png" alt="ORCID Logo" />
   </a>
+    <a href="https://arxiv.org/search/eess?searchtype=author&query=Sapireddy,+S+R" target="_blank" title="AXVIR">
+    <img src="/images/axvir.jpg" alt="AXVIR Logo" />
+  </a>
   <a href="https://www.uis.edu/" target="_blank" title="UIS">
     <img src="/images/UIS.png" alt="UIS Logo" />
   </a>
