@@ -166,6 +166,9 @@ permalink: /publications/
   <a href="https://openreview.net/" target="_blank" title="OpenReview">
     <img src="/images/OPEN.jpg" alt="OpenReview Logo" />
   </a>
+  <a href="https://orcid.org/0009-0004-6956-0652" target="_blank" title="ORCID">
+    <img src="/images/orcid.png" alt="ORCID Logo" />
+  </a>
   <a href="https://www.uis.edu/" target="_blank" title="UIS">
     <img src="/images/UIS.png" alt="UIS Logo" />
   </a>
