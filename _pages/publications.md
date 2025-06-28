@@ -128,6 +128,12 @@ permalink: /publications/
       <span class="status review">Under Review</span>
     </div>
     <div class="pub-card">
+      <strong>Mostafizur Rahman, Arif Iqbal, Srinivas Rahul Sapireddy</strong><br>
+      <em>“A Messaging based Intelligent Computing Approach for Machine Learning Applications”</em><br>
+      <em>Accessed: Mar, Volume 20</em>, 2024.  
+      <span class="status online">📄 Online Archive – computing-lab.com |</span>
+    </div>
+    <div class="pub-card">
       Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
       <em>“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</em><br>
       <em>Memories – Materials, Devices, Circuits and Systems</em>, vol. 7, article 100094, 2023. 
