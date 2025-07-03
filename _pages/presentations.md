@@ -109,7 +109,7 @@ author_profile: true
 
 <div class="presentation-grid">
   <div class="presentation-card">
-    <img src="/images/glsposter.png" alt="GLSVLSI Poster">
+    <img src="/images/glsposter_1.png" alt="GLSVLSI Poster">
     <h4>GLSVLSI 2025 – Poster Presentation</h4>
   </div>
   
