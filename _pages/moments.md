@@ -71,6 +71,13 @@ author_profile: true
 <div class="highlight-grid">
 
   <div class="highlight-card">
+    <img src="/images/glsvlsi.jpg" alt="GLSVLSI">
+    <h4>Poster Presentation GLSVLSI 2025</h4>
+    <p>Poster Presentation at Great Lakes Symposium on VLSI (GLSVLSI) 2025, June 30 - July 2, 2025, New Orleans, LA, USA</p>
+  </div>
+
+   
+  <div class="highlight-card">
     <img src="/images/rfcon_award.png" alt="Best Paper Award – RFCoN 2025">
     <h4>🏆 Best Paper Award – RFCoN 2025</h4>
     <p>Honored to receive the Best Paper Award at the IEEE International Conference on RF Communication and Networks (Track 2, Session II).</p>
