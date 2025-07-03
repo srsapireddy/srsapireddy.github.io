@@ -71,7 +71,7 @@ author_profile: true
 <div class="highlight-grid">
 
   <div class="highlight-card">
-    <img src="/images/glsvlsi.jpg" alt="GLSVLSI">
+    <img src="/images/glsvlsi.jpeg" alt="GLSVLSI">
     <h4>Poster Presentation GLSVLSI 2025</h4>
     <p>Poster Presentation at Great Lakes Symposium on VLSI (GLSVLSI) 2025, June 30 - July 2, 2025, New Orleans, LA, USA</p>
   </div>
