@@ -181,6 +181,9 @@ permalink: /publications/
     <a href="https://arxiv.org/search/eess?searchtype=author&query=Sapireddy,+S+R" target="_blank" title="AXVIR">
     <img src="/images/axvir.jpg" alt="AXVIR Logo" />
   </a>
+    <a href="https://www.researchgate.net/profile/Srinivas-Rahul-Sapireddy" target="_blank" title="Research Gate">
+    <img src="/images/RG.jpg" alt="ResearchGate Logo" />
+  </a>
   <a href="https://www.uis.edu/" target="_blank" title="UIS">
     <img src="/images/UIS.png" alt="UIS Logo" />
   </a>
