@@ -95,20 +95,24 @@ permalink: /publications/
       <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
       <span class="status pending">Submitted</span>
     </div>
-    <div class="pub-card">
-      <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-      <em><a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">“On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”</a></em><br>
-      <a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA. 
-      <span class="status accepted">Accepted</span><br>
-      <small><em>Session: VLSI for Machine Learning and Artificial Intelligence | Acceptance rate: 27%</em></small>
-    </div>
-    <div class="pub-card">
-      <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-      <em><a href="https://arxiv.org/abs/2506.19956" target="_blank">“Re-Visiting R: Statistical Envelope Analysis for Lightweight Modulation Classification”</a></em><br>
-      <em>IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025. 
-      <span class="status accepted">🏆 Best Paper Award</span><br>
-      <small><em>Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12%</em></small>
-    </div>
+  <div class="pub-card">
+    <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
+    <em><a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">“On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”</a></em><br>
+    <a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA. 
+    <span class="status accepted">Accepted</span><br>
+    <small><em>Session: VLSI for Machine Learning and Artificial Intelligence | Acceptance rate: 27%</em></small><br>
+    📄 <a href="/images/GLSVLSI2025_CustomActivation.pdf" target="_blank">Download PDF</a>
+  </div>
+  
+  <div class="pub-card">
+    <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
+    <em><a href="https://arxiv.org/abs/2506.19956" target="_blank">“Re-Visiting R: Statistical Envelope Analysis for Lightweight Modulation Classification”</a></em><br>
+    <em>IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025. 
+    <span class="status accepted">🏆 Best Paper Award</span><br>
+    <small><em>Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12%</em></small><br>
+    📄 <a href="/images/PID718" target="_blank">Download PDF</a>
+  </div>
+
     <div class="pub-card">
       Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>“Reclaiming Security in Internet-of-Thing Networks: The Power of Early Detection Against Adversarial Examples”</em><br>
