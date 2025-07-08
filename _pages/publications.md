@@ -196,6 +196,7 @@ permalink: /publications/
 
 <footer class="pub-footer">
   📘 <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ&hl=en" target="_blank">Google Scholar</a>
+  📝 <a href="https://www.researchgate.net/profile/Srinivas-Rahul-Sapireddy" target="_blank">ResearchGate</a>
   🧬 <a href="https://orcid.org/0009-0004-6956-0652" target="_blank">ORCID</a>
   📝 <a href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank">OpenReview</a>
 </footer>
