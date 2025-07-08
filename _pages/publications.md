@@ -101,7 +101,7 @@ permalink: /publications/
       <a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA. 
       <span class="status accepted">Accepted</span><br>
       <small><em>Session: VLSI for Machine Learning and Artificial Intelligence | Acceptance rate: 27%</em></small><br>
-      📄 <a href="/images/PID69.pdf" target="_blank">Download PDF</a>
+      <a href="/images/PID69.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
@@ -109,7 +109,7 @@ permalink: /publications/
       <em>IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025. 
       <span class="status accepted">🏆 Best Paper Award</span><br>
       <small><em>Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12%</em></small><br>
-      📄 <a href="/images/PID718" target="_blank">Download PDF</a>
+      <a href="/images/PID718.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
     <div class="pub-card">
       Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
