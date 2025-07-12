@@ -113,7 +113,7 @@ permalink: /publications/
       <em>IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025. 
       <span class="status accepted">🏆 Best Paper Award</span><br>
       <small><em>Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12%</em></small><br>
-      <span style="color: red;"><strong>Preprint available</strong></span><br>
+      <span class="status preprint" style="color: red; font-weight: bold;">📄 Preprint Available</span><br>
       <a href="/images/PID718.pdf" target="_blank" title="Download PDF">📥</a>
         </div>
     <div class="pub-card">
