@@ -103,7 +103,7 @@ permalink: /publications/
       <small><em>Session: VLSI for Machine Learning and Artificial Intelligence | Acceptance rate: 27%</em></small><br>
       <a href="/images/PID69.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
-   <div class="pub-card">
+    <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>
         <a href="https://arxiv.org/abs/2506.19956" target="_blank">
@@ -112,10 +112,14 @@ permalink: /publications/
       </em><br>
       <em>IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025. 
       <span class="status accepted">🏆 Best Paper Award</span><br>
-      <small><em>Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12%</em></small><br>
-      <span class="status preprint" style="color: red; font-weight: bold;">📄 Preprint Available</span><br>
+      <small>
+        <em>
+          Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12% |
+          <span style="color: red; font-weight: bold;">📄 Preprint Available</span>
+        </em>
+      </small><br>
       <a href="/images/PID718.pdf" target="_blank" title="Download PDF">📥</a>
-        </div>
+    </div>
     <div class="pub-card">
       Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>“Reclaiming Security in Internet-of-Thing Networks: The Power of Early Detection Against Adversarial Examples”</em><br>
