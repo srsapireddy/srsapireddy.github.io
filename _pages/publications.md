@@ -95,11 +95,10 @@ permalink: /publications/
       <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
       <span class="status pending">Submitted</span>
     </div>
-    <div class="pub-grid">
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Surekha G, Hemanth Bandi<br>
-      <em>“e-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features”</em><br>
-      <a href="https://milcom.org" target="_blank">EEE Microwaves, Antennas, and Propagation Conference (MAPCON)</a>, , December 14–18, 2025. 
+      <em>“Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features”</em><br>
+      <a href="https://milcom.org" target="_blank">EEE Microwaves, Antennas, and Propagation Conference (MAPCON)</a>, , December 14–18, 2025, Kerala, India. 
       <span class="status pending">Submitted</span>
     </div>
     <div class="pub-card">
@@ -131,7 +130,7 @@ permalink: /publications/
       Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>“Reclaiming Security in Internet-of-Thing Networks: The Power of Early Detection Against Adversarial Examples”</em><br>
       <em>MDPI Electronics</em>, 2025.
-      <span class="accepted">Accepted</span>
+      <span class="status published">Accepted</span>
     </div>
     <div class="pub-card">
       Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
