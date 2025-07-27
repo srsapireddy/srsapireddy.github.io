@@ -98,7 +98,7 @@ permalink: /publications/
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Surekha G, Hemanth Bandi<br>
       <em>“Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features”</em><br>
-      <a href="https://milcom.org" target="_blank">EEE Microwaves, Antennas, and Propagation Conference (MAPCON)</a>, , December 14–18, 2025, Kerala, India. 
+      <a href="https://milcom.org" target="_blank">IEEE Microwaves, Antennas, and Propagation Conference (MAPCON)</a>, , December 14–18, 2025, Kerala, India. 
       <span class="status pending">Submitted</span>
     </div>
     <div class="pub-card">
