@@ -95,6 +95,13 @@ permalink: /publications/
       <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
       <span class="status pending">Submitted</span>
     </div>
+    <div class="pub-grid">
+    <div class="pub-card">
+      <strong>Srinivas Rahul Sapireddy</strong>, Surekha G, Hemanth Bandi<br>
+      <em>“e-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features”</em><br>
+      <a href="https://milcom.org" target="_blank">EEE Microwaves, Antennas, and Propagation Conference (MAPCON)</a>, , December 14–18, 2025. 
+      <span class="status pending">Submitted</span>
+    </div>
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em><a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">“On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”</a></em><br>
@@ -124,7 +131,7 @@ permalink: /publications/
       Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>“Reclaiming Security in Internet-of-Thing Networks: The Power of Early Detection Against Adversarial Examples”</em><br>
       <em>MDPI Electronics</em>, 2025.
-      <span class="status review">Under Review</span>
+      <span class="accepted">Accepted</span>
     </div>
     <div class="pub-card">
       Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
@@ -136,7 +143,7 @@ permalink: /publications/
       <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
       <em>“Simplifying Activations with Linear Approximations in Neural Networks”</em><br>
       <em>Memories – Materials, Devices, Circuits and Systems</em>, 2024.
-      <span class="status review">Under Review</span>
+      <span class="status review">Minor Revision</span>
     </div>
     <div class="pub-card">
       <strong>Mostafizur Rahman, Arif Iqbal, Srinivas Rahul Sapireddy</strong><br>
