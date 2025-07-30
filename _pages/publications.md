@@ -33,7 +33,7 @@ permalink: /publications/
 
 .pub-entry {
   display: flex;
-  align-items: stretch;
+  align-items: stretch; /* Ensures equal height */
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -45,7 +45,12 @@ permalink: /publications/
   padding: 1.2rem 1.5rem;
   background: #fff;
   transition: 0.3s ease;
+  flex: 1; /* Equal width and height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
 .pub-card:hover,
 .cite-box:hover {
@@ -53,6 +58,15 @@ permalink: /publications/
   transform: scale(1.03);
 }
 
+.cite-box {
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+  
 .pub-card strong {
   font-weight: 600;
   color: #111;
