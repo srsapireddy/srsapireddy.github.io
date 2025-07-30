@@ -163,23 +163,36 @@ function copyCitation(id) {
     </div>
     <div class="pub-entry">
       <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-        <em><a href="https://doi.org/10.1145/3716368.3735217" target="_blank">On the Effectiveness of Piecewise Activation Approximations for Long-Term Short-Memory Networks</a></em><br>
-        ACM GLSVLSI, June 2025, New Orleans, LA.
-        <span class="status published">Published</span>
-      </div>
+      <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
+      <em><a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">“On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”</a></em><br>
+      <a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA. 
+      <span class="status published">Published</span><br>
+      <small><em>Session: VLSI for Machine Learning and Artificial Intelligence | Acceptance rate: 27%</em></small><br>
+      <a href="/images/PID69.pdf" target="_blank" title="Download PDF">📥</a>
+    </div>
       <div class="cite-box" onclick="copyCitation('cite3')">
         📑 Cite
         <textarea id="cite3" class="hidden-citation">Srinivas Rahul Sapireddy and Mostafizur Rahman. 2025. On the Effectiveness of Piecewise Activation Approximations for Long-Term Short-Memory Networks. In Proceedings of the Great Lakes Symposium on VLSI 2025 (GLSVLSI '25), June 29, 2025, pp. 740–745. https://doi.org/10.1145/3716368.3735217</textarea>
       </div>
     </div>
     <div class="pub-entry">
-      <div class="pub-card">
-        <strong>Sapireddy, S. R.</strong>, Rahman, M.<br>
-        <em><a href="https://arxiv.org/abs/2506.19956" target="_blank">Revisiting R: Statistical Envelope Analysis for Lightweight RF Modulation Classification</a></em><br>
-        IEEE RFCoN 2025 – Best Paper Award
-        <span class="status accepted">Accepted</span>
-      </div>
+          <div class="pub-card">
+      <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
+      <em>
+        <a href="https://arxiv.org/abs/2506.19956" target="_blank">
+          “Re-Visiting R: Statistical Envelope Analysis for Lightweight Modulation Classification”
+        </a>
+      </em><br>
+      <em>IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025. 
+      <span class="status accepted">🏆 Best Paper Award</span><br>
+      <small>
+        <em>
+          Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12% |
+          <span style="color: red; font-weight: bold;">📄 Preprint Available</span>
+        </em>
+      </small><br>
+      <a href="/images/PID718.pdf" target="_blank" title="Download PDF">📥</a>
+    </div>
       <div class="cite-box" onclick="copyCitation('cite4')">
         📑 Cite
         <textarea id="cite4" class="hidden-citation">Sapireddy, S. R., & Rahman, M. (2025). Revisiting R: Statistical Envelope Analysis for Lightweight RF Modulation Classification. ArXiv. https://arxiv.org/abs/2506.19956</textarea>
@@ -187,11 +200,12 @@ function copyCitation(id) {
     </div>
     <div class="pub-entry">
       <div class="pub-card">
-        Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
-        <em>A review of crosstalk polymorphic circuits and their scalability</em><br>
-        Memories, vol. 7, article 100094, 2023
-        <span class="status published">Published</span>
-      </div>
+      Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
+      <em>“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</em><br>
+      <em>Memories – Materials, Devices, Circuits and Systems</em>, vol. 7, article 100094, 2023. 
+      <a href="https://doi.org/10.1016/j.memori.2023.100094" target="_blank">[DOI]</a>
+      <span class="status published">Published</span>
+    </div>
       <div class="cite-box" onclick="copyCitation('cite5')">
         📑 Cite
         <textarea id="cite5" class="hidden-citation">Iqbal, M. A., Sapireddy, S. R., Dasari, S., Asifuzzaman, K., & Rahman, M. (2024). A review of crosstalk polymorphic circuits and their scalability. Memories - Materials, Devices, Circuits and Systems, 7, 100094. https://doi.org/10.1016/j.memori.2023.100094</textarea>
@@ -199,11 +213,12 @@ function copyCitation(id) {
     </div>
     <div class="pub-entry">
       <div class="pub-card">
-        Danesh, W., <strong>Sapireddy, S.R.</strong>, Rahman, M.<br>
-        <em>Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders</em><br>
-        MDPI Electronics, 2025
-        <span class="status published">Published</span>
-      </div>
+      Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
+      <em>“Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders”</em><br>
+      <em>MDPI Electronics</em>, 2025.
+      <a href="https://doi.org/10.3390/electronics14153015" target="_blank">[DOI]</a>
+      <span class="status published">Published</span>
+    </div>
       <div class="cite-box" onclick="copyCitation('cite6')">
         📑 Cite
         <textarea id="cite6" class="hidden-citation">Danesh, W.; Sapireddy, S.R.; Rahman, M. Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders. Electronics 2025, 14, 3015. https://doi.org/10.3390/electronics14153015</textarea>
