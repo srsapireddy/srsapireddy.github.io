@@ -141,7 +141,7 @@ function copyCitation(id) {
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
         <em>“Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Autocorrelation-Based Binning”</em><br>
-        <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM), Los Angeles, California</a>, 2025.
+        <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 6 - 10, 2025, Los Angeles, California.
         <span class="status pending">Submitted</span>
       </div>
       <div class="cite-box" onclick="copyCitation('cite1')">
@@ -153,7 +153,7 @@ function copyCitation(id) {
       <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Surekha G, Hemanth Bandi<br>
       <em>“Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features”</em><br>
-      <a href="https://ieeemapcon.org/" target="_blank">IEEE Microwaves, Antennas, and Propagation Conference (MAPCON)</a>, , December 14–18, 2025, Kerala, India. 
+      <a href="https://ieeemapcon.org/" target="_blank">IEEE Microwaves, Antennas, and Propagation Conference (MAPCON)</a>, December 14–18, 2025, Kerala, India. 
       <span class="status pending">Submitted</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite2')">
