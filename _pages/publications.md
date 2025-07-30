@@ -127,16 +127,18 @@ permalink: /publications/
       <a href="/images/PID718.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
     <div class="pub-card">
-      Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-      <em>“Reclaiming Security in Internet-of-Thing Networks: The Power of Early Detection Against Adversarial Examples”</em><br>
-      <em>MDPI Electronics</em>, 2025.
-      <span class="status published">Accepted</span>
+      Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
+      <em>“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</em><br>
+      <em>Memories – Materials, Devices, Circuits and Systems</em>, vol. 7, article 100094, 2023. 
+      <a href="https://doi.org/10.1016/j.memori.2023.100094" target="_blank">[DOI]</a>
+      <span class="status published">Published</span>
     </div>
     <div class="pub-card">
-      Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-      <em>“An Opensource Framework for Offloading Big Data and AI Tasks (OFFLOAD) to Heterogeneous Compute Units”</em><br>
-      <em>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</em>, 2025.
-      <span class="status review">Under Review</span>
+      Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
+      <em>“Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders”</em><br>
+      <em>MDPI Electronics</em>, 2025.
+      <a href="https://doi.org/10.3390/electronics14153015" target="_blank">[DOI]</a>
+      <span class="status published">Published</span>
     </div>
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
@@ -151,13 +153,6 @@ permalink: /publications/
       <span class="status online">📄 Online Archive – computing-lab.com |</span>
     </div>
     <div class="pub-card">
-      Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
-      <em>“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</em><br>
-      <em>Memories – Materials, Devices, Circuits and Systems</em>, vol. 7, article 100094, 2023. 
-      <a href="https://doi.org/10.1016/j.memori.2023.100094" target="_blank">[DOI]</a>
-      <span class="status published">Published</span>
-    </div>
-    <div class="pub-card">
       Bhavya Teja Gurijala, <strong>Srinivas Rahul Sapireddy</strong><br>
       <em>“Automation of Patient Medical Record Dispatch System Software Application”</em><br>
       <em>International Journal of Advanced Research in Science, Engineering and Technology (IJARSET)</em>, vol. 5, issue 6, pp. 6074–6097, June 2018.
@@ -168,6 +163,12 @@ permalink: /publications/
       <em>“CAM Cell Based Memory Architecture for Extreme Searching Operations”</em><br>
       <em>International Journal of Advances in Electronics & Computer Science</em>, vol. 3, issue 8, pp. 80–83, August 2016.
       <span class="status published">Published</span>
+    </div>
+    <div class="pub-card">
+      Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
+      <em>“An Opensource Framework for Offloading Big Data and AI Tasks (OFFLOAD) to Heterogeneous Compute Units”</em><br>
+      <em>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</em>, 2025.
+      <span class="status review">Under Review</span>
     </div>
     <div class="pub-card">
       <strong>Sapireddy, Srinivas Rahul</strong>, P. N. Tejaswi, Y. M. Sandeep, K. Hari Krishna<br>
