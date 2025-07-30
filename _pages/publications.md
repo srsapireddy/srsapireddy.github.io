@@ -147,12 +147,6 @@ permalink: /publications/
       <span class="status review">Minor Revision</span>
     </div>
     <div class="pub-card">
-      <strong>Mostafizur Rahman, Arif Iqbal, Srinivas Rahul Sapireddy</strong><br>
-      <em>“A Messaging based Intelligent Computing Approach for Machine Learning Applications”</em><br>
-      <em>Accessed: Mar, Volume 20</em>, 2024.  
-      <span class="status online">📄 Online Archive – computing-lab.com |</span>
-    </div>
-    <div class="pub-card">
       Bhavya Teja Gurijala, <strong>Srinivas Rahul Sapireddy</strong><br>
       <em>“Automation of Patient Medical Record Dispatch System Software Application”</em><br>
       <em>International Journal of Advanced Research in Science, Engineering and Technology (IJARSET)</em>, vol. 5, issue 6, pp. 6074–6097, June 2018.
@@ -169,6 +163,12 @@ permalink: /publications/
       <em>“Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer”</em><br>
       <em>International Journal of Engineering Trends and Technology (IJETT)</em>, vol. 34, no. 6, pp. 256–259, April 2016.
       <span class="status published">Published</span>
+    </div>
+    <div class="pub-card">
+      <strong>Mostafizur Rahman, Arif Iqbal, Srinivas Rahul Sapireddy</strong><br>
+      <em>“A Messaging based Intelligent Computing Approach for Machine Learning Applications”</em><br>
+      <em>Accessed: Mar, Volume 20</em>, 2024.  
+      <span class="status online">📄 Online Archive – computing-lab.com |</span>
     </div>
     <div class="pub-card">
       Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
