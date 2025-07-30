@@ -236,6 +236,18 @@ function copyCitation(id) {
         <textarea id="cite7" class="hidden-citation">Under Review</textarea>
       </div>
     </div>
+  <div class="pub-entry">
+    <div class="pub-card">
+      <strong>Sapireddy, Srinivas Rahul</strong>, P. N. Tejaswi, Y. M. Sandeep, K. Hari Krishna<br>
+      <em><a href="https://ijettjournal.org/archive/ijett-v34p252" target="_blank">“Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer”</a></em><br>
+      IJETT, vol. 34, no. 6, pp. 256–259, April 2016.
+      <span class="status published">Published</span>
+    </div>
+    <div class="cite-box" onclick="copyCitation('pub10')">
+      📑 Cite
+      <textarea id="pub10" class="hidden-citation">S. R. Sapireddy, P. N. Tejaswi, Y. M. Sandeep, and K. H. Krishna, "Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer," IJETT, vol. 34, no. 6, pp. 256–259, Apr. 2016.</textarea>
+    </div>
+  </div>
     <div class="pub-entry">
       <div class="pub-card">
         Gurijala, B. T., <strong>Sapireddy, S. R.</strong><br>
@@ -258,19 +270,6 @@ function copyCitation(id) {
     <div class="cite-box" onclick="copyCitation('pub9')">
       📑 Cite
       <textarea id="pub9" class="hidden-citation">S. R. Sapireddy, "CAM Cell Based Memory Architecture for Extreme Searching Operations," IJAECS, vol. 3, no. 8, pp. 80–83, Aug. 2016.</textarea>
-    </div>
-  </div>
-
-  <div class="pub-entry">
-    <div class="pub-card">
-      <strong>Sapireddy, Srinivas Rahul</strong>, P. N. Tejaswi, Y. M. Sandeep, K. Hari Krishna<br>
-      <em><a href="https://ijettjournal.org/archive/ijett-v34p252" target="_blank">“Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer”</a></em><br>
-      IJETT, vol. 34, no. 6, pp. 256–259, April 2016.
-      <span class="status published">Published</span>
-    </div>
-    <div class="cite-box" onclick="copyCitation('pub10')">
-      📑 Cite
-      <textarea id="pub10" class="hidden-citation">S. R. Sapireddy, P. N. Tejaswi, Y. M. Sandeep, and K. H. Krishna, "Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer," IJETT, vol. 34, no. 6, pp. 256–259, Apr. 2016.</textarea>
     </div>
   </div>
 
