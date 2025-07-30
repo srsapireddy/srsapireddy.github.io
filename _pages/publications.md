@@ -89,6 +89,29 @@ permalink: /publications/
   <h2>📚 Publications</h2>
 
   <div class="pub-grid">
+    <div class="pub-entry">
+  <div class="pub-card">
+    <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
+    <em>“Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Autocorrelation-Based Binning”</em><br>
+    <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
+    <span class="status pending">Submitted</span>
+  </div>
+  
+  <div class="copy-icon" onclick="copyCitation('milcom2025')">
+    📋
+  </div>
+  
+  <!-- Hidden BibTeX -->
+  <textarea id="milcom2025" style="position:absolute; left:-9999px;">
+@inproceedings{sapireddy2025lightweight,
+  title={Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Autocorrelation-Based Binning},
+  author={Sapireddy, Srinivas Rahul and Akther, Naznin and Rahman, Mostafizur},
+  booktitle={MILCOM},
+  year={2025}
+}
+  </textarea>
+</div>
+
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
       <em>“Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Autocorrelation-Based Binning”</em><br>
