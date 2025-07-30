@@ -84,11 +84,12 @@ permalink: /publications/
   text-decoration: underline;
 }
 .pub-entry {
-  display: flex;
-  align-items: stretch;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
   gap: 1rem;
-  margin-bottom: 1.5rem;
+  align-items: stretch;
 }
+
 
 .pub-card,
 .cite-box {
