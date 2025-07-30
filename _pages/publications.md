@@ -165,16 +165,16 @@ permalink: /publications/
       <span class="status published">Published</span>
     </div>
     <div class="pub-card">
-      Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-      <em>“An Opensource Framework for Offloading Big Data and AI Tasks (OFFLOAD) to Heterogeneous Compute Units”</em><br>
-      <em>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</em>, 2025.
-      <span class="status review">Under Review</span>
-    </div>
-    <div class="pub-card">
       <strong>Sapireddy, Srinivas Rahul</strong>, P. N. Tejaswi, Y. M. Sandeep, K. Hari Krishna<br>
       <em>“Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer”</em><br>
       <em>International Journal of Engineering Trends and Technology (IJETT)</em>, vol. 34, no. 6, pp. 256–259, April 2016.
       <span class="status published">Published</span>
+    </div>
+    <div class="pub-card">
+      Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
+      <em>“An Opensource Framework for Offloading Big Data and AI Tasks (OFFLOAD) to Heterogeneous Compute Units”</em><br>
+      <em>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</em>, 2025.
+      <span class="status review">Under Review</span>
     </div>
   </div>
 
