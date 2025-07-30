@@ -24,6 +24,7 @@ permalink: /publications/
   transform: scale(1.1);
 }
 
+  
 .pub-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -31,45 +32,20 @@ permalink: /publications/
   margin-top: 2rem;
 }
 
-.pub-entry {
-  display: flex;
-  align-items: stretch; /* Ensures equal height */
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-.pub-card,
-.cite-box {
+.pub-card {
   border: 2px solid #1a73e8;
   border-radius: 12px;
   padding: 1.2rem 1.5rem;
   background: #fff;
   transition: 0.3s ease;
-  flex: 1; /* Equal width and height */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
-.pub-card {
-  flex: 5;  /* Take most of the horizontal space */
-}
-  
-.pub-card:hover,
-.cite-box:hover {
+.pub-card:hover {
   background-color: #f0f8ff;
-  transform: scale(1.03);
+  transform: scale(1.01);
+  box-shadow: 0 4px 12px rgba(26, 115, 232, 0.1);
 }
 
-.cite-box {
-  align-items: center;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.1rem;
-  cursor: pointer;
-}
-
-  
 .pub-card strong {
   font-weight: 600;
   color: #111;
@@ -92,11 +68,6 @@ permalink: /publications/
 .status.pending  { color: #555; background: #f0f0f0; }
 .status.published { color: #0a539e; background: #e5f1ff; }
 
-textarea.hidden-citation {
-  position: absolute;
-  left: -9999px;
-}
-
 .pub-footer {
   margin-top: 2rem;
   text-align: center;
@@ -109,9 +80,45 @@ textarea.hidden-citation {
   margin: 0 1rem;
   font-weight: 600;
 }
-
 .pub-footer a:hover {
   text-decoration: underline;
+}
+.pub-entry {
+  display: flex;
+  align-items: stretch;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.pub-card,
+.cite-box {
+  border: 2px solid #1a73e8;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+.cite-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a73e8;
+  position: relative;
+}
+
+.cite-box:hover {
+  background-color: #f0f8ff;
+  transform: scale(1.03);
+}
+
+textarea.hidden-citation {
+  position: absolute;
+  left: -9999px;
 }
 </style>
 
