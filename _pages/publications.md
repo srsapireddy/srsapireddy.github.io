@@ -83,18 +83,61 @@ permalink: /publications/
 .pub-footer a:hover {
   text-decoration: underline;
 }
+.pub-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.pub-entry {
+  display: contents;
+}
+
+.pub-card, .citation-box {
+  border: 2px solid #1a73e8;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+.pub-card:hover, .citation-box:hover {
+  background-color: #f0f8ff;
+  transform: scale(1.01);
+  box-shadow: 0 4px 12px rgba(26, 115, 232, 0.1);
+}
+
+.citation-box {
+  font-size: 0.85rem;
+  font-family: monospace;
+  background-color: #f9f9f9;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  color: #333;
+}
 </style>
 
 <section id="publications">
   <h2>📚 Publications</h2>
 
   <div class="pub-grid">
+    <div class="pub-entry">
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
       <em>“Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Autocorrelation-Based Binning”</em><br>
       <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
       <span class="status pending">Submitted</span>
     </div>
+    <div class="citation-box">
+@inproceedings{sapireddy2025lightweight,<br>
+&nbsp;&nbsp;title={Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Autocorrelation-Based Binning},<br>
+&nbsp;&nbsp;author={Sapireddy, Srinivas Rahul and Akther, Naznin and Rahman, Mostafizur},<br>
+&nbsp;&nbsp;booktitle={MILCOM},<br>
+&nbsp;&nbsp;year={2025}<br>
+}
+  </div>
+      </div>
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Surekha G, Hemanth Bandi<br>
       <em>“Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features”</em><br>
