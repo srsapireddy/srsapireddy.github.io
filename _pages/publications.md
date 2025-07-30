@@ -201,7 +201,7 @@ function copyCitation(id) {
     <div class="pub-entry">
       <div class="pub-card">
       Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
-      <em>“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</em><br>
+        <em><a href="https://www.sciencedirect.com/science/article/pii/S2773064623000713" target="_blank">“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</a></em><br>
       <em>Memories – Materials, Devices, Circuits and Systems</em>, vol. 7, article 100094, 2023. 
       <a href="https://doi.org/10.1016/j.memori.2023.100094" target="_blank">[DOI]</a>
       <span class="status published">Published</span>
