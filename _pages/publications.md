@@ -104,7 +104,7 @@ permalink: /publications/
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 70px;
+  min-width: 50px;
   cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
