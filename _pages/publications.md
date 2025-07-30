@@ -106,7 +106,7 @@ permalink: /publications/
   align-items: center;
   min-width: 50px;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 0.5rem;
   font-weight: 600;
   color: #1a73e8;
   position: relative;
