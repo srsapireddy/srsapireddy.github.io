@@ -81,7 +81,7 @@ author_profile: true
 <table class="resume-table">
 <thead><tr><th>Degree</th><th>Institution</th><th>Duration</th><th>GPA</th></tr></thead>
 <tbody>
-<tr><td>Ph.D. in Electrical & Computer Engineering</td><td>University of Missouri – Kansas City</td><td>09/2021 – 07/2025</td><td>4.0 / 4.0</td></tr>
+<tr><td>Ph.D. in Electrical & Computer Engineering</td><td>University of Missouri – Kansas City</td><td>09/2021 – 07/2025</td><td>3.8 / 4.0</td></tr>
 <tr><td>Advanced Diploma in AI</td><td>NIELIT (India)</td><td>09/2020 – 01/2021</td><td>88 / 100</td></tr>
 <tr><td>M.S. in Computer Science</td><td>University of Illinois – Springfield</td><td>01/2017 – 12/2018</td><td>3.92 / 4.0</td></tr>
 <tr><td>M.S. in Electrical Engineering</td><td>University of Missouri – Kansas City</td><td>01/2015 – 01/2016</td><td>3.51 / 4.0</td></tr>
