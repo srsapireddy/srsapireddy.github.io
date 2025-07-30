@@ -83,10 +83,78 @@ permalink: /publications/
 .pub-footer a:hover {
   text-decoration: underline;
 }
+.pub-entry {
+  display: flex;
+  align-items: stretch;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.pub-card,
+.cite-box {
+  border: 2px solid #1a73e8;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+.cite-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a73e8;
+  position: relative;
+}
+
+.cite-box:hover {
+  background-color: #f0f8ff;
+  transform: scale(1.03);
+}
+
+textarea.hidden-citation {
+  position: absolute;
+  left: -9999px;
+}
 </style>
+
+<script>
+function copyCitation(id) {
+  const citation = document.getElementById(id);
+  citation.select();
+  citation.setSelectionRange(0, 99999); // For mobile
+  navigator.clipboard.writeText(citation.value).then(() => {
+    alert("Citation copied to clipboard!");
+  });
+}
+</script>
+
 
 <section id="publications">
   <h2>📚 Publications</h2>
+
+  <div class="pub-entry">
+  <!-- Left box: Publication -->
+  <div class="pub-card">
+    <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
+    <em>“Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Autocorrelation-Based Binning”</em><br>
+    <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 28–30, 2025, Los Angeles, CA. 
+    <span class="status pending">Submitted</span>
+  </div>
+
+  <!-- Right box: Cite icon -->
+  <div class="cite-box" onclick="copyCitation('milcom2025')">
+    📑 Cite
+    <textarea id="milcom2025" class="hidden-citation">
+    Under Review
+}
+    </textarea>
+  </div>
+</div>
 
   <div class="pub-grid">
     <div class="pub-card">
