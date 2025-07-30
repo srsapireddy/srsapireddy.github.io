@@ -45,10 +45,6 @@ permalink: /publications/
   padding: 1.2rem 1.5rem;
   background: #fff;
   transition: 0.3s ease;
-  flex: 1; /* Equal width and height */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 
