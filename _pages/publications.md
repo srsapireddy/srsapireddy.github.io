@@ -214,7 +214,7 @@ function copyCitation(id) {
     <div class="pub-entry">
       <div class="pub-card">
       Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-      <em>“Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders”</em><br>
+      <em><a href="https://www.mdpi.com/2079-9292/14/15/3015" target="_blank">“Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders”</a></em><br>
       <em>MDPI Electronics</em>, 2025.
       <a href="https://doi.org/10.3390/electronics14153015" target="_blank">[DOI]</a>
       <span class="status published">Published</span>
@@ -227,7 +227,7 @@ function copyCitation(id) {
     <div class="pub-entry">
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
-        <em>Simplifying Activations with Linear Approximations in Neural Networks</em><br>
+        <em>"Simplifying Activations with Linear Approximations in Neural Networks"</em><br>
         Memories, 2024
         <span class="status review">Minor Revision</span>
       </div>
@@ -239,7 +239,7 @@ function copyCitation(id) {
     <div class="pub-entry">
       <div class="pub-card">
         Gurijala, B. T., <strong>Sapireddy, S. R.</strong><br>
-        <em>Automation of Patient Medical Record Dispatch System Software Application</em><br>
+        <em>“Automation of Patient Medical Record Dispatch System Software Application”</em><br>
         IJARSET, vol. 5, no. 6, pp. 6074–6097, Jun. 2018
         <span class="status published">Published</span>
       </div>
@@ -264,7 +264,7 @@ function copyCitation(id) {
   <div class="pub-entry">
     <div class="pub-card">
       <strong>Sapireddy, Srinivas Rahul</strong>, P. N. Tejaswi, Y. M. Sandeep, K. Hari Krishna<br>
-      <em>“Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer”</em><br>
+      <em><a href="https://ijettjournal.org/archive/ijett-v34p252" target="_blank">“Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer”</a></em><br>
       IJETT, vol. 34, no. 6, pp. 256–259, April 2016.
       <span class="status published">Published</span>
     </div>
