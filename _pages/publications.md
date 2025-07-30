@@ -111,7 +111,6 @@ permalink: /publications/
 }
   </textarea>
 </div>
-
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
       <em>“Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Autocorrelation-Based Binning”</em><br>
