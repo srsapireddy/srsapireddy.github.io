@@ -146,7 +146,7 @@ function copyCitation(id) {
       </div>
       <div class="cite-box" onclick="copyCitation('cite1')">
         📑 Cite
-        <textarea id="cite1" class="hidden-citation">[1] Under Review</textarea>
+        <textarea id="cite1" class="hidden-citation">Under Review</textarea>
       </div>
     </div>
     <div class="pub-entry">
@@ -158,7 +158,7 @@ function copyCitation(id) {
       </div>
       <div class="cite-box" onclick="copyCitation('cite2')">
         📑 Cite
-        <textarea id="cite2" class="hidden-citation">[2] Under Review</textarea>
+        <textarea id="cite2" class="hidden-citation">Under Review</textarea>
       </div>
     </div>
     <div class="pub-entry">
@@ -170,7 +170,7 @@ function copyCitation(id) {
       </div>
       <div class="cite-box" onclick="copyCitation('cite3')">
         📑 Cite
-        <textarea id="cite3" class="hidden-citation">[3] Srinivas Rahul Sapireddy and Mostafizur Rahman. 2025. On the Effectiveness of Piecewise Activation Approximations for Long-Term Short-Memory Networks. In Proceedings of the Great Lakes Symposium on VLSI 2025 (GLSVLSI '25), June 29, 2025, pp. 740–745. https://doi.org/10.1145/3716368.3735217</textarea>
+        <textarea id="cite3" class="hidden-citation">Srinivas Rahul Sapireddy and Mostafizur Rahman. 2025. On the Effectiveness of Piecewise Activation Approximations for Long-Term Short-Memory Networks. In Proceedings of the Great Lakes Symposium on VLSI 2025 (GLSVLSI '25), June 29, 2025, pp. 740–745. https://doi.org/10.1145/3716368.3735217</textarea>
       </div>
     </div>
     <div class="pub-entry">
@@ -182,7 +182,7 @@ function copyCitation(id) {
       </div>
       <div class="cite-box" onclick="copyCitation('cite4')">
         📑 Cite
-        <textarea id="cite4" class="hidden-citation">[4] Sapireddy, S. R., & Rahman, M. (2025). Revisiting R: Statistical Envelope Analysis for Lightweight RF Modulation Classification. ArXiv. https://arxiv.org/abs/2506.19956</textarea>
+        <textarea id="cite4" class="hidden-citation">Sapireddy, S. R., & Rahman, M. (2025). Revisiting R: Statistical Envelope Analysis for Lightweight RF Modulation Classification. ArXiv. https://arxiv.org/abs/2506.19956</textarea>
       </div>
     </div>
     <div class="pub-entry">
@@ -194,7 +194,7 @@ function copyCitation(id) {
       </div>
       <div class="cite-box" onclick="copyCitation('cite5')">
         📑 Cite
-        <textarea id="cite5" class="hidden-citation">[5] Iqbal, M. A., Sapireddy, S. R., Dasari, S., Asifuzzaman, K., & Rahman, M. (2024). A review of crosstalk polymorphic circuits and their scalability. Memories - Materials, Devices, Circuits and Systems, 7, 100094. https://doi.org/10.1016/j.memori.2023.100094</textarea>
+        <textarea id="cite5" class="hidden-citation">Iqbal, M. A., Sapireddy, S. R., Dasari, S., Asifuzzaman, K., & Rahman, M. (2024). A review of crosstalk polymorphic circuits and their scalability. Memories - Materials, Devices, Circuits and Systems, 7, 100094. https://doi.org/10.1016/j.memori.2023.100094</textarea>
       </div>
     </div>
     <div class="pub-entry">
@@ -206,7 +206,7 @@ function copyCitation(id) {
       </div>
       <div class="cite-box" onclick="copyCitation('cite6')">
         📑 Cite
-        <textarea id="cite6" class="hidden-citation">[6] Danesh, W.; Sapireddy, S.R.; Rahman, M. Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders. Electronics 2025, 14, 3015. https://doi.org/10.3390/electronics14153015</textarea>
+        <textarea id="cite6" class="hidden-citation">Danesh, W.; Sapireddy, S.R.; Rahman, M. Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders. Electronics 2025, 14, 3015. https://doi.org/10.3390/electronics14153015</textarea>
       </div>
     </div>
     <div class="pub-entry">
@@ -218,7 +218,7 @@ function copyCitation(id) {
       </div>
       <div class="cite-box" onclick="copyCitation('cite7')">
         📑 Cite
-        <textarea id="cite7" class="hidden-citation">[7] Under Review</textarea>
+        <textarea id="cite7" class="hidden-citation">Under Review</textarea>
       </div>
     </div>
     <div class="pub-entry">
@@ -230,7 +230,7 @@ function copyCitation(id) {
       </div>
       <div class="cite-box" onclick="copyCitation('cite8')">
         📑 Cite
-        <textarea id="cite8" class="hidden-citation">[8] B. T. Gurijala and S. R. Sapireddy, "Automation of Patient Medical Record Dispatch System Software Application", International Journal of Advanced Research in Science, Engineering and Technology (IJARSET), vol. 5, no. 6, pp. 6074–6097, Jun. 2018.</textarea>
+        <textarea id="cite8" class="hidden-citation">B. T. Gurijala and S. R. Sapireddy, "Automation of Patient Medical Record Dispatch System Software Application", International Journal of Advanced Research in Science, Engineering and Technology (IJARSET), vol. 5, no. 6, pp. 6074–6097, Jun. 2018.</textarea>
       </div>
     </div>
   <div class="pub-entry">
@@ -242,7 +242,7 @@ function copyCitation(id) {
     </div>
     <div class="cite-box" onclick="copyCitation('pub9')">
       📑 Cite
-      <textarea id="pub9" class="hidden-citation">[9] S. R. Sapireddy, "CAM Cell Based Memory Architecture for Extreme Searching Operations," IJAECS, vol. 3, no. 8, pp. 80–83, Aug. 2016.</textarea>
+      <textarea id="pub9" class="hidden-citation">S. R. Sapireddy, "CAM Cell Based Memory Architecture for Extreme Searching Operations," IJAECS, vol. 3, no. 8, pp. 80–83, Aug. 2016.</textarea>
     </div>
   </div>
 
@@ -255,7 +255,7 @@ function copyCitation(id) {
     </div>
     <div class="cite-box" onclick="copyCitation('pub10')">
       📑 Cite
-      <textarea id="pub10" class="hidden-citation">[10] S. R. Sapireddy, P. N. Tejaswi, Y. M. Sandeep, and K. H. Krishna, "Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer," IJETT, vol. 34, no. 6, pp. 256–259, Apr. 2016.</textarea>
+      <textarea id="pub10" class="hidden-citation">S. R. Sapireddy, P. N. Tejaswi, Y. M. Sandeep, and K. H. Krishna, "Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer," IJETT, vol. 34, no. 6, pp. 256–259, Apr. 2016.</textarea>
     </div>
   </div>
 
@@ -268,7 +268,7 @@ function copyCitation(id) {
     </div>
     <div class="cite-box" onclick="copyCitation('pub11')">
       📑 Cite
-      <textarea id="pub11" class="hidden-citation">[11] M. Rahman, A. Iqbal, and S. R. Sapireddy, "A Messaging Based Intelligent Computing Approach for Machine Learning Applications," Accessed: Mar, vol. 20, 2024.</textarea>
+      <textarea id="pub11" class="hidden-citation">M. Rahman, A. Iqbal, and S. R. Sapireddy, "A Messaging Based Intelligent Computing Approach for Machine Learning Applications," Accessed: Mar, vol. 20, 2024.</textarea>
     </div>
   </div>
 
@@ -281,7 +281,7 @@ function copyCitation(id) {
     </div>
     <div class="cite-box" onclick="copyCitation('pub12')">
       📑 Cite
-      <textarea id="pub12" class="hidden-citation">[12] Under Review</textarea>
+      <textarea id="pub12" class="hidden-citation">Under Review</textarea>
     </div>
   </div>
 
