@@ -151,11 +151,11 @@ function copyCitation(id) {
     </div>
     <div class="pub-entry">
       <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong>, Surekha G, Hemanth Bandi<br>
-        <em>“Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features”</em><br>
-        IEEE MAPCON 2025, Kerala, India.
-        <span class="status pending">Under Review</span>
-      </div>
+      <strong>Srinivas Rahul Sapireddy</strong>, Surekha G, Hemanth Bandi<br>
+      <em>“Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features”</em><br>
+      <a href="https://ieeemapcon.org/" target="_blank">IEEE Microwaves, Antennas, and Propagation Conference (MAPCON)</a>, , December 14–18, 2025, Kerala, India. 
+      <span class="status pending">Submitted</span>
+    </div>
       <div class="cite-box" onclick="copyCitation('cite2')">
         📑 Cite
         <textarea id="cite2" class="hidden-citation">Under Review</textarea>
