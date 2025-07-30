@@ -241,6 +241,7 @@ function copyCitation(id) {
       <strong>Sapireddy, Srinivas Rahul</strong>, P. N. Tejaswi, Y. M. Sandeep, K. Hari Krishna<br>
       <em><a href="https://ijettjournal.org/archive/ijett-v34p252" target="_blank">“Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer”</a></em><br>
       IJETT, vol. 34, no. 6, pp. 256–259, April 2016.
+      <a href="10.14445/22315381/IJETT-V34P252" target="_blank">[DOI]</a>
       <span class="status published">Published</span>
     </div>
     <div class="cite-box" onclick="copyCitation('pub10')">
