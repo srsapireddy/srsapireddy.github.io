@@ -208,8 +208,57 @@ function copyCitation(id) {
         <textarea id="cite8" class="hidden-citation">[8] B. T. Gurijala and S. R. Sapireddy, "Automation of Patient Medical Record Dispatch System Software Application", International Journal of Advanced Research in Science, Engineering and Technology (IJARSET), vol. 5, no. 6, pp. 6074–6097, Jun. 2018.</textarea>
       </div>
     </div>
+  <div class="pub-entry">
+    <div class="pub-card">
+      <strong>Srinivas Rahul Sapireddy</strong><br>
+      <em>“CAM Cell Based Memory Architecture for Extreme Searching Operations”</em><br>
+      IJAECS, vol. 3, issue 8, pp. 80–83, August 2016.
+      <span class="status published">Published</span>
+    </div>
+    <div class="cite-box" onclick="copyCitation('pub9')">
+      📑 Cite
+      <textarea id="pub9" class="hidden-citation">[9] S. R. Sapireddy, "CAM Cell Based Memory Architecture for Extreme Searching Operations," IJAECS, vol. 3, no. 8, pp. 80–83, Aug. 2016.</textarea>
+    </div>
+  </div>
 
-    <!-- Remaining entries 9–12 will continue similarly... -->
+  <div class="pub-entry">
+    <div class="pub-card">
+      <strong>Sapireddy, Srinivas Rahul</strong>, P. N. Tejaswi, Y. M. Sandeep, K. Hari Krishna<br>
+      <em>“Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer”</em><br>
+      IJETT, vol. 34, no. 6, pp. 256–259, April 2016.
+      <span class="status published">Published</span>
+    </div>
+    <div class="cite-box" onclick="copyCitation('pub10')">
+      📑 Cite
+      <textarea id="pub10" class="hidden-citation">[10] S. R. Sapireddy, P. N. Tejaswi, Y. M. Sandeep, and K. H. Krishna, "Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer," IJETT, vol. 34, no. 6, pp. 256–259, Apr. 2016.</textarea>
+    </div>
+  </div>
+
+  <div class="pub-entry">
+    <div class="pub-card">
+      Mostafizur Rahman, Arif Iqbal, Srinivas Rahul Sapireddy<br>
+      <em>“A Messaging based Intelligent Computing Approach for Machine Learning Applications”</em><br>
+      Accessed: Mar, Volume 20, 2024.
+      <span class="status online">📄 Online Archive</span>
+    </div>
+    <div class="cite-box" onclick="copyCitation('pub11')">
+      📑 Cite
+      <textarea id="pub11" class="hidden-citation">[11] M. Rahman, A. Iqbal, and S. R. Sapireddy, "A Messaging Based Intelligent Computing Approach for Machine Learning Applications," Accessed: Mar, vol. 20, 2024.</textarea>
+    </div>
+  </div>
+
+  <div class="pub-entry">
+    <div class="pub-card">
+      Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
+      <em>“An Opensource Framework for Offloading Big Data and AI Tasks (OFFLOAD) to Heterogeneous Compute Units”</em><br>
+      IEEE TCAD, 2025.
+      <span class="status review">Under Review</span>
+    </div>
+    <div class="cite-box" onclick="copyCitation('pub12')">
+      📑 Cite
+      <textarea id="pub12" class="hidden-citation">[12] Under Review</textarea>
+    </div>
+  </div>
 
   </div>
 
