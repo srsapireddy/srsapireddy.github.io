@@ -33,21 +33,29 @@ permalink: /publications/
 
 .pub-entry {
   display: flex;
-  align-items: stretch; /* Ensures equal height */
+  align-items: stretch;
   gap: 1rem;
   margin-bottom: 1.5rem;
+  min-height: 130px; /* Ensures consistent row height */
 }
 
 .pub-card,
 .cite-box {
+  flex: 1;
   border: 2px solid #1a73e8;
   border-radius: 12px;
   padding: 1.2rem 1.5rem;
   background: #fff;
   transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-
+.pub-card {
+  flex: 5;  /* Take most of the horizontal space */
+}
+  
 .pub-card:hover,
 .cite-box:hover {
   background-color: #f0f8ff;
