@@ -142,7 +142,7 @@ function copyCitation(id) {
         <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
         <em>“Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Autocorrelation-Based Binning”</em><br>
         <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM), Los Angeles, California</a>, 2025.
-        <span class="status pending">Under Review</span>
+        <span class="status pending">Submitted</span>
       </div>
       <div class="cite-box" onclick="copyCitation('cite1')">
         📑 Cite
