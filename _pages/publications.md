@@ -136,7 +136,7 @@ function copyCitation(id) {
 
 <section id="publications">
   <h2>📚 Publications</h2>
-
+<div class="pub-grid">
   <div class="pub-entry">
   <!-- Left box: Publication -->
   <div class="pub-card">
@@ -151,12 +151,11 @@ function copyCitation(id) {
     📑 Cite
     <textarea id="milcom2025" class="hidden-citation">
     Under Review
-}
     </textarea>
   </div>
 </div>
-
-  <div class="pub-grid">
+  <div class="pub-entry">
+  <!-- Left box: Publication -->
     <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
       <em>“Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Autocorrelation-Based Binning”</em><br>
