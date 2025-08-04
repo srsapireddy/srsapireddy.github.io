@@ -302,16 +302,24 @@ function copyCitation(id) {
 
   </div>
 
-  <div class="logo-row">
-    <a href="https://www.ieee.org/" target="_blank"><img src="/images/IEEE.jpg" alt="IEEE Logo" /></a>
-    <a href="https://www.acm.org/" target="_blank"><img src="/images/ACM.png" alt="ACM Logo" /></a>
-    <a href="https://www.ornl.gov/" target="_blank"><img src="/images/Oak.jpg" alt="ORNL Logo" /></a>
-    <a href="https://openreview.net/" target="_blank"><img src="/images/OPEN.jpg" alt="OpenReview Logo" /></a>
-    <a href="https://orcid.org/0009-0004-6956-0652" target="_blank"><img src="/images/orcid.png" alt="ORCID Logo" /></a>
-    <a href="https://www.researchgate.net/profile/Srinivas-Rahul-Sapireddy" target="_blank"><img src="/images/RG.jpg" alt="ResearchGate Logo" /></a>
-    <a href="https://www.uis.edu/" target="_blank"><img src="/images/UIS.png" alt="UIS Logo" /></a>
-    <a href="https://www.umkc.edu/" target="_blank"><img src="/images/UMKC.png" alt="UMKC Logo" /></a>
-  </div>
+<!-- Collaborations Section -->
+<h2 style="text-align:center; margin-top: 2rem;">Collaborations</h2>
+<div class="logo-row">
+  <a href="https://www.ieee.org/" target="_blank"><img src="/images/IEEE.jpg" alt="IEEE Logo" /></a>
+  <a href="https://www.acm.org/" target="_blank"><img src="/images/ACM.png" alt="ACM Logo" /></a>
+  <a href="https://www.ornl.gov/" target="_blank"><img src="/images/Oak.jpg" alt="ORNL Logo" /></a>
+  <a href="https://openreview.net/" target="_blank"><img src="/images/OPEN.jpg" alt="OpenReview Logo" /></a>
+  <a href="https://www.uis.edu/" target="_blank"><img src="/images/UIS.png" alt="UIS Logo" /></a>
+  <a href="https://www.umkc.edu/" target="_blank"><img src="/images/UMKC.png" alt="UMKC Logo" /></a>
+</div>
+
+<!-- Profiles / Publications Section -->
+<h2 style="text-align:center; margin-top: 3rem;">Profiles & Publications</h2>
+<div class="logo-row">
+  <a href="https://orcid.org/0009-0004-6956-0652" target="_blank"><img src="/images/orcid.png" alt="ORCID Logo" /></a>
+  <a href="https://www.researchgate.net/profile/Srinivas-Rahul-Sapireddy" target="_blank"><img src="/images/RG.jpg" alt="ResearchGate Logo" /></a>
+</div>
+
 </section>
 
 <footer class="pub-footer">
