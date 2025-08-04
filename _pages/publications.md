@@ -315,14 +315,17 @@ function copyCitation(id) {
 <div class="logo-row">
   <a href="https://www.ieee.org/" target="_blank"><img src="/images/IEEE.jpg" alt="IEEE Logo" /></a>
   <a href="https://www.acm.org/" target="_blank"><img src="/images/ACM.png" alt="ACM Logo" /></a>
-  <a href="https://openreview.net/" target="_blank"><img src="/images/OPEN.jpg" alt="OpenReview Logo" /></a>
+  <a href="https://www.mdpi.com/" target="_blank"><img src="/images/MDPI.png" alt="MDPI Logo" /></a>
+  <a href="https://www.elsevier.com/" target="_blank"><img src="/images/Elsevier.png" alt="Elsevier Logo" /></a>
 </div>
 
 <!-- Profiles & Identifiers Section -->
 <h2 style="text-align:center; margin-top: 3rem;">Profiles & Identifiers</h2>
 <div class="logo-row">
+  <a href="https://sciprofiles.com/profile/srsapireddy" target="_blank"><img src="/images/SciProfiles.png" alt="SciProfiles Logo" /></a>
   <a href="https://orcid.org/0009-0004-6956-0652" target="_blank"><img src="/images/orcid.png" alt="ORCID Logo" /></a>
   <a href="https://www.researchgate.net/profile/Srinivas-Rahul-Sapireddy" target="_blank"><img src="/images/RG.jpg" alt="ResearchGate Logo" /></a>
+  <a href="https://openreview.net/" target="_blank"><img src="/images/OPEN.jpg" alt="OpenReview Logo" /></a>
 </div>
 
 
