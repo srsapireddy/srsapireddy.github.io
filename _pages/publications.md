@@ -134,14 +134,13 @@ function copyCitation(id) {
 }
 </script>
 
-<!-- Collaborations Section -->
-<h2 style="text-align:center; margin-top: 2rem;">Collaborations</h2>
+<!-- Publication Venues Section -->
+<h2 style="text-align:center; margin-top: 3rem;">Publication Venues</h2>
 <div class="logo-row">
-  <a href="https://www.ornl.gov/" target="_blank"><img src="/images/Oak.jpg" alt="ORNL Logo" /></a>
-  <a href="https://www.uis.edu/" target="_blank"><img src="/images/UIS.png" alt="UIS Logo" /></a>
-  <a href="https://www.umkc.edu/" target="_blank"><img src="/images/UMKC.png" alt="UMKC Logo" /></a>
-  <a href="https://twin-cities.umn.edu/" target="_blank"><img src="/images/UMTC.jpeg" alt="University of Minnesota Logo" /></a>
-  <a href="https://www.griet.ac.in/" target="_blank"><img src="/images/GRIET.png" alt="GRIET Logo" /></a>
+  <a href="https://www.ieee.org/" target="_blank"><img src="/images/IEEE.jpg" alt="IEEE Logo" /></a>
+  <a href="https://www.acm.org/" target="_blank"><img src="/images/ACM.png" alt="ACM Logo" /></a>
+  <a href="https://www.mdpi.com/" target="_blank"><img src="/images/MDPI.png" alt="MDPI Logo" /></a>
+  <a href="https://www.elsevier.com/" target="_blank"><img src="/images/Elsevier.png" alt="Elsevier Logo" /></a>
 </div>
 
 
@@ -313,15 +312,16 @@ function copyCitation(id) {
 
   </div>
 
-
-<!-- Publication Venues Section -->
-<h2 style="text-align:center; margin-top: 3rem;">Publication Venues</h2>
+<!-- Collaborations Section -->
+<h2 style="text-align:center; margin-top: 2rem;">Collaborations</h2>
 <div class="logo-row">
-  <a href="https://www.ieee.org/" target="_blank"><img src="/images/IEEE.jpg" alt="IEEE Logo" /></a>
-  <a href="https://www.acm.org/" target="_blank"><img src="/images/ACM.png" alt="ACM Logo" /></a>
-  <a href="https://www.mdpi.com/" target="_blank"><img src="/images/MDPI.png" alt="MDPI Logo" /></a>
-  <a href="https://www.elsevier.com/" target="_blank"><img src="/images/Elsevier.png" alt="Elsevier Logo" /></a>
+  <a href="https://www.ornl.gov/" target="_blank"><img src="/images/Oak.jpg" alt="ORNL Logo" /></a>
+  <a href="https://www.uis.edu/" target="_blank"><img src="/images/UIS.png" alt="UIS Logo" /></a>
+  <a href="https://www.umkc.edu/" target="_blank"><img src="/images/UMKC.png" alt="UMKC Logo" /></a>
+  <a href="https://twin-cities.umn.edu/" target="_blank"><img src="/images/UMTC.jpeg" alt="University of Minnesota Logo" /></a>
+  <a href="https://www.griet.ac.in/" target="_blank"><img src="/images/GRIET.png" alt="GRIET Logo" /></a>
 </div>
+
 
 <!-- Profiles & Identifiers Section -->
 <h2 style="text-align:center; margin-top: 3rem;">Profiles & Identifiers</h2>
