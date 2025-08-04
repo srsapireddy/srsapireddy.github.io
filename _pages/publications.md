@@ -324,8 +324,7 @@ function copyCitation(id) {
   <a href="https://orcid.org/0009-0004-6956-0652" target="_blank"><img src="/images/orcid.png" alt="ORCID Logo" /></a>
   <a href="https://www.researchgate.net/profile/Srinivas-Rahul-Sapireddy" target="_blank"><img src="/images/RG.jpg" alt="ResearchGate Logo" /></a>
 </div>
-ps://www.researchgate.net/profile/Srinivas-Rahul-Sapireddy" target="_blank"><img src="/images/RG.jpg" alt="ResearchGate Logo" /></a>
-</div>
+
 
 </section>
 
