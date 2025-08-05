@@ -208,7 +208,8 @@ function copyCitation(id) {
       </em><br>
       <em>IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025. 
       <a href="10.1109/RFCoN62306.2025.11085271" target="_blank">[DOI]</a>
-            <span class="status published"> Published 🏆 Best Paper Award</span><br>
+            <span class="status published"> Published</span>
+            <span style="color: lightgreen;">🏆 Best Paper Award</span><br>
       <small>
         <em>
           Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12%
