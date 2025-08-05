@@ -74,6 +74,19 @@ permalink: /publications/
   font-size: 0.95rem;
 }
 
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.best-paper {
+  background-color: #e6ffe6;
+  color: #28a745; /* Light green text */
+}
+  
 .pub-footer a {
   text-decoration: none;
   color: #1a73e8;
@@ -209,7 +222,7 @@ function copyCitation(id) {
       <em>IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025. 
       <a href="10.1109/RFCoN62306.2025.11085271" target="_blank">[DOI]</a>
             <span class="status published"> Published</span>
-            <span style="color: lightgreen;">🏆 Best Paper Award</span><br>
+            <span class="status-badge best-paper">🏆 Best Paper Award</span>
       <small>
         <em>
           Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12%
