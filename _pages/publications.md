@@ -159,7 +159,7 @@ function copyCitation(id) {
 
 <section id="publications">
   <h2>📚 Publications</h2>
-      <div class="pub-grid">
+  <div class="pub-grid">
     <div class="pub-entry">
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
