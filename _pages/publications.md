@@ -189,9 +189,9 @@ function copyCitation(id) {
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em><a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">“On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”</a></em><br>
       <a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA. 
-      <span class="status published">Published</span><br>
-      <small><em>Session: VLSI for Machine Learning and Artificial Intelligence | Acceptance rate: 27%</em></small><br>
       <a href="10.1145/3716368.3735217" target="_blank">[DOI]</a>
+        <span class="status published">Published</span><br>
+      <small><em>Session: VLSI for Machine Learning and Artificial Intelligence | Acceptance rate: 27%</em></small><br>
       <a href="/images/PID69.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
       <div class="cite-box" onclick="copyCitation('cite3')">
@@ -208,12 +208,12 @@ function copyCitation(id) {
         </a>
       </em><br>
       <em>IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025. 
-      <span class="status published"> Published 🏆 Best Paper Award</span><br>
+      <a href="10.1109/RFCoN62306.2025.11085271" target="_blank">[DOI]</a>
+            <span class="status published"> Published 🏆 Best Paper Award</span><br>
       <small>
         <em>
           Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12%
         </em>
-        <a href="10.1109/RFCoN62306.2025.11085271" target="_blank">[DOI]</a>
       </small><br>
       <a href="/images/PID718.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
