@@ -346,8 +346,6 @@ function copyCitation(id) {
 </div>
 
 
-</section>
-
 <footer class="pub-footer">
   📘 <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ&hl=en" target="_blank">Google Scholar</a>
   📝 <a href="https://www.researchgate.net/profile/Srinivas-Rahul-Sapireddy" target="_blank">ResearchGate</a>
