@@ -212,8 +212,8 @@ function copyCitation(id) {
       <small>
         <em>
           Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12%
-          <a href="10.1109/RFCoN62306.2025.11085271" target="_blank">[DOI]</a>
         </em>
+        <a href="10.1109/RFCoN62306.2025.11085271" target="_blank">[DOI]</a>
       </small><br>
       <a href="/images/PID718.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
