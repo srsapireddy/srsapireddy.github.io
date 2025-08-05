@@ -176,8 +176,7 @@ function copyCitation(id) {
       <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Hemanth Bandi, Chaitanya Srinivas Yuvvuri<br>
       <em>“From Rule-Based to Neural: Statistical Envelope Feature Classification Using Feedforward Networks”</em><br>
-      <a href="https://www.smartcomconference.com/" target="_blank">10th International Conference on Smart Trends in Computing and Communications</a>, 19 - 21 January 2026. 
-      <span class="status pending">To be Submitted</span>
+      <a href="https://www.smartcomconference.com/" target="_blank">10th International Conference on Smart Trends in Computing and Communications</a>, 19 - 21 January 2026. <span class="status pending">To be Submitted</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite2')">
         📑 Cite
