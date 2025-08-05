@@ -162,9 +162,9 @@ function copyCitation(id) {
   <div class="pub-grid">
     <div class="pub-entry">
       <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
-        <em>“Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Autocorrelation-Based Binning”</em><br>
-        <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 6 - 10, 2025, Los Angeles, California.
+        <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
+        <em>“Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features”</em><br>
+        <a href="https://ieeemapcon.org/" target="_blank">Microwaves, Antennas, and Propagation Conference (MAPCON) 2025</a>, December 14–18, 2025, Kerala, India.
         <span class="status pending">Submitted</span>
       </div>
       <div class="cite-box" onclick="copyCitation('cite1')">
@@ -181,7 +181,7 @@ function copyCitation(id) {
     </div>
       <div class="cite-box" onclick="copyCitation('cite2')">
         📑 Cite
-        <textarea id="cite2" class="hidden-citation">Under Review</textarea>
+        <textarea id="cite2" class="hidden-citation">To be Submitted</textarea>
       </div>
     </div>
     <div class="pub-entry">
