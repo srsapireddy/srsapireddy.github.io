@@ -191,6 +191,7 @@ function copyCitation(id) {
       <a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA. 
       <span class="status published">Published</span><br>
       <small><em>Session: VLSI for Machine Learning and Artificial Intelligence | Acceptance rate: 27%</em></small><br>
+      <a href="10.1145/3716368.3735217" target="_blank">[DOI]</a>
       <a href="/images/PID69.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
       <div class="cite-box" onclick="copyCitation('cite3')">
@@ -202,23 +203,23 @@ function copyCitation(id) {
           <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em>
-        <a href="https://arxiv.org/abs/2506.19956" target="_blank">
+        <a href="https://ieeexplore.ieee.org/document/11085271" target="_blank">
           “Re-Visiting R: Statistical Envelope Analysis for Lightweight Modulation Classification”
         </a>
       </em><br>
       <em>IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025. 
-      <span class="status accepted">🏆 Best Paper Award</span><br>
+      <span class="status published"> Published 🏆 Best Paper Award</span><br>
       <small>
         <em>
-          Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12% |
-          <span style="color: red; font-weight: bold;">📄 Preprint Available</span>
+          Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12%
+          <a href="10.1109/RFCoN62306.2025.11085271" target="_blank">[DOI]</a>
         </em>
       </small><br>
       <a href="/images/PID718.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
       <div class="cite-box" onclick="copyCitation('cite4')">
         📑 Cite
-        <textarea id="cite4" class="hidden-citation">Sapireddy, S. R., & Rahman, M. (2025). Revisiting R: Statistical Envelope Analysis for Lightweight RF Modulation Classification. ArXiv. https://arxiv.org/abs/2506.19956</textarea>
+        <textarea id="cite4" class="hidden-citation">S. R. Sapireddy and M. Rahman, "Revisiting R: Statistical Envelope Analysis for Lightweight RF Modulation Classification," 2025 1st International Conference on Radio Frequency Communication and Networks (RFCoN), Thanjavur, India, 2025, pp. 1-6, doi: 10.1109/RFCoN62306.2025.11085271</textarea>
       </div>
     </div>
     <div class="pub-entry">
