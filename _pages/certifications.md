@@ -84,6 +84,10 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <div class="cert-title">Introduction to Device and System Packaging - Georgia Tech</div>
   </div>
   <div class="cert-card">
+    <img src="/images/Chandigarh.png" alt="Chandigarh">
+    <div class="cert-title"> MEAN Stack Development (Project: Contact List CRUD Application) - NIELIT Chandigarh</div>
+  </div>
+  <div class="cert-card">
     <img src="/images/LONDON.png" alt="Research Methods">
     <div class="cert-title">Understanding Research Methods - University of London</div>
   </div>
