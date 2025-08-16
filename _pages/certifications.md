@@ -95,6 +95,10 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <img src="/images/GOOGLE.png" alt="Google">
     <div class="cert-title">Managing Machine Learning Projects with Google Cloud - Google Cloud</div>
   </div>
+  <div class="cert-card">
+    <img src="/images/LEARN.png" alt="Learn">
+    <div class="cert-title">Developing AI Applications on Azure - LearnQuest</div>
+  </div>
 </div>
 
 ---
