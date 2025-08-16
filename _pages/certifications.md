@@ -84,10 +84,6 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <div class="cert-title">Introduction to Device and System Packaging</div>
   </div>
   <div class="cert-card">
-    <img src="/images/semiconductor_basics.png" alt="Semiconductor Basics">
-    <div class="cert-title">Basics of Semiconductor Device Technology</div>
-  </div>
-  <div class="cert-card">
     <img src="/images/network_security.jpeg" alt="Network Security">
     <div class="cert-title">Network Security Associate</div>
   </div>
@@ -112,6 +108,10 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
   <div class="cert-card">
     <img src="/images/product_management.png" alt="Product Management">
     <div class="cert-title">Product Management Program – Confederation of Indian Industry</div>
+  </div>
+  <div class="cert-card">
+    <img src="/images/semiconductor_basics.png" alt="Semiconductor Basics">
+  <div class="cert-title">Basics of Semiconductor Device Technology - Indian Institute of Science</div>
   </div>
 </div>
 ---
