@@ -83,14 +83,6 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <img src="/images/device_packaging.png" alt="Device Packaging">
     <div class="cert-title">Introduction to Device and System Packaging</div>
   </div>
-  <div class="cert-card">
-    <img src="/images/network_security.jpeg" alt="Network Security">
-    <div class="cert-title">Network Security Associate</div>
-  </div>
-  <div class="cert-card">
-    <img src="/images/intel_cloud.png" alt="Intel Cloud">
-    <div class="cert-title">Intel Solution Pro Cloud Business Professional</div>
-  </div>
 </div>
 
 ---
@@ -115,7 +107,16 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
   </div>
 </div>
 ---
-
+## 🌐 Professional Certifications
+  <div class="cert-card">
+    <img src="/images/network_security.jpeg" alt="Network Security">
+    <div class="cert-title">Network Security Associate</div>
+  </div>
+  <div class="cert-card">
+    <img src="/images/intel_cloud.png" alt="Intel Cloud">
+    <div class="cert-title">Intel Solution Pro Cloud Business Professional</div>
+  </div>
+---
 ## 🎓 Degrees & Diplomas
 
 <div class="cert-grid lightbox-gallery">
