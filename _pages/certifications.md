@@ -90,10 +90,6 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
 ## 🌐 Training & Professional Development
 <div class="cert-grid lightbox-gallery">
   <div class="cert-card">
-    <img src="/images/REGEX.png" alt="Regex Training">
-    <div class="cert-title"> Industrial Training Program on MEARN Stack Development </div>
-  </div>
-  <div class="cert-card">
     <img src="/images/FPGA.png" alt="Internship Training">
     <div class="cert-title"> Summer Internship on FPGA Based Embedded System for DSP Applications </div>
   </div>
@@ -112,6 +108,10 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
   <div class="cert-card">
     <img src="/images/TORMP.png" alt="Manuscript Drafting">
     <div class="cert-title">Training Program on Manuscript Drafting and Publishing - Eudoxia Research Center</div>
+  </div>
+  <div class="cert-card">
+    <img src="/images/REGEX.png" alt="Regex Training">
+    <div class="cert-title"> Industrial Training Program on MEARN Stack Development </div>
   </div>
 </div>
 
