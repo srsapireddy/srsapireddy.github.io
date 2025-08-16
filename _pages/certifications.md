@@ -110,7 +110,9 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
   <div class="cert-title">Basics of Semiconductor Device Technology - Indian Institute of Science</div>
   </div>
 </div>
+
 ---
+
 ## 🌐 Professional Certifications
   <div class="cert-grid lightbox-gallery">
   <div class="cert-card">
@@ -121,7 +123,9 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <img src="/images/intel_cloud.png" alt="Intel Cloud">
     <div class="cert-title">Intel Solution Pro Cloud Business Professional</div>
   </div>
+    
 ---
+    
 ## 🎓 Degrees & Diplomas
 
 <div class="cert-grid lightbox-gallery">
