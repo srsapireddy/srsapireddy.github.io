@@ -107,7 +107,11 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
   </div>
   <div class="cert-card">
     <img src="/images/semiconductor_basics.png" alt="Semiconductor Basics">
-  <div class="cert-title">Basics of Semiconductor Device Technology - Indian Institute of Science</div>
+    <div class="cert-title">Basics of Semiconductor Device Technology - Indian Institute of Science</div>
+  </div>
+  <div class="cert-card">
+    <img src="/images/TORMP.png" alt="Manuscript Drafting">
+    <div class="cert-title">Training Program on Manuscript Drafting and Publishing - Eudoxia Research Center</div>
   </div>
 </div>
 
