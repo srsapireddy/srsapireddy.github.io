@@ -86,7 +86,7 @@ author_profile: true
 <tr><td>Advanced Diploma in AI</td><td>National Institute of Electronics & Information Technology, Calicut, Kerala</td><td>09/2020 – 01/2021</td><td>88 / 100</td></tr>
 <tr><td>M.S. in Computer Science</td><td>University of Illinois – Springfield</td><td>01/2017 – 12/2018</td><td>3.92 / 4.0</td></tr>
 <tr><td>M.S. in Electrical Engineering</td><td>University of Missouri – Kansas City</td><td>01/2015 – 01/2016</td><td>3.51 / 4.0</td></tr>
-<tr><td>B.Tech in ECE</td><td>GRIET – Jawaharlal Nehru Technological University Hyderabad</td><td>09/2011 – 04/2014</td><td>3.86 / 4.0</td></tr>
+<tr><td>B.Tech in ECE</td><td>GRIET – Jawaharlal Nehru Technological University, Hyderabad</td><td>09/2011 – 04/2014</td><td>3.86 / 4.0</td></tr>
 </tbody>
 </table>
 </div>
