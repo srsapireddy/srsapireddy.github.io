@@ -227,18 +227,6 @@ function copyCitation(id) {
         <textarea id="cite6" class="hidden-citation">Danesh, W.; Sapireddy, S.R.; Rahman, M. Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders. Electronics 2025, 14, 3015. https://doi.org/10.3390/electronics14153015</textarea>
       </div>
     </div>
-    <div class="pub-entry">
-      <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
-        <em>"Simplifying Activations with Linear Approximations in Neural Networks"</em><br>
-        Memories, 2024
-        <span class="status review">Minor Revision</span>
-      </div>
-      <div class="cite-box" onclick="copyCitation('cite7')">
-        📑 Cite
-        <textarea id="cite7" class="hidden-citation">Under Review</textarea>
-      </div>
-    </div>
   <div class="pub-entry">
     <div class="pub-card">
       <strong>Sapireddy, Srinivas Rahul</strong>, P. N. Tejaswi, Y. M. Sandeep, K. Hari Krishna<br>
@@ -290,21 +278,20 @@ function copyCitation(id) {
     </div>
   </div>
 
-  <div class="pub-entry">
-    <div class="pub-card">
-      Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-      <em>“An Opensource Framework for Offloading Big Data and AI Tasks (OFFLOAD) to Heterogeneous Compute Units”</em><br>
-      IEEE TCAD, 2025.
-      <span class="status review">Under Review</span>
-    </div>
-    <div class="cite-box" onclick="copyCitation('pub12')">
-      📑 Cite
-      <textarea id="pub12" class="hidden-citation">Under Review</textarea>
-    </div>
-  </div>
-
   <h3 style="margin-top:2rem;">📝 To be Submitted / Under Review</h3>
 <div class="pub-grid">
+  <div class="pub-entry">
+      <div class="pub-card">
+        <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
+        <em>"Simplifying Activations with Linear Approximations in Neural Networks"</em><br>
+        Memories, 2024
+        <span class="status review">Minor Revision</span>
+      </div>
+      <div class="cite-box" onclick="copyCitation('cite7')">
+        📑 Cite
+        <textarea id="cite7" class="hidden-citation">Under Review</textarea>
+      </div>
+    </div>
     <div class="pub-entry">
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
@@ -317,6 +304,18 @@ function copyCitation(id) {
         <textarea id="cite1" class="hidden-citation">Under Review</textarea>
       </div>
     </div>
+    <div class="pub-entry">
+    <div class="pub-card">
+      Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
+      <em>“An Opensource Framework for Offloading Big Data and AI Tasks (OFFLOAD) to Heterogeneous Compute Units”</em><br>
+      IEEE TCAD, 2025.
+      <span class="status review">Under Review</span>
+    </div>
+    <div class="cite-box" onclick="copyCitation('pub12')">
+      📑 Cite
+      <textarea id="pub12" class="hidden-citation">Under Review</textarea>
+    </div>
+  </div>
   <div class="pub-grid">
     <div class="pub-entry">
       <div class="pub-card">
