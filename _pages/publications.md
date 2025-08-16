@@ -131,7 +131,7 @@ permalink: /publications/
 }
 
 .pub-grid.tight-gap {
-  gap: 0.5rem; /* Reduce only for these */
+  gap: 0.2rem; /* Reduce only for these */
 }
 
 textarea.hidden-citation {
