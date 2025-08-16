@@ -73,7 +73,7 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
   </div>
   <div class="cert-card">
     <img src="/images/mlops_specialization.jpg" alt="MLOps Specialization">
-    <div class="cert-title">MLOps Specialization</div>
+    <div class="cert-title">MLOps Specialization - Duke University</div>
   </div>
   <div class="cert-card">
     <img src="/images/mathematics_ml.png" alt="Mathematics for ML">
@@ -81,7 +81,11 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
   </div>
   <div class="cert-card">
     <img src="/images/device_packaging.png" alt="Device Packaging">
-    <div class="cert-title">Introduction to Device and System Packaging</div>
+    <div class="cert-title">Introduction to Device and System Packaging - Georgia Tech</div>
+  </div>
+  <div class="cert-card">
+    <img src="/images/LONDON.png" alt="Research Methods">
+    <div class="cert-title">Understanding Research Methods - University of London</div>
   </div>
 </div>
 
