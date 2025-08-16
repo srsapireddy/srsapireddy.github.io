@@ -76,10 +76,6 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <div class="cert-title">MLOps Specialization</div>
   </div>
   <div class="cert-card">
-    <img src="/images/product_management.png" alt="Product Management">
-    <div class="cert-title">Product Management – CII</div>
-  </div>
-  <div class="cert-card">
     <img src="/images/mathematics_ml.png" alt="Mathematics for ML">
     <div class="cert-title">Mathematics for ML – Imperial College London</div>
   </div>
@@ -112,6 +108,10 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
   <div class="cert-card">
     <img src="/images/FPGA.png" alt="Internship Training">
     <div class="cert-title"> Summer Internship on FPGA Based Embedded System for DSP Applications </div>
+  </div>
+  <div class="cert-card">
+    <img src="/images/product_management.png" alt="Product Management">
+    <div class="cert-title">Product Management Program – Confederation of Indian Industry</div>
   </div>
 </div>
 ---
