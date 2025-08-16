@@ -173,7 +173,7 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
   </div>
   <div class="cert-card">
     <img src="/images/ccna.png" alt="CCNA">
-    <div class="cert-title">Cisco Certified Network Associate (X) --- R & S</div>
+    <div class="cert-title">Cisco Certified Network Associate (X)</div>
   </div>
 </div>
 
