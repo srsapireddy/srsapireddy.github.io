@@ -106,7 +106,7 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
 ## 🌐 Training & Professional Development
 <div class="cert-grid lightbox-gallery">
   <div class="cert-card">
-    <img src="/images/REGEX.pdf" alt="Regex Training">
+    <img src="/images/REGEX.png" alt="Regex Training">
     <div class="cert-title"> Industrial Training Program on MEARN Stack Development </div>
   </div>
 </div>
