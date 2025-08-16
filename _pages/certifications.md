@@ -100,8 +100,8 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <div class="cert-title">Developing AI Applications on Azure - LearnQuest</div>
   </div>
   <div class="cert-card">
-    <img src="/images/Automobile.png" alt="Automobile">
-    <div class="cert-title">Automobile Engineering and IC Engine Workshop - Indian Institute of Technology Kanpur</div>
+    <img src="/images/AWS.png" alt="AWS">
+    <div class="cert-title">Getting Started with AWS Machine Learning - AWS</div>
   </div>
 </div>
 
@@ -132,6 +132,10 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
   <div class="cert-card">
     <img src="/images/REGEX.png" alt="Regex Training">
     <div class="cert-title"> Industrial Training Program on MEARN Stack Development </div>
+  </div>
+  <div class="cert-card">
+    <img src="/images/Automobile.png" alt="Automobile">
+    <div class="cert-title">Automobile Engineering and IC Engine Workshop - Indian Institute of Technology Kanpur</div>
   </div>
 </div>
 
