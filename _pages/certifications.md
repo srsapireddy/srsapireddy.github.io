@@ -91,6 +91,10 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <img src="/images/ECOLE.png" alt="Scientific Paper">
     <div class="cert-title">How to Write and Publish a Scientific Paper (Project-Centered Course) -  École Polytechnique, France</div>
   </div>
+  <div class="cert-card">
+    <img src="/images/GOOGLE.png" alt="Google">
+    <div class="cert-title">Managing Machine Learning Projects with Google Cloud - Google Cloud</div>
+  </div>
 </div>
 
 ---
