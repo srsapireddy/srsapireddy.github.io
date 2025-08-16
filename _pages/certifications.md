@@ -87,6 +87,10 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <img src="/images/LONDON.png" alt="Research Methods">
     <div class="cert-title">Understanding Research Methods - University of London</div>
   </div>
+  <div class="cert-card">
+    <img src="/images/ECOLE.png" alt="Scientific Paper">
+    <div class="cert-title">How to Write and Publish a Scientific Paper (Project-Centered Course) -  École Polytechnique, France</div>
+  </div>
 </div>
 
 ---
