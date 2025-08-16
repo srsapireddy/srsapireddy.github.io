@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # SEO metadata
 title: "Srinivas Rahul Sapireddy"
-description: "Ph.D. Candidate in ECE | Research in Hardware-Aware AI, VLSI Design, and RF Signal Processing"
+description: "Ph.D. in Electrical and Computer Engineering | Research in Hardware-Aware AI, VLSI Design, and RF Signal Processing"
 url: "https://srsapireddy.github.io"
 baseurl: "" # if your site is hosted at root
 author:
@@ -126,8 +126,8 @@ analytics:
 author:
   name             : "Srinivas Rahul Sapireddy"
   avatar           : 
-  bio              : "Ph.D. Candidate | Electrical & Computer Engineering | UMKC"
-  location         : "United States"
+  bio              : "Ph.D. | Electrical & Computer Engineering | UMKC"
+  location         : "Kansas City, Missouri, United States"
   email            : "sapireddysrinivas2020@gmail.com"
   github           : "srsapireddy"
   linkedin         : "srsapireddy2020"
