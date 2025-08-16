@@ -98,6 +98,10 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <div class="cert-title"> Summer Internship on FPGA Based Embedded System for DSP Applications </div>
   </div>
   <div class="cert-card">
+    <img src="/images/NEURO.png" alt="Internship Training">
+  <div class="cert-title"> Internship on Hardware for Computational Neuroscience </div>
+  </div>
+  <div class="cert-card">
     <img src="/images/product_management.png" alt="Product Management">
     <div class="cert-title">Product Management Program – Confederation of Indian Industry</div>
   </div>
@@ -108,6 +112,7 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
 </div>
 ---
 ## 🌐 Professional Certifications
+  <div class="cert-grid lightbox-gallery">
   <div class="cert-card">
     <img src="/images/network_security.jpeg" alt="Network Security">
     <div class="cert-title">Network Security Associate</div>
