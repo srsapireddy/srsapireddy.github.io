@@ -103,6 +103,10 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <img src="/images/AWS.png" alt="AWS">
     <div class="cert-title">Getting Started with AWS Machine Learning - AWS</div>
   </div>
+  <div class="cert-card">
+    <img src="/images/CODE.png" alt="CODE">
+    <div class="cert-title">Code Yourself! An Introduction to Programming -  University of Edinburgh and Universidad ORT Uruguay </div>
+  </div>
 </div>
 
 ---
