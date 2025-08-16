@@ -161,6 +161,7 @@ function copyCitation(id) {
   <h2>📚 Publications</h2>
     <!-- Published -->
   <h3 style="margin-top:2rem;">✅ Published</h3>
+  <div class="pub-grid">
     <div class="pub-entry">
       <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
