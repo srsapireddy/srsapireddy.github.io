@@ -109,6 +109,10 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <img src="/images/REGEX.png" alt="Regex Training">
     <div class="cert-title"> Industrial Training Program on MEARN Stack Development </div>
   </div>
+  <div class="cert-card">
+    <img src="/images/FPGA.png" alt="Internship Training">
+    <div class="cert-title"> Summer Internship on FPGA Based Embedded System for DSP Applications </div>
+  </div>
 </div>
 ---
 
