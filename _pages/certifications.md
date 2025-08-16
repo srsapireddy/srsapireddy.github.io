@@ -99,6 +99,10 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <img src="/images/LEARN.png" alt="Learn">
     <div class="cert-title">Developing AI Applications on Azure - LearnQuest</div>
   </div>
+  <div class="cert-card">
+    <img src="/images/Automobile.png" alt="Automobile">
+    <div class="cert-title">Automobile Engineering and IC Engine Workshop - Indian Institute of Technology Kanpur</div>
+  </div>
 </div>
 
 ---
