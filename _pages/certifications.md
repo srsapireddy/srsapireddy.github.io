@@ -115,6 +115,10 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <img src="/images/HARDWARE.png" alt="HARDWARE">
     <div class="cert-title">Hardware Security -  University of Maryland, College Park </div>
   </div>
+  <div class="cert-card">
+    <img src="/images/GORAKHPUR.png" alt="GORAKHPUR">
+    <div class="cert-title"> CERTIFICATE COURSE IN EMBEDDED SYSTEM DESIGN - NIELIT GORAKHPUR</div>
+  </div>
 </div>
 
 ---
