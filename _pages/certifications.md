@@ -127,7 +127,8 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <img src="/images/intel_cloud.png" alt="Intel Cloud">
     <div class="cert-title">Intel Solution Pro Cloud Business Professional</div>
   </div>
-    
+</div>
+
 ---
     
 ## 🎓 Degrees & Diplomas
