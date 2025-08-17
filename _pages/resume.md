@@ -81,7 +81,8 @@ author_profile: true
 <table class="resume-table">
 <thead><tr><th>Degree</th><th>Institution</th><th>Duration</th></tr></thead>
 <tbody>
-<tr><td>Planned – Master's in Management (MSM)</td><td>University of Illinois – Urbana-Champaign</td><td>Spring 2026 (Application to be Submitted)</td></tr>
+<tr><td>Planned – Masters in Management (Gies College of Business)</td><td>University of Illinois – Urbana-Champaign</td><td>Spring 2026 (Application to be Submitted)</td></tr>
+<tr><td>Mini - MBA (Farmer School of Business )</td><td>Miami University</td><td>Starting September 2025</td></tr>
 <tr><td>Ph.D. in Electrical & Computer Engineering</td><td>University of Missouri – Kansas City</td><td>09/2021 – 07/2025</td></tr>
 <tr><td>Advanced Diploma in AI</td><td>National Institute of Electronics & Information Technology, Calicut, Kerala</td><td>09/2019 – 01/2020</td></tr>
 <tr><td>M.S. in Computer Science</td><td>University of Illinois – Springfield</td><td>01/2017 – 12/2018</td></tr>
