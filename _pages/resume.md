@@ -86,7 +86,7 @@ author_profile: true
 <tr><td>Ph.D. in Electrical & Computer Engineering</td><td>University of Missouri – Kansas City</td><td>09/2021 – 07/2025</td></tr>
 <tr><td>Advanced Diploma in AI</td><td>National Institute of Electronics & Information Technology, Calicut, Kerala</td><td>09/2019 – 01/2020</td></tr>
 <tr><td>M.S. in Computer Science</td><td>University of Illinois – Springfield</td><td>01/2017 – 12/2018</td></tr>
-<tr><td>M.S. in Electrical Engineering</td><td>University of Missouri – Kansas City</td><td>01/2015 – 01/2016</td></tr>
+<tr><td>M.S. in Electrical Engineering</td><td>University of Missouri – Kansas City</td><td>01/2015 – 12/2016</td></tr>
 <tr><td>B.Tech in ECE</td><td>GRIET – Jawaharlal Nehru Technological University, Hyderabad</td><td>09/2011 – 04/2014</td></tr>
 </tbody>
 </table>
