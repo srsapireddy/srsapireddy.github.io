@@ -183,6 +183,10 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
 
 <div class="cert-grid lightbox-gallery">
   <div class="cert-card">
+    <img src="/images/PHF.png" alt="MS EE Degree">
+    <div class="cert-title">Ph.D. in Electrical and Engineering – UMKC</div>
+  </div> 
+  <div class="cert-card">
     <img src="/images/ms_cs_uis.png" alt="MS CS Degree">
     <div class="cert-title">M.S. in Computer Science – University of Illinois, Springfield</div>
   </div>
@@ -191,12 +195,12 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <div class="cert-title">M.S. in Electrical Engineering – UMKC</div>
   </div>
   <div class="cert-card">
-    <img src="/images/advanced_ai_nielit.png" alt="AI Diploma">
-    <div class="cert-title">Advanced Diploma in AI – NIELIT, India</div>
-  </div>
-  <div class="cert-card">
     <img src="/images/btech_ece.png" alt="B.Tech ECE">
     <div class="cert-title">B.Tech in ECE – GRIET, JNTU Hyderabad</div>
+  </div>
+  <div class="cert-card">
+    <img src="/images/advanced_ai_nielit.png" alt="AI Diploma">
+    <div class="cert-title">Advanced Diploma in AI – NIELIT, India</div>
   </div>
 </div>
 
