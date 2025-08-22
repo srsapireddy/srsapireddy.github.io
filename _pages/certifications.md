@@ -183,7 +183,7 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
 
 <div class="cert-grid lightbox-gallery">
   <div class="cert-card">
-    <img src="/images/PHF.png" alt="MS EE Degree">
+    <img src="/images/PHD.png" alt="PHD ECE Degree">
     <div class="cert-title">Ph.D. in Electrical and Engineering – UMKC</div>
   </div> 
   <div class="cert-card">
