@@ -303,11 +303,11 @@ function copyCitation(id) {
         <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
         <em>“Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Autocorrelation-Based Binning”</em>
         <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 6 - 10, 2025, Los Angeles, California.
-        <span class="status pending">Submitted</span>
+        <span class="status pending">To be Submitted</span>
       </div>
       <div class="cite-box" onclick="copyCitation('cite1')">
         📑 Cite
-        <textarea id="cite1" class="hidden-citation">Under Review</textarea>
+        <textarea id="cite1" class="hidden-citation">To be Submitted</textarea>
       </div>
     </div>
   <div class="pub-grid">
@@ -325,8 +325,19 @@ function copyCitation(id) {
     </div>
     <div class="pub-entry">
       <div class="pub-card">
-      <strong>Srinivas Rahul Sapireddy</strong>, Hemanth Bandi, Chaitanya Srinivas Yuvvuri<br>
+      <strong>Srinivas Rahul Sapireddy</strong>, Jahavani<br>
       <em>“From Rule-Based to Neural: Statistical Envelope Feature Classification Using Feedforward Networks”</em>
+      <a href="https://www.smartcomconference.com/" target="_blank">IEEE International Conference on Intelligent Systems, Smart and Green Technologies (ICISSGT – 2025)</a>, 19-20 December 2025. <span class="status pending">To be Submitted</span>
+    </div>
+      <div class="cite-box" onclick="copyCitation('cite2')">
+        📑 Cite
+        <textarea id="cite2" class="hidden-citation">To be Submitted</textarea>
+      </div>
+    </div>
+     <div class="pub-entry">
+      <div class="pub-card">
+      <strong>Srinivas Rahul Sapireddy</strong>, Jahavani, Hemanth Bandi<br>
+      <em>“Refining Deep Reinforcement Learning with Double Estimation and Optimized Target Updates”</em>
       <a href="https://www.smartcomconference.com/" target="_blank">10th International Conference on Smart Trends in Computing and Communications</a>, 19 - 21 January 2026. <span class="status pending">To be Submitted</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite2')">
