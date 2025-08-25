@@ -336,7 +336,7 @@ function copyCitation(id) {
     </div>
      <div class="pub-entry">
       <div class="pub-card">
-      <strong>Srinivas Rahul Sapireddy</strong>, Jahavani, Hemanth Bandi<br>
+      <strong>Srinivas Rahul Sapireddy</strong>, Hemanth Bandi<br>
       <em>“Refining Deep Reinforcement Learning with Double Estimation and Optimized Target Updates”</em>
       <a href="https://www.smartcomconference.com/" target="_blank">10th International Conference on Smart Trends in Computing and Communications</a>, 19 - 21 January 2026. <span class="status pending">To be Submitted</span>
     </div>
