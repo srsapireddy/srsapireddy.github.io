@@ -314,8 +314,8 @@ function copyCitation(id) {
     <div class="pub-entry">
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
-        <em>“Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features”</em>
-        <a href="https://ieeemapcon.org/" target="_blank">Microwaves, Antennas, and Propagation Conference (MAPCON) 2025</a>, December 14–18, 2025, Kerala, India.
+        <em>“Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features”</em><br>
+        <a href="https://ieeemapcon.org/" target="_blank">Microwaves, Antennas, and Propagation Conference (MAPCON) 2025</a>,<br> December 14–18, 2025, Kerala, India.<br>
         <span class="status pending">Submitted</span>
       </div>
       <div class="cite-box" onclick="copyCitation('cite1')">
@@ -327,7 +327,7 @@ function copyCitation(id) {
       <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Jahavani, Nimisha<br>
       <em>“From Rule-Based to Neural: Statistical Envelope Feature Classification Using Feedforward Networks”</em>
-      <a href="https://www.smartcomconference.com/" target="_blank">IEEE International Conference on Intelligent Systems, Smart and Green Technologies (ICISSGT – 2025)</a>, 19-20 December 2025. <span class="status pending">To be Submitted</span>
+      <a href="https://www.smartcomconference.com/" target="_blank">IEEE International Conference on Intelligent Systems, Smart and Green Technologies (ICISSGT – 2025)</a>,<br> 19-20 December 2025. <br><span class="status pending">To be Submitted</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite2')">
         📑 Cite
@@ -337,8 +337,8 @@ function copyCitation(id) {
      <div class="pub-entry">
       <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Hemanth Bandi<br>
-      <em>“Refining Deep Reinforcement Learning with Double Estimation and Optimized Target Updates”</em>
-      <a href="https://www.smartcomconference.com/" target="_blank">10th International Conference on Smart Trends in Computing and Communications</a>, 19 - 21 January 2026. <span class="status pending">To be Submitted</span>
+      <em>“Refining Deep Reinforcement Learning with Double Estimation and Optimized Target Updates”</em><br>
+      <a href="https://www.smartcomconference.com/" target="_blank">10th International Conference on Smart Trends in Computing and Communications</a>,<br> 19 - 21 January 2026.<br> <span class="status pending">To be Submitted</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite2')">
         📑 Cite
@@ -348,8 +348,8 @@ function copyCitation(id) {
     <div class="pub-entry">
       <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Nimisha, Jahavani<br>
-      <em>“Advances in Optical Nanoantenna-Based LSPR Biosensors for COVID-19 Antibody Detection: A Comprehensive Review”</em>
-      <a href="https://www.smartcomconference.com/" target="_blank">10th International Conference on Smart Trends in Computing and Communications</a>, 19 - 21 January 2026. <span class="status pending">To be Submitted</span>
+      <em>“Advances in Optical Nanoantenna-Based LSPR Biosensors for COVID-19 Antibody Detection: A Comprehensive Review”</em><br>
+      <a href="https://www.smartcomconference.com/" target="_blank">10th International Conference on Smart Trends in Computing and Communications</a>, <br> 19 - 21 January 2026. <br><span class="status pending">To be Submitted</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite2')">
         📑 Cite
