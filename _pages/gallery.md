@@ -72,6 +72,8 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
 </style>
 
 <div class="gallery-grid" id="gallery">
+  <img src="/images/orientation.jpeg" alt="orientation">
+  <img src="/images/most.jpeg" alt="Office">
   <img src="/images/Masud.jpeg" alt="Poster 1">
   <img src="/images/pos1.jpeg" alt="Poster 1">
   <img src="/images/pos2.jpeg" alt="Poster 2">
