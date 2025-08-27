@@ -60,7 +60,7 @@ a:hover {
 <div class="about-section">
 <h3>👨‍🎓 About Me</h3>
 <p>
-I'm <strong>Srinivas Rahul Sapireddy</strong>, a Ph.D. candidate in Electrical and Computer Engineering at <strong>University of Missouri – Kansas City (UMKC)</strong>. My research bridges <strong>low-power hardware-aware AI</strong>, <strong>RF signal classification</strong>, and <strong>VLSI design</strong> for edge intelligence.
+I'm <strong>Srinivas Rahul Sapireddy, Ph.D.</strong>, instructor in Electrical and Computer Engineering at <strong>University of Missouri – Kansas City (UMKC)</strong>. My research bridges <strong>low-power hardware-aware AI</strong>, <strong>RF signal classification</strong>, and <strong>VLSI design</strong> for edge intelligence.
 </p>
 <p>
 I bring a dual passion for teaching and research — currently teaching <strong>Logic Design</strong> and <strong>Engineering Computation</strong> while having taught <em>ASIC Physical Design</em> and <em>Analog IC Design</em>.
@@ -85,7 +85,7 @@ Research Assistant at <strong>Missouri Institute of Defense and Energy</strong> 
 <ul>
   <li>✅ GLSVLSI 2025: <em>Custom Activation Functions for LSTMs</em></li>
   <li>✅ RFCoN 2025: <em>Statistical Envelope Analysis for RF Signals</em></li>
-  <li>📑 ACM T-CPS (Under Review): Adversarial Detection in IoT</li>
+  <li>📑 MDPI Electronics (Published): Adversarial Detection in IoT</li>
   <li>📖 Memories Journal: <em>Piecewise Approximations for Neural Networks</em></li>
 </ul>
 <p>📎 <a href="/publications/">View my complete list of publications →</a></p>
