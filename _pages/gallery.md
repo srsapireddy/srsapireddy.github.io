@@ -77,7 +77,6 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
   <img src="/images/Masud.jpeg" alt="Poster 1">
   <img src="/images/pos1.jpeg" alt="Poster 1">
   <img src="/images/pos2.jpeg" alt="Poster 2">
-  <img src="/images/pos3.jpeg" alt="Poster 3">
   <img src="/images/grad0.jpg" alt="Graduation 1">
   <img src="/images/grad1.jpg" alt="Graduation 1">
   <img src="/images/grad2.jpg" alt="Graduation 2">
@@ -85,6 +84,7 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
   <img src="/images/grad4.jpg" alt="Graduation 4">
   <img src="/images/grad5.jpg" alt="Graduation 5">
   <img src="/images/grad.jpeg" alt="Graduation 2">
+  <img src="/images/pos3.jpeg" alt="Poster 3">
 </div>
 
 <div class="lightbox" id="lightbox">
