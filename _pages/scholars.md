@@ -163,7 +163,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
            <img src="/images/hemanth.jpeg" alt="Hemanth" class="sch-photo">  
       <div>
         <div class="sch-name">Hemanth Bandi
-        <a href="linkedin.com" target="_blank">
+        <a href="https://www.linkedin.com/in/hemanth-bandi-095266859317574524/" target="_blank">
           <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;">
         </a>
         </div>
