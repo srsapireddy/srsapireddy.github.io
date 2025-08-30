@@ -122,35 +122,30 @@ This page highlights scholars — both current UMKC students and alumni — who 
                 style="width:80px;height:80px;object-fit:cover;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.08);"> -->
       <div class="sch-avatar">HB</div>
       <div>
-        <div class="sch-name">Heamanth Bandi</div>
-        <div class="sch-sub">Current UMKC student — M.S. ECE</div>
+        <div class="sch-name">Hemanth Bandi</div>
+        <div class="sch-sub">Current UMKC student — Master of Science in Computer Science</div>
         <div style="margin-top:0.35rem;">
           <span class="badge current">Current</span>
           <span class="badge tag">RF</span>
-          <span class="badge tag">CAF/STFT</span>
-          <span class="badge tag">Edge ML</span>
+          <span class="badge tag">Deep Learning</span>
+          <span class="badge tag">Reinforcement Learning</span>
         </div>
       </div>
     </div>
     <div class="sch-sec">Current employment</div>
     <ul class="sch-list">
-      <li>Graduate Research Scholar, UMKC — RF Signal Classification Lab (present)</li>
-    </ul>
-    <div class="sch-sec">Past employment</div>
-    <ul class="sch-list">
-      <li>Software/Hardware Intern, [Company/Lab], [Year]</li>
-      <li>Undergraduate Teaching Assistant, [Dept], [Year]</li>
+      <li>Linux Security Analyst, Minnisota SuperComputing Institure, University of Minnisota Twin Cities</li>
     </ul>
     <div class="sch-sec">Research interests</div>
     <ul class="sch-list">
-      <li>RF modulation recognition; CAF/STFT feature fusion</li>
-      <li>Hardware-aware ML and low-power deployment</li>
+      <li>RF modulation recognition; </li>
+      <li>Reinforcement Learning</li>
       <li>Envelope statistics (R-values), dataset engineering</li>
     </ul>
     <div class="sch-sec">Active topics / papers</div>
     <ul class="sch-list">
-      <li>Signal classification manuscript (IEEE submission, in preparation)</li>
-      <li>Benchmarking CAF-aware binning with envelope-feature baselines</li>
+      <li>Signal classification manuscript (IEEE submission, submitted)</li>
+      <li>Benchmarking R-aware binning with envelope-feature baselines</li>
     </ul>
   </div>
 
