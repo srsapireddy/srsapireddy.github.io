@@ -131,7 +131,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
           <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;">
         </a>
         </div>
-        <div class="sch-sub">Current UMKC student — Master of Science in Electrical Engineering</div>
+        <div class="sch-sub">Current UMKC student — Master of Science in Electrical Engineering, Spring 2026</div>
         <div style="margin-top:0.35rem;">
           <span class="badge current">Current</span>
           <span class="badge tag">RF Signal Classification</span>
@@ -165,7 +165,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
           <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;">
         </a>
         </div>
-        <div class="sch-sub">Alumni UMKC student — Master of Science in Computer Science</div>
+        <div class="sch-sub">Alumni UMKC student — Master of Science in Computer Science, Spring 2023</div>
         <div style="margin-top:0.35rem;">
           <span class="badge alumni">Alumni</span>
           <span class="badge tag">RF</span>
@@ -196,7 +196,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
           <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;">
         </a>
         </div>
-        <div class="sch-sub">Alumni UMKC Student — B.S. Computer Science and Engineering, and Master of Science in Computer Science</div>
+        <div class="sch-sub">Alumni UMKC Student — B.S. Computer Science and Engineering, and Master of Science in Computer Science, Fall 2023</div>
         <div style="margin-top:0.35rem;">
           <span class="badge alumni">Alumni</span>
           <span class="badge tag">Deep Learning</span>
