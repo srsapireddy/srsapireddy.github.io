@@ -187,7 +187,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
         <div style="margin-top:0.35rem;">
           <span class="badge alumni">Alumni</span>
           <span class="badge tag">Deep Learning</span>
-          <span class="badge tag">PLA</span>
+          <span class="badge tag">Radio Frequence Signal Classification</span>
         </div>
       </div>
     </div>
