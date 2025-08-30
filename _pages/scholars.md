@@ -181,7 +181,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
       <!-- Replace with <img src="/assets/images/scholars/jahavani.jpg" alt="Jahavani" ...> later -->
       <div class="sch-avatar">JH</div>
       <div>
-        <div class="sch-name">Jahavani</div>
+        <div class="sch-name">Jahnavi Sri Kavya Bollimuntha</div>
         <div class="sch-sub">Alumni UMKC Student — B.S. Computer Science and Engineering, and Master of Science in Computer Science</div>
         <div style="margin-top:0.35rem;">
           <span class="badge alumni">Alumni</span>
