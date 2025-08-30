@@ -157,7 +157,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
         <div class="sch-name">Hemanth Bandi</div>
         <div class="sch-sub">Alumni UMKC student — Master of Science in Computer Science</div>
         <div style="margin-top:0.35rem;">
-          <span class="badge current">Alumni</span>
+          <span class="badge alumni">Alumni</span>
           <span class="badge tag">RF</span>
           <span class="badge tag">Deep Learning</span>
           <span class="badge tag">Reinforcement Learning</span>
