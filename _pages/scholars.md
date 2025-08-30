@@ -1,152 +1,235 @@
 ---
-layout: single
-title: Scholars
+title: "Scholars"
 permalink: /scholars/
 ---
 
-This page highlights scholars — both current UMKC students and alumni — who collaborate with me on research and publications.
-
 <style>
-  .scholar-card { padding:1rem; border-radius:1rem; box-shadow:0 4px 18px rgba(0,0,0,0.08); background:#fff; }
-  .scholar-name { font-size:1.1rem; font-weight:600; margin-bottom:0.2rem; }
-  .scholar-sub { font-size:0.95rem; opacity:0.85; }
-  .scholar-header { display:flex; gap:1rem; align-items:flex-start; }
-  .avatar {
-    width:80px; height:80px; border-radius:50%;
-    background:#e9ecef; display:flex; align-items:center; justify-content:center;
-    font-size:1.6rem; user-select:none;
-    box-shadow:0 2px 6px rgba(0,0,0,0.08);
+/* Reuse the card/grid vibe from Publications */
+.sch-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+@media (min-width: 720px) {
+  .sch-grid {
+    grid-template-columns: 1fr 1fr;
   }
-  .section-title { font-size:0.95rem; margin-top:0.8rem; opacity:0.85; text-transform:uppercase; letter-spacing:0.02em; }
-  .list-tight { margin:0.25rem 0 0.25rem 1.1rem; }
-  .label { display:inline-block; font-size:0.8rem; padding:0.12rem 0.5rem; border-radius:999px; background:#f1f3f5; margin-right:0.35rem; }
+}
+
+.sch-card {
+  border: 2px solid #1a73e8;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+.sch-card:hover {
+  background-color: #f0f8ff;
+  transform: scale(1.01);
+  box-shadow: 0 4px 12px rgba(26, 115, 232, 0.1);
+}
+
+/* Header with (future) photo + name + subtitle */
+.sch-header {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+/* Photo placeholder; replace with <img> later */
+.sch-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background:#e9eefc;
+  color:#1a73e8;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  user-select:none;
+}
+
+.sch-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+  color: #111;
+}
+
+.sch-sub {
+  font-size: 0.95rem;
+  color: #333;
+  opacity: 0.9;
+}
+
+/* Section titles & lists */
+.sch-sec {
+  font-size: 0.92rem;
+  margin-top: 0.8rem;
+  opacity: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.sch-list {
+  margin: 0.25rem 0 0.25rem 1.1rem;
+}
+
+/* Badges for status/keywords */
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.82rem;
+  margin-right: 0.35rem;
+}
+
+.badge.current { color: #0a539e; background: #e5f1ff; }
+.badge.alumni  { color: #1a7f3d; background: #dcfce7; }
+.badge.tag     { color: #1a73e8; background: #eef5ff; }
+
+/* Optional section headers for groups */
+.group-title {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  text-align: left;
+  color: #0a539e;
+  border-left: 4px solid #1a73e8;
+  padding-left: 0.5rem;
+}
 </style>
 
-## Current Scholars
+<p>
+This page highlights scholars — both current UMKC students and alumni — who collaborate with me on research and publications.
+</p>
 
-<div class="grid__wrapper">
+<div class="group-title">Current Scholars</div>
+<div class="sch-grid">
 
   <!-- Heamanth Bandi -->
-  <div class="grid__item" style="min-width:260px;max-width:520px;">
-    <div class="scholar-card">
-      <div class="scholar-header">
-        <!-- PHOTO PLACEHOLDER: replace this div with an <img> when ready
-             Example:
-             <img src="/assets/images/scholars/heamanth.jpg" alt="Heamanth Bandi" style="width:80px;height:80px;object-fit:cover;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.08);">
-        -->
-        <div class="avatar">HB</div>
-        <div>
-          <div class="scholar-name">Heamanth Bandi</div>
-          <div class="scholar-sub">Current UMKC student — M.S. ECE</div>
+  <div class="sch-card">
+    <div class="sch-header">
+      <!-- PHOTO PLACEHOLDER.
+           When ready, replace this div with:
+           <img src="/assets/images/scholars/heamanth.jpg" alt="Heamanth Bandi"
+                style="width:80px;height:80px;object-fit:cover;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.08);"> -->
+      <div class="sch-avatar">HB</div>
+      <div>
+        <div class="sch-name">Heamanth Bandi</div>
+        <div class="sch-sub">Current UMKC student — M.S. ECE</div>
+        <div style="margin-top:0.35rem;">
+          <span class="badge current">Current</span>
+          <span class="badge tag">RF</span>
+          <span class="badge tag">CAF/STFT</span>
+          <span class="badge tag">Edge ML</span>
         </div>
       </div>
-      <div class="section-title">Current employment</div>
-      <ul class="list-tight">
-        <li>Graduate Research Scholar, UMKC — RF Signal Classification Lab (present)</li>
-      </ul>
-      <div class="section-title">Past employment</div>
-      <ul class="list-tight">
-        <li>Software/Hardware Intern, [Company/Lab], [Year]</li>
-        <li>Undergraduate Teaching Assistant, [Dept], [Year]</li>
-      </ul>
-      <div class="section-title">Research interests</div>
-      <ul class="list-tight">
-        <li>RF modulation recognition; CAF/STFT feature fusion</li>
-        <li>Hardware-aware ML and low-power deployment</li>
-        <li>Envelope statistics (R-values), dataset engineering</li>
-      </ul>
-      <div class="section-title">Active topics / papers</div>
-      <ul class="list-tight">
-        <li>Signal classification manuscript (IEEE submission, in preparation)</li>
-        <li>Benchmarking CAF-aware binning with envelope-feature baselines</li>
-      </ul>
-      <div style="margin-top:0.4rem;">
-        <span class="label">RF</span>
-        <span class="label">CAF/STFT</span>
-        <span class="label">Edge ML</span>
-      </div>
     </div>
+    <div class="sch-sec">Current employment</div>
+    <ul class="sch-list">
+      <li>Graduate Research Scholar, UMKC — RF Signal Classification Lab (present)</li>
+    </ul>
+    <div class="sch-sec">Past employment</div>
+    <ul class="sch-list">
+      <li>Software/Hardware Intern, [Company/Lab], [Year]</li>
+      <li>Undergraduate Teaching Assistant, [Dept], [Year]</li>
+    </ul>
+    <div class="sch-sec">Research interests</div>
+    <ul class="sch-list">
+      <li>RF modulation recognition; CAF/STFT feature fusion</li>
+      <li>Hardware-aware ML and low-power deployment</li>
+      <li>Envelope statistics (R-values), dataset engineering</li>
+    </ul>
+    <div class="sch-sec">Active topics / papers</div>
+    <ul class="sch-list">
+      <li>Signal classification manuscript (IEEE submission, in preparation)</li>
+      <li>Benchmarking CAF-aware binning with envelope-feature baselines</li>
+    </ul>
   </div>
 
   <!-- Nimisha -->
-  <div class="grid__item" style="min-width:260px;max-width:520px;">
-    <div class="scholar-card">
-      <div class="scholar-header">
-        <!-- PHOTO PLACEHOLDER; replace with <img src="/assets/images/scholars/nimisha.jpg" alt="Nimisha" ...> -->
-        <div class="avatar">N</div>
-        <div>
-          <div class="scholar-name">Nimisha</div>
-          <div class="scholar-sub">Current UMKC student — B.S. Computer Engineering</div>
+  <div class="sch-card">
+    <div class="sch-header">
+      <!-- Replace with <img src="/assets/images/scholars/nimisha.jpg" alt="Nimisha" ...> later -->
+      <div class="sch-avatar">N</div>
+      <div>
+        <div class="sch-name">Nimisha</div>
+        <div class="sch-sub">Current UMKC student — B.S. Computer Engineering</div>
+        <div style="margin-top:0.35rem;">
+          <span class="badge current">Current</span>
+          <span class="badge tag">Activation Design</span>
+          <span class="badge tag">Embedded AI</span>
         </div>
       </div>
-      <div class="section-title">Current employment</div>
-      <ul class="list-tight">
-        <li>Undergraduate Research Scholar, UMKC — Hardware-Efficient AI (present)</li>
-      </ul>
-      <div class="section-title">Past employment</div>
-      <ul class="list-tight">
-        <li>Software Intern, [Company], [Year]</li>
-      </ul>
-      <div class="section-title">Research interests</div>
-      <ul class="list-tight">
-        <li>Piecewise linear activations for CNN/LSTM</li>
-        <li>Runtime and memory optimization for embedded inference</li>
-      </ul>
-      <div class="section-title">Active topics / papers</div>
-      <ul class="list-tight">
-        <li>Co-author: hardware-efficient piecewise sigmoid/tanh (under review)</li>
-        <li>Ablations on accuracy vs compute across activation families</li>
-      </ul>
-      <div style="margin-top:0.4rem;">
-        <span class="label">Activation Design</span>
-        <span class="label">Embedded AI</span>
-      </div>
     </div>
+    <div class="sch-sec">Current employment</div>
+    <ul class="sch-list">
+      <li>Undergraduate Research Scholar, UMKC — Hardware-Efficient AI (present)</li>
+    </ul>
+    <div class="sch-sec">Past employment</div>
+    <ul class="sch-list">
+      <li>Software Intern, [Company], [Year]</li>
+    </ul>
+    <div class="sch-sec">Research interests</div>
+    <ul class="sch-list">
+      <li>Piecewise linear activations for CNN/LSTM</li>
+      <li>Runtime and memory optimization for embedded inference</li>
+    </ul>
+    <div class="sch-sec">Active topics / papers</div>
+    <ul class="sch-list">
+      <li>Co-author: hardware-efficient piecewise sigmoid/tanh (under review)</li>
+      <li>Ablations on accuracy vs compute across activation families</li>
+    </ul>
   </div>
 
 </div>
 
-## Alumni Scholars
-
-<div class="grid__wrapper">
+<div class="group-title">Alumni Scholars</div>
+<div class="sch-grid">
 
   <!-- Jahavani -->
-  <div class="grid__item" style="min-width:260px;max-width:520px;">
-    <div class="scholar-card">
-      <div class="scholar-header">
-        <!-- PHOTO PLACEHOLDER; replace with <img src="/assets/images/scholars/jahavani.jpg" alt="Jahavani" ...> -->
-        <div class="avatar">J</div>
-        <div>
-          <div class="scholar-name">Jahavani</div>
-          <div class="scholar-sub">Alumni — B.S. Electrical Engineering, UMKC</div>
+  <div class="sch-card">
+    <div class="sch-header">
+      <!-- Replace with <img src="/assets/images/scholars/jahavani.jpg" alt="Jahavani" ...> later -->
+      <div class="sch-avatar">J</div>
+      <div>
+        <div class="sch-name">Jahavani</div>
+        <div class="sch-sub">Alumni — B.S. Electrical Engineering, UMKC</div>
+        <div style="margin-top:0.35rem;">
+          <span class="badge alumni">Alumni</span>
+          <span class="badge tag">VLSI</span>
+          <span class="badge tag">PLA</span>
+          <span class="badge tag">RF</span>
         </div>
       </div>
-      <div class="section-title">Current employment</div>
-      <ul class="list-tight">
-        <li>[Role], [Company/Lab], [Location] (present)</li>
-      </ul>
-      <div class="section-title">Past employment</div>
-      <ul class="list-tight">
-        <li>Design Intern, [Company], [Year]</li>
-      </ul>
-      <div class="section-title">Research interests</div>
-      <ul class="list-tight">
-        <li>Hardware design flows (Cadence/Synopsys)</li>
-        <li>Activation function acceleration and PLA architectures</li>
-      </ul>
-      <div class="section-title">Active topics / papers</div>
-      <ul class="list-tight">
-        <li>Collaborative paper on RF signal analysis (draft in progress)</li>
-        <li>PLA hardware evaluation: area, power, and latency</li>
-      </ul>
-      <div style="margin-top:0.4rem;">
-        <span class="label">VLSI</span>
-        <span class="label">PLA</span>
-        <span class="label">RF</span>
-      </div>
     </div>
+    <div class="sch-sec">Current employment</div>
+    <ul class="sch-list">
+      <li>[Role], [Company/Lab], [Location] (present)</li>
+    </ul>
+    <div class="sch-sec">Past employment</div>
+    <ul class="sch-list">
+      <li>Design Intern, [Company], [Year]</li>
+    </ul>
+    <div class="sch-sec">Research interests</div>
+    <ul class="sch-list">
+      <li>Hardware design flows (Cadence/Synopsys)</li>
+      <li>Activation function acceleration and PLA architectures</li>
+    </ul>
+    <div class="sch-sec">Active topics / papers</div>
+    <ul class="sch-list">
+      <li>Collaborative paper on RF signal analysis (draft in progress)</li>
+      <li>PLA hardware evaluation: area, power, and latency</li>
+    </ul>
   </div>
+
 </div>
 
 
-   git a
