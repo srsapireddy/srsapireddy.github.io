@@ -91,6 +91,14 @@ permalink: /scholars/
   margin-right: 0.35rem;
 }
 
+.sch-photo {
+  width: 60px;          /* adjust size */
+  height: 60px;         /* keep it square */
+  border-radius: 50%;   /* makes it circular */
+  object-fit: cover;    /* crops the image instead of stretching */
+  margin-right: 10px;   /* spacing from text */
+}
+  
 .badge.current { color: #0a539e; background: #e5f1ff; }
 .badge.alumni  { color: #1a7f3d; background: #dcfce7; }
 .badge.tag     { color: #1a73e8; background: #eef5ff; }
@@ -116,7 +124,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
   <!-- Nimisha -->
   <div class="sch-card">
     <div class="sch-header">
-      <img src="/images/nimisha.jpeg" alt="Nimisha">  
+      <img src="/images/nimisha.jpeg" alt="Nimisha" class="sch-photo">  
       <div class="sch-avatar">NC</div>
       <div>
         <div class="sch-name">Nimisha Chandra
