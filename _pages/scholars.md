@@ -183,7 +183,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
       <div class="sch-avatar">JH</div>
       <div>
         <div class="sch-name">Jahavani</div>
-        <div class="sch-sub">Alumni UMKC Student — B.S. Computer Science and Engineering, and Master of Science in Computer Sciecne UMKC</div>
+        <div class="sch-sub">Alumni UMKC Student — B.S. Computer Science and Engineering, and Master of Science in Computer Science</div>
         <div style="margin-top:0.35rem;">
           <span class="badge alumni">Alumni</span>
           <span class="badge tag">Deep Learning</span>
