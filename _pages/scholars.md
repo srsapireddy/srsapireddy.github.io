@@ -123,20 +123,19 @@ This page highlights scholars — both current UMKC students and alumni — who 
         <div class="sch-sub">Current UMKC student — Master of Science in Electrical Engineering</div>
         <div style="margin-top:0.35rem;">
           <span class="badge current">Current</span>
-          <span class="badge tag">Activation Design</span>
-          <span class="badge tag">Embedded AI</span>
+          <span class="badge tag">RF Signal Classification</span>
+          <span class="badge tag">Nanoscale Manufacturing</span>
         </div>
       </div>
     </div>
     <div class="sch-sec">Research interests</div>
     <ul class="sch-list">
-      <li>Piecewise linear activations for CNN/LSTM</li>
-      <li>Runtime and memory optimization for embedded inference</li>
+      <li>Machine Learning and Deep Learning</li>
+      <li>Runtime and memory optimization for edge inference</li>
     </ul>
     <div class="sch-sec">Active topics / papers</div>
     <ul class="sch-list">
-      <li>Co-author: hardware-efficient piecewise sigmoid/tanh (under review)</li>
-      <li>Ablations on accuracy vs compute across activation families</li>
+      <li>Co-author: From Rule based to Neural: RF Statistical Envolope Analysis (To be submitted)</li>
     </ul>
   </div>
 
@@ -187,21 +186,19 @@ This page highlights scholars — both current UMKC students and alumni — who 
         <div class="sch-sub">Alumni — B.S. Computer Science and Engineering, and Master of Science in Computer Sciecne UMKC</div>
         <div style="margin-top:0.35rem;">
           <span class="badge alumni">Alumni</span>
-          <span class="badge tag">VLSI</span>
+          <span class="badge tag">Deep Learning</span>
           <span class="badge tag">PLA</span>
-          <span class="badge tag">RF</span>
         </div>
       </div>
     </div>
     <div class="sch-sec">Research interests</div>
     <ul class="sch-list">
-      <li>Hardware design flows (Cadence/Synopsys)</li>
-      <li>Activation function acceleration and PLA architectures</li>
+      <li>Deep Learning</li>
+      <li>Modulation Recognition and Classification</li>
     </ul>
     <div class="sch-sec">Active topics / papers</div>
     <ul class="sch-list">
       <li>Collaborative paper on RF signal analysis (draft in progress)</li>
-      <li>PLA hardware evaluation: area, power, and latency</li>
     </ul>
   </div>
 
