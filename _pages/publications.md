@@ -347,7 +347,7 @@ function copyCitation(id) {
     </div>
     <div class="pub-entry">
       <div class="pub-card">
-      <strong>Srinivas Rahul Sapireddy</strong>, Nimisha, Jahavani<br>
+      Nimisha, <strong>Srinivas Rahul Sapireddy</strong>, Jahavani<br>
       <em>“Advances in Optical Nanoantenna-Based LSPR Biosensors for COVID-19 Antibody Detection: A Comprehensive Review”</em><br>
       <a href="https://www.smartcomconference.com/" target="_blank">10th International Conference on Smart Trends in Computing and Communications</a>, <br> 19 - 21 January 2026. <span class="status pending">To be Submitted</span>
     </div>
