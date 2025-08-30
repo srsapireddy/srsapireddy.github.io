@@ -117,9 +117,9 @@ This page highlights scholars — both current UMKC students and alumni — who 
   <div class="sch-card">
     <div class="sch-header">
       <!-- Replace with <img src="/assets/images/scholars/nimisha.jpg" alt="Nimisha" ...> later -->
-      <div class="sch-avatar">N</div>
+      <div class="sch-avatar">NC</div>
       <div>
-        <div class="sch-name">Nimisha</div>
+        <div class="sch-name">Nimisha Chandra</div>
         <div class="sch-sub">Current UMKC student — Master of Science in Electrical Engineering</div>
         <div style="margin-top:0.35rem;">
           <span class="badge current">Current</span>
@@ -180,7 +180,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
   <div class="sch-card">
     <div class="sch-header">
       <!-- Replace with <img src="/assets/images/scholars/jahavani.jpg" alt="Jahavani" ...> later -->
-      <div class="sch-avatar">J</div>
+      <div class="sch-avatar">JH</div>
       <div>
         <div class="sch-name">Jahavani</div>
         <div class="sch-sub">Alumni — B.S. Computer Science and Engineering, and Master of Science in Computer Sciecne UMKC</div>
