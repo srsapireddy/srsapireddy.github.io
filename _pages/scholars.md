@@ -118,7 +118,7 @@ permalink: /scholars/
 This page highlights scholars — both current UMKC students and alumni — who collaborate with me on research and publications.
 </p>
 
-<div class="group-title">Current Scholars</div>
+<div class="group-title">Current Students</div>
 <div class="sch-grid">
 
   <!-- Nimisha -->
