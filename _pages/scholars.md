@@ -163,7 +163,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
       <div class="sch-avatar">HB</div>
       <div>
         <div class="sch-name">Hemanth Bandi</div>
-        <div class="sch-sub">Current UMKC student — Master of Science in Computer Science</div>
+        <div class="sch-sub">Alumni UMKC student — Master of Science in Computer Science</div>
         <div style="margin-top:0.35rem;">
           <span class="badge current">Current</span>
           <span class="badge tag">RF</span>
