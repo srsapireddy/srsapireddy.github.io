@@ -6,6 +6,8 @@ main:
     url: /resume/
   - title: "Publications"
     url: /publications/
+  - title: "Scholars"
+    url: /scholars/
   - title: "Certifications"
     url: /certifications/
   - title: "Blog"
