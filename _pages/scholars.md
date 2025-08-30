@@ -167,7 +167,6 @@ This page highlights scholars — both current UMKC students and alumni — who 
     <ul class="sch-list">
       <li>RF modulation recognition </li>
       <li>Reinforcement Learning</li>
-      <li>Envelope statistics (R-values), Dataset engineering</li>
     </ul>
     <div class="sch-sec">Active topics / papers</div>
     <ul class="sch-list">
@@ -195,6 +194,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
     <ul class="sch-list">
       <li>Deep Learning</li>
       <li>Modulation Recognition and Classification</li>
+      <li>Envelope statistics (R-values), Dataset Engineering</li>
     </ul>
     <div class="sch-sec">Active topics / papers</div>
     <ul class="sch-list">
