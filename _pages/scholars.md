@@ -155,8 +155,6 @@ This page highlights scholars — both current UMKC students and alumni — who 
 <div class="group-title">Alumni Scholars</div>
 <div class="sch-grid">
 
-<img src="/images/nimisha.jpeg" alt="Nimisha" class="sch-photo">  
-
   <!-- Heamanth Bandi -->
   <div class="sch-card">
     <div class="sch-header">
