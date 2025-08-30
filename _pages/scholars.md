@@ -120,7 +120,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
       <div class="sch-avatar">N</div>
       <div>
         <div class="sch-name">Nimisha</div>
-        <div class="sch-sub">Current UMKC student — B.S. Computer Engineering</div>
+        <div class="sch-sub">Current UMKC student — Master of Science in Electrical Engineering</div>
         <div style="margin-top:0.35rem;">
           <span class="badge current">Current</span>
           <span class="badge tag">Activation Design</span>
@@ -131,10 +131,6 @@ This page highlights scholars — both current UMKC students and alumni — who 
     <div class="sch-sec">Current employment</div>
     <ul class="sch-list">
       <li>Undergraduate Research Scholar, UMKC — Hardware-Efficient AI (present)</li>
-    </ul>
-    <div class="sch-sec">Past employment</div>
-    <ul class="sch-list">
-      <li>Software Intern, [Company], [Year]</li>
     </ul>
     <div class="sch-sec">Research interests</div>
     <ul class="sch-list">
@@ -196,7 +192,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
       <div class="sch-avatar">J</div>
       <div>
         <div class="sch-name">Jahavani</div>
-        <div class="sch-sub">Alumni — B.S. Electrical Engineering, UMKC</div>
+        <div class="sch-sub">Alumni — B.S. Computer Science and Engineering, and Master of Science in Computer Sciecne UMKC</div>
         <div style="margin-top:0.35rem;">
           <span class="badge alumni">Alumni</span>
           <span class="badge tag">VLSI</span>
@@ -208,10 +204,6 @@ This page highlights scholars — both current UMKC students and alumni — who 
     <div class="sch-sec">Current employment</div>
     <ul class="sch-list">
       <li>[Role], [Company/Lab], [Location] (present)</li>
-    </ul>
-    <div class="sch-sec">Past employment</div>
-    <ul class="sch-list">
-      <li>Design Intern, [Company], [Year]</li>
     </ul>
     <div class="sch-sec">Research interests</div>
     <ul class="sch-list">
