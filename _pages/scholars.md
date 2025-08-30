@@ -116,7 +116,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
   <!-- Nimisha -->
   <div class="sch-card">
     <div class="sch-header">
-      <!-- Replace with <img src="/assets/images/scholars/nimisha.jpg" alt="Nimisha" ...> later -->
+      <img src="/images/scholars/nimisha.jpeg" alt="Nimisha" ...> 
       <div class="sch-avatar">NC</div>
       <div>
         <div class="sch-name">Nimisha Chandra</div>
