@@ -152,7 +152,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
 
 </div>
 
-<div class="group-title">Alumni Scholars</div>
+<div class="group-title">Alumni</div>
 <div class="sch-grid">
 
   <!-- Heamanth Bandi -->
