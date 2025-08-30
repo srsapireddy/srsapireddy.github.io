@@ -155,16 +155,18 @@ This page highlights scholars — both current UMKC students and alumni — who 
 <div class="group-title">Alumni Scholars</div>
 <div class="sch-grid">
 
+<img src="/images/nimisha.jpeg" alt="Nimisha" class="sch-photo">  
+
   <!-- Heamanth Bandi -->
   <div class="sch-card">
     <div class="sch-header">
-      <!-- PHOTO PLACEHOLDER.
-           When ready, replace this div with:
-           <img src="/assets/images/scholars/heamanth.jpg" alt="Heamanth Bandi"
-                style="width:80px;height:80px;object-fit:cover;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.08);"> -->
-      <div class="sch-avatar">HB</div>
+           <img src="/images/hemanth.jpeg" alt="Hemanth" class="sch-photo">  
       <div>
-        <div class="sch-name">Hemanth Bandi</div>
+        <div class="sch-name">Hemanth Bandi
+        <a href="linkedin.com" target="_blank">
+          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;">
+        </a>
+        </div>
         <div class="sch-sub">Alumni UMKC student — Master of Science in Computer Science</div>
         <div style="margin-top:0.35rem;">
           <span class="badge alumni">Alumni</span>
@@ -189,10 +191,13 @@ This page highlights scholars — both current UMKC students and alumni — who 
   <!-- Jahavani -->
   <div class="sch-card">
     <div class="sch-header">
-      <!-- Replace with <img src="/assets/images/scholars/jahavani.jpg" alt="Jahavani" ...> later -->
-      <div class="sch-avatar">JH</div>
+      <img src="/images/jahvani.jpeg" alt="Jahvani" class="sch-photo">  
       <div>
-        <div class="sch-name">Jahnavi Sri Kavya Bollimuntha</div>
+        <div class="sch-name">Jahnavi Sri Kavya Bollimuntha
+        <a href="https://www.linkedin.com/in/jahnavi-sri-kavya-bollimuntha/" target="_blank">
+          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;">
+        </a>
+        </div>
         <div class="sch-sub">Alumni UMKC Student — B.S. Computer Science and Engineering, and Master of Science in Computer Science</div>
         <div style="margin-top:0.35rem;">
           <span class="badge alumni">Alumni</span>
