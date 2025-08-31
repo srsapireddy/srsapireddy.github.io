@@ -94,7 +94,7 @@ author_profile: true
             </td><td>University of Illinois – Urbana-Champaign
             <img src="/images/UIUC.jpg" alt="UIUC Logo" class="logo">
             </td><td>Spring 2026 (Application to be Submitted)</td></tr>
-<tr><td>Mini - MBA (Farmer School of Business )
+<tr><td>Mini - MBA (Farmer School of Business)
 </td><td>Miami University
 <img src="/images/miami.png" alt="Miami Logo" class="logo">
 </td><td>In Progress - December 2025</td></tr>
