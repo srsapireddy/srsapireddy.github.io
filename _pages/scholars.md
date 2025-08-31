@@ -133,38 +133,37 @@ This page highlights scholars — both current UMKC students and alumni — who 
 
 <div class="group-title">Research Lead</div>
 <div class="sch-grid">
-  
-<div class="sch-card">
-  <div class="sch-header">
-    <img src="/images/rahul.png" alt="Srinivas Rahul Sapireddy, PhD" class="sch-img"> 
-    <div>
-      <div class="sch-name">Srinivas Rahul Sapireddy, PhD</div>
-      <div class="sch-sub">Instructor, School of Science & Engineering — UMKC</div>
-      <div style="margin-top:0.35rem;">
-        <span class="badge guide">Guide</span>
-        <span class="badge tag">Hardware-Aware AI</span>
-        <span class="badge tag">RF Signal Classification</span>
-        <span class="badge tag">VLSI / ASIC Design</span>
+
+  <!-- Nimisha -->
+  <div class="sch-card">
+    <div class="sch-header">
+      <img src="/images/rahul.png" alt="Rahul" class="sch-photo">  
+      <div>
+        <div class="sch-name">Srinivas Rahul Sapireddy, PhD 
+          <a href="https://www.linkedin.com/in/srsapireddy2020/" target="_blank">
+          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;"><img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+        </a>
+        </div>
+        <div class="sch-sub">Instructor, School of Science & Engineering — UMKC</div>
+        <div style="margin-top:0.35rem;">
+          <span class="badge guide">Guide</span>
+          <span class="badge tag">Hardware-Aware AI</span>
+          <span class="badge tag">RF Signal Classification</span>
+        </div>
       </div>
     </div>
-  </div>
-  
-  <div class="sch-body">
-    <h4>RESEARCH INTERESTS</h4>
-    <ul>
+    <div class="sch-sec">Research interests</div>
+    <ul class="sch-list">
       <li>Hardware-efficient deep learning models</li>
       <li>Low-power RF signal classification</li>
-      <li>Piecewise linear activation functions for neural networks</li>
     </ul>
-    <h4>ACTIVE TOPICS / PAPERS</h4>
-    <ul>
-      <li>Ph.D. Dissertation: Hardware-Aware Deep Learning and Signal Processing</li>
-      <li>Best Paper Award: Revisiting R — RF Envelope Analysis (IEEE RFCoN 2025)</li>
-      <li>Multiple works under review at IEEE conferences</li>
+    <div class="sch-sec">Active topics / papers</div>
+    <ul class="sch-list">
+      <li>Efficient Deep Neural Networks</li>
     </ul>
   </div>
-</div>
 
+</div>
 
 <div class="group-title">Current Students</div>
 <div class="sch-grid">
