@@ -92,15 +92,25 @@ author_profile: true
 <tbody>
 <tr><td>Planned – Masters in Management (Gies College of Business)
             </td><td>University of Illinois – Urbana-Champaign
-            <img src="/images/UIUC.jpg" alt="UIUC Logo" class="logo"></td><td>Spring 2026 (Application to be Submitted)</td></tr>
+            <img src="/images/UIUC.jpg" alt="UIUC Logo" class="logo">
+            </td><td>Spring 2026 (Application to be Submitted)</td></tr>
 <tr><td>Mini - MBA (Farmer School of Business )
 </td><td>Miami University
-<img src="/images/miami.png" alt="Miami Logo" class="logo"></td><td>Starting September 2025</td></tr>
-<tr><td>Ph.D. in Electrical & Computer Engineering</td><td>University of Missouri – Kansas City</td><td>09/2021 – 07/2025</td></tr>
+<img src="/images/miami.png" alt="Miami Logo" class="logo">
+</td><td>Starting September 2025</td></tr>
+<tr><td>Ph.D. in Electrical & Computer Engineering</td><td>University of Missouri – Kansas City
+<img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+</td><td>09/2021 – 07/2025</td></tr>
 <tr><td>Advanced Diploma in AI</td><td>National Institute of Electronics & Information Technology, Calicut, Kerala</td><td>09/2019 – 01/2020</td></tr>
-<tr><td>M.S. in Computer Science</td><td>University of Illinois – Springfield</td><td>01/2017 – 12/2018</td></tr>
-<tr><td>M.S. in Electrical Engineering</td><td>University of Missouri – Kansas City</td><td>01/2015 – 12/2016</td></tr>
-<tr><td>B.Tech in ECE</td><td>GRIET – Jawaharlal Nehru Technological University, Hyderabad</td><td>09/2011 – 04/2014</td></tr>
+<tr><td>M.S. in Computer Science</td><td>University of Illinois – Springfield
+<img src="/images/UIS.png" alt="UIS Logo" class="logo">
+</td><td>01/2017 – 12/2018</td></tr>
+<tr><td>M.S. in Electrical Engineering</td><td>University of Missouri – Kansas City
+<img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+</td><td>01/2015 – 12/2016</td></tr>
+<tr><td>B.Tech in ECE</td><td>GRIET – Jawaharlal Nehru Technological University, Hyderabad
+<img src="/images/GRIET.png" alt="GRIET Logo" class="logo">
+</td><td>09/2011 – 04/2014</td></tr>
 </tbody>
 </table>
 </div>
