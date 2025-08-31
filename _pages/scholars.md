@@ -209,7 +209,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
       <div>
         <div class="sch-name">Hemanth Bandi
         <a href="https://www.linkedin.com/in/hemanth-bandi-095266859317574524/" target="_blank">
-          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;"><img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;"><img src="/images/MINN.png" alt="MINNISOTA Logo" class="logo">
         </a>
         </div>
         <div class="sch-sub">Alumni UMKC student — Master of Science in Computer Science, Spring 2023</div>
