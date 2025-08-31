@@ -131,7 +131,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
           <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;">
         </a>
         </div>
-        <div class="sch-sub">Current UMKC student — Master of Science in Electrical Engineering, Spring 2026</div>
+        <div class="sch-sub">Current UMKC student — Master of Science in Electrical Engineering, Spring 2026 <img src="/images/UMKC.png" alt="UMKC Logo" class="logo"></div>
         <div style="margin-top:0.35rem;">
           <span class="badge current">Current</span>
           <span class="badge tag">RF Signal Classification</span>
