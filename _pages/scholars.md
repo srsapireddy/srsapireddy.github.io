@@ -91,6 +91,14 @@ permalink: /scholars/
   margin-right: 0.35rem;
 }
 
+.logo {
+  max-height: 30px;
+  max-width: 60px;
+  object-fit: contain;
+  float: right;
+  margin-left: 6px;
+}
+  
 .sch-photo {
   width: 60px;          /* adjust size */
   height: 60px;         /* keep it square */
