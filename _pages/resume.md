@@ -67,8 +67,8 @@ author_profile: true
 }
 
 .resume-table .logo {
-  max-height: 40px;
-  max-width: 80px;
+  max-height: 30px;
+  max-width: 60px;
   object-fit: contain;
   float: right;
   margin-left: 6px;
