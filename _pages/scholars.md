@@ -159,7 +159,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
     <h4>ACTIVE TOPICS / PAPERS</h4>
     <ul>
       <li>Ph.D. Dissertation: Hardware-Aware Deep Learning and Signal Processing</li>
-      <li>Best Paper: Revisiting R — RF Envelope Analysis (IEEE RFCoN 2025)</li>
+      <li>Best Paper Award: Revisiting R — RF Envelope Analysis (IEEE RFCoN 2025)</li>
       <li>Multiple works under review at IEEE conferences</li>
     </ul>
   </div>
