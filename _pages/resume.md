@@ -66,6 +66,15 @@ author_profile: true
   background: #f9fdff;
 }
 
+.resume-table .logo {
+  max-height: 24px;
+  max-width: 60px;
+  object-fit: contain;
+  float: right;
+  margin-left: 6px;
+}
+
+  
 .resume-list {
   list-style: disc;
   padding-left: 1.4rem;
