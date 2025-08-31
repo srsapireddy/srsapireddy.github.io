@@ -98,6 +98,11 @@ permalink: /scholars/
   float: right;
   margin-left: 6px;
 }
+
+.badge.guide {
+  background-color: #ff9800; /* orange for distinction */
+  color: white;
+}
   
 .sch-photo {
   width: 60px;          /* adjust size */
@@ -125,6 +130,40 @@ permalink: /scholars/
 <p>
 This page highlights scholars — both current UMKC students and alumni — who collaborate with me on research and publications.
 </p>
+
+<div class="group-title">Research Lead</div>
+<div class="sch-card">
+  <div class="sch-header">
+    <img src="/images/rahul.png" alt="Dr. Srinivas Rahul Sapireddy" class="sch-img"> 
+    <div class="sch-avatar">RS</div>
+    <div>
+      <div class="sch-name">Srinivas Rahul Sapireddy, PhD</div>
+      <div class="sch-sub">Instructor, School of Science & Engineering — UMKC</div>
+      <div style="margin-top:0.35rem;">
+        <span class="badge guide">Guide</span>
+        <span class="badge tag">Hardware-Aware AI</span>
+        <span class="badge tag">RF Signal Classification</span>
+        <span class="badge tag">VLSI / ASIC Design</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="sch-body">
+    <h4>RESEARCH INTERESTS</h4>
+    <ul>
+      <li>Hardware-efficient deep learning models</li>
+      <li>Low-power RF signal classification</li>
+      <li>Piecewise linear activation functions for neural networks</li>
+    </ul>
+    <h4>ACTIVE TOPICS / PAPERS</h4>
+    <ul>
+      <li>Ph.D. Dissertation: Hardware-Aware Deep Learning and Signal Processing</li>
+      <li>Best Paper: Revisiting R — RF Envelope Analysis (IEEE RFCoN 2025)</li>
+      <li>Multiple works under review at IEEE conferences</li>
+    </ul>
+  </div>
+</div>
+
 
 <div class="group-title">Current Students</div>
 <div class="sch-grid">
