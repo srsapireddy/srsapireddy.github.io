@@ -134,9 +134,9 @@ This page highlights scholars — both current UMKC students and alumni — who 
     <div class="sch-header">
       <img src="/images/nimisha.jpeg" alt="Nimisha" class="sch-photo">  
       <div>
-        <div class="sch-name">Nimisha Chandra <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+        <div class="sch-name">Nimisha Chandra 
           <a href="https://www.linkedin.com/in/nimisha-chandra-99130a20/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
-          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;">
+          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;"><img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
         </a>
         </div>
         <div class="sch-sub">Current UMKC student — Master of Science in Electrical Engineering, Spring 2026</div>
@@ -170,7 +170,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
       <div>
         <div class="sch-name">Hemanth Bandi
         <a href="https://www.linkedin.com/in/hemanth-bandi-095266859317574524/" target="_blank">
-          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;">
+          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;"><img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
         </a>
         </div>
         <div class="sch-sub">Alumni UMKC student — Master of Science in Computer Science, Spring 2023</div>
@@ -201,7 +201,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
       <div>
         <div class="sch-name">Jahnavi Sri Kavya Bollimuntha
         <a href="https://www.linkedin.com/in/jahnavi-sri-kavya-bollimuntha/" target="_blank">
-          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;">
+          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;"><img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
         </a>
         </div>
         <div class="sch-sub">Alumni UMKC Student — B.S. Computer Science and Engineering, and Master of Science in Computer Science, Fall 2023</div>
