@@ -102,7 +102,7 @@ author_profile: true
 <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
 </td><td>09/2021 – 07/2025</td></tr>
 <tr><td>Advanced Diploma in AI</td><td>National Institute of Electronics & Information Technology, Calicut, Kerala
-<img src="/images/NIELIT.png" alt="NIELIT Logo" class="logo">
+<img src="/images/CALICUT.png" alt="NIELIT Logo" class="logo">
 </td><td>09/2019 – 01/2020</td></tr>
 <tr><td>M.S. in Computer Science</td><td>University of Illinois – Springfield
 <img src="/images/UIS.png" alt="UIS Logo" class="logo">
