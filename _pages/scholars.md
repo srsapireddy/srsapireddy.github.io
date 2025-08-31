@@ -134,8 +134,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
 <div class="group-title">Research Lead</div>
 <div class="sch-card">
   <div class="sch-header">
-    <img src="/images/rahul.png" alt="Dr. Srinivas Rahul Sapireddy" class="sch-img"> 
-    <div class="sch-avatar">RS</div>
+    <img src="/images/rahul.png" alt="Srinivas Rahul Sapireddy, PhD" class="sch-img"> 
     <div>
       <div class="sch-name">Srinivas Rahul Sapireddy, PhD</div>
       <div class="sch-sub">Instructor, School of Science & Engineering — UMKC</div>
