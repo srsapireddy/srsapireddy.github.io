@@ -97,7 +97,7 @@ author_profile: true
 <tr><td>Mini - MBA (Farmer School of Business )
 </td><td>Miami University
 <img src="/images/miami.png" alt="Miami Logo" class="logo">
-</td><td>Starting September 2025</td></tr>
+</td><td>In Progress - December 2025</td></tr>
 <tr><td>Ph.D. in Electrical & Computer Engineering</td><td>University of Missouri – Kansas City
 <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
 </td><td>09/2021 – 07/2025</td></tr>
