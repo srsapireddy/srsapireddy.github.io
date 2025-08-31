@@ -132,6 +132,8 @@ This page highlights scholars — both current UMKC students and alumni — who 
 </p>
 
 <div class="group-title">Research Lead</div>
+<div class="sch-grid">
+  
 <div class="sch-card">
   <div class="sch-header">
     <img src="/images/rahul.png" alt="Srinivas Rahul Sapireddy, PhD" class="sch-img"> 
