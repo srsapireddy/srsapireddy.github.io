@@ -136,10 +136,10 @@ This page highlights scholars — both current UMKC students and alumni — who 
       <div>
         <div class="sch-name">Nimisha Chandra
           <a href="https://www.linkedin.com/in/nimisha-chandra-99130a20/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
-          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;">
+          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;"><img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
         </a>
         </div>
-        <div class="sch-sub">Current UMKC student — Master of Science in Electrical Engineering, Spring 2026 <img src="/images/UMKC.png" alt="UMKC Logo" class="logo"></div>
+        <div class="sch-sub">Current UMKC student — Master of Science in Electrical Engineering, Spring 2026</div>
         <div style="margin-top:0.35rem;">
           <span class="badge current">Current</span>
           <span class="badge tag">RF Signal Classification</span>
