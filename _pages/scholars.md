@@ -1,5 +1,5 @@
 ---
-title: "Scholars-iNEURON Systems Lab"
+title: "iNEURON Systems Lab"
 permalink: /scholars/
 ---
 
