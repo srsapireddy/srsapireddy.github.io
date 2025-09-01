@@ -141,7 +141,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
   <!-- Lab name -->
   <h2 style="margin:0;">
     iNEURON Systems Lab<span style="font-weight:normal; font-size:0.8em;"><br>
-    (Intelligent Neural Energy-efficient Understanding for RF and Optimization in Networks Lab)
+    Intelligent Neural Energy-efficient Understanding for RF and Optimization in Networks Lab
     </span>
   </h2>
 </div>
