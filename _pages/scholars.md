@@ -134,9 +134,13 @@ This page highlights scholars — both current UMKC students and alumni — who 
 <section class="lab-section">
   <h2>iNEURON (Intelligent Neural Energy-efficient Understanding for RF and Optimization in Networks Lab)</h2>
   <p>
-    The <strong>Hardware-Aware Intelligence Lab (HAIL)</strong> focuses on advancing the intersection of 
-    <em>signal processing</em>, <em>machine learning</em>, and <em>hardware efficiency</em>. Our research emphasizes:
-  </p>
+    The <strong>iNEURON Systems Lab</strong> at UMKC focuses on the design of 
+    <em>energy-efficient intelligent systems</em> for <em>RF signal classification</em> and 
+    <em>low-power deep learning</em>. Our work bridges <em>algorithm design</em> and 
+    <em>hardware-aware optimization</em>, enabling scalable solutions for 
+    <em>real-time communication</em>, <em>sensing</em>, and <em>defense applications</em>.
+</p>
+
 
   <ul>
     <li><strong>RF Signal Classification:</strong> Designing lightweight, reliable methods for classifying communication signals across diverse environments, combining statistical feature extraction with machine learning.</li>
