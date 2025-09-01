@@ -133,11 +133,19 @@ This page highlights scholars — both current UMKC students and alumni — who 
 
 <section class="lab-section">
 <!-- Logo goes here -->
-  <div style="text-align:center; margin-bottom: 1rem;">
-    <img src="/images/neuron.png" alt="iNEURON Systems Lab Logo" style="max-width:200px; height:auto;">
-  </div>
+  <!-- Logo + Lab name side by side -->
+<div style="display:flex; align-items:center; gap:1rem; margin-bottom:1rem;">
+  <!-- Logo -->
+  <img src="/images/neuron.png" alt="iNEURON Systems Lab Logo" style="max-width:120px; height:auto;">
   
-  <h2>iNEURON (Intelligent Neural Energy-efficient Understanding for RF and Optimization in Networks Lab)</h2>
+  <!-- Lab name -->
+  <h2 style="margin:0;">
+    iNEURON <span style="font-weight:normal; font-size:0.8em;">
+    (Intelligent Neural Energy-efficient Understanding for RF and Optimization in Networks Lab)
+    </span>
+  </h2>
+</div>
+
   <p>
     The <strong>iNEURON Systems Lab</strong> at UMKC focuses on the design of 
     <em>energy-efficient intelligent systems</em> for <em>RF signal classification</em> and 
