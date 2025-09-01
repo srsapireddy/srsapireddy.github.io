@@ -310,5 +310,9 @@ This page highlights scholars — both current UMKC students and alumni — who 
 <div style="text-align:center; margin-top:1rem;">
 <a href="https://info.flagcounter.com/UCHm"><img src="https://s01.flagcounter.com/map/UCHm/size_l/txt_121AFF/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
 </div>
-
+<br>
+<br>
+<div style="text-align:center; margin-top:1rem;">
+<a href="https://info.flagcounter.com/Iqhj"><img src="https://s01.flagcounter.com/countxl/Iqhj/bg_FFFFFF/txt_2D13D6/border_CCCCCC/columns_8/maxflags_40/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+</div>
 
