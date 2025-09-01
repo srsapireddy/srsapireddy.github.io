@@ -1,6 +1,6 @@
 ---
 title: "Scholars-HAIL Lab"
-permalink: /scholars-HAIL-Lab/
+permalink: /scholars/
 ---
 
 <style>
