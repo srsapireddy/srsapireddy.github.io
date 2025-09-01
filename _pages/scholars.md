@@ -1,5 +1,5 @@
 ---
-title: "Scholars"
+title: "Scholars-HAIL Lab"
 permalink: /scholars/
 ---
 
