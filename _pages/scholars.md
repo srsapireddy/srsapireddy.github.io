@@ -459,3 +459,30 @@ async function renderStats(){
   setInterval(renderStats, 60000);
 })();
 </script>
+
+<div id="csp-test" style="margin-top:1rem; font:12px ui-monospace,Menlo,monospace; white-space:pre-wrap; background:#f9fafb; border:1px solid #e5e7eb; border-radius:8px; padding:8px;">
+CSP Test…
+</div>
+<script>
+(async () => {
+  const log = (m)=>document.getElementById('csp-test').textContent += '\n' + m;
+
+  // Show the CSP meta we actually received
+  const meta = document.querySelector('meta[http-equiv="Content-Security-Policy"]');
+  log('Meta CSP present: ' + (!!meta));
+  if (meta) log(meta.getAttribute('content').replace(/\s+/g,' ').trim());
+
+  // Try geo + countapi
+  try {
+    const g = await fetch('https://ipwho.is/', {cache:'no-store'}).then(r=>r.text());
+    log('ipwho.is OK (' + g.length + ' chars)');
+  } catch (e) { log('ipwho.is FAILED: ' + e.message); }
+
+  try {
+    const u = 'https://api.countapi.xyz/get/srsapireddy.github.io/scholars/total';
+    const c = await fetch(u, {cache:'no-store'}).then(r=>r.text());
+    log('countapi get OK (' + c.length + ' chars)');
+  } catch (e) { log('countapi FAILED: ' + e.message); }
+})();
+</script>
+
