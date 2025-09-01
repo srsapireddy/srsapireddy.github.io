@@ -5,6 +5,10 @@ permalink: /scholars/
 
 <style>
 
+.centered {
+  text-align: center;
+  margin: 1rem 0;
+}
 
 
   
@@ -303,7 +307,8 @@ This page highlights scholars — both current UMKC students and alumni — who 
 <br>
 <br>
 
+<div style="text-align:center; margin-top:1rem;">
 <a href="https://info.flagcounter.com/UCHm"><img src="https://s01.flagcounter.com/map/UCHm/size_l/txt_121AFF/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
-
+</div>
 
 
