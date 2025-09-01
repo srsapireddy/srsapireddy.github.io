@@ -5,30 +5,23 @@ permalink: /scholars/
 
 <style>
 
-/* Map styling */
-#lab-map {
-  height: 420px;
-  margin-top: 2rem;
-  border-radius: 10px;
-  border: 1px solid #e5e7eb;
-}
-
-/* Country table styling */
-.visits-table {
-  border-collapse: collapse;
-  width: 100%;
-  max-width: 560px;
-}
-.visits-table th, .visits-table td {
-  padding: 6px 10px;
-  border-bottom: 1px solid #e5e7eb;
-}
-.visits-table th {
-  text-align: left;
-}
-.visits-table td:last-child, .visits-table th:last-child {
-  text-align: right;
-}
+  #lab-map {
+    height: 420px;
+    margin-top: 2rem;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+  }
+  .visits-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 560px;
+  }
+  .visits-table th, .visits-table td {
+    padding: 6px 10px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  .visits-table th { text-align: left; }
+  .visits-table td:last-child, .visits-table th:last-child { text-align: right; }
 
   
 /* Reuse the card/grid vibe from Publications */
@@ -324,26 +317,25 @@ This page highlights scholars — both current UMKC students and alumni — who 
 
 </div>
 
-<!-- ===== iNEURON Map & Visit Stats ===== -->
+
+<!-- Title + Map + Counters -->
 <h2 class="group-title">Global Visitors & Collaborations</h2>
 
-<!-- Map -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
 <div id="lab-map" role="region" aria-label="World map of visits and collaborations"></div>
 
-<!-- Totals -->
 <div style="margin-top: 1rem;">
   <div>Total Visits: <span id="total-visits">–</span></div>
 </div>
 
-<!-- Visits by Country -->
 <h3 style="margin-top:1rem">Visits by Country</h3>
 <div id="visits-by-country">Loading…</div>
 
+<!-- Scripts -->
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script>
-/* === CONFIG === */
-const NAMESPACE = "srsapireddy.github.io/scholars"; // unique key-space for CountAPI (change if you want)
+/* ========= CONFIG (change NAMESPACE to your own stable key) ========= */
+const NAMESPACE = "srsapireddy.github.io/scholars"; 
 const COUNTRIES_TO_SHOW = {
   "US":"United States","IN":"India","CA":"Canada","GB":"United Kingdom","DE":"Germany",
   "FR":"France","IT":"Italy","ES":"Spain","BR":"Brazil","MX":"Mexico","AU":"Australia",
@@ -351,7 +343,7 @@ const COUNTRIES_TO_SHOW = {
   "TR":"Türkiye","SG":"Singapore","NL":"Netherlands","SE":"Sweden","NO":"Norway","FI":"Finland",
   "DK":"Denmark","CH":"Switzerland","BE":"Belgium","IE":"Ireland"
 };
-// rough centroids for map markers
+/* Approx country centroids (add more as needed) */
 const COUNTRY_CENTROIDS = {
   US:[39.8,-98.6], IN:[22.8,79.6], CA:[62.0,-96.0], GB:[54.0,-2.0], DE:[51.2,10.4],
   FR:[46.2,2.2], IT:[42.8,12.5], ES:[40.2,-3.7], BR:[-10.8,-52.9], MX:[23.6,-102.5],
@@ -360,104 +352,112 @@ const COUNTRY_CENTROIDS = {
   NO:[61.2,8.0], FI:[64.9,26.0], DK:[56.2,9.5], CH:[46.8,8.2], BE:[50.6,4.6], IE:[53.1,-8.0]
 };
 
-/* === 1) Detect visitor country and increment counters === */
-(async function trackVisit(){
+/* ========= Utilities ========= */
+async function fetchJSON(url) {
+  const r = await fetch(url, { cache: "no-store" });
+  if (!r.ok) throw new Error("HTTP " + r.status);
+  return r.json();
+}
+async function getCountryCode() {
+  // Try ipwho.is
   try {
-    // get geo (no key). If it fails, we still count total.
-    let cc = null;
-    try {
-      const geo = await fetch("https://ipwho.is/").then(r => r.json());
-      cc = geo && geo.country_code ? geo.country_code : null;
-    } catch {}
-
-    // bump total visits
-    fetch(`https://api.countapi.xyz/hit/${encodeURIComponent(NAMESPACE)}/total`);
-
-    // bump this country
-    if (cc) {
-      fetch(`https://api.countapi.xyz/hit/${encodeURIComponent(NAMESPACE)}/${cc}`);
-    }
-  } catch (e) {
-    console.warn("Visit tracking error:", e);
-  }
-})();
-
-/* === Helpers: CountAPI get === */
-async function getCount(key){
+    const geo = await fetchJSON("https://ipwho.is/");
+    if (geo && geo.country_code) return geo.country_code;
+  } catch {}
+  // Fallback ipapi.co
   try {
-    const r = await fetch(`https://api.countapi.xyz/get/${encodeURIComponent(NAMESPACE)}/${key}`);
+    const geo2 = await fetchJSON("https://ipapi.co/json/");
+    if (geo2 && geo2.country) return geo2.country;
+  } catch {}
+  // (Optional) add more providers if needed
+  return null; // country unknown
+}
+async function countAPI_hit(key) {
+  try {
+    const url = `https://api.countapi.xyz/hit/${encodeURIComponent(NAMESPACE)}/${encodeURIComponent(key)}`;
+    const r = await fetch(url, { cache: "no-store" });
+    return r.ok;
+  } catch { return false; }
+}
+async function countAPI_get(key) {
+  try {
+    const url = `https://api.countapi.xyz/get/${encodeURIComponent(NAMESPACE)}/${encodeURIComponent(key)}`;
+    const r = await fetch(url, { cache: "no-store" });
     if (!r.ok) return 0;
     const data = await r.json();
-    return data && typeof data.value === "number" ? data.value : 0;
+    return typeof data.value === "number" ? data.value : 0;
   } catch { return 0; }
 }
 
-/* === 2) Render totals and country table === */
-async function renderStats(){
-  // total
-  const total = await getCount("total");
-  document.getElementById("total-visits").textContent = total.toLocaleString();
+/* ========= Map setup ========= */
+let map, markersLayer;
+function initMap() {
+  if (map) return;
+  map = L.map("lab-map", { scrollWheelZoom: false }).setView([20, 0], 2);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "&copy; OpenStreetMap contributors"
+  }).addTo(map);
+  markersLayer = L.layerGroup().addTo(map);
 
-  // country rows
+  // Optional: fixed collaboration pins (add yours here)
+  // L.marker([39.0997,-94.5786]).addTo(markersLayer).bindPopup("UMKC - iNEURON Systems Lab");
+  // L.marker([40.1164,-88.2434]).addTo(markersLayer).bindPopup("UIUC - Collaboration");
+}
+function updateMapMarkers(countryList) {
+  if (!markersLayer) return;
+  markersLayer.clearLayers();
+  countryList.forEach(({ iso2, name, count }) => {
+    const c = COUNTRY_CENTROIDS[iso2];
+    if (c) L.marker(c).addTo(markersLayer).bindPopup(`${name}: ${count} visit${count===1?"":"s"}`);
+  });
+}
+
+/* ========= Render stats ========= */
+async function renderStats() {
+  const total = await countAPI_get("total");
+  const totalEl = document.getElementById("total-visits");
+  if (totalEl) totalEl.textContent = total.toLocaleString();
+
   const entries = await Promise.all(
     Object.entries(COUNTRIES_TO_SHOW).map(async ([iso2, name]) => {
-      const c = await getCount(iso2);
-      return { iso2, name, count: c };
+      const v = await countAPI_get(iso2);
+      return { iso2, name, count: v };
     })
   );
-  const nonzero = entries.filter(e => e.count > 0).sort((a,b)=>b.count-a.count);
-  const container = document.getElementById("visits-by-country");
+  const nonzero = entries.filter(e => e.count > 0).sort((a,b) => b.count - a.count);
 
-  if (nonzero.length === 0){
+  const container = document.getElementById("visits-by-country");
+  if (!container) return;
+  if (nonzero.length === 0) {
     container.textContent = "No country-level visits recorded yet.";
   } else {
     container.innerHTML = `
       <table class="visits-table">
-        <thead>
-          <tr><th>Country</th><th>Visits</th></tr>
-        </thead>
+        <thead><tr><th>Country</th><th>Visits</th></tr></thead>
         <tbody>
           ${nonzero.map(e => `<tr><td>${e.name}</td><td>${e.count}</td></tr>`).join("")}
         </tbody>
       </table>
     `;
   }
-
-  // update map markers
   updateMapMarkers(nonzero);
 }
 
-/* === 3) Leaflet map & markers === */
-let map, markersLayer;
-function initMap(){
-  map = L.map('lab-map', { scrollWheelZoom: false }).setView([20, 0], 2);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap contributors'
-  }).addTo(map);
-  markersLayer = L.layerGroup().addTo(map);
+/* ========= Boot sequence (increment FIRST, then render) ========= */
+(async function boot() {
+  initMap();
 
-  // (Optional) Add your fixed collaboration pins here:
-  // L.marker([39.0997,-94.5786]).addTo(markersLayer).bindPopup("UMKC - iNEURON Systems Lab");
-  // L.marker([40.1164,-88.2434]).addTo(markersLayer).bindPopup("UIUC - Collaboration");
-}
+  // Increment total
+  await countAPI_hit("total");
 
-function updateMapMarkers(countryList){
-  if (!map) return;
-  markersLayer.clearLayers();
-  // add a marker per country with >0 visits (using centroid)
-  countryList.forEach(({ iso2, name, count }) => {
-    const center = COUNTRY_CENTROIDS[iso2];
-    if (center) {
-      L.marker(center).addTo(markersLayer).bindPopup(`${name}: ${count} visit${count===1?"":"s"}`);
-    }
-  });
-}
+  // Increment by country (if we can detect it)
+  const cc = await getCountryCode();
+  if (cc) await countAPI_hit(cc);
 
-/* === Boot === */
-initMap();
-renderStats();
-// refresh every ~60s in case the page stays open
-setInterval(renderStats, 60000);
+  // Now render counts so first load reflects the increment
+  await renderStats();
+
+  // Refresh every 60s for open pages
+  setInterval(renderStats, 60000);
+})();
 </script>
-
-
