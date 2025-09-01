@@ -4,6 +4,33 @@ permalink: /scholars/
 ---
 
 <style>
+
+/* Map styling */
+#lab-map {
+  height: 420px;
+  margin-top: 2rem;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+/* Country table styling */
+.visits-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 560px;
+}
+.visits-table th, .visits-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid #e5e7eb;
+}
+.visits-table th {
+  text-align: left;
+}
+.visits-table td:last-child, .visits-table th:last-child {
+  text-align: right;
+}
+
+  
 /* Reuse the card/grid vibe from Publications */
 .sch-grid {
   display: grid;
@@ -296,5 +323,141 @@ This page highlights scholars — both current UMKC students and alumni — who 
   </div>
 
 </div>
+
+<!-- ===== iNEURON Map & Visit Stats ===== -->
+<h2 class="group-title">Global Visitors & Collaborations</h2>
+
+<!-- Map -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<div id="lab-map" role="region" aria-label="World map of visits and collaborations"></div>
+
+<!-- Totals -->
+<div style="margin-top: 1rem;">
+  <div>Total Visits: <span id="total-visits">–</span></div>
+</div>
+
+<!-- Visits by Country -->
+<h3 style="margin-top:1rem">Visits by Country</h3>
+<div id="visits-by-country">Loading…</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+/* === CONFIG === */
+const NAMESPACE = "srsapireddy.github.io/scholars"; // unique key-space for CountAPI (change if you want)
+const COUNTRIES_TO_SHOW = {
+  "US":"United States","IN":"India","CA":"Canada","GB":"United Kingdom","DE":"Germany",
+  "FR":"France","IT":"Italy","ES":"Spain","BR":"Brazil","MX":"Mexico","AU":"Australia",
+  "CN":"China","JP":"Japan","KR":"South Korea","AE":"United Arab Emirates","SA":"Saudi Arabia",
+  "TR":"Türkiye","SG":"Singapore","NL":"Netherlands","SE":"Sweden","NO":"Norway","FI":"Finland",
+  "DK":"Denmark","CH":"Switzerland","BE":"Belgium","IE":"Ireland"
+};
+// rough centroids for map markers
+const COUNTRY_CENTROIDS = {
+  US:[39.8,-98.6], IN:[22.8,79.6], CA:[62.0,-96.0], GB:[54.0,-2.0], DE:[51.2,10.4],
+  FR:[46.2,2.2], IT:[42.8,12.5], ES:[40.2,-3.7], BR:[-10.8,-52.9], MX:[23.6,-102.5],
+  AU:[-25.3,133.8], CN:[35.9,104.2], JP:[36.2,138.3], KR:[36.5,127.9], AE:[24.3,54.4],
+  SA:[23.9,45.1], TR:[39.0,35.2], SG:[1.35,103.82], NL:[52.1,5.3], SE:[62.8,16.7],
+  NO:[61.2,8.0], FI:[64.9,26.0], DK:[56.2,9.5], CH:[46.8,8.2], BE:[50.6,4.6], IE:[53.1,-8.0]
+};
+
+/* === 1) Detect visitor country and increment counters === */
+(async function trackVisit(){
+  try {
+    // get geo (no key). If it fails, we still count total.
+    let cc = null;
+    try {
+      const geo = await fetch("https://ipwho.is/").then(r => r.json());
+      cc = geo && geo.country_code ? geo.country_code : null;
+    } catch {}
+
+    // bump total visits
+    fetch(`https://api.countapi.xyz/hit/${encodeURIComponent(NAMESPACE)}/total`);
+
+    // bump this country
+    if (cc) {
+      fetch(`https://api.countapi.xyz/hit/${encodeURIComponent(NAMESPACE)}/${cc}`);
+    }
+  } catch (e) {
+    console.warn("Visit tracking error:", e);
+  }
+})();
+
+/* === Helpers: CountAPI get === */
+async function getCount(key){
+  try {
+    const r = await fetch(`https://api.countapi.xyz/get/${encodeURIComponent(NAMESPACE)}/${key}`);
+    if (!r.ok) return 0;
+    const data = await r.json();
+    return data && typeof data.value === "number" ? data.value : 0;
+  } catch { return 0; }
+}
+
+/* === 2) Render totals and country table === */
+async function renderStats(){
+  // total
+  const total = await getCount("total");
+  document.getElementById("total-visits").textContent = total.toLocaleString();
+
+  // country rows
+  const entries = await Promise.all(
+    Object.entries(COUNTRIES_TO_SHOW).map(async ([iso2, name]) => {
+      const c = await getCount(iso2);
+      return { iso2, name, count: c };
+    })
+  );
+  const nonzero = entries.filter(e => e.count > 0).sort((a,b)=>b.count-a.count);
+  const container = document.getElementById("visits-by-country");
+
+  if (nonzero.length === 0){
+    container.textContent = "No country-level visits recorded yet.";
+  } else {
+    container.innerHTML = `
+      <table class="visits-table">
+        <thead>
+          <tr><th>Country</th><th>Visits</th></tr>
+        </thead>
+        <tbody>
+          ${nonzero.map(e => `<tr><td>${e.name}</td><td>${e.count}</td></tr>`).join("")}
+        </tbody>
+      </table>
+    `;
+  }
+
+  // update map markers
+  updateMapMarkers(nonzero);
+}
+
+/* === 3) Leaflet map & markers === */
+let map, markersLayer;
+function initMap(){
+  map = L.map('lab-map', { scrollWheelZoom: false }).setView([20, 0], 2);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+  markersLayer = L.layerGroup().addTo(map);
+
+  // (Optional) Add your fixed collaboration pins here:
+  // L.marker([39.0997,-94.5786]).addTo(markersLayer).bindPopup("UMKC - iNEURON Systems Lab");
+  // L.marker([40.1164,-88.2434]).addTo(markersLayer).bindPopup("UIUC - Collaboration");
+}
+
+function updateMapMarkers(countryList){
+  if (!map) return;
+  markersLayer.clearLayers();
+  // add a marker per country with >0 visits (using centroid)
+  countryList.forEach(({ iso2, name, count }) => {
+    const center = COUNTRY_CENTROIDS[iso2];
+    if (center) {
+      L.marker(center).addTo(markersLayer).bindPopup(`${name}: ${count} visit${count===1?"":"s"}`);
+    }
+  });
+}
+
+/* === Boot === */
+initMap();
+renderStats();
+// refresh every ~60s in case the page stays open
+setInterval(renderStats, 60000);
+</script>
 
 
