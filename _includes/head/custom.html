@@ -3,3 +3,13 @@
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->
+<!-- Allow outbound fetches to the services we use -->
+<meta http-equiv="Content-Security-Policy"
+  content="
+    default-src 'self';
+    img-src 'self' data: https:;
+    style-src 'self' 'unsafe-inline' https://unpkg.com;
+    script-src 'self' 'unsafe-inline' https://unpkg.com;
+    connect-src 'self' https://api.countapi.xyz https://ipwho.is https://ipapi.co;
+    font-src 'self' data:;
+  ">
