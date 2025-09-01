@@ -136,7 +136,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
   <!-- Logo + Lab name side by side -->
 <div style="display:flex; align-items:center; gap:1rem; margin-bottom:1rem;">
   <!-- Logo -->
-  <img src="/images/neuron.png" alt="iNEURON Systems Lab Logo" style="max-width:120px; height:auto;">
+  <img src="/images/neuron.png" alt="iNEURON Systems Lab Logo" style="max-width:150px; height:auto;">
   
   <!-- Lab name -->
   <h2 style="margin:0;">
