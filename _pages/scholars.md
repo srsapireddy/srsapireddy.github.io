@@ -1,5 +1,5 @@
 ---
-title: "Scholars-HAIL Lab"
+title: "Scholars-iNEURON Systems Lab"
 permalink: /scholars/
 ---
 
@@ -132,7 +132,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
 </p>
 
 <section class="lab-section">
-  <h2>Hardware-Aware Intelligence Lab (HAIL)</h2>
+  <h2>iNEURON (Intelligent Neural Energy-efficient Understanding for RF and Optimization in Networks Lab)</h2>
   <p>
     The <strong>Hardware-Aware Intelligence Lab (HAIL)</strong> focuses on advancing the intersection of 
     <em>signal processing</em>, <em>machine learning</em>, and <em>hardware efficiency</em>. Our research emphasizes:
