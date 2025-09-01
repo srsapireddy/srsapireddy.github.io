@@ -131,6 +131,21 @@ permalink: /scholars/
 This page highlights scholars — both current UMKC students and alumni — who collaborate with me on research and publications.
 </p>
 
+<section class="lab-section">
+  <h2>Hardware-Aware Intelligence Lab (HAIL)</h2>
+  <p>
+    The <strong>Hardware-Aware Intelligence Lab (HAIL)</strong> focuses on advancing the intersection of 
+    <em>signal processing</em>, <em>machine learning</em>, and <em>hardware efficiency</em>. Our research emphasizes:
+  </p>
+
+  <ul>
+    <li><strong>RF Signal Classification:</strong> Designing lightweight, reliable methods for classifying communication signals across diverse environments, combining statistical feature extraction with machine learning.</li>
+    <li><strong>Low-Power Deep Learning:</strong> Developing hardware-efficient neural networks using techniques such as piecewise linear activation functions and compiler-driven optimizations, ensuring scalability on GPUs, FPGAs, and edge devices.</li>
+    <li><strong>Hardware-Software Co-Design:</strong> Bridging algorithmic innovations with hardware constraints to achieve energy-aware, real-time deployment for communication, sensing, and defense applications.</li>
+  </ul>
+</section>
+
+
 <div class="group-title">Research Lead</div>
 <div class="sch-grid">
 
