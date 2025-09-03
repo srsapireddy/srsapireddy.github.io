@@ -139,37 +139,6 @@ permalink: /scholars/
 This page highlights scholars — both current UMKC students and alumni — who collaborate with me on research and publications.
 </p>
 
-<!--
-<section class="lab-section">
-  <!-- Logo goes here -->
-  <!-- Logo + Lab name side by side -->
-  <div style="display:flex; align-items:center; gap:1rem; margin-bottom:1rem;">
-    <!-- Logo -->
-    <img src="/images/neuron.png" alt="iNEURON Systems Lab Logo" style="max-width:150px; height:auto;">
-
-    <!-- Lab name -->
-    <h2 style="margin:0;">
-      iNEURON Systems Lab<span style="font-weight:normal; font-size:0.8em;"><br>
-      Intelligent Neural Energy-efficient Understanding for RF and Optimization in Networks Lab
-      </span>
-    </h2>
-  </div>
-
-  <p>
-    The <strong>iNEURON Systems Lab</strong> at UMKC focuses on the design of 
-    <em>energy-efficient intelligent systems</em> for <em>RF signal classification</em> and 
-    <em>low-power deep learning</em>. Our work bridges <em>algorithm design</em> and 
-    <em>hardware-aware optimization</em>, enabling scalable solutions for 
-    <em>real-time communication</em>, <em>sensing</em>, and <em>defense applications</em>.
-  </p>
-
-  <ul>
-    <li><strong>RF Signal Classification:</strong> Designing lightweight, reliable methods for classifying communication signals across diverse environments, combining statistical feature extraction with machine learning.</li>
-    <li><strong>Low-Power Deep Learning:</strong> Developing hardware-efficient neural networks using techniques such as piecewise linear activation functions and compiler-driven optimizations, ensuring scalability on GPUs, FPGAs, and edge devices.</li>
-    <li><strong>Hardware-Software Co-Design:</strong> Bridging algorithmic innovations with hardware constraints to achieve energy-aware, real-time deployment for communication, sensing, and defense applications.</li>
-  </ul>
-</section>
--->
 
 
 <div class="group-title">Research Lead</div>
