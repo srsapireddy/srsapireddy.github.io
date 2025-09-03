@@ -1,5 +1,5 @@
 ---
-title: "scholars"
+title: "Scholars"
 permalink: /scholars/
 ---
 
