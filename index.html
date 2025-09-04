@@ -5,18 +5,19 @@ layout: default
 
 <style>
 
-  .globe-wrap{
-    width: min(90vw, 520px); /* responsive max */
-    aspect-ratio: 1 / 1;     /* square */
+  .globe-wrap {
+    width: 400px;          /* set width */
+    height: 400px;         /* set height */
+    margin: 0 auto;        /* centers the whole box in page */
+    display: flex;
+    align-items: center;   /* vertical centering */
+    justify-content: center; /* horizontal centering */
     overflow: hidden;
     position: relative;
-    border-radius: 12px;      /* optional */
   }
   .globe-wrap iframe,
   .globe-wrap canvas,
-  .globe-wrap > div{
-    position: absolute !important;
-    inset: 0 !important;
+  .globe-wrap > div {
     width: 100% !important;
     height: 100% !important;
   }
