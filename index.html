@@ -186,6 +186,52 @@ layout: default
       padding: 0.3rem 0.6rem;
     }
   }
+
+    /* Container row */
+  .hero-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;            /* allow wrapping on narrow screens */
+  }
+
+  /* Columns: grow, but shrink when needed */
+  .hero-col {
+    flex: 1 1 420px;            /* basis ~420px, can shrink/grow */
+    min-width: 0;               /* prevents overflow in flex children */
+  }
+
+  /* Blue heading */
+  .hero-title {
+    color:#0077B5; font-weight:700; font-size:16px; margin:0 0 8px 0;
+  }
+
+  /* Keep globe inside its box */
+  .globe-wrap {
+    max-width: 460px;           /* tweak as you like */
+    width: 100%;
+    margin-left: auto;          /* pushes it to the right on desktop */
+    overflow: hidden;           /* hides any stray overflow */
+  }
+  /* Make the injected canvas responsive */
+  .globe-wrap canvas {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+  }
+
+  /* Mobile: stack & center */
+  @media (max-width: 768px) {
+    .hero-row { 
+      flex-direction: column; 
+      align-items: center; 
+    }
+    .globe-wrap { 
+      max-width: 320px;         /* smaller globe on phones */
+      margin: 12px auto 0;      /* center it */
+    }
+  }
 </style>
 
 <div class="custom-home">
@@ -196,38 +242,34 @@ layout: default
   </center>
 
 <div class="custom-section">
-<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px;">
+  <div class="hero-row">
 
-  <!-- LinkedIn Badge Section -->
-  <div style="flex: 1;">
-    <!-- Blue heading -->
-    <p style="color:#0077B5; font-weight:bold; font-size:16px; margin:0 0 8px 0;">
-      Connect with me
-    </p>
-
-    <!-- LinkedIn badge widget -->
-    <div class="badge-base LI-profile-badge"
-         data-locale="en_US"
-         data-size="large"
-         data-theme="light"
-         data-type="HORIZONTAL"
-         data-vanity="srsapireddy2020"
-         data-version="v1">
+    <!-- LinkedIn Badge -->
+    <div class="hero-col">
+      <p class="hero-title">Connect with me</p>
+      <div class="badge-base LI-profile-badge"
+           data-locale="en_US"
+           data-size="large"
+           data-theme="light"
+           data-type="HORIZONTAL"
+           data-vanity="srsapireddy2020"
+           data-version="v1">
+      </div>
     </div>
+
+    <!-- Visitor Globe -->
+    <div class="hero-col">
+      <div class="globe-wrap">
+        <script id="mmvst_globe" type="text/javascript"
+                src="//mapmyvisitors.com/globe.js?d=_2hLeBDk3eXXJY0I4bwnwU9rNmg2IQsmBuQT6kcMEQI"></script>
+      </div>
+    </div>
+
   </div>
 
-  <!-- Visitor Globe Section -->
-  <div style="flex: 1; text-align: right;">
-    <div class="globe-wrap">
-      <script type="text/javascript" id="mmvst_globe" 
-              src="//mapmyvisitors.com/globe.js?d=_2hLeBDk3eXXJY0I4bwnwU9rNmg2IQsmBuQT6kcMEQI"></script>
-    </div>
-  </div>
-
-</div>
-
-<!-- LinkedIn Badge Script -->
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+  <!-- LinkedIn Badge Script -->
+  <script async defer type="text/javascript"
+          src="https://platform.linkedin.com/badges/js/profile.js"></script>
 </div>
 
   
