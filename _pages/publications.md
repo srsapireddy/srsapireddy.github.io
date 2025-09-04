@@ -396,24 +396,5 @@ function copyCitation(id) {
   📝 <a href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank">OpenReview</a>
 </footer>
 
-<div class="pub-entry">
-  <div class="pub-card">
-    <!-- Map container with fixed height -->
-    <div id="mmv_container" style="max-width:900px;margin:0 auto;">
-      <div id="mmv_map" style="width:100%;height:380px;"></div>
-    </div>
-  </div>
-</div>
-
-<script>
-  // inject the script AFTER the container exists
-  (function () {
-    var s = document.createElement('script');
-    s.type = 'text/javascript';
-    // use HTTPS (not //) and set explicit width/height via query
-    s.src = 'https://mapmyvisitors.com/map.js?d=Q4nlfwgfwMR0BJuj7RyFUCNPyBsWHJRRyG14HMgJViw&cl=ffffff&w=auto&h=380';
-    s.async = true;
-    document.getElementById('mmv_map').appendChild(s);
-  })();
-</script>
+<a href="https://mapmyvisitors.com/web/1bz4s"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=Q4nlfwgfwMR0BJuj7RyFUCNPyBsWHJRRyG14HMgJViw&cl=ffffff" /></a>
 
