@@ -4,6 +4,23 @@ layout: default
 ---
 
 <style>
+
+  .globe-wrap{
+    width: min(90vw, 520px); /* responsive max */
+    aspect-ratio: 1 / 1;     /* square */
+    overflow: hidden;
+    position: relative;
+    border-radius: 12px;      /* optional */
+  }
+  .globe-wrap iframe,
+  .globe-wrap canvas,
+  .globe-wrap > div{
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
   .custom-home {
     max-width: 1000px;
     margin: 2rem auto;
@@ -251,8 +268,8 @@ layout: default
     <a href="https://info.flagcounter.com/ymIx"><img src="https://s01.flagcounter.com/countxl_US/ymIx/bg_47B6FF/txt_FFFFFF/border_CCCCCC/columns_8/maxflags_40/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
   </div>
 
-  <div class="custom-section" style="width:100%; max-width:600px; height:400px;">
-  <script type="text/javascript" id="mmvst_globe"
+  <div class="globe-wrap">
+  <script id="mmvst_globe" type="text/javascript"
     src="//mapmyvisitors.com/globe.js?d=oIKrBLKGO2K7BM-W9wOJQuRJ8ZZLZahw_evDB7oJbok">
   </script>
 </div>
