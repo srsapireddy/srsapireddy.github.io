@@ -396,6 +396,6 @@ function copyCitation(id) {
   📝 <a href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank">OpenReview</a>
 </footer>
 
-<a href='https://mapmyvisitors.com/web/1bz4s'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=500&t=n&d=Q4nlfwgfwMR0BJuj7RyFUCNPyBsWHJRRyG14HMgJViw'/></a>
+<a href='https://mapmyvisitors.com/web/1bz4s'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=600&t=n&d=Q4nlfwgfwMR0BJuj7RyFUCNPyBsWHJRRyG14HMgJViw'/></a>
 
 
