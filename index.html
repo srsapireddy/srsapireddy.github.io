@@ -187,49 +187,74 @@ layout: default
     }
   }
 
-    /* Container row */
+    /* Card wrapper */
+  .custom-section {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    background: #fff;
+  }
+
+  /* Row layout */
   .hero-row {
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
+    align-items: stretch;     /* equal height feel */
     gap: 20px;
-    flex-wrap: wrap;            /* allow wrapping on narrow screens */
+    flex-wrap: wrap;          /* allow stacking on small screens */
   }
 
-  /* Columns: grow, but shrink when needed */
+  /* Columns */
   .hero-col {
-    flex: 1 1 420px;            /* basis ~420px, can shrink/grow */
-    min-width: 0;               /* prevents overflow in flex children */
+    flex: 1 1 420px;          /* basis ~420px, can shrink/grow */
+    min-width: 0;             /* prevents overflow */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
-  /* Blue heading */
+  /* Title */
   .hero-title {
-    color:#0077B5; font-weight:700; font-size:16px; margin:0 0 8px 0;
+    color: #0077B5;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 0 8px 0;
   }
 
-  /* Keep globe inside its box */
+  /* Globe container */
   .globe-wrap {
-    max-width: 460px;           /* tweak as you like */
+    max-width: 460px;         /* desktop globe size cap */
     width: 100%;
-    margin-left: auto;          /* pushes it to the right on desktop */
-    overflow: hidden;           /* hides any stray overflow */
+    margin: 0 auto;           /* keep centered in its column */
+    overflow: hidden;         /* hide stray overflow */
+    border-radius: 10px;
   }
-  /* Make the injected canvas responsive */
+  /* Make injected canvas responsive */
   .globe-wrap canvas {
     width: 100% !important;
     height: auto !important;
     display: block;
   }
 
-  /* Mobile: stack & center */
+  /* GitHub buttons area */
+  .cta-row {
+    margin-top: 12px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  /* Mobile tweaks */
   @media (max-width: 768px) {
-    .hero-row { 
-      flex-direction: column; 
-      align-items: center; 
+    .hero-row {
+      flex-direction: column;
+      align-items: center;
     }
-    .globe-wrap { 
-      max-width: 320px;         /* smaller globe on phones */
-      margin: 12px auto 0;      /* center it */
+    .globe-wrap {
+      max-width: 320px;       /* smaller globe on phones */
+      margin-top: 12px;
     }
   }
 </style>
