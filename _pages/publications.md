@@ -387,11 +387,7 @@ function copyCitation(id) {
   <a href="https://openreview.net/" target="_blank"><img src="/images/OPEN.jpg" alt="OpenReview Logo" /></a>
 </div>
 
-<div class="pub-entry">
-    <div class="pub-card">
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=Q4nlfwgfwMR0BJuj7RyFUCNPyBsWHJRRyG14HMgJViw&cl=ffffff&w=a"></script>
-</div>
-  </div>
+
 
 <footer class="pub-footer">
   📘 <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ&hl=en" target="_blank">Google Scholar</a>
@@ -399,3 +395,9 @@ function copyCitation(id) {
   🧬 <a href="https://orcid.org/0009-0004-6956-0652" target="_blank">ORCID</a>
   📝 <a href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank">OpenReview</a>
 </footer>
+
+<div class="pub-entry">
+    <div class="pub-card">
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=Q4nlfwgfwMR0BJuj7RyFUCNPyBsWHJRRyG14HMgJViw&cl=ffffff&w=a"></script>
+</div>
+  </div>
