@@ -93,7 +93,7 @@ author_profile: true
 <tr><td>Planned – Masters in Management (Gies College of Business)
             </td><td>University of Illinois – Urbana-Champaign
             <img src="/images/UIUC.jpg" alt="UIUC Logo" class="logo">
-            </td><td>Spring 2026 (Application to be Submitted)</td></tr>
+            </td><td>Spring 2026 (Application Submitted)</td></tr>
 <tr><td>Mini - MBA (Farmer School of Business)
 </td><td>Miami University
 <img src="/images/miami.png" alt="Miami Logo" class="logo">
