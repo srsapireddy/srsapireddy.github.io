@@ -206,6 +206,19 @@ function copyCitation(id) {
         <textarea id="cite4" class="hidden-citation">S. R. Sapireddy and M. Rahman, "Revisiting R: Statistical Envelope Analysis for Lightweight RF Modulation Classification," 2025 1st International Conference on Radio Frequency Communication and Networks (RFCoN), Thanjavur, India, 2025, pp. 1-6, doi: 10.1109/RFCoN62306.2025.11085271</textarea>
       </div>
     </div>
+      <div class="pub-grid">
+    <div class="pub-entry">
+      <div class="pub-card">
+        <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
+        <em>“Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features”</em><br>
+        <a href="https://ieeemapcon.org/" target="_blank">Microwaves, Antennas, and Propagation Conference (MAPCON) 2025</a>, December 14–18, 2025, Kerala, India.
+        <span class="accepted">Accepted</span>
+      </div>
+      <div class="cite-box" onclick="copyCitation('cite1')">
+        📑 Cite
+        <textarea id="cite1" class="hidden-citation">Accepted</textarea>
+      </div>
+    </div>
     <div class="pub-entry">
       <div class="pub-card">
       Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
@@ -308,19 +321,6 @@ function copyCitation(id) {
       <div class="cite-box" onclick="copyCitation('cite1')">
         📑 Cite
         <textarea id="cite1" class="hidden-citation">To be Submitted</textarea>
-      </div>
-    </div>
-  <div class="pub-grid">
-    <div class="pub-entry">
-      <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
-        <em>“Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features”</em><br>
-        <a href="https://ieeemapcon.org/" target="_blank">Microwaves, Antennas, and Propagation Conference (MAPCON) 2025</a>, December 14–18, 2025, Kerala, India.
-        <span class="status pending">Submitted</span>
-      </div>
-      <div class="cite-box" onclick="copyCitation('cite1')">
-        📑 Cite
-        <textarea id="cite1" class="hidden-citation">Under Review</textarea>
       </div>
     </div>
     <div class="pub-entry">
