@@ -182,7 +182,7 @@ function copyCitation(id) {
   <div class="pub-grid">
   <div class="pub-entry">
   <div class="pub-card">
-    <strong>Srinivas Rahul Sapireddy</strong><br>
+    <strong>Srinivas Rahul Sapireddy</strong>, .....<br>
     <em>“Adaptive Regularization - Efficient Neural Networks”</em><br>
     <a href="https://ieee-isvlsi.github.io/ISVLSI_2026_Website/index.html" target="_blank">
       IEEE Computer Society Annual Symposium on VLSI - ISVLSI</a> , July 7-10, 2026
@@ -196,7 +196,7 @@ function copyCitation(id) {
 
 <div class="pub-entry">
   <div class="pub-card">
-    <strong>Srinivas Rahul Sapireddy</strong><br>
+    <strong>Srinivas Rahul Sapireddy</strong>, .....<br>
     <em>“Bridging Programming Paradigms: Computer Science Education”</em><br>
     <a href="https://csedu.scitevents.org/Home.aspx" target="_blank">
        International Conference on Computer Supported Education</a> , May 18-20, 2026
