@@ -174,9 +174,8 @@ function copyCitation(id) {
     <strong>Srinivas Rahul Sapireddy</strong><br>
     <em>“Adaptive Regularization - Efficient Neural Networks”</em><br>
     <a href="https://ieee-isvlsi.github.io/ISVLSI_2026_Website/index.html" target="_blank">
-      IEEE Computer Society Annual Symposium on VLSI - ISVLSI, July 7-10, 2026
+      IEEE Computer Society Annual Symposium on VLSI - ISVLSI</a> , July 7-10, 2026
       <span class="status pending">To be Submitted</span>
-    </a>
   </div>
   <div class="cite-box" onclick="copyCitation('cite1')">
     📑 Cite
