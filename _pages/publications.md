@@ -162,9 +162,24 @@ function copyCitation(id) {
 </div>
 
 
+
 <section id="publications">
   <h2>📚 Publications</h2>
     <!-- Published -->
+
+  <h3 style="margin-top:2rem;">✅ Work In Progress</h3>
+  <div class="pub-entry">
+      <div class="pub-card">
+      Nimisha, <strong>Srinivas Rahul Sapireddy</strong><br>
+      <em>“Adaptive Regularization - Efficient Neural Networks”</em><br>
+      <a href="https://ieee-isvlsi.github.io/ISVLSI_2026_Website/index.html" target="_blank">IEEE Computer Society Annual Symposium on VLSI - ISVLSI, July 7-10, 2026 <span class="status pending">To be Submitted</span>
+    </div>
+      <div class="cite-box" onclick="copyCitation('cite1')">
+        📑 Cite
+        <textarea id="cite2" class="hidden-citation">To be Submitted</textarea>
+      </div>
+    </div>
+  
   <h3 style="margin-top:2rem;">✅ Published</h3>
   <div class="pub-grid">
     <div class="pub-entry">
