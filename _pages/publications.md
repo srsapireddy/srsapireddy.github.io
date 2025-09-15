@@ -4,6 +4,19 @@ permalink: /publications/
 ---
 
 <style>
+
+  .wip-badge {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #8a4c00;            /* dark orange text */
+    background: #fff4e5;       /* light orange background */
+    border: 1px solid #ffa726; /* orange border */
+    border-radius: 0.4rem;
+    text-transform: none;
+  }
+  
 .logo-row {
   display: flex;
   justify-content: center;
@@ -175,7 +188,7 @@ function copyCitation(id) {
     <em>“Adaptive Regularization - Efficient Neural Networks”</em><br>
     <a href="https://ieee-isvlsi.github.io/ISVLSI_2026_Website/index.html" target="_blank">
       IEEE Computer Society Annual Symposium on VLSI - ISVLSI</a> , July 7-10, 2026
-      <span class="status pending">To be Submitted</span>
+      <span class="wip-badge">To be Submitted</span>
   </div>
   <div class="cite-box" onclick="copyCitation('cite1')">
     📑 Cite
