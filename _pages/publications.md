@@ -190,7 +190,21 @@ function copyCitation(id) {
   </div>
   <div class="cite-box" onclick="copyCitation('cite1')">
     📑 Cite
-    <textarea id="cite1" class="hidden-citation"></textarea>
+    <textarea id="cite1" class="hidden-citation">Work in Progress</textarea>
+  </div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-card">
+    <strong>Srinivas Rahul Sapireddy</strong><br>
+    <em>“Bridging Programming Paradigms: Computer Science Education”</em><br>
+    <a href="https://csedu.scitevents.org/Home.aspx" target="_blank">
+       International Conference on Computer Supported Education</a> , May 18-20, 2026
+      <span class="wip-badge">Work in Progress</span>
+  </div>
+  <div class="cite-box" onclick="copyCitation('cite1')">
+    📑 Cite
+    <textarea id="cite1" class="hidden-citation">Work in Progress</textarea>
   </div>
 </div>
 </div>
