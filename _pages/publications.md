@@ -6,15 +6,13 @@ permalink: /publications/
 <style>
 
   .wip-badge {
-    display: inline-block;
-    padding: 0.25rem 0.6rem;
+    color: #fff;               /* white text */
+    background: #fb8c00;       /* solid orange background */
+    border-radius: 12px;       /* pill shape */
     font-size: 0.85rem;
-    font-weight: 600;
-    color: #8a4c00;            /* dark orange text */
-    background: #fff4e5;       /* light orange background */
-    border: 1px solid #ffa726; /* orange border */
-    border-radius: 0.4rem;
-    text-transform: none;
+    font-weight: bold;
+    padding: 0.2rem 0.5rem;    /* same dimensions as published */
+    margin-left: 0.5rem;
   }
   
 .logo-row {
@@ -188,11 +186,11 @@ function copyCitation(id) {
     <em>“Adaptive Regularization - Efficient Neural Networks”</em><br>
     <a href="https://ieee-isvlsi.github.io/ISVLSI_2026_Website/index.html" target="_blank">
       IEEE Computer Society Annual Symposium on VLSI - ISVLSI</a> , July 7-10, 2026
-      <span class="wip-badge">To be Submitted</span>
+      <span class="wip-badge">Work in Progress</span>
   </div>
   <div class="cite-box" onclick="copyCitation('cite1')">
     📑 Cite
-    <textarea id="cite1" class="hidden-citation">To be Submitted</textarea>
+    <textarea id="cite1" class="hidden-citation"></textarea>
   </div>
 </div>
 </div>
