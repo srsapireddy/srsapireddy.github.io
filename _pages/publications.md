@@ -252,18 +252,6 @@ function copyCitation(id) {
     </div>
     <div class="pub-entry">
       <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
-        <em>“Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features”</em><br>
-        <a href="https://ieeemapcon.org/" target="_blank">Microwaves, Antennas, and Propagation Conference (MAPCON) 2025</a>, December 14–18, 2025, Kerala, India.
-        <span class="status published">Accepted</span>
-      </div>
-      <div class="cite-box" onclick="copyCitation('cite1')">
-        📑 Cite
-        <textarea id="cite1" class="hidden-citation">Accepted</textarea>
-      </div>
-    </div>
-    <div class="pub-entry">
-      <div class="pub-card">
       Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
         <em><a href="https://www.sciencedirect.com/science/article/pii/S2773064623000713" target="_blank">“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</a></em><br>
       <em>Memories – Materials, Devices, Circuits and Systems</em>, vol. 7, article 100094, 2023. 
