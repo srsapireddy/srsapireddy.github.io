@@ -355,7 +355,7 @@ function copyCitation(id) {
     </div>
     <div class="pub-entry">
       <div class="pub-card">
-      Jahnavi Sri Kavya Bollimuntha*, <strong>Srinivas Rahul Sapireddy*</strong>, Nimisha<br>
+      Jahnavi Sri Kavya Bollimuntha*, <strong>Srinivas Rahul Sapireddy*</strong>, Nimisha Chandra<br>
       <em>“From Rule-Based to Neural: Statistical Envelope Feature Classification Using Feedforward Networks”</em>
       <a href="https://www.smartcomconference.com/" target="_blank">IEEE International Conference on Intelligent Systems, Smart and Green Technologies (ICISSGT – 2025)</a>, 19-20 December 2025. <span class="status pending">To be Submitted</span>
     </div>
@@ -377,7 +377,7 @@ function copyCitation(id) {
     </div>
     <div class="pub-entry">
       <div class="pub-card">
-      Nimisha, <strong>Srinivas Rahul Sapireddy</strong>, Jahnavi Sri Kavya Bollimuntha<br>
+      Nimisha Chandra, <strong>Srinivas Rahul Sapireddy</strong>, Jahnavi Sri Kavya Bollimuntha<br>
       <em>“Advances in Optical Nanoantenna-Based LSPR Biosensors for COVID-19 Antibody Detection: A Comprehensive Review”</em><br>
       <a href="https://www.smartcomconference.com/" target="_blank">10th International Conference on Smart Trends in Computing and Communications</a>, <br> 19 - 21 January 2026. <span class="status pending">To be Submitted</span>
     </div>
