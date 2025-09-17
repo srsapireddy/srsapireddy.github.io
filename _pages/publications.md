@@ -356,7 +356,7 @@ function copyCitation(id) {
     </div>
     <div class="pub-entry">
       <div class="pub-card">
-      <strong>Srinivas Rahul Sapireddy*</strong>, Jahavani*, Nimisha<br>
+      Jahavani*, <strong>Srinivas Rahul Sapireddy*</strong>, Nimisha<br>
       <em>“From Rule-Based to Neural: Statistical Envelope Feature Classification Using Feedforward Networks”</em>
       <a href="https://www.smartcomconference.com/" target="_blank">IEEE International Conference on Intelligent Systems, Smart and Green Technologies (ICISSGT – 2025)</a>, 19-20 December 2025. <span class="status pending">To be Submitted</span>
     </div>
