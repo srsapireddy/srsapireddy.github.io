@@ -341,7 +341,6 @@ function copyCitation(id) {
         <textarea id="cite7" class="hidden-citation">Under Review</textarea>
       </div>
     </div>
-  <div class="pub-grid tight-gap">
     <div class="pub-entry">
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
