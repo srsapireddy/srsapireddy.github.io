@@ -207,34 +207,6 @@ This page highlights scholars — both current UMKC students and alumni — who 
     </ul>
   </div>
 
-    <!-- New Student -->
-  <div class="sch-card">
-    <div class="sch-header">
-      <img src="/images/balaji.jpeg" alt="New Student" class="sch-photo">  
-      <div>
-        <div class="sch-name">Lakshmi Balaji Vattikonda
-          <a href="https://www.linkedin.com/in/lakshmibalajivattikonda/" target="_blank">
-            <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;">
-            <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
-          </a>
-        </div>
-        <div class="sch-sub">Current UMKC student — Master of Science in Computer Science, Spring 2027</div>
-        <div style="margin-top:0.35rem;">
-          <span class="badge current">Current</span>
-          <span class="badge tag">Machine Learning</span>
-        </div>
-      </div>
-    </div>
-    <div class="sch-sec">Research interests</div>
-    <ul class="sch-list">
-      <li>Software Development</li>
-    </ul>
-    <div class="sch-sec">Active topics / papers</div>
-    <ul class="sch-list">
-      <li>ML based financial stability and risk management (In progress)</li>
-    </ul>
-  </div>
-
 
 </div>
 
