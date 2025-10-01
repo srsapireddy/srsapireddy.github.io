@@ -378,9 +378,9 @@ function copyCitation(id) {
     </div>
     <div class="pub-entry">
       <div class="pub-card">
-      Nimisha Chandra, <strong>Srinivas Rahul Sapireddy</strong>, Jahnavi Sri Kavya Bollimuntha<br>
-      <em>“Advances in Optical Nanoantenna-Based LSPR Biosensors for COVID-19 Antibody Detection: A Comprehensive Review”</em><br>
-      <a href="https://www.smartcomconference.com/" target="_blank">10th International Conference on Smart Trends in Computing and Communications</a>, <br> 19 - 21 January 2026. <span class="status pending">To be Submitted</span>
+      Jahnavi Sri Kavya Bollimuntha*, <strong>Srinivas Rahul Sapireddy*</strong><br>
+      <em>“From Rule-Based to Neural: Statistical Envelope Feature Classification Using Feedforward Networks”</em><br>
+      <a href="https://r10.ieee.org/vizagbay/icissgt-2023-2/" target="_blank">IEEE International Conference on Intelligent Systems, Smart and Green Technologies (ICISSGT – 2026). <span class="status pending">To be Submitted</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite2')">
         📑 Cite
