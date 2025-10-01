@@ -301,6 +301,18 @@ function copyCitation(id) {
       <textarea id="pub10" class="hidden-citation">S. R. Sapireddy, P. N. Tejaswi, Y. M. Sandeep, and K. H. Krishna, "Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer," IJETT, vol. 34, no. 6, pp. 256–259, Apr. 2016.</textarea>
     </div>
   </div>
+     <div class="pub-entry">
+      <div class="pub-card">
+        <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
+        <em>"Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features"</em><br>
+        <em>IEEE Microwaves, Antennas, and Propagation Conference (MAPCON) 2025</em>
+        <span class="status accepted">Accepted (To be published)</span>
+      </div>
+      <div class="cite-box" onclick="copyCitation('cite7')">
+        📑 Cite
+        <textarea id="cite7" class="hidden-citation">Accepted</textarea>
+      </div>
+    </div>
     <div class="pub-entry">
       <div class="pub-card">
         Gurijala, B. T., <strong>Sapireddy, S. R.</strong><br>
