@@ -254,12 +254,12 @@ function copyCitation(id) {
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
         <em>"Simplifying Activations with Linear Approximations in Neural Networks"</em><br>
-        Memories, 2024
+        <em>Memories – Materials, Devices, Circuits and Systems</em>
         <span class="status accepted">Accepted (In Press)</span>
       </div>
       <div class="cite-box" onclick="copyCitation('cite7')">
         📑 Cite
-        <textarea id="cite7" class="hidden-citation">Under Review</textarea>
+        <textarea id="cite7" class="hidden-citation">Accepted</textarea>
       </div>
     </div>
     <div class="pub-entry">
