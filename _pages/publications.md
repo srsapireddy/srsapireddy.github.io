@@ -292,7 +292,7 @@ function copyCitation(id) {
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
         <em>"Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features"</em><br>
-        <a href="https://ieeemapcon.org/" target="_blank">10th International Conference on Smart Trends in Computing and Communications</a>, <br> IEEE Microwaves, Antennas, and Propagation Conference (MAPCON), December 14–18, 2025. <span class="status pending">Accepted</span>
+        <a href="https://ieeemapcon.org/" target="_blank">IEEE Microwaves, Antennas, and Propagation Conference (MAPCON), December 14–18, 2025.</a>, <br>  <span class="status pending">Accepted</span>
         <span class="status accepted">Accepted (To be published)</span>
       </div>
       <div class="cite-box" onclick="copyCitation('cite7')">
@@ -363,17 +363,6 @@ function copyCitation(id) {
       <div class="cite-box" onclick="copyCitation('cite1')">
         📑 Cite
         <textarea id="cite1" class="hidden-citation">To be Submitted</textarea>
-      </div>
-    </div>
-    <div class="pub-entry">
-      <div class="pub-card">
-      Jahnavi Sri Kavya Bollimuntha*, <strong>Srinivas Rahul Sapireddy*</strong>, Nimisha Chandra<br>
-      <em>“From Rule-Based to Neural: Statistical Envelope Feature Classification Using Feedforward Networks”</em>
-      <a href="https://www.smartcomconference.com/" target="_blank">IEEE International Conference on Intelligent Systems, Smart and Green Technologies (ICISSGT – 2025)</a>, 19-20 December 2025. <span class="status pending">To be Submitted</span>
-    </div>
-      <div class="cite-box" onclick="copyCitation('cite2')">
-        📑 Cite
-        <textarea id="cite2" class="hidden-citation">To be Submitted</textarea>
       </div>
     </div>
      <div class="pub-entry">
