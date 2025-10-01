@@ -250,6 +250,18 @@ function copyCitation(id) {
         <textarea id="cite4" class="hidden-citation">S. R. Sapireddy and M. Rahman, "Revisiting R: Statistical Envelope Analysis for Lightweight RF Modulation Classification," 2025 1st International Conference on Radio Frequency Communication and Networks (RFCoN), Thanjavur, India, 2025, pp. 1-6, doi: 10.1109/RFCoN62306.2025.11085271</textarea>
       </div>
     </div>
+     <div class="pub-entry">
+      <div class="pub-card">
+        <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
+        <em>"Simplifying Activations with Linear Approximations in Neural Networks"</em><br>
+        Memories, 2024
+        <span class="status accepted">Accepted (In Press)</span>
+      </div>
+      <div class="cite-box" onclick="copyCitation('cite7')">
+        📑 Cite
+        <textarea id="cite7" class="hidden-citation">Under Review</textarea>
+      </div>
+    </div>
     <div class="pub-entry">
       <div class="pub-card">
       Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
@@ -329,18 +341,6 @@ function copyCitation(id) {
 
   <h3 style="margin-top:2rem;">📝 To be Submitted / Under Review</h3>
 <div class="pub-grid">
-  <div class="pub-entry">
-      <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
-        <em>"Simplifying Activations with Linear Approximations in Neural Networks"</em><br>
-        Memories, 2024
-        <span class="status review">Minor Revision</span>
-      </div>
-      <div class="cite-box" onclick="copyCitation('cite7')">
-        📑 Cite
-        <textarea id="cite7" class="hidden-citation">Under Review</textarea>
-      </div>
-    </div>
     <div class="pub-entry">
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, Naznin Akther, Mostafizur Rahman<br>
