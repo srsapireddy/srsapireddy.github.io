@@ -215,11 +215,12 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
 <div class="cert-grid lightbox-gallery">
   <div class="cert-card">
     <a href="https://badgr.com/public/assertions/ALTQFVRfTKK09z8t39bOMQ" target="_blank">
-      <img src="/images/decision.png" alt="miniMBA Badge">
+      <img src="/images/decision.png" alt="miniMBA Badge" style="width:150px; height:auto; margin:auto;">
     </a>
     <div class="cert-title">miniMBA: Executive Judgement and Decision-Making – Miami University</div>
   </div>
 </div>
+
 
 ---
 
