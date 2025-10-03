@@ -210,6 +210,24 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
 
 ---
 
+---
+
+## 🥇 Certification Badges
+
+<div class="cert-grid">
+  <div class="cert-card">
+    <a href="https://badgr.com/public/assertions/ALTQFVRfTKK09z8t39bOMQ" target="_blank">
+      <img src="https://your-badge-image-link.com" alt="miniMBA Badge">
+    </a>
+    <div class="cert-title">
+      <a href="https://your-badge-verification-link.com" target="_blank">
+        miniMBA: Executive Judgement and Decision-Making – Miami University
+      </a>
+    </div>
+  </div>
+</div>
+
+
 ## 🏅 Honors & Recognition
 
 <div class="cert-grid lightbox-gallery">
