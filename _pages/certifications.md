@@ -66,7 +66,11 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
 
 ## 🌐 Certifications
 <!-- Certifications -->
-<div class="cert-grid lightbox-gallery">
+  <div class="cert-grid lightbox-gallery">
+    <div class="cert-card">
+    <img src="/images/purdue.jpeg" alt="Semiconductor">
+    <div class="cert-title">Semiconductor Fabrication – Purdue University, University of Texas Austin</div>
+  </div>
   <div class="cert-card">
     <img src="/images/statistical_learning.png" alt="Statistical Learning">
     <div class="cert-title">Statistical Learning – Stanford University</div>
