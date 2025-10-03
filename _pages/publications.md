@@ -367,9 +367,10 @@ function copyCitation(id) {
     </div>
      <div class="pub-entry">
       <div class="pub-card">
-      <strong>Srinivas Rahul Sapireddy</strong>, Hemanth Bandi<br>
+      <strong>Srinivas Rahul Sapireddy</strong><br>
       <em>“Refining Deep Reinforcement Learning with Double Estimation and Optimized Target Updates”</em><br>
-      <a href="https://www.smartcomconference.com/" target="_blank">10th International Conference on Smart Trends in Computing and Communications</a>,<br> 19 - 21 January 2026. <span class="status pending">To be Submitted</span>
+      <a href="https://icccn.co.uk/PreviousConference" target="_blank">6th International Conference on Computing and Communication Networks
+(ICCCNet-2026)</a>,<br> 17th - 19th July, 2026, MANCHESTER, UNITED KINGDOM <span class="status pending">To be Submitted</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite2')">
         📑 Cite
