@@ -215,7 +215,7 @@ function copyCitation(id) {
       <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
       <em><a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">“On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”</a></em><br>
-      <a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA. 
+      <a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">The 35th edition of ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA. 
       <a href="10.1145/3716368.3735217" target="_blank">[DOI]</a>
         <span class="status published">Published</span><br>
       <small><em>Session: VLSI for Machine Learning and Artificial Intelligence | Acceptance rate: 27%</em></small><br>
@@ -223,7 +223,7 @@ function copyCitation(id) {
     </div>
       <div class="cite-box" onclick="copyCitation('cite3')">
         📑 Cite
-        <textarea id="cite3" class="hidden-citation">Srinivas Rahul Sapireddy and Mostafizur Rahman. 2025. On the Effectiveness of Piecewise Activation Approximations for Long-Term Short-Memory Networks. In Proceedings of 35th edition - Great Lakes Symposium on VLSI 2025 (GLSVLSI '25), June 29, 2025, pp. 740–745. https://doi.org/10.1145/3716368.3735217</textarea>
+        <textarea id="cite3" class="hidden-citation">Srinivas Rahul Sapireddy and Mostafizur Rahman. 2025. On the Effectiveness of Piecewise Activation Approximations for Long-Term Short-Memory Networks. In Proceedings of Great Lakes Symposium on VLSI 2025 (GLSVLSI '25), June 29, 2025, pp. 740–745. https://doi.org/10.1145/3716368.3735217</textarea>
       </div>
     </div>
     <div class="pub-entry">
