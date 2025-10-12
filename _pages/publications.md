@@ -217,7 +217,7 @@ function copyCitation(id) {
       <em><a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">“On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”</a></em><br>
       <a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank">The 35th edition of ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA. 
       <a href="10.1145/3716368.3735217" target="_blank">[DOI]</a>
-        <span class="status published">Published</span><br>
+        <span class="status published">Published</span>
       <small><em>Session: VLSI for Machine Learning and Artificial Intelligence | Acceptance rate: 27%</em></small><br>
       <a href="/images/PID69.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
