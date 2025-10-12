@@ -256,7 +256,6 @@ function copyCitation(id) {
         <em><a href="https://www.sciencedirect.com/science/article/pii/S2773064623000713" target="_blank">"Simplifying Activations with Linear Approximations in Neural Networks"</a></em><br>
       <em>Memories – Materials, Devices, Circuits and Systems</em>, 2025. 
       <a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank">[DOI]</a>
-      <em>Elsevier</em><br>
         <span class="status published">Pre-proof</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite5')">
@@ -268,7 +267,6 @@ function copyCitation(id) {
       <div class="pub-card">
       Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
         <em><a href="https://www.sciencedirect.com/science/article/pii/S2773064623000713" target="_blank">“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</a></em><br>
-      <em>Elsevier</em><br>
       <a href="https://doi.org/10.1016/j.memori.2023.100094" target="_blank">[DOI]</a>
         <em>Memories – Materials, Devices, Circuits and Systems</em> 
       <span class="status published">Published</span>
