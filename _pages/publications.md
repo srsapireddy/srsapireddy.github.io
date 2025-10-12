@@ -255,11 +255,12 @@ function copyCitation(id) {
         <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
         <em>"Simplifying Activations with Linear Approximations in Neural Networks"</em><br>
         <em>Memories – Materials, Devices, Circuits and Systems</em>
-        <span class="status accepted">Accepted (In Press)</span>
+        <a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank">[DOI]</a>
+        <span class="status published">Pre-proof</span>
       </div>
       <div class="cite-box" onclick="copyCitation('cite7')">
         📑 Cite
-        <textarea id="cite7" class="hidden-citation">Accepted</textarea>
+        <textarea id="cite7" class="hidden-citation">Sapireddy, S. R., Asifuzzaman, K., & Mostafizur, R. (2025). Simplifying activations with linear approximations in neural networks. Memories - Materials, Devices, Circuits and Systems, 100134. https://doi.org/10.1016/j.memori.2025.100134</textarea>
       </div>
     </div>
     <div class="pub-entry">
