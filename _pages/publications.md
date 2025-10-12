@@ -256,7 +256,8 @@ function copyCitation(id) {
         <em><a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank">"Simplifying Activations with Linear Approximations in Neural Networks"</a></em><br>
       <em>Memories – Materials, Devices, Circuits and Systems</em>, 2025. 
       <a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank">[DOI]</a>
-        <span class="status published">Pre-proof</span>
+        <span class="status published">Pre-proof</span><br>
+        <a href="/images/Memories_2.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
       <div class="cite-box" onclick="copyCitation('cite5')">
         📑 Cite
@@ -269,7 +270,8 @@ function copyCitation(id) {
         <em><a href="https://www.sciencedirect.com/science/article/pii/S2773064623000713" target="_blank">“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</a></em><br>
         <em>Memories – Materials, Devices, Circuits and Systems</em> 
       <a href="https://doi.org/10.1016/j.memori.2023.100094" target="_blank">[DOI]</a>
-      <span class="status published">Published</span>
+      <span class="status published">Published</span><br>
+        <a href="/images/Memories_1.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
       <div class="cite-box" onclick="copyCitation('cite5')">
         📑 Cite
