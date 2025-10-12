@@ -267,8 +267,8 @@ function copyCitation(id) {
       <div class="pub-card">
       Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
         <em><a href="https://www.sciencedirect.com/science/article/pii/S2773064623000713" target="_blank">“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</a></em><br>
-      <a href="https://doi.org/10.1016/j.memori.2023.100094" target="_blank">[DOI]</a>
         <em>Memories – Materials, Devices, Circuits and Systems</em> 
+      <a href="https://doi.org/10.1016/j.memori.2023.100094" target="_blank">[DOI]</a>
       <span class="status published">Published</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite5')">
