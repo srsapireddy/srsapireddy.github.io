@@ -254,9 +254,10 @@ function copyCitation(id) {
       <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
         <em><a href="https://www.sciencedirect.com/science/article/pii/S2773064623000713" target="_blank">"Simplifying Activations with Linear Approximations in Neural Networks"</a></em><br>
-      <em>Memories – Materials, Devices, Circuits and Systems [Elsevier]</em>, 2025. 
+      <em>Memories – Materials, Devices, Circuits and Systems</em>, 2025. 
       <a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank">[DOI]</a>
-      <span class="status published">Pre-proof</span>
+      Elsevier
+        <span class="status published">Pre-proof</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite5')">
         📑 Cite
