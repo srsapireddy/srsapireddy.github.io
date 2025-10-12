@@ -285,7 +285,7 @@ function copyCitation(id) {
       <em>MDPI Electronics</em>, 2025.
       <a href="https://doi.org/10.3390/electronics14153015" target="_blank">[DOI]</a>
       <span class="status published">Published</span><br>
-        <a href="/images/MDPI.pdf" target="_blank" title="Download PDF">📥</a>
+        <a href="/images/MDPI_1.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
       <div class="cite-box" onclick="copyCitation('cite6')">
         📑 Cite
