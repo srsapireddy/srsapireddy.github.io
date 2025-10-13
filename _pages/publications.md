@@ -188,9 +188,9 @@ function copyCitation(id) {
       IEEE Computer Society Annual Symposium on VLSI - ISVLSI</a> , July 7-10, 2026
       <span class="wip-badge">Work in Progress</span>
   </div>
-  <div class="cite-box" onclick="copyCitation('cite1')">
+  <div class="cite-box" onclick="copyCitation('cite0')">
     📑 Cite
-    <textarea id="cite1" class="hidden-citation">Work in Progress</textarea>
+    <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
   </div>
 </div>
 
@@ -202,9 +202,9 @@ function copyCitation(id) {
        International Conference on Computer Supported Education</a> , May 18-20, 2026
       <span class="wip-badge">Work in Progress</span>
   </div>
-  <div class="cite-box" onclick="copyCitation('cite1')">
+  <div class="cite-box" onclick="copyCitation('cite0')">
     📑 Cite
-    <textarea id="cite1" class="hidden-citation">Work in Progress</textarea>
+    <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
   </div>
 </div>
 </div>
@@ -223,7 +223,7 @@ function copyCitation(id) {
     </div>
       <div class="cite-box" onclick="copyCitation('cite1')">
         📑 Cite
-        <textarea id="cite3" class="hidden-citation">Srinivas Rahul Sapireddy and Mostafizur Rahman. 2025. On the Effectiveness of Piecewise Activation Approximations for Long-Term Short-Memory Networks. In Proceedings of Great Lakes Symposium on VLSI 2025 (GLSVLSI '25), June 29, 2025, pp. 740–745. https://doi.org/10.1145/3716368.3735217</textarea>
+        <textarea id="cite1" class="hidden-citation">Srinivas Rahul Sapireddy and Mostafizur Rahman. 2025. On the Effectiveness of Piecewise Activation Approximations for Long-Term Short-Memory Networks. In Proceedings of Great Lakes Symposium on VLSI 2025 (GLSVLSI '25), June 29, 2025, pp. 740–745. https://doi.org/10.1145/3716368.3735217</textarea>
       </div>
     </div>
     <div class="pub-entry">
@@ -247,7 +247,7 @@ function copyCitation(id) {
     </div>
       <div class="cite-box" onclick="copyCitation('cite2')">
         📑 Cite
-        <textarea id="cite4" class="hidden-citation">S. R. Sapireddy and M. Rahman, "Revisiting R: Statistical Envelope Analysis for Lightweight RF Modulation Classification," 2025 1st International Conference on Radio Frequency Communication and Networks (RFCoN), Thanjavur, India, 2025, pp. 1-6, doi: 10.1109/RFCoN62306.2025.11085271</textarea>
+        <textarea id="cite2" class="hidden-citation">S. R. Sapireddy and M. Rahman, "Revisiting R: Statistical Envelope Analysis for Lightweight RF Modulation Classification," 2025 1st International Conference on Radio Frequency Communication and Networks (RFCoN), Thanjavur, India, 2025, pp. 1-6, doi: 10.1109/RFCoN62306.2025.11085271</textarea>
       </div>
     </div>
      <div class="pub-entry">
@@ -261,7 +261,7 @@ function copyCitation(id) {
     </div>
       <div class="cite-box" onclick="copyCitation('cite3')">
         📑 Cite
-        <textarea id="cite5" class="hidden-citation">Sapireddy, S. R., Asifuzzaman, K., & Mostafizur, R. (2025). Simplifying activations with linear approximations in neural networks. Memories - Materials, Devices, Circuits and Systems, 100134. https://doi.org/10.1016/j.memori.2025.100134</textarea>
+        <textarea id="cite3" class="hidden-citation">Sapireddy, S. R., Asifuzzaman, K., & Mostafizur, R. (2025). Simplifying activations with linear approximations in neural networks. Memories - Materials, Devices, Circuits and Systems, 100134. https://doi.org/10.1016/j.memori.2025.100134</textarea>
       </div>
     </div>
     <div class="pub-entry">
@@ -275,7 +275,7 @@ function copyCitation(id) {
     </div>
       <div class="cite-box" onclick="copyCitation('cite4')">
         📑 Cite
-        <textarea id="cite5" class="hidden-citation">Iqbal, M. A., Sapireddy, S. R., Dasari, S., Asifuzzaman, K., & Rahman, M. (2024). A review of crosstalk polymorphic circuits and their scalability. Memories - Materials, Devices, Circuits and Systems, 7, 100094. https://doi.org/10.1016/j.memori.2023.100094</textarea>
+        <textarea id="cite4" class="hidden-citation">Iqbal, M. A., Sapireddy, S. R., Dasari, S., Asifuzzaman, K., & Rahman, M. (2024). A review of crosstalk polymorphic circuits and their scalability. Memories - Materials, Devices, Circuits and Systems, 7, 100094. https://doi.org/10.1016/j.memori.2023.100094</textarea>
       </div>
     </div>
     <div class="pub-entry">
@@ -289,7 +289,7 @@ function copyCitation(id) {
     </div>
       <div class="cite-box" onclick="copyCitation('cite5')">
         📑 Cite
-        <textarea id="cite6" class="hidden-citation">Danesh, W.; Sapireddy, S.R.; Rahman, M. Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders. Electronics 2025, 14, 3015. https://doi.org/10.3390/electronics14153015</textarea>
+        <textarea id="cite5" class="hidden-citation">Danesh, W.; Sapireddy, S.R.; Rahman, M. Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders. Electronics 2025, 14, 3015. https://doi.org/10.3390/electronics14153015</textarea>
       </div>
     </div>
     <div class="pub-entry">
@@ -301,7 +301,7 @@ function copyCitation(id) {
       </div>
       <div class="cite-box" onclick="copyCitation('cite6')">
         📑 Cite
-        <textarea id="cite7" class="hidden-citation">Accepted</textarea>
+        <textarea id="cite6" class="hidden-citation">Accepted</textarea>
       </div>
     </div>
   <div class="pub-entry">
@@ -314,7 +314,7 @@ function copyCitation(id) {
     </div>
     <div class="cite-box" onclick="copyCitation('pub7')">
       📑 Cite
-      <textarea id="pub10" class="hidden-citation">S. R. Sapireddy, P. N. Tejaswi, Y. M. Sandeep, and K. H. Krishna, "Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer," IJETT, vol. 34, no. 6, pp. 256–259, Apr. 2016.</textarea>
+      <textarea id="pub7" class="hidden-citation">S. R. Sapireddy, P. N. Tejaswi, Y. M. Sandeep, and K. H. Krishna, "Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer," IJETT, vol. 34, no. 6, pp. 256–259, Apr. 2016.</textarea>
     </div>
   </div>
     <div class="pub-entry">
@@ -349,9 +349,9 @@ function copyCitation(id) {
       Accessed: Mar, Volume 20, 2024.
       <span class="status online">📄 Online Archive</span>
     </div>
-    <div class="cite-box" onclick="copyCitation('pub11')">
+    <div class="cite-box" onclick="copyCitation('pub10')">
       📑 Cite
-      <textarea id="pub11" class="hidden-citation">M. Rahman, A. Iqbal, and S. R. Sapireddy, "A Messaging Based Intelligent Computing Approach for Machine Learning Applications," Accessed: Mar, vol. 20, 2024.</textarea>
+      <textarea id="pub10" class="hidden-citation">M. Rahman, A. Iqbal, and S. R. Sapireddy, "A Messaging Based Intelligent Computing Approach for Machine Learning Applications," Accessed: Mar, vol. 20, 2024.</textarea>
     </div>
   </div>
 
@@ -364,9 +364,9 @@ function copyCitation(id) {
         <a href="https://milcom.org" target="_blank">IEEE Military Communications Conference (MILCOM)</a>, October 6 - 10, 2025, Los Angeles, California.
         <span class="status pending">To be Submitted</span>
       </div>
-      <div class="cite-box" onclick="copyCitation('cite1')">
+      <div class="cite-box" onclick="copyCitation('cite11')">
         📑 Cite
-        <textarea id="cite1" class="hidden-citation">To be Submitted</textarea>
+        <textarea id="cite11" class="hidden-citation">To be Submitted</textarea>
       </div>
     </div>
      <div class="pub-entry">
@@ -376,9 +376,9 @@ function copyCitation(id) {
       <a href="https://icccn.co.uk/PreviousConference" target="_blank">6th International Conference on Computing and Communication Networks
 (ICCCNet-2026)</a>,<br> 17th - 19th July, 2026, MANCHESTER, UNITED KINGDOM <span class="status pending">To be Submitted</span>
     </div>
-      <div class="cite-box" onclick="copyCitation('cite2')">
+      <div class="cite-box" onclick="copyCitation('cite12')">
         📑 Cite
-        <textarea id="cite2" class="hidden-citation">To be Submitted</textarea>
+        <textarea id="cite12" class="hidden-citation">To be Submitted</textarea>
       </div>
     </div>
     <div class="pub-entry">
@@ -387,9 +387,9 @@ function copyCitation(id) {
       <em>“From Rule-Based to Neural: Statistical Envelope Feature Classification Using Feedforward Networks”</em><br>
       <a href="https://r10.ieee.org/vizagbay/icissgt-2023-2/" target="_blank">IEEE International Conference on Intelligent Systems, Smart and Green Technologies</a>,<br> February 2026.  <span class="status pending">To be Submitted</span>
     </div>
-      <div class="cite-box" onclick="copyCitation('cite2')">
+      <div class="cite-box" onclick="copyCitation('cite13')">
         📑 Cite
-        <textarea id="cite2" class="hidden-citation">To be Submitted</textarea>
+        <textarea id="cite13" class="hidden-citation">To be Submitted</textarea>
       </div>
     </div>
      <div class="pub-entry">
