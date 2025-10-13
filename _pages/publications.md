@@ -257,7 +257,7 @@ function copyCitation(id) {
       <em>Memories – Materials, Devices, Circuits and Systems</em>, 2025. 
       <a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank">[DOI]</a>
         <span class="status published">Pre-proof</span><br>
-        <a href="/images/Memories_2.pdf" target="_blank" title="Download PDF">📥</a>
+        <a href="/images/Memories_3.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
       <div class="cite-box" onclick="copyCitation('cite3')">
         📑 Cite
