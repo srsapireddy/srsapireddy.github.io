@@ -256,7 +256,7 @@ function copyCitation(id) {
         <em><a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank">"Simplifying Activations with Linear Approximations in Neural Networks"</a></em><br>
       <em>Memories – Materials, Devices, Circuits and Systems</em>, 2025. 
       <a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank">[DOI]</a>
-        <span class="status published">Pre-proof</span><br>
+        <span class="status published">Published</span><br>
         <a href="/images/Memories_3.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
       <div class="cite-box" onclick="copyCitation('cite3')">
@@ -297,7 +297,7 @@ function copyCitation(id) {
         <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
         <em>"Re-Defining R: Resource-Efficient Modulation Classification"</em><br>
         <a href="https://ieeemapcon.org/" target="_blank">IEEE Microwaves, Antennas, and Propagation Conference (MAPCON), December 14–18, 2025.</a> <br>  <span class="status pending">Accepted</span>
-        <span class="status accepted">Accepted (To be published)</span>
+        <span class="status accepted">Accepted</span>
       </div>
       <div class="cite-box" onclick="copyCitation('cite6')">
         📑 Cite
