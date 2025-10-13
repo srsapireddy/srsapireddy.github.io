@@ -432,9 +432,15 @@ function copyCitation(id) {
   📝 <a href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank">OpenReview</a>
 </footer>
 
-<div style="text-align: center;">
-  <a href='https://mapmyvisitors.com/web/1bz4s'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=600&t=tt&d=Q4nlfwgfwMR0BJuj7RyFUCNPyBsWHJRRyG14HMgJViw'/></a>
+<div style="text-align: center; margin-top: 10px;">
+  <a href="https://info.flagcounter.com/gunK" title="Flag Counter">
+    <img src="https://s05.flagcounter.com/count/gunK/bg_24BDFF/txt_000000/border_4A12CC/columns_8/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_1/" 
+         alt="Flag Counter" 
+         border="0" 
+         width="600">
+  </a>
 </div>
+
 
 
 
