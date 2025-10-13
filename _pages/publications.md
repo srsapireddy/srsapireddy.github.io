@@ -221,7 +221,7 @@ function copyCitation(id) {
       <small><em>Session: VLSI for Machine Learning and Artificial Intelligence | Acceptance rate: 27%</em></small><br>
       <a href="/images/PID69.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
-      <div class="cite-box" onclick="copyCitation('cite3')">
+      <div class="cite-box" onclick="copyCitation('cite1')">
         📑 Cite
         <textarea id="cite3" class="hidden-citation">Srinivas Rahul Sapireddy and Mostafizur Rahman. 2025. On the Effectiveness of Piecewise Activation Approximations for Long-Term Short-Memory Networks. In Proceedings of Great Lakes Symposium on VLSI 2025 (GLSVLSI '25), June 29, 2025, pp. 740–745. https://doi.org/10.1145/3716368.3735217</textarea>
       </div>
@@ -245,7 +245,7 @@ function copyCitation(id) {
       </small><br>
       <a href="/images/PID718.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
-      <div class="cite-box" onclick="copyCitation('cite4')">
+      <div class="cite-box" onclick="copyCitation('cite2')">
         📑 Cite
         <textarea id="cite4" class="hidden-citation">S. R. Sapireddy and M. Rahman, "Revisiting R: Statistical Envelope Analysis for Lightweight RF Modulation Classification," 2025 1st International Conference on Radio Frequency Communication and Networks (RFCoN), Thanjavur, India, 2025, pp. 1-6, doi: 10.1109/RFCoN62306.2025.11085271</textarea>
       </div>
@@ -259,7 +259,7 @@ function copyCitation(id) {
         <span class="status published">Pre-proof</span><br>
         <a href="/images/Memories_2.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
-      <div class="cite-box" onclick="copyCitation('cite5')">
+      <div class="cite-box" onclick="copyCitation('cite3')">
         📑 Cite
         <textarea id="cite5" class="hidden-citation">Sapireddy, S. R., Asifuzzaman, K., & Mostafizur, R. (2025). Simplifying activations with linear approximations in neural networks. Memories - Materials, Devices, Circuits and Systems, 100134. https://doi.org/10.1016/j.memori.2025.100134</textarea>
       </div>
@@ -273,7 +273,7 @@ function copyCitation(id) {
       <span class="status published">Published</span><br>
         <a href="/images/Memories_1.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
-      <div class="cite-box" onclick="copyCitation('cite5')">
+      <div class="cite-box" onclick="copyCitation('cite4')">
         📑 Cite
         <textarea id="cite5" class="hidden-citation">Iqbal, M. A., Sapireddy, S. R., Dasari, S., Asifuzzaman, K., & Rahman, M. (2024). A review of crosstalk polymorphic circuits and their scalability. Memories - Materials, Devices, Circuits and Systems, 7, 100094. https://doi.org/10.1016/j.memori.2023.100094</textarea>
       </div>
@@ -287,7 +287,7 @@ function copyCitation(id) {
       <span class="status published">Published</span><br>
         <a href="/images/MDPI_1.pdf" target="_blank" title="Download PDF">📥</a>
     </div>
-      <div class="cite-box" onclick="copyCitation('cite6')">
+      <div class="cite-box" onclick="copyCitation('cite5')">
         📑 Cite
         <textarea id="cite6" class="hidden-citation">Danesh, W.; Sapireddy, S.R.; Rahman, M. Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders. Electronics 2025, 14, 3015. https://doi.org/10.3390/electronics14153015</textarea>
       </div>
@@ -299,7 +299,7 @@ function copyCitation(id) {
         <a href="https://ieeemapcon.org/" target="_blank">IEEE Microwaves, Antennas, and Propagation Conference (MAPCON), December 14–18, 2025.</a> <br>  <span class="status pending">Accepted</span>
         <span class="status accepted">Accepted (To be published)</span>
       </div>
-      <div class="cite-box" onclick="copyCitation('cite7')">
+      <div class="cite-box" onclick="copyCitation('cite6')">
         📑 Cite
         <textarea id="cite7" class="hidden-citation">Accepted</textarea>
       </div>
@@ -312,7 +312,7 @@ function copyCitation(id) {
       <a href="10.14445/22315381/IJETT-V34P252" target="_blank">[DOI]</a>
       <span class="status published">Published</span>
     </div>
-    <div class="cite-box" onclick="copyCitation('pub10')">
+    <div class="cite-box" onclick="copyCitation('pub7')">
       📑 Cite
       <textarea id="pub10" class="hidden-citation">S. R. Sapireddy, P. N. Tejaswi, Y. M. Sandeep, and K. H. Krishna, "Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer," IJETT, vol. 34, no. 6, pp. 256–259, Apr. 2016.</textarea>
     </div>
