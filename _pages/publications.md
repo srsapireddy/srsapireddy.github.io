@@ -185,7 +185,21 @@ function copyCitation(id) {
     <strong>Srinivas Rahul Sapireddy</strong>, .....<br>
     <em>“Adaptive Regularization - Efficient Neural Networks”</em><br>
     <a href="https://ieee-isvlsi.github.io/ISVLSI_2026_Website/index.html" target="_blank">
-      IEEE Computer Society Annual Symposium on VLSI - ISVLSI</a> , July 7-10, 2026
+      IEEE Computer Society Annual Symposium on VLSI - ISVLSI</a> , April 20-21, 2026
+      <span class="wip-badge">Work in Progress</span>
+  </div>
+  <div class="cite-box" onclick="copyCitation('cite0')">
+    📑 Cite
+    <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
+  </div>
+</div>
+
+  <div class="pub-entry">
+  <div class="pub-card">
+    <strong>Srinivas Rahul Sapireddy</strong>, .....<br>
+    <em>“EABS: Lightweight Entropy-Binning Framework for Intelligent Signal Processing”</em><br>
+    <a href="https://www.ieeewamicon.org/" target="_blank">
+      IEEE Wireless and Microwave Technology Conference (WAMICON) 2026</a> , July 7-10, 2026
       <span class="wip-badge">Work in Progress</span>
   </div>
   <div class="cite-box" onclick="copyCitation('cite0')">
