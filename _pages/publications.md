@@ -180,6 +180,21 @@ function copyCitation(id) {
 
   <h3 style="margin-top:2rem;">✅ Work In Progress</h3>
   <div class="pub-grid">
+
+  <div class="pub-entry">
+  <div class="pub-card">
+    <strong>Srinivas Rahul Sapireddy</strong>, Priyanka Siddappa, Hemanth Bandi<br>
+    <em>“Edge-AI Healthcare: Quantization-Aware DNN”</em><br>
+    <a href="https://zhang-informatics.github.io/ICHI2026/" target="_blank">
+      14th IEEE International Conference on Healthcare Informatics - ICHI 2026</a> , June 1–4, 2026
+      <span class="wip-badge">Work in Progress</span>
+  </div>
+  <div class="cite-box" onclick="copyCitation('cite0')">
+    📑 Cite
+    <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
+  </div>
+</div>
+    
   <div class="pub-entry">
   <div class="pub-card">
     <strong>Srinivas Rahul Sapireddy</strong>, .....<br>
