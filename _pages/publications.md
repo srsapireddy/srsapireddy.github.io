@@ -169,7 +169,7 @@ function copyCitation(id) {
   <a href="https://www.uis.edu/" target="_blank"><img src="/images/UIS.png" alt="UIS Logo" /></a>
   <a href="https://www.umkc.edu/" target="_blank"><img src="/images/UMKC.png" alt="UMKC Logo" /></a>
   <a href="https://twin-cities.umn.edu/" target="_blank"><img src="/images/UMTC.jpeg" alt="University of Minnesota Logo" /></a>
-  <a href="https://www.uml.edu/" target="_blank"><img src="/images/umass.png" alt="University of Massachusetts Logo" /></a>
+  <a href="https://www.uml.edu/" target="_blank"><img src="/images/mass.png" alt="University of Massachusetts Logo" /></a>
   <a href="https://www.griet.ac.in/" target="_blank"><img src="/images/GRIET.png" alt="GRIET Logo" /></a>
 </div>
 
