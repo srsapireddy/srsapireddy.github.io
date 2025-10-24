@@ -124,6 +124,16 @@ permalink: /publications/
   transition: 0.3s ease;
 }
 
+.pub-card2,
+.cite-box {
+  border: 2px solid #DC143C; /* red for ISU */
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+  
 .cite-box {
   display: flex;
   justify-content: center;
@@ -183,7 +193,7 @@ function copyCitation(id) {
   <div class="pub-grid">
 
   <div class="pub-entry">
-  <div class="pub-card">
+  <div class="pub-card2">
     <strong>Srinivas Rahul Sapireddy</strong>, Priyanka Siddappa, Hemanth Bandi<br>
     <em>“Edge-AI Healthcare: Quantization-Aware DNN”</em><br>
     <a href="https://zhang-informatics.github.io/ICHI2026/" target="_blank">
@@ -197,7 +207,7 @@ function copyCitation(id) {
 </div>
     
   <div class="pub-entry">
-  <div class="pub-card">
+  <div class="pub-card2">
     <strong>Srinivas Rahul Sapireddy</strong>, .....<br>
     <em>“Adaptive Regularization - Efficient Neural Networks”</em><br>
     <a href="https://ieee-isvlsi.github.io/ISVLSI_2026_Website/index.html" target="_blank">
@@ -211,7 +221,7 @@ function copyCitation(id) {
 </div>
 
   <div class="pub-entry">
-  <div class="pub-card">
+  <div class="pub-card2">
     <strong>Srinivas Rahul Sapireddy</strong>, .....<br>
     <em>“EABS: Lightweight Entropy-Binning Framework for Intelligent Signal Processing”</em><br>
     <a href="https://www.ieeewamicon.org/" target="_blank">
@@ -225,7 +235,7 @@ function copyCitation(id) {
 </div>
 
 <div class="pub-entry">
-  <div class="pub-card">
+  <div class="pub-card2">
     <strong>Srinivas Rahul Sapireddy</strong>, .....<br>
     <em>“Bridging Programming Paradigms: Computer Science Education”</em><br>
     <a href="https://csedu.scitevents.org/Home.aspx" target="_blank">
