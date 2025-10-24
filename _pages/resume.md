@@ -124,7 +124,7 @@ author_profile: true
 <table class="resume-table">
 <thead><tr><th>Role</th><th>Institution</th><th>Courses</th></tr></thead>
 <tbody>
-<tr><td>Assistant Professor</td><td>Illinois State University, Normal, Illinois</td><td>Courses to be announced</td></tr>
+<tr><td>Incoming Assistant Professor</td><td>Illinois State University, Normal, Illinois</td><td>Courses to be announced</td></tr>
 <tr><td>Instructor</td><td>University of Missouri-Kansas City</td><td>ENGR E&C 226, 216, 447/5547, 402/5533</td></tr>
 <tr><td>Teaching Assistant</td><td>University of Missouri-Kansas City</td><td>ENGR E&C 442/5542, 228, 402/403</td></tr>
 </tbody>
