@@ -125,7 +125,7 @@ permalink: /publications/
 }
 
 .pub-card2,
-.cite-box {
+.cite-box2 {
   border: 2px solid #DC143C; /* red for ISU */
   border-radius: 12px;
   padding: 1.2rem 1.5rem;
@@ -200,7 +200,7 @@ function copyCitation(id) {
       IEEE International Conference on Healthcare Informatics</a> , June 1–4, 2026
       <span class="wip-badge">Work in Progress</span>
   </div>
-  <div class="cite-box" onclick="copyCitation('cite0')">
+  <div class="cite-box2" onclick="copyCitation('cite0')">
     📑 Cite
     <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
   </div>
@@ -214,7 +214,7 @@ function copyCitation(id) {
       IEEE Computer Society Annual Symposium on VLSI - ISVLSI</a> , April 20-21, 2026
       <span class="wip-badge">Work in Progress</span>
   </div>
-  <div class="cite-box" onclick="copyCitation('cite0')">
+  <div class="cite-box2" onclick="copyCitation('cite0')">
     📑 Cite
     <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
   </div>
@@ -228,7 +228,7 @@ function copyCitation(id) {
       IEEE Wireless and Microwave Technology Conference </a> , July 7-10, 2026
       <span class="wip-badge">Work in Progress</span>
   </div>
-  <div class="cite-box" onclick="copyCitation('cite0')">
+  <div class="cite-box2" onclick="copyCitation('cite0')">
     📑 Cite
     <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
   </div>
@@ -242,7 +242,7 @@ function copyCitation(id) {
        International Conference on Computer Supported Education</a> , May 18-20, 2026
       <span class="wip-badge">Work in Progress</span>
   </div>
-  <div class="cite-box" onclick="copyCitation('cite0')">
+  <div class="cite-box2" onclick="copyCitation('cite0')">
     📑 Cite
     <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
   </div>
