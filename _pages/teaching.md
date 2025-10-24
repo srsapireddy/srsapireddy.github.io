@@ -21,7 +21,7 @@ toc: false
 ## Courses (Course-by-Course, Semester-by-Semester)
 
 
-### ENGR E&C 216 — Engineering Computation
+### ENGR E&C 216 — Engineering Computation - University of Missouri-Kansas City
 **Focus:** C programming for engineering (control structures, modular design, numerics).  
 **Semesters taught:**  
 <span class="badge">Spring 2025 · Adjunct Instructor</span>  
@@ -29,7 +29,7 @@ toc: false
 
 ---
 
-### ENGR E&C 226 — Logic Design
+### ENGR E&C 226 — Logic Design - University of Missouri-Kansas City
 **Focus:** Combinational/Sequential logic, FSMs, Verilog modeling, simulation labs.  
 **Semesters taught:**  
 <span class="badge">Spring 2025 · Adjunct Instructor</span>  
@@ -37,7 +37,7 @@ toc: false
 
 ---
 
-### ENGR E&C 443/5533 — Analog Integrated Circuit Design
+### ENGR E&C 443/5533 — Analog Integrated Circuit Design - University of Missouri-Kansas City
 **Focus:** CMOS analog (current mirrors, differential pairs, gain stages, frequency response); Virtuoso labs.  
 **Semesters taught:**  
 <span class="badge">Spring 2023 · Adjunct Instructor</span>  
@@ -45,7 +45,7 @@ toc: false
 
 ---
 
-### ENGR E&C 447/5547 — ASIC Physical Design and Testing
+### ENGR E&C 447/5547 — ASIC Physical Design and Testing - University of Missouri-Kansas City
 **Focus:** RTL→GDSII; synthesis (Synopsys DC / Cadence Genus); P&R (ICC2 / Innovus); CTS, STA, signoff.  
 **Semesters taught:**  
 <span class="badge">Fall 2023 · Adjunct Instructor</span>  
@@ -58,9 +58,11 @@ toc: false
 <h2>Role Progression</h2>
 <div class="mermaid">
 graph LR
-  A(("Teaching Assistant<br>(Sep 2022 - Dec 2024)")) --> B(("Adjunct Instructor<br>(Apr 2023 - May 2025)"))
-  B --> C(("Instructor (Full-Time)<br>(Sep 2025 - Present)"))
-
+ graph TD
+  A(("Teaching Assistant<br>(Sep 2022 - Dec 2024)<br>University of Missouri–Kansas City")) 
+  --> B(("Adjunct Instructor<br>(Apr 2023 - May 2025)<br>University of Missouri–Kansas City")) 
+  --> C(("Instructor (Full-Time)<br>(Sep 2025 - Present)<br>University of Missouri–Kansas City")) 
+  --> D(("Incoming Assistant Professor<br>Illinois State University (Normal, IL)<br>(Starting Spring 2026)"))
   %% Styling
   classDef role fill:#0096d6,stroke:#004466,stroke-width:2px,color:#fff,font-weight:bold;
   class A,B,C role;
