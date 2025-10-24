@@ -65,7 +65,7 @@ graph LR
   --> D(("Incoming Assistant Professor<br>Illinois State University (Normal, IL)<br>(Starting Spring 2026)"))
   %% Styling
   classDef role fill:#0096d6,stroke:#004466,stroke-width:2px,color:#fff,font-weight:bold;
-  class A,B,C role;
+  class A,B,C,D role;
 </div>
 
 
