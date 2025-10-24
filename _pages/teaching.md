@@ -30,11 +30,11 @@ toc: false
 </style>
 
 ## Courses (Course-by-Course, Semester-by-Semester)
-<span class="badge2">Incoming Assistant Professor · Illinois State University</span>  
+<span class="badge2">Incoming Assistant Professor · Illinois State University (Starting Spring 2026)</span>  
 ### Courses — To Be Announced  
 Illinois State University (Starting Spring 2026)
 
-<span class="badge">Instructor · University of Missouri - Kansas City</span>  
+<span class="badge">Instructor · University of Missouri - Kansas City (Spring 2023 - Fall 2025)</span>  
 ### ENGR E&C 216 — Engineering Computation - University of Missouri-Kansas City
 **Focus:** C programming for engineering (control structures, modular design, numerics).  
 **Semesters taught:**  
