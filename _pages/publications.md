@@ -146,6 +146,18 @@ permalink: /publications/
   position: relative;
 }
 
+.cite-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #DC143C;
+  position: relative;
+}
+
 .cite-box:hover {
   background-color: #f0f8ff;
   transform: scale(1.03);
