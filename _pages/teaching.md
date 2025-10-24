@@ -16,11 +16,25 @@ toc: false
   border-radius: 0.5rem;
   margin-right: 0.4em;
 }
+  .badge2 {
+  display: inline-block;
+  padding: 0.25em 0.6em;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #fff;
+  background-color: #DC143C; /* red for ISU */
+  border-radius: 0.5rem;
+  margin-right: 0.4em;
+}
+
 </style>
 
 ## Courses (Course-by-Course, Semester-by-Semester)
+<span class="badge2">Incoming Assistant Professor · Illinois State University</span>  
+### Courses — To Be Announced  
+Illinois State University (Starting Spring 2026)
 
-
+<span class="badge">Instructor · University of Missouri - Kansas City</span>  
 ### ENGR E&C 216 — Engineering Computation - University of Missouri-Kansas City
 **Focus:** C programming for engineering (control structures, modular design, numerics).  
 **Semesters taught:**  
@@ -64,9 +78,13 @@ graph TD
   --> D["Incoming Assistant Professor<br>Illinois State University (Normal, IL)<br>(Starting Spring 2026)"]
 
   %% Styling
-  classDef role fill:#0096d6,stroke:#004466,stroke-width:2px,color:#fff,font-weight:bold,rx:5px,ry:5px;
-  class A,B,C,D role;
+  classDef umkc fill:#0096d6,stroke:#004466,stroke-width:2px,color:#fff,font-weight:bold,rx:5px,ry:5px;
+  classDef isu fill:#DC143C,stroke:#800000,stroke-width:2px,color:#fff,font-weight:bold,rx:5px,ry:5px;
+
+  class A,B,C umkc;
+  class D isu;
 </div>
+
 
 
 
