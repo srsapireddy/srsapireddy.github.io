@@ -70,25 +70,21 @@ Illinois State University (Starting Spring 2026)
 
 
 <h2>Role Progression</h2>
-```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontSize":"14px","fontFamily":"Arial"}}}%%
+<div class="mermaid">
 graph TD
-  A["Teaching Assistant<br>(Sep 2022 - Dec 2024)<br>University of Missouri–Kansas City"]:::umkc
-  B["Adjunct Instructor<br>(Apr 2023 - May 2025)<br>University of Missouri–Kansas City"]:::umkc
-  C["Instructor (Full-Time)<br>(Sep 2025 - Present)<br>University of Missouri–Kansas City"]:::umkc
-  D["Incoming Assistant Professor<br>Illinois State University (Normal, IL)<br>(Starting Spring 2026)"]:::isu
-
-  A --> B --> C --> D
-
-  %% Clickable nodes (replace links as needed)
-  click A "https://umkc.edu" "View TA details"
-  click B "https://umkc.edu" "View Adjunct details"
-  click C "https://umkc.edu" "View Instructor details"
-  click D "https://illinoisstate.edu" "View Assistant Professor details"
+  A["Teaching Assistant<br>(Sep 2022 - Dec 2024)<br>University of Missouri–Kansas City"]
+  --> B["Adjunct Instructor<br>(Apr 2023 - May 2025)<br>University of Missouri–Kansas City"]
+  --> C["Instructor (Full-Time)<br>(Sep 2025 - Present)<br>University of Missouri–Kansas City"]
+  --> D["Incoming Assistant Professor<br>(Starting Spring 2026)<br>Illinois State University, Normal, IL"]
 
   %% Styles
-  classDef umkc fill:#0096d6,stroke:#004466,stroke-width:2px,color:#fff,font-weight:bold,rx:6,ry:6;
-  classDef isu fill:#DC143C,stroke:#800000,stroke-width:2px,color:#fff,font-weight:bold,rx:6,ry:6;
+  classDef umkc fill:#0096d6,stroke:#004466,stroke-width:2px,color:#ffffff,font-weight:bold,rx:6,ry:6;
+  classDef isu fill:#DC143C,stroke:#800000,stroke-width:2px,color:#ffffff,font-weight:bold,rx:6,ry:6;
+
+  class A,B,C umkc;
+  class D isu;
+</div>
+
 
 
 
