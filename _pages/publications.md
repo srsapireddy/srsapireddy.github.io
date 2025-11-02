@@ -192,7 +192,6 @@ function copyCitation(id) {
   <a href="https://www.umkc.edu/" target="_blank"><img src="/images/UMKC.png" alt="UMKC Logo" /></a>
   <a href="https://illinoisstate.edu/" target="_blank"><img src="/images/isu.png" alt="ISU Logo" /></a>
   <a href="https://twin-cities.umn.edu/" target="_blank"><img src="/images/UMTC.jpeg" alt="University of Minnesota Logo" /></a>
-  <a href="https://www.uml.edu/" target="_blank"><img src="/images/mass.png" alt="University of Massachusetts Logo" /></a>
   <a href="https://www.griet.ac.in/" target="_blank"><img src="/images/GRIET.png" alt="GRIET Logo" /></a>
 </div>
 
@@ -207,7 +206,7 @@ function copyCitation(id) {
 
   <div class="pub-entry">
   <div class="pub-card2">
-    <strong>Srinivas Rahul Sapireddy</strong>, Priyanka Siddappa, Hemanth Bandi<br>
+    <strong>Srinivas Rahul Sapireddy</strong>, Hemanth Bandi<br>
     <em>“Edge-AI Healthcare: Quantization-Aware DNN”</em><br>
     <a href="https://zhang-informatics.github.io/ICHI2026/" target="_blank">
       IEEE International Conference on Healthcare Informatics</a> , June 1–4, 2026
