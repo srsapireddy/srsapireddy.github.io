@@ -93,16 +93,16 @@ graph TD
 ## Additional Teaching (as GTA)
 
 ### ENGR E&C 442/5542 — Introduction to VLSI Design
-<span class="badge">Fall 2022 · Graduate Teaching Assistant</span>  
+<span class="badge">Fall 2022 · Graduate Teaching Assistant · 25 students</span>  
 CMOS digital labs, Virtuoso debugging, DRC/LVS.
 
 ### ENGR E&C 228 — Computer Design
-<span class="badge">Spring 2024 · Graduate Teaching Assistant</span>  
+<span class="badge">Spring 2024 · Graduate Teaching Assistant · 52 students</span>  
 MIPS datapath/control in Verilog; simulation & testing.
 
 ### ENGR E&C 402/403 — Senior Design I & II
-<span class="badge">Fall 2022 · Graduate Teaching Assistant</span>  
-<span class="badge">Spring 2023 · Graduate Teaching Assistant</span>  
+<span class="badge">Fall 2022 · Graduate Teaching Assistant · 18 students</span>  
+<span class="badge">Spring 2023 · Graduate Teaching Assistant · 19 students</span>  
 Capstone mentorship from proposal to verification.
 
 
