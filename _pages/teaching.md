@@ -29,6 +29,24 @@ toc: false
 
 </style>
 
+<h2>Role Progression</h2>
+<div class="career-cards">
+  <div class="card">Teaching Assistant<br><small>Sep 2022 – Dec 2024 · UMKC</small></div>
+  <div class="card">Adjunct Instructor<br><small>Apr 2023 – May 2025 · UMKC</small></div>
+  <div class="card">Instructor (Full-Time)<br><small>Sep 2025 – Present · UMKC</small></div>
+  <div class="card highlight">Incoming Assistant Professor<br><small>Starting Spring 2026 · ISU</small></div>
+</div>
+
+<style>
+.career-cards { display: flex; gap: 1rem; flex-wrap: wrap; }
+.card {
+  padding: 15px; border-radius: 8px; background: #0096d6; color: white;
+  width: 260px; font-weight: 600; text-align: center;
+}
+.highlight { background: #DC143C; }
+.card small { display: block; font-weight: normal; font-size: 0.85em; margin-top: 6px; }
+</style>
+
 ## Courses (Course-by-Course, Semester-by-Semester)
 <span class="badge2">Incoming Assistant Professor · Illinois State University (Starting Spring 2026)</span>  
 ### Courses — To Be Announced  
@@ -68,31 +86,6 @@ Illinois State University (Starting Spring 2026)
 <span class="badge">Fall 2023 · Adjunct Instructor · 14 students</span>  
 <span class="badge">Fall 2024 · Adjunct Instructor · 13 students</span>  
 <span class="badge">Fall 2025 · Instructor (Full-Time) · 9 students</span>
-
-
-
-<h2>Role Progression</h2>
-<div class="career-cards">
-  <div class="card">Teaching Assistant<br><small>Sep 2022 – Dec 2024 · UMKC</small></div>
-  <div class="card">Adjunct Instructor<br><small>Apr 2023 – May 2025 · UMKC</small></div>
-  <div class="card">Instructor (Full-Time)<br><small>Sep 2025 – Present · UMKC</small></div>
-  <div class="card highlight">Incoming Assistant Professor<br><small>Starting Spring 2026 · ISU</small></div>
-</div>
-
-<style>
-.career-cards { display: flex; gap: 1rem; flex-wrap: wrap; }
-.card {
-  padding: 15px; border-radius: 8px; background: #0096d6; color: white;
-  width: 260px; font-weight: 600; text-align: center;
-}
-.highlight { background: #DC143C; }
-.card small { display: block; font-weight: normal; font-size: 0.85em; margin-top: 6px; }
-</style>
-
-
-
-
-
 
 
 ## Additional Teaching (as GTA)
