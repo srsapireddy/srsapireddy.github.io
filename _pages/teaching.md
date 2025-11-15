@@ -33,7 +33,7 @@ toc: false
 <div class="career-cards">
   <div class="card">Teaching Assistant<br><small>Sep 2022 – Dec 2024 · UMKC</small></div>
   <div class="card">Adjunct Instructor<br><small>Apr 2023 – May 2025 · UMKC</small></div>
-  <div class="card">Instructor (Full-Time)<br><small>Sep 2025 – Present · UMKC</small></div>
+  <div class="card">Instructor (Full-Time)<br><small>Sep 2025 – Dec 2025 · UMKC</small></div>
   <div class="card highlight">Incoming Assistant Professor<br><small>Starting Spring 2026 · ISU</small></div>
 </div>
 
