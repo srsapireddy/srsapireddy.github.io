@@ -37,7 +37,7 @@ Illinois State University (Starting Spring 2026)
 <span class="badge">Instructor · University of Missouri - Kansas City (Spring 2023 - Fall 2025)</span>  
 ### ENGR E&C 216 — Engineering Computation - University of Missouri-Kansas City
 **Focus:** C programming for engineering (control structures, modular design, numerics). 
-**Syllabus:** Students learn to develop, analyze and synthesize structured computer programs for solving engineering problems in the Python and C languages, This course also provides an introduction to algorithms and data structures. This course is available by approval of the degree program committee if transfer credit has been approved for one of the listed programming languages.
+**Syllabus:** Students learn to develop, analyze and synthesize structured computer programs for solving engineering problems in the Python and C languages, This course also provides an introduction to algorithms and data structures. This course is available by approval of the degree program committee if transfer credit has been approved for one of the listed programming languages. </br>
 **Semesters taught:**  
 <span class="badge">Spring 2025 · Adjunct Instructor · 49 students</span>  
 <span class="badge">Fall 2025 · Instructor (Full-Time) · 53 students</span>
