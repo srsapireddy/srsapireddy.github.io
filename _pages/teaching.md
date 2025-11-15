@@ -72,21 +72,23 @@ Illinois State University (Starting Spring 2026)
 
 
 
-<h2>Role Progression</h2>
-<div class="mermaid">
-graph TD
-  A["Teaching Assistant<br>(Sep 2022 - Dec 2024)<br>University of Missouri–Kansas City"]
-  --> B["Adjunct Instructor<br>(Apr 2023 - May 2025)<br>University of Missouri–Kansas City"]
-  --> C["Instructor (Full-Time)<br>(Sep 2025 - Present)<br>University of Missouri–Kansas City"]
-  --> D["Incoming Assistant Professor<br>(Starting Spring 2026)<br>Illinois State University, Normal, IL"]
-
-  %% Styles
-  classDef umkc fill:#0096d6,stroke:#004466,stroke-width:2px,color:#ffffff,font-weight:bold,rx:6,ry:6;
-  classDef isu fill:#DC143C,stroke:#800000,stroke-width:2px,color:#ffffff,font-weight:bold,rx:6,ry:6;
-
-  class A,B,C umkc;
-  class D isu;
+<div class="career-cards">
+  <div class="card">Teaching Assistant<br><small>Sep 2022 – Dec 2024 · UMKC</small></div>
+  <div class="card">Adjunct Instructor<br><small>Apr 2023 – May 2025 · UMKC</small></div>
+  <div class="card">Instructor (Full-Time)<br><small>Sep 2025 – Present · UMKC</small></div>
+  <div class="card highlight">Incoming Assistant Professor<br><small>Starting Spring 2026 · ISU</small></div>
 </div>
+
+<style>
+.career-cards { display: flex; gap: 1rem; flex-wrap: wrap; }
+.card {
+  padding: 15px; border-radius: 8px; background: #0096d6; color: white;
+  width: 260px; font-weight: 600; text-align: center;
+}
+.highlight { background: #DC143C; }
+.card small { display: block; font-weight: normal; font-size: 0.85em; margin-top: 6px; }
+</style>
+
 
 
 
