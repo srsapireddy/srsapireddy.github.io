@@ -220,6 +220,14 @@ Below is a visual showcase of my certifications. Click on any certificate to vie
     <div class="cert-title">miniMBA: Executive Judgement and Decision-Making – Miami University</div>
   </div>
 </div>
+<div class="cert-grid lightbox-gallery">
+  <div class="cert-card">
+    <a href="https://badges.parchment.com/public/assertions/CvWFqkZ3Qoiije2Sap6mPQ" target="_blank">
+      <img src="/images/market.png" alt="miniMBA Badge" style="width:150px; height:auto; margin:auto;">
+    </a>
+    <div class="cert-title">miniMBA: Enhancing Market Presence – Miami University</div>
+  </div>
+</div>
 
 
 ---
