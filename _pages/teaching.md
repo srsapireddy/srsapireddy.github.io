@@ -38,33 +38,33 @@ Illinois State University (Starting Spring 2026)
 ### ENGR E&C 216 — Engineering Computation - University of Missouri-Kansas City
 **Focus:** C programming for engineering (control structures, modular design, numerics).  
 **Semesters taught:**  
-<span class="badge">Spring 2025 · Adjunct Instructor</span>  
-<span class="badge">Fall 2025 · Instructor (Full-Time)</span>
+<span class="badge">Spring 2025 · Adjunct Instructor · 49 students</span>  
+<span class="badge">Fall 2025 · Instructor (Full-Time) · 53 students</span>
 
 ---
 
 ### ENGR E&C 226 — Logic Design - University of Missouri-Kansas City
 **Focus:** Combinational/Sequential logic, FSMs, Verilog modeling, simulation labs.  
 **Semesters taught:**  
-<span class="badge">Spring 2025 · Adjunct Instructor</span>  
-<span class="badge">Fall 2025 · Instructor (Full-Time)</span>
+<span class="badge">Spring 2025 · Adjunct Instructor · 13 students</span>  
+<span class="badge">Fall 2025 · Instructor (Full-Time) · 47 students</span>
 
 ---
 
 ### ENGR E&C 443/5533 — Analog Integrated Circuit Design - University of Missouri-Kansas City
 **Focus:** CMOS analog (current mirrors, differential pairs, gain stages, frequency response); Virtuoso labs.  
 **Semesters taught:**  
-<span class="badge">Spring 2023 · Adjunct Instructor</span>  
-<span class="badge">Spring 2024 · Adjunct Instructor</span>
+<span class="badge">Spring 2023 · Adjunct Instructor · 13 students</span>  
+<span class="badge">Spring 2024 · Adjunct Instructor · 16 students</span>
 
 ---
 
 ### ENGR E&C 447/5547 — ASIC Physical Design and Testing - University of Missouri-Kansas City
 **Focus:** RTL→GDSII; synthesis (Synopsys DC / Cadence Genus); P&R (ICC2 / Innovus); CTS, STA, signoff.  
 **Semesters taught:**  
-<span class="badge">Fall 2023 · Adjunct Instructor</span>  
-<span class="badge">Fall 2024 · Adjunct Instructor</span>  
-<span class="badge">Fall 2025 · Instructor (Full-Time)</span>
+<span class="badge">Fall 2023 · Adjunct Instructor · 14 students</span>  
+<span class="badge">Fall 2024 · Adjunct Instructor · 13 students</span>  
+<span class="badge">Fall 2025 · Instructor (Full-Time) · 9 students</span>
 
 
 
