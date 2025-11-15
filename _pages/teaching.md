@@ -71,7 +71,7 @@ Illinois State University (Starting Spring 2026)
 
 
 
-
+<h2>Role Progression</h2>
 <div class="career-cards">
   <div class="card">Teaching Assistant<br><small>Sep 2022 – Dec 2024 · UMKC</small></div>
   <div class="card">Adjunct Instructor<br><small>Apr 2023 – May 2025 · UMKC</small></div>
