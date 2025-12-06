@@ -81,7 +81,7 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
 
   <div class="highlight-card">
     <img src="/images/shyu.jpeg" alt="Office">
-    <h4>With Professor Shyu, Undergraduate Coordinator, UMKC</h4>
+    <h4>With Professor Shyu, UMKC</h4>
   </div>
 
   <div class="highlight-card">
