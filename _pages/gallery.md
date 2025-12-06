@@ -27,13 +27,14 @@ author_profile: true
   transform: scale(1.01);
 }
 
-.highlight-card img { 
-  width: 100%; 
-  border-radius: 10px; 
-  margin-bottom: 0.5rem; 
-  cursor: pointer; 
-  transition: transform 0.2s ease-in-out; 
+.highlight-card img {
+  width: 100%;
+  height: 180px;     /* adjust to control size */
+  object-fit: cover; /* crops edges to maintain shape */
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
 }
+
 
 
 .highlight-card h4 {
