@@ -84,7 +84,7 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
 <div class="gallery-grid" id="gallery">
   <div class="highlight-card">
     <img src="/images/shyu.jpeg" alt="Office">
-    <h4>With Professor Shyu, Undergraduate Coordinator in the Department of Electrical and Computer Engineering</h4>
+    <h4>With Professor Shyu, Undergraduate Coordinator, UMKC</h4>
 </div>
 
   
