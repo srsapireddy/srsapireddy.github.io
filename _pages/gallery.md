@@ -73,8 +73,9 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
 
 <div class="gallery-grid" id="gallery">
   <img src="/images/orientation1.jpeg" alt="orientation">
+  <img src="/images/shyu.jpeg" alt="Office">
   <img src="/images/most.jpeg" alt="Office">
-  <img src="/images/Masud.jpeg" alt="Poster 1">
+  <img src="/images/masud1.jpeg" alt="Poster 1">
   <img src="/images/pos1.jpeg" alt="Poster 1">
   <img src="/images/pos2.jpeg" alt="Poster 2">
   <img src="/images/grad0.jpg" alt="Graduation 1">
