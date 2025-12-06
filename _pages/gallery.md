@@ -74,6 +74,31 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
   margin: 0.5rem 0 0.3rem;
   color: #1a73e8;
 }
+
+/* Lightbox styles */
+.lightbox-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.lightbox-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.2);
+  animation: zoomIn 0.3s ease;
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
 </style>
 
 
@@ -110,6 +135,31 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
   <img id="lightbox-img" src="" alt="">
   <span class="arrow next" onclick="nextImage()">›</span>
 </div>
+
+<!-- Lightbox Container -->
+<div class="lightbox-overlay" id="lightbox">
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const images = document.querySelectorAll(".highlight-card img");
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+
+  images.forEach(img => {
+    img.addEventListener("click", () => {
+      lightboxImg.src = img.src;
+      lightbox.style.display = "flex";
+    });
+  });
+
+  lightbox.addEventListener("click", () => {
+    lightbox.style.display = "none";
+    lightboxImg.src = "";
+  });
+});
+</script>
 
 <script>
   const images = Array.from(document.querySelectorAll('#gallery img'));
