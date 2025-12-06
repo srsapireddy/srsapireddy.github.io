@@ -80,11 +80,16 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
   <div class="highlight-card">
     <img src="/images/orientation1.jpeg" alt="orientation">
     <h4>Welcoming new students at UMKC Orientation, Fall 2025.</h4>
-  </div>
+</div>
+<div class="gallery-grid" id="gallery">
+  <div class="highlight-card">
+    <img src="/images/shyu.jpeg" alt="Office">
+    <h4>With Professor Shyu, Undergraduate Coordinator in the Department of Electrical and Computer Engineering</h4>
+</div>
 
   
   
-  <img src="/images/shyu.jpeg" alt="Office">
+  
   <img src="/images/most.jpeg" alt="Office">
   <img src="/images/masud1.jpeg" alt="Poster 1">
   <img src="/images/pos1.jpeg" alt="Poster 1">
