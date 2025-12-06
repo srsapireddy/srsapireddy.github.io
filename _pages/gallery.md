@@ -89,6 +89,11 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
     <h4>With Professor Rahman, UMKC (Ph.D. Advisor)</h4>
   </div>
 
+  <div class="highlight-card">
+    <img src="/images/masud1.jpeg" alt="Poster 1">
+    <h4>With Professor Masud, UMKC (Mentor and Department Chair).</h4>
+  </div>
+
 </div>
 
 <!-- Lightbox Container -->
