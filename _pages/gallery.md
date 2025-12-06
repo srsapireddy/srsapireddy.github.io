@@ -76,12 +76,12 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
    
   <div class="highlight-card">
      <img src="/images/orientation1.jpeg" alt="orientation">
-     <h4>Welcoming new students at UMKC Orientation, Fall 2025.</h4>
+     <p>Welcoming new students at UMKC Orientation, Fall 2025.</p>
   </div>
 
   <div class="highlight-card">
     <img src="/images/shyu.jpeg" alt="Office">
-    <h4>With Professor Shyu, UMKC</h4>
+    <p>With Professor Shyu, UMKC</p>
   </div>
 
   <div class="highlight-card">
