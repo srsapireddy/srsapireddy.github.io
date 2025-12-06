@@ -85,8 +85,8 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
   </div>
 
   <div class="highlight-card">
-    <img src="/images/asic_class_fall2023.png" alt="ASIC Teaching Photo">
-    <h4>Instructor – ASIC Physical Design</h4>
+    <img src="/images/most.jpeg" alt="Office">
+    <h4>With Professor Rahman, UMKC (Ph.D. Advisor)</h4>
   </div>
 
 </div>
