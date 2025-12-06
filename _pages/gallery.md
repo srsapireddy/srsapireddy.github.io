@@ -135,11 +135,6 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
   </div>
 
   <div class="highlight-card">
-    <img src="/images/grad.jpg" alt="Graduation 1">
-    <h4>UMKC Master’s Graduation, 2016</h4>
-  </div>
-
-  <div class="highlight-card">
     <img src="/images/pos3.jpeg" alt="Poster 3">
     <h4>UMKC Master’s Graduation, 2016</h4>
   </div>
