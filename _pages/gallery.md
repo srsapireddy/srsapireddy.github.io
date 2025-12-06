@@ -104,6 +104,41 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
     <h4>GLSVLSI Conference 2025</h4>
   </div>
 
+  <div class="highlight-card">
+    <img src="/images/grad0.jpg" alt="Graduation 1">
+    <h4>UMKC Master’s Graduation, 2016</h4>
+  </div>
+
+  <div class="highlight-card">
+    <img src="/images/grad1.jpg" alt="Graduation 1">
+    <h4>UMKC Master’s Graduation, 2016</h4>
+  </div>
+
+  <div class="highlight-card">
+    <img src="/images/grad2.jpg" alt="Graduation 1">
+    <h4>UMKC Master’s Graduation, 2016</h4>
+  </div>
+
+  <div class="highlight-card">
+    <img src="/images/grad3.jpg" alt="Graduation 1">
+    <h4>UMKC Master’s Graduation, 2016</h4>
+  </div>
+
+  <div class="highlight-card">
+    <img src="/images/grad4.jpg" alt="Graduation 1">
+    <h4>UMKC Master’s Graduation, 2016</h4>
+  </div>
+
+  <div class="highlight-card">
+    <img src="/images/grad5.jpg" alt="Graduation 1">
+    <h4>UMKC Master’s Graduation, 2016</h4>
+  </div>
+
+  <div class="highlight-card">
+    <img src="/images/grad.jpg" alt="Graduation 1">
+    <h4>UMKC Master’s Graduation, 2016</h4>
+  </div>
+  
 </div>
 
 <!-- Lightbox Container -->
