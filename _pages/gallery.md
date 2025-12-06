@@ -94,6 +94,16 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
     <h4>With Professor Masud, UMKC (Mentor and Department Chair).</h4>
   </div>
 
+  <div class="highlight-card">
+    <img src="/images/pos1.jpeg" alt="Poster 1">
+    <h4>With Professor Masud, UMKC (Mentor and Department Chair).</h4>
+  </div>
+
+  <div class="highlight-card">
+    <img src="/images/pos2.jpeg" alt="Poster 1">
+    <h4>With Professor Masud, UMKC (Mentor and Department Chair).</h4>
+  </div>
+
 </div>
 
 <!-- Lightbox Container -->
