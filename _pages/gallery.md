@@ -5,69 +5,34 @@ permalink: /gallery/
 author_profile: true
 ---
 
-Welcome to my personal gallery — moments from my academic journey, graduation, research labs, and team milestones.
-
 <style>
-.gallery-grid {
+.highlight-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-  margin-top: 2rem;
-}
-.gallery-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-  border: 2px solid #ccc;
-}
-.gallery-grid img:hover {
-  transform: scale(1.03);
-  border-color: #1a73e8;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
-.lightbox {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background: rgba(0, 0, 0, 0.9);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-  display: none;
-}
-
-.lightbox img {
-  max-width: 90vw;
-  max-height: 90vh;
+.highlight-card {
+  background: #f0f8ff;
+  border: 2px solid #1a73e8;
   border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: 0.3s ease-in-out;
 }
 
-.lightbox .arrow {
-  position: absolute;
-  top: 50%;
-  font-size: 2rem;
-  color: white;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 0.5rem 1rem;
+.highlight-card:hover {
+  background: #e6f0ff;
+  transform: scale(1.01);
+}
+
+.highlight-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
   cursor: pointer;
-  user-select: none;
-  border-radius: 6px;
-  transform: translateY(-50%);
-}
-
-.lightbox .arrow:hover {
-  background: rgba(255, 255, 255, 0.3);
-}
-
-.lightbox .prev {
-  left: 2%;
-}
-
-.lightbox .next {
-  right: 2%;
+  transition: transform 0.2s ease-in-out;
 }
 
 .highlight-card h4 {
@@ -101,39 +66,34 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
 }
 </style>
 
+## 🎉 Memorable Moments
 
-<div class="gallery-grid" id="gallery">
-  <div class="highlight-card">
-    <img src="/images/orientation1.jpeg" alt="orientation">
-    <h4>Welcoming new students at UMKC Orientation, Fall 2025.</h4>
-</div>
+Welcome to my personal gallery — moments from my academic journey, graduation, research labs, and team milestones.
+
+<div class="highlight-grid">
+
 <div class="gallery-grid" id="gallery">
   <div class="highlight-card">
     <img src="/images/shyu.jpeg" alt="Office">
     <h4>With Professor Shyu, Undergraduate Coordinator, UMKC</h4>
-</div>
-<div class="gallery-grid" id="gallery">
-  <div class="highlight-card">
-    <img src="/images/most.jpeg" alt="Office">
-    <h4>With Professor Shyu, Undergraduate Coordinator, UMKC</h4>
-</div>
-  <img src="/images/masud1.jpeg" alt="Poster 1">
-  <img src="/images/pos1.jpeg" alt="Poster 1">
-  <img src="/images/pos2.jpeg" alt="Poster 2">
-  <img src="/images/grad0.jpg" alt="Graduation 1">
-  <img src="/images/grad1.jpg" alt="Graduation 1">
-  <img src="/images/grad2.jpg" alt="Graduation 2">
-  <img src="/images/grad3.jpg" alt="Graduation 3">
-  <img src="/images/grad4.jpg" alt="Graduation 4">
-  <img src="/images/grad5.jpg" alt="Graduation 5">
-  <img src="/images/grad.jpeg" alt="Graduation 2">
-  <img src="/images/pos3.jpeg" alt="Poster 3">
-</div>
 
-<div class="lightbox" id="lightbox">
-  <span class="arrow prev" onclick="prevImage()">‹</span>
-  <img id="lightbox-img" src="" alt="">
-  <span class="arrow next" onclick="nextImage()">›</span>
+   
+  <div class="highlight-card">
+     <img src="/images/orientation1.jpeg" alt="orientation">
+     <h4>Welcoming new students at UMKC Orientation, Fall 2025.</h4>
+  </div>
+
+  <div class="highlight-card">
+    <img src="/images/shyu.jpeg" alt="Office">
+    <h4>With Professor Shyu, Undergraduate Coordinator, UMKC</h4>
+  </div>
+
+  <div class="highlight-card">
+    <img src="/images/asic_class_fall2023.png" alt="ASIC Teaching Photo">
+    <h4>Instructor – ASIC Physical Design</h4>
+    <p>Fall 2023: My first course as instructor. Amazing classroom energy and engagement!</p>
+  </div>
+
 </div>
 
 <!-- Lightbox Container -->
@@ -159,47 +119,4 @@ document.addEventListener("DOMContentLoaded", function () {
     lightboxImg.src = "";
   });
 });
-</script>
-
-<script>
-  const images = Array.from(document.querySelectorAll('#gallery img'));
-  const lightbox = document.getElementById('lightbox');
-  const lightboxImg = document.getElementById('lightbox-img');
-  let current = 0;
-
-  images.forEach((img, i) => {
-    img.addEventListener('click', () => {
-      current = i;
-      showImage();
-    });
-  });
-
-  function showImage() {
-    lightboxImg.src = images[current].src;
-    lightbox.style.display = 'flex';
-  }
-
-  function prevImage() {
-    current = (current - 1 + images.length) % images.length;
-    showImage();
-  }
-
-  function nextImage() {
-    current = (current + 1) % images.length;
-    showImage();
-  }
-
-  lightbox.addEventListener('click', e => {
-    if (e.target === lightbox || e.target === lightboxImg) {
-      lightbox.style.display = 'none';
-    }
-  });
-
-  document.addEventListener('keydown', e => {
-    if (lightbox.style.display === 'flex') {
-      if (e.key === 'ArrowRight') nextImage();
-      if (e.key === 'ArrowLeft') prevImage();
-      if (e.key === 'Escape') lightbox.style.display = 'none';
-    }
-  });
 </script>
