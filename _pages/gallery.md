@@ -69,10 +69,21 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
 .lightbox .next {
   right: 2%;
 }
+
+.highlight-card h4 {
+  margin: 0.5rem 0 0.3rem;
+  color: #1a73e8;
+}
 </style>
 
 <div class="gallery-grid" id="gallery">
-  <img src="/images/orientation1.jpeg" alt="orientation">
+  <div class="highlight-card">
+    <img src="/images/orientation1.jpeg" alt="orientation">
+    <h4>Welcoming new students at UMKC Orientation, Fall 2025.</h4>
+  </div>
+
+  
+  
   <img src="/images/shyu.jpeg" alt="Office">
   <img src="/images/most.jpeg" alt="Office">
   <img src="/images/masud1.jpeg" alt="Poster 1">
