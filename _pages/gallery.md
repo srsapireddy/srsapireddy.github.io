@@ -135,7 +135,7 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
   </div>
 
   <div class="highlight-card">
-    <img src="/images/grad6.jpeg" alt="Poster 3">
+    <img src="/images/grad7.jpeg" alt="Poster 3">
     <h4>UIS Master’s Graduation, 2018</h4>
   </div>
 
