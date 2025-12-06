@@ -66,6 +66,28 @@ author_profile: true
   from { transform: scale(0.9); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
 }
+
+/* Make cards a bit tighter on phones */
+@media (max-width: 600px) {
+  .highlight-grid {
+    grid-template-columns: 1fr;          /* one card per row */
+    gap: 1rem;
+  }
+
+  .highlight-card {
+    max-width: 420px;
+    margin: 0 auto;                      /* center the card */
+  }
+
+  .highlight-card img,
+  .gallery-img {                         /* gallery-img if you're using it */
+    width: 100%;
+    height: 220px;                       /* fixed height for all images */
+    object-fit: cover;                   /* crop nicely instead of stretching */
+    object-position: center;             /* center the crop */
+    border-radius: 12px;
+  }
+}
 </style>
 
 ## 🎉 Memorable Moments
