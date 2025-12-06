@@ -71,12 +71,6 @@ author_profile: true
 Welcome to my personal gallery — moments from my academic journey, graduation, research labs, and team milestones.
 
 <div class="highlight-grid">
-
-<div class="gallery-grid" id="gallery">
-  <div class="highlight-card">
-    <img src="/images/shyu.jpeg" alt="Office">
-    <h4>With Professor Shyu, Undergraduate Coordinator, UMKC</h4>
-
    
   <div class="highlight-card">
      <img src="/images/orientation1.jpeg" alt="orientation">
