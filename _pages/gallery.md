@@ -87,7 +87,6 @@ Welcome to my personal gallery — moments from my academic journey, graduation,
   <div class="highlight-card">
     <img src="/images/asic_class_fall2023.png" alt="ASIC Teaching Photo">
     <h4>Instructor – ASIC Physical Design</h4>
-    <p>Fall 2023: My first course as instructor. Amazing classroom energy and engagement!</p>
   </div>
 
 </div>
