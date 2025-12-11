@@ -151,7 +151,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
       <div>
         <div class="sch-name">Srinivas Rahul Sapireddy, PhD 
           <a href="https://www.linkedin.com/in/srsapireddy2020/" target="_blank">
-          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;"><img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;"><img src="/images/isu.png" alt="UMKC Logo" class="logo">
         </a>
         </div>
         <div class="sch-sub">Assistant Professor, College of Engineering — Illinois State University</div>
