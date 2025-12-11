@@ -181,25 +181,25 @@ This page highlights scholars — both current UMKC students and alumni — who 
   <!-- Nimisha -->
   <div class="sch-card">
     <div class="sch-header">
-      <img src="/images/nimisha.jpeg" alt="Nimisha" class="sch-photo">  
+      <img src="/images/place.jpg" alt="Abreham" class="sch-photo">  
       <div>
-        <div class="sch-name">Nimisha Chandra 
-          <a href="https://www.linkedin.com/in/nimisha-chandra-99130a20/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+        <div class="sch-name">Abreham Mesfin 
+          <a href="https://www.linkedin.com/in/abreham-mesfin-820084301?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank">
           <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;"><img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
         </a>
         </div>
-        <div class="sch-sub">Current UMKC student — Master of Science in Electrical Engineering, Spring 2026</div>
+        <div class="sch-sub">Current UMKC student — Bachelor of Science in Electrical and Computer Engineering, 2028</div>
         <div style="margin-top:0.35rem;">
           <span class="badge current">Current</span>
-          <span class="badge tag">RF Signal Classification</span>
-          <span class="badge tag">Nanoscale Manufacturing</span>
+          <span class="badge tag">Logic Design</span>
+          <span class="badge tag">Engineering Computation</span>
         </div>
       </div>
     </div>
     <div class="sch-sec">Research interests</div>
     <ul class="sch-list">
-      <li>Machine Learning and Deep Learning</li>
-      <li>Runtime and memory optimization for edge inference</li>
+      <li>Minimization techniques for Boolean functions</li>
+      <li>Low-power circuit implementations</li>
     </ul>
     <div class="sch-sec">Active topics / papers</div>
     <ul class="sch-list">
