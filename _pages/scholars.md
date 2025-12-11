@@ -154,7 +154,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
           <img src="/images/linkedin.png" alt="LinkedIn" style="width:21px; height:21px; margin-left:6px; vertical-align:middle;"><img src="/images/isu.png" alt="UMKC Logo" class="logo">
         </a>
         </div>
-        <div class="sch-sub">Assistant Professor, College of Engineering — Illinois State University</div>
+        <div class="sch-sub">Assistant Professor, College of Engineering, Illinois State University</div>
         <div style="margin-top:0.35rem;">
           <span class="badge guide">Guide</span>
           <span class="badge tag">Hardware-Aware AI</span>
