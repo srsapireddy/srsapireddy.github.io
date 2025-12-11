@@ -60,7 +60,7 @@ a:hover {
 <div class="about-section">
 <h3>👨‍🎓 About Me</h3>
 <p>
-I'm <strong>Srinivas Rahul Sapireddy, Ph.D.</strong>, instructor in Electrical and Computer Engineering at <strong>University of Missouri – Kansas City (UMKC)</strong>. My research bridges <strong>low-power hardware-aware AI</strong>, <strong>RF signal classification</strong>, and <strong>VLSI design</strong> for edge intelligence.
+I'm <strong>Srinivas Rahul Sapireddy, Ph.D.</strong>, Assistant Professor in College of Engineering at <strong>Illinois State University (ISU)</strong>. My research bridges <strong>low-power hardware-aware AI</strong>, <strong>RF signal classification</strong>, and <strong>VLSI design</strong> for edge intelligence.
 </p>
 <p>
 I bring a dual passion for teaching and research — currently teaching <strong>Logic Design</strong> and <strong>Engineering Computation</strong> while having taught <em>ASIC Physical Design</em> and <em>Analog IC Design</em>.
