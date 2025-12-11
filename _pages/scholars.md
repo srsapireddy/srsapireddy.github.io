@@ -203,7 +203,7 @@ This page highlights scholars — both current UMKC students and alumni — who 
     </ul>
     <div class="sch-sec">Active topics / papers</div>
     <ul class="sch-list">
-      <li>Co-author: From Rule based to Neural: RF Statistical Envelope Analysis (To be submitted)</li>
+      <li>Digital Circuit Optimization Techniques (To be submitted)</li>
     </ul>
   </div>
 
