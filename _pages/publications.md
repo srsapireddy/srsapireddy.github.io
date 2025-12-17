@@ -444,18 +444,7 @@ function copyCitation(id) {
         <textarea id="cite13" class="hidden-citation">To be Submitted</textarea>
       </div>
     </div>
-     <div class="pub-entry">
-    <div class="pub-card">
-      Satya Sai Siva Rama Krishna Akula, Rownak Chowdhury, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-      <em>“An Opensource Framework for Offloading Big Data and AI Tasks (OFFLOAD) to Heterogeneous Compute Units”</em><br>
-      IEEE TCAD, 2025.
-      <span class="status review">Under Review</span>
-    </div>
-    <div class="cite-box" onclick="copyCitation('pub12')">
-      📑 Cite
-      <textarea id="pub12" class="hidden-citation">Under Review</textarea>
-    </div>
-  </div>
+     
 
 <!-- Publication Venues Section -->
 <h2 style="text-align:center; margin-top: 3rem;">Publication Venues</h2>
