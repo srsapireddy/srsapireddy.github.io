@@ -246,19 +246,6 @@ function copyCitation(id) {
   </div>
 </div>
 
-<div class="pub-entry">
-  <div class="pub-card2">
-    <strong>Srinivas Rahul Sapireddy</strong>, .....<br>
-    <em>“Bridging Programming Paradigms: Computer Science Education”</em><br>
-    <a href="https://csedu.scitevents.org/Home.aspx" target="_blank">
-       International Conference on Computer Supported Education</a> , May 18-20, 2026
-      <span class="wip-badge">Work in Progress</span>
-  </div>
-  <div class="cite-box2" onclick="copyCitation('cite0')">
-    📑 Cite
-    <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
-  </div>
-</div>
 </div>
   
   <h3 style="margin-top:2rem;">✅ Published</h3>
