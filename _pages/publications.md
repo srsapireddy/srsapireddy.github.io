@@ -425,7 +425,7 @@ function copyCitation(id) {
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
         <em>"Re-Defining R: Resource-Efficient Modulation Classification"</em><br>
-        <a href="https://ieeemapcon.org/" target="_blank">IEEE Microwaves, Antennas, and Propagation Conference (MAPCON), December 14–18, 2025.</a> <br>  
+        <a href="https://ieeesoutheastcon.org/" target="_blank">IEEE SoutheastCon, December 14–18, 2026, Huntsville, Alabama.</a> <br>  
         <span class="status review">Under Review</span>
       </div>
       <div class="cite-box" onclick="copyCitation('cite6')">
