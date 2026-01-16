@@ -344,18 +344,6 @@ function copyCitation(id) {
         <textarea id="cite5" class="hidden-citation">Danesh, W.; Sapireddy, S.R.; Rahman, M. Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders. Electronics 2025, 14, 3015. https://doi.org/10.3390/electronics14153015</textarea>
       </div>
     </div>
-    <div class="pub-entry">
-      <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
-        <em>"Re-Defining R: Resource-Efficient Modulation Classification"</em><br>
-        <a href="https://ieeemapcon.org/" target="_blank">IEEE Microwaves, Antennas, and Propagation Conference (MAPCON), December 14–18, 2025.</a> <br>  
-        <span class="status pending">Accepted</span>
-      </div>
-      <div class="cite-box" onclick="copyCitation('cite6')">
-        📑 Cite
-        <textarea id="cite6" class="hidden-citation">Accepted</textarea>
-      </div>
-    </div>
   <div class="pub-entry">
     <div class="pub-card">
       <strong>Sapireddy, Srinivas Rahul</strong>, P. N. Tejaswi, Y. M. Sandeep, K. Hari Krishna<br>
@@ -431,6 +419,18 @@ function copyCitation(id) {
       <div class="cite-box" onclick="copyCitation('cite12')">
         📑 Cite
         <textarea id="cite12" class="hidden-citation">To be Submitted</textarea>
+      </div>
+    </div>
+  <div class="pub-entry">
+      <div class="pub-card">
+        <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
+        <em>"Re-Defining R: Resource-Efficient Modulation Classification"</em><br>
+        <a href="https://ieeemapcon.org/" target="_blank">IEEE Microwaves, Antennas, and Propagation Conference (MAPCON), December 14–18, 2025.</a> <br>  
+        <span class="status review">Under Review</span>
+      </div>
+      <div class="cite-box" onclick="copyCitation('cite6')">
+        📑 Cite
+        <textarea id="cite6" class="hidden-citation">Under Review</textarea>
       </div>
     </div>
     <div class="pub-entry">
