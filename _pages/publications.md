@@ -398,7 +398,7 @@ function copyCitation(id) {
     </div>
      <div class="pub-entry">
       <div class="pub-card">
-      <strong>Srinivas Rahul Sapireddy</strong><br>
+      <strong>Srinivas Rahul Sapireddy</strong>, Hemanth Bandi<br>
       <em>“Refining Deep Reinforcement Learning with Double Estimation and Optimized Target Updates”</em><br>
       <a href="https://icccn.co.uk/PreviousConference" target="_blank">6th International Conference on Computing and Communication Networks
 (ICCCNet-2026)</a>,<br> 17th - 19th July, 2026, MANCHESTER, UNITED KINGDOM <span class="status pending">To be Submitted</span>
@@ -422,7 +422,7 @@ function copyCitation(id) {
     </div>
     <div class="pub-entry">
       <div class="pub-card">
-      Jahnavi Sri Kavya Bollimuntha*, <strong>Srinivas Rahul Sapireddy*</strong><br>
+      <strong>Srinivas Rahul Sapireddy</strong><br>
       <em>“From Rule-Based to Neural: Statistical Envelope Feature Classification Using Feedforward Networks”</em><br>
       <a href="https://r10.ieee.org/vizagbay/icissgt-2023-2/" target="_blank">IEEE International Conference on Intelligent Systems, Smart and Green Technologies</a>,<br> February 2026.  <span class="status pending">To be Submitted</span>
     </div>
