@@ -192,6 +192,7 @@ function copyCitation(id) {
   <a href="https://www.umkc.edu/" target="_blank"><img src="/images/UMKC.png" alt="UMKC Logo" /></a>
   <a href="https://illinoisstate.edu/" target="_blank"><img src="/images/isu.png" alt="ISU Logo" /></a>
   <a href="https://twin-cities.umn.edu/" target="_blank"><img src="/images/UMTC.jpeg" alt="University of Minnesota Logo" /></a>
+  <a href="https://www.uml.edu/" target="_blank"><img src="/images/umass.png" alt="UMASS Logo" /></a>
   <a href="https://www.griet.ac.in/" target="_blank"><img src="/images/GRIET.png" alt="GRIET Logo" /></a>
 </div>
 
