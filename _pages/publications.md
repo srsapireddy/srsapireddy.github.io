@@ -201,53 +201,6 @@ function copyCitation(id) {
 <section id="publications">
   <h2>📚 Publications</h2>
     <!-- Published -->
-
-  <h3 style="margin-top:2rem;">✅ Work In Progress</h3>
-  <div class="pub-grid">
-
-  <div class="pub-entry">
-  <div class="pub-card2">
-    <strong>Srinivas Rahul Sapireddy</strong>, Hemanth Bandi<br>
-    <em>“Edge-AI Healthcare: Quantization-Aware DNN”</em><br>
-    <a href="https://zhang-informatics.github.io/ICHI2026/" target="_blank">
-      IEEE International Conference on Healthcare Informatics</a> , June 1–4, 2026
-      <span class="wip-badge">Work in Progress</span>
-  </div>
-  <div class="cite-box2" onclick="copyCitation('cite0')">
-    📑 Cite
-    <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
-  </div>
-</div>
-    
-  <div class="pub-entry">
-  <div class="pub-card2">
-    <strong>Srinivas Rahul Sapireddy</strong>, .....<br>
-    <em>“Adaptive Regularization - Efficient Neural Networks”</em><br>
-    <a href="https://ieee-isvlsi.github.io/ISVLSI_2026_Website/index.html" target="_blank">
-      IEEE Computer Society Annual Symposium on VLSI - ISVLSI</a> , April 20-21, 2026
-      <span class="wip-badge">Work in Progress</span>
-  </div>
-  <div class="cite-box2" onclick="copyCitation('cite0')">
-    📑 Cite
-    <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
-  </div>
-</div>
-
-  <div class="pub-entry">
-  <div class="pub-card2">
-    <strong>Srinivas Rahul Sapireddy</strong>, .....<br>
-    <em>“EABS: Lightweight Entropy-Binning Framework for Intelligent Signal Processing”</em><br>
-    <a href="https://www.ieeewamicon.org/" target="_blank">
-      IEEE Wireless and Microwave Technology Conference </a> , July 7-10, 2026
-      <span class="wip-badge">Work in Progress</span>
-  </div>
-  <div class="cite-box2" onclick="copyCitation('cite0')">
-    📑 Cite
-    <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
-  </div>
-</div>
-
-</div>
   
   <h3 style="margin-top:2rem;">✅ Published</h3>
   <div class="pub-grid">
@@ -431,7 +384,53 @@ function copyCitation(id) {
         <textarea id="cite13" class="hidden-citation">To be Submitted</textarea>
       </div>
     </div>
-     
+
+   <h3 style="margin-top:2rem;">✅ Work In Progress</h3>
+  <div class="pub-grid">
+
+  <div class="pub-entry">
+  <div class="pub-card2">
+    <strong>Srinivas Rahul Sapireddy</strong>, Hemanth Bandi<br>
+    <em>“Edge-AI Healthcare: Quantization-Aware DNN”</em><br>
+    <a href="https://zhang-informatics.github.io/ICHI2026/" target="_blank">
+      IEEE International Conference on Healthcare Informatics</a> , June 1–4, 2026
+      <span class="wip-badge">Work in Progress</span>
+  </div>
+  <div class="cite-box2" onclick="copyCitation('cite0')">
+    📑 Cite
+    <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
+  </div>
+</div>
+    
+  <div class="pub-entry">
+  <div class="pub-card2">
+    <strong>Srinivas Rahul Sapireddy</strong>, .....<br>
+    <em>“Adaptive Regularization - Efficient Neural Networks”</em><br>
+    <a href="https://ieee-isvlsi.github.io/ISVLSI_2026_Website/index.html" target="_blank">
+      IEEE Computer Society Annual Symposium on VLSI - ISVLSI</a> , April 20-21, 2026
+      <span class="wip-badge">Work in Progress</span>
+  </div>
+  <div class="cite-box2" onclick="copyCitation('cite0')">
+    📑 Cite
+    <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
+  </div>
+</div>
+
+  <div class="pub-entry">
+  <div class="pub-card2">
+    <strong>Srinivas Rahul Sapireddy</strong>, .....<br>
+    <em>“EABS: Lightweight Entropy-Binning Framework for Intelligent Signal Processing”</em><br>
+    <a href="https://www.ieeewamicon.org/" target="_blank">
+      IEEE Wireless and Microwave Technology Conference </a> , July 7-10, 2026
+      <span class="wip-badge">Work in Progress</span>
+  </div>
+  <div class="cite-box2" onclick="copyCitation('cite0')">
+    📑 Cite
+    <textarea id="cite0" class="hidden-citation">Work in Progress</textarea>
+  </div>
+</div>
+
+</div>
 
 <!-- Publication Venues Section -->
 <h2 style="text-align:center; margin-top: 3rem;">Publication Venues</h2>
