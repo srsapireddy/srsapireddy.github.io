@@ -363,9 +363,20 @@ function copyCitation(id) {
     </div>
        <div class="pub-entry">
       <div class="pub-card">
-      <strong>Srinivas Rahul Sapireddy</strong>, Priyanka Siddappa<br>
+      Priyanka Siddappa, <strong>Srinivas Rahul Sapireddy</strong> <br>
       <em>“Graph Neural Learning for Structural Analysis of Citation Networks”</em><br>
       <a href="https://www.ciscom.org/" target="_blank">Second International Conference on Computational Intelligence and Soft Computing 2026</a>,<br> 14-16 October 2026, Malta, Europe <span class="status pending">To be Submitted</span>
+    </div>
+      <div class="cite-box" onclick="copyCitation('cite12')">
+        📑 Cite
+        <textarea id="cite12" class="hidden-citation">To be Submitted</textarea>
+      </div>
+    </div>
+    <div class="pub-entry">
+      <div class="pub-card">
+      Priyanka Siddappa, <strong>Srinivas Rahul Sapireddy</strong><br>
+      <em>“Missing Data Is Not Neutral: Evaluating Imputation Effects on Early Sepsis Prediction and Patient Risk Stratification”</em><br>
+      <a href="https://www.ciscom.org/" target="_blank">The 14th IEEE International Conference on Healthcare Informatics</a>,<br> June 1–4, 2026,  Minneapolis, MN<span class="status pending">To be Submitted</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite12')">
         📑 Cite
@@ -395,6 +406,7 @@ function copyCitation(id) {
         <textarea id="cite13" class="hidden-citation">To be Submitted</textarea>
       </div>
     </div>
+    
 
    <h3 style="margin-top:2rem;">✅ Work In Progress</h3>
   <div class="pub-grid">
