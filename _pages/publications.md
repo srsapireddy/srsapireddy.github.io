@@ -365,7 +365,7 @@ function copyCitation(id) {
       <div class="pub-card">
       Priyanka Siddappa, <strong>Srinivas Rahul Sapireddy</strong><br>
       <em>“Missing Data Is Not Neutral: Evaluating Imputation Effects on Early Sepsis Prediction and Patient Risk Stratification”</em><br>
-      <a href="https://www.ciscom.org/" target="_blank">The 14th IEEE International Conference on Healthcare Informatics</a>,<br> June 1–4, 2026,  Minneapolis, MN<span class="status pending">To be Submitted</span>
+      <a href="https://zhang-informatics.github.io/ICHI2026/" target="_blank">The 14th IEEE International Conference on Healthcare Informatics</a>,<br> June 1–4, 2026,  Minneapolis, MN<span class="status pending">To be Submitted</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite12')">
         📑 Cite
