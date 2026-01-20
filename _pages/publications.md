@@ -361,17 +361,6 @@ function copyCitation(id) {
         <textarea id="cite12" class="hidden-citation">To be Submitted</textarea>
       </div>
     </div>
-       <div class="pub-entry">
-      <div class="pub-card">
-      Priyanka Siddappa, <strong>Srinivas Rahul Sapireddy</strong> <br>
-      <em>“Graph Neural Learning for Structural Analysis of Citation Networks”</em><br>
-      <a href="https://www.ciscom.org/" target="_blank">Second International Conference on Computational Intelligence and Soft Computing 2026</a>,<br> 14-16 October 2026, Malta, Europe <span class="status pending">To be Submitted</span>
-    </div>
-      <div class="cite-box" onclick="copyCitation('cite12')">
-        📑 Cite
-        <textarea id="cite12" class="hidden-citation">To be Submitted</textarea>
-      </div>
-    </div>
     <div class="pub-entry">
       <div class="pub-card">
       Priyanka Siddappa, <strong>Srinivas Rahul Sapireddy</strong><br>
