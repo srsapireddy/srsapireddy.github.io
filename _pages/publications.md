@@ -354,7 +354,7 @@ function copyCitation(id) {
       <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Priyanka Siddappa<br>
       <em>“Refining Deep Reinforcement Learning with Double Estimation and Optimized Target Updates”</em><br>
-      <a href="https://icadeis.org/index.php" target="_blank">2026 International Conference on Advancement in Data Science, E-learning and Information System (ICADEIS)</a>,<br> 23 – 24 June 2026, Bandung, Indonesia <span class="status pending">To be Submitted</span>
+      <a href="https://icadeis.org/index.php" target="_blank">2026 International Conference on Advancement in Data Science, E-learning and Information System (ICADEIS)</a>, 23 – 24 June 2026, Bandung, Indonesia <span class="status pending">To be Submitted</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite12')">
         📑 Cite
@@ -365,7 +365,7 @@ function copyCitation(id) {
       <div class="pub-card">
       Priyanka Siddappa, <strong>Srinivas Rahul Sapireddy</strong><br>
       <em>“Missing Data Is Not Neutral: Evaluating Imputation Effects on Early Sepsis Prediction and Patient Risk Stratification”</em><br>
-      <a href="https://zhang-informatics.github.io/ICHI2026/" target="_blank">The 14th IEEE International Conference on Healthcare Informatics</a>,<br> June 1–4, 2026,  Minneapolis, MN<span class="status pending">To be Submitted</span>
+      <a href="https://zhang-informatics.github.io/ICHI2026/" target="_blank">The 14th IEEE International Conference on Healthcare Informatics</a>, June 1–4, 2026,  Minneapolis, MN<span class="status pending">To be Submitted</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite12')">
         📑 Cite
@@ -376,7 +376,7 @@ function copyCitation(id) {
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
         <em>"Re-Defining R: Resource-Efficient Modulation Classification"</em><br>
-        <a href="https://ieeesoutheastcon.org/" target="_blank">IEEE SoutheastCon</a> <br>  March 13–15, 2026, Huntsville, Alabama  
+        <a href="https://ieeesoutheastcon.org/" target="_blank">IEEE SoutheastCon</a> March 13–15, 2026, Huntsville, Alabama  
         <span class="status review">Under Review</span>
       </div>
       <div class="cite-box" onclick="copyCitation('cite6')">
@@ -388,7 +388,7 @@ function copyCitation(id) {
       <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong><br>
       <em>“From Rule-Based to Neural: Statistical Envelope Feature Classification Using Feedforward Networks”</em><br>
-      <a href="https://r10.ieee.org/vizagbay/icissgt-2023-2/" target="_blank">IEEE International Conference on Intelligent Systems, Smart and Green Technologies</a>,<br> February 2026.  <span class="status pending">To be Submitted</span>
+      <a href="https://r10.ieee.org/vizagbay/icissgt-2023-2/" target="_blank">IEEE International Conference on Intelligent Systems, Smart and Green Technologies</a>, February 2026.  <span class="status pending">To be Submitted</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite13')">
         📑 Cite
