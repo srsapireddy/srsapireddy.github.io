@@ -34,7 +34,7 @@ toc: false
   <div class="card">Teaching Assistant<br><small>Sep 2022 – Dec 2024 · UMKC</small></div>
   <div class="card">Adjunct Instructor<br><small>Apr 2023 – May 2025 · UMKC</small></div>
   <div class="card">Instructor (Full-Time)<br><small>Sep 2025 – Dec 2025 · UMKC</small></div>
-  <div class="card highlight">Incoming Assistant Professor<br><small>Starting Spring 2026 · ISU</small></div>
+  <div class="card highlight">Assistant Professor<br><small>Jan 2026 - Present · ISU</small></div>
 </div>
 
 <style>
@@ -48,9 +48,26 @@ toc: false
 </style>
 
 ## Courses (Course-by-Course, Semester-by-Semester)
-<span class="badge2">Incoming Assistant Professor · Illinois State University (Starting Spring 2026)</span>  
-### Courses — To Be Announced  
-Illinois State University (Starting Spring 2026)
+<span class="badge"> Assistant Professor · Illinois State University (Spring 2026 - Present)</span>  
+
+### ELE 260 — Probability & Statistics for Engineers (3) — Illinois State University
+**Focus:** Probability theory, random variables, statistical inference, and engineering applications. <br>
+**Status:** Planned course assignment, subject to departmental scheduling. <br>
+**Semesters:**  
+<span class="badge">Planned · Starting Spring 2026</span>  
+
+### ELE 265 — Signals and Systems (3) — Illinois State University
+**Focus:** Continuous- and discrete-time signals, linear time-invariant systems, convolution, Fourier analysis, and system representations. <br>
+**Status:** Planned course assignment, subject to departmental scheduling. <br>
+**Semesters:**  
+<span class="badge">Planned · Starting Spring 2026</span>  
+
+### ELE 280 — Communication Systems (3) — Illinois State University
+**Focus:** Analog and digital communication systems, modulation techniques, noise analysis, and system performance metrics. <br>
+**Status:** Planned course assignment, subject to departmental scheduling. <br>
+**Semesters:**  
+<span class="badge">Planned · Starting Spring 2026</span>  
+
 
 <span class="badge">Instructor · University of Missouri - Kansas City (Spring 2023 - Fall 2025)</span>  
 ### ENGR E&C 216 — Engineering Computation - University of Missouri-Kansas City
