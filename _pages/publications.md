@@ -184,20 +184,6 @@ function copyCitation(id) {
 }
 </script>
 
-<!-- Collaborations Section -->
-<h2 style="text-align:center; margin-top: 2rem;">Collaborations</h2>
-<div class="logo-row">
-  <a href="https://www.ornl.gov/" target="_blank"><img src="/images/Oak.jpg" alt="ORNL Logo" /></a>
-  <a href="https://www.uis.edu/" target="_blank"><img src="/images/UIS.png" alt="UIS Logo" /></a>
-  <a href="https://www.umkc.edu/" target="_blank"><img src="/images/UMKC.png" alt="UMKC Logo" /></a>
-  <a href="https://illinoisstate.edu/" target="_blank"><img src="/images/isu.png" alt="ISU Logo" /></a>
-  <a href="https://twin-cities.umn.edu/" target="_blank"><img src="/images/UMTC.jpeg" alt="University of Minnesota Logo" /></a>
-  <a href="https://www.uml.edu/" target="_blank"><img src="/images/umass.png" alt="UMASS Logo" /></a>
-  <a href="https://www.griet.ac.in/" target="_blank"><img src="/images/GRIET.png" alt="GRIET Logo" /></a>
-</div>
-
-
-
 <section id="publications">
   <h2>📚 Publications</h2>
     <!-- Published -->
