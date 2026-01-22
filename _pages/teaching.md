@@ -48,25 +48,25 @@ toc: false
 </style>
 
 ## Courses (Course-by-Course, Semester-by-Semester)
-<span class="badge"> Assistant Professor · Illinois State University (Spring 2026 - Present)</span>  
+<span class="highlight"> Assistant Professor · Illinois State University (Spring 2026 - Present)</span>  
 
 ### ELE 260 — Probability & Statistics for Engineers (3) — Illinois State University
 **Focus:** Probability theory, random variables, statistical inference, and engineering applications. <br>
 **Status:** Planned course assignment, subject to departmental scheduling. <br>
 **Semesters:**  
-<span class="badge">Planned · Starting Spring 2026</span>  
+<span class="highlight">Planned · Starting Spring 2026</span>  
 
 ### ELE 265 — Signals and Systems (3) — Illinois State University
 **Focus:** Continuous- and discrete-time signals, linear time-invariant systems, convolution, Fourier analysis, and system representations. <br>
 **Status:** Planned course assignment, subject to departmental scheduling. <br>
 **Semesters:**  
-<span class="badge">Planned · Starting Spring 2026</span>  
+<span class="highlight">Planned · Starting Spring 2026</span>  
 
 ### ELE 280 — Communication Systems (3) — Illinois State University
 **Focus:** Analog and digital communication systems, modulation techniques, noise analysis, and system performance metrics. <br>
 **Status:** Planned course assignment, subject to departmental scheduling. <br>
 **Semesters:**  
-<span class="badge">Planned · Starting Spring 2026</span>  
+<span class="highlight">Planned · Starting Spring 2026</span>  
 
 
 <span class="badge">Instructor · University of Missouri - Kansas City (Spring 2023 - Fall 2025)</span>  
