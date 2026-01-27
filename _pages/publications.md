@@ -340,22 +340,22 @@ function copyCitation(id) {
       <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Priyanka Siddappa<br>
       <em>“Refining Deep Reinforcement Learning”</em><br>
-      <a href="https://icadeis.org/index.php" target="_blank">2026 International Conference on Advancement in Data Science, E-learning and Information System (ICADEIS)</a>, 23 – 24 June 2026, Bandung, Indonesia <span class="status pending">To be Submitted</span>
+      <a href="https://icadeis.org/index.php" target="_blank">2026 International Conference on Advancement in Data Science, E-learning and Information System (ICADEIS)</a>, 23 – 24 June 2026, Bandung, Indonesia <span class="status pending">Manuscript in Final Preparation</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite12')">
         📑 Cite
-        <textarea id="cite12" class="hidden-citation">To be Submitted</textarea>
+        <textarea id="cite12" class="hidden-citation">Manuscript in Final Preparation</textarea>
       </div>
     </div>
     <div class="pub-entry">
       <div class="pub-card">
       Priyanka Siddappa, <strong>Srinivas Rahul Sapireddy</strong><br>
       <em>“Missing Data Is Not Neutral”</em><br>
-      <a href="https://zhang-informatics.github.io/ICHI2026/" target="_blank">The 14th IEEE International Conference on Healthcare Informatics</a>, June 1–4, 2026,  Minneapolis, MN<span class="status pending">To be Submitted</span>
+      <a href="https://zhang-informatics.github.io/ICHI2026/" target="_blank">The 14th IEEE International Conference on Healthcare Informatics</a>, June 1–4, 2026,  Minneapolis, MN<span class="status pending">Manuscript in Final Preparation</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite12')">
         📑 Cite
-        <textarea id="cite12" class="hidden-citation">To be Submitted</textarea>
+        <textarea id="cite12" class="hidden-citation">Manuscript in Final Preparation</textarea>
       </div>
     </div>
   <div class="pub-entry">
@@ -374,11 +374,11 @@ function copyCitation(id) {
       <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong><br>
       <em>“From Rule-Based to Neural”</em><br>
-      <a href="https://r10.ieee.org/vizagbay/icissgt-2023-2/" target="_blank">IEEE International Conference on Intelligent Systems, Smart and Green Technologies</a>, February 2026.  <span class="status pending">To be Submitted</span>
+      <a href="https://r10.ieee.org/vizagbay/icissgt-2023-2/" target="_blank">IEEE International Conference on Intelligent Systems, Smart and Green Technologies</a>, February 2026.  <span class="status pending">Archived Projects</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite13')">
         📑 Cite
-        <textarea id="cite13" class="hidden-citation">To be Submitted</textarea>
+        <textarea id="cite13" class="hidden-citation">Archived Projects</textarea>
       </div>
     </div>
     
