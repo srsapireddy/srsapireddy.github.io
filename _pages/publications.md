@@ -417,7 +417,7 @@ function copyCitation(id) {
   <div class="pub-entry">
   <div class="pub-card2">
     <strong>Srinivas Rahul Sapireddy</strong>, .....<br>
-    <em>“EABS: Lightweight Entropy-Binning Framework for Intelligent Signal Processing”</em><br>
+    <em>“EABS: Intelligent Signal Processing”</em><br>
     <a href="https://www.ieeewamicon.org/" target="_blank">
       IEEE Wireless and Microwave Technology Conference </a> , July 7-10, 2026
       <span class="wip-badge">Work in Progress</span>
