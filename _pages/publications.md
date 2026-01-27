@@ -340,11 +340,11 @@ function copyCitation(id) {
       <div class="pub-card">
       <strong>Srinivas Rahul Sapireddy</strong>, Priyanka Siddappa<br>
       <em>“Refining Deep Reinforcement Learning”</em><br>
-      <a href="https://icadeis.org/index.php" target="_blank">2026 International Conference on Advancement in Data Science, E-learning and Information System (ICADEIS)</a>, 23 – 24 June 2026, Bandung, Indonesia <span class="status pending">Manuscript in Final Preparation</span>
+      <a href="https://icadeis.org/index.php" target="_blank">2026 International Conference on Advancement in Data Science, E-learning and Information System (ICADEIS)</a>, 23 – 24 June 2026, Bandung, Indonesia <span class="status pending">Completed Manuscripts</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite12')">
         📑 Cite
-        <textarea id="cite12" class="hidden-citation">Manuscript in Final Preparation</textarea>
+        <textarea id="cite12" class="hidden-citation">Completed Manuscripts</textarea>
       </div>
     </div>
     <div class="pub-entry">
@@ -385,6 +385,20 @@ function copyCitation(id) {
 
    <h3 style="margin-top:2rem;">✅ Work In Progress</h3>
   <div class="pub-grid">
+
+  <div class="pub-entry">
+  <div class="pub-card2">
+    <strong>Srinivas Rahul Sapireddy</strong>, Hemanth Bandi<br>
+    <em>“Exploratory Study on Network Behavior Analysis”</em><br>
+    <a href="https://www.ieee-cars.org/" target="_blank">
+      IEEE 6th Cyber Awareness and Research Symposium 2026 - CARS'26</a> , October 26- 28, 2026, Grand Forks, ND, USA
+      <span class="wip-badge">Completed Manuscripts</span>
+  </div>
+  <div class="cite-box2" onclick="copyCitation('cite0')">
+    📑 Cite
+    <textarea id="cite0" class="hidden-citation">Completed Manuscripts</textarea>
+  </div>
+</div>
 
   <div class="pub-entry">
   <div class="pub-card2">
