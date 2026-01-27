@@ -322,7 +322,7 @@ function copyCitation(id) {
     </div>
   </div>
 
-  <h3 style="margin-top:2rem;">📝 To be Submitted / Under Review</h3>
+  <h3 style="margin-top:2rem;">📝 Manuscripts in Preparation/ Under Review</h3>
 <div class="pub-grid">
     <div class="pub-entry">
       <div class="pub-card">
