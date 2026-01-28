@@ -52,8 +52,6 @@ toc: false
 
 <span class="badge2">Assistant Professor · Illinois State University (Spring 2026 – Present)</span>
 
----
-
 ## Institutional Service
 
 <div class="service-grid">
