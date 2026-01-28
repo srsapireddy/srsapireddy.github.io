@@ -80,7 +80,7 @@ toc: false
 
 <div class="service-card">
 <h4>Technical Program Committee (TPC) Reviewer</h4>
-<p><strong>Organization:</strong> IEEE-affiliated conferences</p>
+<p><strong>Organization:</strong> IEEE-affiliated conference ROSE 2026</p>
 <p><strong>Focus:</strong> Peer review of technical manuscripts and evaluation of scholarly contributions.</p>
 <p><span class="badge">Ongoing</span></p>
 </div>
