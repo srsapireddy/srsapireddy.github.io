@@ -245,6 +245,18 @@ function copyCitation(id) {
     </div>
     <div class="pub-entry">
       <div class="pub-card">
+        <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
+        <em>"Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics"</em><br>
+        <a href="https://ieeesoutheastcon.org/" target="_blank">IEEE SoutheastCon</a> March 13–15, 2026, Huntsville, Alabama  
+        <span class="status accepted">Under Review</span>
+      </div>
+      <div class="cite-box" onclick="copyCitation('cite6')">
+        📑 Cite
+        <textarea id="cite6" class="hidden-citation">Accepted</textarea>
+      </div>
+    </div>
+    <div class="pub-entry">
+      <div class="pub-card">
       Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
         <em><a href="https://www.sciencedirect.com/science/article/pii/S2773064623000713" target="_blank">“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</a></em><br>
         <em>Memories – Materials, Devices, Circuits and Systems</em> 
@@ -356,18 +368,6 @@ function copyCitation(id) {
       <div class="cite-box" onclick="copyCitation('cite12')">
         📑 Cite
         <textarea id="cite12" class="hidden-citation">Manuscript in Final Preparation</textarea>
-      </div>
-    </div>
-  <div class="pub-entry">
-      <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
-        <em>"Re-Defining R"</em><br>
-        <a href="https://ieeesoutheastcon.org/" target="_blank">IEEE SoutheastCon</a> March 13–15, 2026, Huntsville, Alabama  
-        <span class="status review">Under Review</span>
-      </div>
-      <div class="cite-box" onclick="copyCitation('cite6')">
-        📑 Cite
-        <textarea id="cite6" class="hidden-citation">Under Review</textarea>
       </div>
     </div>
     <div class="pub-entry">
