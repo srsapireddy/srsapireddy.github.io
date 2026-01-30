@@ -124,7 +124,7 @@ author_profile: true
 <table class="resume-table">
 <thead><tr><th>Role</th><th>Institution</th><th>Courses</th></tr></thead>
 <tbody>
-<tr><td>Incoming Assistant Professor</td><td>Illinois State University, Normal, Illinois</td><td>Courses to be announced</td></tr>
+<tr><td>Assistant Professor</td><td>Illinois State University, Normal, Illinois</td><td>ELE 260, 265, 280</td></tr>
 <tr><td>Instructor</td><td>University of Missouri-Kansas City</td><td>ENGR E&C 226, 216, 447/5547, 402/5533</td></tr>
 <tr><td>Teaching Assistant</td><td>University of Missouri-Kansas City</td><td>ENGR E&C 442/5542, 228, 402/403</td></tr>
 </tbody>
@@ -164,8 +164,8 @@ author_profile: true
 <thead><tr><th>Title</th><th>Venue</th><th>Status</th></tr></thead>
 <tbody>
 <tr><td>🏆 Re-Visiting R: Statistical Envelope Analysis (Best Paper Award)</td><td>RFCoN 2025</td><td>Awarded</td></tr>
-<tr><td>Custom Activations in LSTM</td><td>GLSVLSI 2025</td><td>Accepted</td></tr>
-<tr><td>Linear Approx. Activations</td><td>Memories Journal</td><td>Under Review</td></tr>
+<tr><td>Custom Activations in LSTM</td><td>GLSVLSI 2025</td><td>Published</td></tr>
+<tr><td>Linear Approx. Activations</td><td>Memories Journal</td><td>Published</td></tr>
 <tr><td>Review: Crosstalk Polymorphic Circuits</td><td>Memories Journal</td><td>Published</td></tr>
 </tbody>
 </table>
