@@ -350,24 +350,13 @@ function copyCitation(id) {
     </div>
      <div class="pub-entry">
       <div class="pub-card">
-      <strong>Srinivas Rahul Sapireddy</strong>, Priyanka Siddappa<br>
+      <strong>Srinivas Rahul Sapireddy</strong><br>
       <em>“Refining Deep Reinforcement Learning”</em><br>
       <a href="https://icadeis.org/index.php" target="_blank">2026 International Conference on Advancement in Data Science, E-learning and Information System (ICADEIS)</a>, 23 – 24 June 2026, Bandung, Indonesia <span class="status pending">Completed Manuscripts</span>
     </div>
       <div class="cite-box" onclick="copyCitation('cite12')">
         📑 Cite
         <textarea id="cite12" class="hidden-citation">Completed Manuscripts</textarea>
-      </div>
-    </div>
-    <div class="pub-entry">
-      <div class="pub-card">
-      Priyanka Siddappa, <strong>Srinivas Rahul Sapireddy</strong><br>
-      <em>“Missing Data Is Not Neutral”</em><br>
-      <a href="https://zhang-informatics.github.io/ICHI2026/" target="_blank">The 14th IEEE International Conference on Healthcare Informatics</a>, June 1–4, 2026,  Minneapolis, MN<span class="status pending">Manuscript in Final Preparation</span>
-    </div>
-      <div class="cite-box" onclick="copyCitation('cite12')">
-        📑 Cite
-        <textarea id="cite12" class="hidden-citation">Manuscript in Final Preparation</textarea>
       </div>
     </div>
     <div class="pub-entry">
