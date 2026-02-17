@@ -54,7 +54,7 @@ toc: false
 
   <!-- LEFT: Text -->
   <div style="flex:2;">
-    <h3>ENGR 130 – Introduction to Engineering (3 Credit Hours) – Illinois State University</h3>
+    <h3>EGR 130 - Intro to Engineering Design (3 Credit Hours) – Illinois State University</h3>
 
     <p>
       <strong>Focus:</strong> Guest instruction supporting foundational engineering concepts and course activities. <br>
