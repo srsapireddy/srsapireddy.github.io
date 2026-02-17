@@ -66,7 +66,7 @@ toc: false
 
   <!-- RIGHT: Image -->
   <div style="flex:1;">
-    <img src="/assets/images/ENGR130.jpeg"
+    <img src="/images/ENGR130.jpeg"
          alt="ENGR 130 Laboratory"
          style="width:100%; border-radius:8px;">
   </div>
