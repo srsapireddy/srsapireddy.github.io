@@ -64,19 +64,23 @@ toc: false
     </p>
   </div>
 
-  <!-- RIGHT: Image (height constrained) -->
+  <!-- RIGHT: Clickable Image -->
   <div style="flex:1;">
-    <img src="/images/ENGR130.jpeg"
-         alt="ENGR 130 Laboratory"
-         style="
-           width:100%;
-           max-height:160px;
-           object-fit:cover;
-           border-radius:8px;
-         ">
+    <a href="/images/ENGR130.jpeg" target="_blank">
+      <img src="/images/ENGR130.jpeg"
+           alt="ENGR 130 Laboratory"
+           style="
+             width:100%;
+             max-height:160px;
+             object-fit:cover;
+             border-radius:8px;
+             cursor:zoom-in;
+           ">
+    </a>
   </div>
 
 </div>
+
 
 
 
