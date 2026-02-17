@@ -66,7 +66,7 @@ toc: false
 
   <!-- RIGHT: Image (height constrained) -->
   <div style="flex:1;">
-    <img src="/assets/images/engr130_lab.jpg"
+    <img src="/images/ENGR130.jpeg"
          alt="ENGR 130 Laboratory"
          style="
            width:100%;
