@@ -52,9 +52,9 @@ toc: false
 
 <div style="display:flex; align-items:flex-start; gap:20px;">
 
-  <!-- LEFT: Course text (unchanged format) -->
+  <!-- LEFT: Text -->
   <div style="flex:2;">
-    <h3>ENGR 130 - Introduction to Engineering (3 Credit Hours) - Illinois State University</h3>
+    <h3>ENGR 130 – Introduction to Engineering (3 Credit Hours) – Illinois State University</h3>
 
     <p>
       <strong>Focus:</strong> Guest instruction supporting foundational engineering concepts and course activities. <br>
@@ -64,14 +64,20 @@ toc: false
     </p>
   </div>
 
-  <!-- RIGHT: Image -->
+  <!-- RIGHT: Image (height constrained) -->
   <div style="flex:1;">
-    <img src="/images/ENGR130.jpeg"
+    <img src="/assets/images/engr130_lab.jpg"
          alt="ENGR 130 Laboratory"
-         style="width:100%; border-radius:8px;">
+         style="
+           width:100%;
+           max-height:160px;
+           object-fit:cover;
+           border-radius:8px;
+         ">
   </div>
 
 </div>
+
 
 
 ### ELE 260 - Probability & Statistics for Engineers (3 Credit Hours) — Illinois State University
