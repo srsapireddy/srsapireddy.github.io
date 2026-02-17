@@ -50,6 +50,12 @@ toc: false
 ## Courses (Course-by-Course, Semester-by-Semester)
 <span class="badge2"> Assistant Professor · Illinois State University (Spring 2026 - Present)</span>  
 
+### ELE 260 — ENGR 130 — Introduction to Engineering (3 Credit Hours) — Illinois State University
+**FFocus:** Guest instruction supporting foundational engineering concepts and course activities. <br>
+**Status:** Guest instruction. <br>
+**Semester:** 
+<span class="badge2">Spring 2026</span>
+
 ### ELE 260 — Probability & Statistics for Engineers (3 Credit Hours) — Illinois State University
 **Focus:** Probability theory, random variables, statistical inference, and engineering applications. <br>
 **Status:** Planned course assignment, subject to departmental scheduling. <br>
