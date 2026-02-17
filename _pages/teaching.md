@@ -54,7 +54,7 @@ toc: false
 
   <!-- LEFT: Course text (unchanged format) -->
   <div style="flex:2;">
-    <h3>ENGR 130 — Introduction to Engineering (3 Credit Hours) — Illinois State University</h3>
+    <h3>ENGR 130 - Introduction to Engineering (3 Credit Hours) - Illinois State University</h3>
 
     <p>
       <strong>Focus:</strong> Guest instruction supporting foundational engineering concepts and course activities. <br>
@@ -66,7 +66,7 @@ toc: false
 
   <!-- RIGHT: Image -->
   <div style="flex:1;">
-    <img src="/assets/images/engr130_lab.jpg"
+    <img src="/assets/images/ENGR130.jpeg"
          alt="ENGR 130 Laboratory"
          style="width:100%; border-radius:8px;">
   </div>
