@@ -60,7 +60,7 @@ toc: false
       <strong>Focus:</strong> Guest instruction supporting foundational engineering concepts and course activities. <br>
       <strong>Status:</strong> Guest instruction. <br>
       <strong>Semester:</strong><br>
-      <span class="badge2">Spring 2026</span>
+      <span class="badge2">Spring 2026 · Assistant Professor · 22 students</span>
     </p>
   </div>
 
