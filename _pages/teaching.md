@@ -76,15 +76,11 @@ toc: false
 }
 </style>
 
-<hr>
-
 <h2>Courses Taught</h2>
 
 <span class="badge2">
   Assistant Professor · Illinois State University (Spring 2026 – Present)
 </span>
-
-<br>
 
 <div style="display:flex; align-items:flex-start; gap:20px;">
 
