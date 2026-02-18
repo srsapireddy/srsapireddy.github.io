@@ -95,9 +95,10 @@ a:hover {
 <div class="about-section">
 <h3>📚 Publications</h3>
 <ul>
-  <li>✅ GLSVLSI 2025: <em>Custom Activation Functions for LSTMs</em></li>
-  <li>✅ RFCoN 2025: <em>Statistical Envelope Analysis for RF Signals</em></li>
-  <li>📑 MDPI Electronics (Published): Adversarial Detection in IoT</li>
+  <li>📄 IEEE SoutheastCon Conference, Alabama, USA 2026 (Accepted): <em>Bin - Based R Statistical Envelope</em></li>
+  <li>📄 ACM GLSVLSI Conference, New Orleans, USA 2025: <em>Custom Activation Functions for LSTMs</em></li>
+  <li>📄 IEEE RFCoN Conference, 2025: <em>Statistical Envelope Analysis for RF Signals</em></li>
+  <li>📖 MDPI Electronics Journal: Adversarial Detection in IoT</li>
   <li>📖 Memories Journal: <em>Piecewise Approximations for Neural Networks</em></li>
 </ul>
 <p>📎 <a href="/publications/">View my complete list of publications →</a></p>
@@ -106,7 +107,7 @@ a:hover {
 <div class="about-section">
 <h3>🏅 Awards & Recognitions</h3>
 <ul>
-  <li>🏆 Best Paper Award – RFCoN 2025 (Track 2, Session II)</li>
+  <li>🏆 Best Paper Award - RFCoN 2025 (Track 2, Session II)</li>
   <li>🥈 2nd Prize – Hack-A-Roo Fall 2022 (Entrepreneur Track)</li>
   <li>🥉 3rd Prize – Hack-A-Roo Fall 2021 (CS/IT Track)</li>
   <li>🎓 Dean’s International Scholar Award – UMKC</li>
@@ -123,7 +124,7 @@ a:hover {
   <li>📈 Statistical Learning – Stanford University</li>
   <li>📐 Math for ML – Imperial College London</li>
 </ul>
-<p>💼 Hands-on with: Verilog, Yosys, OpenSTA, Docker, TensorFlow Lite, PyTorch, Scikit-learn</p>
+<p> Hands-on with: Verilog, Yosys, OpenSTA, Docker, TensorFlow Lite, PyTorch, Scikit-learn</p>
 </div>
 
 <div class="about-section">
@@ -138,6 +139,6 @@ a:hover {
 </div>
 
 <div class="about-section">
-<h3>🚀 Open to Collaborate</h3>
+<h3> Open to Collaborate</h3>
 <p>If you're working on <strong>efficient edge AI</strong>, <strong>signal intelligence</strong>, or <strong>hardware-software co-design</strong>, let’s connect. I’m always open to collaboration, mentorship, and research discussions.</p>
 </div>
