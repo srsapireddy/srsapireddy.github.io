@@ -82,6 +82,7 @@ toc: false
 
 </div>
 
+---
 
 <h3>Planned Courses – Illinois State University</h3>
 <ul>
@@ -93,6 +94,7 @@ toc: false
   These courses are planned assignments beginning Spring 2026, subject to departmental scheduling.
 </p>
 
+---
 
 
 <span class="badge">Instructor · University of Missouri - Kansas City (Spring 2023 - Fall 2025)</span>  
