@@ -76,17 +76,21 @@ a:hover {
 
 
 <div class="about-section">
-<h3>🧠 Research & Technical Focus</h3>
-<ul>
-  <li>🧮 Custom Activation Functions for Efficient Neural Networks</li>
-  <li>📶 RF Modulation Classification using Time-Frequency Features</li>
-  <li>⚙️ VLSI Physical Design, RTL-to-GDSII & Timing Analysis</li>
-  <li>📦 Embedded AI Accelerators and SoC Architectures</li>
-</ul>
-<p>
-Research Assistant at <strong>Missouri Institute of Defense and Energy</strong> · AI Intern at <strong>SmartBridge Pvt. Ltd.</strong>
-</p>
+  <h3>Research and Technical Focus</h3>
+  <ul>
+    <li>Hardware-aware and low-power machine learning for edge-intelligent systems</li>
+    <li>RF signal and modulation classification using time-frequency and statistical feature analysis</li>
+    <li>Design of hardware-efficient neural networks, including custom and piecewise-linear activation functions</li>
+    <li>VLSI system design and physical implementation, including RTL-to-GDSII flow and timing analysis</li>
+    <li>Embedded AI accelerators and system-on-chip (SoC) architectures</li>
+  </ul>
+  <p>
+    Prior experience includes research and development roles at the
+    <strong>Missouri Institute of Defense and Energy</strong> and industry experience as an
+    <strong>AI Intern at SmartBridge Pvt. Ltd.</strong>
+  </p>
 </div>
+
 
 <div class="about-section">
 <h3>📚 Publications</h3>
