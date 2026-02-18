@@ -58,14 +58,22 @@ a:hover {
 </style>
 
 <div class="about-section">
-<h3>👨‍🎓 About Me</h3>
-<p>
-I'm <strong>Srinivas Rahul Sapireddy, Ph.D.</strong>, Assistant Professor in College of Engineering at <strong>Illinois State University (ISU)</strong>. My research bridges <strong>low-power hardware-aware AI</strong>, <strong>RF signal classification</strong>, and <strong>VLSI design</strong> for edge intelligence.
-</p>
-<p>
-I bring a dual passion for teaching and research. My current teaching includes Logic Design and Engineering Computation, and my prior teaching experience includes ASIC Physical Design and Analog IC Design.</em>.
-</p>
+  <h3>👨‍🎓 About Me</h3>
+  <p>
+    <strong>Srinivas Rahul Sapireddy, Ph.D.</strong> is an Assistant Professor in the College of Engineering at
+    <strong>Illinois State University (ISU)</strong>. His research focuses on low-power, hardware-aware artificial intelligence,
+    RF signal classification, and VLSI design, with an emphasis on edge-intelligent systems.
+  </p>
+  <p>
+    His work integrates signal processing, lightweight machine learning, and hardware-efficient architectures to enable
+    accurate and energy-efficient computation under resource-constrained environments.
+  </p>
+  <p>
+    His teaching includes Logic Design and Engineering Computation, with prior instructional experience in
+    ASIC Physical Design and Analog IC Design.
+  </p>
 </div>
+
 
 <div class="about-section">
 <h3>🧠 Research & Technical Focus</h3>
