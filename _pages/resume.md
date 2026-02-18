@@ -119,6 +119,56 @@ author_profile: true
 </div>
 
 <div class="resume-section">
+  <h2>Education</h2>
+  <div class="table-wrapper">
+    <table class="resume-table">
+      <thead>
+        <tr>
+          <th>Degree</th>
+          <th>Institution</th>
+          <th>Duration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ph.D. in Electrical and Computer Engineering</td>
+          <td>
+            University of Missouri–Kansas City
+            <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+          </td>
+          <td>09/2021 – 07/2025</td>
+        </tr>
+        <tr>
+          <td>M.S. in Computer Science</td>
+          <td>
+            University of Illinois–Springfield
+            <img src="/images/UIS.png" alt="UIS Logo" class="logo">
+          </td>
+          <td>01/2017 – 12/2018</td>
+        </tr>
+        <tr>
+          <td>M.S. in Electrical Engineering</td>
+          <td>
+            University of Missouri–Kansas City
+            <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+          </td>
+          <td>01/2015 – 12/2016</td>
+        </tr>
+        <tr>
+          <td>B.Tech. in Electronics and Communication Engineering</td>
+          <td>
+            GRIET, Jawaharlal Nehru Technological University, Hyderabad
+            <img src="/images/GRIET.png" alt="GRIET Logo" class="logo">
+          </td>
+          <td>09/2011 – 04/2014</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<div class="resume-section">
 <h2>👨‍🏫 Teaching Experience</h2>
 <div class="table-wrapper">
 <table class="resume-table">
