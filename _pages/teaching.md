@@ -123,7 +123,7 @@ toc: false
 <strong>Semesters:</strong><br>
 <span class="badge2">Planned · Starting Spring 2026</span>
 
-<br><br>
+<br>
 
 <h3>ELE 265 – Signals and Systems (3 Credit Hours) — Illinois State University</h3>
 <strong>Focus:</strong> Continuous- and discrete-time signals, linear time-invariant systems, convolution,
@@ -132,7 +132,7 @@ Fourier analysis, and system representations.<br>
 <strong>Semesters:</strong><br>
 <span class="badge2">Planned · Starting Spring 2026</span>
 
-<br><br>
+<br>
 
 <h3>ELE 280 – Communication Systems (3 Credit Hours) — Illinois State University</h3>
 <strong>Focus:</strong> Analog and digital communication systems, modulation techniques,
@@ -191,14 +191,14 @@ including floorplanning, power planning, routing, timing, and ECO.<br>
 <span class="badge">Fall 2022 · Graduate Teaching Assistant · 25 students</span><br>
 <strong>Syllabus:</strong> Fundamentals of CMOS VLSI design and layout with exposure to commercial CAD tools.
 
-<br><br>
+<br>
 
 <h3>ENGR E&amp;C 228 – Computer Design (3 Credit Hours)</h3>
 <span class="badge">Spring 2024 · Graduate Teaching Assistant · 52 students</span><br>
 <strong>Syllabus:</strong> Computer organization, datapath and control design, memory systems,
 and introductory Verilog HDL.
 
-<br><br>
+<br>
 
 <h3>ENGR E&amp;C 402/403 – Senior Design I & II (6 Credit Hours)</h3>
 <span class="badge">Fall 2022 · Graduate Teaching Assistant · 18 students</span>
