@@ -29,125 +29,179 @@ toc: false
 
 </style>
 
-<h2>Academic Role Progression/h2>
+<h2>Role Progression</h2>
+
 <div class="career-cards">
-  <div class="card">Teaching Assistant<br><small>Sep 2022 – Dec 2024 · UMKC</small></div>
-  <div class="card">Adjunct Instructor<br><small>Apr 2023 – May 2025 · UMKC</small></div>
-  <div class="card">Instructor (Full-Time)<br><small>Sep 2025 – Dec 2025 · UMKC</small></div>
-  <div class="card highlight">Assistant Professor<br><small>Jan 2026 - Present · ISU</small></div>
+  <div class="card">
+    Teaching Assistant
+    <small>Sep 2022 – Dec 2024 · UMKC</small>
+  </div>
+  <div class="card">
+    Adjunct Instructor
+    <small>Apr 2023 – May 2025 · UMKC</small>
+  </div>
+  <div class="card">
+    Instructor (Full-Time)
+    <small>Sep 2025 – Dec 2025 · UMKC</small>
+  </div>
+  <div class="card highlight">
+    Assistant Professor
+    <small>Jan 2026 – Present · ISU</small>
+  </div>
 </div>
 
 <style>
-.career-cards { display: flex; gap: 1rem; flex-wrap: wrap; }
-.card {
-  padding: 15px; border-radius: 8px; background: #0096d6; color: white;
-  width: 260px; font-weight: 600; text-align: center;
+.career-cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
-.highlight { background: #DC143C; }
-.card small { display: block; font-weight: normal; font-size: 0.85em; margin-top: 6px; }
+.card {
+  padding: 15px;
+  border-radius: 8px;
+  background: #0096d6;
+  color: white;
+  width: 260px;
+  font-weight: 600;
+  text-align: center;
+}
+.highlight {
+  background: #DC143C;
+}
+.card small {
+  display: block;
+  font-weight: normal;
+  font-size: 0.85em;
+  margin-top: 6px;
+}
 </style>
 
-## Courses Taught
+<hr>
 
-<span class="badge2"> Assistant Professor · Illinois State University (Spring 2026 - Present)</span>  
+<h2>Courses Taught</h2>
+
+<span class="badge2">
+  Assistant Professor · Illinois State University (Spring 2026 – Present)
+</span>
+
+<br><br>
 
 <div style="display:flex; align-items:flex-start; gap:20px;">
 
-  <!-- LEFT: Text -->
   <div style="flex:2;">
-    <h3>EGR 130 - Intro to Engineering Design (3 Credit Hours) – Illinois State University</h3>
-
+    <h3>EGR 130 – Intro to Engineering Design (3 Credit Hours) — Illinois State University</h3>
     <p>
-      <strong>Focus:</strong> Guest instruction supporting foundational engineering concepts and design activities.<br>
-      <strong>Status:</strong> Guest instruction. <br>
+      <strong>Focus:</strong> Guest instruction supporting foundational engineering concepts and course activities.<br>
+      <strong>Status:</strong> Guest instruction.<br>
       <strong>Semester:</strong><br>
       <span class="badge2">Spring 2026 · Assistant Professor · 22 students</span>
     </p>
   </div>
 
-  <!-- RIGHT: Clickable Image -->
   <div style="flex:1;">
     <a href="/images/ENGR130.jpeg" target="_blank">
-      <img src="/images/ENGR130.jpeg"
-           alt="ENGR 130 Laboratory"
-           style="
-             width:100%;
-             max-height:160px;
-             object-fit:cover;
-             border-radius:8px;
-             cursor:zoom-in;
-           ">
+      <img
+        src="/images/ENGR130.jpeg"
+        alt="ENGR 130 Laboratory"
+        style="
+          width:100%;
+          max-height:160px;
+          object-fit:cover;
+          border-radius:8px;
+          cursor:zoom-in;
+        ">
     </a>
   </div>
 
 </div>
 
----
+<hr>
 
-<h3>Planned Courses – Illinois State University</h3>
-<ul>
-  <li><strong>ELE 260:</strong> Probability and Statistics for Engineers</li>
-  <li><strong>ELE 265:</strong> Signals and Systems</li>
-  <li><strong>ELE 280:</strong> Communication Systems</li>
-</ul>
-<p>
-  These courses are planned assignments beginning Spring 2026, subject to departmental scheduling.
-</p>
+<h3>ELE 260 – Probability & Statistics for Engineers (3 Credit Hours) — Illinois State University</h3>
+<strong>Focus:</strong> Probability theory, random variables, statistical inference, and engineering applications.<br>
+<strong>Status:</strong> Planned course assignment, subject to departmental scheduling.<br>
+<strong>Semesters:</strong><br>
+<span class="badge2">Planned · Starting Spring 2026</span>
 
----
+<br><br>
 
+<h3>ELE 265 – Signals and Systems (3 Credit Hours) — Illinois State University</h3>
+<strong>Focus:</strong> Continuous- and discrete-time signals, linear time-invariant systems, convolution,
+Fourier analysis, and system representations.<br>
+<strong>Status:</strong> Planned course assignment, subject to departmental scheduling.<br>
+<strong>Semesters:</strong><br>
+<span class="badge2">Planned · Starting Spring 2026</span>
 
-<span class="badge">Instructor · University of Missouri - Kansas City (Spring 2023 - Fall 2025)</span>  
-### ENGR E&C 216 - Engineering Computation (4 Credit Hours) - University of Missouri-Kansas City
-<strong>Focus:</strong> Engineering problem-solving using C and Python, algorithmic thinking, and structured programming.<br>
-**Syllabus:** Students learn to develop, analyze and synthesize structured computer programs for solving engineering problems in the Python and C languages, This course also provides an introduction to algorithms and data structures. This course is available by approval of the degree program committee if transfer credit has been approved for one of the listed programming languages. <br>
-**Semesters taught:**  
-<span class="badge">Spring 2025 · Adjunct Instructor · 49 students</span>  
+<br><br>
+
+<h3>ELE 280 – Communication Systems (3 Credit Hours) — Illinois State University</h3>
+<strong>Focus:</strong> Analog and digital communication systems, modulation techniques,
+noise analysis, and system performance metrics.<br>
+<strong>Status:</strong> Planned course assignment, subject to departmental scheduling.<br>
+<strong>Semesters:</strong><br>
+<span class="badge2">Planned · Starting Spring 2026</span>
+
+<hr>
+
+<span class="badge">
+  Instructor · University of Missouri–Kansas City (Spring 2023 – Fall 2025)
+</span>
+
+<h3>ENGR E&amp;C 216 – Engineering Computation (4 Credit Hours)</h3>
+<strong>Focus:</strong> C programming for engineering (control structures, modular design, numerics).<br>
+<strong>Syllabus:</strong> Structured program development using Python and C, algorithms, and data structures.<br>
+<strong>Semesters taught:</strong><br>
+<span class="badge">Spring 2025 · Adjunct Instructor · 49 students</span>
 <span class="badge">Fall 2025 · Instructor (Full-Time) · 53 students</span>
 
----
+<hr>
 
-### ENGR E&C 226 - Logic Design (3 Credit Hours) - University of Missouri-Kansas City
-**Focus:** Combinational/Sequential logic, FSMs, Verilog modeling, simulation labs.  <br>
-**Syllabus:** Design of combinational logic circuits, logic minimization techniques, design of sequential logic circuits, state machine design techniques, digital system design. <br>
-**Semesters taught:**  
-<span class="badge">Spring 2025 · Adjunct Instructor · 13 students</span>  
+<h3>ENGR E&amp;C 226 – Logic Design (3 Credit Hours)</h3>
+<strong>Focus:</strong> Combinational and sequential logic, FSMs, Verilog modeling, and simulation labs.<br>
+<strong>Syllabus:</strong> Logic minimization, sequential circuit design, and digital system design.<br>
+<strong>Semesters taught:</strong><br>
+<span class="badge">Spring 2025 · Adjunct Instructor · 13 students</span>
 <span class="badge">Fall 2025 · Instructor (Full-Time) · 47 students</span>
 
----
+<hr>
 
-### ENGR E&C 443/5533 - Analog Integrated Circuit Design (3 Credit Hours) - University of Missouri-Kansas City
-**Focus:** CMOS analog (current mirrors, differential pairs, gain stages, frequency response); Virtuoso labs.   <br>
-**Semesters taught:**   
-<span class="badge">Spring 2023 · Adjunct Instructor · 13 students</span>  
+<h3>ENGR E&amp;C 443/5533 – Analog Integrated Circuit Design (3 Credit Hours)</h3>
+<strong>Focus:</strong> CMOS analog circuits including current mirrors, differential pairs,
+gain stages, and frequency response; Virtuoso-based labs.<br>
+<strong>Semesters taught:</strong><br>
+<span class="badge">Spring 2023 · Adjunct Instructor · 13 students</span>
 <span class="badge">Spring 2024 · Adjunct Instructor · 16 students</span>
 
----
+<hr>
 
-### ENGR E&C 447/5547 - ASIC Physical Design and Testing (3 Credit Hours) - University of Missouri-Kansas City
-**Focus:** RTL→GDSII; synthesis (Synopsys DC / Cadence Genus); P&R (ICC2 / Innovus); CTS, STA, signoff. <br>
-**Syllabus:** This course focuses on physical implementation of Application Specific Integrated Circuits. This is a hands-on and lab-driven course where students go through lab experiments in order to go from RTL to GDSII. Students learn to implement their own design from scratch to be implemented in a chip. The main topics to be covered in this course are environmental setup, RTL Design, and Netlist to GDSII, including Floor planning, Placement, power planning, scan chain reordering, global routing, clock tree synthesis, power analysis and ECO. <br>
-**Semesters taught:**  
-<span class="badge">Fall 2023 · Adjunct Instructor · 14 students</span>  
-<span class="badge">Fall 2024 · Adjunct Instructor · 13 students</span>  
+<h3>ENGR E&amp;C 447/5547 – ASIC Physical Design and Testing (3 Credit Hours)</h3>
+<strong>Focus:</strong> RTL→GDSII flow; synthesis, place-and-route, CTS, STA, and signoff.<br>
+<strong>Syllabus:</strong> Hands-on physical design using industry tools from RTL through GDSII,
+including floorplanning, power planning, routing, timing, and ECO.<br>
+<strong>Semesters taught:</strong><br>
+<span class="badge">Fall 2023 · Adjunct Instructor · 14 students</span>
+<span class="badge">Fall 2024 · Adjunct Instructor · 13 students</span>
 <span class="badge">Fall 2025 · Instructor (Full-Time) · 9 students</span>
 
+<hr>
 
-## Additional Teaching (Graduate Teaching Assistant Experience)
+<h2>Additional Teaching (Graduate Teaching Assistant)</h2>
 
-### ENGR E&C 442/5542 - Introduction to VLSI Design (3 Credit Hours) 
-<span class="badge">Fall 2022 · Graduate Teaching Assistant · 25 students</span> <br>
-**Syllabus:** The goal of this course is to familiarize students with the design fundamentals and layout of Very Large Scale Integrated (VLSI) Circuits. The primary focus of this course is complementary MOSFET (CMOS) based digital integrated circuits design and analysis. However, the topics regarding transistor, interconnect, and circuit implementation are relevant to digital, analog and mixed-signal integrated circuits. This course is designed to be a comprehensive foundation for advanced micro- and nano-electronics courses. To familiarize the students with the realities of design complexities they will get exposure to commercial CAD tools in a separate lab co-requisite class. Recommended preparation: Basic Electronics.
+<h3>ENGR E&amp;C 442/5542 – Introduction to VLSI Design (3 Credit Hours)</h3>
+<span class="badge">Fall 2022 · Graduate Teaching Assistant · 25 students</span><br>
+<strong>Syllabus:</strong> Fundamentals of CMOS VLSI design and layout with exposure to commercial CAD tools.
 
-### ENGR E&C 228 - Computer Design (3 Credit Hours) 
-<span class="badge">Spring 2024 · Graduate Teaching Assistant · 52 students</span>  <br>
-**Syllabus:** This course covers computer organizations and fundamental computer design techniques. It also discusses design of computer data unit, control unit, input-output, microprogramming. Memory systems (RAM memory, Cache memory, interrupts, secondary memory) and direct memory access design is also discussed. Verilog HDL design is introduced and applied to small digital systems.
+<br><br>
 
-### ENGR E&C 402/403 - Senior Design I & II (6 Credit Hours) 
-<span class="badge">Fall 2022 · Graduate Teaching Assistant · 18 students</span>  
-<span class="badge">Spring 2023 · Graduate Teaching Assistant · 19 students</span>  <br>
-**Syllabus:** This is the second capstone design course in electrical and computer engineering providing laboratory experience in prototyping, fabrication, and troubleshooting of the design project with stresses in written and oral presentation. Course topics include: project management, professional practice, ethical and engineering economic considerations and development of written and oral presentation skills.
+<h3>ENGR E&amp;C 228 – Computer Design (3 Credit Hours)</h3>
+<span class="badge">Spring 2024 · Graduate Teaching Assistant · 52 students</span><br>
+<strong>Syllabus:</strong> Computer organization, datapath and control design, memory systems,
+and introductory Verilog HDL.
 
+<br><br>
 
-
-
+<h3>ENGR E&amp;C 402/403 – Senior Design I & II (6 Credit Hours)</h3>
+<span class="badge">Fall 2022 · Graduate Teaching Assistant · 18 students</span>
+<span class="badge">Spring 2023 · Graduate Teaching Assistant · 19 students</span><br>
+<strong>Syllabus:</strong> Capstone design emphasizing prototyping, fabrication,
+project management, and technical communication.
