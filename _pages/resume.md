@@ -167,6 +167,47 @@ author_profile: true
   </div>
 </div>
 
+<div class="resume-section">
+  <h2>Professional Development</h2>
+  <div class="table-wrapper">
+    <table class="resume-table">
+      <thead>
+        <tr>
+          <th>Program</th>
+          <th>Institution</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Master of Management</td>
+          <td>
+            University of Illinois Urbana–Champaign (Gies College of Business)
+            <img src="/images/UIUC.jpg" alt="UIUC Logo" class="logo">
+          </td>
+          <td>Expected start: Spring 2026</td>
+        </tr>
+        <tr>
+          <td>Mini-MBA (Farmer School of Business)</td>
+          <td>
+            Miami University
+            <img src="/images/miami.png" alt="Miami University Logo" class="logo">
+          </td>
+          <td>In progress (January 2026)</td>
+        </tr>
+        <tr>
+          <td>Advanced Diploma in Artificial Intelligence</td>
+          <td>
+            National Institute of Electronics and Information Technology (NIELIT), Calicut
+            <img src="/images/CALICUT.png" alt="NIELIT Logo" class="logo">
+          </td>
+          <td>09/2019 – 01/2020</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
 
 <div class="resume-section">
 <h2>👨‍🏫 Teaching Experience</h2>
