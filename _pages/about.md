@@ -125,40 +125,55 @@ a:hover {
 
 
 <div class="about-section">
-<h3>🏅 Awards & Recognitions</h3>
-<ul>
-  <li>🏆 Best Paper Award - RFCoN 2025 (Track 2, Session II)</li>
-  <li>🥈 2nd Prize – Hack-A-Roo Fall 2022 (Entrepreneur Track)</li>
-  <li>🥉 3rd Prize – Hack-A-Roo Fall 2021 (CS/IT Track)</li>
-  <li>🎓 Dean’s International Scholar Award – UMKC</li>
-  <li>🎓 CS Balaji Memorial Travel Grant – 2025</li>
-  <li>🏅 Honor Society – IEEE-HKN (Eta Kappa Nu)</li>
-</ul>
+  <h3>Awards and Recognitions</h3>
+  <ul>
+    <li>Best Paper Award, IEEE RFCoN 2025 (Track 2, Session II)</li>
+    <li>Dean’s International Scholar Award, University of Missouri–Kansas City</li>
+    <li>IEEE–Eta Kappa Nu (HKN) Honor Society Membership</li>
+    <li>CS Balaji Memorial Travel Grant, 2025</li>
+    <li>Second Place, Hack-A-Roo Fall 2022 (Entrepreneur Track)</li>
+    <li>Third Place, Hack-A-Roo Fall 2021 (CS/IT Track)</li>
+  </ul>
 </div>
 
-<div class="about-section">
-<h3>Certifications & Skills</h3>
-<ul>
-  <li>Product Management – CII</li>
-  <li>AI & MLOps – Duke University, CDAC</li>
-  <li>Statistical Learning – Stanford University</li>
-  <li>Math for ML – Imperial College London</li>
-</ul>
-<p> Hands-on with: Verilog, Yosys, OpenSTA, Docker, TensorFlow Lite, PyTorch, Scikit-learn</p>
-</div>
 
 <div class="about-section">
-<h3>Let’s Connect</h3>
-<ul>
-  <li>GitHub: <a href="https://github.com/srsapireddy" target="_blank">github.com/srsapireddy</a></li>
-  <li>Google Scholar: <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank">My Publications</a></li>
-  <li>ORCID: <a href="https://orcid.org/0000-0002-9898-6810" target="_blank">0000-0002-9898-6810</a></li>
-  <li>Medium: <a href="https://medium.com/@srsapireddy" target="_blank">Blog Articles</a></li>
-  <li>OpenReview: <a href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank">View Profile</a></li>
-</ul>
+  <h3>Professional Development and Technical Expertise</h3>
+
+  <ul>
+    <li>Professional training in product management and technology commercialization (CII)</li>
+    <li>Advanced training in artificial intelligence and MLOps (Duke University, CDAC)</li>
+    <li>Statistical learning and machine learning foundations (Stanford University)</li>
+    <li>Mathematics for machine learning (Imperial College London)</li>
+  </ul>
+
+  <p>
+    Technical expertise includes hardware design and analysis using Verilog, Yosys, and OpenSTA,
+    as well as machine learning development and deployment using PyTorch, TensorFlow Lite,
+    Docker, and Scikit-learn.
+  </p>
 </div>
 
+
 <div class="about-section">
-<h3> Open to Collaborate</h3>
-<p>If you're working on <strong>efficient edge AI</strong>, <strong>signal intelligence</strong>, or <strong>hardware-software co-design</strong>, let’s connect. I’m always open to collaboration, mentorship, and research discussions.</p>
+  <h3>Professional Profiles</h3>
+  <ul>
+    <li>GitHub: <a href="https://github.com/srsapireddy" target="_blank">github.com/srsapireddy</a></li>
+    <li>Google Scholar: <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank">Publication Profile</a></li>
+    <li>ORCID: <a href="https://orcid.org/0000-0002-9898-6810" target="_blank">0000-0002-9898-6810</a></li>
+    <li>OpenReview: <a href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank">Reviewer Profile</a></li>
+    <li>Medium: <a href="https://medium.com/@srsapireddy" target="_blank">Technical Blog</a></li>
+  </ul>
 </div>
+
+
+<div class="about-section">
+  <h3>Open to Collaboration</h3>
+  <p>
+    I welcome research collaborations in <strong>efficient edge AI</strong>,
+    <strong>signal intelligence</strong>, and <strong>hardware–software co-design</strong>.
+    I am also interested in mentoring students and engaging in interdisciplinary
+    research discussions.
+  </p>
+</div>
+
