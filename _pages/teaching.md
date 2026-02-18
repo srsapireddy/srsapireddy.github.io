@@ -29,7 +29,7 @@ toc: false
 
 </style>
 
-<h2>Role Progression</h2>
+<h2>Academic Role Progression/h2>
 <div class="career-cards">
   <div class="card">Teaching Assistant<br><small>Sep 2022 – Dec 2024 · UMKC</small></div>
   <div class="card">Adjunct Instructor<br><small>Apr 2023 – May 2025 · UMKC</small></div>
@@ -47,7 +47,8 @@ toc: false
 .card small { display: block; font-weight: normal; font-size: 0.85em; margin-top: 6px; }
 </style>
 
-## Courses (Course-by-Course, Semester-by-Semester)
+## Courses Taught
+
 <span class="badge2"> Assistant Professor · Illinois State University (Spring 2026 - Present)</span>  
 
 <div style="display:flex; align-items:flex-start; gap:20px;">
@@ -57,7 +58,7 @@ toc: false
     <h3>EGR 130 - Intro to Engineering Design (3 Credit Hours) – Illinois State University</h3>
 
     <p>
-      <strong>Focus:</strong> Guest instruction supporting foundational engineering concepts and course activities. <br>
+      <strong>Focus:</strong> Guest instruction supporting foundational engineering concepts and design activities.<br>
       <strong>Status:</strong> Guest instruction. <br>
       <strong>Semester:</strong><br>
       <span class="badge2">Spring 2026 · Assistant Professor · 22 students</span>
@@ -82,30 +83,21 @@ toc: false
 </div>
 
 
+<h3>Planned Courses – Illinois State University</h3>
+<ul>
+  <li><strong>ELE 260:</strong> Probability and Statistics for Engineers</li>
+  <li><strong>ELE 265:</strong> Signals and Systems</li>
+  <li><strong>ELE 280:</strong> Communication Systems</li>
+</ul>
+<p>
+  These courses are planned assignments beginning Spring 2026, subject to departmental scheduling.
+</p>
 
-
-### ELE 260 - Probability & Statistics for Engineers (3 Credit Hours) — Illinois State University
-**Focus:** Probability theory, random variables, statistical inference, and engineering applications. <br>
-**Status:** Planned course assignment, subject to departmental scheduling. <br>
-**Semesters:**  
-<span class="badge2">Planned · Starting Spring 2026</span>  
-
-### ELE 265 - Signals and Systems (3 Credit Hours) — Illinois State University
-**Focus:** Continuous- and discrete-time signals, linear time-invariant systems, convolution, Fourier analysis, and system representations. <br>
-**Status:** Planned course assignment, subject to departmental scheduling. <br>
-**Semesters:**  
-<span class="badge2">Planned · Starting Spring 2026</span>  
-
-### ELE 280 - Communication Systems (3 Credit Hours) — Illinois State University
-**Focus:** Analog and digital communication systems, modulation techniques, noise analysis, and system performance metrics. <br>
-**Status:** Planned course assignment, subject to departmental scheduling. <br>
-**Semesters:**  
-<span class="badge2">Planned · Starting Spring 2026</span>  
 
 
 <span class="badge">Instructor · University of Missouri - Kansas City (Spring 2023 - Fall 2025)</span>  
 ### ENGR E&C 216 - Engineering Computation (4 Credit Hours) - University of Missouri-Kansas City
-**Focus:** C programming for engineering (control structures, modular design, numerics). <br>
+<strong>Focus:</strong> Engineering problem-solving using C and Python, algorithmic thinking, and structured programming.<br>
 **Syllabus:** Students learn to develop, analyze and synthesize structured computer programs for solving engineering problems in the Python and C languages, This course also provides an introduction to algorithms and data structures. This course is available by approval of the degree program committee if transfer credit has been approved for one of the listed programming languages. <br>
 **Semesters taught:**  
 <span class="badge">Spring 2025 · Adjunct Instructor · 49 students</span>  
@@ -139,7 +131,7 @@ toc: false
 <span class="badge">Fall 2025 · Instructor (Full-Time) · 9 students</span>
 
 
-## Additional Teaching (as GTA)
+## Additional Teaching (Graduate Teaching Assistant Experience)
 
 ### ENGR E&C 442/5542 - Introduction to VLSI Design (3 Credit Hours) 
 <span class="badge">Fall 2022 · Graduate Teaching Assistant · 25 students</span> <br>
