@@ -219,92 +219,181 @@ author_profile: true
   </div>
 </div>
 
-
 <div class="resume-section">
-<h2>👨‍🏫 Teaching Experience</h2>
-<div class="table-wrapper">
-<table class="resume-table">
-<thead><tr><th>Role</th><th>Institution</th><th>Courses</th></tr></thead>
-<tbody>
-<tr><td>Assistant Professor</td><td>Illinois State University, Normal, Illinois</td><td>ELE 260, 265, 280</td></tr>
-<tr><td>Instructor</td><td>University of Missouri-Kansas City</td><td>ENGR E&C 226, 216, 447/5547, 402/5533</td></tr>
-<tr><td>Teaching Assistant</td><td>University of Missouri-Kansas City</td><td>ENGR E&C 442/5542, 228, 402/403</td></tr>
-</tbody>
-</table>
-</div>
-</div>
-
-<div class="resume-section">
-<h2>🔬 Research & Industry Experience</h2>
-<div class="table-wrapper">
-<table class="resume-table">
-<thead><tr><th>Role</th><th>Organization</th><th>Duration</th></tr></thead>
-<tbody>
-<tr><td>Research Assistant</td><td>Missouri Institute of Defense and Energy</td><td>09/2021 – 07/2022</td></tr>
-<tr><td>AI Intern</td><td>SmartBridge Pvt. Ltd.</td><td>06/2020 – 07/2020</td></tr>
-</tbody>
-</table>
-</div>
-</div>
-
-<div class="resume-section">
-<h2>🧠 Research Interests</h2>
-<ul class="resume-list">
-  <li>VLSI Design</li>
-  <li>Hardware Description Language (HDL)</li>
-  <li>RF Signal Processing</li>
-  <li>Embedded Systems</li>
-  <li>System-on-Chip (SoC)</li>
-  <li>Hardware-Aware AI</li>
-</ul>
+  <h2>Research and Industry Experience</h2>
+  <div class="table-wrapper">
+    <table class="resume-table">
+      <thead>
+        <tr>
+          <th>Role</th>
+          <th>Organization</th>
+          <th>Duration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Research Assistant</td>
+          <td>Missouri Institute of Defense and Energy</td>
+          <td>09/2021 – 07/2022</td>
+        </tr>
+        <tr>
+          <td>AI Intern</td>
+          <td>SmartBridge Pvt. Ltd.</td>
+          <td>06/2020 – 07/2020</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 
-<div class="resume-section">
-<h2>📚 Selected Publications</h2>
-<div class="table-wrapper">
-<table class="resume-table">
-<thead><tr><th>Title</th><th>Venue</th><th>Status</th></tr></thead>
-<tbody>
-<tr><td>🏆 Re-Visiting R: Statistical Envelope Analysis (Best Paper Award)</td><td>RFCoN 2025</td><td>Awarded</td></tr>
-<tr><td>Custom Activations in LSTM</td><td>GLSVLSI 2025</td><td>Published</td></tr>
-<tr><td>Linear Approx. Activations</td><td>Memories Journal</td><td>Published</td></tr>
-<tr><td>Review: Crosstalk Polymorphic Circuits</td><td>Memories Journal</td><td>Published</td></tr>
-</tbody>
-</table>
-</div>
-<p>👉 See full list on <a href="/publications/">Publications</a></p>
-</div>
 
 <div class="resume-section">
-<h2>🏆 Awards & Honors</h2>
-<div class="table-wrapper">
-<table class="resume-table">
-<thead><tr><th>Award</th><th>By</th><th>Year</th></tr></thead>
-<tbody>
-<tr><td>CS Balaji Krithikaivasan Travel Grant</td><td>UMKC</td><td>2025</td></tr>
-<tr><td>Dean’s International Scholar Award</td><td>UMKC</td><td>2015–2016</td></tr>
-<tr><td>2nd Prize – UMKC Hackathon</td><td>UMKC</td><td>Fall 2022</td></tr>
-<tr><td>3rd Prize – UMKC Hackathon</td><td>UMKC</td><td>Fall 2021</td></tr>
-<tr><td>IEEE-HKN Honor Society</td><td>UMKC</td><td>Ongoing</td></tr>
-</tbody>
-</table>
-</div>
+  <h2>Research Interests</h2>
+  <ul class="resume-list">
+    <li>Hardware-aware and low-power machine learning for edge-intelligent systems</li>
+    <li>RF signal processing and modulation classification using statistical and time–frequency methods</li>
+    <li>Design of hardware-efficient neural networks, including custom and piecewise-linear activation functions</li>
+    <li>VLSI system design and physical implementation for energy-efficient computing</li>
+    <li>Embedded and system-on-chip (SoC) architectures for signal intelligence applications</li>
+  </ul>
 </div>
 
+
 <div class="resume-section">
-<h2>📜 Certifications</h2>
-<div class="table-wrapper">
-<table class="resume-table">
-<thead><tr><th>Certification</th><th>Issued By</th><th>Year</th></tr></thead>
-<tbody>
-<tr><td>Product Management</td><td>CII</td><td>2023</td></tr>
-<tr><td>Accelerated AI</td><td>CDAC</td><td>2022</td></tr>
-<tr><td>Statistical Learning</td><td>Stanford University</td><td>2017</td></tr>
-<tr><td>MLOps</td><td>Duke University</td><td>2023</td></tr>
-<tr><td>Math for ML</td><td>Imperial College London</td><td>2023</td></tr>
-</tbody>
-</table>
+  <h2>Selected Publications</h2>
+  <div class="table-wrapper">
+    <table class="resume-table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Venue</th>
+          <th>Year / Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Re-Visiting R: Statistical Envelope Analysis for RF Modulation Classification
+            (Best Paper Award)
+          </td>
+          <td>IEEE RFCoN</td>
+          <td>2025</td>
+        </tr>
+        <tr>
+          <td>
+            Hardware-Efficient Custom Activation Functions for LSTM Networks
+          </td>
+          <td>ACM GLSVLSI</td>
+          <td>2025</td>
+        </tr>
+        <tr>
+          <td>
+            Piecewise Linear Approximation of Activation Functions for Neural Networks
+          </td>
+          <td>MDPI Memories</td>
+          <td>2024</td>
+        </tr>
+        <tr>
+          <td>
+            A Review of Crosstalk-Based Polymorphic Circuit Design
+          </td>
+          <td>MDPI Memories</td>
+          <td>2024</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>
+    <a href="/publications/">View complete list of publications</a>
+  </p>
 </div>
+
+
+<div class="resume-section">
+  <h2>Awards and Honors</h2>
+  <div class="table-wrapper">
+    <table class="resume-table">
+      <thead>
+        <tr>
+          <th>Award</th>
+          <th>Organization</th>
+          <th>Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>CS Balaji Krithikaivasan Travel Grant</td>
+          <td>University of Missouri–Kansas City</td>
+          <td>2025</td>
+        </tr>
+        <tr>
+          <td>Dean’s International Scholar Award</td>
+          <td>University of Missouri–Kansas City</td>
+          <td>2015–2016</td>
+        </tr>
+        <tr>
+          <td>IEEE–Eta Kappa Nu (HKN) Honor Society Member</td>
+          <td>University of Missouri–Kansas City</td>
+          <td>Inducted</td>
+        </tr>
+        <tr>
+          <td>Second Place, UMKC Hack-A-Roo (Entrepreneur Track)</td>
+          <td>University of Missouri–Kansas City</td>
+          <td>Fall 2022</td>
+        </tr>
+        <tr>
+          <td>Third Place, UMKC Hack-A-Roo (CS/IT Track)</td>
+          <td>University of Missouri–Kansas City</td>
+          <td>Fall 2021</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
+
+
+<div class="resume-section">
+  <h2>Professional Development</h2>
+  <div class="table-wrapper">
+    <table class="resume-table">
+      <thead>
+        <tr>
+          <th>Program</th>
+          <th>Institution</th>
+          <th>Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Product Management</td>
+          <td>Confederation of Indian Industry (CII)</td>
+          <td>2023</td>
+        </tr>
+        <tr>
+          <td>Accelerated Artificial Intelligence</td>
+          <td>Centre for Development of Advanced Computing (CDAC)</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>Statistical Learning</td>
+          <td>Stanford University</td>
+          <td>2017</td>
+        </tr>
+        <tr>
+          <td>MLOps</td>
+          <td>Duke University</td>
+          <td>2023</td>
+        </tr>
+        <tr>
+          <td>Mathematics for Machine Learning</td>
+          <td>Imperial College London</td>
+          <td>2023</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
 
 </div>
