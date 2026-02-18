@@ -84,7 +84,7 @@ toc: false
   Assistant Professor · Illinois State University (Spring 2026 – Present)
 </span>
 
-<br><br>
+<br>
 
 <div style="display:flex; align-items:flex-start; gap:20px;">
 
