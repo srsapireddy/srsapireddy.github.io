@@ -58,7 +58,7 @@ a:hover {
 </style>
 
 <div class="about-section">
-  <h3>👨‍🎓 About Me</h3>
+  <h3>About Me</h3>
   <p>
     <strong>Srinivas Rahul Sapireddy, Ph.D.</strong> is an Assistant Professor in the College of Engineering at
     <strong>Illinois State University (ISU)</strong>. His research focuses on low-power, hardware-aware artificial intelligence,
