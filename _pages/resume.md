@@ -85,40 +85,6 @@ author_profile: true
 <div class="resume-container">
 
 <div class="resume-section">
-<h2>🎓 Education</h2>
-<div class="table-wrapper">
-<table class="resume-table">
-<thead><tr><th>Degree</th><th>Institution</th><th>Duration</th></tr></thead>
-<tbody>
-<tr><td>Planned – Masters in Management (Gies College of Business)
-            </td><td>University of Illinois – Urbana-Champaign
-            <img src="/images/UIUC.jpg" alt="UIUC Logo" class="logo">
-            </td><td>(Starting Spring 2026)</td></tr>
-<tr><td>Mini - MBA (Farmer School of Business)
-</td><td>Miami University
-<img src="/images/miami.png" alt="Miami Logo" class="logo">
-</td><td>In Progress - January 2026</td></tr>
-<tr><td>Ph.D. in Electrical & Computer Engineering</td><td>University of Missouri – Kansas City
-<img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
-</td><td>09/2021 – 07/2025</td></tr>
-<tr><td>Advanced Diploma in AI</td><td>National Institute of Electronics & Information Technology, Calicut, Kerala
-<img src="/images/CALICUT.png" alt="NIELIT Logo" class="logo">
-</td><td>09/2019 – 01/2020</td></tr>
-<tr><td>M.S. in Computer Science</td><td>University of Illinois – Springfield
-<img src="/images/UIS.png" alt="UIS Logo" class="logo">
-</td><td>01/2017 – 12/2018</td></tr>
-<tr><td>M.S. in Electrical Engineering</td><td>University of Missouri – Kansas City
-<img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
-</td><td>01/2015 – 12/2016</td></tr>
-<tr><td>B.Tech in ECE</td><td>GRIET – Jawaharlal Nehru Technological University, Hyderabad
-<img src="/images/GRIET.png" alt="GRIET Logo" class="logo">
-</td><td>09/2011 – 04/2014</td></tr>
-</tbody>
-</table>
-</div>
-</div>
-
-<div class="resume-section">
   <h2>Education</h2>
   <div class="table-wrapper">
     <table class="resume-table">
@@ -202,6 +168,51 @@ author_profile: true
             <img src="/images/CALICUT.png" alt="NIELIT Logo" class="logo">
           </td>
           <td>09/2019 – 01/2020</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="resume-section">
+  <h2>Teaching Experience</h2>
+  <div class="table-wrapper">
+    <table class="resume-table">
+      <thead>
+        <tr>
+          <th>Role</th>
+          <th>Institution</th>
+          <th>Courses</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Assistant Professor (Tenure-Track)</td>
+          <td>Illinois State University, Normal, IL</td>
+          <td>
+            ELE 260 (Probability and Statistics for Engineers), 
+            ELE 265 (Signals and Systems), 
+            ELE 280 (Communication Systems)
+          </td>
+        </tr>
+        <tr>
+          <td>Instructor</td>
+          <td>University of Missouri–Kansas City</td>
+          <td>
+            ENGR E&amp;C 216 (Engineering Computation), 
+            ENGR E&amp;C 226 (Logic Design), 
+            ENGR E&amp;C 447/5547, 
+            ENGR E&amp;C 402/5533
+          </td>
+        </tr>
+        <tr>
+          <td>Teaching Assistant</td>
+          <td>University of Missouri–Kansas City</td>
+          <td>
+            ENGR E&amp;C 442/5542, 
+            ENGR E&amp;C 228, 
+            ENGR E&amp;C 402/403
+          </td>
         </tr>
       </tbody>
     </table>
