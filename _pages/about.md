@@ -93,16 +93,36 @@ a:hover {
 
 
 <div class="about-section">
-<h3>📚 Publications</h3>
-<ul>
-  <li>📄 IEEE SoutheastCon Conference, Alabama, USA 2026 (Accepted): <em>Bin - Based R Statistical Envelope</em></li>
-  <li>📄 ACM GLSVLSI Conference, New Orleans, USA 2025: <em>Custom Activation Functions for LSTMs</em></li>
-  <li>📄 IEEE RFCoN Conference, 2025: <em>Statistical Envelope Analysis for RF Signals</em></li>
-  <li>📖 MDPI Electronics Journal: Adversarial Detection in IoT</li>
-  <li>📖 Memories Journal: <em>Piecewise Approximations for Neural Networks</em></li>
-</ul>
-<p>📎 <a href="/publications/">View my complete list of publications →</a></p>
+  <h3>Publications</h3>
+
+  <ul>
+    <li>
+      IEEE SoutheastCon, Alabama, USA, 2026 (accepted): 
+      <em>Bin-Based R-Value Statistical Envelope Analysis for RF Modulation Classification</em>
+    </li>
+    <li>
+      ACM GLSVLSI, New Orleans, USA, 2025: 
+      <em>Hardware-Efficient Custom Activation Functions for LSTM Networks</em>
+    </li>
+    <li>
+      IEEE RFCoN, 2025: 
+      <em>Statistical Envelope Analysis for Lightweight RF Signal Classification</em>
+    </li>
+    <li>
+      MDPI Electronics, 2025: 
+      <em>Early Detection of Adversarial Examples in Internet-of-Things Networks</em>
+    </li>
+    <li>
+      MDPI Memories, 2024: 
+      <em>Piecewise Linear Approximations of Activation Functions for Neural Networks</em>
+    </li>
+  </ul>
+
+  <p>
+    <a href="/publications/">View complete list of publications</a>
+  </p>
 </div>
+
 
 <div class="about-section">
 <h3>🏅 Awards & Recognitions</h3>
