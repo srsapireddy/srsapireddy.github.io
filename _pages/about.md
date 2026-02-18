@@ -117,24 +117,24 @@ a:hover {
 </div>
 
 <div class="about-section">
-<h3>📜 Certifications & Skills</h3>
+<h3>Certifications & Skills</h3>
 <ul>
-  <li>📊 Product Management – CII</li>
-  <li>🤖 AI & MLOps – Duke University, CDAC</li>
-  <li>📈 Statistical Learning – Stanford University</li>
-  <li>📐 Math for ML – Imperial College London</li>
+  <li>Product Management – CII</li>
+  <li>AI & MLOps – Duke University, CDAC</li>
+  <li>Statistical Learning – Stanford University</li>
+  <li>Math for ML – Imperial College London</li>
 </ul>
 <p> Hands-on with: Verilog, Yosys, OpenSTA, Docker, TensorFlow Lite, PyTorch, Scikit-learn</p>
 </div>
 
 <div class="about-section">
-<h3>🌐 Let’s Connect</h3>
+<h3>Let’s Connect</h3>
 <ul>
-  <li>🔗 GitHub: <a href="https://github.com/srsapireddy" target="_blank">github.com/srsapireddy</a></li>
-  <li>🎓 Google Scholar: <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank">My Publications</a></li>
-  <li>🧬 ORCID: <a href="https://orcid.org/0000-0002-9898-6810" target="_blank">0000-0002-9898-6810</a></li>
-  <li>📝 Medium: <a href="https://medium.com/@srsapireddy" target="_blank">Blog Articles</a></li>
-  <li>📄 OpenReview: <a href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank">View Profile</a></li>
+  <li>GitHub: <a href="https://github.com/srsapireddy" target="_blank">github.com/srsapireddy</a></li>
+  <li>Google Scholar: <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank">My Publications</a></li>
+  <li>ORCID: <a href="https://orcid.org/0000-0002-9898-6810" target="_blank">0000-0002-9898-6810</a></li>
+  <li>Medium: <a href="https://medium.com/@srsapireddy" target="_blank">Blog Articles</a></li>
+  <li>OpenReview: <a href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank">View Profile</a></li>
 </ul>
 </div>
 
