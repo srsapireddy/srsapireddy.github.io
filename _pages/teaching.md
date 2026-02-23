@@ -113,6 +113,14 @@ toc: false
 
 <hr>
 
+<h3>GENED XXX – Introduction to Cybersecurity and Digital Privacy (3 Credit Hours) — Illinois State University</h3>
+<strong>Focus:</strong> Foundations of cybersecurity and digital privacy, including personal data protection, cyber risks in everyday technologies, ethical responsibility, and informed digital citizenship.<br>
+<strong>Status:</strong> GenEd course proposal submitted via CourseDog; pending review and approval.<br>
+<strong>Semesters:</strong><br>
+<span class="badge2">Submitted · Under Review</span>
+
+<hr>
+
 <h3>ELE 260 – Probability & Statistics for Engineers (3 Credit Hours) — Illinois State University</h3>
 <strong>Focus:</strong> Probability theory, random variables, statistical inference, and engineering applications.<br>
 <strong>Status:</strong> Planned course assignment, subject to departmental scheduling.<br>
