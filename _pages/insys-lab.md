@@ -48,12 +48,12 @@ author_profile: true
   margin-bottom: 0.4rem;
 }
 
-a {
+.about-section a {
   color: var(--blue);
   font-weight: 500;
 }
 
-a:hover {
+.about-section a:hover {
   text-decoration: underline;
 }
 </style>
@@ -61,7 +61,7 @@ a:hover {
 <div class="about-section">
   <h3>Overview</h3>
   <p>
-    The <strong>Intelligent Neural & Signal Systems Laboratory (INSys Lab)</strong> is a faculty-led research group focused on the development of
+    The <strong>Intelligent Neural &amp; Signal Systems Laboratory (INSys Lab)</strong> is a faculty-led research group focused on the development of
     efficient, interpretable, and hardware-aware methods for intelligent signal processing and edge computing systems.
     The lab explores how principles from signal processing, statistical learning, and neural systems can be integrated to enable real-time intelligence
     under constraints on power, latency, and memory.
@@ -170,7 +170,7 @@ a:hover {
 </div>
 
 <div class="about-section">
-  <h3>Footer</h3>
+  <h3>Institutional Affiliation</h3>
   <p>
     INSys Lab is a faculty-led research group within the Department of Electrical Engineering at Illinois State University.
   </p>
