@@ -107,12 +107,19 @@ toc: false
 </div>
 
 <div class="service-card">
+  <h4>Hardware-Aware Characterization of RF Transmission Lines and Antenna Arrays</h4>
+  <p><strong>Role:</strong> Principal Investigator</p>
+  <p><strong>Sponsor:</strong> College of Engineering University Research Grant (CEG URG)</p>
+  <p><strong>Focus:</strong> Research development project focused on analytical modeling, numerical analysis, and experimental RF measurement, with emphasis on hardware-aware characterization and undergraduate research mentoring.</p>
+  <p><span class="badge">Proposal Submitted</span></p>
+</div>
+
+<div class="service-card">
   <h4>Energy and Compute-Aware Edge Systems: A Pilot Framework</h4>
   <p><strong>Role:</strong> Lead Principal Investigator</p>
   <p><strong>Sponsor:</strong> IIN</p>
   <p><strong>Focus:</strong> Pilot-scale research on energy and compute-aware edge systems, emphasizing lightweight intelligence, hardware-aware design, student involvement, and applied edge deployment.</p>
   <p><span class="badge">Pending Submission</span></p>
 </div>
-
 
 </div>
