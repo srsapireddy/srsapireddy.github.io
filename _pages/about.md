@@ -156,7 +156,7 @@ author_profile: true
 
 <div class="grid-2">
   <div class="section">
-    <h3>👤 About Me</h3>
+    <h3>About Me</h3>
     <div class="divider"></div>
     <p>
       I integrate signal processing, lightweight machine learning, and hardware-efficient architectures to enable accurate and energy-efficient computation
@@ -168,7 +168,7 @@ author_profile: true
   </div>
 
   <div class="section">
-    <h3>🧭 Open to Collaboration</h3>
+    <h3>Open to Collaboration</h3>
     <div class="divider"></div>
     <p>
       I welcome research collaborations in efficient edge AI, signal intelligence, and hardware–software co-design.
@@ -178,7 +178,7 @@ author_profile: true
 </div>
 
 <div class="section">
-  <h3>🔬 Research and Technical Focus</h3>
+  <h3>Research and Technical Focus</h3>
   <div class="divider"></div>
   <ul>
     <li>Hardware-aware and low-power machine learning for edge-intelligent systems</li>
@@ -195,7 +195,7 @@ author_profile: true
 
 <div class="grid-2">
   <div class="section">
-    <h3>📚 Selected Publications</h3>
+    <h3>Selected Publications</h3>
     <div class="divider"></div>
     <ul>
       <li>IEEE SoutheastCon, Alabama, USA, 2026 (accepted): <em>Bin-Based R-Value Statistical Envelope Analysis for RF Modulation Classification</em></li>
@@ -208,7 +208,7 @@ author_profile: true
   </div>
 
   <div class="section">
-    <h3>🏆 Awards and Recognitions</h3>
+    <h3>Awards and Recognitions</h3>
     <div class="divider"></div>
     <ul>
       <li>Best Paper Award, IEEE RFCoN 2025 (Track 2, Session II)</li>
@@ -222,7 +222,7 @@ author_profile: true
 </div>
 
 <div class="section">
-  <h3>🧰 Professional Development and Technical Expertise</h3>
+  <h3>Professional Development and Technical Expertise</h3>
   <div class="divider"></div>
   <ul>
     <li>Professional training in product management and technology commercialization (CII)</li>
@@ -238,7 +238,7 @@ author_profile: true
 </div>
 
 <div class="section">
-  <h3>🔗 Professional Profiles</h3>
+  <h3>Professional Profiles</h3>
   <div class="divider"></div>
   <ul>
     <li>GitHub: <a href="https://github.com/srsapireddy" target="_blank" rel="noopener">github.com/srsapireddy</a></li>
