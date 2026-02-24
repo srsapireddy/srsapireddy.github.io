@@ -146,7 +146,7 @@ toc: false
 </div>
 
 <div class="section">
-  <h3>📈 Role Progression</h3>
+  <h3>Role Progression</h3>
   <div class="divider"></div>
 
   <div class="role-grid">
@@ -170,7 +170,7 @@ toc: false
 </div>
 
 <div class="section">
-  <h3>🎓 Courses Taught</h3>
+  <h3>Courses Taught</h3>
   <div class="divider"></div>
   <p class="meta">
     <span class="badge isu">Assistant Professor · Illinois State University (Spring 2026 – Present)</span>
@@ -179,7 +179,7 @@ toc: false
 </div>
 
 <div class="section">
-  <h3>🏫 Illinois State University</h3>
+  <h3>Illinois State University</h3>
   <div class="divider"></div>
 
   <div class="grid-2">
@@ -238,7 +238,7 @@ toc: false
 </div>
 
 <div class="section">
-  <h3>🏛️ University of Missouri–Kansas City</h3>
+  <h3>University of Missouri–Kansas City</h3>
   <div class="divider"></div>
 
   <div class="course-title">ENGR E&amp;C 216 – Engineering Computation (4 Credit Hours)</div>
@@ -286,7 +286,7 @@ toc: false
 </div>
 
 <div class="section">
-  <h3>🧑‍🏫 Additional Teaching (Graduate Teaching Assistant)</h3>
+  <h3>Additional Teaching (Graduate Teaching Assistant)</h3>
   <div class="divider"></div>
 
   <div class="course-title">ENGR E&amp;C 442/5542 – Introduction to VLSI Design (3 Credit Hours)</div>
