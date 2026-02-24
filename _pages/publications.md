@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: ""
 layout: single
 permalink: /publications/
 author_profile: true
@@ -270,7 +270,7 @@ function copyCitation(id) {
 </div>
 
 <div class="section">
-  <h3>✅ Published / Accepted</h3>
+  <h3>Published / Accepted</h3>
   <div class="divider"></div>
 
   <div class="pub-grid">
@@ -469,7 +469,7 @@ function copyCitation(id) {
 </div>
 
 <div class="section">
-  <h3>🚧 Work In Progress</h3>
+  <h3>Work In Progress</h3>
   <div class="divider"></div>
 
   <div class="pub-grid">
@@ -528,7 +528,7 @@ function copyCitation(id) {
 </div>
 
 <div class="section">
-  <h3>🏛️ Publication Venues</h3>
+  <h3>Publication Venues</h3>
   <div class="divider"></div>
   <div class="logo-row">
     <a href="https://www.ieee.org/" target="_blank" rel="noopener"><img src="/images/IEEE.jpg" alt="IEEE Logo"></a>
