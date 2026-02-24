@@ -1,5 +1,5 @@
 ---
-title: "Resume Overview"
+title: ""
 layout: single
 permalink: /resume/
 author_profile: true
