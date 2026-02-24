@@ -122,12 +122,4 @@ toc: false
   <p><span class="badge">Pending Submission</span></p>
 </div>
 
-<div class="service-card">
-  <h4>Hardware-Aware Characterization of RF Transmission Lines and Antenna Arrays</h4>
-  <p><strong>Role:</strong> Principal Investigator</p>
-  <p><strong>Sponsor:</strong> College of Engineering University Research Grant (CEG URG)</p>
-  <p><strong>Focus:</strong> Research development project focused on analytical modeling, numerical analysis, and experimental RF measurement, with emphasis on hardware-aware characterization and undergraduate research mentoring.</p>
-  <p><span class="badge">Proposal Submitted</span></p>
-</div>
-
 </div>
