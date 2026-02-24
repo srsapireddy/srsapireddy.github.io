@@ -1,3 +1,10 @@
+---
+title: "INSys Lab"
+layout: single
+permalink: /insys-lab/
+author_profile: true
+---
+
 # INSys Lab  
 ### Intelligent Neural & Signal Systems Laboratory
 
