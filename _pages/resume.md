@@ -7,176 +7,248 @@ author_profile: true
 
 <style>
 :root {
-  --accent: #1a73e8;
-  --bg: #fdfefe;
-  --section-bg: #ffffff;
-  --text: #1a1a1a;
-  --border: #e0ecf8;
-  --table-bg: #ffffff;
+  --blue: #1a73e8;
+  --blue2: #0b5bd3;
+  --bg: #ffffff;
+  --muted: #5f6368;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --shadow2: 0 2px 10px rgba(0, 0, 0, 0.05);
+  --radius: 16px;
+  --radius2: 12px;
+  --border: rgba(26,115,232,0.18);
+  --tableBorder: #e6eef7;
 }
 
-.resume-container {
-  max-width: 1000px;
-  margin: auto;
-  font-family: 'Segoe UI', sans-serif;
+/* Hero */
+.page-hero {
+  border-radius: var(--radius);
+  padding: 2rem 1.8rem;
+  margin-bottom: 1.6rem;
+  background: linear-gradient(135deg, #e9f3ff 0%, #ffffff 60%);
+  border: 1px solid rgba(26,115,232,0.25);
+  box-shadow: var(--shadow);
+}
+.page-hero h2 {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.9rem;
+  line-height: 1.2;
+  color: #0b1f44;
+}
+.page-hero p {
+  margin: 0.55rem 0 0 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+  max-width: 85ch;
 }
 
-.resume-section {
-  margin: 2rem 0;
-  padding: 1rem 1.5rem;
-  background: var(--section-bg);
-  border-radius: 8px;
+/* Buttons */
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.1rem;
 }
-
-.resume-section h2 {
-  font-size: 1.4rem;
-  color: var(--accent);
-  border-left: 4px solid var(--accent);
-  padding-left: 0.6rem;
-  margin-bottom: 1rem;
-}
-
-.table-wrapper {
-  border: 2px solid var(--accent);
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.9rem;
   border-radius: 10px;
-  background-color: var(--table-bg);
-  padding: 1rem;
-  overflow-x: auto;
+  background: var(--blue);
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 700;
+  box-shadow: var(--shadow2);
+  transition: 0.2s ease-in-out;
+}
+.btn-link:hover {
+  background: var(--blue2);
+  transform: translateY(-1px);
+}
+.btn-link.secondary {
+  background: #ffffff;
+  color: var(--blue) !important;
+  border: 1px solid rgba(26,115,232,0.25);
 }
 
-.resume-table {
+/* Cards */
+.section {
+  border: 1px solid var(--border);
+  background: var(--bg);
+  padding: 1.35rem 1.5rem;
+  margin-bottom: 1.3rem;
+  border-radius: var(--radius2);
+  box-shadow: var(--shadow2);
+  transition: 0.25s ease-in-out;
+}
+.section:hover {
+  background: #fbfdff;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+.section h3 {
+  margin-top: 0;
+  color: #0b1f44;
+  font-size: 1.15rem;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+.section p { color: #202124; }
+
+/* Divider */
+.divider { height: 1px; background: rgba(26,115,232,0.12); margin: 0.3rem 0 0.9rem 0; }
+
+/* Grid */
+.grid-2 { display: grid; grid-template-columns: 1fr; gap: 1.3rem; }
+@media (min-width: 900px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
+
+/* Tables */
+.table-wrap {
+  border: 1px solid rgba(26,115,232,0.20);
+  border-radius: 14px;
+  background: #ffffff;
+  overflow-x: auto;
+  box-shadow: var(--shadow2);
+}
+table.resume-table {
   width: 100%;
   border-collapse: collapse;
+  min-width: 720px;
 }
-
 .resume-table th,
 .resume-table td {
-  border: 1px solid var(--border);
-  padding: 0.7rem;
+  border-bottom: 1px solid var(--tableBorder);
+  padding: 0.85rem 0.8rem;
   text-align: left;
-  font-size: 0.95rem;
+  font-size: 0.96rem;
+  vertical-align: top;
 }
-
 .resume-table th {
-  background: #e8f4ff;
-  color: var(--accent);
+  background: #f3f8ff;
+  color: #0b1f44;
+  font-weight: 800;
+  border-bottom: 1px solid rgba(26,115,232,0.18);
 }
+.resume-table tr:hover td { background: #fbfdff; }
 
-.resume-table tr:hover {
-  background: #f9fdff;
-}
-
-.resume-table .logo {
-  max-height: 30px;
-  max-width: 60px;
+/* Logos */
+.logo {
+  max-height: 28px;
+  max-width: 70px;
   object-fit: contain;
   float: right;
-  margin-left: 6px;
+  margin-left: 10px;
+  opacity: 0.95;
 }
 
-  
+/* Lists */
 .resume-list {
   list-style: disc;
-  padding-left: 1.4rem;
-  line-height: 1.6;
+  padding-left: 1.2rem;
+  line-height: 1.65;
+  margin: 0.25rem 0 0 0;
 }
+
+/* Scoped links */
+.section a, .page-hero a {
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+.section a:hover, .page-hero a:hover { text-decoration: underline; }
 </style>
 
-<div class="resume-container">
-
-<div class="resume-section">
-  <h2>Education</h2>
-  <div class="table-wrapper">
-    <table class="resume-table">
-      <thead>
-        <tr>
-          <th>Degree</th>
-          <th>Institution</th>
-          <th>Duration</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Ph.D. in Electrical and Computer Engineering</td>
-          <td>
-            University of Missouri–Kansas City
-            <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
-          </td>
-          <td>09/2021 – 07/2025</td>
-        </tr>
-        <tr>
-          <td>M.S. in Computer Science</td>
-          <td>
-            University of Illinois–Springfield
-            <img src="/images/UIS.png" alt="UIS Logo" class="logo">
-          </td>
-          <td>01/2017 – 12/2018</td>
-        </tr>
-        <tr>
-          <td>M.S. in Electrical Engineering</td>
-          <td>
-            University of Missouri–Kansas City
-            <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
-          </td>
-          <td>01/2015 – 12/2016</td>
-        </tr>
-        <tr>
-          <td>B.Tech. in Electronics and Communication Engineering</td>
-          <td>
-            GRIET, Jawaharlal Nehru Technological University, Hyderabad
-            <img src="/images/GRIET.png" alt="GRIET Logo" class="logo">
-          </td>
-          <td>09/2011 – 04/2014</td>
-        </tr>
-      </tbody>
-    </table>
+<div class="page-hero">
+  <h2>Resume Overview</h2>
+  <p>
+    A concise overview of education, experience, teaching, and selected outputs. For publications and additional details,
+    please refer to the linked pages.
+  </p>
+  <div class="hero-links">
+    <a class="btn-link" href="/publications/">Publications</a>
+    <a class="btn-link secondary" href="/teaching/">Teaching</a>
+    <a class="btn-link secondary" href="/insys-lab/">INSys Lab</a>
   </div>
 </div>
 
-<div class="resume-section">
-  <h2>Professional Development</h2>
-  <div class="table-wrapper">
-    <table class="resume-table">
-      <thead>
-        <tr>
-          <th>Program</th>
-          <th>Institution</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Master of Management</td>
-          <td>
-            University of Illinois Urbana–Champaign (Gies College of Business)
-            <img src="/images/UIUC.jpg" alt="UIUC Logo" class="logo">
-          </td>
-          <td>Expected start: Spring 2026</td>
-        </tr>
-        <tr>
-          <td>Mini-MBA (Farmer School of Business)</td>
-          <td>
-            Miami University
-            <img src="/images/miami.png" alt="Miami University Logo" class="logo">
-          </td>
-          <td>In progress (January 2026)</td>
-        </tr>
-        <tr>
-          <td>Advanced Diploma in Artificial Intelligence</td>
-          <td>
-            National Institute of Electronics and Information Technology (NIELIT), Calicut
-            <img src="/images/CALICUT.png" alt="NIELIT Logo" class="logo">
-          </td>
-          <td>09/2019 – 01/2020</td>
-        </tr>
-      </tbody>
-    </table>
+<div class="grid-2">
+  <div class="section">
+    <h3>🎓 Education</h3>
+    <div class="divider"></div>
+    <div class="table-wrap">
+      <table class="resume-table">
+        <thead>
+          <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ph.D. in Electrical and Computer Engineering</td>
+            <td>University of Missouri–Kansas City <img src="/images/UMKC.png" alt="UMKC Logo" class="logo"></td>
+            <td>09/2021 – 07/2025</td>
+          </tr>
+          <tr>
+            <td>M.S. in Computer Science</td>
+            <td>University of Illinois–Springfield <img src="/images/UIS.png" alt="UIS Logo" class="logo"></td>
+            <td>01/2017 – 12/2018</td>
+          </tr>
+          <tr>
+            <td>M.S. in Electrical Engineering</td>
+            <td>University of Missouri–Kansas City <img src="/images/UMKC.png" alt="UMKC Logo" class="logo"></td>
+            <td>01/2015 – 12/2016</td>
+          </tr>
+          <tr>
+            <td>B.Tech. in Electronics and Communication Engineering</td>
+            <td>GRIET, Jawaharlal Nehru Technological University, Hyderabad <img src="/images/GRIET.png" alt="GRIET Logo" class="logo"></td>
+            <td>09/2011 – 04/2014</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>📘 Professional Development</h3>
+    <div class="divider"></div>
+    <div class="table-wrap">
+      <table class="resume-table">
+        <thead>
+          <tr>
+            <th>Program</th>
+            <th>Institution</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Master of Management</td>
+            <td>University of Illinois Urbana–Champaign (Gies College of Business) <img src="/images/UIUC.jpg" alt="UIUC Logo" class="logo"></td>
+            <td>Expected start: Spring 2026</td>
+          </tr>
+          <tr>
+            <td>Mini-MBA (Farmer School of Business)</td>
+            <td>Miami University <img src="/images/miami.png" alt="Miami University Logo" class="logo"></td>
+            <td>In progress (January 2026)</td>
+          </tr>
+          <tr>
+            <td>Advanced Diploma in Artificial Intelligence</td>
+            <td>National Institute of Electronics and Information Technology (NIELIT), Calicut <img src="/images/CALICUT.png" alt="NIELIT Logo" class="logo"></td>
+            <td>09/2019 – 01/2020</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
 
-<div class="resume-section">
-  <h2>Teaching Experience</h2>
-  <div class="table-wrapper">
+<div class="section">
+  <h3>🧑‍🏫 Teaching Experience</h3>
+  <div class="divider"></div>
+  <div class="table-wrap">
     <table class="resume-table">
       <thead>
         <tr>
@@ -189,79 +261,69 @@ author_profile: true
         <tr>
           <td>Assistant Professor (Tenure-Track)</td>
           <td>Illinois State University, Normal, IL</td>
-          <td>
-            ELE 260 (Probability and Statistics for Engineers), 
-            ELE 265 (Signals and Systems), 
-            ELE 280 (Communication Systems)
-          </td>
+          <td>ELE 260, ELE 265, ELE 280</td>
         </tr>
         <tr>
           <td>Instructor</td>
           <td>University of Missouri–Kansas City</td>
-          <td>
-            ENGR E&amp;C 216 (Engineering Computation), 
-            ENGR E&amp;C 226 (Logic Design), 
-            ENGR E&amp;C 447/5547, 
-            ENGR E&amp;C 402/5533
-          </td>
+          <td>ENGR E&amp;C 216, ENGR E&amp;C 226, ENGR E&amp;C 447/5547, ENGR E&amp;C 402/5533</td>
         </tr>
         <tr>
           <td>Teaching Assistant</td>
           <td>University of Missouri–Kansas City</td>
-          <td>
-            ENGR E&amp;C 442/5542, 
-            ENGR E&amp;C 228, 
-            ENGR E&amp;C 402/403
-          </td>
+          <td>ENGR E&amp;C 442/5542, ENGR E&amp;C 228, ENGR E&amp;C 402/403</td>
         </tr>
       </tbody>
     </table>
   </div>
 </div>
 
-<div class="resume-section">
-  <h2>Research and Industry Experience</h2>
-  <div class="table-wrapper">
-    <table class="resume-table">
-      <thead>
-        <tr>
-          <th>Role</th>
-          <th>Organization</th>
-          <th>Duration</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Research Assistant</td>
-          <td>Missouri Institute of Defense and Energy</td>
-          <td>09/2021 – 07/2022</td>
-        </tr>
-        <tr>
-          <td>AI Intern</td>
-          <td>SmartBridge Pvt. Ltd.</td>
-          <td>06/2020 – 07/2020</td>
-        </tr>
-      </tbody>
-    </table>
+<div class="grid-2">
+  <div class="section">
+    <h3>🔬 Research and Industry Experience</h3>
+    <div class="divider"></div>
+    <div class="table-wrap">
+      <table class="resume-table">
+        <thead>
+          <tr>
+            <th>Role</th>
+            <th>Organization</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Research Assistant</td>
+            <td>Missouri Institute of Defense and Energy</td>
+            <td>09/2021 – 07/2022</td>
+          </tr>
+          <tr>
+            <td>AI Intern</td>
+            <td>SmartBridge Pvt. Ltd.</td>
+            <td>06/2020 – 07/2020</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>🎯 Research Interests</h3>
+    <div class="divider"></div>
+    <ul class="resume-list">
+      <li>Hardware-aware and low-power machine learning for edge-intelligent systems</li>
+      <li>RF signal processing and modulation classification using statistical and time–frequency methods</li>
+      <li>Design of hardware-efficient neural networks, including custom and piecewise-linear activation functions</li>
+      <li>VLSI system design and physical implementation for energy-efficient computing</li>
+      <li>Embedded and system-on-chip (SoC) architectures for signal intelligence applications</li>
+    </ul>
   </div>
 </div>
 
-
-<div class="resume-section">
-  <h2>Research Interests</h2>
-  <ul class="resume-list">
-    <li>Hardware-aware and low-power machine learning for edge-intelligent systems</li>
-    <li>RF signal processing and modulation classification using statistical and time–frequency methods</li>
-    <li>Design of hardware-efficient neural networks, including custom and piecewise-linear activation functions</li>
-    <li>VLSI system design and physical implementation for energy-efficient computing</li>
-    <li>Embedded and system-on-chip (SoC) architectures for signal intelligence applications</li>
-  </ul>
-</div>
-
-
-<div class="resume-section">
-  <h2>Selected Publications</h2>
-  <div class="table-wrapper">
+<div class="section">
+  <h3>📄 Selected Publications</h3>
+  <div class="divider"></div>
+  <div class="table-wrap">
     <table class="resume-table">
       <thead>
         <tr>
@@ -272,47 +334,37 @@ author_profile: true
       </thead>
       <tbody>
         <tr>
-          <td>
-            Re-Visiting R: Statistical Envelope Analysis for RF Modulation Classification
-            (Best Paper Award)
-          </td>
+          <td>Re-Visiting R: Statistical Envelope Analysis for RF Modulation Classification (Best Paper Award)</td>
           <td>IEEE RFCoN</td>
           <td>2025</td>
         </tr>
         <tr>
-          <td>
-            Hardware-Efficient Custom Activation Functions for LSTM Networks
-          </td>
+          <td>Hardware-Efficient Custom Activation Functions for LSTM Networks</td>
           <td>ACM GLSVLSI</td>
           <td>2025</td>
         </tr>
         <tr>
-          <td>
-            Piecewise Linear Approximation of Activation Functions for Neural Networks
-          </td>
+          <td>Piecewise Linear Approximation of Activation Functions for Neural Networks</td>
           <td>MDPI Memories</td>
           <td>2024</td>
         </tr>
         <tr>
-          <td>
-            A Review of Crosstalk-Based Polymorphic Circuit Design
-          </td>
+          <td>A Review of Crosstalk-Based Polymorphic Circuit Design</td>
           <td>MDPI Memories</td>
           <td>2024</td>
         </tr>
       </tbody>
     </table>
   </div>
-
-  <p>
+  <p style="margin-top:0.9rem;">
     <a href="/publications/">View complete list of publications</a>
   </p>
 </div>
 
-
-<div class="resume-section">
-  <h2>Awards and Honors</h2>
-  <div class="table-wrapper">
+<div class="section">
+  <h3>🏆 Awards and Honors</h3>
+  <div class="divider"></div>
+  <div class="table-wrap">
     <table class="resume-table">
       <thead>
         <tr>
@@ -352,10 +404,10 @@ author_profile: true
   </div>
 </div>
 
-
-<div class="resume-section">
-  <h2>Professional Development</h2>
-  <div class="table-wrapper">
+<div class="section">
+  <h3>🧾 Certifications and Training</h3>
+  <div class="divider"></div>
+  <div class="table-wrap">
     <table class="resume-table">
       <thead>
         <tr>
@@ -393,7 +445,4 @@ author_profile: true
       </tbody>
     </table>
   </div>
-</div>
-
-
 </div>
