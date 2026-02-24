@@ -99,22 +99,18 @@ author_profile: true
 /* Divider */
 .divider { height: 1px; background: rgba(26,115,232,0.12); margin: 0.3rem 0 0.9rem 0; }
 
-/* Grid */
-.grid-2 { display: grid; grid-template-columns: 1fr; gap: 1.3rem; }
-@media (min-width: 900px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
-
 /* Tables */
 .table-wrap {
   border: 1px solid rgba(26,115,232,0.20);
   border-radius: 14px;
   background: #ffffff;
-  overflow-x: auto;
+  overflow-x: auto; /* enables horizontal scroll on small screens instead of cutting */
   box-shadow: var(--shadow2);
 }
 table.resume-table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 720px;
+  min-width: 900px; /* ensures the table doesn't squeeze and "cut" columns */
 }
 .resume-table th,
 .resume-table td {
@@ -172,76 +168,74 @@ table.resume-table {
   </div>
 </div>
 
-<div class="grid-2">
-  <div class="section">
-    <h3>🎓 Education</h3>
-    <div class="divider"></div>
-    <div class="table-wrap">
-      <table class="resume-table">
-        <thead>
-          <tr>
-            <th>Degree</th>
-            <th>Institution</th>
-            <th>Duration</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Ph.D. in Electrical and Computer Engineering</td>
-            <td>University of Missouri–Kansas City <img src="/images/UMKC.png" alt="UMKC Logo" class="logo"></td>
-            <td>09/2021 – 07/2025</td>
-          </tr>
-          <tr>
-            <td>M.S. in Computer Science</td>
-            <td>University of Illinois–Springfield <img src="/images/UIS.png" alt="UIS Logo" class="logo"></td>
-            <td>01/2017 – 12/2018</td>
-          </tr>
-          <tr>
-            <td>M.S. in Electrical Engineering</td>
-            <td>University of Missouri–Kansas City <img src="/images/UMKC.png" alt="UMKC Logo" class="logo"></td>
-            <td>01/2015 – 12/2016</td>
-          </tr>
-          <tr>
-            <td>B.Tech. in Electronics and Communication Engineering</td>
-            <td>GRIET, Jawaharlal Nehru Technological University, Hyderabad <img src="/images/GRIET.png" alt="GRIET Logo" class="logo"></td>
-            <td>09/2011 – 04/2014</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+<div class="section">
+  <h3>🎓 Education</h3>
+  <div class="divider"></div>
+  <div class="table-wrap">
+    <table class="resume-table">
+      <thead>
+        <tr>
+          <th>Degree</th>
+          <th>Institution</th>
+          <th>Duration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ph.D. in Electrical and Computer Engineering</td>
+          <td>University of Missouri–Kansas City <img src="/images/UMKC.png" alt="UMKC Logo" class="logo"></td>
+          <td>09/2021 – 07/2025</td>
+        </tr>
+        <tr>
+          <td>M.S. in Computer Science</td>
+          <td>University of Illinois–Springfield <img src="/images/UIS.png" alt="UIS Logo" class="logo"></td>
+          <td>01/2017 – 12/2018</td>
+        </tr>
+        <tr>
+          <td>M.S. in Electrical Engineering</td>
+          <td>University of Missouri–Kansas City <img src="/images/UMKC.png" alt="UMKC Logo" class="logo"></td>
+          <td>01/2015 – 12/2016</td>
+        </tr>
+        <tr>
+          <td>B.Tech. in Electronics and Communication Engineering</td>
+          <td>GRIET, Jawaharlal Nehru Technological University, Hyderabad <img src="/images/GRIET.png" alt="GRIET Logo" class="logo"></td>
+          <td>09/2011 – 04/2014</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
+</div>
 
-  <div class="section">
-    <h3>📘 Professional Development</h3>
-    <div class="divider"></div>
-    <div class="table-wrap">
-      <table class="resume-table">
-        <thead>
-          <tr>
-            <th>Program</th>
-            <th>Institution</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Master of Management</td>
-            <td>University of Illinois Urbana–Champaign (Gies College of Business) <img src="/images/UIUC.jpg" alt="UIUC Logo" class="logo"></td>
-            <td>Expected start: Spring 2026</td>
-          </tr>
-          <tr>
-            <td>Mini-MBA (Farmer School of Business)</td>
-            <td>Miami University <img src="/images/miami.png" alt="Miami University Logo" class="logo"></td>
-            <td>In progress (January 2026)</td>
-          </tr>
-          <tr>
-            <td>Advanced Diploma in Artificial Intelligence</td>
-            <td>National Institute of Electronics and Information Technology (NIELIT), Calicut <img src="/images/CALICUT.png" alt="NIELIT Logo" class="logo"></td>
-            <td>09/2019 – 01/2020</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+<div class="section">
+  <h3>📘 Professional Development</h3>
+  <div class="divider"></div>
+  <div class="table-wrap">
+    <table class="resume-table">
+      <thead>
+        <tr>
+          <th>Program</th>
+          <th>Institution</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Master of Management</td>
+          <td>University of Illinois Urbana–Champaign (Gies College of Business) <img src="/images/UIUC.jpg" alt="UIUC Logo" class="logo"></td>
+          <td>Expected start: Spring 2026</td>
+        </tr>
+        <tr>
+          <td>Mini-MBA (Farmer School of Business)</td>
+          <td>Miami University <img src="/images/miami.png" alt="Miami University Logo" class="logo"></td>
+          <td>In progress (January 2026)</td>
+        </tr>
+        <tr>
+          <td>Advanced Diploma in Artificial Intelligence</td>
+          <td>National Institute of Electronics and Information Technology (NIELIT), Calicut <img src="/images/CALICUT.png" alt="NIELIT Logo" class="logo"></td>
+          <td>09/2019 – 01/2020</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
 
@@ -278,46 +272,44 @@ table.resume-table {
   </div>
 </div>
 
-<div class="grid-2">
-  <div class="section">
-    <h3>🔬 Research and Industry Experience</h3>
-    <div class="divider"></div>
-    <div class="table-wrap">
-      <table class="resume-table">
-        <thead>
-          <tr>
-            <th>Role</th>
-            <th>Organization</th>
-            <th>Duration</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Research Assistant</td>
-            <td>Missouri Institute of Defense and Energy</td>
-            <td>09/2021 – 07/2022</td>
-          </tr>
-          <tr>
-            <td>AI Intern</td>
-            <td>SmartBridge Pvt. Ltd.</td>
-            <td>06/2020 – 07/2020</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+<div class="section">
+  <h3>🔬 Research and Industry Experience</h3>
+  <div class="divider"></div>
+  <div class="table-wrap">
+    <table class="resume-table">
+      <thead>
+        <tr>
+          <th>Role</th>
+          <th>Organization</th>
+          <th>Duration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Research Assistant</td>
+          <td>Missouri Institute of Defense and Energy</td>
+          <td>09/2021 – 07/2022</td>
+        </tr>
+        <tr>
+          <td>AI Intern</td>
+          <td>SmartBridge Pvt. Ltd.</td>
+          <td>06/2020 – 07/2020</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
+</div>
 
-  <div class="section">
-    <h3>🎯 Research Interests</h3>
-    <div class="divider"></div>
-    <ul class="resume-list">
-      <li>Hardware-aware and low-power machine learning for edge-intelligent systems</li>
-      <li>RF signal processing and modulation classification using statistical and time–frequency methods</li>
-      <li>Design of hardware-efficient neural networks, including custom and piecewise-linear activation functions</li>
-      <li>VLSI system design and physical implementation for energy-efficient computing</li>
-      <li>Embedded and system-on-chip (SoC) architectures for signal intelligence applications</li>
-    </ul>
-  </div>
+<div class="section">
+  <h3>🎯 Research Interests</h3>
+  <div class="divider"></div>
+  <ul class="resume-list">
+    <li>Hardware-aware and low-power machine learning for edge-intelligent systems</li>
+    <li>RF signal processing and modulation classification using statistical and time–frequency methods</li>
+    <li>Design of hardware-efficient neural networks, including custom and piecewise-linear activation functions</li>
+    <li>VLSI system design and physical implementation for energy-efficient computing</li>
+    <li>Embedded and system-on-chip (SoC) architectures for signal intelligence applications</li>
+  </ul>
 </div>
 
 <div class="section">
