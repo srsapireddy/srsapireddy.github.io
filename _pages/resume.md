@@ -169,7 +169,7 @@ table.resume-table {
 </div>
 
 <div class="section">
-  <h3>🎓 Education</h3>
+  <h3>Education</h3>
   <div class="divider"></div>
   <div class="table-wrap">
     <table class="resume-table">
@@ -207,7 +207,7 @@ table.resume-table {
 </div>
 
 <div class="section">
-  <h3>📘 Professional Development</h3>
+  <h3>Professional Development</h3>
   <div class="divider"></div>
   <div class="table-wrap">
     <table class="resume-table">
@@ -240,7 +240,7 @@ table.resume-table {
 </div>
 
 <div class="section">
-  <h3>🧑‍🏫 Teaching Experience</h3>
+  <h3>Teaching Experience</h3>
   <div class="divider"></div>
   <div class="table-wrap">
     <table class="resume-table">
@@ -273,7 +273,7 @@ table.resume-table {
 </div>
 
 <div class="section">
-  <h3>🔬 Research and Industry Experience</h3>
+  <h3>Research and Industry Experience</h3>
   <div class="divider"></div>
   <div class="table-wrap">
     <table class="resume-table">
@@ -301,7 +301,7 @@ table.resume-table {
 </div>
 
 <div class="section">
-  <h3>🎯 Research Interests</h3>
+  <h3>Research Interests</h3>
   <div class="divider"></div>
   <ul class="resume-list">
     <li>Hardware-aware and low-power machine learning for edge-intelligent systems</li>
@@ -313,7 +313,7 @@ table.resume-table {
 </div>
 
 <div class="section">
-  <h3>📄 Selected Publications</h3>
+  <h3>Selected Publications</h3>
   <div class="divider"></div>
   <div class="table-wrap">
     <table class="resume-table">
@@ -354,7 +354,7 @@ table.resume-table {
 </div>
 
 <div class="section">
-  <h3>🏆 Awards and Honors</h3>
+  <h3>Awards and Honors</h3>
   <div class="divider"></div>
   <div class="table-wrap">
     <table class="resume-table">
@@ -397,7 +397,7 @@ table.resume-table {
 </div>
 
 <div class="section">
-  <h3>🧾 Certifications and Training</h3>
+  <h3>Certifications and Training</h3>
   <div class="divider"></div>
   <div class="table-wrap">
     <table class="resume-table">
