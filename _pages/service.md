@@ -57,7 +57,7 @@ toc: false
 <div class="service-grid">
 
 <div class="service-card">
-<h4>Assistant Professor Search Committee</h4>
+<h4>Faculty Search Committee</h4>
 <p><strong>Institution:</strong> Illinois State University</p>
 <p><strong>Focus:</strong> Faculty recruitment, candidate evaluation, and participation in departmental hiring decisions.</p>
 <p><span class="badge2">Active</span></p>
