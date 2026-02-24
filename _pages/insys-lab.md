@@ -187,7 +187,7 @@ author_profile: true
 </div>
 
 <div class="about-section">
-  <h3>📌 Overview</h3>
+  <h3>Overview</h3>
   <div class="divider"></div>
   <p>
     INSys Lab adopts a systems-level research perspective that spans algorithm design, evaluation methodology, and deployment-aware considerations.
@@ -197,7 +197,7 @@ author_profile: true
 
 <div class="grid-2">
   <div class="about-section">
-    <h3>🧠 Research Focus</h3>
+    <h3>Research Focus</h3>
     <div class="divider"></div>
     <ul>
       <li>Intelligent RF signal analysis and modulation classification</li>
@@ -209,7 +209,7 @@ author_profile: true
   </div>
 
   <div class="about-section">
-    <h3>🛠️ Tools and Platforms</h3>
+    <h3>Tools and Platforms</h3>
     <div class="divider"></div>
     <ul>
       <li>Python and MATLAB for signal analysis and algorithm development</li>
@@ -221,7 +221,7 @@ author_profile: true
 </div>
 
 <div class="about-section">
-  <h3>🧪 Research Philosophy and Methodology</h3>
+  <h3>Research Philosophy and Methodology</h3>
   <div class="divider"></div>
   <p>
     INSys Lab emphasizes principled and deployment-conscious research methodologies. Rather than relying exclusively on large or opaque models,
@@ -237,7 +237,7 @@ author_profile: true
 
 <div class="grid-2">
   <div class="about-section">
-    <h3>🎓 Student Involvement and Mentoring</h3>
+    <h3>Student Involvement and Mentoring</h3>
     <div class="divider"></div>
     <p>
       INSys Lab provides hands-on research opportunities for undergraduate and graduate students through independent study,
@@ -249,7 +249,7 @@ author_profile: true
   </div>
 
   <div class="about-section">
-    <h3>📚 Scholarly Output</h3>
+    <h3>Scholarly Output</h3>
     <div class="divider"></div>
     <p>
       Research conducted within INSys Lab contributes to peer-reviewed journal articles, conference publications, and technical reports
@@ -262,7 +262,7 @@ author_profile: true
 </div>
 
 <div class="about-section">
-  <h3>🤝 Collaboration and Engagement</h3>
+  <h3>Collaboration and Engagement</h3>
   <div class="divider"></div>
   <p>
     INSys Lab welcomes collaboration with academic researchers, industry partners, and government laboratories interested in intelligent signal systems,
@@ -272,7 +272,7 @@ author_profile: true
 
 <div class="grid-2">
   <div class="about-section">
-    <h3>🚧 Lab Status</h3>
+    <h3>Lab Status</h3>
     <div class="divider"></div>
     <p>
       INSys Lab is currently in its establishment phase. Research activities are conducted through simulation-driven workflows and prototype-based
@@ -281,7 +281,7 @@ author_profile: true
   </div>
 
   <div class="about-section">
-    <h3>✉️ Contact</h3>
+    <h3>Contact</h3>
     <div class="divider"></div>
     <p>
       Prospective students and collaborators are encouraged to reach out via email.
@@ -290,7 +290,7 @@ author_profile: true
 </div>
 
 <div class="about-section">
-  <h3>🏛️ Institutional Affiliation</h3>
+  <h3>Institutional Affiliation</h3>
   <div class="divider"></div>
   <p>
     INSys Lab is a faculty-led research group within the Department of Electrical Engineering at Illinois State University.
