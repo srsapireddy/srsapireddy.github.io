@@ -1,5 +1,5 @@
 ---
-title: "INSys Lab"
+title: ""
 subtitle: "Intelligent Neural & Signal Systems Laboratory"
 layout: single
 permalink: /insys-lab/
