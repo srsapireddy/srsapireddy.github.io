@@ -1,5 +1,5 @@
 ---
-title: "Teaching & Instruction"
+title: ""
 layout: single
 permalink: /teaching/
 toc: false
