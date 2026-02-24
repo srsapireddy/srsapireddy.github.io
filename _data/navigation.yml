@@ -6,6 +6,8 @@ main:
     url: /resume/
   - title: "Publications"
     url: /publications/
+  - title: "INSys Lab"
+    url: /insys-lab/
   - title: "Teaching & Instruction"
     url: /teaching/
   - title: "Service"
