@@ -247,9 +247,6 @@ author_profile: true
   </div>
 </div>
 
-  </div>
-</div>
-
 <div class="section">
   <h3>Professional Service</h3>
   <div class="divider"></div>
