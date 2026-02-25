@@ -355,7 +355,7 @@ function copyCitation(id) {
       <div class="pub-card">
         Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
         <em>“Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders”</em><br>
-        <a href="[https://www.sciencedirect.com/science/article/pii/S2773064623000713](https://www.mdpi.com/2079-9292/14/15/3015)" target="_blank" rel="noopener">MDPI Electronics</a>, 2025.
+        <a href="https://www.mdpi.com/2079-9292/14/15/3015" target="_blank" rel="noopener">MDPI Electronics</a>, 2025.
         <a href="https://doi.org/10.3390/electronics14153015" target="_blank" rel="noopener">[DOI]</a>
         <span class="status published">Published</span><br>
         <a href="/images/MDPI_1.pdf" target="_blank" rel="noopener" title="Download PDF">📥</a>
