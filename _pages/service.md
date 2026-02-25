@@ -241,7 +241,7 @@ author_profile: true
       <p><strong>Role:</strong> Lead and coordinate outreach visits to middle schools and high schools to promote engineering education, STEM awareness, and pathways into the College of Engineering.</p>
       <p><strong>Activities:</strong> Organizing and conducting school visits, coordinating faculty and student participation, and supporting the development and deployment of hands-on STEM engagement kits for interactive demonstrations.</p>
       <p><strong>Focus:</strong> Pre-college STEM exposure, recruitment pipeline development, and community engagement.</p>
-      <span class="pill appointed">Appointed Role</span>
+      <span class="pill active">Active</span>
     </div>
 
   </div>
