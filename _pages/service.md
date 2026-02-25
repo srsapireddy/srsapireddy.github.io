@@ -1,5 +1,5 @@
 ---
-title: "Service"
+title: ""
 layout: single
 permalink: /service/
 toc: false
@@ -216,7 +216,7 @@ author_profile: true
 </div>
 
 <div class="section">
-  <h3>🏛️ Institutional Service</h3>
+  <h3>Institutional Service</h3>
   <div class="divider"></div>
 
   <div class="service-grid">
@@ -239,7 +239,7 @@ author_profile: true
 </div>
 
 <div class="section">
-  <h3>🌐 Professional Service</h3>
+  <h3>Professional Service</h3>
   <div class="divider"></div>
 
   <div class="service-grid">
@@ -262,7 +262,7 @@ author_profile: true
 </div>
 
 <div class="section">
-  <h3>🧪 Research Service and Leadership</h3>
+  <h3>Research Service and Leadership</h3>
   <div class="divider"></div>
 
   <div class="service-grid">
