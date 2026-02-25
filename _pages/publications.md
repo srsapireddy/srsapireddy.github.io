@@ -278,7 +278,7 @@ function copyCitation(id) {
     <div class="pub-entry">
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-        <em>"On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”</a><br>
+        <em>"On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”</em><br>
         <a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank" rel="noopener">The 35th edition of ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA.
         <a href="https://doi.org/10.1145/3716368.3735217" target="_blank" rel="noopener">[DOI]</a>
         <span class="status published">Published</span><br>
