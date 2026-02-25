@@ -311,7 +311,7 @@ function copyCitation(id) {
     <div class="pub-entry">
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
-        <em><a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank" rel="noopener">"Simplifying Activations with Linear Approximations in Neural Networks"</a></em><br>
+        <em>"Simplifying Activations with Linear Approximations in Neural Networks"</em><br>
          <a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank" rel="noopener"> Memories - Materials, Devices, Circuits and Systems (Elsevier)</a>, 2025.
         <a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank" rel="noopener">[DOI]</a>
         <span class="status published">Published</span><br>
@@ -339,7 +339,7 @@ function copyCitation(id) {
     <div class="pub-entry">
       <div class="pub-card">
         Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
-        <em><a href="https://www.sciencedirect.com/science/article/pii/S2773064623000713" target="_blank" rel="noopener">“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</a></em><br>
+        <em>“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</em><br>
         <a href="https://www.sciencedirect.com/science/article/pii/S2773064623000713" target="_blank" rel="noopener"> Memories - Materials, Devices, Circuits and Systems (Elsevier)</a>, 2023.
         <a href="https://doi.org/10.1016/j.memori.2023.100094" target="_blank" rel="noopener">[DOI]</a>
         <span class="status published">Published</span><br>
@@ -354,7 +354,7 @@ function copyCitation(id) {
     <div class="pub-entry">
       <div class="pub-card">
         Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-        <em><a href="https://www.mdpi.com/2079-9292/14/15/3015" target="_blank" rel="noopener">“Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders”</a></em><br>
+        <em>“Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders”</em><br>
         <a href="[https://www.sciencedirect.com/science/article/pii/S2773064623000713](https://www.mdpi.com/2079-9292/14/15/3015)" target="_blank" rel="noopener">MDPI Electronics</a>, 2025.
         <a href="https://doi.org/10.3390/electronics14153015" target="_blank" rel="noopener">[DOI]</a>
         <span class="status published">Published</span><br>
@@ -369,7 +369,7 @@ function copyCitation(id) {
     <div class="pub-entry">
       <div class="pub-card">
         <strong>Sapireddy, Srinivas Rahul</strong>, P. N. Tejaswi, Y. M. Sandeep, K. Hari Krishna<br>
-        <em><a href="https://ijettjournal.org/archive/ijett-v34p252" target="_blank" rel="noopener">“Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer”</a></em><br>
+        <em>“Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer”</em><br>
         <a href="https://ijettjournal.org/archive/ijett-v34p252" target="_blank" rel="noopener">International Journal of Engineering Trends and Technology</a>, vol. 34, no. 6, pp. 256–259, April 2016.
         <a href="https://doi.org/10.14445/22315381/IJETT-V34P252" target="_blank" rel="noopener">[DOI]</a>
         <span class="status published">Published</span>
