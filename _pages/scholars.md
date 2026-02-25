@@ -1,5 +1,5 @@
 ---
-title: "Scholars"
+title: ""
 layout: single
 permalink: /scholars/
 author_profile: true
@@ -255,7 +255,7 @@ toc: false
 </div>
 
 <div class="section">
-  <h3>🧭 Research Lead</h3>
+  <h3>Research Lead</h3>
   <div class="divider"></div>
 
   <div class="sch-grid">
@@ -297,7 +297,7 @@ toc: false
 </div>
 
 <div class="section">
-  <h3>🎓 Current Students</h3>
+  <h3>Current Students</h3>
   <div class="divider"></div>
 
   <div class="sch-grid">
@@ -341,7 +341,7 @@ toc: false
 </div>
 
 <div class="section">
-  <h3>🎓 Alumni</h3>
+  <h3>Alumni</h3>
   <div class="divider"></div>
 
   <div class="sch-grid">
