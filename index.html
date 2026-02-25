@@ -4,388 +4,464 @@ layout: default
 ---
 
 <style>
+:root{
+  --blue:#1a73e8;
+  --blue2:#0b5bd3;
+  --isu:#DC143C;
+  --bg:#ffffff;
+  --muted:#5f6368;
+  --text:#0b1f44;
+  --shadow:0 10px 30px rgba(0,0,0,0.08);
+  --shadow2:0 2px 10px rgba(0,0,0,0.05);
+  --radius:16px;
+  --radius2:12px;
+  --border:rgba(26,115,232,0.18);
+}
 
-  .globe-wrap {
-    width: 300px;          /* set width */
-    height: 300px;         /* set height */
-    margin: 0 auto;        /* centers the whole box in page */
-    display: flex;
-    align-items: center;   /* vertical centering */
-    justify-content: center; /* horizontal centering */
-    overflow: hidden;
-    position: relative;
-  }
-  .globe-wrap iframe,
-  .globe-wrap canvas,
-  .globe-wrap > div {
-    width: 100% !important;
-    height: 100% !important;
-  }
-  
-  .custom-home {
-    max-width: 1000px;
-    margin: 2rem auto;
-    padding: 2rem;
-    border-radius: 16px;
-    background: linear-gradient(135deg, #ffffff, #f8f9fc);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-    animation: fadeIn 1.2s ease-in-out;
-  }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
+/* Container */
+.home-wrap{
+  max-width: 1050px;
+  margin: 1.6rem auto 2rem auto;
+  padding: 0 1rem;
+  animation: fadeIn 0.9s ease-in-out;
+}
 
-  .custom-home h1 {
-    font-size: 2.6rem;
-    color: #1a73e8;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
-  }
+/* Hero */
+.home-hero{
+  border-radius:var(--radius);
+  padding:2rem 1.8rem;
+  background:linear-gradient(135deg,#e9f3ff 0%, #ffffff 60%);
+  border:1px solid rgba(26,115,232,0.25);
+  box-shadow:var(--shadow);
+}
+.hero-top{
+  display:flex;
+  gap:1.6rem;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.hero-avatar{
+  width:92px;
+  height:92px;
+  border-radius:50%;
+  background:#fff;
+  box-shadow:0 8px 20px rgba(0,0,0,0.12);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+.hero-avatar img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.hero-title{
+  flex:1;
+  min-width:260px;
+}
+.hero-title h1{
+  margin:0;
+  font-size:2.1rem;
+  line-height:1.15;
+  color:var(--text);
+}
+.hero-title .subtitle{
+  margin-top:0.55rem;
+  color:var(--muted);
+  font-size:1.05rem;
+}
+.hero-meta{
+  margin-top:0.85rem;
+  color:#202124;
+  font-size:1rem;
+}
+.hero-meta .isu{
+  color:var(--isu);
+  font-weight:800;
+}
+.hero-meta .umkc{
+  color:#1E90FF;
+  font-weight:800;
+}
 
-  .custom-home img.profile {
-    width: 130px;
-    border-radius: 50%;
-    margin-bottom: 1.2rem;
-    box-shadow: 0 0 10px rgba(0,0,0,0.15);
-  }
+/* Chips */
+.chips{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.55rem;
+  margin-top:1.1rem;
+}
+.chip{
+  display:inline-flex;
+  align-items:center;
+  gap:0.35rem;
+  padding:0.35rem 0.7rem;
+  border-radius:999px;
+  background:#ffffff;
+  border:1px solid rgba(26,115,232,0.22);
+  box-shadow:var(--shadow2);
+  font-size:0.92rem;
+  color:#0b1f44;
+  font-weight:900;
+}
+.chip.isu{ border-color:rgba(220,20,60,0.30); color:#7a0b1f; }
+.chip.link{
+  background:var(--blue);
+  border-color:transparent;
+  color:#fff;
+  text-decoration:none;
+}
+.chip.link:hover{ background:var(--blue2); }
 
-  .custom-section {
-    background: #ffffff;
-    border: 2px solid #1a73e8;
-    border-radius: 14px;
-    padding: 1.5rem;
-    margin: 2rem 0;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-    transition: 0.3s;
-  }
+/* Sections */
+.section{
+  margin-top:1.25rem;
+  border:1px solid var(--border);
+  background:var(--bg);
+  padding:1.35rem 1.5rem;
+  border-radius:var(--radius2);
+  box-shadow:var(--shadow2);
+  transition:0.25s ease-in-out;
+}
+.section:hover{
+  background:#fbfdff;
+  transform:translateY(-2px);
+  box-shadow:var(--shadow);
+}
+.section h2{
+  margin:0 0 0.35rem 0;
+  font-size:1.25rem;
+  color:var(--text);
+  display:flex;
+  align-items:center;
+  gap:0.55rem;
+}
+.divider{ height:1px; background:rgba(26,115,232,0.12); margin:0.55rem 0 1rem 0; }
+.section p{ color:#202124; }
+.section ul{
+  margin:0.35rem 0 0 1.15rem;
+}
+.section li{ margin:0.25rem 0; }
 
-  .custom-section:hover {
-    background: #f1faff;
-  }
+/* Two-column panel (LinkedIn + Globe) */
+.two-col{
+  display:grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap:1.2rem;
+  align-items:start;
+}
+@media (max-width: 900px){
+  .two-col{ grid-template-columns:1fr; }
+}
 
-  .custom-section h2 {
-    color: #1a73e8;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 0.4rem;
-    margin-bottom: 1rem;
-  }
+/* Globe wrapper */
+.globe-wrap{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  border-radius:12px;
+  border:1px solid rgba(26,115,232,0.18);
+  box-shadow:var(--shadow2);
+  background:#fff;
+}
+.globe-wrap iframe,
+.globe-wrap canvas,
+.globe-wrap > div{
+  width:100% !important;
+  height:100% !important;
+}
+@media (max-width: 768px){
+  .globe-wrap{ display:none; }
+}
 
-  .custom-feature-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 1.5rem;
-  }
+/* Quick Access grid */
+.quick-grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:1rem;
+}
+@media (max-width: 900px){
+  .quick-grid{ grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px){
+  .quick-grid{ grid-template-columns: 1fr; }
+}
+.quick-card{
+  border:1px solid rgba(26,115,232,0.18);
+  border-radius:14px;
+  padding:1rem 1rem;
+  background:#ffffff;
+  box-shadow:var(--shadow2);
+  transition:0.2s ease-in-out;
+}
+.quick-card:hover{
+  transform:translateY(-2px);
+  box-shadow:var(--shadow);
+  background:#fbfdff;
+}
+.quick-card a{
+  text-decoration:none;
+  color:var(--blue);
+  font-weight:900;
+}
+.quick-card p{
+  margin:0.4rem 0 0 0;
+  color:var(--muted);
+}
 
-  .feature-box {
-    border: 1.5px solid #1a73e8;
-    border-radius: 10px;
-    padding: 1rem;
-    background-color: #ffffff;
-    text-align: center;
-    transition: 0.3s;
-  }
+/* Media cards */
+.media-grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:1rem;
+}
+@media (max-width: 1050px){
+  .media-grid{ grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 650px){
+  .media-grid{ grid-template-columns: 1fr; }
+}
+.media-card{
+  border:1px solid rgba(26,115,232,0.18);
+  border-radius:14px;
+  padding:0.9rem;
+  background:#ffffff;
+  box-shadow:var(--shadow2);
+  transition:0.2s ease-in-out;
+}
+.media-card:hover{
+  transform:translateY(-2px);
+  box-shadow:var(--shadow);
+}
+.media-card iframe{
+  width:100%;
+  aspect-ratio: 16 / 9;
+  border-radius:12px;
+  border:0;
+}
+.media-card .cap{
+  margin-top:0.6rem;
+  font-weight:900;
+  color:var(--text);
+}
 
-  .feature-box:hover {
-    background-color: #e8f2ff;
-    transform: scale(1.02);
+/* Slider */
+.slider-container{
+  width: 780px;
+  max-width: 100%;
+  height: 520px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  border: 1px solid rgba(26,115,232,0.20);
+  box-shadow: var(--shadow2);
+  background:#fff;
+}
+@media (max-width: 700px){
+  .slider-container{
+    width:95vw;
+    height:70vw;
   }
+}
+.slider-image{
+  display:none;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  background:#fff;
+}
+.slider-image.active{ display:block; }
+.slider-button{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  background-color: rgba(26, 115, 232, 0.82);
+  border:none;
+  color:white;
+  font-size:2rem;
+  padding:0.35rem 0.75rem;
+  border-radius:10px;
+  cursor:pointer;
+  z-index:10;
+}
+.slider-button:hover{ background-color: rgba(15, 87, 201, 0.92); }
+.slider-prev{ left:10px; }
+.slider-next{ right:10px; }
 
-  .feature-box h3 a {
-    text-decoration: none;
-    color: #1a73e8;
-  }
+/* Links row */
+.link-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.9rem;
+}
+.link-row a{
+  text-decoration:none;
+  color:var(--blue);
+  font-weight:900;
+  padding:0.35rem 0.6rem;
+  border-radius:10px;
+  background:#f3f8ff;
+  border:1px solid rgba(26,115,232,0.18);
+}
+.link-row a:hover{ background:#e9f3ff; }
 
-  .media-showcase {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center;
-  }
-
-  .media-item {
-    flex: 1 1 300px;
-    border: 2px solid #1a73e8;
-    border-radius: 12px;
-    padding: 1rem;
-    background: #f9fbff;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-  }
-
-  .media-item iframe,
-  .media-item img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 0.5rem;
-  }
-
-  .connect-links a {
-    margin-right: 1rem;
-    text-decoration: none;
-    color: #1a73e8;
-    font-weight: bold;
-  }
-
-  /* Slider styles */
-  .slider-container {
-    width: 672px;
-    max-width: 100%;
-    height: 672px;
-    max-height: 100%;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    border-radius: 12px;
-    border: 2px solid #1a73e8;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  }
-
-  .slider-image {
-    display: none;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    border-radius: 12px;
-    background: #fff;
-  }
-
-  .slider-image.active {
-    display: block;
-  }
-
-  .slider-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(26, 115, 232, 0.8);
-    border: none;
-    color: white;
-    font-size: 2rem;
-    padding: 0.4rem 0.8rem;
-    border-radius: 6px;
-    cursor: pointer;
-    z-index: 10;
-  }
-
-  .slider-button:hover {
-    background-color: rgba(15, 87, 201, 0.9);
-  }
-
-  .slider-prev { left: 10px; }
-  .slider-next { right: 10px; }
-
-  @media (max-width: 700px) {
-    .slider-container {
-      width: 95vw;
-      height: 95vw;
-    }
-    .slider-button {
-      font-size: 1.5rem;
-      padding: 0.3rem 0.6rem;
-    }
-  }
-
-    /* Card wrapper */
-  .custom-section {
-    border: 1px solid #e0e0e0;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    background: #fff;
-  }
-
-  /* Row layout */
-  .hero-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;     /* equal height feel */
-    gap: 20px;
-    flex-wrap: wrap;          /* allow stacking on small screens */
-  }
-
-  /* Columns */
-  .hero-col {
-    flex: 1 1 420px;          /* basis ~420px, can shrink/grow */
-    min-width: 0;             /* prevents overflow */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  /* Title */
-  .hero-title {
-    color: #0077B5;
-    font-weight: 700;
-    font-size: 16px;
-    margin: 0 0 8px 0;
-  }
-
-  /* Globe container */
-  .globe-wrap {
-    max-width: 300px;         /* desktop globe size cap */
-    width: 100%;
-    margin: 0 auto;           /* keep centered in its column */
-    overflow: hidden;         /* hide stray overflow */
-    border-radius: 10px;
-  }
-  /* Make injected canvas responsive */
-  .globe-wrap canvas {
-    width: 100% !important;
-    height: auto !important;
-    display: block;
-  }
-
-  /* GitHub buttons area */
-  .cta-row {
-    margin-top: 12px;
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  /* Mobile tweaks */
-  @media (max-width: 768px) {
-    .hero-row {
-      flex-direction: column;
-      align-items: center;
-    }
-    .globe-wrap {
-      max-width: 320px;       /* smaller globe on phones */
-      margin-top: 12px;
-    }
-  }
-
-  /* Hide globe on screens ≤768px */
-@media (max-width: 768px) {
-  .globe-wrap {
-    display: none;
-  }
+/* Typing SVG center */
+.typing{
+  text-align:center;
+  margin-top:1.1rem;
+}
+.typing img{
+  max-width:100%;
 }
 </style>
 
-<div class="custom-home">
-  <center>
-    <img src="https://raw.githubusercontent.com/srsapireddy/srsapireddy/master/pacman.svg" alt="Profile Photo" class="profile">
-    <h1>Srinivas Rahul Sapireddy</h1>
-    <p><strong>Electrical & Computer Engineering (Ph.D.)</strong><br>
-    <span style="color:#1E90FF;">University of Missouri, Kansas City, Missouri</span></p>
+<div class="home-wrap">
 
-    <hr style="border: 1px solid #ccc; margin: 10px 0;">
-    
-    <p><strong>Assistant Professor, College of Engineering</strong><br>
-    <span style="color:#CE1126;">Illinois State University, Bloomington-Normal, Illinois</span><br>
-    <span style="color:#CE1126;">ssapire@illinoisstate.edu</span><br>
-    <span style="color:#CE1126;">217 Williams Hall, Normal, IL 61761</span></p>
-    
-  </center>
+  <div class="home-hero">
+    <div class="hero-top">
+      <div class="hero-avatar">
+        <img src="https://raw.githubusercontent.com/srsapireddy/srsapireddy/master/pacman.svg" alt="Profile">
+      </div>
 
-  <h1 align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+website!;Thanks+for+visiting+🚀&center=true&size=30&color=DC143C">
-  </a>
-</h1>
+      <div class="hero-title">
+        <h1>Srinivas Rahul Sapireddy</h1>
+        <div class="subtitle">Assistant Professor, College of Engineering · Illinois State University</div>
 
+        <div class="hero-meta">
+          <div><span class="isu">Illinois State University</span> · Bloomington–Normal, Illinois</div>
+          <div class="isu">ssapire@illinoisstate.edu · 217 Williams Hall, Normal, IL 61761</div>
+          <div style="margin-top:0.4rem;">
+            <span class="umkc">Ph.D., Electrical &amp; Computer Engineering</span> · University of Missouri–Kansas City
+          </div>
+        </div>
 
-<div class="custom-section">
-<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 60px;">
+        <div class="chips">
+          <a class="chip link" href="/insys-lab/">INSys Lab</a>
+          <a class="chip link" href="/publications/">Publications</a>
+          <a class="chip link" href="/resume/">Resume</a>
+          <a class="chip link" href="/teaching/">Teaching</a>
+          <a class="chip link" href="/service/">Service</a>
+        </div>
+      </div>
+    </div>
 
-  <!-- LinkedIn Badge Section -->
-  <div style="flex: 1;">
-    <!-- Blue heading -->
-    <p style="color:#0077B5; font-weight:bold; font-size:16px; margin:0 0 8px 0;">
-      Connect with me
-    </p>
-
-    <!-- LinkedIn badge widget -->
-    <div class="badge-base LI-profile-badge"
-         data-locale="en_US"
-         data-size="large"
-         data-theme="light"
-         data-type="HORIZONTAL"
-         data-vanity="srsapireddy2020"
-         data-version="v1">
+    <div class="typing">
+      <a href="https://git.io/typing-svg" target="_blank" rel="noopener">
+        <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+website!;Thanks+for+visiting+🚀&center=true&size=30&color=DC143C" alt="Welcome">
+      </a>
     </div>
   </div>
 
-  <!-- Visitor Globe Section -->
-  <div style="flex: 1; text-align: right;">
-    <div class="globe-wrap">
-      <script type="text/javascript" id="mmvst_globe" 
-              src="//mapmyvisitors.com/globe.js?d=_2hLeBDk3eXXJY0I4bwnwU9rNmg2IQsmBuQT6kcMEQI"></script>
+  <div class="section">
+    <h2>🔗 Connect</h2>
+    <div class="divider"></div>
+
+    <div class="two-col">
+      <div>
+        <p style="margin-top:0; color:var(--muted);">
+          You can connect via LinkedIn and follow updates related to research, teaching, and academic activities.
+        </p>
+
+        <div class="badge-base LI-profile-badge"
+          data-locale="en_US"
+          data-size="large"
+          data-theme="light"
+          data-type="HORIZONTAL"
+          data-vanity="srsapireddy2020"
+          data-version="v1">
+        </div>
+
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+      </div>
+
+      <div>
+        <div class="globe-wrap">
+          <script type="text/javascript" id="mmvst_globe"
+            src="//mapmyvisitors.com/globe.js?d=_2hLeBDk3eXXJY0I4bwnwU9rNmg2IQsmBuQT6kcMEQI"></script>
+        </div>
+      </div>
     </div>
   </div>
 
-</div>
-  
-
-<!-- LinkedIn Badge Script -->
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-</div>
-
-  
-  <div class="custom-section">
+  <div class="section">
     <h2>🔬 Research Areas</h2>
+    <div class="divider"></div>
     <ul>
-      <li>Custom Piecewise Activation Functions for Neural Networks</li>
-      <li>Efficient RF Modulation Classification (CAF/STFT/PDE)</li>
-      <li>Hardware Acceleration and RTL-to-GDSII Physical Design</li>
-      <li>Edge-AI Model Optimization & Embedded Inference</li>
+      <li>Custom piecewise activation functions for neural networks</li>
+      <li>Efficient RF modulation classification (CAF, STFT, PDE)</li>
+      <li>Hardware acceleration and RTL-to-GDSII physical design</li>
+      <li>Edge-AI model optimization and embedded inference</li>
     </ul>
   </div>
 
-  <div class="custom-section">
-      <h2>🏆 Recent Achievement</h2>
-      <ul>
-        <li><strong>Best Paper Award – RFCoN 2025</strong> for the paper <em>“Re-Visiting R: Statistical Envelope Analysis”</em> (Track 2, Session II)</li>
-      </ul>
-      <p>📌 Presented at the International Conference on Radio Frequency Communication and Networks (RFCoN).</p>
+  <div class="section">
+    <h2>🏆 Recent Achievement</h2>
+    <div class="divider"></div>
+    <ul>
+      <li>Best Paper Award – RFCoN 2025 for <em>“Re-Visiting R: Statistical Envelope Analysis”</em> (Track 2, Session II)</li>
+    </ul>
+    <p style="margin-bottom:0;">Presented at the IEEE International Conference on Radio Frequency Communication and Networks (RFCoN).</p>
   </div>
 
-  <div class="custom-section">
-      <h2>📰 Latest News</h2>
-       <h1 align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Joining+as+Assistant+Professor;At+Illinois+State+University;Admitted+to;University+of+Illinois+Urbana-Champaign;Master+of+Science+in+Management;Starting+Spring+2026;Excited+for+this+journey+🚀&center=true&size=15&color=DC143C&font=bold">
-  </a>
+  <div class="section">
+    <h2>📰 Latest News</h2>
+    <div class="divider"></div>
+    <div class="typing" style="margin-top:0;">
+      <a href="https://git.io/typing-svg" target="_blank" rel="noopener">
+        <img src="https://readme-typing-svg.herokuapp.com/?lines=Joining+as+Assistant+Professor;At+Illinois+State+University;Admitted+to+UIUC+Master+of+Science+in+Management;Starting+Spring+2026;Excited+for+this+journey+🚀&center=true&size=15&color=DC143C&font=bold" alt="Latest News">
+      </a>
+    </div>
   </div>
 
- 
-  
-  <div class="custom-section">
+  <div class="section">
     <h2>📂 Quick Access</h2>
-    <div class="custom-feature-grid">
-      <div class="feature-box"><h3><a href="/resume/">📄 Resume</a></h3><p>Academics, teaching & research roles</p></div>
-      <div class="feature-box"><h3><a href="/publications/">📝 Publications</a></h3><p>Journals, conferences, under-review</p></div>
-      <div class="feature-box"><h3><a href="/blog/">✍️ Blog</a></h3><p>Insights into ML, VLSI, and tools</p></div>
-      <div class="feature-box"><h3><a href="/certifications/">🎓 Certifications</a></h3><p>Courses, awards, honors</p></div>
-      <div class="feature-box"><h3><a href="/presentations/">📽️ Presentations</a></h3><p>Talks, demos, pitch decks</p></div>
-      <div class="feature-box"><h3><a href="/moments/">📸 Moments</a></h3><p>Classroom & campus snapshots</p></div>
+    <div class="divider"></div>
+
+    <div class="quick-grid">
+      <div class="quick-card"><a href="/resume/">📄 Resume</a><p>Academics, teaching, research roles</p></div>
+      <div class="quick-card"><a href="/publications/">📝 Publications</a><p>Journals, conferences, manuscripts</p></div>
+      <div class="quick-card"><a href="/blog/">✍️ Blog</a><p>ML, RF, VLSI, workflows</p></div>
+      <div class="quick-card"><a href="/certifications/">🎓 Certifications</a><p>Training, awards, honors</p></div>
+      <div class="quick-card"><a href="/presentations/">📽️ Presentations</a><p>Talks, demos, pitch decks</p></div>
+      <div class="quick-card"><a href="/moments/">📸 Moments</a><p>Teaching and campus highlights</p></div>
     </div>
   </div>
 
-  <div class="custom-section">
+  <div class="section">
     <h2>🎥 Featured Demos</h2>
-    <div class="media-showcase">
-      <div class="media-item">
-        <iframe src="https://www.youtube.com/embed/aRM4DP-gUbg" title="Hackathon Fall 2021" frameborder="0" allowfullscreen></iframe>
-        <strong>🏆 Hackathon Win – Fall 2021</strong>
+    <div class="divider"></div>
+
+    <div class="media-grid">
+      <div class="media-card">
+        <iframe src="https://www.youtube.com/embed/aRM4DP-gUbg" title="Hackathon Fall 2021" allowfullscreen></iframe>
+        <div class="cap">🏆 Hackathon Win – Fall 2021</div>
       </div>
-      <div class="media-item">
-        <iframe src="https://www.youtube.com/embed/cJ4JHmoTgas" title="Hackathon Fall 2022" frameborder="0" allowfullscreen></iframe>
-        <strong>🏆 Hackathon Win – Fall 2022</strong>
+      <div class="media-card">
+        <iframe src="https://www.youtube.com/embed/cJ4JHmoTgas" title="Hackathon Fall 2022" allowfullscreen></iframe>
+        <div class="cap">🏆 Hackathon Win – Fall 2022</div>
       </div>
-      <div class="media-item">
-        <iframe src="https://www.youtube.com/embed/E9ItHVkHuy8" title="Internship Showcase" frameborder="0" allowfullscreen></iframe>
-        <strong>🎓 Internship Summary: SmartBridge</strong>
+      <div class="media-card">
+        <iframe src="https://www.youtube.com/embed/E9ItHVkHuy8" title="Internship Showcase" allowfullscreen></iframe>
+        <div class="cap">🎓 Internship Summary: SmartBridge</div>
       </div>
     </div>
   </div>
 
-  <div class="custom-section">
-    <h2>🖼️ Highlights from My Journey</h2>
+  <div class="section">
+    <h2>🖼️ Highlights</h2>
+    <div class="divider"></div>
+
     <div class="slider-container">
       <button id="prevBtn" class="slider-button slider-prev">&#10094;</button>
       <img src="/images/sg_senator_result.png" alt="SGA Result" class="slider-image active">
@@ -396,18 +472,21 @@ layout: default
     </div>
   </div>
 
-  <div class="custom-section">
+  <div class="section">
     <h2>📬 Connect with Me</h2>
-    <p class="connect-links">
-      <a href="https://github.com/srsapireddy" target="_blank">GitHub</a>
-      <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank">Google Scholar</a>
-      <a href="https://medium.com/@srsapireddy" target="_blank">Medium</a>
-      <a href="https://www.linkedin.com/in/srsapireddy2020/" target="_blank">LinkedIn</a>
-    </p>
+    <div class="divider"></div>
+    <div class="link-row">
+      <a href="https://github.com/srsapireddy" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://medium.com/@srsapireddy" target="_blank" rel="noopener">Medium</a>
+      <a href="https://www.linkedin.com/in/srsapireddy2020/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
   </div>
 
-  <div class="custom-section">
-    <a href="https://info.flagcounter.com/ymIx"><img src="https://s01.flagcounter.com/countxl_US/ymIx/bg_47B6FF/txt_FFFFFF/border_CCCCCC/columns_8/maxflags_40/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+  <div class="section" style="text-align:center;">
+    <a href="https://info.flagcounter.com/ymIx" target="_blank" rel="noopener">
+      <img src="https://s01.flagcounter.com/countxl_US/ymIx/bg_47B6FF/txt_FFFFFF/border_CCCCCC/columns_8/maxflags_40/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">
+    </a>
   </div>
 
 </div>
@@ -423,19 +502,21 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  document.getElementById('prevBtn').addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
-    showImage(currentIndex);
-  });
+  const prev = document.getElementById('prevBtn');
+  const next = document.getElementById('nextBtn');
 
-  document.getElementById('nextBtn').addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % images.length;
-    showImage(currentIndex);
-  });
+  if (prev && next && images.length > 0){
+    prev.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      showImage(currentIndex);
+    });
+
+    next.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % images.length;
+      showImage(currentIndex);
+    });
+  }
 
   showImage(currentIndex);
 });
 </script>
-
-
-
