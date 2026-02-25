@@ -235,6 +235,15 @@ author_profile: true
       <span class="pill active">Active</span>
     </div>
 
+    <div class="service-card">
+      <h4>K–12 STEM Outreach and School Engagement Coordinator</h4>
+      <p><strong>Institution:</strong> Illinois State University, College of Engineering</p>
+      <p><strong>Role:</strong> Lead and coordinate outreach visits to middle schools and high schools to promote engineering education and STEM awareness.</p>
+      <p><strong>Activities:</strong> Organizing and conducting school visits, coordinating faculty and student participation, and supporting the development and use of hands-on STEM engagement kits for interactive demonstrations.</p>
+      <p><strong>Focus:</strong> Pre-college STEM exposure, recruitment pipeline development, and community engagement.</p>
+      <p><span class="badge2">Appointed Role</span></p>
+</div>
+
   </div>
 </div>
 
