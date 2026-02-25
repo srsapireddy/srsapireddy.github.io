@@ -295,7 +295,7 @@ function copyCitation(id) {
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
         <em><a href="https://ieeexplore.ieee.org/document/11085271" target="_blank" rel="noopener">“Re-Visiting R: Statistical Envelope Analysis for Lightweight Modulation Classification”</a></em><br>
-        <em>IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)</em>, 2025.
+        <a href="https://ieeexplore.ieee.org/document/11085271" target="_blank" rel="noopener"> IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)</a>, 2025.
         <a href="https://doi.org/10.1109/RFCoN62306.2025.11085271" target="_blank" rel="noopener">[DOI]</a>
         <span class="status published">Published</span>
         <span class="status-badge best-paper">🏆 Best Paper Award</span><br>
