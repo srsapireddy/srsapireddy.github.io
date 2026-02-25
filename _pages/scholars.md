@@ -1,289 +1,435 @@
 ---
 title: "Scholars"
+layout: single
 permalink: /scholars/
+author_profile: true
+toc: false
 ---
 
 <style>
-
-.centered {
-  text-align: center;
-  margin: 1rem 0;
+:root{
+  --blue:#1a73e8;
+  --blue2:#0b5bd3;
+  --isu:#DC143C;
+  --bg:#ffffff;
+  --muted:#5f6368;
+  --shadow:0 10px 30px rgba(0,0,0,0.08);
+  --shadow2:0 2px 10px rgba(0,0,0,0.05);
+  --radius:16px;
+  --radius2:12px;
+  --border:rgba(26,115,232,0.18);
 }
 
-
-  
-/* Reuse the card/grid vibe from Publications */
-.sch-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.2rem;
-  margin-top: 1.2rem;
+/* Hero */
+.page-hero{
+  border-radius:var(--radius);
+  padding:2rem 1.8rem;
+  margin-bottom:1.6rem;
+  background:linear-gradient(135deg,#e9f3ff 0%, #ffffff 60%);
+  border:1px solid rgba(26,115,232,0.25);
+  box-shadow:var(--shadow);
+}
+.page-hero h2{
+  margin:0 0 0.35rem 0;
+  font-size:1.9rem;
+  line-height:1.2;
+  color:#0b1f44;
+}
+.page-hero p{
+  margin:0.55rem 0 0 0;
+  color:var(--muted);
+  font-size:1.05rem;
+  max-width:95ch;
 }
 
-@media (min-width: 720px) {
-  .sch-grid {
-    grid-template-columns: 1fr 1fr;
-  }
+/* Buttons */
+.hero-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.7rem;
+  margin-top:1.1rem;
+}
+.btn-link{
+  display:inline-flex;
+  align-items:center;
+  gap:0.45rem;
+  padding:0.55rem 0.9rem;
+  border-radius:10px;
+  background:var(--blue);
+  color:#ffffff !important;
+  text-decoration:none !important;
+  font-weight:800;
+  box-shadow:var(--shadow2);
+  transition:0.2s ease-in-out;
+}
+.btn-link:hover{ background:var(--blue2); transform:translateY(-1px); }
+.btn-link.secondary{
+  background:#ffffff;
+  color:var(--blue) !important;
+  border:1px solid rgba(26,115,232,0.25);
 }
 
-.sch-card {
-  border: 2px solid #1a73e8;
-  border-radius: 12px;
-  padding: 1.2rem 1.5rem;
-  background: #fff;
-  transition: 0.3s ease;
+/* Section */
+.section{
+  border:1px solid var(--border);
+  background:var(--bg);
+  padding:1.35rem 1.5rem;
+  margin-bottom:1.3rem;
+  border-radius:var(--radius2);
+  box-shadow:var(--shadow2);
+  transition:0.25s ease-in-out;
 }
-
-.sch-card:hover {
-  background-color: #f0f8ff;
-  transform: scale(1.01);
-  box-shadow: 0 4px 12px rgba(26, 115, 232, 0.1);
+.section:hover{
+  background:#fbfdff;
+  transform:translateY(-2px);
+  box-shadow:var(--shadow);
 }
-
-/* Header with (future) photo + name + subtitle */
-.sch-header {
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
-}
-
-/* Photo placeholder; replace with <img> later */
-.sch-avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background:#e9eefc;
-  color:#1a73e8;
+.section h3{
+  margin-top:0;
+  color:#0b1f44;
+  font-size:1.15rem;
   display:flex;
   align-items:center;
-  justify-content:center;
-  font-weight: 700;
-  font-size: 1.2rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  user-select:none;
+  gap:0.55rem;
+}
+.divider{ height:1px; background:rgba(26,115,232,0.12); margin:0.3rem 0 0.9rem 0; }
+
+/* Grid */
+.sch-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:1rem;
+  margin-top:0.9rem;
+}
+@media (min-width: 900px){
+  .sch-grid{ grid-template-columns:repeat(2, 1fr); }
 }
 
-.sch-name {
-  font-size: 1.05rem;
-  font-weight: 600;
-  margin-bottom: 0.15rem;
-  color: #111;
+/* Scholar card */
+.sch-card{
+  background:#ffffff;
+  border:1px solid rgba(26,115,232,0.16);
+  border-radius:14px;
+  padding:1.05rem 1.15rem;
+  box-shadow:var(--shadow2);
+  transition:0.2s ease-in-out;
+  position:relative;
+  overflow:hidden;
+}
+.sch-card:hover{
+  transform:translateY(-2px);
+  box-shadow:var(--shadow);
+  background:#fbfdff;
+}
+.sch-card::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:6px;
+  border-top-left-radius:14px;
+  border-bottom-left-radius:14px;
+  background:rgba(26,115,232,0.65);
 }
 
-.sch-sub {
-  font-size: 0.95rem;
-  color: #333;
-  opacity: 0.9;
+/* Variant accents */
+.sch-card.lead::before{ background:rgba(220,20,60,0.80); }
+.sch-card.current::before{ background:rgba(26,115,232,0.70); }
+.sch-card.alumni::before{ background:rgba(26,127,61,0.70); }
+
+/* Header row */
+.sch-header{
+  display:flex;
+  gap:0.9rem;
+  align-items:flex-start;
+}
+.sch-photo{
+  width:64px;
+  height:64px;
+  border-radius:50%;
+  object-fit:cover;
+  background:#e9eefc;
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+.sch-title{
+  flex:1;
+  min-width:0;
+}
+.sch-name{
+  font-size:1.05rem;
+  font-weight:900;
+  margin:0;
+  color:#0b1f44;
+  line-height:1.25;
+}
+.sch-sub{
+  margin-top:0.25rem;
+  font-size:0.95rem;
+  color:var(--muted);
 }
 
-/* Section titles & lists */
-.sch-sec {
-  font-size: 0.92rem;
-  margin-top: 0.8rem;
-  opacity: 0.9;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
+/* Icons/logos */
+.inline-icons{
+  display:inline-flex;
+  align-items:center;
+  gap:0.4rem;
+  margin-left:0.35rem;
+}
+.icon{
+  width:18px; height:18px;
+  vertical-align:middle;
+}
+.logo{
+  width:34px; height:34px;
+  object-fit:contain;
+  vertical-align:middle;
 }
 
-.sch-list {
-  margin: 0.25rem 0 0.25rem 1.1rem;
+/* Pills */
+.pills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.45rem;
+  margin-top:0.55rem;
 }
+.pill{
+  display:inline-flex;
+  align-items:center;
+  gap:0.35rem;
+  padding:0.28rem 0.6rem;
+  border-radius:999px;
+  border:1px solid rgba(26,115,232,0.20);
+  background:#ffffff;
+  box-shadow:var(--shadow2);
+  font-size:0.84rem;
+  font-weight:900;
+  color:#0b1f44;
+}
+.pill.role-lead{ border-color:rgba(220,20,60,0.30); color:#7a0b1f; }
+.pill.role-current{ border-color:rgba(26,115,232,0.25); color:#0a539e; }
+.pill.role-alumni{ border-color:rgba(26,127,61,0.25); color:#1a7f3d; }
+.pill.tag{ color:var(--blue); background:#f3f8ff; border-color:rgba(26,115,232,0.20); }
 
-/* Badges for status/keywords */
-.badge {
-  display: inline-block;
-  padding: 4px 10px;
-  border-radius: 12px;
-  font-weight: 600;
-  font-size: 0.82rem;
-  margin-right: 0.35rem;
+/* Sections inside card */
+.sch-sec{
+  margin-top:0.85rem;
+  font-size:0.82rem;
+  letter-spacing:0.04em;
+  text-transform:uppercase;
+  font-weight:900;
+  color:#0b1f44;
+  opacity:0.9;
 }
+.sch-list{
+  margin:0.35rem 0 0 1.1rem;
+  color:#202124;
+}
+.sch-list li{ margin:0.25rem 0; }
 
-.logo {
-  max-height: 30px;
-  max-width: 60px;
-  object-fit: contain;
-  float: right;
-  margin-left: 6px;
+/* Scoped links */
+.section a, .page-hero a{
+  color:var(--blue);
+  font-weight:800;
+  text-decoration:none;
 }
+.section a:hover, .page-hero a:hover{ text-decoration:underline; }
 
-.badge.guide {
-  background-color: #ff9800; /* orange for distinction */
-  color: white;
-}
-  
-.sch-photo {
-  width: 60px;          /* adjust size */
-  height: 60px;         /* keep it square */
-  border-radius: 50%;   /* makes it circular */
-  object-fit: cover;    /* crops the image instead of stretching */
-  margin-right: 10px;   /* spacing from text */
-}
-  
-.badge.current { color: #0a539e; background: #e5f1ff; }
-.badge.alumni  { color: #1a7f3d; background: #dcfce7; }
-.badge.tag     { color: #1a73e8; background: #eef5ff; }
-
-/* Optional section headers for groups */
-.group-title {
-  margin-top: 2rem;
-  font-size: 1.1rem;
-  text-align: left;
-  color: #0a539e;
-  border-left: 4px solid #1a73e8;
-  padding-left: 0.5rem;
+/* Footer flags area */
+.flags{
+  text-align:center;
+  margin-top:1.2rem;
 }
 </style>
 
-<p>
-This page highlights scholars — both current UMKC students and alumni — who collaborate with me on research and publications.
-</p>
+<div class="page-hero">
+  <h2>Scholars</h2>
+  <p>
+    This page highlights scholars who collaborate with me on research, publications, and project development, including current students and alumni.
+  </p>
+  <div class="hero-links">
+    <a class="btn-link secondary" href="/insys-lab/">INSys Lab</a>
+    <a class="btn-link" href="/publications/">Publications</a>
+    <a class="btn-link secondary" href="/service/">Service</a>
+  </div>
+</div>
 
+<div class="section">
+  <h3>🧭 Research Lead</h3>
+  <div class="divider"></div>
 
+  <div class="sch-grid">
+    <div class="sch-card lead">
+      <div class="sch-header">
+        <img src="/images/rahul.png" alt="Srinivas Rahul Sapireddy" class="sch-photo">
+        <div class="sch-title">
+          <div class="sch-name">
+            Srinivas Rahul Sapireddy, Ph.D.
+            <span class="inline-icons">
+              <a href="https://www.linkedin.com/in/srsapireddy2020/" target="_blank" rel="noopener">
+                <img src="/images/linkedin.png" alt="LinkedIn" class="icon">
+              </a>
+              <img src="/images/isu.png" alt="ISU Logo" class="logo">
+            </span>
+          </div>
+          <div class="sch-sub">Assistant Professor, College of Engineering, Illinois State University</div>
 
-<div class="group-title">Research Lead</div>
-<div class="sch-grid">
+          <div class="pills">
+            <span class="pill role-lead">Guide</span>
+            <span class="pill tag">Hardware-Aware AI</span>
+            <span class="pill tag">RF Signal Classification</span>
+          </div>
 
-  <!-- Nimisha -->
-  <div class="sch-card">
-    <div class="sch-header">
-      <img src="/images/rahul.png" alt="Rahul" class="sch-photo">  
-      <div>
-        <div class="sch-name">Srinivas Rahul Sapireddy, PhD 
-          <a href="https://www.linkedin.com/in/srsapireddy2020/" target="_blank">
-          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;"><img src="/images/isu.png" alt="UMKC Logo" style="width:35px; height:35px; vertical-align:middle;" class="logo">
-        </a>
-        </div>
-        <div class="sch-sub">Assistant Professor, College of Engineering, Illinois State University</div>
-        <div style="margin-top:0.35rem;">
-          <span class="badge guide">Guide</span>
-          <span class="badge tag">Hardware-Aware AI</span>
-          <span class="badge tag">RF Signal Classification</span>
+          <div class="sch-sec">Research interests</div>
+          <ul class="sch-list">
+            <li>Hardware-efficient deep learning models</li>
+            <li>Low-power RF signal classification</li>
+          </ul>
+
+          <div class="sch-sec">Active topics / papers</div>
+          <ul class="sch-list">
+            <li>Efficient Deep Neural Networks</li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="sch-sec">Research interests</div>
-    <ul class="sch-list">
-      <li>Hardware-efficient deep learning models</li>
-      <li>Low-power RF signal classification</li>
-    </ul>
-    <div class="sch-sec">Active topics / papers</div>
-    <ul class="sch-list">
-      <li>Efficient Deep Neural Networks</li>
-    </ul>
   </div>
-
 </div>
 
-<div class="group-title">Current Students</div>
-<div class="sch-grid">
+<div class="section">
+  <h3>🎓 Current Students</h3>
+  <div class="divider"></div>
 
-  <!-- Nimisha -->
-  <div class="sch-card">
-    <div class="sch-header">
-      <img src="/images/place.jpg" alt="Abreham" class="sch-photo">  
-      <div>
-        <div class="sch-name">Abreham Mesfin 
-          <a href="https://www.linkedin.com/in/abreham-mesfin-820084301?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank">
-          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;"><img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
-        </a>
-        </div>
-        <div class="sch-sub">Current UMKC student — Bachelor of Science in Electrical and Computer Engineering, 2028</div>
-        <div style="margin-top:0.35rem;">
-          <span class="badge current">Current</span>
-          <span class="badge tag">Logic Design</span>
-          <span class="badge tag">Engineering Computation</span>
+  <div class="sch-grid">
+
+    <div class="sch-card current">
+      <div class="sch-header">
+        <img src="/images/place.jpg" alt="Abreham Mesfin" class="sch-photo">
+        <div class="sch-title">
+          <div class="sch-name">
+            Abreham Mesfin
+            <span class="inline-icons">
+              <a href="https://www.linkedin.com/in/abreham-mesfin-820084301?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank" rel="noopener">
+                <img src="/images/linkedin.png" alt="LinkedIn" class="icon">
+              </a>
+              <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+            </span>
+          </div>
+          <div class="sch-sub">UMKC — B.S. Electrical and Computer Engineering (Expected 2028)</div>
+
+          <div class="pills">
+            <span class="pill role-current">Current</span>
+            <span class="pill tag">Logic Design</span>
+            <span class="pill tag">Engineering Computation</span>
+          </div>
+
+          <div class="sch-sec">Research interests</div>
+          <ul class="sch-list">
+            <li>Minimization techniques for Boolean functions</li>
+            <li>Low-power circuit implementations</li>
+          </ul>
+
+          <div class="sch-sec">Active topics / papers</div>
+          <ul class="sch-list">
+            <li>Digital Circuit Optimization Techniques (To be submitted)</li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="sch-sec">Research interests</div>
-    <ul class="sch-list">
-      <li>Minimization techniques for Boolean functions</li>
-      <li>Low-power circuit implementations</li>
-    </ul>
-    <div class="sch-sec">Active topics / papers</div>
-    <ul class="sch-list">
-      <li>Digital Circuit Optimization Techniques (To be submitted)</li>
-    </ul>
+
   </div>
-
-
 </div>
 
-<div class="group-title">Alumni</div>
-<div class="sch-grid">
+<div class="section">
+  <h3>🎓 Alumni</h3>
+  <div class="divider"></div>
 
-  <!-- Heamanth Bandi -->
-  <div class="sch-card">
-    <div class="sch-header">
-           <img src="/images/hemanth.png" alt="Hemanth" class="sch-photo">  
-      <div>
-        <div class="sch-name">Hemanth Bandi
-        <a href="https://www.linkedin.com/in/hemanth-bandi-095266859317574524/" target="_blank">
-          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;"><img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
-        </a>
-        </div>
-        <div class="sch-sub">Alumni UMKC student — Master of Science in Computer Science, Spring 2023</div>
-        <div style="margin-top:0.35rem;">
-          <span class="badge alumni">Alumni</span>
-          <span class="badge tag">RF</span>
-          <span class="badge tag">Deep Learning</span>
-          <span class="badge tag">Reinforcement Learning</span>
+  <div class="sch-grid">
+
+    <div class="sch-card alumni">
+      <div class="sch-header">
+        <img src="/images/hemanth.png" alt="Hemanth Bandi" class="sch-photo">
+        <div class="sch-title">
+          <div class="sch-name">
+            Hemanth Bandi
+            <span class="inline-icons">
+              <a href="https://www.linkedin.com/in/hemanth-bandi-095266859317574524/" target="_blank" rel="noopener">
+                <img src="/images/linkedin.png" alt="LinkedIn" class="icon">
+              </a>
+              <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+            </span>
+          </div>
+          <div class="sch-sub">UMKC — M.S. Computer Science (Spring 2023)</div>
+
+          <div class="pills">
+            <span class="pill role-alumni">Alumni</span>
+            <span class="pill tag">RF</span>
+            <span class="pill tag">Deep Learning</span>
+            <span class="pill tag">Reinforcement Learning</span>
+          </div>
+
+          <div class="sch-sec">Research interests</div>
+          <ul class="sch-list">
+            <li>RF modulation recognition</li>
+            <li>Reinforcement learning</li>
+          </ul>
+
+          <div class="sch-sec">Active topics / papers</div>
+          <ul class="sch-list">
+            <li>Reinforcement Learning manuscript (Springer, To be submitted)</li>
+            <li>Benchmarking R-aware binning with envelope-feature baselines (IEEE, submitted)</li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="sch-sec">Research interests</div>
-    <ul class="sch-list">
-      <li>RF modulation recognition </li>
-      <li>Reinforcement Learning</li>
-    </ul>
-    <div class="sch-sec">Active topics / papers</div>
-    <ul class="sch-list">
-      <li>Reinforcement Learning manuscript (Springer, To be submitted)</li>
-      <li>Benchmarking R-aware binning with envelope-feature baselines (IEEE, submitted)</li>
-    </ul>
-  </div>
 
-  <!-- Jahavani -->
-  <div class="sch-card">
-    <div class="sch-header">
-      <img src="/images/jahvani.jpeg" alt="Jahvani" class="sch-photo">  
-      <div>
-        <div class="sch-name">Jahnavi Sri Kavya Bollimuntha
-        <a href="https://www.linkedin.com/in/jahnavi-sri-kavya-bollimuntha/" target="_blank">
-          <img src="/images/linkedin.png" alt="LinkedIn" style="width:18px; height:18px; margin-left:6px; vertical-align:middle;"><img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
-        </a>
-        </div>
-        <div class="sch-sub">Alumni UMKC Student — B.S. Computer Science and Engineering, and Master of Science in Computer Science, Fall 2023</div>
-        <div style="margin-top:0.35rem;">
-          <span class="badge alumni">Alumni</span>
-          <span class="badge tag">Deep Learning</span>
-          <span class="badge tag">Radio Frequence Signal Classification</span>
+    <div class="sch-card alumni">
+      <div class="sch-header">
+        <img src="/images/jahvani.jpeg" alt="Jahnavi Sri Kavya Bollimuntha" class="sch-photo">
+        <div class="sch-title">
+          <div class="sch-name">
+            Jahnavi Sri Kavya Bollimuntha
+            <span class="inline-icons">
+              <a href="https://www.linkedin.com/in/jahnavi-sri-kavya-bollimuntha/" target="_blank" rel="noopener">
+                <img src="/images/linkedin.png" alt="LinkedIn" class="icon">
+              </a>
+              <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+            </span>
+          </div>
+          <div class="sch-sub">UMKC — B.S. Computer Science and Engineering &amp; M.S. Computer Science (Fall 2023)</div>
+
+          <div class="pills">
+            <span class="pill role-alumni">Alumni</span>
+            <span class="pill tag">Deep Learning</span>
+            <span class="pill tag">RF Signal Classification</span>
+          </div>
+
+          <div class="sch-sec">Research interests</div>
+          <ul class="sch-list">
+            <li>Deep learning</li>
+            <li>Modulation recognition and classification</li>
+            <li>Envelope statistics (R-values), dataset engineering</li>
+          </ul>
+
+          <div class="sch-sec">Active topics / papers</div>
+          <ul class="sch-list">
+            <li>Collaborative paper on RF signal analysis (draft in progress)</li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="sch-sec">Research interests</div>
-    <ul class="sch-list">
-      <li>Deep Learning</li>
-      <li>Modulation Recognition and Classification</li>
-      <li>Envelope statistics (R-values), Dataset Engineering</li>
-    </ul>
-    <div class="sch-sec">Active topics / papers</div>
-    <ul class="sch-list">
-      <li>Collaborative paper on RF signal analysis (draft in progress)</li>
-    </ul>
+
   </div>
-
-</div>
-<br>
-<br>
-
-<div style="text-align:center; margin-top:1rem;">
-<a href="https://info.flagcounter.com/UCHm"><img src="https://s01.flagcounter.com/map/UCHm/size_l/txt_121AFF/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
-</div>
-<br>
-<br>
-<div style="text-align:center; margin-top:1rem;">
-<a href="https://info.flagcounter.com/3uG8"><img src="https://s05.flagcounter.com/countxl_US/3uG8/bg_FFFFFF/txt_1239FF/border_C9CCC8/columns_8/maxflags_40/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 </div>
 
+<div class="flags">
+  <a href="https://info.flagcounter.com/UCHm" target="_blank" rel="noopener">
+    <img src="https://s01.flagcounter.com/map/UCHm/size_l/txt_121AFF/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0">
+  </a>
+</div>
+
+<div class="flags">
+  <a href="https://info.flagcounter.com/3uG8" target="_blank" rel="noopener">
+    <img src="https://s05.flagcounter.com/countxl_US/3uG8/bg_FFFFFF/txt_1239FF/border_C9CCC8/columns_8/maxflags_40/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">
+  </a>
+</div>
