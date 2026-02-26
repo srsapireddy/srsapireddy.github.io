@@ -15,3 +15,30 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* ===== Custom Author Profile Styling ===== */
+
+/* Name */
+.author__name {
+  color: #1a73e8 !important;  /* ISU blue */
+  font-weight: 700;
+}
+
+/* Bio / title line */
+.author__bio {
+  color: #1a73e8 !important;
+}
+
+/* Location / meta text */
+.author__location {
+  color: #1a73e8 !important;
+}
+
+/* Sidebar links (LinkedIn, GitHub, Email) */
+.author__urls a {
+  color: #1a73e8 !important;
+}
+
+.author__urls a:hover {
+  color: #DC143C !important; /* ISU red hover */
+}
