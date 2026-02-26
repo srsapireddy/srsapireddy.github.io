@@ -220,11 +220,6 @@ table.resume-table {
       </thead>
       <tbody>
         <tr>
-          <td>Master of Management</td>
-          <td>University of Illinois Urbana–Champaign (Gies College of Business) <img src="/images/UIUC.jpg" alt="UIUC Logo" class="logo"></td>
-          <td>Expected start: Spring 2026</td>
-        </tr>
-        <tr>
           <td>Mini-MBA (Farmer School of Business)</td>
           <td>Miami University <img src="/images/miami.png" alt="Miami University Logo" class="logo"></td>
           <td>In progress (January 2026)</td>
