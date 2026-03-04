@@ -346,7 +346,42 @@ toc: false
 
   <div class="sch-grid">
 
-    
+        <div class="sch-card alumni">
+      <div class="sch-header">
+        <img src="/images/hemanth.png" alt="Hemanth Bandi" class="sch-photo">
+        <div class="sch-title">
+          <div class="sch-name">
+            Hemanth Bandi
+            <span class="inline-icons">
+              <a href="https://www.linkedin.com/in/hemanth-bandi-095266859317574524/" target="_blank" rel="noopener">
+                <img src="/images/linkedin.png" alt="LinkedIn" class="icon">
+              </a>
+              <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+            </span>
+          </div>
+          <div class="sch-sub">UMKC — M.S. Computer Science (Spring 2023)</div>
+
+          <div class="pills">
+            <span class="pill role-alumni">Alumni</span>
+            <span class="pill tag">RF</span>
+            <span class="pill tag">Deep Learning</span>
+            <span class="pill tag">Reinforcement Learning</span>
+          </div>
+
+          <div class="sch-sec">Research interests</div>
+          <ul class="sch-list">
+            <li>RF modulation recognition</li>
+            <li>Reinforcement learning</li>
+          </ul>
+
+          <div class="sch-sec">Active topics / papers</div>
+          <ul class="sch-list">
+            <li>Reinforcement Learning manuscript (Springer, To be submitted)</li>
+            <li>Benchmarking R-aware binning with envelope-feature baselines (IEEE, submitted)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
   </div>
 </div>
