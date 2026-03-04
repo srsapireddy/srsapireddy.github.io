@@ -346,41 +346,7 @@ toc: false
 
   <div class="sch-grid">
 
-    <div class="sch-card alumni">
-      <div class="sch-header">
-        <img src="/images/jahvani.jpeg" alt="Jahnavi Sri Kavya Bollimuntha" class="sch-photo">
-        <div class="sch-title">
-          <div class="sch-name">
-            Jahnavi Sri Kavya Bollimuntha
-            <span class="inline-icons">
-              <a href="https://www.linkedin.com/in/jahnavi-sri-kavya-bollimuntha/" target="_blank" rel="noopener">
-                <img src="/images/linkedin.png" alt="LinkedIn" class="icon">
-              </a>
-              <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
-            </span>
-          </div>
-          <div class="sch-sub">UMKC — B.S. Computer Science and Engineering &amp; M.S. Computer Science (Fall 2023)</div>
-
-          <div class="pills">
-            <span class="pill role-alumni">Alumni</span>
-            <span class="pill tag">Deep Learning</span>
-            <span class="pill tag">RF Signal Classification</span>
-          </div>
-
-          <div class="sch-sec">Research interests</div>
-          <ul class="sch-list">
-            <li>Deep learning</li>
-            <li>Modulation recognition and classification</li>
-            <li>Envelope statistics (R-values), dataset engineering</li>
-          </ul>
-
-          <div class="sch-sec">Active topics / papers</div>
-          <ul class="sch-list">
-            <li>Collaborative paper on RF signal analysis (draft in progress)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    
 
   </div>
 </div>
