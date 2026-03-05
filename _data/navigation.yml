@@ -8,6 +8,8 @@ main:
     url: /publications/
   - title: "INSys Lab"
     url: /insys-lab/
+  - title: "Scholars"
+    url: /scholars/
   - title: "Teaching & Instruction"
     url: /teaching/
   - title: "Service"
