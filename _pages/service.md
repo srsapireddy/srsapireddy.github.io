@@ -244,6 +244,14 @@ author_profile: true
       <span class="pill active">Active</span>
     </div>
 
+    <div class="service-card isu">
+      <h4>Redbird Day 2026 — Faculty Representative</h4>
+      <p class="meta"><strong>Institution:</strong> Illinois State University</p>
+      <p><strong>Role:</strong> Represented the Electrical Engineering Department during Redbird Day 2026.</p>
+      <p><strong>Activities:</strong> Interacted with prospective students and families during the university recruitment event.</p>
+      <span class="pill active">Completed</span>
+    </div>
+
   </div>
 </div>
 
@@ -296,14 +304,6 @@ author_profile: true
       <p class="meta"><strong>Sponsor:</strong> IIN</p>
       <p><strong>Focus:</strong> Pilot-scale research on energy and compute-aware edge systems, emphasizing lightweight intelligence, hardware-aware design, student involvement, and applied edge deployment.</p>
       <span class="pill pending">Pending Submission</span>
-    </div>
-
-    <div class="service-card isu">
-      <h4>Redbird Day 2026 — Faculty Representative</h4>
-      <p class="meta"><strong>Institution:</strong> Illinois State University</p>
-      <p><strong>Role:</strong> Represented the Electrical Engineering Department during Redbird Day 2026.</p>
-      <p><strong>Activities:</strong> Interacted with prospective students and families during the university recruitment event.</p>
-      <span class="pill active">Completed</span>
     </div>
 
   </div>
