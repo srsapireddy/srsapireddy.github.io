@@ -298,5 +298,13 @@ author_profile: true
       <span class="pill pending">Pending Submission</span>
     </div>
 
+    <div class="service-card isu">
+      <h4>Redbird Day 2026 — Faculty Representative</h4>
+      <p class="meta"><strong>Institution:</strong> Illinois State University</p>
+      <p><strong>Role:</strong> Represented the Electrical Engineering Department during Redbird Day 2026.</p>
+      <p><strong>Activities:</strong> Interacted with prospective students and families during the university recruitment event.</p>
+      <span class="pill active">Completed</span>
+    </div>
+
   </div>
 </div>
