@@ -95,6 +95,11 @@ author_profile: true
 Welcome to my personal gallery — moments from my academic journey, graduation, research labs, and team milestones.
 
 <div class="highlight-grid">
+
+  <div class="highlight-card">
+     <img src="/images/Gies.jpeg" alt="orientation">
+     <h4>Campus visit to University of Illinois Urbana-Champaign.</h4>
+  </div>
    
   <div class="highlight-card">
      <img src="/images/orientation1.jpeg" alt="orientation">
