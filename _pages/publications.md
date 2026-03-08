@@ -328,7 +328,7 @@ function copyCitation(id) {
         <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
         <em>"Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics"</em><br>
         <a href="https://ieeesoutheastcon.org/" target="_blank" rel="noopener">IEEE SoutheastCon</a>, March 13–15, 2026, Huntsville, Alabama
-        <span class="status accepted">Accepted</span>
+        <span class="status accepted">Accepted and Presented</span>
       </div>
       <div class="cite-box" onclick="copyCitation('citeP4')">
         📑 Cite
