@@ -222,7 +222,7 @@ table.resume-table {
         <tr>
           <td>Mini-MBA (Farmer School of Business)</td>
           <td>Miami University <img src="/images/miami.png" alt="Miami University Logo" class="logo"></td>
-          <td>In progress (January 2026)</td>
+          <td>December 2025</td>
         </tr>
         <tr>
           <td>Advanced Diploma in Artificial Intelligence</td>
