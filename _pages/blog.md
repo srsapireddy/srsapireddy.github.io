@@ -483,12 +483,7 @@ hr.soft{
 
         </div>
 
-        <hr class="soft">
 
-        <div class="note">
-          Want this to look even better later? Next upgrade is adding “post thumbnails” (one image per post).
-          I can give you a template for that too.
-        </div>
       </div>
     </div>
 
