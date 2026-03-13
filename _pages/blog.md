@@ -326,11 +326,6 @@ hr.soft{
     </div>
   </div>
 
-  <div class="note">
-    Tip: add new posts by copying one “post” block below and changing title/date/summary/link.
-  </div>
-</div>
-
 <div class="blog-grid">
 
   <!-- LEFT: Posts -->
@@ -528,17 +523,7 @@ hr.soft{
           </ul>
         </div>
 
-        <hr class="soft">
-
-        <div class="side-card">
-          <h4>Suggestion</h4>
-          <p>
-            If you want, we can add a small “newsletter-style” section here with
-            “What I’m working on this month” (2–3 bullets). It looks very professional.
-          </p>
-        </div>
-      </div>
-    </div>
+  
   </div>
 
 </div>
