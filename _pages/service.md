@@ -225,7 +225,7 @@ author_profile: true
       <h4>Faculty Search Committee</h4>
       <p class="meta"><strong>Institution:</strong> Illinois State University</p>
       <p><strong>Focus:</strong> Faculty recruitment, candidate evaluation, and participation in departmental hiring decisions.</p>
-      <span class="pill active">Active</span>
+      <span class="pill active">Completed</span>
     </div>
 
     <div class="service-card isu">
@@ -267,7 +267,7 @@ author_profile: true
       <p><strong>Title:</strong> [Add your talk title here]</p>
       <p><strong>Venue:</strong> Williams Hall, Room 113, Illinois State University</p>
       <p><strong>Date:</strong> April 06, 2026 &nbsp;|&nbsp; <strong>Time:</strong> 1:00–2:00 PM</p>
-      <span class="pill completed">Completed</span>
+      <span class="pill completed">Active</span>
     </div>
     
     <div class="service-card">
@@ -281,7 +281,7 @@ author_profile: true
       <h4>Philanthropic Proposal Development</h4>
       <p class="meta"><strong>Unit:</strong> College of Engineering</p>
       <p><strong>Focus:</strong> Coordination and development of philanthropic proposals supporting strategic initiatives and external engagement.</p>
-      <span class="pill ongoing">Ongoing</span>
+      <span class="pill ongoing">Completed</span>
     </div>
 
   </div>
