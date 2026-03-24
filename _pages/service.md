@@ -262,6 +262,15 @@ author_profile: true
   <div class="service-grid">
 
     <div class="service-card">
+    <h4>Invited Lecture — IEEE</h4>
+      <p class="meta"><strong>Organization:</strong> IEEE ISU Student Branch</p>
+      <p><strong>Title:</strong> [Add your talk title here]</p>
+      <p><strong>Venue:</strong> Williams Hall, Room 113, Illinois State University</p>
+      <p><strong>Date:</strong> April 06, 2026 &nbsp;|&nbsp; <strong>Time:</strong> 1:00–2:00 PM</p>
+      <span class="pill completed">Completed</span>
+    </div>
+    
+    <div class="service-card">
       <h4>Technical Program Committee (TPC) Reviewer</h4>
       <p class="meta"><strong>Organization:</strong> IEEE-affiliated conference ROSE 2026</p>
       <p><strong>Focus:</strong> Peer review of technical manuscripts and evaluation of scholarly contributions.</p>
