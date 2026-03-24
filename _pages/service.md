@@ -267,7 +267,7 @@ author_profile: true
       <p><strong>Title:</strong> [Add your talk title here]</p>
       <p><strong>Venue:</strong> Williams Hall, Room 113, Illinois State University</p>
       <p><strong>Date:</strong> April 06, 2026 &nbsp;|&nbsp; <strong>Time:</strong> 1:00–2:00 PM</p>
-      <span class="pill completed">Active</span>
+      <span class="pill active">Completed</span>
     </div>
     
     <div class="service-card">
