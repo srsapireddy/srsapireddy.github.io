@@ -263,7 +263,7 @@ author_profile: true
       <h4>Research Lab Demonstration and Outreach</h4>
       <p class="meta"><strong>Institution:</strong> University of Missouri–Kansas City</p>
       <p><strong>Focus:</strong> Showcased research lab work during engineering open house events, engaging with prospective students and communicating technical concepts to a broader audience.</p>
-      <span class="pill completed">Completed</span>
+      <span class="pill active">Completed</span>
     </div>
 
   </div>
