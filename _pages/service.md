@@ -252,6 +252,13 @@ author_profile: true
       <span class="pill active">Completed</span>
     </div>
 
+    <div class="service-card isu">
+      <h4>MSEE Curriculum Development</h4>
+      <p class="meta"><strong>Institution:</strong> Illinois State University</p>
+      <p><strong>Focus:</strong> Proposed new courses and contributed to structuring and formatting the MSEE curriculum, with alignment toward communication systems, signal processing, and AI-related topics.</p>
+      <span class="pill active">Ongoing</span>
+    </div>
+
   </div>
 </div>
 
