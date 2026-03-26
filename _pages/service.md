@@ -259,6 +259,13 @@ author_profile: true
       <span class="pill active">Ongoing</span>
     </div>
 
+    <div class="service-card umkc">
+      <h4>Research Lab Demonstration and Outreach</h4>
+      <p class="meta"><strong>Institution:</strong> University of Missouri–Kansas City</p>
+      <p><strong>Focus:</strong> Showcased research lab work during engineering open house events, engaging with prospective students and communicating technical concepts to a broader audience.</p>
+      <span class="pill completed">Completed</span>
+    </div>
+
   </div>
 </div>
 
