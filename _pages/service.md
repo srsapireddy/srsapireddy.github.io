@@ -318,7 +318,7 @@ author_profile: true
       <p class="meta"><strong>Role:</strong> Principal Investigator</p>
       <p class="meta"><strong>Sponsor:</strong> College of Engineering University Research Grant (CEG URG)</p>
       <p><strong>Focus:</strong> Analytical modeling, numerical analysis, and experimental RF measurement, emphasizing hardware-aware characterization and undergraduate research mentoring.</p>
-      <span class="pill submitted">Proposal Submitted</span>
+      <span class="pill active">Proposal Approved</span>
     </div>
 
     <div class="service-card">
