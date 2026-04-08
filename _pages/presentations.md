@@ -68,8 +68,8 @@ author_profile: true
 
 <div class="presentation-grid">
   <div class="presentation-card" onclick="openLightbox('/publications/IEEE_Invited_Lecture_Srinivas.pdf')">
-    <img src="/images/IEEE_Lecture.png" alt="RFcoN 2025 Presentation">
-    <h4>RFCoN-2025 Presentation</h4>
+    <img src="/images/IEEE_Lecture.png" alt="IEEE Invited Lecture 2026">
+    <h4>IEEE Invited Lecture 2026</h4>
   </div>
   
   <div class="presentation-card" onclick="openLightbox('/publications/rfcon.pdf')">
