@@ -222,7 +222,7 @@ author_profile: true
   <div class="service-grid">
     
     <div class="service-card isu">
-      <h4>Judge, Student Project Expo</h4>
+      <h4>Judge, Student Project Expo - Spring 2026</h4>
       <p class="meta"><strong>Institution:</strong> Illinois State University</p>
       <p><strong>Focus:</strong> Evaluation of student engineering design projects, feedback on technical presentations, and support for project-based learning across the College of Engineering.</p>
       <span class="pill active">Completed</span>
@@ -236,7 +236,7 @@ author_profile: true
     </div>
 
     <div class="service-card isu">
-      <h4>University Continuity Program — Faculty Representative</h4>
+      <h4>University Continuity Program - Faculty Representative</h4>
       <p class="meta"><strong>Department:</strong> Electrical Engineering</p>
       <p><strong>Focus:</strong> Departmental continuity planning, preparedness initiatives, and coordination with university-level continuity efforts.</p>
       <span class="pill active">Active</span>
