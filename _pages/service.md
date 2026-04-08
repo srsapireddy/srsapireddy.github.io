@@ -229,7 +229,7 @@ author_profile: true
     </div>
 
     <div class="service-card isu">
-      <h4>Faculty Search Committee</h4>
+      <h4>Faculty Search Committee - Spring 2026</h4>
       <p class="meta"><strong>Institution:</strong> Illinois State University</p>
       <p><strong>Focus:</strong> Faculty recruitment, candidate evaluation, and participation in departmental hiring decisions.</p>
       <span class="pill active">Completed</span>
