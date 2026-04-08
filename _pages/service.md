@@ -220,6 +220,13 @@ author_profile: true
   <div class="divider"></div>
 
   <div class="service-grid">
+    
+    <div class="service-card isu">
+      <h4>Judge, Student Project Expo</h4>
+      <p class="meta"><strong>Institution:</strong> Illinois State University</p>
+      <p><strong>Focus:</strong> Evaluation of student engineering design projects, feedback on technical presentations, and support for project-based learning across the College of Engineering.</p>
+      <span class="pill active">Completed</span>
+    </div>
 
     <div class="service-card isu">
       <h4>Faculty Search Committee</h4>
