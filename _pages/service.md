@@ -273,6 +273,13 @@ author_profile: true
       <span class="pill active">Completed</span>
     </div>
 
+    <div class="service-card umkc">
+      <h4>Senator, Student Government Association (Fall 2023 – Fall 2024)</h4>
+      <p class="meta"><strong>Institution:</strong> University of Missouri–Kansas City</p>
+      <p><strong>Focus:</strong> Represented graduate student interests, participated in university governance discussions, and supported student-focused academic initiatives.</p>
+      <span class="pill active">Completed</span>
+    </div>
+
   </div>
 </div>
 
