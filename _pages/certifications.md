@@ -265,6 +265,7 @@ author_profile: true
         <div class="cert-title">Cost Behaviors, Systems, and Analysis/div>
         <div class="cert-sub">University of Illinois Urbana-Champaign</div>
       </div>
+      </div>
   </div>
 </div>
               
