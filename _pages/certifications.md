@@ -253,6 +253,23 @@ author_profile: true
 <!-- SECTION 1 -->
 <div class="section">
   <div class="section-head">
+    <h3>Certifications (Management)</h3>
+    <p>Academic and professional certificates.</p>
+  </div>
+  <div class="section-body">
+    <div class="cert-grid lightbox-gallery">
+            <div class="cert-card">
+        <span class="corner-tag">Cert</span>
+        <img src="/images/UIUC_1.PNG" alt=Management">
+        <div class="cert-title">Cost Behaviors, Systems, and Analysis/div>
+        <div class="cert-sub">University of Illinois Urbana-Champaign</div>
+      </div>
+  </div>
+</div>
+              
+<!-- SECTION 1 -->
+<div class="section">
+  <div class="section-head">
     <h3>Certifications</h3>
     <p>Academic and professional certificates.</p>
   </div>
