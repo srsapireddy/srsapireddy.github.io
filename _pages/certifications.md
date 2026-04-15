@@ -258,6 +258,7 @@ author_profile: true
   </div>
   <div class="section-body">
     <div class="cert-grid lightbox-gallery">
+      
             <div class="cert-card">
         <span class="corner-tag">Cert</span>
         <img src="/images/UIUC_1.PNG" alt=Management">
