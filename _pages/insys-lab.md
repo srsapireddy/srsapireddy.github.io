@@ -293,6 +293,6 @@ author_profile: true
   <h3>Institutional Affiliation</h3>
   <div class="divider"></div>
   <p>
-    INSys Lab is a faculty-led research group within the Department of Electrical Engineering at Illinois State University.
+    INSys Lab is an independent academic research initiative focused on intelligent signal systems, hardware-aware machine learning, and edge computing.
   </p>
 </div>
