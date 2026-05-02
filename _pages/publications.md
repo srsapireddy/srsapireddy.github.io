@@ -314,7 +314,7 @@ function copyCitation(id) {
         <em>Lightweight Methods for Spread Spectrum Signal Classification</em><br>
         <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener"> IEEE Military Communications Conference (MILCOM)</a>, Washington DC, October 2026.
         <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener">[DOI]</a>
-        <span class="status review">To be published</span>
+        <span class="status review">To be submitted</span>
         <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener" title="Download PDF">📥</a>
       </div>
       <div class="cite-box" onclick="copyCitation('citeR0')">
