@@ -310,6 +310,21 @@ function copyCitation(id) {
 
     <div class="pub-entry">
       <div class="pub-card">
+        <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
+        <em>Lightweight Methods for Spread Spectrum Signal Classification</em><br>
+        <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener"> IEEE Military Communications Conference (MILCOM), Washington DC</a>, October 2026.
+        <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener">[DOI]</a>
+        <span class="status published">Published</span>
+        <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener" title="Download PDF">📥</a>
+      </div>
+      <div class="cite-box" onclick="copyCitation('citeR0')">
+        📑 Cite
+        <textarea id="citeR0" class="hidden-citation">S. R. Sapireddy and M. Rahman, Lightweight Methods for Spread Spectrum Signal Classification</textarea>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
         <em>"Simplifying Activations with Linear Approximations in Neural Networks"</em><br>
          <a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank" rel="noopener"> Memories - Materials, Devices, Circuits and Systems (Elsevier)</a>, 2025.
