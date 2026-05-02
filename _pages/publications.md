@@ -312,7 +312,7 @@ function copyCitation(id) {
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
         <em>Lightweight Methods for Spread Spectrum Signal Classification</em><br>
-        <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener"> IEEE Military Communications Conference (MILCOM), Washington DC</a>, October 2026.
+        <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener"> IEEE Military Communications Conference (MILCOM)</a>, Washington DC, October 2026.
         <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener">[DOI]</a>
         <span class="status review">To be published</span>
         <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener" title="Download PDF">📥</a>
