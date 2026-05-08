@@ -347,7 +347,7 @@ function copyCitation(id) {
       </div>
       <div class="cite-box" onclick="copyCitation('citeP4')">
         📑 Cite
-        <textarea id="citeP5" class="hidden-citation">S. R. Sapireddy, G. Surekha and H. Bandi, "Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics," SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1-6, doi: 10.1109/SoutheastCon63549.2026.11476603</textarea>
+        <textarea id="citeP4" class="hidden-citation">S. R. Sapireddy, G. Surekha and H. Bandi, "Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics," SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1-6, doi: 10.1109/SoutheastCon63549.2026.11476603</textarea>
       </div>
     </div>
 
