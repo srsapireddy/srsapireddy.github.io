@@ -267,9 +267,6 @@ author_profile: true
         <div class="cert-sub">University of Illinois Urbana-Champaign</div>
       </div>
       
-  </div>
-
-  <div class="cert-grid lightbox-gallery">
       
       <div class="cert-card">
         <span class="corner-tag">Cert</span>
