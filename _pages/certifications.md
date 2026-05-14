@@ -263,15 +263,15 @@ author_profile: true
       <div class="cert-card">
         <span class="corner-tag">Cert</span>
         <img src="/images/UIUC_1.png" alt="Management">
-        <div class="cert-title">Cost Behaviors, Systems, and Analysis</div>
+        <div class="cert-title">Managerial Accounting: Cost Behaviors, Systems, and Analysis</div>
         <div class="cert-sub">University of Illinois Urbana-Champaign</div>
       </div>
       
       
       <div class="cert-card">
         <span class="corner-tag">Cert</span>
-        <img src="/images/UIUC_1.png" alt="Management">
-        <div class="cert-title">Cost Behaviors, Systems, and Analysis</div>
+        <img src="/images/UIUC_2.png" alt="Management">
+        <div class="cert-title">Managerial Accounting: Tools for Facilitating and Guiding Business Decisions</div>
         <div class="cert-sub">University of Illinois Urbana-Champaign</div>
       </div>
       
