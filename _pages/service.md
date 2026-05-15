@@ -337,7 +337,7 @@ author_profile: true
 
 
     <div class="service-card">
-      <h4>Redbird Engineering Innovation Open Lab</h4>
+      <h4>Engineering Innovation Open Lab</h4>
       <p class="meta"><strong>Role:</strong> Co-Principal Investigator</p>
       <p class="meta"><strong>Sponsor:</strong> Illinois State University Strategic Initiative Request Fund</p>
       <p><strong>Focus:</strong> Development of an open, hands-on engineering learning environment that supports student innovation, experiential learning, interdisciplinary collaboration, and expanded access to technical resources beyond regular class and lab hours.</p>
