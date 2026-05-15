@@ -335,13 +335,22 @@ author_profile: true
       <span class="pill active">Proposal Approved</span>
     </div>
 
+
     <div class="service-card">
-      <h4>Energy and Compute-Aware Edge Systems: A Pilot Framework</h4>
-      <p class="meta"><strong>Role:</strong> Lead Principal Investigator</p>
-      <p class="meta"><strong>Sponsor:</strong> IIN</p>
-      <p><strong>Focus:</strong> Pilot-scale research on energy and compute-aware edge systems, emphasizing lightweight intelligence, hardware-aware design, student involvement, and applied edge deployment.</p>
-      <span class="pill pending">Pending Submission</span>
+      <h4>Redbird Engineering Innovation Open Lab</h4>
+      <p class="meta"><strong>Role:</strong> Co-Principal Investigator</p>
+      <p class="meta"><strong>Sponsor:</strong> Illinois State University Strategic Initiative Request Fund</p>
+      <p><strong>Focus:</strong> Development of an open, hands-on engineering learning environment that supports student innovation, experiential learning, interdisciplinary collaboration, and expanded access to technical resources beyond regular class and lab hours.</p>
+      <span class="pill active">Proposal Submitted</span>
     </div>
+    
+        <div class="service-card">
+          <h4>Energy and Compute-Aware Edge Systems: A Pilot Framework</h4>
+          <p class="meta"><strong>Role:</strong> Lead Principal Investigator</p>
+          <p class="meta"><strong>Sponsor:</strong> IIN</p>
+          <p><strong>Focus:</strong> Pilot-scale research on energy and compute-aware edge systems, emphasizing lightweight intelligence, hardware-aware design, student involvement, and applied edge deployment.</p>
+          <span class="pill pending">Pending Submission</span>
+        </div>
 
   </div>
 </div>
