@@ -66,6 +66,11 @@ author_profile: true
 
 ## 🎤 Featured Presentations
 
+<div class="presentation-card" onclick="openLightbox('IAB K-12 PPT Srinivas.pdf')">
+  <img src="/images/IAB_K12_Outreach.png" alt="IAB K-12 STEM Outreach Presentation 2026">
+  <h4>IAB Presentation on K–12 STEM Outreach Preparation 2026</h4>
+</div>
+
 <div class="presentation-grid">
   <div class="presentation-card" onclick="openLightbox('/publications/IEEE_Invited_Lecture_Srinivas.pdf')">
     <img src="/images/IEEE_Lecture.png" alt="IEEE Invited Lecture 2026">
