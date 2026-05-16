@@ -266,6 +266,14 @@ author_profile: true
       <span class="pill active">Ongoing</span>
     </div>
 
+    <div class="service-card">
+      <h4>Industry Advisory Board Presentation on K–12 STEM Outreach Preparation</h4>
+      <p class="meta"><strong>Role:</strong> Presenter</p>
+      <p class="meta"><strong>Organization:</strong> Department of Electrical Engineering, Illinois State University</p>
+      <p><strong>Contribution:</strong> Presented the preparation and planned delivery of hands-on K–12 electrical engineering outreach activities using low-cost STEM kits to support school engagement, recruitment, and College of Engineering visibility.</p>
+      <span class="pill active">Completed</span>
+    </div>
+
     <div class="service-card umkc">
       <h4>Research Lab Demonstration and Outreach</h4>
       <p class="meta"><strong>Institution:</strong> University of Missouri–Kansas City</p>
