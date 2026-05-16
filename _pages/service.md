@@ -266,7 +266,7 @@ author_profile: true
       <span class="pill active">Ongoing</span>
     </div>
 
-    <div class="service-card">
+    <div class="service-card isu">
       <h4>Industry Advisory Board Presentation on K–12 STEM Outreach Preparation</h4>
       <p class="meta"><strong>Role:</strong> Presenter</p>
       <p class="meta"><strong>Organization:</strong> Department of Electrical Engineering, Illinois State University</p>
@@ -297,7 +297,7 @@ author_profile: true
 
   <div class="service-grid">
 
-    <div class="service-card">
+    <div class="service-card isu">
     <h4>Invited Lecture — IEEE</h4>
       <p class="meta"><strong>Organization:</strong> IEEE ISU Student Branch</p>
       <p><strong>Title:</strong> From RTL to GDSII: Hardware Design Flow, EDA Toolchain, and VLSI Industry Roles</p>
@@ -313,7 +313,7 @@ author_profile: true
       <span class="pill ongoing">Ongoing</span>
     </div>
 
-    <div class="service-card">
+    <div class="service-card isu">
       <h4>Philanthropic Proposal Development</h4>
       <p class="meta"><strong>Unit:</strong> College of Engineering</p>
       <p><strong>Focus:</strong> Coordination and development of philanthropic proposals supporting strategic initiatives and external engagement.</p>
@@ -335,7 +335,7 @@ author_profile: true
       <span class="pill active">Active Research Service</span>
     </div>
 
-    <div class="service-card">
+    <div class="service-card isu">
       <h4>Hardware-Aware Characterization of RF Transmission Lines and Antenna Arrays</h4>
       <p class="meta"><strong>Role:</strong> Principal Investigator</p>
       <p class="meta"><strong>Sponsor:</strong> College of Engineering University Research Grant (CEG URG)</p>
@@ -344,7 +344,7 @@ author_profile: true
     </div>
 
 
-    <div class="service-card">
+    <div class="service-card isu">
       <h4>Engineering Innovation Open Lab</h4>
       <p class="meta"><strong>Role:</strong> Co-Principal Investigator</p>
       <p class="meta"><strong>Sponsor:</strong> Illinois State University Strategic Initiative Request Fund</p>
@@ -352,7 +352,7 @@ author_profile: true
       <span class="pill active">Proposal Submitted</span>
     </div>
     
-        <div class="service-card">
+        <div class="service-card umkc">
           <h4>Energy and Compute-Aware Edge Systems: A Pilot Framework</h4>
           <p class="meta"><strong>Role:</strong> Lead Principal Investigator</p>
           <p class="meta"><strong>Sponsor:</strong> IIN</p>
