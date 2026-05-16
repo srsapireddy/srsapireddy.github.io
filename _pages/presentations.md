@@ -72,7 +72,6 @@ author_profile: true
     <h4>IAB Presentation on K–12 2026</h4>
   </div>
 
-<div class="presentation-grid">
   <div class="presentation-card" onclick="openLightbox('/publications/IEEE_Invited_Lecture_Srinivas.pdf')">
     <img src="/images/IEEE_Lecture.png" alt="IEEE Invited Lecture 2026">
     <h4>IEEE Invited Lecture 2026</h4>
