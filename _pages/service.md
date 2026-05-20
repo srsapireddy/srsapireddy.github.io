@@ -339,7 +339,7 @@ author_profile: true
       <h4>NVIDIA Academic Grant Proposal</h4>
       <p class="meta"><strong>Role:</strong> Principal Investigator</p>
       <p class="meta"><strong>Status:</strong> In Preparation</p>
-      <p><strong>Focus:</strong> GPU-accelerated scientific simulation and adaptive RNA-seq quality-risk modeling.</p>
+      <p><strong>Focus:</strong> GPU-accelerated scientific simulation and adaptive computational modeling.</p>
       <span class="pill pending">Pending Submission</span>
     </div>
 
