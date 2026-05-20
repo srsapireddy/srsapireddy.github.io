@@ -340,6 +340,7 @@ author_profile: true
       <p class="meta"><strong>Role:</strong> Principal Investigator</p>
       <p class="meta"><strong>Status:</strong> In Preparation</p>
       <p><strong>Focus:</strong> GPU-accelerated scientific simulation and adaptive RNA-seq quality-risk modeling.</p>
+      <span class="pill pending">Pending Submission</span>
     </div>
 
     <div class="service-card isu">
