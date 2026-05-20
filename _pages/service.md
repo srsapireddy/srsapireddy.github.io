@@ -335,6 +335,13 @@ author_profile: true
       <span class="pill active">Active Research Service</span>
     </div>
 
+    <div class="service-card">
+      <h4>NVIDIA Academic Grant Proposal</h4>
+      <p class="meta"><strong>Role:</strong> Principal Investigator</p>
+      <p class="meta"><strong>Status:</strong> In Preparation</p>
+      <p><strong>Focus:</strong> GPU-accelerated scientific simulation and adaptive RNA-seq quality-risk modeling.</p>
+    </div>
+
     <div class="service-card isu">
       <h4>Hardware-Aware Characterization of RF Transmission Lines and Antenna Arrays</h4>
       <p class="meta"><strong>Role:</strong> Principal Investigator</p>
@@ -342,7 +349,6 @@ author_profile: true
       <p><strong>Focus:</strong> Analytical modeling, numerical analysis, and experimental RF measurement, emphasizing hardware-aware characterization and undergraduate research mentoring.</p>
       <span class="pill active">Proposal Approved</span>
     </div>
-
 
     <div class="service-card isu">
       <h4>Engineering Innovation Open Lab</h4>
