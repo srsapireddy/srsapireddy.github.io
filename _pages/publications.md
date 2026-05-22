@@ -311,7 +311,7 @@ function copyCitation(id) {
     <div class="pub-entry">
       <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-        <em>Lightweight Methods for Spread Spectrum Signal Classification</em><br>
+        <em>"Lightweight Methods for Spread Spectrum Signal Classification"</em><br>
         <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener"> IEEE Military Communications Conference (MILCOM)</a>, Washington DC, October 2026.
         <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener">[DOI]</a>
         <span class="status review">To be submitted</span>
@@ -326,7 +326,7 @@ function copyCitation(id) {
     <div class="pub-entry">
       <div class="pub-card">
         Marcus Butler, Donald Riead, <strong>Srinivas Rahul Sapireddy</strong>, Gunjeeth Kaur, Mostafizur Rahman<br>
-        <em>Signal Detection and Classification in the Prescence of Interference</em><br>
+        <em>"Signal Detection and Classification in the Prescence of Interference"</em><br>
         <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener"> IEEE Military Communications Conference (MILCOM)</a>, Washington DC, October 2026.
         <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener">[DOI]</a>
         <span class="status review">To be submitted</span>
