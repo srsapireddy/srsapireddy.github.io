@@ -325,6 +325,21 @@ function copyCitation(id) {
 
     <div class="pub-entry">
       <div class="pub-card">
+        Marcus Butler, Donald Riead, <strong>Srinivas Rahul Sapireddy</strong>, Gunjeeth Kaur Mostafizur Rahman<br>
+        <em>Signal Detection and Classification in the Prescence of Interference</em><br>
+        <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener"> IEEE Military Communications Conference (MILCOM)</a>, Washington DC, October 2026.
+        <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener">[DOI]</a>
+        <span class="status review">To be submitted</span>
+        <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener" title="Download PDF">📥</a>
+      </div>
+      <div class="cite-box" onclick="copyCitation('citeR1')">
+        📑 Cite
+        <textarea id="citeR0" class="hidden-citation">S. R. Sapireddy and M. Rahman, Signal Detection and Classification in the Prescence of Interference</textarea>
+      </div>
+    </div>
+
+    <div class="pub-entry">
+      <div class="pub-card">
         <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
         <em>"Simplifying Activations with Linear Approximations in Neural Networks"</em><br>
          <a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank" rel="noopener"> Memories - Materials, Devices, Circuits and Systems (Elsevier)</a>, 2025.
