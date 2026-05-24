@@ -161,6 +161,104 @@ layout: default
 }
 .section li{ margin:0.25rem 0; }
 
+/* Attractive About / Research / Achievement Cards */
+.feature-grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:1.1rem;
+  margin-top:1.25rem;
+}
+
+@media (max-width: 950px){
+  .feature-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+.feature-card{
+  position:relative;
+  overflow:hidden;
+  border-radius:18px;
+  padding:1.35rem 1.35rem;
+  background:linear-gradient(135deg,#ffffff 0%,#f4f9ff 100%);
+  border:1px solid rgba(26,115,232,0.18);
+  box-shadow:0 8px 24px rgba(0,0,0,0.07);
+  transition:0.25s ease-in-out;
+}
+
+.feature-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 14px 34px rgba(0,0,0,0.11);
+  border-color:rgba(26,115,232,0.35);
+}
+
+.feature-card::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:5px;
+  background:linear-gradient(90deg,#1a73e8,#DC143C);
+}
+
+.feature-icon{
+  width:46px;
+  height:46px;
+  border-radius:14px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#e9f3ff;
+  color:#1a73e8;
+  font-size:1.45rem;
+  margin-bottom:0.85rem;
+  box-shadow:0 4px 12px rgba(26,115,232,0.16);
+}
+
+.feature-card h2{
+  margin:0 0 0.65rem 0;
+  color:#0b1f44;
+  font-size:1.25rem;
+  line-height:1.25;
+}
+
+.feature-card p{
+  color:#202124;
+  line-height:1.58;
+  margin:0;
+  font-size:0.98rem;
+}
+
+.feature-card ul{
+  margin:0;
+  padding-left:1.1rem;
+}
+
+.feature-card li{
+  margin:0.42rem 0;
+  color:#202124;
+  line-height:1.45;
+  font-size:0.96rem;
+}
+
+.feature-card .highlight{
+  color:#DC143C;
+  font-weight:800;
+}
+
+.feature-tag{
+  display:inline-block;
+  margin-top:0.9rem;
+  padding:0.35rem 0.7rem;
+  border-radius:999px;
+  background:#f3f8ff;
+  border:1px solid rgba(26,115,232,0.18);
+  color:#0b1f44;
+  font-weight:800;
+  font-size:0.88rem;
+}
+  
 /* Two-column panel (LinkedIn + Globe) */
 .two-col{
   display:grid;
@@ -412,37 +510,43 @@ layout: default
     </div>
   </div>
 
-  <div class="section">
-  <h2>👋 About</h2>
-  <div class="divider"></div>
-  <p>
-    I am an Assistant Professor in Electrical Engineering at Illinois State University.
-    My research focuses on hardware-aware artificial intelligence, RF signal processing,
-    edge-intelligent systems, and VLSI design. I develop efficient machine learning and
-    signal-processing methods for resource-constrained computing platforms.
-  </p>
-</div>
-  
-  <div class="section">
-    <h2>🔬 Research Areas</h2>
-    <div class="divider"></div>
+<div class="feature-grid">
+
+  <div class="feature-card">
+    <div class="feature-icon">👋</div>
+    <h2>About</h2>
+    <p>
+      I am an Assistant Professor in Electrical Engineering at Illinois State University.
+      My research focuses on hardware-aware artificial intelligence, RF signal processing,
+      edge-intelligent systems, and VLSI design. I develop efficient machine learning and
+      signal-processing methods for resource-constrained computing platforms.
+    </p>
+    <span class="feature-tag">Hardware-Aware AI · RF · VLSI</span>
+  </div>
+
+  <div class="feature-card">
+    <div class="feature-icon">🔬</div>
+    <h2>Research Areas</h2>
     <ul>
       <li>Hardware-aware machine learning for low-power edge intelligence</li>
       <li>RF signal processing and modulation classification using statistical and cyclostationary features</li>
       <li>Custom piecewise-linear activation functions for efficient neural network inference</li>
       <li>VLSI physical design, RTL-to-GDSII flow, and hardware acceleration</li>
-      <li>Embedded AI deployment for communication, sensing applications</li>
-</ul>
+      <li>Embedded AI deployment for communication and sensing applications</li>
+    </ul>
   </div>
 
-  <div class="section">
-    <h2>🏆 Recent Achievement</h2>
-    <div class="divider"></div>
-    <ul>
-      <li>Best Paper Award – RFCoN 2025 for <em>“Re-Visiting R: Statistical Envelope Analysis”</em> (Track 2, Session II)</li>
-    </ul>
-    <p style="margin-bottom:0;">Presented at the IEEE International Conference on Radio Frequency Communication and Networks (RFCoN).</p>
+  <div class="feature-card">
+    <div class="feature-icon">🏆</div>
+    <h2>Recent Achievement</h2>
+    <p>
+      Received the <span class="highlight">Best Paper Award</span> at RFCoN 2025 for
+      <em>“Re-Visiting R: Statistical Envelope Analysis”</em> in Track 2, Session II.
+    </p>
+    <span class="feature-tag">IEEE RFCoN 2025</span>
   </div>
+
+</div>
 
   <div class="section">
     <h2>📰 Latest News</h2>
