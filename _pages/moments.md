@@ -10,11 +10,45 @@ author_profile: true
   --primary: #1a73e8;
   --primary-dark: #0b4db3;
   --accent: #00bcd4;
+  --isu: #DC143C;
   --dark: #0f172a;
   --muted: #64748b;
   --light: #f8fbff;
-  --card: rgba(255, 255, 255, 0.86);
+  --card: rgba(255, 255, 255, 0.90);
   --border: rgba(26, 115, 232, 0.20);
+  --shadow: 0 10px 30px rgba(0,0,0,0.08);
+  --shadow2: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideTrack {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.92);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 /* Main Wrapper */
@@ -22,135 +56,167 @@ author_profile: true
   position: relative;
   overflow: hidden;
   padding-bottom: 2rem;
-}
-
-/* Floating Background */
-.moments-page::before,
-.moments-page::after {
-  content: "";
-  position: absolute;
-  border-radius: 50%;
-  z-index: -1;
-}
-
-.moments-page::before {
-  width: 320px;
-  height: 320px;
-  top: 40px;
-  right: -120px;
-  background: radial-gradient(circle, rgba(26,115,232,0.18), transparent 70%);
-}
-
-.moments-page::after {
-  width: 260px;
-  height: 260px;
-  bottom: 120px;
-  left: -120px;
-  background: radial-gradient(circle, rgba(0,188,212,0.16), transparent 70%);
+  animation: fadeInUp 0.85s ease-in-out;
 }
 
 /* Hero Section */
 .moments-hero {
   position: relative;
-  padding: 2.4rem 2rem;
-  margin: 1.5rem 0 2rem;
-  border-radius: 28px;
+  padding: 2.35rem 2rem;
+  margin: 1.5rem 0 1.3rem;
+  border-radius: 24px;
   background:
-    linear-gradient(135deg, rgba(26,115,232,0.12), rgba(255,255,255,0.92)),
-    linear-gradient(45deg, rgba(0,188,212,0.10), rgba(255,255,255,0.95));
-  border: 1px solid var(--border);
-  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+    radial-gradient(circle at top right, rgba(220,20,60,0.13), transparent 32%),
+    linear-gradient(135deg, #e9f3ff 0%, #ffffff 62%);
+  border: 1px solid rgba(26,115,232,0.25);
+  box-shadow: var(--shadow);
   overflow: hidden;
 }
 
 .moments-hero::before {
-  content: "Research • Teaching • Leadership • Service";
+  content: "";
   position: absolute;
-  right: -30px;
-  top: 22px;
-  transform: rotate(12deg);
-  font-size: 0.75rem;
-  letter-spacing: 0.14em;
-  color: rgba(26,115,232,0.28);
-  font-weight: 800;
-  text-transform: uppercase;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(26,115,232,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26,115,232,0.06) 1px, transparent 1px);
+  background-size: 34px 34px;
+  pointer-events: none;
+}
+
+.moments-hero-content {
+  position: relative;
+  z-index: 1;
 }
 
 .moments-kicker {
   display: inline-block;
-  margin-bottom: 0.8rem;
-  padding: 0.38rem 0.8rem;
+  margin-bottom: 0.85rem;
+  padding: 0.36rem 0.78rem;
   border-radius: 999px;
-  background: rgba(26,115,232,0.12);
-  color: var(--primary);
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  background: #ffffff;
+  border: 1px solid rgba(220,20,60,0.25);
+  color: var(--isu);
+  font-size: 0.88rem;
+  font-weight: 900;
+  box-shadow: var(--shadow2);
 }
 
-.moments-hero h2 {
-  margin: 0 0 0.7rem;
-  color: var(--dark);
-  font-size: 2.25rem;
+.moments-hero h1 {
+  margin: 0;
+  color: #0b1f44;
+  font-size: 2.15rem;
   line-height: 1.15;
-  font-weight: 850;
+  font-weight: 900;
 }
 
 .moments-hero p {
-  max-width: 850px;
-  margin: 0;
+  max-width: 880px;
+  margin: 0.75rem 0 0 0;
   color: var(--muted);
-  line-height: 1.75;
-  font-size: 1rem;
+  line-height: 1.7;
+  font-size: 1.03rem;
+}
+
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1rem;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.36rem 0.72rem;
+  border-radius: 999px;
+  background: #ffffff;
+  border: 1px solid rgba(26,115,232,0.22);
+  color: #0b1f44;
+  box-shadow: var(--shadow2);
+  font-size: 0.88rem;
+  font-weight: 850;
+}
+
+.hero-badge.red {
+  border-color: rgba(220,20,60,0.30);
+  color: #7a0b1f;
+  background: rgba(220,20,60,0.06);
+}
+
+/* Sliding Bar */
+.sliding-bar {
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid rgba(26,115,232,0.18);
+  background: #ffffff;
+  box-shadow: var(--shadow2);
+  margin-bottom: 1.3rem;
+}
+
+.slide-track {
+  display: flex;
+  width: max-content;
+  animation: slideTrack 34s linear infinite;
+}
+
+.sliding-bar:hover .slide-track {
+  animation-play-state: paused;
+}
+
+.slide-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.75rem 1.2rem;
+  color: #0b1f44;
+  font-weight: 900;
+  white-space: nowrap;
+  border-right: 1px solid rgba(26,115,232,0.10);
+}
+
+.slide-item span {
+  color: var(--isu);
 }
 
 /* Summary Cards */
 .moments-summary {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0 2.2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.95rem;
+  margin: 1.3rem 0;
 }
 
 .summary-card {
   position: relative;
-  padding: 1.1rem;
-  border-radius: 20px;
-  background: var(--card);
-  border: 1px solid rgba(15, 23, 42, 0.08);
-  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
-  backdrop-filter: blur(10px);
-  transition: 0.25s ease;
+  padding: 1.1rem 1rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #ffffff 0%, #f7fbff 100%);
+  border: 1px solid rgba(26,115,232,0.18);
+  box-shadow: var(--shadow2);
+  text-align: center;
+  transition: 0.25s ease-in-out;
   overflow: hidden;
 }
 
 .summary-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 18px 36px rgba(26,115,232,0.13);
-}
-
-.summary-card::after {
-  content: "";
-  position: absolute;
-  right: -28px;
-  bottom: -28px;
-  width: 82px;
-  height: 82px;
-  border-radius: 50%;
-  background: rgba(26,115,232,0.09);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
 }
 
 .summary-card span {
   display: block;
-  color: var(--primary);
-  font-size: 1.35rem;
-  font-weight: 850;
+  color: var(--isu);
+  font-size: 1.5rem;
+  font-weight: 950;
+  line-height: 1.1;
 }
 
 .summary-card small {
+  display: block;
   color: var(--muted);
   font-size: 0.82rem;
+  margin-top: 0.28rem;
 }
 
 /* Timeline Layout */
@@ -166,7 +232,7 @@ author_profile: true
   left: 22px;
   width: 3px;
   height: 100%;
-  background: linear-gradient(to bottom, var(--primary), var(--accent));
+  background: linear-gradient(to bottom, var(--primary), var(--isu));
   border-radius: 999px;
   opacity: 0.45;
 }
@@ -175,7 +241,7 @@ author_profile: true
 .moment-item {
   position: relative;
   margin-left: 54px;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.35rem;
 }
 
 .moment-dot {
@@ -185,7 +251,7 @@ author_profile: true
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
+  background: linear-gradient(135deg, var(--primary), var(--isu));
   border: 4px solid #ffffff;
   box-shadow: 0 0 0 4px rgba(26,115,232,0.12);
   z-index: 2;
@@ -193,57 +259,60 @@ author_profile: true
 
 .moment-card {
   display: grid;
-  grid-template-columns: minmax(240px, 42%) 1fr;
+  grid-template-columns: minmax(260px, 42%) 1fr;
   gap: 0;
-  border-radius: 24px;
+  border-radius: 20px;
   background: var(--card);
   border: 1px solid rgba(26,115,232,0.18);
-  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
+  box-shadow: var(--shadow2);
   overflow: hidden;
-  backdrop-filter: blur(12px);
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  transition: 0.25s ease-in-out;
 }
 
 .moment-card:hover {
   transform: translateY(-5px);
-  border-color: rgba(26,115,232,0.45);
-  box-shadow: 0 22px 46px rgba(26,115,232,0.16);
+  border-color: rgba(26,115,232,0.40);
+  box-shadow: var(--shadow);
 }
 
 .moment-image {
   position: relative;
-  min-height: 250px;
+  min-height: 280px;
   overflow: hidden;
-  background: #eaf2ff;
+  background: #ffffff;
 }
 
+/* IMPORTANT FIX: contain prevents image 1 and image 4 from being cut */
 .moment-image img {
   width: 100%;
   height: 100%;
-  min-height: 250px;
-  object-fit: cover;
+  min-height: 280px;
+  object-fit: contain;
+  object-position: center;
   display: block;
   cursor: pointer;
-  transition: transform 0.45s ease, filter 0.3s ease;
+  transition: transform 0.35s ease, filter 0.25s ease;
   -webkit-user-drag: none;
   user-drag: none;
+  background: #ffffff;
+  padding: 0.35rem;
 }
 
 .moment-card:hover .moment-image img {
-  transform: scale(1.06);
-  filter: brightness(0.96);
+  transform: scale(1.025);
+  filter: brightness(0.98);
 }
 
 .moment-badge {
   position: absolute;
   top: 16px;
   left: 16px;
-  padding: 0.38rem 0.7rem;
+  padding: 0.36rem 0.7rem;
   border-radius: 999px;
-  background: rgba(15, 23, 42, 0.78);
+  background: rgba(15,23,42,0.80);
   color: #ffffff;
   font-size: 0.72rem;
-  font-weight: 750;
+  font-weight: 850;
   letter-spacing: 0.03em;
   backdrop-filter: blur(8px);
 }
@@ -254,10 +323,10 @@ author_profile: true
   bottom: 16px;
   padding: 0.35rem 0.7rem;
   border-radius: 999px;
-  background: rgba(255,255,255,0.86);
+  background: rgba(255,255,255,0.92);
   color: var(--primary-dark);
   font-size: 0.75rem;
-  font-weight: 850;
+  font-weight: 900;
   box-shadow: 0 8px 18px rgba(15,23,42,0.14);
 }
 
@@ -270,10 +339,10 @@ author_profile: true
 
 .moment-content h3 {
   margin: 0 0 0.6rem;
-  color: var(--dark);
-  font-size: 1.22rem;
+  color: #0b1f44;
+  font-size: 1.2rem;
   line-height: 1.35;
-  font-weight: 850;
+  font-weight: 950;
 }
 
 .moment-content p {
@@ -297,12 +366,12 @@ author_profile: true
   color: var(--primary);
   border: 1px solid rgba(26,115,232,0.16);
   font-size: 0.72rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 /* Copyright */
 .moments-copyright {
-  margin-top: 2.4rem;
+  margin-top: 2rem;
   padding: 1.05rem 1.2rem;
   border-left: 5px solid var(--primary);
   background: rgba(248,251,255,0.92);
@@ -310,7 +379,7 @@ author_profile: true
   color: #475569;
   font-size: 0.86rem;
   line-height: 1.65;
-  box-shadow: 0 8px 20px rgba(15,23,42,0.04);
+  box-shadow: var(--shadow2);
 }
 
 /* Lightbox */
@@ -328,11 +397,13 @@ author_profile: true
 .lightbox-overlay img {
   max-width: 92%;
   max-height: 86%;
+  object-fit: contain;
   border-radius: 18px;
   box-shadow: 0 0 42px rgba(255,255,255,0.20);
   animation: zoomIn 0.25s ease;
   -webkit-user-drag: none;
   user-drag: none;
+  background: #ffffff;
 }
 
 .lightbox-close {
@@ -350,17 +421,6 @@ author_profile: true
   opacity: 1;
 }
 
-@keyframes zoomIn {
-  from {
-    transform: scale(0.92);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
 /* Copy Deterrent */
 .moments-protected {
   -webkit-user-select: none;
@@ -369,28 +429,32 @@ author_profile: true
 }
 
 /* Responsive */
-@media (max-width: 820px) {
+@media (max-width: 950px) {
+  .moments-summary {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .moment-card {
     grid-template-columns: 1fr;
   }
 
-  .moment-image {
-    min-height: 230px;
-  }
-
-  .moments-hero h2 {
-    font-size: 1.8rem;
+  .moment-image,
+  .moment-image img {
+    min-height: 300px;
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 700px) {
   .moments-hero {
-    padding: 1.45rem;
-    border-radius: 22px;
+    padding: 1.5rem 1.1rem;
   }
 
-  .moments-hero h2 {
-    font-size: 1.55rem;
+  .moments-hero h1 {
+    font-size: 1.65rem;
+  }
+
+  .moments-summary {
+    grid-template-columns: 1fr;
   }
 
   .moments-timeline::before {
@@ -409,8 +473,9 @@ author_profile: true
     padding: 1.1rem;
   }
 
+  .moment-image,
   .moment-image img {
-    min-height: 205px;
+    min-height: 260px;
   }
 }
 </style>
@@ -418,14 +483,39 @@ author_profile: true
 <div class="moments-page moments-protected">
 
   <section class="moments-hero">
-    <span class="moments-kicker">Selected Highlights</span>
-    <h2>Memorable Moments</h2>
-    <p>
-      A visual timeline of selected academic, research, teaching, leadership, and professional milestones.
-      These highlights represent conference participation, research recognition, classroom engagement,
-      and service contributions across my academic journey.
-    </p>
+    <div class="moments-hero-content">
+      <span class="moments-kicker">Selected Highlights</span>
+
+      <h1>Memorable Moments</h1>
+
+      <p>
+        A visual timeline of selected academic, research, teaching, leadership, and professional milestones.
+        These highlights represent conference participation, research recognition, classroom engagement,
+        and service contributions across my academic journey.
+      </p>
+
+      <div class="hero-badges">
+        <span class="hero-badge red">Research Recognition</span>
+        <span class="hero-badge">Conference Presentation</span>
+        <span class="hero-badge">Leadership</span>
+        <span class="hero-badge">Teaching</span>
+      </div>
+    </div>
   </section>
+
+  <div class="sliding-bar">
+    <div class="slide-track">
+      <div class="slide-item"><span>●</span> GLSVLSI 2025 Poster Presentation</div>
+      <div class="slide-item"><span>●</span> RFCoN 2025 Best Paper Award</div>
+      <div class="slide-item"><span>●</span> SGA Senator Leadership</div>
+      <div class="slide-item"><span>●</span> ASIC Physical Design Teaching</div>
+
+      <div class="slide-item"><span>●</span> GLSVLSI 2025 Poster Presentation</div>
+      <div class="slide-item"><span>●</span> RFCoN 2025 Best Paper Award</div>
+      <div class="slide-item"><span>●</span> SGA Senator Leadership</div>
+      <div class="slide-item"><span>●</span> ASIC Physical Design Teaching</div>
+    </div>
+  </div>
 
   <section class="moments-summary">
     <div class="summary-card">
@@ -453,12 +543,14 @@ author_profile: true
 
     <div class="moment-item">
       <div class="moment-dot"></div>
+
       <article class="moment-card">
         <div class="moment-image">
           <img src="/images/glsvlsi.jpeg" alt="Poster Presentation at GLSVLSI 2025">
           <div class="moment-badge">Conference</div>
           <div class="moment-year">2025</div>
         </div>
+
         <div class="moment-content">
           <h3>Poster Presentation at GLSVLSI 2025</h3>
           <p>
@@ -466,6 +558,7 @@ author_profile: true
             2025, in New Orleans, Louisiana, USA. This event provided an opportunity to share work
             with the VLSI and hardware research community.
           </p>
+
           <div class="moment-tags">
             <span>GLSVLSI</span>
             <span>VLSI</span>
@@ -477,19 +570,22 @@ author_profile: true
 
     <div class="moment-item">
       <div class="moment-dot"></div>
+
       <article class="moment-card">
         <div class="moment-image">
           <img src="/images/rfcon_award.png" alt="Best Paper Award at RFCoN 2025">
           <div class="moment-badge">Award</div>
           <div class="moment-year">2025</div>
         </div>
+
         <div class="moment-content">
-          <h3>Best Paper Award – RFCoN 2025</h3>
+          <h3>Best Paper Award - RFCoN 2025</h3>
           <p>
             Received the Best Paper Award at the IEEE International Conference on RF Communication
             and Networks, Track 2, Session II. This recognition highlights the contribution of my work
             in RF communication and signal processing research.
           </p>
+
           <div class="moment-tags">
             <span>IEEE</span>
             <span>RFCoN 2025</span>
@@ -501,19 +597,22 @@ author_profile: true
 
     <div class="moment-item">
       <div class="moment-dot"></div>
+
       <article class="moment-card">
         <div class="moment-image">
           <img src="/images/sg_senator_result.png" alt="SGA Senator Re-election">
           <div class="moment-badge">Leadership</div>
-          <div class="moment-year">2024–2025</div>
+          <div class="moment-year">2024-2025</div>
         </div>
+
         <div class="moment-content">
           <h3>Re-Elected as SGA Senator</h3>
           <p>
             Re-elected as Student Government Association Senator for the School of Science and Engineering
-            for the 2024–2025 academic year, continuing service through student representation,
+            for the 2024-2025 academic year, continuing service through student representation,
             academic engagement, and campus leadership.
           </p>
+
           <div class="moment-tags">
             <span>SGA</span>
             <span>Leadership</span>
@@ -525,19 +624,22 @@ author_profile: true
 
     <div class="moment-item">
       <div class="moment-dot"></div>
+
       <article class="moment-card">
         <div class="moment-image">
           <img src="/images/asic_class_fall2023.png" alt="ASIC Physical Design Teaching">
           <div class="moment-badge">Teaching</div>
           <div class="moment-year">Fall 2023</div>
         </div>
+
         <div class="moment-content">
-          <h3>Instructor – ASIC Physical Design</h3>
+          <h3>Instructor - ASIC Physical Design</h3>
           <p>
             Fall 2023 marked my first course as instructor, focused on ASIC Physical Design.
             The course provided an opportunity to engage students with practical concepts in synthesis,
             floorplanning, placement, routing, timing analysis, and chip design flow.
           </p>
+
           <div class="moment-tags">
             <span>Teaching</span>
             <span>ASIC</span>
@@ -569,8 +671,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const lightboxImg = document.getElementById("lightbox-img");
   const closeBtn = document.getElementById("lightbox-close");
 
-  images.forEach(img => {
-    img.addEventListener("click", () => {
+  images.forEach(function(img) {
+    img.addEventListener("click", function() {
       lightboxImg.src = img.src;
       lightboxImg.alt = img.alt;
       lightbox.style.display = "flex";
@@ -597,7 +699,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  /* Casual copy deterrent */
   document.addEventListener("contextmenu", function(e) {
     if (e.target.closest(".moments-protected")) {
       e.preventDefault();
