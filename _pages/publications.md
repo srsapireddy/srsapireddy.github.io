@@ -1001,44 +1001,44 @@ author_profile: true
       
         <div id="cite-2025-glsvlsi" class="citation-box">S. R. Sapireddy and M. Rahman, "On the Effectiveness of Piecewise Activation Approximations for Long-Term Short-Memory Networks," in Proceedings of the Great Lakes Symposium on VLSI 2025 (GLSVLSI '25), Association for Computing Machinery, New York, NY, USA, 2025, pp. 740-745, doi: 10.1145/3716368.3735217.</div>
       </div>
-            <div class="publication-card" data-type="conference award">
-              <div class="pub-top">
-                <span class="pub-year">2025</span>
-                <span class="pub-type">IEEE Conference</span>
-                <span class="pub-award">Recognized Paper</span>
-              </div>
-
-        <div class="pub-title">
-          C/N0 Analysis-Based GPS Spoofing Detection with Variable Antenna Orientations
-        </div>
-
-        <div class="pub-authors">
-          Srinivas Rahul Sapireddy and collaborators
-        </div>
-
-        <div class="pub-venue">
-          IEEE CARS, 2025.
-        </div>
-
-        <div class="pub-note">
-          Note: update this card with the exact CARS award wording if needed.
-        </div>
-
-        <div class="pub-links">
-          <button class="pub-button primary" onclick="toggleCitation('cite-2025-cars')">Citation</button>
-          <button class="pub-button" onclick="copyCitation('cite-2025-cars')">Copy Citation</button>
-          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-        </div>
-
-        <div id="cite-2025-cars" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "C/N0 Analysis-Based GPS Spoofing Detection with Variable Antenna Orientations," IEEE CARS, 2025.</div>
-      </div>
-
-      <div class="publication-card" data-type="journal">
+      
+      <div class="publication-card" data-type="thesis">
         <div class="pub-top">
           <span class="pub-year">2025</span>
-          <span class="pub-type">Journal</span>
+          <span class="pub-type">Dissertation / Thesis</span>
+          <span class="pub-award">Published</span>
         </div>
+      
+        <div class="pub-title">
+          Hardware-Aware Deep Learning and Signal Processing for Low-Power RF Modulation Classification
+        </div>
+      
+        <div class="pub-authors">
+          Srinivas Rahul Sapireddy
+        </div>
+      
+        <div class="pub-venue">
+          Ph.D. Dissertation, University of Missouri-Kansas City, ProQuest Dissertations &amp; Theses, 2025.
+        </div>
+      
+        <div class="pub-note">
+          ProQuest Publication No. 32172775
+        </div>
+      
+        <div class="pub-links">
+          <button class="pub-button primary" onclick="toggleCitation('cite-2025-dissertation')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2025-dissertation')">Copy Citation</button>
+          <a class="pub-link disabled" href="#" onclick="return false;">Link pending</a>
+          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        </div>
+      
+        <div id="cite-2025-dissertation" class="citation-box">S. R. Sapireddy, "Hardware-Aware Deep Learning and Signal Processing for Low-Power RF Modulation Classification," Ph.D. dissertation, University of Missouri-Kansas City, ProQuest Dissertations &amp; Theses, 2025, Publication No. 32172775.</div>
+      </div>
+            <div class="publication-card" data-type="journal">
+              <div class="pub-top">
+                <span class="pub-year">2025</span>
+                <span class="pub-type">Journal</span>
+              </div>
 
         <div class="pub-title">
           Early Detection of Adversarial Examples in Internet-of-Things Networks
