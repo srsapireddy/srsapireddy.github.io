@@ -388,3 +388,29 @@ input[type="submit"],
   color: #7a0016 !important;
   text-decoration: underline;
 }
+
+/* Force author sidebar text to red */
+
+.author__name,
+.author__name a,
+.author__bio,
+.author__bio p,
+.author__location,
+.author__urls,
+.author__urls li,
+.author__urls a,
+.author__urls a:visited,
+.author__urls button {
+  color: #b00020 !important;
+  font-weight: 700 !important;
+}
+
+.author__name,
+.author__name a {
+  font-weight: 800 !important;
+}
+
+.author__urls a:hover {
+  color: #7a0016 !important;
+  text-decoration: underline;
+}
