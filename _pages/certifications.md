@@ -1,693 +1,966 @@
 ---
-title: "Certifications"
+title: ""
 layout: single
-permalink: /certifications/
+permalink: /service/
+toc: false
 author_profile: true
 ---
-
-<div class="cert-hero">
-  <h2>Certifications, Training, and Credentials</h2>
-  <p>
-    A visual showcase of certifications, workshops, professional memberships, and awards.
-    Click any image to view it fullscreen.
-  </p>
-
-  <div class="hero-row">
-    <div class="hero-badges">
-      <span class="pill">
-        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M12 2l3 7h7l-5.5 4.2L18.5 21 12 16.9 5.5 21l2-7.8L2 9h7l3-7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-        </svg>
-        Certifications
-      </span>
-      <span class="pill red">
-        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M6 7h12M6 12h12M6 17h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        </svg>
-        Training & Development
-      </span>
-      <span class="pill">
-        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M12 3l10 6-10 6L2 9l10-6Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-          <path d="M2 9v6l10 6 10-6V9" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-        </svg>
-        Degrees & Memberships
-      </span>
-    </div>
-    <div class="hero-actions">
-      <a class="cta" href="/resume/">Resume</a>
-      <a class="cta primary" href="/publications/">Publications</a>
-    </div>
-  </div>
-</div>
 
 <style>
 :root{
   --blue:#1a73e8;
-  --red:#DC143C;
+  --blue2:#0b5bd3;
+  --isu:#DC143C;
+  --green:#1a7f3d;
+  --gold:#7a5a00;
   --bg:#ffffff;
-  --soft:#f7fbff;
-  --muted:#5a6573;
-  --border:#d7e6fb;
-  --shadow: 0 10px 24px rgba(0,0,0,0.06);
-  --radius: 14px;
+  --soft:#f6f9ff;
+  --muted:#5f6368;
+  --text:#0b1f44;
+  --shadow:0 10px 30px rgba(0,0,0,0.08);
+  --shadow2:0 2px 10px rgba(0,0,0,0.05);
+  --radius:18px;
+  --radius2:14px;
+  --border:rgba(26,115,232,0.18);
+}
+
+@keyframes fadeInUp{
+  from{
+    opacity:0;
+    transform:translateY(14px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+@keyframes slideTrack{
+  from{
+    transform:translateX(0);
+  }
+  to{
+    transform:translateX(-50%);
+  }
+}
+
+.service-wrap{
+  animation:fadeInUp 0.85s ease-in-out;
 }
 
 /* Hero */
-.cert-hero{
-  border: 2px solid var(--blue);
-  background: linear-gradient(135deg, #ffffff 0%, #f2f8ff 55%, #ffffff 100%);
-  border-radius: 18px;
-  padding: 1.6rem 1.6rem 1.2rem 1.6rem;
-  box-shadow: var(--shadow);
-  margin-bottom: 1.4rem;
+.page-hero{
+  position:relative;
+  overflow:hidden;
+  border-radius:var(--radius);
+  padding:2.25rem 2rem;
+  margin-bottom:1.3rem;
+  background:
+    radial-gradient(circle at top right, rgba(220,20,60,0.13), transparent 32%),
+    linear-gradient(135deg,#e9f3ff 0%, #ffffff 62%);
+  border:1px solid rgba(26,115,232,0.25);
+  box-shadow:var(--shadow);
 }
-.cert-hero h2{
-  margin: 0 0 0.35rem 0;
-  color: var(--blue);
-  font-size: 1.55rem;
+
+.page-hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-image:
+    linear-gradient(rgba(26,115,232,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26,115,232,0.06) 1px, transparent 1px);
+  background-size:34px 34px;
+  pointer-events:none;
 }
-.cert-hero p{
-  margin: 0.25rem 0 0.95rem 0;
-  color: var(--muted);
-  line-height: 1.55;
+
+.hero-content{
+  position:relative;
+  z-index:1;
 }
-.hero-row{
+
+.hero-kicker{
+  display:inline-block;
+  padding:0.35rem 0.75rem;
+  border-radius:999px;
+  background:#ffffff;
+  border:1px solid rgba(220,20,60,0.25);
+  color:var(--isu);
+  font-weight:900;
+  font-size:0.88rem;
+  box-shadow:var(--shadow2);
+  margin-bottom:0.85rem;
+}
+
+.page-hero h1{
+  margin:0;
+  font-size:2.15rem;
+  line-height:1.15;
+  color:var(--text);
+}
+
+.page-hero p{
+  margin:0.75rem 0 0 0;
+  color:var(--muted);
+  font-size:1.04rem;
+  line-height:1.65;
+  max-width:94ch;
+}
+
+/* Buttons */
+.hero-links{
   display:flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  flex-wrap:wrap;
+  gap:0.7rem;
+  margin-top:1.15rem;
 }
-.hero-badges{
+
+.btn-link{
+  display:inline-flex;
+  align-items:center;
+  gap:0.45rem;
+  padding:0.58rem 0.92rem;
+  border-radius:12px;
+  background:var(--blue);
+  color:#ffffff !important;
+  text-decoration:none !important;
+  font-weight:850;
+  box-shadow:var(--shadow2);
+  transition:0.2s ease-in-out;
+}
+
+.btn-link:hover{
+  background:var(--blue2);
+  transform:translateY(-2px);
+  text-decoration:none !important;
+}
+
+.btn-link.secondary{
+  background:#ffffff;
+  color:var(--blue) !important;
+  border:1px solid rgba(26,115,232,0.25);
+}
+
+/* Sliding bar */
+.sliding-bar{
+  overflow:hidden;
+  border-radius:16px;
+  border:1px solid rgba(26,115,232,0.18);
+  background:#ffffff;
+  box-shadow:var(--shadow2);
+  margin-bottom:1.3rem;
+}
+
+.slide-track{
   display:flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+  width:max-content;
+  animation:slideTrack 32s linear infinite;
 }
+
+.sliding-bar:hover .slide-track{
+  animation-play-state:paused;
+}
+
+.slide-item{
+  display:inline-flex;
+  align-items:center;
+  gap:0.4rem;
+  padding:0.75rem 1.2rem;
+  color:var(--text);
+  font-weight:900;
+  white-space:nowrap;
+  border-right:1px solid rgba(26,115,232,0.10);
+}
+
+.slide-item span{
+  color:var(--isu);
+}
+
+/* Badges */
+.badges{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.55rem;
+  margin-top:1rem;
+}
+
+.badge{
+  display:inline-flex;
+  align-items:center;
+  gap:0.35rem;
+  padding:0.36rem 0.72rem;
+  border-radius:999px;
+  background:#ffffff;
+  border:1px solid rgba(26,115,232,0.22);
+  box-shadow:var(--shadow2);
+  font-size:0.9rem;
+  color:var(--text);
+  font-weight:850;
+}
+
+.badge.isu{
+  border-color:rgba(220,20,60,0.30);
+  color:#7a0b1f;
+  background:rgba(220,20,60,0.06);
+}
+
+/* Impact cards */
+.impact-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:0.95rem;
+  margin-bottom:1.3rem;
+}
+
+.impact-card{
+  padding:1.1rem 1rem;
+  border-radius:16px;
+  background:linear-gradient(135deg,#ffffff 0%,#f7fbff 100%);
+  border:1px solid rgba(26,115,232,0.18);
+  box-shadow:var(--shadow2);
+  text-align:center;
+  transition:0.25s ease-in-out;
+}
+
+.impact-card:hover{
+  transform:translateY(-3px);
+  box-shadow:var(--shadow);
+}
+
+.impact-number{
+  font-size:1.6rem;
+  font-weight:950;
+  color:var(--isu);
+  line-height:1.1;
+}
+
+.impact-label{
+  margin-top:0.35rem;
+  font-size:0.92rem;
+  color:var(--text);
+  font-weight:850;
+}
+
+.impact-sub{
+  margin-top:0.22rem;
+  font-size:0.82rem;
+  color:var(--muted);
+}
+
+/* Sections */
+.section{
+  border:1px solid var(--border);
+  background:var(--bg);
+  padding:1.35rem 1.5rem;
+  margin-bottom:1.3rem;
+  border-radius:var(--radius2);
+  box-shadow:var(--shadow2);
+  transition:0.25s ease-in-out;
+}
+
+.section:hover{
+  background:#fbfdff;
+  transform:translateY(-2px);
+  box-shadow:var(--shadow);
+}
+
+.section h2,
+.section h3{
+  margin:0;
+  color:var(--text);
+  font-size:1.22rem;
+  display:flex;
+  align-items:center;
+  gap:0.55rem;
+}
+
+.section p{
+  color:#202124;
+  line-height:1.65;
+}
+
+.divider{
+  height:1px;
+  background:rgba(26,115,232,0.12);
+  margin:0.6rem 0 1rem 0;
+}
+
+/* Focus cards */
+.focus-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1.1rem;
+  margin-bottom:1.3rem;
+}
+
+.focus-card{
+  position:relative;
+  overflow:hidden;
+  padding:1.25rem;
+  border-radius:16px;
+  background:linear-gradient(135deg,#ffffff 0%,#f4f9ff 100%);
+  border:1px solid rgba(26,115,232,0.18);
+  box-shadow:var(--shadow2);
+  transition:0.25s ease-in-out;
+}
+
+.focus-card:hover{
+  transform:translateY(-4px);
+  box-shadow:var(--shadow);
+}
+
+.focus-card::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  height:5px;
+  width:100%;
+  background:linear-gradient(90deg,var(--blue),var(--isu));
+}
+
+.focus-icon{
+  width:46px;
+  height:46px;
+  border-radius:14px;
+  background:#e9f3ff;
+  color:var(--blue);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:1.45rem;
+  margin-bottom:0.85rem;
+  box-shadow:0 4px 12px rgba(26,115,232,0.16);
+}
+
+.focus-card h3{
+  margin:0 0 0.55rem 0;
+  font-size:1.12rem;
+  color:var(--text);
+}
+
+.focus-card p{
+  margin:0;
+  color:#202124;
+  line-height:1.55;
+  font-size:0.95rem;
+}
+
+/* Service tabs */
+.service-tabs{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.7rem;
+  margin-bottom:1.1rem;
+}
+
+.tab-button{
+  border:1px solid rgba(26,115,232,0.22);
+  background:#ffffff;
+  color:var(--blue);
+  padding:0.62rem 1rem;
+  border-radius:999px;
+  cursor:pointer;
+  font-weight:900;
+  box-shadow:var(--shadow2);
+  transition:0.2s ease-in-out;
+}
+
+.tab-button:hover{
+  transform:translateY(-2px);
+  background:#f3f8ff;
+}
+
+.tab-button.active{
+  background:var(--blue);
+  color:#ffffff;
+  border-color:var(--blue);
+}
+
+.tab-panel{
+  display:none;
+  animation:fadeInUp 0.45s ease-in-out;
+}
+
+.tab-panel.active{
+  display:block;
+}
+
+/* Service Grid + Cards */
+.service-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:1rem;
+  margin-top:0.9rem;
+}
+
+@media (min-width:900px){
+  .service-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+.service-card{
+  background:#ffffff;
+  border:1px solid rgba(26,115,232,0.16);
+  border-radius:16px;
+  padding:1.1rem 1.15rem;
+  box-shadow:var(--shadow2);
+  transition:0.22s ease-in-out;
+  position:relative;
+  overflow:hidden;
+}
+
+.service-card:hover{
+  transform:translateY(-3px);
+  box-shadow:var(--shadow);
+  background:#fbfdff;
+}
+
+.service-card::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:6px;
+  border-top-left-radius:16px;
+  border-bottom-left-radius:16px;
+  background:rgba(26,115,232,0.70);
+}
+
+.service-card.isu::before{
+  background:rgba(220,20,60,0.78);
+}
+
+.service-card.umkc::before{
+  background:rgba(0,150,214,0.78);
+}
+
+.service-card.research::before{
+  background:linear-gradient(180deg,var(--blue),var(--isu));
+}
+
+.service-card h4{
+  margin:0 0 0.55rem 0;
+  font-size:1.05rem;
+  color:var(--text);
+  line-height:1.35;
+}
+
+.service-card p{
+  margin:0.38rem 0;
+  color:#202124;
+  font-size:0.95rem;
+  line-height:1.55;
+}
+
+.meta{
+  color:var(--muted) !important;
+  font-size:0.92rem !important;
+  margin:0.2rem 0 0.2rem 0 !important;
+}
+
+/* Status pills */
 .pill{
   display:inline-flex;
   align-items:center;
-  gap: 0.45rem;
-  padding: 0.35rem 0.7rem;
-  border-radius: 999px;
-  font-weight: 800;
-  font-size: 0.86rem;
-  border: 1px solid var(--border);
-  background: #ffffff;
-  color: var(--blue);
+  font-size:0.84rem;
+  font-weight:900;
+  padding:0.28rem 0.62rem;
+  border-radius:999px;
+  margin-top:0.55rem;
 }
-.pill.red{
-  border-color: #ffd0d8;
-  color: var(--red);
-}
-.pill svg{ width:16px; height:16px; opacity:0.95; }
 
-.hero-actions{
+.pill.active{
+  color:var(--green);
+  background:#dcfce7;
+}
+
+.pill.ongoing{
+  color:#0a539e;
+  background:#e5f1ff;
+}
+
+.pill.pending{
+  color:var(--gold);
+  background:#fff6e6;
+}
+
+.pill.submitted{
+  color:#444;
+  background:#f1f3f4;
+}
+
+.pill.completed{
+  color:var(--green);
+  background:#dcfce7;
+}
+
+/* Tag cloud */
+.tag-cloud{
   display:flex;
-  gap: 0.6rem;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
+  gap:0.55rem;
 }
-.cta{
-  display:inline-block;
-  padding: 0.55rem 0.9rem;
-  border-radius: 12px;
-  font-weight: 900;
-  text-decoration:none;
-  border: 2px solid var(--blue);
-  color: var(--blue);
-  background: #ffffff;
-  transition: 0.2s ease;
-}
-.cta:hover{ transform: translateY(-1px); background:#eaf3ff; }
-.cta.primary{ background: var(--blue); color:#fff; }
-.cta.primary:hover{ background:#135fcd; }
 
-/* Section wrapper */
-.section{
-  border: 2px solid var(--blue);
-  border-radius: 18px;
-  background: #ffffff;
-  box-shadow: var(--shadow);
-  margin: 1.2rem 0;
-  overflow: hidden;
+.tag{
+  display:inline-flex;
+  padding:0.36rem 0.72rem;
+  border-radius:999px;
+  background:#f3f8ff;
+  border:1px solid rgba(26,115,232,0.18);
+  color:var(--text);
+  font-size:0.88rem;
+  font-weight:850;
 }
-.section-head{
-  padding: 1rem 1.2rem 0.9rem 1.2rem;
-  background: linear-gradient(180deg, #ffffff 0%, #f6fbff 100%);
-  border-bottom: 1px solid #e8f2ff;
+
+/* Timeline */
+.timeline{
+  position:relative;
+  margin-top:0.3rem;
+  padding-left:1.3rem;
 }
-.section-head h3{
-  margin: 0;
-  color: var(--blue);
-  font-size: 1.2rem;
+
+.timeline::before{
+  content:"";
+  position:absolute;
+  left:0.25rem;
+  top:0.2rem;
+  bottom:0.2rem;
+  width:2px;
+  background:linear-gradient(180deg,var(--blue),var(--isu));
 }
-.section-head p{
-  margin: 0.25rem 0 0 0;
-  color: var(--muted);
-  font-size: 0.95rem;
+
+.timeline-item{
+  position:relative;
+  margin-bottom:1rem;
+  padding-left:1rem;
 }
-.section-body{
-  padding: 1rem 1.2rem 1.2rem 1.2rem;
+
+.timeline-item::before{
+  content:"";
+  position:absolute;
+  left:-1.29rem;
+  top:0.25rem;
+  width:11px;
+  height:11px;
+  border-radius:50%;
+  background:var(--isu);
+  border:3px solid #ffffff;
+  box-shadow:0 0 0 2px rgba(220,20,60,0.22);
+}
+
+.timeline-year{
+  color:var(--isu);
+  font-weight:900;
+  font-size:0.88rem;
+}
+
+.timeline-title{
+  color:var(--text);
+  font-weight:900;
+  margin-top:0.1rem;
+}
+
+.timeline-text{
+  color:#202124;
+  margin-top:0.15rem;
+  line-height:1.5;
 }
 
 /* Grid */
-.cert-grid{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.1rem;
-  margin-top: 0.5rem;
-}
-.cert-card{
-  background: #fff;
-  border: 1px solid #e3efff;
-  border-radius: 14px;
-  padding: 0.55rem;
-  transition: 0.2s ease;
-  position: relative;
-}
-.cert-card:hover{
-  transform: translateY(-2px);
-  background: #f3f9ff;
-  box-shadow: 0 10px 18px rgba(26,115,232,0.08);
-  border-color: #cfe2ff;
-}
-.cert-card img{
-  width: 100%;
-  border-radius: 10px;
-  cursor: zoom-in;
-  display:block;
-}
-.cert-title{
-  margin-top: 0.55rem;
-  font-size: 0.92rem;
-  font-weight: 800;
-  color: #1a1a1a;
-  line-height: 1.35;
-}
-.cert-sub{
-  margin-top: 0.25rem;
-  color: var(--muted);
-  font-size: 0.86rem;
-  line-height: 1.35;
+.grid-2{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:1.2rem;
 }
 
-/* Small tag in corner (optional) */
-.corner-tag{
-  position:absolute;
-  top: 10px;
-  left: 10px;
-  background: rgba(26,115,232,0.92);
-  color: #fff;
-  font-weight: 900;
-  font-size: 0.75rem;
-  padding: 0.2rem 0.45rem;
-  border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.25);
+@media (min-width:900px){
+  .grid-2{
+    grid-template-columns:1fr 1fr;
+  }
 }
 
-/* Badges-only cards (for small badges) */
-.badge-card img{
-  width: 160px;
-  height: auto;
-  margin: 0.4rem auto 0.2rem auto;
-}
-.badge-card{
-  text-align:center;
-  padding: 0.9rem 0.8rem;
+/* Scoped links */
+.section a,
+.page-hero a{
+  color:var(--blue);
+  font-weight:850;
+  text-decoration:none;
 }
 
-/* Lightbox */
-.lightbox{
-  position: fixed;
-  inset: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.9);
-  display: none;
-  align-items: center;
-  justify-content: center;
-  z-index: 2000;
-  padding: 18px;
+.section a:hover,
+.page-hero a:hover{
+  text-decoration:underline;
 }
-.lightbox img{
-  max-width: 92vw;
-  max-height: 92vh;
-  border-radius: 14px;
-  box-shadow: 0 0 22px rgba(255, 255, 255, 0.18);
+
+/* Responsive */
+@media (max-width:950px){
+  .impact-grid,
+  .focus-grid{
+    grid-template-columns:1fr 1fr;
+  }
 }
-.lightbox .hint{
-  position: fixed;
-  bottom: 18px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: rgba(255,255,255,0.85);
-  font-weight: 800;
-  font-size: 0.92rem;
-  background: rgba(0,0,0,0.35);
-  padding: 0.35rem 0.7rem;
-  border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.2);
+
+@media (max-width:700px){
+  .page-hero{
+    padding:1.5rem 1.1rem;
+  }
+
+  .page-hero h1{
+    font-size:1.65rem;
+  }
+
+  .impact-grid,
+  .focus-grid{
+    grid-template-columns:1fr;
+  }
 }
 </style>
 
-<!-- SECTION 1 -->
-<div class="section">
-  <div class="section-head">
-    <h3>Certifications (Management)</h3>
-    <p>Academic and professional certificates.</p>
-  </div>
+<div class="service-wrap">
 
-  <div class="section-body">
-    <div class="cert-grid lightbox-gallery">
-      
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/UIUC_1.png" alt="Management">
-        <div class="cert-title">Managerial Accounting: Cost Behaviors, Systems, and Analysis</div>
-        <div class="cert-sub">University of Illinois Urbana-Champaign</div>
-      </div>
-      
-      
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/UIUC_2.png" alt="Management">
-        <div class="cert-title">Managerial Accounting: Tools for Facilitating and Guiding Business Decisions</div>
-        <div class="cert-sub">University of Illinois Urbana-Champaign</div>
-      </div>
-      
-  </div>
-</div>
-              
-<!-- SECTION 1 -->
-<div class="section">
-  <div class="section-head">
-    <h3>Certifications</h3>
-    <p>Academic and professional certificates.</p>
-  </div>
-  <div class="section-body">
-    <div class="cert-grid lightbox-gallery">
+  <div class="page-hero">
+    <div class="hero-content">
+      <span class="hero-kicker">Academic Service · Outreach · Research Leadership</span>
 
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/purdue.jpeg" alt="Semiconductor">
-        <div class="cert-title">Semiconductor Fabrication</div>
-        <div class="cert-sub">Purdue University, University of Texas Austin</div>
+      <h1>Service</h1>
+
+      <p>
+        My service activities span institutional leadership, student engagement, K-12 outreach,
+        professional community contribution, and research-related proposal development. These activities align with
+        Illinois State University annual review categories, including teaching, research and creative activity, and service.
+      </p>
+
+      <div class="badges">
+        <span class="badge isu">Assistant Professor · Illinois State University</span>
+        <span class="badge">Institutional Service</span>
+        <span class="badge">Professional Service</span>
+        <span class="badge">Research Leadership</span>
+        <span class="badge">K-12 STEM Outreach</span>
       </div>
 
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/statistical_learning.png" alt="Statistical Learning">
-        <div class="cert-title">Statistical Learning</div>
-        <div class="cert-sub">Stanford University</div>
+      <div class="hero-links">
+        <a class="btn-link secondary" href="/resume/">Resume</a>
+        <a class="btn-link secondary" href="/teaching/">Teaching</a>
+        <a class="btn-link" href="/publications/">Publications</a>
+        <a class="btn-link secondary" href="/insys-lab/">INSys Lab</a>
       </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/mlops_specialization.jpg" alt="MLOps Specialization">
-        <div class="cert-title">MLOps Specialization</div>
-        <div class="cert-sub">Duke University</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/mathematics_ml.png" alt="Mathematics for ML">
-        <div class="cert-title">Mathematics for Machine Learning</div>
-        <div class="cert-sub">Imperial College London</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/device_packaging.png" alt="Device Packaging">
-        <div class="cert-title">Introduction to Device and System Packaging</div>
-        <div class="cert-sub">Georgia Tech</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/Chandigarh.png" alt="Chandigarh">
-        <div class="cert-title">MEAN Stack Development (Project: Contact List CRUD)</div>
-        <div class="cert-sub">NIELIT Chandigarh</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/LONDON.png" alt="Research Methods">
-        <div class="cert-title">Understanding Research Methods</div>
-        <div class="cert-sub">University of London</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/ECOLE.png" alt="Scientific Paper">
-        <div class="cert-title">How to Write and Publish a Scientific Paper</div>
-        <div class="cert-sub">École Polytechnique, France</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/GOOGLE.png" alt="Google">
-        <div class="cert-title">Managing ML Projects with Google Cloud</div>
-        <div class="cert-sub">Google Cloud</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/LEARN.png" alt="Learn">
-        <div class="cert-title">Developing AI Applications on Azure</div>
-        <div class="cert-sub">LearnQuest</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/AWS.png" alt="AWS">
-        <div class="cert-title">Getting Started with AWS Machine Learning</div>
-        <div class="cert-sub">AWS</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/CODE.png" alt="CODE">
-        <div class="cert-title">Code Yourself! An Introduction to Programming</div>
-        <div class="cert-sub">University of Edinburgh and Universidad ORT Uruguay</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/HARDWARE.png" alt="Hardware Security">
-        <div class="cert-title">Hardware Security</div>
-        <div class="cert-sub">University of Maryland, College Park</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Cert</span>
-        <img src="/images/GORAKHPUR.png" alt="GORAKHPUR">
-        <div class="cert-title">Embedded System Design</div>
-        <div class="cert-sub">NIELIT Gorakhpur</div>
-      </div>
-
     </div>
   </div>
-</div>
 
-<!-- SECTION 2 -->
-<div class="section">
-  <div class="section-head">
-    <h3>Training & Professional Development</h3>
-    <p>Workshops, internships, and structured programs.</p>
-  </div>
-  <div class="section-body">
-    <div class="cert-grid lightbox-gallery">
+  <div class="sliding-bar">
+    <div class="slide-track">
+      <div class="slide-item"><span>●</span> Institutional Service</div>
+      <div class="slide-item"><span>●</span> Faculty Search Committee</div>
+      <div class="slide-item"><span>●</span> K-12 STEM Outreach</div>
+      <div class="slide-item"><span>●</span> IEEE Invited Lecture</div>
+      <div class="slide-item"><span>●</span> Proposal Development</div>
+      <div class="slide-item"><span>●</span> Research Leadership</div>
+      <div class="slide-item"><span>●</span> Student Project Expo</div>
 
-      <div class="cert-card">
-        <span class="corner-tag">Training</span>
-        <img src="/images/FPGA.png" alt="FPGA Training">
-        <div class="cert-title">Summer Internship on FPGA-Based Embedded Systems for DSP</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Training</span>
-        <img src="/images/NEURO.png" alt="Computational Neuroscience">
-        <div class="cert-title">Internship on Hardware for Computational Neuroscience</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Program</span>
-        <img src="/images/product_management.png" alt="Product Management">
-        <div class="cert-title">Product Management Program</div>
-        <div class="cert-sub">Confederation of Indian Industry (CII)</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Training</span>
-        <img src="/images/semiconductor_basics.png" alt="Semiconductor Basics">
-        <div class="cert-title">Basics of Semiconductor Device Technology</div>
-        <div class="cert-sub">Indian Institute of Science</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Training</span>
-        <img src="/images/TORMP.png" alt="Manuscript Drafting">
-        <div class="cert-title">Manuscript Drafting and Publishing</div>
-        <div class="cert-sub">Eudoxia Research Center</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Training</span>
-        <img src="/images/REGEX.png" alt="MEARN Stack">
-        <div class="cert-title">Industrial Training: MEARN Stack Development</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Workshop</span>
-        <img src="/images/Automobile.png" alt="Automobile">
-        <div class="cert-title">Automobile Engineering and IC Engine Workshop</div>
-        <div class="cert-sub">IIT Kanpur</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Workshop</span>
-        <img src="/images/MADRAS.png" alt="IIT Madras">
-        <div class="cert-title">AI & Reinforcement Learning Workshop</div>
-        <div class="cert-sub">IIT Madras</div>
-      </div>
-
+      <div class="slide-item"><span>●</span> Institutional Service</div>
+      <div class="slide-item"><span>●</span> Faculty Search Committee</div>
+      <div class="slide-item"><span>●</span> K-12 STEM Outreach</div>
+      <div class="slide-item"><span>●</span> IEEE Invited Lecture</div>
+      <div class="slide-item"><span>●</span> Proposal Development</div>
+      <div class="slide-item"><span>●</span> Research Leadership</div>
+      <div class="slide-item"><span>●</span> Student Project Expo</div>
     </div>
   </div>
-</div>
 
-<!-- SECTION 3 -->
-<div class="section">
-  <div class="section-head">
-    <h3>Professional Certifications</h3>
-    <p>Industry-recognized credentials.</p>
-  </div>
-  <div class="section-body">
-    <div class="cert-grid lightbox-gallery">
+  <div class="impact-grid">
+    <div class="impact-card">
+      <div class="impact-number">ISU</div>
+      <div class="impact-label">Institutional Service</div>
+      <div class="impact-sub">Department, college, and university roles</div>
+    </div>
 
-      <div class="cert-card">
-        <span class="corner-tag">Pro</span>
-        <img src="/images/network_security.jpeg" alt="Network Security">
-        <div class="cert-title">Network Security Associate</div>
-      </div>
+    <div class="impact-card">
+      <div class="impact-number">K-12</div>
+      <div class="impact-label">STEM Outreach</div>
+      <div class="impact-sub">School engagement and engineering awareness</div>
+    </div>
 
-      <div class="cert-card">
-        <span class="corner-tag">Pro</span>
-        <img src="/images/intel_cloud.png" alt="Intel Cloud">
-        <div class="cert-title">Intel Solution Pro: Cloud Business Professional</div>
-      </div>
+    <div class="impact-card">
+      <div class="impact-number">IEEE</div>
+      <div class="impact-label">Professional Service</div>
+      <div class="impact-sub">Lecture, review, and technical engagement</div>
+    </div>
 
-      <div class="cert-card">
-        <span class="corner-tag">Pro</span>
-        <img src="/images/ccna.png" alt="CCNA">
-        <div class="cert-title">Cisco Certified Network Associate (X)</div>
-      </div>
-
+    <div class="impact-card">
+      <div class="impact-number">PI</div>
+      <div class="impact-label">Research Leadership</div>
+      <div class="impact-sub">Grant and proposal development</div>
     </div>
   </div>
-</div>
 
-<!-- SECTION 4 -->
-<div class="section">
-  <div class="section-head">
-    <h3>Degrees & Diplomas</h3>
-    <p>Academic degrees and diplomas.</p>
-  </div>
-  <div class="section-body">
-    <div class="cert-grid lightbox-gallery">
+  <div class="focus-grid">
+    <div class="focus-card">
+      <div class="focus-icon">🏛️</div>
+      <h3>Institutional Engagement</h3>
+      <p>
+        Service includes committee participation, student project evaluation, continuity planning,
+        curriculum development, and university recruitment events.
+      </p>
+    </div>
 
-      <div class="cert-card">
-        <span class="corner-tag">Degree</span>
-        <img src="/images/PHD.png" alt="PhD ECE Degree">
-        <div class="cert-title">Ph.D. in Electrical and Computer Engineering</div>
-        <div class="cert-sub">University of Missouri–Kansas City</div>
-      </div>
+    <div class="focus-card">
+      <div class="focus-icon">🤝</div>
+      <h3>Outreach and Community</h3>
+      <p>
+        K-12 STEM outreach supports engineering awareness, school engagement,
+        pre-college recruitment, and hands-on learning activities.
+      </p>
+    </div>
 
-      <div class="cert-card">
-        <span class="corner-tag">Degree</span>
-        <img src="/images/ms_cs_uis.png" alt="MS CS Degree">
-        <div class="cert-title">M.S. in Computer Science</div>
-        <div class="cert-sub">University of Illinois, Springfield</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Degree</span>
-        <img src="/images/ms_ee_umkc.png" alt="MS EE Degree">
-        <div class="cert-title">M.S. in Electrical Engineering</div>
-        <div class="cert-sub">University of Missouri–Kansas City</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Degree</span>
-        <img src="/images/btech_ece.png" alt="B.Tech ECE">
-        <div class="cert-title">B.Tech in Electronics and Communication Engineering</div>
-        <div class="cert-sub">GRIET, JNTU Hyderabad</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Diploma</span>
-        <img src="/images/advanced_ai_nielit.png" alt="AI Diploma">
-        <div class="cert-title">Advanced Diploma in Artificial Intelligence</div>
-        <div class="cert-sub">NIELIT, India</div>
-      </div>
-
+    <div class="focus-card">
+      <div class="focus-icon">🔬</div>
+      <h3>Research and Proposal Service</h3>
+      <p>
+        Research service includes proposal development, grant leadership,
+        reviewer activity, and externally engaged research planning.
+      </p>
     </div>
   </div>
-</div>
 
-<!-- SECTION 5 -->
-<div class="section">
-  <div class="section-head">
-    <h3>Certification Badges</h3>
-    <p>Click the badge to open verification links.</p>
+  <div class="section">
+    <h2>📂 Service Activities</h2>
+    <div class="divider"></div>
+
+    <p>
+      Service activities are organized into institutional service, professional service,
+      and research service/leadership. Use the tabs below to view each category.
+    </p>
+
+    <div class="service-tabs">
+      <button class="tab-button active" onclick="openServiceTab(event, 'institutional-tab')">Institutional Service</button>
+      <button class="tab-button" onclick="openServiceTab(event, 'professional-tab')">Professional Service</button>
+      <button class="tab-button" onclick="openServiceTab(event, 'research-tab')">Research Service and Leadership</button>
+    </div>
+
+    <div id="institutional-tab" class="tab-panel active">
+      <div class="service-grid">
+
+        <div class="service-card isu">
+          <h4>Judge, Student Project Expo - Spring 2026</h4>
+          <p class="meta"><strong>Institution:</strong> Illinois State University</p>
+          <p><strong>Focus:</strong> Evaluation of student engineering design projects, feedback on technical presentations, and support for project-based learning across the College of Engineering.</p>
+          <span class="pill completed">Completed</span>
+        </div>
+
+        <div class="service-card isu">
+          <h4>Faculty Search Committee - Spring 2026</h4>
+          <p class="meta"><strong>Institution:</strong> Illinois State University</p>
+          <p><strong>Focus:</strong> Faculty recruitment, candidate evaluation, and participation in departmental hiring decisions.</p>
+          <span class="pill completed">Completed</span>
+        </div>
+
+        <div class="service-card isu">
+          <h4>University Continuity Program - Faculty Representative</h4>
+          <p class="meta"><strong>Department:</strong> Electrical Engineering</p>
+          <p><strong>Focus:</strong> Departmental continuity planning, preparedness initiatives, and coordination with university-level continuity efforts.</p>
+          <span class="pill active">Active</span>
+        </div>
+
+        <div class="service-card isu">
+          <h4>K-12 STEM Outreach and School Engagement Coordinator</h4>
+          <p class="meta"><strong>Institution:</strong> Illinois State University, College of Engineering</p>
+          <p><strong>Role:</strong> Lead and coordinate outreach visits to middle schools and high schools to promote engineering education, STEM awareness, and pathways into the College of Engineering.</p>
+          <p><strong>Activities:</strong> Organizing school visits, coordinating faculty and student participation, and supporting hands-on STEM engagement kits for interactive demonstrations.</p>
+          <p><strong>Focus:</strong> Pre-college STEM exposure, recruitment pipeline development, and community engagement.</p>
+          <span class="pill active">Active</span>
+        </div>
+
+        <div class="service-card isu">
+          <h4>Redbird Day 2026 - Faculty Representative</h4>
+          <p class="meta"><strong>Institution:</strong> Illinois State University</p>
+          <p><strong>Role:</strong> Represented the Electrical Engineering Department during Redbird Day 2026.</p>
+          <p><strong>Activities:</strong> Interacted with prospective students and families during the university recruitment event.</p>
+          <span class="pill completed">Completed</span>
+        </div>
+
+        <div class="service-card isu">
+          <h4>MSEE Curriculum Development</h4>
+          <p class="meta"><strong>Institution:</strong> Illinois State University</p>
+          <p><strong>Focus:</strong> Proposed new courses and contributed to structuring and formatting the MSEE curriculum, with alignment toward communication systems, signal processing, and AI-related topics.</p>
+          <span class="pill ongoing">Ongoing</span>
+        </div>
+
+        <div class="service-card isu">
+          <h4>Industry Advisory Board Presentation on K-12 STEM Outreach Preparation</h4>
+          <p class="meta"><strong>Role:</strong> Presenter</p>
+          <p class="meta"><strong>Organization:</strong> Department of Electrical Engineering, Illinois State University</p>
+          <p><strong>Contribution:</strong> Presented the preparation and planned delivery of hands-on K-12 electrical engineering outreach activities using low-cost STEM kits to support school engagement, recruitment, and College of Engineering visibility.</p>
+          <span class="pill completed">Completed</span>
+        </div>
+
+        <div class="service-card umkc">
+          <h4>Research Lab Demonstration and Outreach</h4>
+          <p class="meta"><strong>Institution:</strong> University of Missouri-Kansas City</p>
+          <p><strong>Focus:</strong> Showcased research lab work during engineering open house events, engaging with prospective students and communicating technical concepts to a broader audience.</p>
+          <span class="pill completed">Completed</span>
+        </div>
+
+        <div class="service-card umkc">
+          <h4>Senator, Student Government Association</h4>
+          <p class="meta"><strong>Institution:</strong> University of Missouri-Kansas City</p>
+          <p class="meta"><strong>Period:</strong> Fall 2023 - Fall 2024</p>
+          <p><strong>Focus:</strong> Represented graduate student interests, participated in university governance discussions, and supported student-focused academic initiatives.</p>
+          <span class="pill completed">Completed</span>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="professional-tab" class="tab-panel">
+      <div class="service-grid">
+
+        <div class="service-card isu">
+          <h4>Invited Lecture - IEEE</h4>
+          <p class="meta"><strong>Organization:</strong> IEEE ISU Student Branch</p>
+          <p><strong>Title:</strong> From RTL to GDSII: Hardware Design Flow, EDA Toolchain, and VLSI Industry Roles</p>
+          <p><strong>Venue:</strong> Williams Hall, Room 113, Illinois State University</p>
+          <p><strong>Date:</strong> April 06, 2026 &nbsp;|&nbsp; <strong>Time:</strong> 1:00-2:00 PM</p>
+          <span class="pill active">Active</span>
+        </div>
+
+        <div class="service-card">
+          <h4>Technical Program Committee Reviewer</h4>
+          <p class="meta"><strong>Organization:</strong> IEEE-affiliated conference ROSE 2026</p>
+          <p><strong>Focus:</strong> Peer review of technical manuscripts and evaluation of scholarly contributions.</p>
+          <span class="pill ongoing">Ongoing</span>
+        </div>
+
+        <div class="service-card isu">
+          <h4>Philanthropic Proposal Development</h4>
+          <p class="meta"><strong>Unit:</strong> College of Engineering</p>
+          <p><strong>Focus:</strong> Coordination and development of philanthropic proposals supporting strategic initiatives and external engagement.</p>
+          <span class="pill completed">Completed</span>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="research-tab" class="tab-panel">
+      <div class="service-grid">
+
+        <div class="service-card research">
+          <h4>Lightweight and Hardware-Aware RF Signal Classification</h4>
+          <p><strong>Focus:</strong> Energy-efficient RF classification algorithms, hardware-aware design, and edge-deployable intelligence.</p>
+          <span class="pill active">Active Research Service</span>
+        </div>
+
+        <div class="service-card research">
+          <h4>NVIDIA Academic Grant Proposal</h4>
+          <p class="meta"><strong>Role:</strong> Principal Investigator</p>
+          <p class="meta"><strong>Status:</strong> In Preparation</p>
+          <p><strong>Focus:</strong> GPU-accelerated scientific simulation and adaptive computational modeling.</p>
+          <span class="pill pending">Pending Submission</span>
+        </div>
+
+        <div class="service-card isu research">
+          <h4>Hardware-Aware Characterization of RF Transmission Lines and Antenna Arrays</h4>
+          <p class="meta"><strong>Role:</strong> Principal Investigator</p>
+          <p class="meta"><strong>Sponsor:</strong> College of Engineering University Research Grant (CEG URG)</p>
+          <p><strong>Focus:</strong> Analytical modeling, numerical analysis, and experimental RF measurement, emphasizing hardware-aware characterization and undergraduate research mentoring.</p>
+          <span class="pill active">Proposal Approved</span>
+        </div>
+
+        <div class="service-card isu research">
+          <h4>Engineering Innovation Open Lab</h4>
+          <p class="meta"><strong>Role:</strong> Co-Principal Investigator</p>
+          <p class="meta"><strong>Sponsor:</strong> Illinois State University Strategic Initiative Request Fund</p>
+          <p><strong>Focus:</strong> Development of an open, hands-on engineering learning environment that supports student innovation, experiential learning, interdisciplinary collaboration, and expanded access to technical resources beyond regular class and lab hours.</p>
+          <span class="pill submitted">Proposal Submitted</span>
+        </div>
+
+        <div class="service-card research">
+          <h4>Energy and Compute-Aware Edge Systems: A Pilot Framework</h4>
+          <p class="meta"><strong>Role:</strong> Lead Principal Investigator</p>
+          <p class="meta"><strong>Sponsor:</strong> IIN</p>
+          <p><strong>Focus:</strong> Pilot-scale research on energy and compute-aware edge systems, emphasizing lightweight intelligence, hardware-aware design, student involvement, and applied edge deployment.</p>
+          <span class="pill pending">Pending Submission</span>
+        </div>
+
+      </div>
+    </div>
+
   </div>
-  <div class="section-body">
-    <div class="cert-grid">
 
-      <div class="cert-card badge-card">
-        <a href="https://badgr.com/public/assertions/ALTQFVRfTKK09z8t39bOMQ" target="_blank" rel="noopener">
-          <img src="/images/decision.png" alt="miniMBA Badge">
-        </a>
-        <div class="cert-title">miniMBA: Executive Judgement and Decision-Making</div>
-        <div class="cert-sub">Miami University</div>
+  <div class="grid-2">
+    <div class="section">
+      <h2>📍 Service Timeline</h2>
+      <div class="divider"></div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-year">2026</div>
+          <div class="timeline-title">Illinois State University Service</div>
+          <div class="timeline-text">
+            Faculty search committee, Student Project Expo judging, Redbird Day, continuity planning, K-12 outreach, IEEE invited lecture, and proposal development.
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-year">2025-2026</div>
+          <div class="timeline-title">Research and Proposal Leadership</div>
+          <div class="timeline-text">
+            Research grant proposals and strategic initiatives in RF characterization, open engineering labs, GPU-accelerated simulation, and edge systems.
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-year">2023-2024</div>
+          <div class="timeline-title">UMKC Service</div>
+          <div class="timeline-text">
+            Student Government Association senator role and engineering open house research demonstrations.
+          </div>
+        </div>
       </div>
+    </div>
 
-      <div class="cert-card badge-card">
-        <a href="https://badges.parchment.com/public/assertions/CvWFqkZ3Qoiije2Sap6mPQ" target="_blank" rel="noopener">
-          <img src="/images/market.png" alt="miniMBA Badge">
-        </a>
-        <div class="cert-title">miniMBA: Enhancing Market Presence</div>
-        <div class="cert-sub">Miami University</div>
+    <div class="section">
+      <h2>🧭 Service Themes</h2>
+      <div class="divider"></div>
+
+      <div class="tag-cloud">
+        <span class="tag">Institutional Service</span>
+        <span class="tag">K-12 STEM Outreach</span>
+        <span class="tag">Faculty Recruitment</span>
+        <span class="tag">Curriculum Development</span>
+        <span class="tag">Student Project Evaluation</span>
+        <span class="tag">Professional Review</span>
+        <span class="tag">IEEE Engagement</span>
+        <span class="tag">Research Leadership</span>
+        <span class="tag">Proposal Development</span>
+        <span class="tag">Community Engagement</span>
       </div>
-
     </div>
   </div>
-</div>
 
-<!-- SECTION 6 -->
-<div class="section">
-  <div class="section-head">
-    <h3>Honors & Recognition</h3>
-    <p>Awards, honor societies, and recognition.</p>
-  </div>
-  <div class="section-body">
-    <div class="cert-grid lightbox-gallery">
-
-      <div class="cert-card">
-        <span class="corner-tag">Honor</span>
-        <img src="/images/guinness_world_record.png" alt="Guinness World Record">
-        <div class="cert-title">Guinness World Record – Participation Certificate</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Honor</span>
-        <img src="/images/ieee_hkn_certificate.jpg" alt="IEEE-HKN Membership">
-        <div class="cert-title">IEEE Eta Kappa Nu (HKN) – Honor Society Member</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Honor</span>
-        <img src="/images/mspe_membership.png" alt="MSPE Membership">
-        <div class="cert-title">Member – Missouri Society of Professional Engineers</div>
-        <div class="cert-sub">Western Chapter</div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-<!-- SECTION 7 -->
-<div class="section">
-  <div class="section-head">
-    <h3>Professional Memberships</h3>
-    <p>Membership proofs and IDs (where applicable).</p>
-  </div>
-  <div class="section-body">
-    <div class="cert-grid lightbox-gallery">
-
-      <div class="cert-card">
-        <span class="corner-tag">Member</span>
-        <img src="/images/ACM_Membership.png" alt="ACM Membership">
-        <div class="cert-title">ACM Member</div>
-        <div class="cert-sub">Membership ID: 8325933</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Member</span>
-        <img src="/images/IEEE_Membership.png" alt="IEEE Membership">
-        <div class="cert-title">IEEE Member</div>
-        <div class="cert-sub">Membership ID: 93943359</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Member</span>
-        <img src="/images/aaai_placeholder.png" alt="AAAI Membership">
-        <div class="cert-title">AAAI Member</div>
-        <div class="cert-sub">Membership ID: 648148</div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-<!-- SECTION 8 -->
-<div class="section">
-  <div class="section-head">
-    <h3>Hackathon Awards</h3>
-    <p>Selected hackathon accomplishments.</p>
-  </div>
-  <div class="section-body">
-    <div class="cert-grid lightbox-gallery">
-
-      <div class="cert-card">
-        <span class="corner-tag">Award</span>
-        <img src="/images/hackaroo_2022.png" alt="Hack-A-Roo 2022">
-        <div class="cert-title">2nd Place – Hack-A-Roo Fall 2022</div>
-        <div class="cert-sub">Entrepreneur Track</div>
-      </div>
-
-      <div class="cert-card">
-        <span class="corner-tag">Award</span>
-        <img src="/images/hackaroo_2021.png" alt="Hack-A-Roo 2021">
-        <div class="cert-title">3rd Place – Hack-A-Roo Fall 2021</div>
-        <div class="cert-sub">CS/IT Track</div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-<!-- Lightbox -->
-<div class="lightbox" id="lightbox" aria-hidden="true">
-  <img id="lightbox-img" src="" alt="">
-  <div class="hint">Click anywhere to close</div>
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const images = document.querySelectorAll(".lightbox-gallery img");
-  const lightbox = document.getElementById("lightbox");
-  const lightboxImg = document.getElementById("lightbox-img");
+function openServiceTab(event, panelId) {
+  const panels = document.querySelectorAll(".tab-panel");
+  const buttons = document.querySelectorAll(".tab-button");
 
-  images.forEach(img => {
-    img.addEventListener("click", () => {
-      lightboxImg.src = img.src;
-      lightbox.style.display = "flex";
-      lightbox.setAttribute("aria-hidden", "false");
-    });
+  panels.forEach(function(panel) {
+    panel.classList.remove("active");
   });
 
-  lightbox.addEventListener("click", () => {
-    lightbox.style.display = "none";
-    lightboxImg.src = "";
-    lightbox.setAttribute("aria-hidden", "true");
+  buttons.forEach(function(button) {
+    button.classList.remove("active");
   });
 
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && lightbox.style.display === "flex") {
-      lightbox.style.display = "none";
-      lightboxImg.src = "";
-      lightbox.setAttribute("aria-hidden", "true");
-    }
-  });
-});
+  const selectedPanel = document.getElementById(panelId);
+  if (selectedPanel) {
+    selectedPanel.classList.add("active");
+  }
+
+  if (event && event.currentTarget) {
+    event.currentTarget.classList.add("active");
+  }
+}
 </script>
