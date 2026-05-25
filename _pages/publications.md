@@ -1035,34 +1035,6 @@ author_profile: true
       
         <div id="cite-2025-dissertation" class="citation-box">S. R. Sapireddy, "Hardware-Aware Deep Learning and Signal Processing for Low-Power RF Modulation Classification," Ph.D. dissertation, University of Missouri-Kansas City, ProQuest Dissertations &amp; Theses, 2025, Publication No. 32172775.</div>
       </div>
-            <div class="publication-card" data-type="journal">
-              <div class="pub-top">
-                <span class="pub-year">2025</span>
-                <span class="pub-type">Journal</span>
-              </div>
-
-        <div class="pub-title">
-          Early Detection of Adversarial Examples in Internet-of-Things Networks
-        </div>
-
-        <div class="pub-authors">
-          Srinivas Rahul Sapireddy and collaborators
-        </div>
-
-        <div class="pub-venue">
-          Electronics, 2025.
-        </div>
-
-        <div class="pub-links">
-          <button class="pub-button primary" onclick="toggleCitation('cite-2025-electronics')">Citation</button>
-          <button class="pub-button" onclick="copyCitation('cite-2025-electronics')">Copy Citation</button>
-          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-        </div>
-
-        <div id="cite-2025-electronics" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Early Detection of Adversarial Examples in Internet-of-Things Networks," Electronics, 2025.</div>
-      </div>
-    </div>
 
     <div class="year-section" data-year-section="2024">
       <div class="year-header">
@@ -1070,33 +1042,38 @@ author_profile: true
         <div class="year-pill">2 publications</div>
       </div>
 
-      <div class="publication-card" data-type="journal">
-        <div class="pub-top">
-          <span class="pub-year">2024</span>
-          <span class="pub-type">Journal</span>
-        </div>
-
-        <div class="pub-title">
-          Piecewise Linear Approximation of Activation Functions for Neural Networks
-        </div>
-
-        <div class="pub-authors">
-          Srinivas Rahul Sapireddy and collaborators
-        </div>
-
-        <div class="pub-venue">
-          Memories - Materials, Devices, Circuits and Systems, 2024.
-        </div>
-
-        <div class="pub-links">
-          <button class="pub-button primary" onclick="toggleCitation('cite-2024-piecewise')">Citation</button>
-          <button class="pub-button" onclick="copyCitation('cite-2024-piecewise')">Copy Citation</button>
-          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-        </div>
-
-        <div id="cite-2024-piecewise" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Piecewise Linear Approximation of Activation Functions for Neural Networks," Memories - Materials, Devices, Circuits and Systems, 2024.</div>
+    <div class="publication-card" data-type="journal">
+      <div class="pub-top">
+        <span class="pub-year">2024</span>
+        <span class="pub-type">Journal Article</span>
+        <span class="pub-award">Published</span>
       </div>
+    
+      <div class="pub-title">
+        A Review of Crosstalk Polymorphic Circuits and Their Scalability
+      </div>
+    
+      <div class="pub-authors">
+        Md Arif Iqbal, Srinivas Rahul Sapireddy, Sumanth Dasari, Kazi Asifuzzaman, and Mostafizur Rahman
+      </div>
+    
+      <div class="pub-venue">
+        Memories - Materials, Devices, Circuits and Systems, Volume 7, 2024, Article 100094.
+      </div>
+    
+      <div class="pub-note">
+        ISSN: 2773-0646 | DOI: 10.1016/j.memori.2023.100094
+      </div>
+    
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2024-crosstalk')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2024-crosstalk')">Copy Citation</button>
+        <a class="pub-link" href="https://doi.org/10.1016/j.memori.2023.100094" target="_blank" rel="noopener">DOI</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+    
+      <div id="cite-2024-crosstalk" class="citation-box">M. A. Iqbal, S. R. Sapireddy, S. Dasari, K. Asifuzzaman, and M. Rahman, "A review of crosstalk polymorphic circuits and their scalability," Memories - Materials, Devices, Circuits and Systems, vol. 7, Art. no. 100094, 2024, doi: 10.1016/j.memori.2023.100094.</div>
+    </div>
 
       <div class="publication-card" data-type="journal">
         <div class="pub-top">
