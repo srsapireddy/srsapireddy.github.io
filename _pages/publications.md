@@ -820,6 +820,7 @@ author_profile: true
       <button class="tab-button" onclick="filterPublications(event, 'conference')">Conference</button>
       <button class="tab-button" onclick="filterPublications(event, 'journal')">Journal</button>
       <button class="tab-button" onclick="filterPublications(event, 'award')">Awarded / Recognized</button>
+      <button class="tab-button" onclick="filterPublications(event, 'thesis')">Dissertation / Thesis</button>
       <button class="tab-button" onclick="filterPublications(event, 'earlier')">Earlier Work</button>
     </div>
 
