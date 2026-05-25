@@ -869,35 +869,38 @@ author_profile: true
         <div class="year-pill">6 publications</div>
       </div>
 
-      <div class="publication-card" data-type="conference award">
+      <div class="publication-card" data-type="journal">
         <div class="pub-top">
           <span class="pub-year">2025</span>
-          <span class="pub-type">IEEE Conference</span>
-          <span class="pub-award">Best Paper Award</span>
+          <span class="pub-type">Journal Article</span>
+          <span class="pub-award">Published</span>
         </div>
-
+      
         <div class="pub-title">
-          Re-Visiting R: Statistical Envelope Analysis for Lightweight RF Signal Classification
+          Simplifying Activations with Linear Approximations in Neural Networks
         </div>
-
+      
         <div class="pub-authors">
-          Srinivas Rahul Sapireddy and collaborators
+          Srinivas Rahul Sapireddy, Kazi Asifuzzaman, and Rahman Mostafizur
         </div>
-
+      
         <div class="pub-venue">
-          IEEE International Conference on Radio Frequency Communication and Networks, RFCoN, 2025.
+          Memories - Materials, Devices, Circuits and Systems, Volume 11, 2025, Article 100134.
         </div>
-
+      
+        <div class="pub-note">
+          ISSN: 2773-0646 | DOI: 10.1016/j.memori.2025.100134
+        </div>
+      
         <div class="pub-links">
-          <button class="pub-button primary" onclick="toggleCitation('cite-2025-rfcon')">Citation</button>
-          <button class="pub-button" onclick="copyCitation('cite-2025-rfcon')">Copy Citation</button>
-          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+          <button class="pub-button primary" onclick="toggleCitation('cite-2025-memories-linear')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2025-memories-linear')">Copy Citation</button>
+          <a class="pub-link" href="https://doi.org/10.1016/j.memori.2025.100134" target="_blank" rel="noopener">DOI</a>
           <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
         </div>
-
-        <div id="cite-2025-rfcon" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Re-Visiting R: Statistical Envelope Analysis for Lightweight RF Signal Classification," IEEE International Conference on Radio Frequency Communication and Networks, RFCoN, 2025.</div>
+      
+        <div id="cite-2025-memories-linear" class="citation-box">S. R. Sapireddy, K. Asifuzzaman, and R. Mostafizur, "Simplifying activations with linear approximations in neural networks," Memories - Materials, Devices, Circuits and Systems, vol. 11, 2025, Art. no. 100134, doi: 10.1016/j.memori.2025.100134.</div>
       </div>
-
       <div class="publication-card" data-type="conference">
         <div class="pub-top">
           <span class="pub-year">2025</span>
