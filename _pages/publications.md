@@ -972,37 +972,41 @@ author_profile: true
       <div class="publication-card" data-type="conference">
         <div class="pub-top">
           <span class="pub-year">2025</span>
-          <span class="pub-type">Conference</span>
+          <span class="pub-type">ACM Conference Paper</span>
+          <span class="pub-award">Published</span>
         </div>
-
+      
         <div class="pub-title">
-          Adversarial-Resilient RF Fingerprinting: A CNN-GAN Framework for Rogue Transmitter Detection
+          On the Effectiveness of Piecewise Activation Approximations for Long-Term Short-Memory Networks
         </div>
-
+      
         <div class="pub-authors">
-          Srinivas Rahul Sapireddy and collaborators
+          Srinivas Rahul Sapireddy and Mostafizur Rahman
         </div>
-
+      
         <div class="pub-venue">
-          ICMLA, 2025.
+          Proceedings of the Great Lakes Symposium on VLSI 2025 (GLSVLSI '25), Association for Computing Machinery, New York, NY, USA, 2025, pp. 740-745.
         </div>
-
+      
+        <div class="pub-note">
+          DOI: 10.1145/3716368.3735217
+        </div>
+      
         <div class="pub-links">
-          <button class="pub-button primary" onclick="toggleCitation('cite-2025-icmla')">Citation</button>
-          <button class="pub-button" onclick="copyCitation('cite-2025-icmla')">Copy Citation</button>
-          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+          <button class="pub-button primary" onclick="toggleCitation('cite-2025-glsvlsi')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2025-glsvlsi')">Copy Citation</button>
+          <a class="pub-link" href="https://doi.org/10.1145/3716368.3735217" target="_blank" rel="noopener">DOI</a>
           <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
         </div>
-
-        <div id="cite-2025-icmla" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Adversarial-Resilient RF Fingerprinting: A CNN-GAN Framework for Rogue Transmitter Detection," ICMLA, 2025.</div>
+      
+        <div id="cite-2025-glsvlsi" class="citation-box">S. R. Sapireddy and M. Rahman, "On the Effectiveness of Piecewise Activation Approximations for Long-Term Short-Memory Networks," in Proceedings of the Great Lakes Symposium on VLSI 2025 (GLSVLSI '25), Association for Computing Machinery, New York, NY, USA, 2025, pp. 740-745, doi: 10.1145/3716368.3735217.</div>
       </div>
-
-      <div class="publication-card" data-type="conference award">
-        <div class="pub-top">
-          <span class="pub-year">2025</span>
-          <span class="pub-type">IEEE Conference</span>
-          <span class="pub-award">Recognized Paper</span>
-        </div>
+            <div class="publication-card" data-type="conference award">
+              <div class="pub-top">
+                <span class="pub-year">2025</span>
+                <span class="pub-type">IEEE Conference</span>
+                <span class="pub-award">Recognized Paper</span>
+              </div>
 
         <div class="pub-title">
           C/N0 Analysis-Based GPS Spoofing Detection with Variable Antenna Orientations
