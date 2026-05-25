@@ -1113,7 +1113,6 @@ author_profile: true
     <div class="year-section" data-year-section="2018">
       <div class="year-header">
         <div class="year-title">📅 2018 Earlier Work</div>
-        <div class="year-pill">update exact details</div>
       </div>
 
      <div class="publication-card" data-type="journal earlier">
@@ -1151,7 +1150,6 @@ author_profile: true
         <div class="year-section" data-year-section="2016">
           <div class="year-header">
             <div class="year-title">📅 2016 Earlier Work</div>
-            <div class="year-pill">update exact details</div>
           </div>
 
      <div class="publication-card" data-type="journal earlier">
