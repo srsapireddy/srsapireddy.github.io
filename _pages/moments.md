@@ -1,7 +1,7 @@
 ---
-title: "Gallery"
+title: "Moments"
 layout: single
-permalink: /gallery/
+permalink: /moments/
 author_profile: true
 ---
 
@@ -11,7 +11,6 @@ author_profile: true
   --blue2:#0b5bd3;
   --isu:#DC143C;
   --bg:#ffffff;
-  --soft:#f6f9ff;
   --muted:#5f6368;
   --text:#0b1f44;
   --border:rgba(26,115,232,0.18);
@@ -36,12 +35,12 @@ author_profile: true
   to{transform:scale(1); opacity:1;}
 }
 
-.gallery-wrap{
+.moments-wrap{
   animation:fadeInUp 0.85s ease-in-out;
 }
 
 /* Hero */
-.gallery-hero{
+.moments-hero{
   position:relative;
   overflow:hidden;
   border-radius:var(--radius);
@@ -54,7 +53,7 @@ author_profile: true
   box-shadow:var(--shadow);
 }
 
-.gallery-hero::before{
+.moments-hero::before{
   content:"";
   position:absolute;
   inset:0;
@@ -83,14 +82,14 @@ author_profile: true
   margin-bottom:0.85rem;
 }
 
-.gallery-hero h1{
+.moments-hero h1{
   margin:0;
   font-size:2.15rem;
   line-height:1.15;
   color:var(--text);
 }
 
-.gallery-hero p{
+.moments-hero p{
   margin:0.75rem 0 0 0;
   color:var(--muted);
   font-size:1.04rem;
@@ -240,7 +239,7 @@ author_profile: true
 }
 
 /* Tabs */
-.gallery-tabs{
+.moments-tabs{
   display:flex;
   flex-wrap:wrap;
   gap:0.7rem;
@@ -279,7 +278,7 @@ author_profile: true
   display:block;
 }
 
-/* Gallery grid */
+/* Grid */
 .highlight-grid{
   display:grid;
   grid-template-columns:repeat(4,1fr);
@@ -314,7 +313,7 @@ author_profile: true
   background:linear-gradient(90deg,var(--blue),var(--isu));
 }
 
-/* IMPORTANT: contain prevents cropping/cutting */
+/* IMPORTANT: contain prevents cropping */
 .highlight-card img{
   width:100%;
   height:230px;
@@ -336,7 +335,7 @@ author_profile: true
   font-weight:900;
 }
 
-.gallery-tag{
+.moment-tag{
   position:absolute;
   top:12px;
   left:12px;
@@ -351,11 +350,11 @@ author_profile: true
   border:1px solid rgba(255,255,255,0.25);
 }
 
-.gallery-tag.red{
+.moment-tag.red{
   background:rgba(220,20,60,0.92);
 }
 
-.gallery-tag.green{
+.moment-tag.green{
   background:rgba(26,127,61,0.92);
 }
 
@@ -417,11 +416,11 @@ author_profile: true
 }
 
 @media (max-width:700px){
-  .gallery-hero{
+  .moments-hero{
     padding:1.5rem 1.1rem;
   }
 
-  .gallery-hero h1{
+  .moments-hero h1{
     font-size:1.65rem;
   }
 
@@ -442,21 +441,21 @@ author_profile: true
 }
 </style>
 
-<div class="gallery-wrap">
+<div class="moments-wrap">
 
-  <div class="gallery-hero">
+  <div class="moments-hero">
     <div class="hero-content">
-      <span class="hero-kicker">Gallery · Academic Journey · Research · Milestones</span>
+      <span class="hero-kicker">Moments · Academic Journey · Research · Milestones</span>
 
-      <h1>Gallery</h1>
+      <h1>Memorable Moments</h1>
 
       <p>
-        A visual collection of memorable moments from my academic journey, campus visits,
-        graduations, research activities, conferences, mentorship, and professional milestones.
+        Welcome to my personal gallery — moments from my academic journey, graduation,
+        research labs, conferences, campus visits, mentoring, and team milestones.
       </p>
 
       <div class="hero-badges">
-        <span class="badge red">Academic Milestones</span>
+        <span class="badge red">Academic Journey</span>
         <span class="badge">Graduations</span>
         <span class="badge">Research and Conferences</span>
         <span class="badge">Mentors and Collaborators</span>
@@ -466,19 +465,19 @@ author_profile: true
 
   <div class="sliding-bar">
     <div class="slide-track">
-      <div class="slide-item"><span>●</span> UMKC Graduation</div>
-      <div class="slide-item"><span>●</span> UIS Graduation</div>
-      <div class="slide-item"><span>●</span> GLSVLSI Conference</div>
-      <div class="slide-item"><span>●</span> Research Mentors</div>
       <div class="slide-item"><span>●</span> UIUC Visit</div>
       <div class="slide-item"><span>●</span> UMKC Orientation</div>
+      <div class="slide-item"><span>●</span> Research Mentors</div>
+      <div class="slide-item"><span>●</span> GLSVLSI Conference</div>
+      <div class="slide-item"><span>●</span> UMKC Graduation</div>
+      <div class="slide-item"><span>●</span> UIS Graduation</div>
 
-      <div class="slide-item"><span>●</span> UMKC Graduation</div>
-      <div class="slide-item"><span>●</span> UIS Graduation</div>
-      <div class="slide-item"><span>●</span> GLSVLSI Conference</div>
-      <div class="slide-item"><span>●</span> Research Mentors</div>
       <div class="slide-item"><span>●</span> UIUC Visit</div>
       <div class="slide-item"><span>●</span> UMKC Orientation</div>
+      <div class="slide-item"><span>●</span> Research Mentors</div>
+      <div class="slide-item"><span>●</span> GLSVLSI Conference</div>
+      <div class="slide-item"><span>●</span> UMKC Graduation</div>
+      <div class="slide-item"><span>●</span> UIS Graduation</div>
     </div>
   </div>
 
@@ -509,116 +508,116 @@ author_profile: true
   </div>
 
   <div class="section">
-    <h2>🎉 Memorable Moments</h2>
+    <h2>🎉 Moments Gallery</h2>
     <div class="divider"></div>
 
     <p>
-      Use the tabs below to view images by category. Click any image to open it in a larger view.
+      Use the tabs below to view moments by category. Click any image to open it in a larger view.
     </p>
 
-    <div class="gallery-tabs">
-      <button class="tab-button active" onclick="openGalleryTab(event, 'all-tab')">All Moments</button>
-      <button class="tab-button" onclick="openGalleryTab(event, 'campus-tab')">Campus and Orientation</button>
-      <button class="tab-button" onclick="openGalleryTab(event, 'mentors-tab')">Mentors</button>
-      <button class="tab-button" onclick="openGalleryTab(event, 'conference-tab')">Conferences</button>
-      <button class="tab-button" onclick="openGalleryTab(event, 'graduation-tab')">Graduations</button>
+    <div class="moments-tabs">
+      <button class="tab-button active" onclick="openMomentTab(event, 'all-tab')">All Moments</button>
+      <button class="tab-button" onclick="openMomentTab(event, 'campus-tab')">Campus and Orientation</button>
+      <button class="tab-button" onclick="openMomentTab(event, 'mentors-tab')">Mentors</button>
+      <button class="tab-button" onclick="openMomentTab(event, 'conference-tab')">Conferences</button>
+      <button class="tab-button" onclick="openMomentTab(event, 'graduation-tab')">Graduations</button>
     </div>
 
     <div id="all-tab" class="tab-panel active">
       <div class="highlight-grid">
 
         <div class="highlight-card">
-          <span class="gallery-tag">Campus</span>
+          <span class="moment-tag">Campus</span>
           <img src="/images/Gies.jpeg" alt="Campus visit to University of Illinois Urbana-Champaign.">
           <h4>Campus visit to University of Illinois Urbana-Champaign.</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Orientation</span>
+          <span class="moment-tag">Orientation</span>
           <img src="/images/orientation1.jpeg" alt="Welcoming new students at UMKC Orientation, Fall 2025.">
           <h4>Welcoming new students at UMKC Orientation, Fall 2025.</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag red">Mentor</span>
+          <span class="moment-tag red">Mentor</span>
           <img src="/images/shyu.jpeg" alt="With Professor Shyu, UMKC">
           <h4>With Professor Shyu, UMKC</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag red">Advisor</span>
+          <span class="moment-tag red">Advisor</span>
           <img src="/images/most.jpeg" alt="With Professor Rahman, UMKC Ph.D. Advisor">
           <h4>With Professor Rahman, UMKC (Ph.D. Advisor)</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag red">Mentor</span>
+          <span class="moment-tag red">Mentor</span>
           <img src="/images/masud1.jpeg" alt="With Professor Masud, UMKC Mentor and Department Chair">
           <h4>With Professor Masud, UMKC (Mentor and Department Chair).</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag green">Conference</span>
+          <span class="moment-tag green">Conference</span>
           <img src="/images/pos1.jpeg" alt="GLSVLSI Conference 2025">
           <h4>GLSVLSI Conference 2025</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag green">Conference</span>
+          <span class="moment-tag green">Conference</span>
           <img src="/images/pos2.jpeg" alt="GLSVLSI Conference 2025">
           <h4>GLSVLSI Conference 2025</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad0.jpg" alt="UMKC Master’s Graduation">
           <h4>UMKC Master’s Graduation</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad1.jpg" alt="UMKC Master’s Graduation, 2016">
           <h4>UMKC Master’s Graduation, 2016</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad2.jpg" alt="UMKC Master’s Graduation, 2016">
           <h4>UMKC Master’s Graduation, 2016</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad3.jpg" alt="UMKC Master’s Graduation, 2016">
           <h4>UMKC Master’s Graduation, 2016</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad4.jpg" alt="UMKC Master’s Graduation, 2016">
           <h4>UMKC Master’s Graduation, 2016</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad5.jpg" alt="UMKC Master’s Graduation, 2016">
           <h4>UMKC Master’s Graduation, 2016</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad7.jpeg" alt="UIS Master’s Graduation, 2018">
           <h4>UIS Master’s Graduation, 2018</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad6.jpeg" alt="UIS Master’s Graduation, 2018">
           <h4>UIS Master’s Graduation, 2018</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag green">Conference</span>
+          <span class="moment-tag green">Conference</span>
           <img src="/images/pos3.jpeg" alt="GLSVLSI Conference">
           <h4>GLSVLSI Conference</h4>
         </div>
@@ -630,13 +629,13 @@ author_profile: true
       <div class="highlight-grid">
 
         <div class="highlight-card">
-          <span class="gallery-tag">Campus</span>
+          <span class="moment-tag">Campus</span>
           <img src="/images/Gies.jpeg" alt="Campus visit to University of Illinois Urbana-Champaign.">
           <h4>Campus visit to University of Illinois Urbana-Champaign.</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Orientation</span>
+          <span class="moment-tag">Orientation</span>
           <img src="/images/orientation1.jpeg" alt="Welcoming new students at UMKC Orientation, Fall 2025.">
           <h4>Welcoming new students at UMKC Orientation, Fall 2025.</h4>
         </div>
@@ -648,19 +647,19 @@ author_profile: true
       <div class="highlight-grid">
 
         <div class="highlight-card">
-          <span class="gallery-tag red">Mentor</span>
+          <span class="moment-tag red">Mentor</span>
           <img src="/images/shyu.jpeg" alt="With Professor Shyu, UMKC">
           <h4>With Professor Shyu, UMKC</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag red">Advisor</span>
+          <span class="moment-tag red">Advisor</span>
           <img src="/images/most.jpeg" alt="With Professor Rahman, UMKC Ph.D. Advisor">
           <h4>With Professor Rahman, UMKC (Ph.D. Advisor)</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag red">Mentor</span>
+          <span class="moment-tag red">Mentor</span>
           <img src="/images/masud1.jpeg" alt="With Professor Masud, UMKC Mentor and Department Chair">
           <h4>With Professor Masud, UMKC (Mentor and Department Chair).</h4>
         </div>
@@ -672,19 +671,19 @@ author_profile: true
       <div class="highlight-grid">
 
         <div class="highlight-card">
-          <span class="gallery-tag green">Conference</span>
+          <span class="moment-tag green">Conference</span>
           <img src="/images/pos1.jpeg" alt="GLSVLSI Conference 2025">
           <h4>GLSVLSI Conference 2025</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag green">Conference</span>
+          <span class="moment-tag green">Conference</span>
           <img src="/images/pos2.jpeg" alt="GLSVLSI Conference 2025">
           <h4>GLSVLSI Conference 2025</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag green">Conference</span>
+          <span class="moment-tag green">Conference</span>
           <img src="/images/pos3.jpeg" alt="GLSVLSI Conference">
           <h4>GLSVLSI Conference</h4>
         </div>
@@ -696,49 +695,49 @@ author_profile: true
       <div class="highlight-grid">
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad0.jpg" alt="UMKC Master’s Graduation">
           <h4>UMKC Master’s Graduation</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad1.jpg" alt="UMKC Master’s Graduation, 2016">
           <h4>UMKC Master’s Graduation, 2016</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad2.jpg" alt="UMKC Master’s Graduation, 2016">
           <h4>UMKC Master’s Graduation, 2016</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad3.jpg" alt="UMKC Master’s Graduation, 2016">
           <h4>UMKC Master’s Graduation, 2016</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad4.jpg" alt="UMKC Master’s Graduation, 2016">
           <h4>UMKC Master’s Graduation, 2016</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad5.jpg" alt="UMKC Master’s Graduation, 2016">
           <h4>UMKC Master’s Graduation, 2016</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad7.jpeg" alt="UIS Master’s Graduation, 2018">
           <h4>UIS Master’s Graduation, 2018</h4>
         </div>
 
         <div class="highlight-card">
-          <span class="gallery-tag">Graduation</span>
+          <span class="moment-tag">Graduation</span>
           <img src="/images/grad6.jpeg" alt="UIS Master’s Graduation, 2018">
           <h4>UIS Master’s Graduation, 2018</h4>
         </div>
@@ -756,7 +755,7 @@ author_profile: true
 </div>
 
 <script>
-function openGalleryTab(event, panelId) {
+function openMomentTab(event, panelId) {
   const panels = document.querySelectorAll(".tab-panel");
   const buttons = document.querySelectorAll(".tab-button");
 
