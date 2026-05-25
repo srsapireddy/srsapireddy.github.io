@@ -356,3 +356,35 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+/* ==========================================================================
+   CUSTOM AUTHOR SIDEBAR STYLING
+   ========================================================================== */
+
+.author__name {
+  color: #0b1f3a !important;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.author__bio {
+  color: #1a73e8 !important;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.author__location {
+  color: #333333 !important;
+  font-weight: 600;
+}
+
+.author__urls a {
+  color: #1a73e8 !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.author__urls a:hover {
+  color: #0b1f3a !important;
+  text-decoration: underline;
+}
