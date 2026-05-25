@@ -842,25 +842,25 @@ author_profile: true
       </div>
     
       <div class="pub-authors">
-        Srinivas Rahul Sapireddy, Mostafizur Rahman
+        Srinivas Rahul Sapireddy and Mostafizur Rahman
       </div>
     
       <div class="pub-venue">
-        Military Communications (MILCOM), National Capital Region, USA, 12 - 16 October 2026
+        Military Communications (MILCOM), National Capital Region, USA, 12 - 16 October 2026.
       </div>
     
       <div class="pub-note">
-        DOI:
+        DOI: Pending
       </div>
     
       <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-milcom-1')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-milcom-1')">Copy Citation</button>
+        <button class="pub-button primary" onclick="toggleCitation('cite-2026-milcom-spread-spectrum')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2026-milcom-spread-spectrum')">Copy Citation</button>
         <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
         <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
       </div>
     
-      <div id="cite-2026-milcom-1" class="citation-box">
+      <div id="cite-2026-milcom-spread-spectrum" class="citation-box">
         S. R. Sapireddy and M. Rahman, "Lightweight Methods for Spread Spectrum Signal Classification," Military Communications (MILCOM), National Capital Region, USA, 2026.
       </div>
     </div>
@@ -877,25 +877,25 @@ author_profile: true
       </div>
     
       <div class="pub-authors">
-        Marcus Butler, Donald Riead, Srinivas Rahul Sapireddy, Mostafizur Rahman
+        Marcus Butler, Donald Riead, Srinivas Rahul Sapireddy, and Mostafizur Rahman
       </div>
     
       <div class="pub-venue">
-        Military Communications (MILCOM), National Capital Region, USA, 12 - 16 October 2026
+        Military Communications (MILCOM), National Capital Region, USA, 12 - 16 October 2026.
       </div>
     
       <div class="pub-note">
-        DOI:
+        DOI: Pending
       </div>
     
       <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-milcom-2')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-milcom-2')">Copy Citation</button>
+        <button class="pub-button primary" onclick="toggleCitation('cite-2026-milcom-interference')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2026-milcom-interference')">Copy Citation</button>
         <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
         <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
       </div>
     
-      <div id="cite-2026-milcom-2" class="citation-box">
+      <div id="cite-2026-milcom-interference" class="citation-box">
         M. Butler, D. Riead, S. R. Sapireddy, and M. Rahman, "Signal Detection and Classification in the Presence of Interference," Military Communications (MILCOM), National Capital Region, USA, 2026.
       </div>
     </div>
@@ -924,13 +924,13 @@ author_profile: true
       </div>
     
       <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-southeastcon')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-southeastcon')">Copy Citation</button>
+        <button class="pub-button primary" onclick="toggleCitation('cite-2026-southeastcon-bin-r')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2026-southeastcon-bin-r')">Copy Citation</button>
         <a class="pub-link" href="https://doi.org/10.1109/SoutheastCon63549.2026.11476603" target="_blank" rel="noopener">DOI</a>
         <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
       </div>
     
-      <div id="cite-2026-southeastcon" class="citation-box">
+      <div id="cite-2026-southeastcon-bin-r" class="citation-box">
         S. R. Sapireddy, G. Surekha, and H. Bandi, "Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics," SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1-6, doi: 10.1109/SoutheastCon63549.2026.11476603.
       </div>
     </div>
