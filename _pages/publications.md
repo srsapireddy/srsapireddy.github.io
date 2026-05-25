@@ -838,6 +838,66 @@ author_profile: true
         </div>
 
         <div class="pub-title">
+          Lightweight Methods for Spread Spectrum Signal Classification
+        </div>
+
+        <div class="pub-authors">
+          Srinivas Rahul Sapireddy, Mostafizur Rahman
+        </div>
+
+        <div class="pub-venue">
+          Military Communications (MILCOM), National Capital Region, USA, 12 - 16 October 2026
+        </div>
+
+        <div class="pub-note">
+          DOI: 
+        </div>
+
+        <div class="pub-links">
+          <button class="pub-button primary" onclick="toggleCitation('cite-2026-southeastcon')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2026-southeastcon')">Copy Citation</button>
+          <a class="pub-link" href="" target="_blank" rel="noopener">DOI</a>
+          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        </div>
+
+              <div class="publication-card" data-type="conference">
+        <div class="pub-top">
+          <span class="pub-year">2026</span>
+          <span class="pub-type">IEEE Conference</span>
+          <span class="pub-award">Published</span>
+        </div>
+
+        <div class="pub-title">
+          Signal Detection and Classification in the Presence of Interference
+        </div>
+
+        <div class="pub-authors">
+          Marcus Butler, Donald Riead, Srinivas Rahul Sapireddy, Mostafizur Rahman
+        </div>
+
+        <div class="pub-venue">
+          Military Communications (MILCOM), National Capital Region, USA, 12 - 16 October 2026
+        </div>
+
+        <div class="pub-note">
+          DOI: 
+        </div>
+
+        <div class="pub-links">
+          <button class="pub-button primary" onclick="toggleCitation('cite-2026-southeastcon')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2026-southeastcon')">Copy Citation</button>
+          <a class="pub-link" href="" target="_blank" rel="noopener">DOI</a>
+          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        </div>
+
+      <div class="publication-card" data-type="conference">
+        <div class="pub-top">
+          <span class="pub-year">2026</span>
+          <span class="pub-type">IEEE Conference</span>
+          <span class="pub-award">Published</span>
+        </div>
+
+        <div class="pub-title">
           Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics
         </div>
 
