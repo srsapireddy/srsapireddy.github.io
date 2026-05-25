@@ -733,7 +733,7 @@ author_profile: true
   <div class="impact-grid">
     <div class="impact-card">
       <div class="big">2026</div>
-      <div class="label">Accepted Work</div>
+      <div class="label">Published Work</div>
       <div class="small">IEEE SoutheastCon</div>
     </div>
 
@@ -830,40 +830,36 @@ author_profile: true
       </div>
 
       <div class="publication-card" data-type="conference">
-          <div class="pub-top">
-            <span class="pub-year">2026</span>
-            <span class="pub-type">IEEE Conference</span>
-            <span class="pub-award">Published</span>
-          </div>
-        
-          <div class="pub-title">
-            Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics
-          </div>
-        
-          <div class="pub-authors">
-            S. R. Sapireddy, G. Surekha, and H. Bandi
-          </div>
-        
-          <div class="pub-venue">
-            SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1-6.
-          </div>
-        
-          <div class="pub-note">
-            DOI: 10.1109/SoutheastCon63549.2026.11476603
-          </div>
-        
-          <div class="pub-links">
-            <button class="pub-button primary" onclick="toggleCitation('cite-2026-southeastcon')">Citation</button>
-            <button class="pub-button" onclick="copyCitation('cite-2026-southeastcon')">Copy Citation</button>
-            <a class="pub-link" href="https://doi.org/10.1109/SoutheastCon63549.2026.11476603" target="_blank" rel="noopener">DOI</a>
-            <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-          </div>
-        
-          <div id="cite-2026-southeastcon" class="citation-box">S. R. Sapireddy, G. Surekha, and H. Bandi, "Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics," SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1-6, doi: 10.1109/SoutheastCon63549.2026.11476603.</div>
-        </div>
+        <div class="pub-top">
+          <span class="pub-year">2026</span>
+          <span class="pub-type">IEEE Conference</span>
+          <span class="pub-award">Published</span>
         </div>
 
-        <div id="cite-2026-southeastcon" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features," IEEE SoutheastCon, 2026.</div>
+        <div class="pub-title">
+          Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics
+        </div>
+
+        <div class="pub-authors">
+          S. R. Sapireddy, G. Surekha, and H. Bandi
+        </div>
+
+        <div class="pub-venue">
+          SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1-6.
+        </div>
+
+        <div class="pub-note">
+          DOI: 10.1109/SoutheastCon63549.2026.11476603
+        </div>
+
+        <div class="pub-links">
+          <button class="pub-button primary" onclick="toggleCitation('cite-2026-southeastcon')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2026-southeastcon')">Copy Citation</button>
+          <a class="pub-link" href="https://doi.org/10.1109/SoutheastCon63549.2026.11476603" target="_blank" rel="noopener">DOI</a>
+          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        </div>
+
+        <div id="cite-2026-southeastcon" class="citation-box">S. R. Sapireddy, G. Surekha, and H. Bandi, "Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics," SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1-6, doi: 10.1109/SoutheastCon63549.2026.11476603.</div>
       </div>
     </div>
 
@@ -1006,7 +1002,7 @@ author_profile: true
         </div>
 
         <div class="pub-note">
-          Note: use this card for the paper associated with your CARS recognition.
+          Note: update this card with the exact CARS award wording if needed.
         </div>
 
         <div class="pub-links">
@@ -1137,7 +1133,7 @@ author_profile: true
         </div>
 
         <div class="pub-note">
-          This placeholder is included because you mentioned 2018 work, but the exact publication details were not available in the uploaded publication file.
+          Replace this placeholder with the exact 2018 publication details.
         </div>
 
         <div class="pub-links">
@@ -1176,7 +1172,7 @@ author_profile: true
         </div>
 
         <div class="pub-note">
-          This placeholder is included because you mentioned 2016 work, but the exact publication details were not available in the uploaded publication file.
+          Replace this placeholder with the exact 2016 publication details.
         </div>
 
         <div class="pub-links">
@@ -1201,7 +1197,7 @@ author_profile: true
           <div class="timeline-year">2026</div>
           <div class="timeline-title">IEEE SoutheastCon</div>
           <div class="timeline-text">
-            Resource-efficient modulation classification using bin-based envelope features.
+            Bin-Based R framework for resource-efficient RF modulation classification using envelope statistics.
           </div>
         </div>
 
