@@ -11,10 +11,11 @@ layout: default
   --bg:#ffffff;
   --muted:#5f6368;
   --text:#0b1f44;
+  --soft:#f6f9ff;
   --shadow:0 10px 30px rgba(0,0,0,0.08);
   --shadow2:0 2px 10px rgba(0,0,0,0.05);
-  --radius:16px;
-  --radius2:12px;
+  --radius:18px;
+  --radius2:14px;
   --border:rgba(26,115,232,0.18);
 }
 
@@ -23,9 +24,13 @@ layout: default
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Container */
+@keyframes slideTrack {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
 .home-wrap{
-  max-width: 1050px;
+  max-width: 1080px;
   margin: 1.6rem auto 2rem auto;
   padding: 0 1rem;
   animation: fadeIn 0.9s ease-in-out;
@@ -33,76 +38,152 @@ layout: default
 
 /* Hero */
 .home-hero{
+  position:relative;
+  overflow:hidden;
   border-radius:var(--radius);
-  padding:2rem 1.8rem;
-  background:linear-gradient(135deg,#e9f3ff 0%, #ffffff 60%);
+  padding:2.25rem 2rem;
+  background:
+    radial-gradient(circle at top right, rgba(220,20,60,0.13), transparent 32%),
+    linear-gradient(135deg,#e9f3ff 0%, #ffffff 62%);
   border:1px solid rgba(26,115,232,0.25);
   box-shadow:var(--shadow);
 }
+
+.home-hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-image:
+    linear-gradient(rgba(26,115,232,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26,115,232,0.06) 1px, transparent 1px);
+  background-size:34px 34px;
+  pointer-events:none;
+}
+
 .hero-top{
+  position:relative;
+  z-index:1;
   display:flex;
   gap:1.6rem;
   align-items:center;
   flex-wrap:wrap;
 }
+
 .hero-avatar{
-  width:92px;
-  height:92px;
+  width:98px;
+  height:98px;
   border-radius:50%;
   background:#fff;
-  box-shadow:0 8px 20px rgba(0,0,0,0.12);
+  box-shadow:0 8px 22px rgba(0,0,0,0.13);
   display:flex;
   align-items:center;
   justify-content:center;
   overflow:hidden;
+  border:3px solid #ffffff;
 }
+
 .hero-avatar img{
   width:100%;
   height:100%;
   object-fit:cover;
 }
+
 .hero-title{
   flex:1;
   min-width:260px;
 }
+
+.hero-kicker{
+  display:inline-block;
+  padding:0.35rem 0.75rem;
+  border-radius:999px;
+  background:#ffffff;
+  border:1px solid rgba(220,20,60,0.25);
+  color:var(--isu);
+  font-weight:900;
+  font-size:0.88rem;
+  box-shadow:var(--shadow2);
+  margin-bottom:0.75rem;
+}
+
 .hero-title h1{
   margin:0;
-  font-size:2.1rem;
+  font-size:2.15rem;
   line-height:1.15;
   color:var(--text);
 }
+
 .hero-title .subtitle{
   margin-top:0.55rem;
-  color:var(--muted);
-  font-size:1.05rem;
+  color:#202124;
+  font-size:1.07rem;
+  font-weight:650;
 }
+
 .hero-meta{
   margin-top:0.85rem;
   color:#202124;
   font-size:1rem;
+  line-height:1.55;
 }
+
 .hero-meta .isu{
   color:var(--isu);
-  font-weight:800;
+  font-weight:850;
 }
+
 .hero-meta .umkc{
   color:#1E90FF;
-  font-weight:800;
+  font-weight:850;
 }
+
 .hero-cta{
   display:inline-flex;
   margin:1rem 0 0 0;
-  padding:0.5rem 0.85rem;
+  padding:0.55rem 0.9rem;
   color:#0b1f44;
   font-size:0.95rem;
   line-height:1.4;
-  font-weight:700;
+  font-weight:800;
   background:#f3f8ff;
   border:1px solid rgba(26,115,232,0.22);
   border-radius:999px;
 }
 
-/* Hero badge row */
+.chips{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.55rem;
+  margin-top:1.1rem;
+}
+
+.chip{
+  display:inline-flex;
+  align-items:center;
+  gap:0.35rem;
+  padding:0.42rem 0.78rem;
+  border-radius:999px;
+  background:#ffffff;
+  border:1px solid rgba(26,115,232,0.22);
+  box-shadow:var(--shadow2);
+  font-size:0.92rem;
+  color:#0b1f44;
+  font-weight:900;
+}
+
+.chip.link{
+  background:var(--blue);
+  border-color:transparent;
+  color:#fff;
+  text-decoration:none;
+}
+
+.chip.link:hover{
+  background:var(--blue2);
+  text-decoration:none;
+  transform:translateY(-1px);
+}
+
 .hero-badges{
   display:flex;
   flex-wrap:wrap;
@@ -121,6 +202,52 @@ layout: default
   font-size:0.88rem;
   font-weight:800;
   box-shadow:var(--shadow2);
+}
+
+/* Sliding bars */
+.sliding-bar{
+  overflow:hidden;
+  border-radius:16px;
+  border:1px solid rgba(26,115,232,0.18);
+  background:#ffffff;
+  box-shadow:var(--shadow2);
+  margin-top:1.25rem;
+  margin-bottom:1.25rem;
+}
+
+.slide-track{
+  display:flex;
+  width:max-content;
+  animation:slideTrack 30s linear infinite;
+}
+
+.sliding-bar:hover .slide-track{
+  animation-play-state:paused;
+}
+
+.slide-item{
+  display:inline-flex;
+  align-items:center;
+  gap:0.4rem;
+  padding:0.75rem 1.2rem;
+  color:var(--text);
+  font-weight:900;
+  white-space:nowrap;
+  border-right:1px solid rgba(26,115,232,0.10);
+}
+
+.slide-item span{
+  color:var(--isu);
+}
+
+.inner-slide{
+  margin:0.9rem 0 1.1rem 0;
+  border-radius:14px;
+}
+
+.inner-slide .slide-item{
+  padding:0.62rem 1rem;
+  font-size:0.9rem;
 }
 
 /* Impact metrics */
@@ -148,8 +275,8 @@ layout: default
 
 .impact-number{
   font-size:1.75rem;
-  font-weight:900;
-  color:#DC143C;
+  font-weight:950;
+  color:var(--isu);
   line-height:1.1;
 }
 
@@ -157,7 +284,7 @@ layout: default
   margin-top:0.35rem;
   font-size:0.92rem;
   color:#0b1f44;
-  font-weight:800;
+  font-weight:850;
 }
 
 .impact-sub{
@@ -165,142 +292,6 @@ layout: default
   font-size:0.82rem;
   color:var(--muted);
 }
-
-@media (max-width:900px){
-  .impact-grid{
-    grid-template-columns:repeat(2,1fr);
-  }
-}
-
-@media (max-width:560px){
-  .impact-grid{
-    grid-template-columns:1fr;
-  }
-}
-
-/* News cards */
-.news-grid{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:1rem;
-}
-
-.news-card{
-  padding:1rem;
-  border-radius:14px;
-  background:#ffffff;
-  border:1px solid rgba(26,115,232,0.18);
-  box-shadow:var(--shadow2);
-  transition:0.2s ease-in-out;
-}
-
-.news-card:hover{
-  transform:translateY(-2px);
-  box-shadow:var(--shadow);
-  background:#fbfdff;
-}
-
-.news-date{
-  display:inline-block;
-  padding:0.25rem 0.6rem;
-  border-radius:999px;
-  background:#f3f8ff;
-  border:1px solid rgba(26,115,232,0.18);
-  color:#DC143C;
-  font-size:0.82rem;
-  font-weight:900;
-  margin-bottom:0.55rem;
-}
-
-.news-card h3{
-  margin:0 0 0.4rem 0;
-  color:#0b1f44;
-  font-size:1rem;
-  line-height:1.3;
-}
-
-.news-card p{
-  margin:0;
-  color:#202124;
-  line-height:1.5;
-  font-size:0.92rem;
-}
-
-@media (max-width:900px){
-  .news-grid{
-    grid-template-columns:1fr;
-  }
-}
-
-/* Improved quick access cards */
-.quick-card{
-  position:relative;
-  overflow:hidden;
-}
-
-.quick-card::before{
-  content:"";
-  position:absolute;
-  top:0;
-  left:0;
-  width:4px;
-  height:100%;
-  background:linear-gradient(180deg,#1a73e8,#DC143C);
-}
-
-/* Mobile hero cleanup */
-@media (max-width:560px){
-  .hero-title h1{
-    font-size:1.65rem;
-  }
-
-  .home-hero{
-    padding:1.4rem 1rem;
-  }
-
-  .hero-avatar{
-    width:78px;
-    height:78px;
-  }
-
-  .hero-cta{
-    border-radius:14px;
-    display:block;
-  }
-
-  .typing img{
-    max-width:95%;
-  }
-}
-  
-/* Chips */
-.chips{
-  display:flex;
-  flex-wrap:wrap;
-  gap:0.55rem;
-  margin-top:1.1rem;
-}
-.chip{
-  display:inline-flex;
-  align-items:center;
-  gap:0.35rem;
-  padding:0.35rem 0.7rem;
-  border-radius:999px;
-  background:#ffffff;
-  border:1px solid rgba(26,115,232,0.22);
-  box-shadow:var(--shadow2);
-  font-size:0.92rem;
-  color:#0b1f44;
-  font-weight:900;
-}
-.chip.isu{ border-color:rgba(220,20,60,0.30); color:#7a0b1f; }
-.chip.link{
-  background:var(--blue);
-  border-color:transparent;
-  color:#fff;
-  text-decoration:none;
-}
-.chip.link:hover{ background:var(--blue2); }
 
 /* Sections */
 .section{
@@ -312,11 +303,13 @@ layout: default
   box-shadow:var(--shadow2);
   transition:0.25s ease-in-out;
 }
+
 .section:hover{
   background:#fbfdff;
   transform:translateY(-2px);
   box-shadow:var(--shadow);
 }
+
 .section h2{
   margin:0 0 0.35rem 0;
   font-size:1.25rem;
@@ -325,14 +318,28 @@ layout: default
   align-items:center;
   gap:0.55rem;
 }
-.divider{ height:1px; background:rgba(26,115,232,0.12); margin:0.55rem 0 1rem 0; }
-.section p{ color:#202124; }
+
+.divider{
+  height:1px;
+  background:rgba(26,115,232,0.12);
+  margin:0.55rem 0 1rem 0;
+}
+
+.section p{
+  color:#202124;
+  line-height:1.62;
+}
+
 .section ul{
   margin:0.35rem 0 0 1.15rem;
 }
-.section li{ margin:0.25rem 0; }
 
-/* Attractive About / Research / Achievement Cards */
+.section li{
+  margin:0.35rem 0;
+  line-height:1.5;
+}
+
+/* Feature cards */
 .feature-grid{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
@@ -340,17 +347,11 @@ layout: default
   margin-top:1.25rem;
 }
 
-@media (max-width: 950px){
-  .feature-grid{
-    grid-template-columns:1fr;
-  }
-}
-
 .feature-card{
   position:relative;
   overflow:hidden;
   border-radius:18px;
-  padding:1.35rem 1.35rem;
+  padding:1.35rem;
   background:linear-gradient(135deg,#ffffff 0%,#f4f9ff 100%);
   border:1px solid rgba(26,115,232,0.18);
   box-shadow:0 8px 24px rgba(0,0,0,0.07);
@@ -370,7 +371,7 @@ layout: default
   left:0;
   width:100%;
   height:5px;
-  background:linear-gradient(90deg,#1a73e8,#DC143C);
+  background:linear-gradient(90deg,var(--blue),var(--isu));
 }
 
 .feature-icon{
@@ -381,7 +382,7 @@ layout: default
   align-items:center;
   justify-content:center;
   background:#e9f3ff;
-  color:#1a73e8;
+  color:var(--blue);
   font-size:1.45rem;
   margin-bottom:0.85rem;
   box-shadow:0 4px 12px rgba(26,115,232,0.16);
@@ -414,8 +415,8 @@ layout: default
 }
 
 .feature-card .highlight{
-  color:#DC143C;
-  font-weight:800;
+  color:var(--isu);
+  font-weight:850;
 }
 
 .feature-tag{
@@ -426,78 +427,134 @@ layout: default
   background:#f3f8ff;
   border:1px solid rgba(26,115,232,0.18);
   color:#0b1f44;
-  font-weight:800;
+  font-weight:850;
   font-size:0.88rem;
 }
-  
-/* Two-column panel (LinkedIn + Globe) */
-.two-col{
+
+/* News cards */
+.news-grid{
   display:grid;
-  grid-template-columns: 1.3fr 0.7fr;
-  gap:1.2rem;
-  align-items:start;
-}
-@media (max-width: 900px){
-  .two-col{ grid-template-columns:1fr; }
+  grid-template-columns:repeat(3,1fr);
+  gap:1rem;
 }
 
-/* Globe wrapper */
-.globe-wrap{
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  overflow:hidden;
-  border-radius:12px;
+.news-card{
+  padding:1rem;
+  border-radius:14px;
+  background:#ffffff;
   border:1px solid rgba(26,115,232,0.18);
   box-shadow:var(--shadow2);
-  background:#fff;
-}
-.globe-wrap iframe,
-.globe-wrap canvas,
-.globe-wrap > div{
-  width:100% !important;
-  height:100% !important;
-}
-@media (max-width: 768px){
-  .globe-wrap{ display:none; }
+  transition:0.2s ease-in-out;
 }
 
-/* Quick Access grid */
+.news-card:hover{
+  transform:translateY(-2px);
+  box-shadow:var(--shadow);
+  background:#fbfdff;
+}
+
+.news-date{
+  display:inline-block;
+  padding:0.25rem 0.6rem;
+  border-radius:999px;
+  background:#f3f8ff;
+  border:1px solid rgba(26,115,232,0.18);
+  color:var(--isu);
+  font-size:0.82rem;
+  font-weight:900;
+  margin-bottom:0.55rem;
+}
+
+.news-card h3{
+  margin:0 0 0.4rem 0;
+  color:#0b1f44;
+  font-size:1rem;
+  line-height:1.3;
+}
+
+.news-card p{
+  margin:0;
+  color:#202124;
+  line-height:1.5;
+  font-size:0.92rem;
+}
+
+/* Quick access */
 .quick-grid{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   gap:1rem;
 }
-@media (max-width: 900px){
-  .quick-grid{ grid-template-columns: repeat(2, 1fr); }
-}
-@media (max-width: 560px){
-  .quick-grid{ grid-template-columns: 1fr; }
-}
+
 .quick-card{
+  position:relative;
+  overflow:hidden;
   border:1px solid rgba(26,115,232,0.18);
   border-radius:14px;
-  padding:1rem 1rem;
+  padding:1rem;
   background:#ffffff;
   box-shadow:var(--shadow2);
   transition:0.2s ease-in-out;
 }
+
+.quick-card::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:4px;
+  height:100%;
+  background:linear-gradient(180deg,var(--blue),var(--isu));
+}
+
 .quick-card:hover{
   transform:translateY(-2px);
   box-shadow:var(--shadow);
   background:#fbfdff;
 }
+
 .quick-card a{
   text-decoration:none;
   color:var(--blue);
   font-weight:900;
 }
+
 .quick-card p{
   margin:0.4rem 0 0 0;
   color:var(--muted);
+}
+
+/* Project strips */
+.project-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1rem;
+}
+
+.project-card{
+  border:1px solid rgba(26,115,232,0.18);
+  border-radius:16px;
+  padding:1rem;
+  background:linear-gradient(135deg,#ffffff 0%,#f7fbff 100%);
+  box-shadow:var(--shadow2);
+  transition:0.22s ease-in-out;
+}
+
+.project-card:hover{
+  transform:translateY(-3px);
+  box-shadow:var(--shadow);
+}
+
+.project-card h3{
+  margin:0 0 0.45rem 0;
+  color:var(--text);
+  font-size:1rem;
+}
+
+.project-card p{
+  margin:0;
+  color:#202124;
+  font-size:0.92rem;
 }
 
 /* Media cards */
@@ -506,12 +563,7 @@ layout: default
   grid-template-columns: repeat(3, 1fr);
   gap:1rem;
 }
-@media (max-width: 1050px){
-  .media-grid{ grid-template-columns: repeat(2, 1fr); }
-}
-@media (max-width: 650px){
-  .media-grid{ grid-template-columns: 1fr; }
-}
+
 .media-card{
   border:1px solid rgba(26,115,232,0.18);
   border-radius:14px;
@@ -520,16 +572,19 @@ layout: default
   box-shadow:var(--shadow2);
   transition:0.2s ease-in-out;
 }
+
 .media-card:hover{
   transform:translateY(-2px);
   box-shadow:var(--shadow);
 }
+
 .media-card iframe{
   width:100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio:16 / 9;
   border-radius:12px;
   border:0;
 }
+
 .media-card .cap{
   margin-top:0.6rem;
   font-weight:900;
@@ -538,23 +593,16 @@ layout: default
 
 /* Slider */
 .slider-container{
-  width: 780px;
-  max-width: 100%;
-  height: 520px;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  border-radius: 14px;
-  border: 1px solid rgba(26,115,232,0.20);
-  box-shadow: var(--shadow2);
+  width:780px;
+  max-width:100%;
+  height:520px;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+  border-radius:14px;
+  border:1px solid rgba(26,115,232,0.20);
+  box-shadow:var(--shadow2);
   background:#fff;
-}
-
-@media (max-width: 700px){
-  .slider-container{
-    width:95vw;
-    height:70vw;
-  }
 }
 
 .slider-image{
@@ -567,25 +615,19 @@ layout: default
 
 .slider-image.active{
   display:block;
-  animation: sliderFade 0.6s ease-in-out;
+  animation:sliderFade 0.6s ease-in-out;
 }
 
 @keyframes sliderFade{
-  from{
-    opacity:0.35;
-    transform:scale(1.015);
-  }
-  to{
-    opacity:1;
-    transform:scale(1);
-  }
+  from{ opacity:0.35; transform:scale(1.015); }
+  to{ opacity:1; transform:scale(1); }
 }
 
 .slider-button{
   position:absolute;
   top:50%;
   transform:translateY(-50%);
-  background-color: rgba(26, 115, 232, 0.82);
+  background-color:rgba(26,115,232,0.82);
   border:none;
   color:white;
   font-size:2rem;
@@ -596,43 +638,106 @@ layout: default
 }
 
 .slider-button:hover{
-  background-color: rgba(15, 87, 201, 0.92);
+  background-color:rgba(15,87,201,0.92);
 }
 
-.slider-prev{
-  left:10px;
-}
+.slider-prev{ left:10px; }
+.slider-next{ right:10px; }
 
-.slider-next{
-  right:10px;
-}
-
-/* Links row */
+/* Links */
 .link-row{
   display:flex;
   flex-wrap:wrap;
   gap:0.9rem;
 }
+
 .link-row a{
   text-decoration:none;
   color:var(--blue);
   font-weight:900;
-  padding:0.35rem 0.6rem;
-  border-radius:10px;
+  padding:0.4rem 0.7rem;
+  border-radius:999px;
   background:#f3f8ff;
   border:1px solid rgba(26,115,232,0.18);
 }
-.link-row a:hover{ background:#e9f3ff; }
 
-/* Typing SVG center */
-.typing{
-  text-align:center;
-  margin-top:1.1rem;
-}
-.typing img{
-  max-width:100%;
+.link-row a:hover{
+  background:#e9f3ff;
+  text-decoration:none;
 }
 
+/* Responsive */
+@media (max-width:1050px){
+  .media-grid,
+  .project-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (max-width:950px){
+  .feature-grid,
+  .grid-3{
+    grid-template-columns:1fr;
+  }
+}
+
+@media (max-width:900px){
+  .impact-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .news-grid{
+    grid-template-columns:1fr;
+  }
+
+  .quick-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (max-width:700px){
+  .slider-container{
+    width:95vw;
+    height:70vw;
+  }
+}
+
+@media (max-width:650px){
+  .media-grid,
+  .project-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+@media (max-width:560px){
+  .hero-title h1{
+    font-size:1.65rem;
+  }
+
+  .home-hero{
+    padding:1.45rem 1.1rem;
+  }
+
+  .hero-avatar{
+    width:78px;
+    height:78px;
+  }
+
+  .hero-cta{
+    border-radius:14px;
+    display:block;
+  }
+
+  .impact-grid,
+  .quick-grid{
+    grid-template-columns:1fr;
+  }
+
+  .year-header{
+    align-items:flex-start;
+    flex-direction:column;
+  }
+}
 </style>
 
 <div class="home-wrap">
@@ -644,8 +749,13 @@ layout: default
       </div>
 
       <div class="hero-title">
+        <span class="hero-kicker">Assistant Professor · Electrical Engineering</span>
+
         <h1>Srinivas Rahul Sapireddy</h1>
-        <div class="subtitle">Assistant Professor, College of Engineering · Illinois State University</div>
+
+        <div class="subtitle">
+          College of Engineering · Illinois State University
+        </div>
 
         <div class="hero-meta">
           <div><span class="isu">Illinois State University</span> · Bloomington–Normal, Illinois</div>
@@ -663,104 +773,146 @@ layout: default
           <a class="chip link" href="/service/">Service</a>
         </div>
 
-    <p class="hero-cta">
-      Research interests: hardware-aware AI, RF signal intelligence, edge computing, and VLSI systems
-    </p>
-
-    <div class="hero-badges">
-      <span class="hero-badge">Low-Power Edge AI</span>
-      <span class="hero-badge">RF Signal Intelligence</span>
-      <span class="hero-badge">VLSI Systems</span>
-      <span class="hero-badge">Hardware-Aware ML</span>
-    </div>
-        
-      </div>
-    </div>
-
-    <div class="typing">
-      <a href="https://git.io/typing-svg" target="_blank" rel="noopener">
-        <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+website!;Thanks+for+visiting+🚀&center=true&size=22&color=DC143C" alt="Welcome">
-      </a>
-    </div>
-  </div>
-  
-  <div class="section">
-    <h2>🔗 Connect</h2>
-    <div class="divider"></div>
-
-    <div class="two-col">
-      <div>
-        <p style="margin-top:0; color:var(--muted);">
-          You can connect via LinkedIn.
+        <p class="hero-cta">
+          Research interests: hardware-aware AI, RF signal intelligence, edge computing, and VLSI systems
         </p>
 
-        <div class="badge-base LI-profile-badge"
-          data-locale="en_US"
-          data-size="large"
-          data-theme="light"
-          data-type="HORIZONTAL"
-          data-vanity="srsapireddy2020"
-          data-version="v1">
-        </div>
-
-        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-      </div>
-
-      <div>
-        <div class="globe-wrap">
-          <script type="text/javascript" id="mmvst_globe"
-            src="//mapmyvisitors.com/globe.js?d=_2hLeBDk3eXXJY0I4bwnwU9rNmg2IQsmBuQT6kcMEQI"></script>
+        <div class="hero-badges">
+          <span class="hero-badge">Low-Power Edge AI</span>
+          <span class="hero-badge">RF Signal Intelligence</span>
+          <span class="hero-badge">VLSI Systems</span>
+          <span class="hero-badge">Hardware-Aware ML</span>
         </div>
       </div>
     </div>
   </div>
 
-<div class="feature-grid">
+  <div class="sliding-bar">
+    <div class="slide-track">
+      <div class="slide-item"><span>●</span> Hardware-Aware AI</div>
+      <div class="slide-item"><span>●</span> RF Signal Intelligence</div>
+      <div class="slide-item"><span>●</span> Low-Power Edge Computing</div>
+      <div class="slide-item"><span>●</span> VLSI Physical Design</div>
+      <div class="slide-item"><span>●</span> Custom Activation Functions</div>
+      <div class="slide-item"><span>●</span> Embedded Intelligence</div>
+      <div class="slide-item"><span>●</span> Signal Processing for Edge Systems</div>
 
-  <div class="feature-card">
-    <div class="feature-icon">👋</div>
-    <h2>About</h2>
-    <p>
-      I am an Assistant Professor in Electrical Engineering at Illinois State University.
-      My research focuses on hardware-aware artificial intelligence, RF signal processing,
-      edge-intelligent systems, and VLSI design. I develop efficient machine learning and
-      signal-processing methods for resource-constrained computing platforms.
-    </p>
-    <span class="feature-tag">Hardware-Aware AI · RF · VLSI</span>
+      <div class="slide-item"><span>●</span> Hardware-Aware AI</div>
+      <div class="slide-item"><span>●</span> RF Signal Intelligence</div>
+      <div class="slide-item"><span>●</span> Low-Power Edge Computing</div>
+      <div class="slide-item"><span>●</span> VLSI Physical Design</div>
+      <div class="slide-item"><span>●</span> Custom Activation Functions</div>
+      <div class="slide-item"><span>●</span> Embedded Intelligence</div>
+      <div class="slide-item"><span>●</span> Signal Processing for Edge Systems</div>
+    </div>
   </div>
 
-  <div class="feature-card">
-    <div class="feature-icon">🔬</div>
-    <h2>Research Areas</h2>
-    <ul>
-      <li>Hardware-aware machine learning for low-power edge intelligence</li>
-      <li>RF signal processing and modulation classification using statistical and cyclostationary features</li>
-      <li>Custom piecewise-linear activation functions for efficient neural network inference</li>
-      <li>VLSI physical design, RTL-to-GDSII flow, and hardware acceleration</li>
-      <li>Embedded AI deployment for communication and sensing applications</li>
-    </ul>
+  <div class="impact-grid">
+    <div class="impact-card">
+      <div class="impact-number">AI</div>
+      <div class="impact-label">Hardware-Aware ML</div>
+      <div class="impact-sub">Efficient learning for edge platforms</div>
+    </div>
+
+    <div class="impact-card">
+      <div class="impact-number">RF</div>
+      <div class="impact-label">Signal Intelligence</div>
+      <div class="impact-sub">Classification, sensing, and feature extraction</div>
+    </div>
+
+    <div class="impact-card">
+      <div class="impact-number">VLSI</div>
+      <div class="impact-label">Hardware Systems</div>
+      <div class="impact-sub">RTL-to-GDSII and implementation flow</div>
+    </div>
+
+    <div class="impact-card">
+      <div class="impact-number">Edge</div>
+      <div class="impact-label">Low-Power Computing</div>
+      <div class="impact-sub">Latency, memory, and power-aware systems</div>
+    </div>
   </div>
 
-  <div class="feature-card">
-    <div class="feature-icon">🏆</div>
-    <h2>Recent Achievement</h2>
-    <p>
-      Received the <span class="highlight">Best Paper Award</span> at RFCoN 2025 for
-      <em>“Re-Visiting R: Statistical Envelope Analysis”</em> in Track 2, Session II.
-    </p>
-    <span class="feature-tag">IEEE RFCoN 2025</span>
-  </div>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <div class="feature-icon">👋</div>
+      <h2>About</h2>
+      <p>
+        I am an Assistant Professor in Electrical Engineering at Illinois State University.
+        My research focuses on hardware-aware artificial intelligence, RF signal processing,
+        edge-intelligent systems, and VLSI design. I develop efficient machine learning and
+        signal-processing methods for resource-constrained computing platforms.
+      </p>
+      <span class="feature-tag">Hardware-Aware AI · RF · VLSI</span>
+    </div>
 
-</div>
+    <div class="feature-card">
+      <div class="feature-icon">🔬</div>
+      <h2>Research Areas</h2>
+      <ul>
+        <li>Hardware-aware machine learning for low-power edge intelligence</li>
+        <li>RF signal processing and modulation classification using statistical and cyclostationary features</li>
+        <li>Custom piecewise-linear activation functions for efficient neural network inference</li>
+        <li>VLSI physical design, RTL-to-GDSII flow, and hardware acceleration</li>
+        <li>Embedded AI deployment for communication and sensing applications</li>
+      </ul>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">🏆</div>
+      <h2>Recent Achievement</h2>
+      <p>
+        Received the <span class="highlight">Best Paper Award</span> at RFCoN 2025 for
+        <em>“Re-Visiting R: Statistical Envelope Analysis”</em> in Track 2, Session II.
+      </p>
+      <span class="feature-tag">IEEE RFCoN 2025</span>
+    </div>
+  </div>
 
   <div class="section">
     <h2>📰 Latest News</h2>
     <div class="divider"></div>
-    <div class="typing" style="margin-top:0;">
-      <a href="https://git.io/typing-svg" target="_blank" rel="noopener">
-        <img src="https://readme-typing-svg.herokuapp.com/?lines=Faculty+Member;Assistant+Professor;Illinois+State+University;
-College+of+Engineering;Excited+for+this+journey+🚀&center=true&size=15&color=DC143C&font=bold" alt="Latest News">
-      </a>
+
+    <div class="sliding-bar inner-slide">
+      <div class="slide-track">
+        <div class="slide-item"><span>●</span> Assistant Professor at Illinois State University</div>
+        <div class="slide-item"><span>●</span> IEEE RFCoN Best Paper Award</div>
+        <div class="slide-item"><span>●</span> INSys Lab Development</div>
+        <div class="slide-item"><span>●</span> K-12 STEM Outreach</div>
+        <div class="slide-item"><span>●</span> Hardware-Aware AI and RF Research</div>
+
+        <div class="slide-item"><span>●</span> Assistant Professor at Illinois State University</div>
+        <div class="slide-item"><span>●</span> IEEE RFCoN Best Paper Award</div>
+        <div class="slide-item"><span>●</span> INSys Lab Development</div>
+        <div class="slide-item"><span>●</span> K-12 STEM Outreach</div>
+        <div class="slide-item"><span>●</span> Hardware-Aware AI and RF Research</div>
+      </div>
+    </div>
+
+    <div class="news-grid">
+      <div class="news-card">
+        <span class="news-date">2026</span>
+        <h3>Assistant Professor at Illinois State University</h3>
+        <p>
+          Joined the College of Engineering at Illinois State University as an Assistant Professor in Electrical Engineering.
+        </p>
+      </div>
+
+      <div class="news-card">
+        <span class="news-date">2025</span>
+        <h3>Best Paper Award at RFCoN</h3>
+        <p>
+          Received Best Paper Award for statistical envelope analysis work in RF modulation classification.
+        </p>
+      </div>
+
+      <div class="news-card">
+        <span class="news-date">Research</span>
+        <h3>Low-Power RF and Edge-AI Systems</h3>
+        <p>
+          Current work integrates RF signal processing, hardware-aware machine learning, and efficient edge deployment.
+        </p>
+      </div>
     </div>
   </div>
 
@@ -768,13 +920,98 @@ College+of+Engineering;Excited+for+this+journey+🚀&center=true&size=15&color=D
     <h2>📂 Quick Access</h2>
     <div class="divider"></div>
 
+    <div class="sliding-bar inner-slide">
+      <div class="slide-track">
+        <div class="slide-item"><span>●</span> Lab</div>
+        <div class="slide-item"><span>●</span> Publications</div>
+        <div class="slide-item"><span>●</span> Teaching</div>
+        <div class="slide-item"><span>●</span> Resume</div>
+        <div class="slide-item"><span>●</span> Blog</div>
+        <div class="slide-item"><span>●</span> Service</div>
+
+        <div class="slide-item"><span>●</span> Lab</div>
+        <div class="slide-item"><span>●</span> Publications</div>
+        <div class="slide-item"><span>●</span> Teaching</div>
+        <div class="slide-item"><span>●</span> Resume</div>
+        <div class="slide-item"><span>●</span> Blog</div>
+        <div class="slide-item"><span>●</span> Service</div>
+      </div>
+    </div>
+
     <div class="quick-grid">
-      <div class="quick-card"><a href="/resume/">📄 Resume</a><p>Academics, teaching, research roles</p></div>
-      <div class="quick-card"><a href="/publications/">📝 Publications</a><p>Journals, conferences, manuscripts</p></div>
-      <div class="quick-card"><a href="/blog/">✍️ Blog</a><p>ML, RF, VLSI, workflows</p></div>
-      <div class="quick-card"><a href="/certifications/">🎓 Certifications</a><p>Training, awards, honors</p></div>
-      <div class="quick-card"><a href="/presentations/">📽️ Presentations</a><p>Talks, demos, pitch decks</p></div>
-      <div class="quick-card"><a href="/moments/">📸 Moments</a><p>Teaching and campus highlights</p></div>
+      <div class="quick-card">
+        <a href="/insys-lab/">🔬 INSys Lab</a>
+        <p>Research group, projects, students, and lab activities</p>
+      </div>
+
+      <div class="quick-card">
+        <a href="/publications/">📝 Publications</a>
+        <p>Journal articles, conference papers, and manuscripts</p>
+      </div>
+
+      <div class="quick-card">
+        <a href="/teaching/">📚 Teaching</a>
+        <p>Courses, instructional materials, and mentoring activities</p>
+      </div>
+
+      <div class="quick-card">
+        <a href="/resume/">📄 Resume</a>
+        <p>Academic background, research, teaching, and service</p>
+      </div>
+
+      <div class="quick-card">
+        <a href="/blog/">✍️ Blog</a>
+        <p>Technical posts on ML, RF systems, and VLSI workflows</p>
+      </div>
+
+      <div class="quick-card">
+        <a href="/service/">🤝 Service</a>
+        <p>University service, outreach, and professional activities</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🚀 Research and Innovation Themes</h2>
+    <div class="divider"></div>
+
+    <div class="sliding-bar inner-slide">
+      <div class="slide-track">
+        <div class="slide-item"><span>●</span> R-Value Envelope Statistics</div>
+        <div class="slide-item"><span>●</span> CAF-Aware Feature Engineering</div>
+        <div class="slide-item"><span>●</span> Custom Piecewise Activations</div>
+        <div class="slide-item"><span>●</span> Edge-AI Deployment</div>
+        <div class="slide-item"><span>●</span> Hardware-Aware Evaluation</div>
+
+        <div class="slide-item"><span>●</span> R-Value Envelope Statistics</div>
+        <div class="slide-item"><span>●</span> CAF-Aware Feature Engineering</div>
+        <div class="slide-item"><span>●</span> Custom Piecewise Activations</div>
+        <div class="slide-item"><span>●</span> Edge-AI Deployment</div>
+        <div class="slide-item"><span>●</span> Hardware-Aware Evaluation</div>
+      </div>
+    </div>
+
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>RF Signal Intelligence</h3>
+        <p>
+          Lightweight RF signal classification using envelope statistics, feature engineering, and signal-domain analysis.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>Hardware-Aware AI</h3>
+        <p>
+          Efficient neural models, custom activations, and deployment-aware learning for constrained platforms.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>Low-Power Edge Systems</h3>
+        <p>
+          Runtime, memory, power, and latency-aware model evaluation for edge and embedded systems.
+        </p>
+      </div>
     </div>
   </div>
 
@@ -782,15 +1019,31 @@ College+of+Engineering;Excited+for+this+journey+🚀&center=true&size=15&color=D
     <h2>🎥 Featured Demos</h2>
     <div class="divider"></div>
 
+    <div class="sliding-bar inner-slide">
+      <div class="slide-track">
+        <div class="slide-item"><span>●</span> Hackathon Fall 2021</div>
+        <div class="slide-item"><span>●</span> Hackathon Fall 2022</div>
+        <div class="slide-item"><span>●</span> Internship Showcase</div>
+        <div class="slide-item"><span>●</span> Technical Demonstrations</div>
+
+        <div class="slide-item"><span>●</span> Hackathon Fall 2021</div>
+        <div class="slide-item"><span>●</span> Hackathon Fall 2022</div>
+        <div class="slide-item"><span>●</span> Internship Showcase</div>
+        <div class="slide-item"><span>●</span> Technical Demonstrations</div>
+      </div>
+    </div>
+
     <div class="media-grid">
       <div class="media-card">
         <iframe src="https://www.youtube.com/embed/aRM4DP-gUbg" title="Hackathon Fall 2021" allowfullscreen></iframe>
         <div class="cap">🏆 Hackathon Win – Fall 2021</div>
       </div>
+
       <div class="media-card">
         <iframe src="https://www.youtube.com/embed/cJ4JHmoTgas" title="Hackathon Fall 2022" allowfullscreen></iframe>
         <div class="cap">🏆 Hackathon Win – Fall 2022</div>
       </div>
+
       <div class="media-card">
         <iframe src="https://www.youtube.com/embed/E9ItHVkHuy8" title="Internship Showcase" allowfullscreen></iframe>
         <div class="cap">🎓 Internship Summary: SmartBridge</div>
@@ -802,13 +1055,31 @@ College+of+Engineering;Excited+for+this+journey+🚀&center=true&size=15&color=D
     <h2>🖼️ Highlights</h2>
     <div class="divider"></div>
 
+    <div class="sliding-bar inner-slide">
+      <div class="slide-track">
+        <div class="slide-item"><span>●</span> Student Leadership</div>
+        <div class="slide-item"><span>●</span> IEEE Lecture</div>
+        <div class="slide-item"><span>●</span> ASIC Teaching</div>
+        <div class="slide-item"><span>●</span> GLSVLSI</div>
+        <div class="slide-item"><span>●</span> RFCoN Award</div>
+
+        <div class="slide-item"><span>●</span> Student Leadership</div>
+        <div class="slide-item"><span>●</span> IEEE Lecture</div>
+        <div class="slide-item"><span>●</span> ASIC Teaching</div>
+        <div class="slide-item"><span>●</span> GLSVLSI</div>
+        <div class="slide-item"><span>●</span> RFCoN Award</div>
+      </div>
+    </div>
+
     <div class="slider-container">
       <button id="prevBtn" class="slider-button slider-prev">&#10094;</button>
-        <img src="/images/sg_senator_result.png" alt="SGA Result" class="slider-image active">
-        <img src="/images/IEEE_Lecture.jpeg" alt="IEEE Lecture" class="slider-image">
-        <img src="/images/asic_class_fall2023.png" alt="ASIC Teaching" class="slider-image">
-        <img src="/images/glsvlsi.jpeg" alt="GLSVLSI" class="slider-image">
-        <img src="/images/rfcon_award.png" alt="Best Paper" class="slider-image">
+
+      <img src="/images/sg_senator_result.png" alt="SGA Result" class="slider-image active">
+      <img src="/images/IEEE_Lecture.jpeg" alt="IEEE Lecture" class="slider-image">
+      <img src="/images/asic_class_fall2023.png" alt="ASIC Teaching" class="slider-image">
+      <img src="/images/glsvlsi.jpeg" alt="GLSVLSI" class="slider-image">
+      <img src="/images/rfcon_award.png" alt="Best Paper" class="slider-image">
+
       <button id="nextBtn" class="slider-button slider-next">&#10095;</button>
     </div>
   </div>
@@ -816,12 +1087,12 @@ College+of+Engineering;Excited+for+this+journey+🚀&center=true&size=15&color=D
   <div class="section">
     <h2>📬 Connect with Me</h2>
     <div class="divider"></div>
-  
+
     <p style="margin-top:0; color:#202124;">
       I welcome research collaboration, student mentoring discussions, outreach partnerships,
-      and academic engagement related to hardware-aware AI, RF systems, and VLSI design.
+      and academic engagement related to hardware-aware AI, RF systems, edge computing, and VLSI design.
     </p>
-  
+
     <div class="link-row">
       <a href="https://github.com/srsapireddy" target="_blank" rel="noopener">GitHub</a>
       <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
