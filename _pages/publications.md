@@ -22,14 +22,13 @@ author_profile: true
 }
 
 @keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(14px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideTrack {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
 
 .pub-wrap {
@@ -42,7 +41,7 @@ author_profile: true
   overflow: hidden;
   border-radius: var(--radius);
   padding: 2.2rem 2rem;
-  margin-bottom: 1.35rem;
+  margin-bottom: 1.25rem;
   background:
     radial-gradient(circle at top right, rgba(220,20,60,0.13), transparent 32%),
     linear-gradient(135deg, #e9f3ff 0%, #ffffff 62%);
@@ -98,7 +97,7 @@ author_profile: true
   color: var(--muted);
   font-size: 1.03rem;
   line-height: 1.65;
-  max-width: 86ch;
+  max-width: 88ch;
 }
 
 /* Hero buttons */
@@ -133,6 +132,51 @@ author_profile: true
   background: #ffffff;
   color: var(--blue) !important;
   border: 1px solid rgba(26,115,232,0.25);
+}
+
+/* Sliding bars */
+.sliding-bar {
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid rgba(26,115,232,0.18);
+  background: #ffffff;
+  box-shadow: var(--shadow2);
+  margin-bottom: 1.3rem;
+}
+
+.slide-track {
+  display: flex;
+  width: max-content;
+  animation: slideTrack 30s linear infinite;
+}
+
+.sliding-bar:hover .slide-track {
+  animation-play-state: paused;
+}
+
+.slide-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.75rem 1.2rem;
+  color: var(--text);
+  font-weight: 900;
+  white-space: nowrap;
+  border-right: 1px solid rgba(26,115,232,0.10);
+}
+
+.slide-item span {
+  color: var(--isu);
+}
+
+.year-slide {
+  margin: 0.9rem 0 1.1rem 0;
+  border-radius: 14px;
+}
+
+.year-slide .slide-item {
+  padding: 0.62rem 1rem;
+  font-size: 0.9rem;
 }
 
 /* Impact cards */
@@ -278,6 +322,64 @@ author_profile: true
   font-size: 0.95rem;
 }
 
+/* Tags */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.tag {
+  display: inline-flex;
+  padding: 0.36rem 0.72rem;
+  border-radius: 999px;
+  background: #f3f8ff;
+  border: 1px solid rgba(26,115,232,0.18);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+/* Year tabs */
+.pub-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-bottom: 1.1rem;
+}
+
+.tab-button {
+  border: 1px solid rgba(26,115,232,0.22);
+  background: #ffffff;
+  color: var(--blue);
+  padding: 0.62rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: var(--shadow2);
+  transition: 0.2s ease-in-out;
+}
+
+.tab-button:hover {
+  transform: translateY(-2px);
+  background: #f3f8ff;
+}
+
+.tab-button.active {
+  background: var(--blue);
+  color: #ffffff;
+  border-color: var(--blue);
+}
+
+.tab-panel {
+  display: none;
+  animation: fadeInUp 0.45s ease-in-out;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
 /* Year header */
 .year-header {
   display: flex;
@@ -393,7 +495,7 @@ author_profile: true
   line-height: 1.45;
 }
 
-/* Publication action buttons in one row */
+/* Publication action buttons */
 .pub-links {
   display: flex;
   flex-direction: row;
@@ -455,24 +557,6 @@ author_profile: true
   line-height: 1.55;
   white-space: pre-wrap;
   overflow-x: auto;
-}
-
-/* Research tags */
-.tag-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-}
-
-.tag {
-  display: inline-flex;
-  padding: 0.36rem 0.72rem;
-  border-radius: 999px;
-  background: #f3f8ff;
-  border: 1px solid rgba(26,115,232,0.18);
-  color: var(--text);
-  font-size: 0.88rem;
-  font-weight: 800;
 }
 
 /* Timeline and profile grid */
@@ -596,8 +680,8 @@ author_profile: true
       </div>
 
       <p>
-        This page presents my publications by year in a single continuous list. Each publication includes
-        citation and copy-citation buttons, with space for official DOI, PDF, code, or project links when available.
+        This page presents my publications by year using interactive year tabs. Each year includes a sliding research bar,
+        publication cards, citation buttons, and copy-citation buttons.
       </p>
 
       <div class="hero-links">
@@ -606,6 +690,26 @@ author_profile: true
         <a class="btn-link secondary" href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank" rel="noopener">OpenReview</a>
         <a class="btn-link secondary" href="/resume/">Resume</a>
       </div>
+    </div>
+  </div>
+
+  <div class="sliding-bar">
+    <div class="slide-track">
+      <div class="slide-item"><span>●</span> RF Modulation Classification</div>
+      <div class="slide-item"><span>●</span> Hardware-Aware AI</div>
+      <div class="slide-item"><span>●</span> Custom Activation Functions</div>
+      <div class="slide-item"><span>●</span> GPS Spoofing Detection</div>
+      <div class="slide-item"><span>●</span> IoT Security</div>
+      <div class="slide-item"><span>●</span> RF Fingerprinting</div>
+      <div class="slide-item"><span>●</span> VLSI and Edge Systems</div>
+
+      <div class="slide-item"><span>●</span> RF Modulation Classification</div>
+      <div class="slide-item"><span>●</span> Hardware-Aware AI</div>
+      <div class="slide-item"><span>●</span> Custom Activation Functions</div>
+      <div class="slide-item"><span>●</span> GPS Spoofing Detection</div>
+      <div class="slide-item"><span>●</span> IoT Security</div>
+      <div class="slide-item"><span>●</span> RF Fingerprinting</div>
+      <div class="slide-item"><span>●</span> VLSI and Edge Systems</div>
     </div>
   </div>
 
@@ -687,277 +791,334 @@ author_profile: true
   </div>
 
   <div class="section">
-    <div class="year-header">
-      <div class="year-title">📅 2026 Publications</div>
-      <div class="year-pill">1 publication</div>
+    <h2>📚 Year-by-Year Publications</h2>
+    <div class="divider"></div>
+
+    <div class="pub-tabs">
+      <button class="tab-button active" onclick="openPubYear(event, 'pub-2026')">2026 Publications</button>
+      <button class="tab-button" onclick="openPubYear(event, 'pub-2025')">2025 Publications</button>
+      <button class="tab-button" onclick="openPubYear(event, 'pub-2024')">2024 Publications</button>
     </div>
 
-    <div class="publication-card">
-      <div class="pub-top">
-        <span class="pub-year">2026</span>
-        <span class="pub-type">IEEE Conference</span>
-        <span class="pub-award">Accepted</span>
+    <div id="pub-2026" class="tab-panel active">
+      <div class="year-header">
+        <div class="year-title">📅 2026 Publications</div>
+        <div class="year-pill">1 publication</div>
       </div>
 
-      <div class="pub-title">
-        Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features
+      <div class="sliding-bar year-slide">
+        <div class="slide-track">
+          <div class="slide-item"><span>●</span> Bin-Based R-Value Features</div>
+          <div class="slide-item"><span>●</span> RF Modulation Classification</div>
+          <div class="slide-item"><span>●</span> Resource-Efficient Signal Processing</div>
+          <div class="slide-item"><span>●</span> IEEE SoutheastCon</div>
+
+          <div class="slide-item"><span>●</span> Bin-Based R-Value Features</div>
+          <div class="slide-item"><span>●</span> RF Modulation Classification</div>
+          <div class="slide-item"><span>●</span> Resource-Efficient Signal Processing</div>
+          <div class="slide-item"><span>●</span> IEEE SoutheastCon</div>
+        </div>
       </div>
 
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy and collaborators
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2026</span>
+          <span class="pub-type">IEEE Conference</span>
+          <span class="pub-award">Accepted</span>
+        </div>
+
+        <div class="pub-title">
+          Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features
+        </div>
+
+        <div class="pub-authors">
+          Srinivas Rahul Sapireddy and collaborators
+        </div>
+
+        <div class="pub-venue">
+          IEEE SoutheastCon, 2026.
+        </div>
+
+        <div class="pub-links">
+          <button class="pub-button primary" onclick="toggleCitation('cite-2026-southeastcon')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2026-southeastcon')">Copy Citation</button>
+          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        </div>
+
+        <div id="cite-2026-southeastcon" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features," IEEE SoutheastCon, 2026.</div>
       </div>
-
-      <div class="pub-venue">
-        IEEE SoutheastCon, 2026.
-      </div>
-
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-southeastcon')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-southeastcon')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-
-      <div id="cite-2026-southeastcon" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features," IEEE SoutheastCon, 2026.</div>
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="year-header">
-      <div class="year-title">📅 2025 Publications</div>
-      <div class="year-pill">6 publications</div>
-    </div>
-
-    <div class="publication-card">
-      <div class="pub-top">
-        <span class="pub-year">2025</span>
-        <span class="pub-type">IEEE Conference</span>
-        <span class="pub-award">Best Paper Award</span>
-      </div>
-
-      <div class="pub-title">
-        Re-Visiting R: Statistical Envelope Analysis for Lightweight RF Signal Classification
-      </div>
-
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy and collaborators
-      </div>
-
-      <div class="pub-venue">
-        IEEE International Conference on Radio Frequency Communication and Networks, RFCoN, 2025.
-      </div>
-
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2025-rfcon')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2025-rfcon')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-
-      <div id="cite-2025-rfcon" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Re-Visiting R: Statistical Envelope Analysis for Lightweight RF Signal Classification," IEEE International Conference on Radio Frequency Communication and Networks, RFCoN, 2025.</div>
     </div>
 
-    <div class="publication-card">
-      <div class="pub-top">
-        <span class="pub-year">2025</span>
-        <span class="pub-type">ACM Conference</span>
+    <div id="pub-2025" class="tab-panel">
+      <div class="year-header">
+        <div class="year-title">📅 2025 Publications</div>
+        <div class="year-pill">6 publications</div>
       </div>
 
-      <div class="pub-title">
-        On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory
+      <div class="sliding-bar year-slide">
+        <div class="slide-track">
+          <div class="slide-item"><span>●</span> RFCoN Best Paper</div>
+          <div class="slide-item"><span>●</span> GLSVLSI</div>
+          <div class="slide-item"><span>●</span> ICMLA</div>
+          <div class="slide-item"><span>●</span> IEEE CARS</div>
+          <div class="slide-item"><span>●</span> Electronics</div>
+          <div class="slide-item"><span>●</span> Memories</div>
+
+          <div class="slide-item"><span>●</span> RFCoN Best Paper</div>
+          <div class="slide-item"><span>●</span> GLSVLSI</div>
+          <div class="slide-item"><span>●</span> ICMLA</div>
+          <div class="slide-item"><span>●</span> IEEE CARS</div>
+          <div class="slide-item"><span>●</span> Electronics</div>
+          <div class="slide-item"><span>●</span> Memories</div>
+        </div>
       </div>
 
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy and collaborators
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2025</span>
+          <span class="pub-type">IEEE Conference</span>
+          <span class="pub-award">Best Paper Award</span>
+        </div>
+
+        <div class="pub-title">
+          Re-Visiting R: Statistical Envelope Analysis for Lightweight RF Signal Classification
+        </div>
+
+        <div class="pub-authors">
+          Srinivas Rahul Sapireddy and collaborators
+        </div>
+
+        <div class="pub-venue">
+          IEEE International Conference on Radio Frequency Communication and Networks, RFCoN, 2025.
+        </div>
+
+        <div class="pub-links">
+          <button class="pub-button primary" onclick="toggleCitation('cite-2025-rfcon')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2025-rfcon')">Copy Citation</button>
+          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        </div>
+
+        <div id="cite-2025-rfcon" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Re-Visiting R: Statistical Envelope Analysis for Lightweight RF Signal Classification," IEEE International Conference on Radio Frequency Communication and Networks, RFCoN, 2025.</div>
       </div>
 
-      <div class="pub-venue">
-        ACM Great Lakes Symposium on VLSI, GLSVLSI, 2025.
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2025</span>
+          <span class="pub-type">ACM Conference</span>
+        </div>
+
+        <div class="pub-title">
+          On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory
+        </div>
+
+        <div class="pub-authors">
+          Srinivas Rahul Sapireddy and collaborators
+        </div>
+
+        <div class="pub-venue">
+          ACM Great Lakes Symposium on VLSI, GLSVLSI, 2025.
+        </div>
+
+        <div class="pub-links">
+          <button class="pub-button primary" onclick="toggleCitation('cite-2025-glsvlsi')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2025-glsvlsi')">Copy Citation</button>
+          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        </div>
+
+        <div id="cite-2025-glsvlsi" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory," ACM Great Lakes Symposium on VLSI, GLSVLSI, 2025.</div>
       </div>
 
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2025-glsvlsi')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2025-glsvlsi')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2025</span>
+          <span class="pub-type">Journal</span>
+        </div>
+
+        <div class="pub-title">
+          Simplifying Activations with Linear Approximations in Neural Networks
+        </div>
+
+        <div class="pub-authors">
+          Srinivas Rahul Sapireddy and collaborators
+        </div>
+
+        <div class="pub-venue">
+          Memories - Materials, Devices, Circuits and Systems, 2025.
+        </div>
+
+        <div class="pub-links">
+          <button class="pub-button primary" onclick="toggleCitation('cite-2025-memories-linear')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2025-memories-linear')">Copy Citation</button>
+          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        </div>
+
+        <div id="cite-2025-memories-linear" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Simplifying Activations with Linear Approximations in Neural Networks," Memories - Materials, Devices, Circuits and Systems, 2025.</div>
       </div>
 
-      <div id="cite-2025-glsvlsi" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory," ACM Great Lakes Symposium on VLSI, GLSVLSI, 2025.</div>
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2025</span>
+          <span class="pub-type">Conference</span>
+        </div>
+
+        <div class="pub-title">
+          Adversarial-Resilient RF Fingerprinting: A CNN-GAN Framework for Rogue Transmitter Detection
+        </div>
+
+        <div class="pub-authors">
+          Srinivas Rahul Sapireddy and collaborators
+        </div>
+
+        <div class="pub-venue">
+          ICMLA, 2025.
+        </div>
+
+        <div class="pub-links">
+          <button class="pub-button primary" onclick="toggleCitation('cite-2025-icmla')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2025-icmla')">Copy Citation</button>
+          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        </div>
+
+        <div id="cite-2025-icmla" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Adversarial-Resilient RF Fingerprinting: A CNN-GAN Framework for Rogue Transmitter Detection," ICMLA, 2025.</div>
+      </div>
+
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2025</span>
+          <span class="pub-type">IEEE Conference</span>
+        </div>
+
+        <div class="pub-title">
+          C/N0 Analysis-Based GPS Spoofing Detection with Variable Antenna Orientations
+        </div>
+
+        <div class="pub-authors">
+          Srinivas Rahul Sapireddy and collaborators
+        </div>
+
+        <div class="pub-venue">
+          IEEE CARS, 2025.
+        </div>
+
+        <div class="pub-links">
+          <button class="pub-button primary" onclick="toggleCitation('cite-2025-cars')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2025-cars')">Copy Citation</button>
+          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        </div>
+
+        <div id="cite-2025-cars" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "C/N0 Analysis-Based GPS Spoofing Detection with Variable Antenna Orientations," IEEE CARS, 2025.</div>
+      </div>
+
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2025</span>
+          <span class="pub-type">Journal</span>
+        </div>
+
+        <div class="pub-title">
+          Early Detection of Adversarial Examples in Internet-of-Things Networks
+        </div>
+
+        <div class="pub-authors">
+          Srinivas Rahul Sapireddy and collaborators
+        </div>
+
+        <div class="pub-venue">
+          Electronics, 2025.
+        </div>
+
+        <div class="pub-links">
+          <button class="pub-button primary" onclick="toggleCitation('cite-2025-electronics')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2025-electronics')">Copy Citation</button>
+          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        </div>
+
+        <div id="cite-2025-electronics" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Early Detection of Adversarial Examples in Internet-of-Things Networks," Electronics, 2025.</div>
+      </div>
     </div>
 
-    <div class="publication-card">
-      <div class="pub-top">
-        <span class="pub-year">2025</span>
-        <span class="pub-type">Journal</span>
+    <div id="pub-2024" class="tab-panel">
+      <div class="year-header">
+        <div class="year-title">📅 2024 Publications</div>
+        <div class="year-pill">2 publications</div>
       </div>
 
-      <div class="pub-title">
-        Simplifying Activations with Linear Approximations in Neural Networks
+      <div class="sliding-bar year-slide">
+        <div class="slide-track">
+          <div class="slide-item"><span>●</span> Piecewise Activation Approximation</div>
+          <div class="slide-item"><span>●</span> Polymorphic Circuits</div>
+          <div class="slide-item"><span>●</span> Neural Network Efficiency</div>
+          <div class="slide-item"><span>●</span> Memories Journal</div>
+
+          <div class="slide-item"><span>●</span> Piecewise Activation Approximation</div>
+          <div class="slide-item"><span>●</span> Polymorphic Circuits</div>
+          <div class="slide-item"><span>●</span> Neural Network Efficiency</div>
+          <div class="slide-item"><span>●</span> Memories Journal</div>
+        </div>
       </div>
 
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy and collaborators
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2024</span>
+          <span class="pub-type">Journal</span>
+        </div>
+
+        <div class="pub-title">
+          Piecewise Linear Approximation of Activation Functions for Neural Networks
+        </div>
+
+        <div class="pub-authors">
+          Srinivas Rahul Sapireddy and collaborators
+        </div>
+
+        <div class="pub-venue">
+          Memories - Materials, Devices, Circuits and Systems, 2024.
+        </div>
+
+        <div class="pub-links">
+          <button class="pub-button primary" onclick="toggleCitation('cite-2024-piecewise')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2024-piecewise')">Copy Citation</button>
+          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        </div>
+
+        <div id="cite-2024-piecewise" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Piecewise Linear Approximation of Activation Functions for Neural Networks," Memories - Materials, Devices, Circuits and Systems, 2024.</div>
       </div>
 
-      <div class="pub-venue">
-        Memories - Materials, Devices, Circuits and Systems, 2025.
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2024</span>
+          <span class="pub-type">Journal</span>
+        </div>
+
+        <div class="pub-title">
+          A Review of Crosstalk-Based Polymorphic Circuit Design
+        </div>
+
+        <div class="pub-authors">
+          Srinivas Rahul Sapireddy and collaborators
+        </div>
+
+        <div class="pub-venue">
+          Memories - Materials, Devices, Circuits and Systems, 2024.
+        </div>
+
+        <div class="pub-links">
+          <button class="pub-button primary" onclick="toggleCitation('cite-2024-crosstalk')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2024-crosstalk')">Copy Citation</button>
+          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        </div>
+
+        <div id="cite-2024-crosstalk" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "A Review of Crosstalk-Based Polymorphic Circuit Design," Memories - Materials, Devices, Circuits and Systems, 2024.</div>
       </div>
-
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2025-memories-linear')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2025-memories-linear')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-
-      <div id="cite-2025-memories-linear" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Simplifying Activations with Linear Approximations in Neural Networks," Memories - Materials, Devices, Circuits and Systems, 2025.</div>
-    </div>
-
-    <div class="publication-card">
-      <div class="pub-top">
-        <span class="pub-year">2025</span>
-        <span class="pub-type">Conference</span>
-      </div>
-
-      <div class="pub-title">
-        Adversarial-Resilient RF Fingerprinting: A CNN-GAN Framework for Rogue Transmitter Detection
-      </div>
-
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy and collaborators
-      </div>
-
-      <div class="pub-venue">
-        ICMLA, 2025.
-      </div>
-
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2025-icmla')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2025-icmla')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-
-      <div id="cite-2025-icmla" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Adversarial-Resilient RF Fingerprinting: A CNN-GAN Framework for Rogue Transmitter Detection," ICMLA, 2025.</div>
-    </div>
-
-    <div class="publication-card">
-      <div class="pub-top">
-        <span class="pub-year">2025</span>
-        <span class="pub-type">IEEE Conference</span>
-      </div>
-
-      <div class="pub-title">
-        C/N0 Analysis-Based GPS Spoofing Detection with Variable Antenna Orientations
-      </div>
-
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy and collaborators
-      </div>
-
-      <div class="pub-venue">
-        IEEE CARS, 2025.
-      </div>
-
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2025-cars')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2025-cars')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-
-      <div id="cite-2025-cars" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "C/N0 Analysis-Based GPS Spoofing Detection with Variable Antenna Orientations," IEEE CARS, 2025.</div>
-    </div>
-
-    <div class="publication-card">
-      <div class="pub-top">
-        <span class="pub-year">2025</span>
-        <span class="pub-type">Journal</span>
-      </div>
-
-      <div class="pub-title">
-        Early Detection of Adversarial Examples in Internet-of-Things Networks
-      </div>
-
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy and collaborators
-      </div>
-
-      <div class="pub-venue">
-        Electronics, 2025.
-      </div>
-
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2025-electronics')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2025-electronics')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-
-      <div id="cite-2025-electronics" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Early Detection of Adversarial Examples in Internet-of-Things Networks," Electronics, 2025.</div>
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="year-header">
-      <div class="year-title">📅 2024 Publications</div>
-      <div class="year-pill">2 publications</div>
-    </div>
-
-    <div class="publication-card">
-      <div class="pub-top">
-        <span class="pub-year">2024</span>
-        <span class="pub-type">Journal</span>
-      </div>
-
-      <div class="pub-title">
-        Piecewise Linear Approximation of Activation Functions for Neural Networks
-      </div>
-
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy and collaborators
-      </div>
-
-      <div class="pub-venue">
-        Memories - Materials, Devices, Circuits and Systems, 2024.
-      </div>
-
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2024-piecewise')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2024-piecewise')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-
-      <div id="cite-2024-piecewise" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Piecewise Linear Approximation of Activation Functions for Neural Networks," Memories - Materials, Devices, Circuits and Systems, 2024.</div>
-    </div>
-
-    <div class="publication-card">
-      <div class="pub-top">
-        <span class="pub-year">2024</span>
-        <span class="pub-type">Journal</span>
-      </div>
-
-      <div class="pub-title">
-        A Review of Crosstalk-Based Polymorphic Circuit Design
-      </div>
-
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy and collaborators
-      </div>
-
-      <div class="pub-venue">
-        Memories - Materials, Devices, Circuits and Systems, 2024.
-      </div>
-
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2024-crosstalk')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2024-crosstalk')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-
-      <div id="cite-2024-crosstalk" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "A Review of Crosstalk-Based Polymorphic Circuit Design," Memories - Materials, Devices, Circuits and Systems, 2024.</div>
     </div>
   </div>
 
@@ -1013,6 +1174,28 @@ author_profile: true
 </div>
 
 <script>
+function openPubYear(event, panelId) {
+  const panels = document.querySelectorAll(".tab-panel");
+  const buttons = document.querySelectorAll(".tab-button");
+
+  panels.forEach(function(panel) {
+    panel.classList.remove("active");
+  });
+
+  buttons.forEach(function(button) {
+    button.classList.remove("active");
+  });
+
+  const selectedPanel = document.getElementById(panelId);
+  if (selectedPanel) {
+    selectedPanel.classList.add("active");
+  }
+
+  if (event && event.currentTarget) {
+    event.currentTarget.classList.add("active");
+  }
+}
+
 function toggleCitation(id) {
   const box = document.getElementById(id);
   if (!box) return;
