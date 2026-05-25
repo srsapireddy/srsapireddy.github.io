@@ -549,12 +549,14 @@ layout: default
   box-shadow: var(--shadow2);
   background:#fff;
 }
+
 @media (max-width: 700px){
   .slider-container{
     width:95vw;
     height:70vw;
   }
 }
+
 .slider-image{
   display:none;
   width:100%;
@@ -562,7 +564,23 @@ layout: default
   object-fit:contain;
   background:#fff;
 }
-.slider-image.active{ display:block; }
+
+.slider-image.active{
+  display:block;
+  animation: sliderFade 0.6s ease-in-out;
+}
+
+@keyframes sliderFade{
+  from{
+    opacity:0.35;
+    transform:scale(1.015);
+  }
+  to{
+    opacity:1;
+    transform:scale(1);
+  }
+}
+
 .slider-button{
   position:absolute;
   top:50%;
@@ -576,9 +594,18 @@ layout: default
   cursor:pointer;
   z-index:10;
 }
-.slider-button:hover{ background-color: rgba(15, 87, 201, 0.92); }
-.slider-prev{ left:10px; }
-.slider-next{ right:10px; }
+
+.slider-button:hover{
+  background-color: rgba(15, 87, 201, 0.92);
+}
+
+.slider-prev{
+  left:10px;
+}
+
+.slider-next{
+  right:10px;
+}
 
 /* Links row */
 .link-row{
@@ -815,29 +842,61 @@ College+of+Engineering;Excited+for+this+journey+🚀&center=true&size=15&color=D
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   let currentIndex = 0;
-  const images = document.querySelectorAll('.slider-image');
+
+  const images = document.querySelectorAll(".slider-image");
+  const prev = document.getElementById("prevBtn");
+  const next = document.getElementById("nextBtn");
+  const slider = document.querySelector(".slider-container");
 
   function showImage(index) {
     images.forEach((img, i) => {
-      img.classList.toggle('active', i === index);
+      img.classList.toggle("active", i === index);
     });
   }
 
-  const prev = document.getElementById('prevBtn');
-  const next = document.getElementById('nextBtn');
-
-  if (prev && next && images.length > 0){
-    prev.addEventListener('click', () => {
-      currentIndex = (currentIndex - 1 + images.length) % images.length;
-      showImage(currentIndex);
-    });
-
-    next.addEventListener('click', () => {
-      currentIndex = (currentIndex + 1) % images.length;
-      showImage(currentIndex);
-    });
+  function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImage(currentIndex);
   }
 
-  showImage(currentIndex);
+  function prevImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage(currentIndex);
+  }
+
+  if (images.length > 0) {
+    showImage(currentIndex);
+
+    let autoSlide = setInterval(nextImage, 3500);
+
+    if (next) {
+      next.addEventListener("click", function () {
+        nextImage();
+        resetAutoSlide();
+      });
+    }
+
+    if (prev) {
+      prev.addEventListener("click", function () {
+        prevImage();
+        resetAutoSlide();
+      });
+    }
+
+    function resetAutoSlide() {
+      clearInterval(autoSlide);
+      autoSlide = setInterval(nextImage, 3500);
+    }
+
+    if (slider) {
+      slider.addEventListener("mouseenter", function () {
+        clearInterval(autoSlide);
+      });
+
+      slider.addEventListener("mouseleave", function () {
+        autoSlide = setInterval(nextImage, 3500);
+      });
+    }
+  }
 });
 </script>
