@@ -1155,6 +1155,39 @@ author_profile: true
           </div>
 
      <div class="publication-card" data-type="journal earlier">
+      <div class="pub-top">
+        <span class="pub-year">2016</span>
+        <span class="pub-type">Journal Article</span>
+        <span class="pub-award">Published</span>
+      </div>
+    
+      <div class="pub-title">
+        CAM Cell Based Memory Architecture for Extreme Searching Operations
+      </div>
+    
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy
+      </div>
+    
+      <div class="pub-venue">
+        International Journal of Advances in Electronics and Computer Science, Volume 8, Issue 3, 2016, pp. 80-83.
+      </div>
+    
+      <div class="pub-note">
+        Publication date: September 15, 2016 | ISSN: 2393-2835
+      </div>
+    
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2016-cam-memory')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2016-cam-memory')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+    
+      <div id="cite-2016-cam-memory" class="citation-box">S. R. Sapireddy, "CAM Cell Based Memory Architecture for Extreme Searching Operations," International Journal of Advances in Electronics and Computer Science, vol. 8, no. 3, pp. 80-83, Sep. 15, 2016. ISSN: 2393-2835.</div>
+    </div>
+
+     <div class="publication-card" data-type="journal earlier">
         <div class="pub-top">
           <span class="pub-year">2016</span>
           <span class="pub-type">Journal Article</span>
