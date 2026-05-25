@@ -1,492 +1,1038 @@
 ---
-title: ""
+title: "Publications"
 layout: single
 permalink: /publications/
 author_profile: true
-toc: false
 ---
 
 <style>
-:root{
-  --blue:#1a73e8;
-  --blue2:#0b5bd3;
-  --isu:#DC143C;
-  --bg:#ffffff;
-  --muted:#5f6368;
-  --shadow:0 10px 30px rgba(0,0,0,0.08);
-  --shadow2:0 2px 10px rgba(0,0,0,0.05);
-  --radius:16px;
-  --radius2:12px;
-  --border:rgba(26,115,232,0.18);
+:root {
+  --blue: #1a73e8;
+  --blue2: #0b5bd3;
+  --isu: #DC143C;
+  --bg: #ffffff;
+  --soft: #f6f9ff;
+  --muted: #5f6368;
+  --text: #0b1f44;
+  --border: rgba(26,115,232,0.18);
+  --shadow: 0 10px 30px rgba(0,0,0,0.08);
+  --shadow2: 0 2px 10px rgba(0,0,0,0.05);
+  --radius: 18px;
+  --radius2: 14px;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pub-wrap {
+  animation: fadeInUp 0.8s ease-in-out;
 }
 
 /* Hero */
-.page-hero{
-  border-radius:var(--radius);
-  padding:2rem 1.8rem;
-  margin-bottom:1.6rem;
-  background:linear-gradient(135deg,#e9f3ff 0%, #ffffff 60%);
-  border:1px solid rgba(26,115,232,0.25);
-  box-shadow:var(--shadow);
-}
-.page-hero h2{
-  margin:0 0 0.35rem 0;
-  font-size:1.9rem;
-  line-height:1.2;
-  color:#0b1f44;
-}
-.page-hero p{
-  margin:0.55rem 0 0 0;
-  color:var(--muted);
-  font-size:1.05rem;
-  max-width:90ch;
+.pub-hero {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  padding: 2.2rem 2rem;
+  margin-bottom: 1.35rem;
+  background:
+    radial-gradient(circle at top right, rgba(220,20,60,0.13), transparent 32%),
+    linear-gradient(135deg, #e9f3ff 0%, #ffffff 62%);
+  border: 1px solid rgba(26,115,232,0.25);
+  box-shadow: var(--shadow);
 }
 
-/* Buttons */
-.hero-links{
-  display:flex;
-  flex-wrap:wrap;
-  gap:0.7rem;
-  margin-top:1.1rem;
-}
-.btn-link{
-  display:inline-flex;
-  align-items:center;
-  gap:0.45rem;
-  padding:0.55rem 0.9rem;
-  border-radius:10px;
-  background:var(--blue);
-  color:#ffffff !important;
-  text-decoration:none !important;
-  font-weight:700;
-  box-shadow:var(--shadow2);
-  transition:0.2s ease-in-out;
-}
-.btn-link:hover{ background:var(--blue2); transform:translateY(-1px); }
-.btn-link.secondary{
-  background:#ffffff;
-  color:var(--blue) !important;
-  border:1px solid rgba(26,115,232,0.25);
+.pub-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(26,115,232,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26,115,232,0.06) 1px, transparent 1px);
+  background-size: 34px 34px;
+  pointer-events: none;
 }
 
-/* Section Cards */
-.section{
-  border:1px solid var(--border);
-  background:var(--bg);
-  padding:1.35rem 1.5rem;
-  margin-bottom:1.3rem;
-  border-radius:var(--radius2);
-  box-shadow:var(--shadow2);
-  transition:0.25s ease-in-out;
-}
-.section:hover{
-  background:#fbfdff;
-  transform:translateY(-2px);
-  box-shadow:var(--shadow);
-}
-.section h3{
-  margin-top:0;
-  color:#0b1f44;
-  font-size:1.15rem;
-  display:flex;
-  align-items:center;
-  gap:0.55rem;
-}
-.divider{ height:1px; background:rgba(26,115,232,0.12); margin:0.3rem 0 0.9rem 0; }
-
-/* Publication layout */
-.pub-grid{
-  display:grid;
-  grid-template-columns:1fr;
-  gap:0.85rem;
-  margin-top:0.5rem;
+.pub-hero-content {
+  position: relative;
+  z-index: 1;
 }
 
-/* Entry: card + cite */
-.pub-entry{
-  display:grid;
-  grid-template-columns: 4fr 1fr;
-  gap:1rem;
-  align-items:stretch;
+.hero-kicker {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: #ffffff;
+  border: 1px solid rgba(220,20,60,0.25);
+  color: var(--isu);
+  font-weight: 900;
+  font-size: 0.88rem;
+  box-shadow: var(--shadow2);
+  margin-bottom: 0.9rem;
 }
 
-/* Stack on small screens */
-@media (max-width: 900px){
-  .pub-entry{ grid-template-columns:1fr; }
+.pub-hero h1 {
+  margin: 0;
+  font-size: 2.15rem;
+  line-height: 1.15;
+  color: var(--text);
 }
 
-/* Cards */
-.pub-card{
-  border:1px solid rgba(26,115,232,0.22);
-  border-radius:14px;
-  padding:1.15rem 1.35rem;
-  background:#fff;
-  box-shadow:var(--shadow2);
-  transition:0.25s ease-in-out;
-}
-.pub-card:hover{
-  background:#fbfdff;
-  transform:translateY(-2px);
-  box-shadow:var(--shadow);
+.pub-hero .subtitle {
+  margin-top: 0.55rem;
+  color: #202124;
+  font-size: 1.08rem;
+  font-weight: 650;
 }
 
-/* WIP (ISU red accent) */
-.pub-card.wip{
-  border:1px solid rgba(220,20,60,0.28);
+.pub-hero p {
+  margin: 0.8rem 0 0 0;
+  color: var(--muted);
+  font-size: 1.03rem;
+  line-height: 1.65;
+  max-width: 86ch;
 }
 
-/* Cite box */
-.cite-box{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  min-width:120px;
-  cursor:pointer;
-  font-size:1rem;
-  font-weight:800;
-  color:var(--blue);
-  border:1px solid rgba(26,115,232,0.22);
-  border-radius:14px;
-  background:#fff;
-  box-shadow:var(--shadow2);
-  transition:0.2s ease-in-out;
-  position:relative;
-}
-.cite-box:hover{
-  background:#f3f8ff;
-  transform:translateY(-2px);
-  box-shadow:var(--shadow);
+/* Hero buttons */
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.15rem;
 }
 
-/* Cite box for WIP red */
-.cite-box.wip{
-  color:var(--isu);
-  border:1px solid rgba(220,20,60,0.28);
-}
-.cite-box.wip:hover{ background:#fff5f6; }
-
-/* Inline typography */
-.pub-card strong{ font-weight:800; color:#0b1f44; }
-.pub-card em{ color:#202124; }
-.pub-card a{ color:var(--blue); font-weight:700; text-decoration:none; }
-.pub-card a:hover{ text-decoration:underline; }
-
-/* Status pills */
-.status{
-  display:inline-block;
-  font-size:0.85rem;
-  font-weight:800;
-  padding:0.22rem 0.55rem;
-  border-radius:999px;
-  margin-left:0.5rem;
-}
-.status.accepted{ color:#1a7f3d; background:#dcfce7; }
-.status.review{ color:#c67c00; background:#fff6e6; }
-.status.pending{ color:#555; background:#f0f0f0; }
-.status.published{ color:#0a539e; background:#e5f1ff; }
-
-.status-badge{
-  display:inline-block;
-  padding:0.22rem 0.55rem;
-  border-radius:999px;
-  font-weight:900;
-  font-size:0.85rem;
-  margin-left:0.5rem;
-}
-.best-paper{ background:#e6ffe6; color:#1a7f3d; }
-
-/* WIP badge (orange) */
-.wip-badge{
-  display:inline-block;
-  color:#fff;
-  background:#fb8c00;
-  border-radius:999px;
-  font-size:0.85rem;
-  font-weight:900;
-  padding:0.22rem 0.55rem;
-  margin-left:0.5rem;
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.58rem 0.92rem;
+  border-radius: 12px;
+  background: var(--blue);
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 850;
+  box-shadow: var(--shadow2);
+  transition: 0.2s ease-in-out;
 }
 
-/* Hidden citation textarea */
-textarea.hidden-citation{
-  position:absolute;
-  left:-9999px;
+.btn-link:hover {
+  background: var(--blue2);
+  transform: translateY(-2px);
+  text-decoration: none !important;
 }
 
-/* Logo rows */
-.logo-row{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  gap:2rem;
-  margin-top:1.4rem;
-  flex-wrap:wrap;
+.btn-link.secondary {
+  background: #ffffff;
+  color: var(--blue) !important;
+  border: 1px solid rgba(26,115,232,0.25);
 }
-.logo-row img{
-  height:52px;
-  max-width:140px;
-  transition:transform 0.25s ease;
-  object-fit:contain;
-  filter:saturate(1.05);
-}
-.logo-row img:hover{ transform:scale(1.07); }
 
-/* Footer links */
-.pub-footer{
-  margin-top:2rem;
-  text-align:center;
-  font-size:0.95rem;
+/* Impact cards */
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.9rem;
+  margin-bottom: 1.3rem;
 }
-.pub-footer a{
-  text-decoration:none;
-  color:var(--blue);
-  margin:0 0.9rem;
-  font-weight:800;
+
+.impact-card {
+  text-align: center;
+  padding: 1.05rem 0.9rem;
+  border-radius: var(--radius2);
+  background: linear-gradient(135deg, #ffffff 0%, #f7fbff 100%);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow2);
+  transition: 0.22s ease-in-out;
 }
-.pub-footer a:hover{ text-decoration:underline; }
+
+.impact-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+.impact-card .big {
+  color: var(--isu);
+  font-size: 1.55rem;
+  font-weight: 950;
+  line-height: 1.1;
+}
+
+.impact-card .label {
+  color: var(--text);
+  font-weight: 850;
+  margin-top: 0.35rem;
+  font-size: 0.92rem;
+}
+
+.impact-card .small {
+  color: var(--muted);
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+
+/* Sections */
+.section {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  padding: 1.35rem 1.5rem;
+  margin-bottom: 1.3rem;
+  border-radius: var(--radius2);
+  box-shadow: var(--shadow2);
+  transition: 0.25s ease-in-out;
+}
+
+.section:hover {
+  background: #fbfdff;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.section h2 {
+  margin: 0;
+  color: var(--text);
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.section p {
+  color: #202124;
+  line-height: 1.65;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(26,115,232,0.12);
+  margin: 0.6rem 0 1rem 0;
+}
+
+/* Research theme cards */
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.1rem;
+  margin-bottom: 1.3rem;
+}
+
+.focus-card {
+  position: relative;
+  overflow: hidden;
+  padding: 1.25rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #ffffff 0%, #f4f9ff 100%);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow2);
+  transition: 0.25s ease-in-out;
+}
+
+.focus-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.focus-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(90deg, var(--blue), var(--isu));
+}
+
+.focus-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  background: #e9f3ff;
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.45rem;
+  margin-bottom: 0.85rem;
+  box-shadow: 0 4px 12px rgba(26,115,232,0.16);
+}
+
+.focus-card h3 {
+  margin: 0 0 0.55rem 0;
+  font-size: 1.12rem;
+  color: var(--text);
+}
+
+.focus-card p {
+  margin: 0;
+  color: #202124;
+  line-height: 1.55;
+  font-size: 0.95rem;
+}
+
+/* Year header */
+.year-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.9rem;
+}
+
+.year-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 1.35rem;
+  font-weight: 950;
+  color: var(--text);
+}
+
+.year-pill {
+  display: inline-flex;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(220,20,60,0.08);
+  border: 1px solid rgba(220,20,60,0.22);
+  color: var(--isu);
+  font-weight: 900;
+  font-size: 0.85rem;
+}
+
+/* Publication cards */
+.publication-card {
+  position: relative;
+  padding: 1.15rem 1.15rem 1.15rem 1.35rem;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow2);
+  margin-bottom: 1rem;
+  transition: 0.22s ease-in-out;
+}
+
+.publication-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+  background: #fbfdff;
+}
+
+.publication-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  bottom: 1rem;
+  width: 4px;
+  border-radius: 99px;
+  background: linear-gradient(180deg, var(--blue), var(--isu));
+}
+
+.pub-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+  margin-bottom: 0.65rem;
+}
+
+.pub-year,
+.pub-type,
+.pub-award {
+  display: inline-flex;
+  padding: 0.25rem 0.58rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.pub-year {
+  background: #f3f8ff;
+  border: 1px solid rgba(26,115,232,0.18);
+  color: var(--blue);
+}
+
+.pub-type {
+  background: #ffffff;
+  border: 1px solid rgba(26,115,232,0.20);
+  color: var(--text);
+}
+
+.pub-award {
+  background: rgba(220,20,60,0.08);
+  border: 1px solid rgba(220,20,60,0.25);
+  color: var(--isu);
+}
+
+.pub-title {
+  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 900;
+  line-height: 1.45;
+  margin-bottom: 0.45rem;
+}
+
+.pub-authors {
+  color: #202124;
+  font-size: 0.94rem;
+  line-height: 1.5;
+  margin-bottom: 0.35rem;
+}
+
+.pub-venue {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+/* Citation and link buttons */
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.75rem;
+}
+
+.pub-link,
+.pub-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.32rem 0.65rem;
+  border-radius: 999px;
+  background: #f3f8ff;
+  border: 1px solid rgba(26,115,232,0.18);
+  color: var(--blue) !important;
+  text-decoration: none !important;
+  font-size: 0.84rem;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.pub-link:hover,
+.pub-button:hover {
+  background: #e9f3ff;
+  text-decoration: none !important;
+}
+
+.pub-button.primary {
+  background: var(--blue);
+  color: #ffffff !important;
+  border-color: var(--blue);
+}
+
+.pub-button.primary:hover {
+  background: var(--blue2);
+}
+
+.pub-link.disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+/* Citation box */
+.citation-box {
+  display: none;
+  margin-top: 0.8rem;
+  padding: 0.9rem;
+  border-radius: 12px;
+  background: #f7fbff;
+  border: 1px solid rgba(26,115,232,0.18);
+  color: #202124;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+/* Tags */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.tag {
+  display: inline-flex;
+  padding: 0.36rem 0.72rem;
+  border-radius: 999px;
+  background: #f3f8ff;
+  border: 1px solid rgba(26,115,232,0.18);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+/* Timeline */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.2rem;
+}
+
+.timeline {
+  position: relative;
+  margin-top: 0.3rem;
+  padding-left: 1.3rem;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0.25rem;
+  top: 0.2rem;
+  bottom: 0.2rem;
+  width: 2px;
+  background: linear-gradient(180deg, var(--blue), var(--isu));
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -1.29rem;
+  top: 0.25rem;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--isu);
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 0 2px rgba(220,20,60,0.22);
+}
+
+.timeline-year {
+  color: var(--isu);
+  font-weight: 900;
+  font-size: 0.88rem;
+}
+
+.timeline-title {
+  color: var(--text);
+  font-weight: 900;
+  margin-top: 0.1rem;
+}
+
+.timeline-text {
+  color: #202124;
+  margin-top: 0.15rem;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (min-width: 900px) {
+  .grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 950px) {
+  .grid-3,
+  .impact-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .pub-hero {
+    padding: 1.5rem 1.1rem;
+  }
+
+  .pub-hero h1 {
+    font-size: 1.65rem;
+  }
+
+  .grid-3,
+  .impact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .year-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+/* Scoped links */
+.section a,
+.pub-hero a {
+  color: var(--blue);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.section a:hover,
+.pub-hero a:hover {
+  text-decoration: underline;
+}
 </style>
 
+<div class="pub-wrap">
+
+  <div class="pub-hero">
+    <div class="pub-hero-content">
+      <span class="hero-kicker">Research Publications · RF · AI · VLSI · Edge Systems</span>
+
+      <h1>Publications</h1>
+
+      <div class="subtitle">
+        Year-by-year scholarly work in RF signal intelligence, hardware-aware AI, edge computing, VLSI systems, and IoT security
+      </div>
+
+      <p>
+        This page presents my publications by year and research theme. Each entry includes citation buttons
+        and space for official PDF, DOI, code, or project links when available.
+      </p>
+
+      <div class="hero-links">
+        <a class="btn-link" href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="btn-link secondary" href="https://orcid.org/0000-0002-9898-6810" target="_blank" rel="noopener">ORCID</a>
+        <a class="btn-link secondary" href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank" rel="noopener">OpenReview</a>
+        <a class="btn-link secondary" href="/resume/">Resume</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="impact-grid">
+    <div class="impact-card">
+      <div class="big">2026</div>
+      <div class="label">Accepted Work</div>
+      <div class="small">IEEE SoutheastCon</div>
+    </div>
+
+    <div class="impact-card">
+      <div class="big">2025</div>
+      <div class="label">Major Output Year</div>
+      <div class="small">RF, AI, Security, VLSI</div>
+    </div>
+
+    <div class="impact-card">
+      <div class="big">2024</div>
+      <div class="label">Journal Publications</div>
+      <div class="small">Activations and circuits</div>
+    </div>
+
+    <div class="impact-card">
+      <div class="big">🏆</div>
+      <div class="label">Best Paper</div>
+      <div class="small">IEEE RFCoN 2025</div>
+    </div>
+  </div>
+
+  <div class="grid-3">
+    <div class="focus-card">
+      <div class="focus-icon">📡</div>
+      <h3>RF Signal Intelligence</h3>
+      <p>
+        Publications on modulation classification, envelope statistics, GPS spoofing detection,
+        and RF fingerprinting methods.
+      </p>
+    </div>
+
+    <div class="focus-card">
+      <div class="focus-icon">🧠</div>
+      <h3>Hardware-Aware AI</h3>
+      <p>
+        Research on lightweight neural networks, custom activation functions, model efficiency,
+        and deployment-aware learning.
+      </p>
+    </div>
+
+    <div class="focus-card">
+      <div class="focus-icon">⚙️</div>
+      <h3>VLSI and Edge Systems</h3>
+      <p>
+        Work related to hardware acceleration, physical design, VLSI-oriented systems,
+        and efficient embedded intelligence.
+      </p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🧭 Research Themes</h2>
+    <div class="divider"></div>
+
+    <div class="tag-cloud">
+      <span class="tag">RF Modulation Classification</span>
+      <span class="tag">Envelope Statistics</span>
+      <span class="tag">R-Value Features</span>
+      <span class="tag">CAF-Based Feature Extraction</span>
+      <span class="tag">STFT-Based Analysis</span>
+      <span class="tag">GPS Spoofing Detection</span>
+      <span class="tag">Hardware-Aware AI</span>
+      <span class="tag">Custom Activation Functions</span>
+      <span class="tag">LSTM Optimization</span>
+      <span class="tag">Edge AI</span>
+      <span class="tag">VLSI Design</span>
+      <span class="tag">IoT Security</span>
+      <span class="tag">RF Fingerprinting</span>
+      <span class="tag">Polymorphic Circuits</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="year-header">
+      <div class="year-title">📅 2026 Publications</div>
+      <div class="year-pill">1 publication</div>
+    </div>
+
+    <div class="publication-card">
+      <div class="pub-top">
+        <span class="pub-year">2026</span>
+        <span class="pub-type">IEEE Conference</span>
+        <span class="pub-award">Accepted</span>
+      </div>
+
+      <div class="pub-title">
+        Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features
+      </div>
+
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy and collaborators
+      </div>
+
+      <div class="pub-venue">
+        IEEE SoutheastCon, 2026.
+      </div>
+
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2026-southeastcon')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2026-southeastcon')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+
+      <div id="cite-2026-southeastcon" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features," IEEE SoutheastCon, 2026.</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="year-header">
+      <div class="year-title">📅 2025 Publications</div>
+      <div class="year-pill">6 publications</div>
+    </div>
+
+    <div class="publication-card">
+      <div class="pub-top">
+        <span class="pub-year">2025</span>
+        <span class="pub-type">IEEE Conference</span>
+        <span class="pub-award">Best Paper Award</span>
+      </div>
+
+      <div class="pub-title">
+        Re-Visiting R: Statistical Envelope Analysis for Lightweight RF Signal Classification
+      </div>
+
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy and collaborators
+      </div>
+
+      <div class="pub-venue">
+        IEEE International Conference on Radio Frequency Communication and Networks, RFCoN, 2025.
+      </div>
+
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2025-rfcon')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2025-rfcon')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+
+      <div id="cite-2025-rfcon" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Re-Visiting R: Statistical Envelope Analysis for Lightweight RF Signal Classification," IEEE International Conference on Radio Frequency Communication and Networks, RFCoN, 2025.</div>
+    </div>
+
+    <div class="publication-card">
+      <div class="pub-top">
+        <span class="pub-year">2025</span>
+        <span class="pub-type">ACM Conference</span>
+      </div>
+
+      <div class="pub-title">
+        On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory
+      </div>
+
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy and collaborators
+      </div>
+
+      <div class="pub-venue">
+        ACM Great Lakes Symposium on VLSI, GLSVLSI, 2025.
+      </div>
+
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2025-glsvlsi')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2025-glsvlsi')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+
+      <div id="cite-2025-glsvlsi" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory," ACM Great Lakes Symposium on VLSI, GLSVLSI, 2025.</div>
+    </div>
+
+    <div class="publication-card">
+      <div class="pub-top">
+        <span class="pub-year">2025</span>
+        <span class="pub-type">Journal</span>
+      </div>
+
+      <div class="pub-title">
+        Simplifying Activations with Linear Approximations in Neural Networks
+      </div>
+
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy and collaborators
+      </div>
+
+      <div class="pub-venue">
+        Memories - Materials, Devices, Circuits and Systems, 2025.
+      </div>
+
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2025-memories-linear')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2025-memories-linear')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+
+      <div id="cite-2025-memories-linear" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Simplifying Activations with Linear Approximations in Neural Networks," Memories - Materials, Devices, Circuits and Systems, 2025.</div>
+    </div>
+
+    <div class="publication-card">
+      <div class="pub-top">
+        <span class="pub-year">2025</span>
+        <span class="pub-type">Conference</span>
+      </div>
+
+      <div class="pub-title">
+        Adversarial-Resilient RF Fingerprinting: A CNN-GAN Framework for Rogue Transmitter Detection
+      </div>
+
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy and collaborators
+      </div>
+
+      <div class="pub-venue">
+        ICMLA, 2025.
+      </div>
+
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2025-icmla')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2025-icmla')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+
+      <div id="cite-2025-icmla" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Adversarial-Resilient RF Fingerprinting: A CNN-GAN Framework for Rogue Transmitter Detection," ICMLA, 2025.</div>
+    </div>
+
+    <div class="publication-card">
+      <div class="pub-top">
+        <span class="pub-year">2025</span>
+        <span class="pub-type">IEEE Conference</span>
+      </div>
+
+      <div class="pub-title">
+        C/N0 Analysis-Based GPS Spoofing Detection with Variable Antenna Orientations
+      </div>
+
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy and collaborators
+      </div>
+
+      <div class="pub-venue">
+        IEEE CARS, 2025.
+      </div>
+
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2025-cars')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2025-cars')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+
+      <div id="cite-2025-cars" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "C/N0 Analysis-Based GPS Spoofing Detection with Variable Antenna Orientations," IEEE CARS, 2025.</div>
+    </div>
+
+    <div class="publication-card">
+      <div class="pub-top">
+        <span class="pub-year">2025</span>
+        <span class="pub-type">Journal</span>
+      </div>
+
+      <div class="pub-title">
+        Early Detection of Adversarial Examples in Internet-of-Things Networks
+      </div>
+
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy and collaborators
+      </div>
+
+      <div class="pub-venue">
+        Electronics, 2025.
+      </div>
+
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2025-electronics')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2025-electronics')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+
+      <div id="cite-2025-electronics" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Early Detection of Adversarial Examples in Internet-of-Things Networks," Electronics, 2025.</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="year-header">
+      <div class="year-title">📅 2024 Publications</div>
+      <div class="year-pill">2 publications</div>
+    </div>
+
+    <div class="publication-card">
+      <div class="pub-top">
+        <span class="pub-year">2024</span>
+        <span class="pub-type">Journal</span>
+      </div>
+
+      <div class="pub-title">
+        Piecewise Linear Approximation of Activation Functions for Neural Networks
+      </div>
+
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy and collaborators
+      </div>
+
+      <div class="pub-venue">
+        Memories - Materials, Devices, Circuits and Systems, 2024.
+      </div>
+
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2024-piecewise')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2024-piecewise')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+
+      <div id="cite-2024-piecewise" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Piecewise Linear Approximation of Activation Functions for Neural Networks," Memories - Materials, Devices, Circuits and Systems, 2024.</div>
+    </div>
+
+    <div class="publication-card">
+      <div class="pub-top">
+        <span class="pub-year">2024</span>
+        <span class="pub-type">Journal</span>
+      </div>
+
+      <div class="pub-title">
+        A Review of Crosstalk-Based Polymorphic Circuit Design
+      </div>
+
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy and collaborators
+      </div>
+
+      <div class="pub-venue">
+        Memories - Materials, Devices, Circuits and Systems, 2024.
+      </div>
+
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2024-crosstalk')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2024-crosstalk')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+
+      <div id="cite-2024-crosstalk" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "A Review of Crosstalk-Based Polymorphic Circuit Design," Memories - Materials, Devices, Circuits and Systems, 2024.</div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="section">
+      <h2>📍 Publication Timeline</h2>
+      <div class="divider"></div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-year">2026</div>
+          <div class="timeline-title">IEEE SoutheastCon</div>
+          <div class="timeline-text">
+            Resource-efficient modulation classification using bin-based envelope features.
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-year">2025</div>
+          <div class="timeline-title">RF, AI, Security, and VLSI Publications</div>
+          <div class="timeline-text">
+            Work across RFCoN, GLSVLSI, ICMLA, CARS, Electronics, and Memories.
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-year">2024</div>
+          <div class="timeline-title">Activation Functions and Circuit Design</div>
+          <div class="timeline-text">
+            Journal work on piecewise activation approximation and polymorphic circuit design.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🌐 Publication Profiles</h2>
+      <div class="divider"></div>
+
+      <p>
+        For citation details, publication metadata, and updated indexing information, please visit my public scholarly profiles.
+      </p>
+
+      <div class="pub-links">
+        <a class="pub-link" href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="pub-link" href="https://orcid.org/0000-0002-9898-6810" target="_blank" rel="noopener">ORCID</a>
+        <a class="pub-link" href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank" rel="noopener">OpenReview</a>
+        <a class="pub-link" href="/resume/">Resume</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
 <script>
+function toggleCitation(id) {
+  const box = document.getElementById(id);
+  if (!box) return;
+
+  if (box.style.display === "block") {
+    box.style.display = "none";
+  } else {
+    box.style.display = "block";
+  }
+}
+
 function copyCitation(id) {
-  const citation = document.getElementById(id);
-  citation.select();
-  citation.setSelectionRange(0, 99999);
-  navigator.clipboard.writeText(citation.value).then(() => {
-    alert("Citation copied to clipboard!");
-  });
+  const box = document.getElementById(id);
+  if (!box) return;
+
+  const text = box.innerText;
+
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(text).then(function () {
+      alert("Citation copied to clipboard.");
+    }).catch(function () {
+      alert("Unable to copy automatically. Please copy the citation manually.");
+    });
+  } else {
+    alert("Clipboard not supported. Please copy the citation manually.");
+  }
 }
 </script>
-
-<div class="page-hero">
-  <h2>Publications</h2>
-  <p>
-    Peer-reviewed publications and manuscripts in progress. Each entry includes a one-click citation copy button for convenience.
-  </p>
-  <div class="hero-links">
-    <a class="btn-link" href="https://scholar.google.com/citations?user=08fgpdIAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-    <a class="btn-link secondary" href="/insys-lab/">INSys Lab</a>
-    <a class="btn-link secondary" href="/resume/">Resume</a>
-  </div>
-</div>
-
-<div class="section">
-  <h3>Published / Accepted</h3>
-  <div class="divider"></div>
-
-  <div class="pub-grid">
-
-    <div class="pub-entry">
-      <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-        <em>"On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory”</em><br>
-        <a href="https://dl.acm.org/doi/10.1145/3716368.3735217" target="_blank" rel="noopener">The 35th edition of ACM Great Lakes Symposium on VLSI (GLSVLSI)</a>, 2025, New Orleans, LA.
-        <a href="https://doi.org/10.1145/3716368.3735217" target="_blank" rel="noopener">[DOI]</a>
-        <span class="status published">Published</span><br>
-        <small><em>Session: VLSI for Machine Learning and Artificial Intelligence | Acceptance rate: 27%</em></small><br>
-        <a href="/images/PID69.pdf" target="_blank" rel="noopener" title="Download PDF">📥</a>
-      </div>
-      <div class="cite-box" onclick="copyCitation('citeP1')">
-        📑 Cite
-        <textarea id="citeP1" class="hidden-citation">Srinivas Rahul Sapireddy and Mostafizur Rahman. 2025. On the Effectiveness of Piecewise Activation Approximations for Long-Term Short-Memory Networks. In Proceedings of Great Lakes Symposium on VLSI 2025 (GLSVLSI '25), June 29, 2025, pp. 740–745. https://doi.org/10.1145/3716368.3735217</textarea>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-        <em>“Re-Visiting R: Statistical Envelope Analysis for Lightweight Modulation Classification”</em><br>
-        <a href="https://ieeexplore.ieee.org/document/11085271" target="_blank" rel="noopener"> IEEE International Conference on Radio Frequency Communication and Networks (RFCoN)</a>, 2025.
-        <a href="https://doi.org/10.1109/RFCoN62306.2025.11085271" target="_blank" rel="noopener">[DOI]</a>
-        <span class="status published">Published</span>
-        <span class="status-badge best-paper">🏆 Best Paper Award</span><br>
-        <small><em>Track 2 | Session II | Paper ID: 718 | Acceptance rate: 12%</em></small><br>
-        <a href="/images/PID718.pdf" target="_blank" rel="noopener" title="Download PDF">📥</a>
-      </div>
-      <div class="cite-box" onclick="copyCitation('citeP2')">
-        📑 Cite
-        <textarea id="citeP2" class="hidden-citation">S. R. Sapireddy and M. Rahman, "Revisiting R: Statistical Envelope Analysis for Lightweight RF Modulation Classification," 2025 1st International Conference on Radio Frequency Communication and Networks (RFCoN), Thanjavur, India, 2025, pp. 1-6, doi: 10.1109/RFCoN62306.2025.11085271</textarea>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-        <em>"Lightweight Methods for Spread Spectrum Signal Classification"</em><br>
-        <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener"> IEEE Military Communications Conference (MILCOM)</a>, Washington DC, October 2026.
-        <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener">[DOI]</a>
-        <span class="status review">To be submitted</span>
-        <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener" title="Download PDF">📥</a>
-      </div>
-      <div class="cite-box" onclick="copyCitation('citeR0')">
-        📑 Cite
-        <textarea id="citeR0" class="hidden-citation">S. R. Sapireddy and M. Rahman, Lightweight Methods for Spread Spectrum Signal Classification</textarea>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-card">
-        Marcus Butler, Donald Riead, <strong>Srinivas Rahul Sapireddy</strong>, Gunjeeth Kaur, Mostafizur Rahman<br>
-        <em>"Signal Detection and Classification in the Prescence of Interference"</em><br>
-        <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener"> IEEE Military Communications Conference (MILCOM)</a>, Washington DC, October 2026.
-        <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener">[DOI]</a>
-        <span class="status review">To be submitted</span>
-        <a href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener" title="Download PDF">📥</a>
-      </div>
-      <div class="cite-box" onclick="copyCitation('citeR1')">
-        📑 Cite
-        <textarea id="citeR0" class="hidden-citation">S. R. Sapireddy and M. Rahman, Signal Detection and Classification in the Prescence of Interference</textarea>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong>, Asifuzzaman K., Mostafizur Rahman<br>
-        <em>"Simplifying Activations with Linear Approximations in Neural Networks"</em><br>
-         <a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank" rel="noopener"> Memories - Materials, Devices, Circuits and Systems (Elsevier)</a>, 2025.
-        <a href="https://www.sciencedirect.com/science/article/pii/S2773064625000143" target="_blank" rel="noopener">[DOI]</a>
-        <span class="status published">Published</span><br>
-        <a href="/images/Memories_3.pdf" target="_blank" rel="noopener" title="Download PDF">📥</a>
-      </div>
-      <div class="cite-box" onclick="copyCitation('citeP3')">
-        📑 Cite
-        <textarea id="citeP3" class="hidden-citation">Sapireddy, S. R., Asifuzzaman, K., & Mostafizur, R. (2025). Simplifying activations with linear approximations in neural networks. Memories - Materials, Devices, Circuits and Systems, 100134. https://doi.org/10.1016/j.memori.2025.100134</textarea>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong>, G Surekha, Hemanth Bandi<br>
-        <em>"Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics"</em><br>
-        <a href="https://ieeexplore.ieee.org/abstract/document/11476603" target="_blank" rel="noopener">IEEE SoutheastCon</a>, 20 February 2026 - 15 March 2026, Huntsville, Alabama
-        <span class="status published">Published</span><br>
-      </div>
-      <div class="cite-box" onclick="copyCitation('citeP4')">
-        📑 Cite
-        <textarea id="citeP4" class="hidden-citation">S. R. Sapireddy, G. Surekha and H. Bandi, "Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics," SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1-6, doi: 10.1109/SoutheastCon63549.2026.11476603</textarea>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-card">
-        Iqbal, M. A., <strong>Sapireddy, S. R.</strong>, Dasari, S., Asifuzzaman K., Rahman, M.<br>
-        <em>“A Review of Crosstalk Polymorphic Circuits and Their Scalability”</em><br>
-        <a href="https://www.sciencedirect.com/science/article/pii/S2773064623000713" target="_blank" rel="noopener"> Memories - Materials, Devices, Circuits and Systems (Elsevier)</a>, 2023.
-        <a href="https://doi.org/10.1016/j.memori.2023.100094" target="_blank" rel="noopener">[DOI]</a>
-        <span class="status published">Published</span><br>
-        <a href="/images/Memories_1.pdf" target="_blank" rel="noopener" title="Download PDF">📥</a>
-      </div>
-      <div class="cite-box" onclick="copyCitation('citeP5')">
-        📑 Cite
-        <textarea id="citeP5" class="hidden-citation">Iqbal, M. A., Sapireddy, S. R., Dasari, S., Asifuzzaman, K., & Rahman, M. (2024). A review of crosstalk polymorphic circuits and their scalability. Memories - Materials, Devices, Circuits and Systems, 7, 100094. https://doi.org/10.1016/j.memori.2023.100094</textarea>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-card">
-        Wafi Danesh, <strong>Srinivas Rahul Sapireddy</strong>, Mostafizur Rahman<br>
-        <em>“Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders”</em><br>
-        <a href="https://www.mdpi.com/2079-9292/14/15/3015" target="_blank" rel="noopener">MDPI Electronics</a>, 2025.
-        <a href="https://doi.org/10.3390/electronics14153015" target="_blank" rel="noopener">[DOI]</a>
-        <span class="status published">Published</span><br>
-        <a href="/images/MDPI_1.pdf" target="_blank" rel="noopener" title="Download PDF">📥</a>
-      </div>
-      <div class="cite-box" onclick="copyCitation('citeP6')">
-        📑 Cite
-        <textarea id="citeP6" class="hidden-citation">Danesh, W.; Sapireddy, S.R.; Rahman, M. Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders. Electronics 2025, 14, 3015. https://doi.org/10.3390/electronics14153015</textarea>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-card">
-        <strong>Sapireddy, Srinivas Rahul</strong>, P. N. Tejaswi, Y. M. Sandeep, K. Hari Krishna<br>
-        <em>“Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer”</em><br>
-        <a href="https://ijettjournal.org/archive/ijett-v34p252" target="_blank" rel="noopener">International Journal of Engineering Trends and Technology</a>, vol. 34, no. 6, pp. 256–259, April 2016.
-        <a href="https://doi.org/10.14445/22315381/IJETT-V34P252" target="_blank" rel="noopener">[DOI]</a>
-        <span class="status published">Published</span>
-      </div>
-      <div class="cite-box" onclick="copyCitation('citeP7')">
-        📑 Cite
-        <textarea id="citeP7" class="hidden-citation">S. R. Sapireddy, P. N. Tejaswi, Y. M. Sandeep, and K. H. Krishna, "Two-Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer," IJETT, vol. 34, no. 6, pp. 256–259, Apr. 2016.</textarea>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-card">
-        Gurijala, B. T., <strong>Sapireddy, S. R.</strong><br>
-        <em>“Automation of Patient Medical Record Dispatch System Software Application”</em><br>
-        IJARSET, vol. 5, no. 6, pp. 6074–6097, Jun. 2018
-        <span class="status published">Published</span>
-      </div>
-      <div class="cite-box" onclick="copyCitation('citeP8')">
-        📑 Cite
-        <textarea id="citeP8" class="hidden-citation">B. T. Gurijala and S. R. Sapireddy, "Automation of Patient Medical Record Dispatch System Software Application", International Journal of Advanced Research in Science, Engineering and Technology (IJARSET), vol. 5, no. 6, pp. 6074–6097, Jun. 2018.</textarea>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-card">
-        <strong>Srinivas Rahul Sapireddy</strong><br>
-        <em>“CAM Cell Based Memory Architecture for Extreme Searching Operations”</em><br>
-        IJAECS, vol. 3, issue 8, pp. 80–83, August 2016.
-        <span class="status published">Published</span>
-      </div>
-      <div class="cite-box" onclick="copyCitation('citeP9')">
-        📑 Cite
-        <textarea id="citeP9" class="hidden-citation">S. R. Sapireddy, "CAM Cell Based Memory Architecture for Extreme Searching Operations," IJAECS, vol. 3, no. 8, pp. 80–83, Aug. 2016.</textarea>
-      </div>
-    </div>
-
-    <div class="pub-entry">
-      <div class="pub-card">
-        Mostafizur Rahman, Arif Iqbal, Srinivas Rahul Sapireddy<br>
-        <em>“A Messaging based Intelligent Computing Approach for Machine Learning Applications”</em><br>
-        Accessed: Mar, Volume 20, 2024.
-        <span class="status pending">📄 Online Archive</span>
-      </div>
-      <div class="cite-box" onclick="copyCitation('citeP10')">
-        📑 Cite
-        <textarea id="citeP10" class="hidden-citation">M. Rahman, A. Iqbal, and S. R. Sapireddy, "A Messaging Based Intelligent Computing Approach for Machine Learning Applications," Accessed: Mar, vol. 20, 2024.</textarea>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-
-
-<div class="section">
-  <h3>Publication Venues</h3>
-  <div class="divider"></div>
-  <div class="logo-row">
-    <a href="https://www.ieee.org/" target="_blank" rel="noopener"><img src="/images/IEEE.jpg" alt="IEEE Logo"></a>
-    <a href="https://www.acm.org/" target="_blank" rel="noopener"><img src="/images/ACM.png" alt="ACM Logo"></a>
-    <a href="https://www.mdpi.com/" target="_blank" rel="noopener"><img src="/images/MDPI.png" alt="MDPI Logo"></a>
-    <a href="https://www.elsevier.com/" target="_blank" rel="noopener"><img src="/images/Elsevier.png" alt="Elsevier Logo"></a>
-  </div>
-</div>
-
-<div class="section">
-  <h3>🔎 Profiles &amp; Identifiers</h3>
-  <div class="divider"></div>
-  <div class="logo-row">
-    <a href="https://sciprofiles.com/profile/srsapireddy" target="_blank" rel="noopener"><img src="/images/SciProfiles.png" alt="SciProfiles Logo"></a>
-    <a href="https://orcid.org/0009-0004-6956-0652" target="_blank" rel="noopener"><img src="/images/orcid.png" alt="ORCID Logo"></a>
-    <a href="https://www.researchgate.net/profile/Srinivas-Rahul-Sapireddy" target="_blank" rel="noopener"><img src="/images/RG.jpg" alt="ResearchGate Logo"></a>
-    <a href="https://openreview.net/" target="_blank" rel="noopener"><img src="/images/OPEN.jpg" alt="OpenReview Logo"></a>
-    <a href="https://dblp.org/search?q=srinivas%20rahul%20sapireddy" target="_blank" rel="noopener"><img src="/images/dblp.png" alt="dblp Logo"></a>
-  </div>
-</div>
-
-<footer class="pub-footer">
-  📘 <a href="https://scholar.google.com/citations?user=08fgpdIAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-  📝 <a href="https://www.researchgate.net/profile/Srinivas-Rahul-Sapireddy" target="_blank" rel="noopener">ResearchGate</a>
-  🧬 <a href="https://orcid.org/0009-0004-6956-0652" target="_blank" rel="noopener">ORCID</a>
-  🧾 <a href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank" rel="noopener">OpenReview</a>
-</footer>
-
-<div style="text-align:center; margin-top: 12px;">
-  <a href="https://info.flagcounter.com/gunK" title="Flag Counter" target="_blank" rel="noopener">
-    <img src="https://s05.flagcounter.com/count/gunK/bg_24BDFF/txt_000000/border_4A12CC/columns_8/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_1/"
-         alt="Flag Counter" border="0" width="600">
-  </a>
-</div>
