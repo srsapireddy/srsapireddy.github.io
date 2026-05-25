@@ -905,9 +905,12 @@ toc: false
     </a>
   </div>
 
-  <div class="flags">
-    <a href="https://info.flagcounter.com/3uG8" target="_blank" rel="noopener">
-      <img src="https://s05.flagcounter.com/countxl_US/3uG8/bg_FFFFFF/txt_1239FF/border_C9CCC8/columns_8/maxflags_40/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">
+  <div class="section" style="margin-top: 20px; text-align: center;">
+    <a href="https://info.flagcounter.com/ghXp">
+      <img 
+        src="https://s01.flagcounter.com/map/ghXp/size_m/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/" 
+        alt="Flag Counter"
+        style="border: 0; max-width: 100%; height: auto;">
     </a>
   </div>
 
