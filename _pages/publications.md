@@ -901,32 +901,38 @@ author_profile: true
       
         <div id="cite-2025-memories-linear" class="citation-box">S. R. Sapireddy, K. Asifuzzaman, and R. Mostafizur, "Simplifying activations with linear approximations in neural networks," Memories - Materials, Devices, Circuits and Systems, vol. 11, 2025, Art. no. 100134, doi: 10.1016/j.memori.2025.100134.</div>
       </div>
-      <div class="publication-card" data-type="conference">
+      
+      <div class="publication-card" data-type="journal">
         <div class="pub-top">
           <span class="pub-year">2025</span>
-          <span class="pub-type">ACM Conference</span>
+          <span class="pub-type">Journal Article</span>
+          <span class="pub-award">Published</span>
         </div>
-
+      
         <div class="pub-title">
-          On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory
+          Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders
         </div>
-
+      
         <div class="pub-authors">
-          Srinivas Rahul Sapireddy and collaborators
+          W. Danesh, S. R. Sapireddy, and M. Rahman
         </div>
-
+      
         <div class="pub-venue">
-          ACM Great Lakes Symposium on VLSI, GLSVLSI, 2025.
+          Electronics, Volume 14, Issue 15, 2025, Article 3015.
         </div>
-
+      
+        <div class="pub-note">
+          DOI: 10.3390/electronics14153015
+        </div>
+      
         <div class="pub-links">
-          <button class="pub-button primary" onclick="toggleCitation('cite-2025-glsvlsi')">Citation</button>
-          <button class="pub-button" onclick="copyCitation('cite-2025-glsvlsi')">Copy Citation</button>
-          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+          <button class="pub-button primary" onclick="toggleCitation('cite-2025-electronics')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2025-electronics')">Copy Citation</button>
+          <a class="pub-link" href="https://doi.org/10.3390/electronics14153015" target="_blank" rel="noopener">DOI</a>
           <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
         </div>
-
-        <div id="cite-2025-glsvlsi" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory," ACM Great Lakes Symposium on VLSI, GLSVLSI, 2025.</div>
+      
+        <div id="cite-2025-electronics" class="citation-box">W. Danesh, S. R. Sapireddy, and M. Rahman, "Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders," Electronics, vol. 14, no. 15, Art. no. 3015, 2025, doi: 10.3390/electronics14153015.</div>
       </div>
 
       <div class="publication-card" data-type="journal">
