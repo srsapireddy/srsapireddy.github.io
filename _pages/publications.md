@@ -178,7 +178,7 @@ author_profile: true
   margin-top: 0.2rem;
 }
 
-/* Sections */
+/* General section */
 .section {
   position: relative;
   overflow: hidden;
@@ -217,7 +217,7 @@ author_profile: true
   margin: 0.6rem 0 1rem 0;
 }
 
-/* Research theme cards */
+/* Research focus cards */
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -393,19 +393,22 @@ author_profile: true
   line-height: 1.45;
 }
 
-/* Citation and link buttons */
+/* Publication action buttons in one row */
 .pub-links {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 0.55rem;
-  margin-top: 0.75rem;
+  margin-top: 0.85rem;
+  align-items: center;
 }
 
 .pub-link,
 .pub-button {
   display: inline-flex;
   align-items: center;
-  padding: 0.32rem 0.65rem;
+  justify-content: center;
+  padding: 0.36rem 0.72rem;
   border-radius: 999px;
   background: #f3f8ff;
   border: 1px solid rgba(26,115,232,0.18);
@@ -414,6 +417,8 @@ author_profile: true
   font-size: 0.84rem;
   font-weight: 850;
   cursor: pointer;
+  line-height: 1.2;
+  white-space: nowrap;
 }
 
 .pub-link:hover,
@@ -452,7 +457,7 @@ author_profile: true
   overflow-x: auto;
 }
 
-/* Tags */
+/* Research tags */
 .tag-cloud {
   display: flex;
   flex-wrap: wrap;
@@ -470,7 +475,7 @@ author_profile: true
   font-weight: 800;
 }
 
-/* Timeline */
+/* Timeline and profile grid */
 .grid-2 {
   display: grid;
   grid-template-columns: 1fr;
@@ -591,8 +596,8 @@ author_profile: true
       </div>
 
       <p>
-        This page presents my publications by year and research theme. Each entry includes citation buttons
-        and space for official PDF, DOI, code, or project links when available.
+        This page presents my publications by year in a single continuous list. Each publication includes
+        citation and copy-citation buttons, with space for official DOI, PDF, code, or project links when available.
       </p>
 
       <div class="hero-links">
