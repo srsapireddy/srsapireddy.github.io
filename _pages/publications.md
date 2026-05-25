@@ -1075,34 +1075,40 @@ author_profile: true
       <div id="cite-2024-crosstalk" class="citation-box">M. A. Iqbal, S. R. Sapireddy, S. Dasari, K. Asifuzzaman, and M. Rahman, "A review of crosstalk polymorphic circuits and their scalability," Memories - Materials, Devices, Circuits and Systems, vol. 7, Art. no. 100094, 2024, doi: 10.1016/j.memori.2023.100094.</div>
     </div>
 
-      <div class="publication-card" data-type="journal">
-        <div class="pub-top">
-          <span class="pub-year">2024</span>
-          <span class="pub-type">Journal</span>
-        </div>
-
-        <div class="pub-title">
-          A Review of Crosstalk-Based Polymorphic Circuit Design
-        </div>
-
-        <div class="pub-authors">
-          Srinivas Rahul Sapireddy and collaborators
-        </div>
-
-        <div class="pub-venue">
-          Memories - Materials, Devices, Circuits and Systems, 2024.
-        </div>
-
-        <div class="pub-links">
-          <button class="pub-button primary" onclick="toggleCitation('cite-2024-crosstalk')">Citation</button>
-          <button class="pub-button" onclick="copyCitation('cite-2024-crosstalk')">Copy Citation</button>
-          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-        </div>
-
-        <div id="cite-2024-crosstalk" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "A Review of Crosstalk-Based Polymorphic Circuit Design," Memories - Materials, Devices, Circuits and Systems, 2024.</div>
+    <div class="publication-card" data-type="journal">
+      <div class="pub-top">
+        <span class="pub-year">2024</span>
+        <span class="pub-type">Journal Article</span>
+        <span class="pub-award">Published</span>
       </div>
+    
+      <div class="pub-title">
+        A Messaging-Based Intelligent Computing Approach for Machine Learning Applications
+      </div>
+    
+      <div class="pub-authors">
+        Mostafizur Rahman, Arif Iqbal, and Srinivas Rahul
+      </div>
+    
+      <div class="pub-venue">
+        Accessed: Mar, Volume 20, 2024.
+      </div>
+    
+      <div class="pub-note">
+        Journal details, page numbers, DOI, and publisher information can be added once available.
+      </div>
+    
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2024-messaging-ml')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2024-messaging-ml')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+    
+      <div id="cite-2024-messaging-ml" class="citation-box">M. Rahman, A. Iqbal, and S. Rahul, "A Messaging-Based Intelligent Computing Approach for Machine Learning Applications," Accessed: Mar, vol. 20, 2024.</div>
     </div>
+
+    
 
     <div class="year-section" data-year-section="2018">
       <div class="year-header">
