@@ -29,11 +29,12 @@ layout: default
   to { transform: translateX(-50%); }
 }
 
+/* Container */
 .home-wrap{
-  max-width: 1080px;
-  margin: 1.6rem auto 2rem auto;
-  padding: 0 1rem;
-  animation: fadeIn 0.9s ease-in-out;
+  max-width:1080px;
+  margin:1.6rem auto 2rem auto;
+  padding:0 1rem;
+  animation:fadeIn 0.9s ease-in-out;
 }
 
 /* Hero */
@@ -150,6 +151,7 @@ layout: default
   border-radius:999px;
 }
 
+/* Chips */
 .chips{
   display:flex;
   flex-wrap:wrap;
@@ -218,7 +220,7 @@ layout: default
 .slide-track{
   display:flex;
   width:max-content;
-  animation:slideTrack 30s linear infinite;
+  animation:slideTrack 32s linear infinite;
 }
 
 .sliding-bar:hover .slide-track{
@@ -342,7 +344,7 @@ layout: default
 /* Feature cards */
 .feature-grid{
   display:grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns:repeat(3, 1fr);
   gap:1.1rem;
   margin-top:1.25rem;
 }
@@ -431,7 +433,7 @@ layout: default
   font-size:0.88rem;
 }
 
-/* News cards */
+/* News */
 .news-grid{
   display:grid;
   grid-template-columns:repeat(3,1fr);
@@ -482,7 +484,7 @@ layout: default
 /* Quick access */
 .quick-grid{
   display:grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns:repeat(3, 1fr);
   gap:1rem;
 }
 
@@ -524,7 +526,7 @@ layout: default
   color:var(--muted);
 }
 
-/* Project strips */
+/* Research project cards */
 .project-grid{
   display:grid;
   grid-template-columns:repeat(3,1fr);
@@ -560,7 +562,7 @@ layout: default
 /* Media cards */
 .media-grid{
   display:grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns:repeat(3, 1fr);
   gap:1rem;
 }
 
@@ -644,6 +646,35 @@ layout: default
 .slider-prev{ left:10px; }
 .slider-next{ right:10px; }
 
+/* LinkedIn + globe */
+.two-col{
+  display:grid;
+  grid-template-columns:1.3fr 0.7fr;
+  gap:1.2rem;
+  align-items:start;
+}
+
+.globe-wrap{
+  width:300px;
+  height:300px;
+  margin:0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  border-radius:12px;
+  border:1px solid rgba(26,115,232,0.18);
+  box-shadow:var(--shadow2);
+  background:#fff;
+}
+
+.globe-wrap iframe,
+.globe-wrap canvas,
+.globe-wrap > div{
+  width:100% !important;
+  height:100% !important;
+}
+
 /* Links */
 .link-row{
   display:flex;
@@ -675,8 +706,7 @@ layout: default
 }
 
 @media (max-width:950px){
-  .feature-grid,
-  .grid-3{
+  .feature-grid{
     grid-template-columns:1fr;
   }
 }
@@ -692,6 +722,16 @@ layout: default
 
   .quick-grid{
     grid-template-columns:repeat(2,1fr);
+  }
+
+  .two-col{
+    grid-template-columns:1fr;
+  }
+}
+
+@media (max-width:768px){
+  .globe-wrap{
+    display:none;
   }
 }
 
@@ -731,11 +771,6 @@ layout: default
   .impact-grid,
   .quick-grid{
     grid-template-columns:1fr;
-  }
-
-  .year-header{
-    align-items:flex-start;
-    flex-direction:column;
   }
 }
 </style>
@@ -795,7 +830,6 @@ layout: default
       <div class="slide-item"><span>●</span> VLSI Physical Design</div>
       <div class="slide-item"><span>●</span> Custom Activation Functions</div>
       <div class="slide-item"><span>●</span> Embedded Intelligence</div>
-      <div class="slide-item"><span>●</span> Signal Processing for Edge Systems</div>
 
       <div class="slide-item"><span>●</span> Hardware-Aware AI</div>
       <div class="slide-item"><span>●</span> RF Signal Intelligence</div>
@@ -803,7 +837,6 @@ layout: default
       <div class="slide-item"><span>●</span> VLSI Physical Design</div>
       <div class="slide-item"><span>●</span> Custom Activation Functions</div>
       <div class="slide-item"><span>●</span> Embedded Intelligence</div>
-      <div class="slide-item"><span>●</span> Signal Processing for Edge Systems</div>
     </div>
   </div>
 
@@ -873,22 +906,6 @@ layout: default
     <h2>📰 Latest News</h2>
     <div class="divider"></div>
 
-    <div class="sliding-bar inner-slide">
-      <div class="slide-track">
-        <div class="slide-item"><span>●</span> Assistant Professor at Illinois State University</div>
-        <div class="slide-item"><span>●</span> IEEE RFCoN Best Paper Award</div>
-        <div class="slide-item"><span>●</span> INSys Lab Development</div>
-        <div class="slide-item"><span>●</span> K-12 STEM Outreach</div>
-        <div class="slide-item"><span>●</span> Hardware-Aware AI and RF Research</div>
-
-        <div class="slide-item"><span>●</span> Assistant Professor at Illinois State University</div>
-        <div class="slide-item"><span>●</span> IEEE RFCoN Best Paper Award</div>
-        <div class="slide-item"><span>●</span> INSys Lab Development</div>
-        <div class="slide-item"><span>●</span> K-12 STEM Outreach</div>
-        <div class="slide-item"><span>●</span> Hardware-Aware AI and RF Research</div>
-      </div>
-    </div>
-
     <div class="news-grid">
       <div class="news-card">
         <span class="news-date">2026</span>
@@ -919,24 +936,6 @@ layout: default
   <div class="section">
     <h2>📂 Quick Access</h2>
     <div class="divider"></div>
-
-    <div class="sliding-bar inner-slide">
-      <div class="slide-track">
-        <div class="slide-item"><span>●</span> Lab</div>
-        <div class="slide-item"><span>●</span> Publications</div>
-        <div class="slide-item"><span>●</span> Teaching</div>
-        <div class="slide-item"><span>●</span> Resume</div>
-        <div class="slide-item"><span>●</span> Blog</div>
-        <div class="slide-item"><span>●</span> Service</div>
-
-        <div class="slide-item"><span>●</span> Lab</div>
-        <div class="slide-item"><span>●</span> Publications</div>
-        <div class="slide-item"><span>●</span> Teaching</div>
-        <div class="slide-item"><span>●</span> Resume</div>
-        <div class="slide-item"><span>●</span> Blog</div>
-        <div class="slide-item"><span>●</span> Service</div>
-      </div>
-    </div>
 
     <div class="quick-grid">
       <div class="quick-card">
@@ -1019,20 +1018,6 @@ layout: default
     <h2>🎥 Featured Demos</h2>
     <div class="divider"></div>
 
-    <div class="sliding-bar inner-slide">
-      <div class="slide-track">
-        <div class="slide-item"><span>●</span> Hackathon Fall 2021</div>
-        <div class="slide-item"><span>●</span> Hackathon Fall 2022</div>
-        <div class="slide-item"><span>●</span> Internship Showcase</div>
-        <div class="slide-item"><span>●</span> Technical Demonstrations</div>
-
-        <div class="slide-item"><span>●</span> Hackathon Fall 2021</div>
-        <div class="slide-item"><span>●</span> Hackathon Fall 2022</div>
-        <div class="slide-item"><span>●</span> Internship Showcase</div>
-        <div class="slide-item"><span>●</span> Technical Demonstrations</div>
-      </div>
-    </div>
-
     <div class="media-grid">
       <div class="media-card">
         <iframe src="https://www.youtube.com/embed/aRM4DP-gUbg" title="Hackathon Fall 2021" allowfullscreen></iframe>
@@ -1055,22 +1040,6 @@ layout: default
     <h2>🖼️ Highlights</h2>
     <div class="divider"></div>
 
-    <div class="sliding-bar inner-slide">
-      <div class="slide-track">
-        <div class="slide-item"><span>●</span> Student Leadership</div>
-        <div class="slide-item"><span>●</span> IEEE Lecture</div>
-        <div class="slide-item"><span>●</span> ASIC Teaching</div>
-        <div class="slide-item"><span>●</span> GLSVLSI</div>
-        <div class="slide-item"><span>●</span> RFCoN Award</div>
-
-        <div class="slide-item"><span>●</span> Student Leadership</div>
-        <div class="slide-item"><span>●</span> IEEE Lecture</div>
-        <div class="slide-item"><span>●</span> ASIC Teaching</div>
-        <div class="slide-item"><span>●</span> GLSVLSI</div>
-        <div class="slide-item"><span>●</span> RFCoN Award</div>
-      </div>
-    </div>
-
     <div class="slider-container">
       <button id="prevBtn" class="slider-button slider-prev">&#10094;</button>
 
@@ -1081,6 +1050,37 @@ layout: default
       <img src="/images/rfcon_award.png" alt="Best Paper" class="slider-image">
 
       <button id="nextBtn" class="slider-button slider-next">&#10095;</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🔗 LinkedIn and Visitor Map</h2>
+    <div class="divider"></div>
+
+    <div class="two-col">
+      <div>
+        <p style="margin-top:0; color:var(--muted);">
+          You can connect with me through LinkedIn.
+        </p>
+
+        <div class="badge-base LI-profile-badge"
+          data-locale="en_US"
+          data-size="large"
+          data-theme="light"
+          data-type="HORIZONTAL"
+          data-vanity="srsapireddy2020"
+          data-version="v1">
+        </div>
+
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+      </div>
+
+      <div>
+        <div class="globe-wrap">
+          <script type="text/javascript" id="mmvst_globe"
+            src="//mapmyvisitors.com/globe.js?d=_2hLeBDk3eXXJY0I4bwnwU9rNmg2IQsmBuQT6kcMEQI"></script>
+        </div>
+      </div>
     </div>
   </div>
 
