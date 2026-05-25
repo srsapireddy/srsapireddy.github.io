@@ -935,32 +935,38 @@ author_profile: true
         <div id="cite-2025-electronics" class="citation-box">W. Danesh, S. R. Sapireddy, and M. Rahman, "Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders," Electronics, vol. 14, no. 15, Art. no. 3015, 2025, doi: 10.3390/electronics14153015.</div>
       </div>
 
-      <div class="publication-card" data-type="journal">
+      <div class="publication-card" data-type="conference award">
         <div class="pub-top">
           <span class="pub-year">2025</span>
-          <span class="pub-type">Journal</span>
+          <span class="pub-type">IEEE Conference Paper</span>
+          <span class="pub-award">Best Paper Award</span>
+          <span class="pub-award">Published</span>
         </div>
-
+      
         <div class="pub-title">
-          Simplifying Activations with Linear Approximations in Neural Networks
+          Revisiting R: Statistical Envelope Analysis for Lightweight RF Modulation Classification
         </div>
-
+      
         <div class="pub-authors">
-          Srinivas Rahul Sapireddy and collaborators
+          S. R. Sapireddy and M. Rahman
         </div>
-
+      
         <div class="pub-venue">
-          Memories - Materials, Devices, Circuits and Systems, 2025.
+          2025 1st International Conference on Radio Frequency Communication and Networks (RFCoN), Thanjavur, India, 2025, pp. 1-6.
         </div>
-
+      
+        <div class="pub-note">
+          Best Paper Award | DOI: 10.1109/RFCoN62306.2025.11085271
+        </div>
+      
         <div class="pub-links">
-          <button class="pub-button primary" onclick="toggleCitation('cite-2025-memories-linear')">Citation</button>
-          <button class="pub-button" onclick="copyCitation('cite-2025-memories-linear')">Copy Citation</button>
-          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+          <button class="pub-button primary" onclick="toggleCitation('cite-2025-rfcon')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2025-rfcon')">Copy Citation</button>
+          <a class="pub-link" href="https://doi.org/10.1109/RFCoN62306.2025.11085271" target="_blank" rel="noopener">DOI</a>
           <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
         </div>
-
-        <div id="cite-2025-memories-linear" class="citation-box">Srinivas Rahul Sapireddy and collaborators, "Simplifying Activations with Linear Approximations in Neural Networks," Memories - Materials, Devices, Circuits and Systems, 2025.</div>
+      
+        <div id="cite-2025-rfcon" class="citation-box">S. R. Sapireddy and M. Rahman, "Revisiting R: Statistical Envelope Analysis for Lightweight RF Modulation Classification," 2025 1st International Conference on Radio Frequency Communication and Networks (RFCoN), Thanjavur, India, 2025, pp. 1-6, doi: 10.1109/RFCoN62306.2025.11085271.</div>
       </div>
 
       <div class="publication-card" data-type="conference">
