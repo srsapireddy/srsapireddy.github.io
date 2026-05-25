@@ -1116,44 +1116,43 @@ author_profile: true
         <div class="year-pill">update exact details</div>
       </div>
 
-      <div class="publication-card placeholder" data-type="earlier">
-        <div class="pub-top">
-          <span class="pub-year">2018</span>
-          <span class="pub-type">Earlier Research Output</span>
-          <span class="pub-status">Replace with exact title</span>
-        </div>
-
-        <div class="pub-title">
-          Add exact 2018 publication title here
-        </div>
-
-        <div class="pub-authors">
-          Add exact author list here
-        </div>
-
-        <div class="pub-venue">
-          Add exact venue, conference, journal, workshop, or institutional publication details here.
-        </div>
-
-        <div class="pub-note">
-          Replace this placeholder with the exact 2018 publication details.
-        </div>
-
-        <div class="pub-links">
-          <button class="pub-button primary" onclick="toggleCitation('cite-2018-placeholder')">Citation</button>
-          <button class="pub-button" onclick="copyCitation('cite-2018-placeholder')">Copy Citation</button>
-          <a class="pub-link disabled" href="#" onclick="return false;">Update link</a>
-        </div>
-
-        <div id="cite-2018-placeholder" class="citation-box">Add exact 2018 citation here.</div>
+     <div class="publication-card" data-type="journal earlier">
+      <div class="pub-top">
+        <span class="pub-year">2018</span>
+        <span class="pub-type">Journal Article</span>
+        <span class="pub-award">Published</span>
       </div>
+    
+      <div class="pub-title">
+        Automation of Patient Medical Record Dispatch System Software Application
+      </div>
+    
+      <div class="pub-authors">
+        Bhavya Teja Gurijala and Srinivas Rahul Sapireddy
+      </div>
+    
+      <div class="pub-venue">
+        International Journal of Advanced Research in Science, Engineering and Technology (IJARSET), Volume 5, Issue 6, 2018, pp. 6074-6079.
+      </div>
+    
+      <div class="pub-note">
+        Publication date: June 2018.
+      </div>
+    
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2018-medical-record-dispatch')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2018-medical-record-dispatch')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+    
+      <div id="cite-2018-medical-record-dispatch" class="citation-box">B. T. Gurijala and S. R. Sapireddy, "Automation of Patient Medical Record Dispatch System Software Application," International Journal of Advanced Research in Science, Engineering and Technology (IJARSET), vol. 5, no. 6, pp. 6074-6079, Jun. 2018.</div>
     </div>
-
-    <div class="year-section" data-year-section="2016">
-      <div class="year-header">
-        <div class="year-title">📅 2016 Earlier Work</div>
-        <div class="year-pill">update exact details</div>
-      </div>
+        <div class="year-section" data-year-section="2016">
+          <div class="year-header">
+            <div class="year-title">📅 2016 Earlier Work</div>
+            <div class="year-pill">update exact details</div>
+          </div>
 
       <div class="publication-card placeholder" data-type="earlier">
         <div class="pub-top">
