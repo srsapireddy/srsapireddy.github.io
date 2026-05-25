@@ -1,7 +1,7 @@
 ---
-title: "Resume"
+title: "Publications"
 layout: single
-permalink: /resume/
+permalink: /publications/
 author_profile: true
 ---
 
@@ -15,9 +15,8 @@ author_profile: true
   --muted: #5f6368;
   --text: #0b1f44;
   --border: rgba(26,115,232,0.18);
-  --tableBorder: #e6eef7;
-  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  --shadow2: 0 2px 10px rgba(0, 0, 0, 0.05);
+  --shadow: 0 10px 30px rgba(0,0,0,0.08);
+  --shadow2: 0 2px 10px rgba(0,0,0,0.05);
   --radius: 18px;
   --radius2: 14px;
 }
@@ -33,12 +32,12 @@ author_profile: true
   }
 }
 
-.resume-wrap {
+.pub-wrap {
   animation: fadeInUp 0.8s ease-in-out;
 }
 
 /* Hero */
-.resume-hero {
+.pub-hero {
   position: relative;
   overflow: hidden;
   border-radius: var(--radius);
@@ -51,7 +50,7 @@ author_profile: true
   box-shadow: var(--shadow);
 }
 
-.resume-hero::before {
+.pub-hero::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -62,7 +61,7 @@ author_profile: true
   pointer-events: none;
 }
 
-.resume-hero-content {
+.pub-hero-content {
   position: relative;
   z-index: 1;
 }
@@ -80,21 +79,21 @@ author_profile: true
   margin-bottom: 0.9rem;
 }
 
-.resume-hero h1 {
+.pub-hero h1 {
   margin: 0;
   font-size: 2.15rem;
   line-height: 1.15;
   color: var(--text);
 }
 
-.resume-hero .subtitle {
+.pub-hero .subtitle {
   margin-top: 0.55rem;
   color: #202124;
   font-size: 1.08rem;
   font-weight: 650;
 }
 
-.resume-hero p {
+.pub-hero p {
   margin: 0.8rem 0 0 0;
   color: var(--muted);
   font-size: 1.03rem;
@@ -102,7 +101,7 @@ author_profile: true
   max-width: 86ch;
 }
 
-/* Hero buttons */
+/* Buttons */
 .hero-links {
   display: flex;
   flex-wrap: wrap;
@@ -200,7 +199,7 @@ author_profile: true
   margin-top: 0.2rem;
 }
 
-/* General section cards */
+/* General sections */
 .section {
   position: relative;
   overflow: hidden;
@@ -273,16 +272,16 @@ author_profile: true
     grid-template-columns: 1fr;
   }
 
-  .resume-hero {
+  .pub-hero {
     padding: 1.5rem 1.1rem;
   }
 
-  .resume-hero h1 {
+  .pub-hero h1 {
     font-size: 1.65rem;
   }
 }
 
-/* Focus cards */
+/* Research category cards */
 .focus-card {
   position: relative;
   overflow: hidden;
@@ -336,53 +335,133 @@ author_profile: true
   font-size: 0.95rem;
 }
 
-/* Tables */
-.table-wrap {
-  border: 1px solid rgba(26,115,232,0.20);
-  border-radius: 14px;
+/* Publication cards */
+.publication-card {
+  position: relative;
+  padding: 1.15rem 1.15rem;
+  border-radius: 16px;
   background: #ffffff;
-  overflow-x: auto;
+  border: 1px solid var(--border);
   box-shadow: var(--shadow2);
+  margin-bottom: 1rem;
+  transition: 0.22s ease-in-out;
 }
 
-table.resume-table {
-  width: 100%;
-  border-collapse: collapse;
-  min-width: 850px;
-}
-
-.resume-table th,
-.resume-table td {
-  border-bottom: 1px solid var(--tableBorder);
-  padding: 0.85rem 0.8rem;
-  text-align: left;
-  font-size: 0.95rem;
-  vertical-align: top;
-}
-
-.resume-table th {
-  background: #f3f8ff;
-  color: var(--text);
-  font-weight: 850;
-  border-bottom: 1px solid rgba(26,115,232,0.18);
-}
-
-.resume-table tr:hover td {
+.publication-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
   background: #fbfdff;
 }
 
-.resume-table tr:last-child td {
-  border-bottom: none;
+.publication-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  bottom: 1rem;
+  width: 4px;
+  border-radius: 99px;
+  background: linear-gradient(180deg, var(--blue), var(--isu));
 }
 
-/* Logos */
-.logo {
-  max-height: 28px;
-  max-width: 70px;
-  object-fit: contain;
-  float: right;
-  margin-left: 10px;
-  opacity: 0.95;
+.pub-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+  margin-bottom: 0.65rem;
+}
+
+.pub-year,
+.pub-type,
+.pub-award {
+  display: inline-flex;
+  padding: 0.25rem 0.58rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.pub-year {
+  background: #f3f8ff;
+  border: 1px solid rgba(26,115,232,0.18);
+  color: var(--blue);
+}
+
+.pub-type {
+  background: #ffffff;
+  border: 1px solid rgba(26,115,232,0.20);
+  color: var(--text);
+}
+
+.pub-award {
+  background: rgba(220,20,60,0.08);
+  border: 1px solid rgba(220,20,60,0.25);
+  color: var(--isu);
+}
+
+.pub-title {
+  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 900;
+  line-height: 1.45;
+  margin-bottom: 0.45rem;
+}
+
+.pub-authors {
+  color: #202124;
+  font-size: 0.94rem;
+  line-height: 1.5;
+  margin-bottom: 0.35rem;
+}
+
+.pub-venue {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.75rem;
+}
+
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.32rem 0.65rem;
+  border-radius: 999px;
+  background: #f3f8ff;
+  border: 1px solid rgba(26,115,232,0.18);
+  color: var(--blue) !important;
+  text-decoration: none !important;
+  font-size: 0.84rem;
+  font-weight: 850;
+}
+
+.pub-link:hover {
+  background: #e9f3ff;
+  text-decoration: none !important;
+}
+
+/* Tags */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.tag {
+  display: inline-flex;
+  padding: 0.36rem 0.72rem;
+  border-radius: 999px;
+  background: #f3f8ff;
+  border: 1px solid rgba(26,115,232,0.18);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 800;
 }
 
 /* Timeline */
@@ -443,100 +522,49 @@ table.resume-table {
   line-height: 1.5;
 }
 
-/* Tags */
-.tag-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-}
-
-.tag {
-  display: inline-flex;
-  padding: 0.36rem 0.72rem;
-  border-radius: 999px;
-  background: #f3f8ff;
-  border: 1px solid rgba(26,115,232,0.18);
-  color: var(--text);
-  font-size: 0.88rem;
-  font-weight: 800;
-}
-
-/* Publication cards */
-.pub-card {
-  padding: 1rem;
-  border-radius: 14px;
-  background: #ffffff;
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow2);
-  margin-bottom: 0.85rem;
-}
-
-.pub-venue {
-  display: inline-block;
-  padding: 0.25rem 0.58rem;
-  border-radius: 999px;
-  background: #f3f8ff;
-  border: 1px solid rgba(26,115,232,0.16);
-  color: var(--isu);
-  font-size: 0.78rem;
-  font-weight: 900;
-  margin-bottom: 0.45rem;
-}
-
-.pub-title {
-  color: var(--text);
-  font-weight: 850;
-  line-height: 1.45;
-}
-
-.pub-note {
-  color: var(--muted);
-  font-size: 0.88rem;
-  margin-top: 0.35rem;
-}
-
 /* Scoped links */
 .section a,
-.resume-hero a {
+.pub-hero a {
   color: var(--blue);
   font-weight: 800;
   text-decoration: none;
 }
 
 .section a:hover,
-.resume-hero a:hover {
+.pub-hero a:hover {
   text-decoration: underline;
 }
 </style>
 
-<div class="resume-wrap">
+<div class="pub-wrap">
 
-  <div class="resume-hero">
-    <div class="resume-hero-content">
-      <span class="hero-kicker">Academic Resume · Research · Teaching · Engineering</span>
+  <div class="pub-hero">
+    <div class="pub-hero-content">
+      <span class="hero-kicker">Research Publications · RF · AI · VLSI · Edge Systems</span>
 
-      <h1>Srinivas Rahul Sapireddy, Ph.D.</h1>
+      <h1>Publications</h1>
 
       <div class="subtitle">
-        Assistant Professor, Electrical Engineering · Illinois State University
+        Scholarly work in hardware-aware AI, RF signal intelligence, edge computing, and VLSI systems
       </div>
 
       <p>
-        A structured overview of my academic background, teaching experience, research direction,
-        technical expertise, publications, and recognitions. My work connects hardware-aware
-        artificial intelligence, RF signal intelligence, edge computing, and VLSI system design.
+        My publications focus on resource-efficient signal processing, lightweight machine learning,
+        hardware-aware neural networks, custom activation functions, adversarial resilience, and
+        VLSI-oriented computing systems. The work emphasizes practical deployment on constrained
+        platforms and the connection between algorithms and hardware implementation.
       </p>
 
       <div class="badges">
         <span class="badge">Hardware-Aware AI</span>
-        <span class="badge">RF Signal Intelligence</span>
-        <span class="badge">Edge Computing</span>
-        <span class="badge">VLSI Physical Design</span>
+        <span class="badge">RF Modulation Classification</span>
+        <span class="badge">Custom Activations</span>
+        <span class="badge">VLSI Systems</span>
       </div>
 
       <div class="hero-links">
-        <a class="btn-link" href="/publications/">Publications</a>
-        <a class="btn-link secondary" href="/teaching/">Teaching</a>
+        <a class="btn-link" href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="btn-link secondary" href="/resume/">Resume</a>
         <a class="btn-link secondary" href="/insys-lab/">INSys Lab</a>
         <a class="btn-link secondary" href="/about/">About</a>
       </div>
@@ -545,379 +573,328 @@ table.resume-table {
 
   <div class="impact-grid">
     <div class="impact-card">
-      <div class="big">Ph.D.</div>
-      <div class="label">Electrical and Computer Engineering</div>
-      <div class="small">University of Missouri-Kansas City</div>
-    </div>
-
-    <div class="impact-card">
-      <div class="big">EE</div>
-      <div class="label">Assistant Professor</div>
-      <div class="small">Illinois State University</div>
+      <div class="big">RF</div>
+      <div class="label">Signal Classification</div>
+      <div class="small">Envelope, CAF, STFT, PDE</div>
     </div>
 
     <div class="impact-card">
       <div class="big">AI</div>
-      <div class="label">Hardware-Aware ML</div>
-      <div class="small">Low-power and edge systems</div>
+      <div class="label">Efficient Learning</div>
+      <div class="small">Low-power neural models</div>
     </div>
 
     <div class="impact-card">
-      <div class="big">RF</div>
-      <div class="label">Signal Intelligence</div>
-      <div class="small">Modulation classification</div>
+      <div class="big">VLSI</div>
+      <div class="label">Hardware Design</div>
+      <div class="small">RTL, physical design, acceleration</div>
+    </div>
+
+    <div class="impact-card">
+      <div class="big">Edge</div>
+      <div class="label">Deployment Focus</div>
+      <div class="small">Resource-constrained systems</div>
     </div>
   </div>
 
   <div class="grid-3">
     <div class="focus-card">
-      <div class="focus-icon">🎓</div>
-      <h3>Academic Preparation</h3>
+      <div class="focus-icon">📡</div>
+      <h3>RF Signal Intelligence</h3>
       <p>
-        Multidisciplinary training across electrical engineering, computer science,
-        artificial intelligence, and hardware-oriented computing.
+        Publications on modulation classification, envelope statistics, cyclostationary features,
+        and signal-processing methods for communication systems.
       </p>
     </div>
 
     <div class="focus-card">
-      <div class="focus-icon">📚</div>
-      <h3>Teaching Profile</h3>
+      <div class="focus-icon">🧠</div>
+      <h3>Hardware-Aware AI</h3>
       <p>
-        Teaching experience across logic design, engineering computation, ASIC physical design,
-        analog IC design, and computer design topics.
+        Research on lightweight neural networks, custom activation functions, model efficiency,
+        and deployment-aware learning.
       </p>
     </div>
 
     <div class="focus-card">
-      <div class="focus-icon">🔬</div>
-      <h3>Research Direction</h3>
+      <div class="focus-icon">⚙️</div>
+      <h3>VLSI and Edge Systems</h3>
       <p>
-        Research centered on low-power AI, RF signal processing, efficient neural networks,
-        and hardware-software co-design.
+        Work related to hardware acceleration, physical design, SoC-aware computation,
+        and efficient embedded intelligence.
       </p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🏆 Featured Publications</h2>
+    <div class="divider"></div>
+
+    <div class="publication-card">
+      <div class="pub-top">
+        <span class="pub-year">2026</span>
+        <span class="pub-type">Conference</span>
+        <span class="pub-award">Accepted</span>
+      </div>
+      <div class="pub-title">
+        Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features
+      </div>
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy and collaborators
+      </div>
+      <div class="pub-venue">
+        IEEE SoutheastCon, 2026.
+      </div>
+    </div>
+
+    <div class="publication-card">
+      <div class="pub-top">
+        <span class="pub-year">2025</span>
+        <span class="pub-type">Conference</span>
+        <span class="pub-award">Best Paper Award</span>
+      </div>
+      <div class="pub-title">
+        Re-Visiting R: Statistical Envelope Analysis for Lightweight RF Signal Classification
+      </div>
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy and collaborators
+      </div>
+      <div class="pub-venue">
+        IEEE International Conference on Radio Frequency Communication and Networks, RFCoN, 2025.
+      </div>
+    </div>
+
+    <div class="publication-card">
+      <div class="pub-top">
+        <span class="pub-year">2025</span>
+        <span class="pub-type">Conference</span>
+      </div>
+      <div class="pub-title">
+        Hardware-Efficient Custom Activation Functions for LSTM Networks
+      </div>
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy and collaborators
+      </div>
+      <div class="pub-venue">
+        ACM Great Lakes Symposium on VLSI, GLSVLSI, 2025.
+      </div>
     </div>
   </div>
 
   <div class="grid-2">
     <div class="section">
-      <h2>📍 Academic Path</h2>
+      <h2>📡 RF Signal Processing and Communication Systems</h2>
+      <div class="divider"></div>
+
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2026</span>
+          <span class="pub-type">IEEE Conference</span>
+        </div>
+        <div class="pub-title">
+          Re-Defining R: Resource-Efficient Modulation Classification Using Bin-Based Envelope Features
+        </div>
+        <div class="pub-venue">
+          IEEE SoutheastCon, 2026.
+        </div>
+      </div>
+
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2025</span>
+          <span class="pub-type">IEEE Conference</span>
+          <span class="pub-award">Best Paper</span>
+        </div>
+        <div class="pub-title">
+          Re-Visiting R: Statistical Envelope Analysis for Lightweight RF Signal Classification
+        </div>
+        <div class="pub-venue">
+          IEEE RFCoN, 2025.
+        </div>
+      </div>
+
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2025</span>
+          <span class="pub-type">IEEE Conference</span>
+        </div>
+        <div class="pub-title">
+          C/N0 Analysis-Based GPS Spoofing Detection with Variable Antenna Orientations
+        </div>
+        <div class="pub-venue">
+          IEEE CARS, 2025.
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🧠 Hardware-Aware AI and Neural Networks</h2>
+      <div class="divider"></div>
+
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2025</span>
+          <span class="pub-type">ACM Conference</span>
+        </div>
+        <div class="pub-title">
+          On the Effectiveness of Custom Activation Functions on Long-Term Short-Term Memory
+        </div>
+        <div class="pub-venue">
+          ACM GLSVLSI, 2025.
+        </div>
+      </div>
+
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2025</span>
+          <span class="pub-type">Journal</span>
+        </div>
+        <div class="pub-title">
+          Simplifying Activations with Linear Approximations in Neural Networks
+        </div>
+        <div class="pub-venue">
+          Memories - Materials, Devices, Circuits and Systems, 2025.
+        </div>
+      </div>
+
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2025</span>
+          <span class="pub-type">Conference</span>
+        </div>
+        <div class="pub-title">
+          Adversarial-Resilient RF Fingerprinting: A CNN-GAN Framework for Rogue Transmitter Detection
+        </div>
+        <div class="pub-venue">
+          ICMLA, 2025.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="section">
+      <h2>⚙️ VLSI, Circuits, and Hardware Systems</h2>
+      <div class="divider"></div>
+
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2024</span>
+          <span class="pub-type">Journal</span>
+        </div>
+        <div class="pub-title">
+          Piecewise Linear Approximation of Activation Functions for Neural Networks
+        </div>
+        <div class="pub-venue">
+          Memories - Materials, Devices, Circuits and Systems, 2024.
+        </div>
+      </div>
+
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2024</span>
+          <span class="pub-type">Journal</span>
+        </div>
+        <div class="pub-title">
+          A Review of Crosstalk-Based Polymorphic Circuit Design
+        </div>
+        <div class="pub-venue">
+          Memories - Materials, Devices, Circuits and Systems, 2024.
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🛡️ Security, IoT, and Applied AI</h2>
+      <div class="divider"></div>
+
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2025</span>
+          <span class="pub-type">Journal</span>
+        </div>
+        <div class="pub-title">
+          Early Detection of Adversarial Examples in Internet-of-Things Networks
+        </div>
+        <div class="pub-venue">
+          Electronics, 2025.
+        </div>
+      </div>
+
+      <div class="publication-card">
+        <div class="pub-top">
+          <span class="pub-year">2025</span>
+          <span class="pub-type">Conference</span>
+        </div>
+        <div class="pub-title">
+          Adversarial-Resilient RF Fingerprinting: A CNN-GAN Framework for Rogue Transmitter Detection
+        </div>
+        <div class="pub-venue">
+          ICMLA, 2025.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🧭 Research Themes</h2>
+    <div class="divider"></div>
+
+    <div class="tag-cloud">
+      <span class="tag">RF Modulation Classification</span>
+      <span class="tag">Envelope Statistics</span>
+      <span class="tag">R-Value Features</span>
+      <span class="tag">CAF-Based Feature Extraction</span>
+      <span class="tag">STFT-Based Analysis</span>
+      <span class="tag">Hardware-Aware AI</span>
+      <span class="tag">Custom Activation Functions</span>
+      <span class="tag">LSTM Optimization</span>
+      <span class="tag">Edge AI</span>
+      <span class="tag">VLSI Design</span>
+      <span class="tag">IoT Security</span>
+      <span class="tag">RF Fingerprinting</span>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="section">
+      <h2>📍 Publication Timeline</h2>
       <div class="divider"></div>
 
       <div class="timeline">
         <div class="timeline-item">
           <div class="timeline-year">2026</div>
-          <div class="timeline-title">Assistant Professor, Electrical Engineering</div>
-          <div class="timeline-text">Illinois State University, College of Engineering.</div>
+          <div class="timeline-title">IEEE SoutheastCon</div>
+          <div class="timeline-text">Resource-efficient modulation classification using bin-based envelope features.</div>
         </div>
 
         <div class="timeline-item">
-          <div class="timeline-year">2021 - 2025</div>
-          <div class="timeline-title">Ph.D. in Electrical and Computer Engineering</div>
-          <div class="timeline-text">University of Missouri-Kansas City.</div>
+          <div class="timeline-year">2025</div>
+          <div class="timeline-title">RF, AI, Security, and VLSI Publications</div>
+          <div class="timeline-text">Work across RFCoN, GLSVLSI, ICMLA, CARS, Electronics, and related venues.</div>
         </div>
 
         <div class="timeline-item">
-          <div class="timeline-year">2017 - 2018</div>
-          <div class="timeline-title">M.S. in Computer Science</div>
-          <div class="timeline-text">University of Illinois-Springfield.</div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-year">2015 - 2016</div>
-          <div class="timeline-title">M.S. in Electrical Engineering</div>
-          <div class="timeline-text">University of Missouri-Kansas City.</div>
+          <div class="timeline-year">2024</div>
+          <div class="timeline-title">Activation Functions and Circuit Design</div>
+          <div class="timeline-text">Journal work on piecewise activation approximation and polymorphic circuit design.</div>
         </div>
       </div>
     </div>
 
     <div class="section">
-      <h2>🧭 Research Interests</h2>
+      <h2>🌐 Publication Profiles</h2>
       <div class="divider"></div>
 
-      <div class="tag-cloud">
-        <span class="tag">Hardware-Aware Machine Learning</span>
-        <span class="tag">Low-Power Edge AI</span>
-        <span class="tag">RF Modulation Classification</span>
-        <span class="tag">Statistical Feature Engineering</span>
-        <span class="tag">Time-Frequency Analysis</span>
-        <span class="tag">Custom Activation Functions</span>
-        <span class="tag">VLSI Physical Design</span>
-        <span class="tag">RTL-to-GDSII Flow</span>
-        <span class="tag">Embedded AI Accelerators</span>
-        <span class="tag">System-on-Chip Architectures</span>
-      </div>
-    </div>
-  </div>
+      <p>
+        For citation details, publication metadata, and updated indexing information, please visit my public scholarly profiles.
+      </p>
 
-  <div class="section">
-    <h2>🎓 Education</h2>
-    <div class="divider"></div>
-
-    <div class="table-wrap">
-      <table class="resume-table">
-        <thead>
-          <tr>
-            <th>Degree</th>
-            <th>Institution</th>
-            <th>Duration</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Ph.D. in Electrical and Computer Engineering</td>
-            <td>University of Missouri-Kansas City <img src="/images/UMKC.png" alt="UMKC Logo" class="logo"></td>
-            <td>09/2021 - 07/2025</td>
-          </tr>
-          <tr>
-            <td>M.S. in Computer Science</td>
-            <td>University of Illinois-Springfield <img src="/images/UIS.png" alt="UIS Logo" class="logo"></td>
-            <td>01/2017 - 12/2018</td>
-          </tr>
-          <tr>
-            <td>M.S. in Electrical Engineering</td>
-            <td>University of Missouri-Kansas City <img src="/images/UMKC.png" alt="UMKC Logo" class="logo"></td>
-            <td>01/2015 - 12/2016</td>
-          </tr>
-          <tr>
-            <td>B.Tech. in Electronics and Communication Engineering</td>
-            <td>GRIET, Jawaharlal Nehru Technological University, Hyderabad <img src="/images/GRIET.png" alt="GRIET Logo" class="logo"></td>
-            <td>09/2011 - 04/2014</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="grid-2">
-    <div class="section">
-      <h2>👨‍🏫 Teaching Experience</h2>
-      <div class="divider"></div>
-
-      <div class="table-wrap">
-        <table class="resume-table">
-          <thead>
-            <tr>
-              <th>Role</th>
-              <th>Institution</th>
-              <th>Courses</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Assistant Professor, Tenure-Track</td>
-              <td>Illinois State University, Normal, IL</td>
-              <td>ELE 260, ELE 265, ELE 280</td>
-            </tr>
-            <tr>
-              <td>Instructor</td>
-              <td>University of Missouri-Kansas City</td>
-              <td>ENGR E&amp;C 216, ENGR E&amp;C 226, ENGR E&amp;C 447/5547, ENGR E&amp;C 402/5533</td>
-            </tr>
-            <tr>
-              <td>Teaching Assistant</td>
-              <td>University of Missouri-Kansas City</td>
-              <td>ENGR E&amp;C 442/5542, ENGR E&amp;C 228, ENGR E&amp;C 402/403</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2>💼 Research and Industry Experience</h2>
-      <div class="divider"></div>
-
-      <div class="table-wrap">
-        <table class="resume-table">
-          <thead>
-            <tr>
-              <th>Role</th>
-              <th>Organization</th>
-              <th>Duration</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Research Assistant</td>
-              <td>Missouri Institute of Defense and Energy</td>
-              <td>09/2021 - 07/2022</td>
-            </tr>
-            <tr>
-              <td>AI Intern</td>
-              <td>SmartBridge Pvt. Ltd.</td>
-              <td>06/2020 - 07/2020</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>🛠️ Technical Expertise</h2>
-    <div class="divider"></div>
-
-    <div class="tag-cloud">
-      <span class="tag">Python</span>
-      <span class="tag">C/C++</span>
-      <span class="tag">Verilog</span>
-      <span class="tag">TCL</span>
-      <span class="tag">SQL</span>
-      <span class="tag">PyTorch</span>
-      <span class="tag">TensorFlow Lite</span>
-      <span class="tag">Scikit-learn</span>
-      <span class="tag">Docker</span>
-      <span class="tag">Yosys</span>
-      <span class="tag">OpenSTA</span>
-      <span class="tag">Cadence</span>
-      <span class="tag">Synopsys</span>
-      <span class="tag">RTL Design</span>
-      <span class="tag">Physical Design</span>
-      <span class="tag">Machine Learning</span>
-      <span class="tag">RF Signal Processing</span>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>📝 Selected Publications</h2>
-    <div class="divider"></div>
-
-    <div class="grid-2">
-      <div>
-        <div class="pub-card">
-          <span class="pub-venue">IEEE RFCoN 2025</span>
-          <div class="pub-title">
-            Re-Visiting R: Statistical Envelope Analysis for RF Modulation Classification
-          </div>
-          <div class="pub-note">Best Paper Award</div>
-        </div>
-
-        <div class="pub-card">
-          <span class="pub-venue">ACM GLSVLSI 2025</span>
-          <div class="pub-title">
-            Hardware-Efficient Custom Activation Functions for LSTM Networks
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div class="pub-card">
-          <span class="pub-venue">MDPI Memories 2024</span>
-          <div class="pub-title">
-            Piecewise Linear Approximation of Activation Functions for Neural Networks
-          </div>
-        </div>
-
-        <div class="pub-card">
-          <span class="pub-venue">MDPI Memories 2024</span>
-          <div class="pub-title">
-            A Review of Crosstalk-Based Polymorphic Circuit Design
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <p>
-      <a href="/publications/">View complete list of publications</a>
-    </p>
-  </div>
-
-  <div class="grid-2">
-    <div class="section">
-      <h2>🏆 Awards and Honors</h2>
-      <div class="divider"></div>
-
-      <div class="table-wrap">
-        <table class="resume-table">
-          <thead>
-            <tr>
-              <th>Award</th>
-              <th>Organization</th>
-              <th>Year</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>CS Balaji Krithikaivasan Travel Grant</td>
-              <td>University of Missouri-Kansas City</td>
-              <td>2025</td>
-            </tr>
-            <tr>
-              <td>Dean's International Scholar Award</td>
-              <td>University of Missouri-Kansas City</td>
-              <td>2015-2016</td>
-            </tr>
-            <tr>
-              <td>IEEE-Eta Kappa Nu Honor Society Member</td>
-              <td>University of Missouri-Kansas City</td>
-              <td>Inducted</td>
-            </tr>
-            <tr>
-              <td>Second Place, UMKC Hack-A-Roo, Entrepreneur Track</td>
-              <td>University of Missouri-Kansas City</td>
-              <td>Fall 2022</td>
-            </tr>
-            <tr>
-              <td>Third Place, UMKC Hack-A-Roo, CS/IT Track</td>
-              <td>University of Missouri-Kansas City</td>
-              <td>Fall 2021</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2>📜 Certifications and Training</h2>
-      <div class="divider"></div>
-
-      <div class="table-wrap">
-        <table class="resume-table">
-          <thead>
-            <tr>
-              <th>Program</th>
-              <th>Institution</th>
-              <th>Year / Status</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Mini-MBA, Farmer School of Business</td>
-              <td>Miami University <img src="/images/miami.png" alt="Miami University Logo" class="logo"></td>
-              <td>December 2025</td>
-            </tr>
-            <tr>
-              <td>Advanced Diploma in Artificial Intelligence</td>
-              <td>NIELIT, Calicut <img src="/images/CALICUT.png" alt="NIELIT Logo" class="logo"></td>
-              <td>09/2019 - 01/2020</td>
-            </tr>
-            <tr>
-              <td>Product Management</td>
-              <td>Confederation of Indian Industry</td>
-              <td>2023</td>
-            </tr>
-            <tr>
-              <td>Accelerated Artificial Intelligence</td>
-              <td>Centre for Development of Advanced Computing</td>
-              <td>2022</td>
-            </tr>
-            <tr>
-              <td>Statistical Learning</td>
-              <td>Stanford University</td>
-              <td>2017</td>
-            </tr>
-            <tr>
-              <td>MLOps</td>
-              <td>Duke University</td>
-              <td>2023</td>
-            </tr>
-            <tr>
-              <td>Mathematics for Machine Learning</td>
-              <td>Imperial College London</td>
-              <td>2023</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="pub-links">
+        <a class="pub-link" href="https://scholar.google.com/citations?user=08fgpdIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="pub-link" href="https://orcid.org/0000-0002-9898-6810" target="_blank" rel="noopener">ORCID</a>
+        <a class="pub-link" href="https://openreview.net/profile?id=~Srinivas_Rahul_Sapireddy1" target="_blank" rel="noopener">OpenReview</a>
+        <a class="pub-link" href="/resume/">Resume</a>
       </div>
     </div>
   </div>
