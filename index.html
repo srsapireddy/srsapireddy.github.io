@@ -101,6 +101,177 @@ layout: default
   border:1px solid rgba(26,115,232,0.22);
   border-radius:999px;
 }
+
+/* Hero badge row */
+.hero-badges{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.55rem;
+  margin-top:0.9rem;
+}
+
+.hero-badge{
+  display:inline-flex;
+  align-items:center;
+  padding:0.35rem 0.7rem;
+  border-radius:999px;
+  background:#ffffff;
+  border:1px solid rgba(26,115,232,0.20);
+  color:#0b1f44;
+  font-size:0.88rem;
+  font-weight:800;
+  box-shadow:var(--shadow2);
+}
+
+/* Impact metrics */
+.impact-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:1rem;
+  margin-top:1.25rem;
+}
+
+.impact-card{
+  padding:1.15rem 1rem;
+  border-radius:16px;
+  background:linear-gradient(135deg,#ffffff 0%,#f7fbff 100%);
+  border:1px solid rgba(26,115,232,0.18);
+  box-shadow:var(--shadow2);
+  text-align:center;
+  transition:0.25s ease-in-out;
+}
+
+.impact-card:hover{
+  transform:translateY(-3px);
+  box-shadow:var(--shadow);
+}
+
+.impact-number{
+  font-size:1.75rem;
+  font-weight:900;
+  color:#DC143C;
+  line-height:1.1;
+}
+
+.impact-label{
+  margin-top:0.35rem;
+  font-size:0.92rem;
+  color:#0b1f44;
+  font-weight:800;
+}
+
+.impact-sub{
+  margin-top:0.2rem;
+  font-size:0.82rem;
+  color:var(--muted);
+}
+
+@media (max-width:900px){
+  .impact-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (max-width:560px){
+  .impact-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+/* News cards */
+.news-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:1rem;
+}
+
+.news-card{
+  padding:1rem;
+  border-radius:14px;
+  background:#ffffff;
+  border:1px solid rgba(26,115,232,0.18);
+  box-shadow:var(--shadow2);
+  transition:0.2s ease-in-out;
+}
+
+.news-card:hover{
+  transform:translateY(-2px);
+  box-shadow:var(--shadow);
+  background:#fbfdff;
+}
+
+.news-date{
+  display:inline-block;
+  padding:0.25rem 0.6rem;
+  border-radius:999px;
+  background:#f3f8ff;
+  border:1px solid rgba(26,115,232,0.18);
+  color:#DC143C;
+  font-size:0.82rem;
+  font-weight:900;
+  margin-bottom:0.55rem;
+}
+
+.news-card h3{
+  margin:0 0 0.4rem 0;
+  color:#0b1f44;
+  font-size:1rem;
+  line-height:1.3;
+}
+
+.news-card p{
+  margin:0;
+  color:#202124;
+  line-height:1.5;
+  font-size:0.92rem;
+}
+
+@media (max-width:900px){
+  .news-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+/* Improved quick access cards */
+.quick-card{
+  position:relative;
+  overflow:hidden;
+}
+
+.quick-card::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:4px;
+  height:100%;
+  background:linear-gradient(180deg,#1a73e8,#DC143C);
+}
+
+/* Mobile hero cleanup */
+@media (max-width:560px){
+  .hero-title h1{
+    font-size:1.65rem;
+  }
+
+  .home-hero{
+    padding:1.4rem 1rem;
+  }
+
+  .hero-avatar{
+    width:78px;
+    height:78px;
+  }
+
+  .hero-cta{
+    border-radius:14px;
+    display:block;
+  }
+
+  .typing img{
+    max-width:95%;
+  }
+}
   
 /* Chips */
 .chips{
