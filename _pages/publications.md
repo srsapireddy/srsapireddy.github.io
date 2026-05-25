@@ -860,9 +860,7 @@ author_profile: true
         <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
       </div>
     
-      <div id="cite-2026-milcom-spread-spectrum" class="citation-box">
-        S. R. Sapireddy and M. Rahman, "Lightweight Methods for Spread Spectrum Signal Classification," Military Communications (MILCOM), National Capital Region, USA, 2026.
-      </div>
+      <div id="cite-2026-milcom-spread-spectrum" class="citation-box">S. R. Sapireddy and M. Rahman, "Lightweight Methods for Spread Spectrum Signal Classification," Military Communications (MILCOM), National Capital Region, USA, 2026.</div>
     </div>
     
     <div class="publication-card" data-type="conference">
@@ -895,9 +893,7 @@ author_profile: true
         <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
       </div>
     
-      <div id="cite-2026-milcom-interference" class="citation-box">
-        M. Butler, D. Riead, S. R. Sapireddy, and M. Rahman, "Signal Detection and Classification in the Presence of Interference," Military Communications (MILCOM), National Capital Region, USA, 2026.
-      </div>
+      <div id="cite-2026-milcom-interference" class="citation-box">M. Butler, D. Riead, S. R. Sapireddy, and M. Rahman, "Signal Detection and Classification in the Presence of Interference," Military Communications (MILCOM), National Capital Region, USA, 2026.</div>
     </div>
     
     <div class="publication-card" data-type="conference">
@@ -930,9 +926,7 @@ author_profile: true
         <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
       </div>
     
-      <div id="cite-2026-southeastcon-bin-r" class="citation-box">
-        S. R. Sapireddy, G. Surekha, and H. Bandi, "Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics," SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1-6, doi: 10.1109/SoutheastCon63549.2026.11476603.
-      </div>
+      <div id="cite-2026-southeastcon-bin-r" class="citation-box">S. R. Sapireddy, G. Surekha, and H. Bandi, "Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics," SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1-6, doi: 10.1109/SoutheastCon63549.2026.11476603.</div>
     </div>
 
     <div class="year-section" data-year-section="2025">
