@@ -1167,7 +1167,7 @@ author_profile: true
         <button class="pub-button primary" onclick="toggleCitation('cite-2024-messaging-ml')">Citation</button>
         <button class="pub-button" onclick="copyCitation('cite-2024-messaging-ml')">Copy Citation</button>
         <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        <a class="pub-link" href="https://srsapireddy.github.io/publications/J4.pdf" target="_blank" rel="noopener">PDF</a>
       </div>
     
       <div id="cite-2024-messaging-ml" class="citation-box">M. Rahman, A. Iqbal, and S. Rahul, "A Messaging-Based Intelligent Computing Approach for Machine Learning Applications," Accessed: Mar, vol. 20, 2024.</div>
