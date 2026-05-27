@@ -923,7 +923,7 @@ author_profile: true
         <button class="pub-button primary" onclick="toggleCitation('cite-2026-southeastcon-bin-r')">Citation</button>
         <button class="pub-button" onclick="copyCitation('cite-2026-southeastcon-bin-r')">Copy Citation</button>
         <a class="pub-link" href="https://doi.org/10.1109/SoutheastCon63549.2026.11476603" target="_blank" rel="noopener">DOI</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        <a class="pub-link" href="https://srsapireddy.github.io/publications/C3.pdf" target="_blank" rel="noopener">PDF</a>
       </div>
     
       <div id="cite-2026-southeastcon-bin-r" class="citation-box">S. R. Sapireddy, G. Surekha, and H. Bandi, "Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics," SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1-6, doi: 10.1109/SoutheastCon63549.2026.11476603.</div>
