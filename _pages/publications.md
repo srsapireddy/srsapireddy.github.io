@@ -962,7 +962,7 @@ author_profile: true
           <button class="pub-button primary" onclick="toggleCitation('cite-2025-memories-linear')">Citation</button>
           <button class="pub-button" onclick="copyCitation('cite-2025-memories-linear')">Copy Citation</button>
           <a class="pub-link" href="https://doi.org/10.1016/j.memori.2025.100134" target="_blank" rel="noopener">DOI</a>
-          <a class="pub-link" href="[/assets/files/simplifying-activations-linear-approximations.pdf](https://github.com/srsapireddy/srsapireddy.github.io/blob/master/publications/J1.pdf)" target="_blank" rel="noopener">PDF</a>
+          <a class="pub-link" href="[https://github.com/srsapireddy/srsapireddy.github.io/blob/master/publications/J1.pdf" target="_blank" rel="noopener">PDF</a>
         </div>
       
         <div id="cite-2025-memories-linear" class="citation-box">S. R. Sapireddy, K. Asifuzzaman, and R. Mostafizur, "Simplifying activations with linear approximations in neural networks," Memories - Materials, Devices, Circuits and Systems, vol. 11, 2025, Art. no. 100134, doi: 10.1016/j.memori.2025.100134.</div>
