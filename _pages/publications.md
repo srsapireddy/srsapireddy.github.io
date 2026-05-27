@@ -1134,7 +1134,7 @@ author_profile: true
         <button class="pub-button primary" onclick="toggleCitation('cite-2024-crosstalk')">Citation</button>
         <button class="pub-button" onclick="copyCitation('cite-2024-crosstalk')">Copy Citation</button>
         <a class="pub-link" href="https://doi.org/10.1016/j.memori.2023.100094" target="_blank" rel="noopener">DOI</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        <a class="pub-link" href="https://srsapireddy.github.io/publications/J3.pdf" target="_blank" rel="noopener">PDF</a>
       </div>
     
       <div id="cite-2024-crosstalk" class="citation-box">M. A. Iqbal, S. R. Sapireddy, S. Dasari, K. Asifuzzaman, and M. Rahman, "A review of crosstalk polymorphic circuits and their scalability," Memories - Materials, Devices, Circuits and Systems, vol. 7, Art. no. 100094, 2024, doi: 10.1016/j.memori.2023.100094.</div>
