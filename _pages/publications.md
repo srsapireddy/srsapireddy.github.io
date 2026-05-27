@@ -1277,7 +1277,7 @@ author_profile: true
           <button class="pub-button primary" onclick="toggleCitation('cite-2016-opamp-buffer')">Citation</button>
           <button class="pub-button" onclick="copyCitation('cite-2016-opamp-buffer')">Copy Citation</button>
           <a class="pub-link" href="https://doi.org/10.14445/22315381/IJETT-V34P252" target="_blank" rel="noopener">DOI</a>
-          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+          <a class="pub-link" href="https://srsapireddy.github.io/publications/J7.pdf" target="_blank" rel="noopener">PDF</a>
         </div>
       
         <div id="cite-2016-opamp-buffer" class="citation-box">S. Srinivas Rahul, P. Naga Tejaswi, Y. Mohan Sandeep, and K. Hari Krishna, "Two Stage Operational Amplifier with a Gain Boosted, Source Follower Buffer," International Journal of Engineering Trends and Technology (IJETT), vol. 34, no. 2, pp. 256-259, 2016, doi: 10.14445/22315381/IJETT-V34P252.</div>
