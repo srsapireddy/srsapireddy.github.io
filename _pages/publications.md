@@ -1243,7 +1243,7 @@ author_profile: true
       <div class="pub-links">
         <button class="pub-button primary" onclick="toggleCitation('cite-2016-cam-memory')">Citation</button>
         <button class="pub-button" onclick="copyCitation('cite-2016-cam-memory')">Copy Citation</button>
-        <a class="pub-link disabled" href="https://iraj.doionline.org/dx/IJAECS-IRAJ-DOIONLINE-5387" onclick="return false;">DOI pending</a>
+        <a class="pub-link" href="https://iraj.doionline.org/dx/IJAECS-IRAJ-DOIONLINE-5387" onclick="return false;">DOI pending</a>
         <a class="pub-link" href="https://srsapireddy.github.io/publications/J6.pdf" target="_blank" rel="noopener">PDF</a>
       </div>
     
