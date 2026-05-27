@@ -995,7 +995,7 @@ author_profile: true
           <button class="pub-button primary" onclick="toggleCitation('cite-2025-electronics')">Citation</button>
           <button class="pub-button" onclick="copyCitation('cite-2025-electronics')">Copy Citation</button>
           <a class="pub-link" href="https://doi.org/10.3390/electronics14153015" target="_blank" rel="noopener">DOI</a>
-          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+          <a class="pub-link" href="https://srsapireddy.github.io/publications/J2.pdf" target="_blank" rel="noopener">PDF</a>
         </div>
       
         <div id="cite-2025-electronics" class="citation-box">W. Danesh, S. R. Sapireddy, and M. Rahman, "Understanding and Detecting Adversarial Examples in IoT Networks: A White-Box Analysis with Autoencoders," Electronics, vol. 14, no. 15, Art. no. 3015, 2025, doi: 10.3390/electronics14153015.</div>
