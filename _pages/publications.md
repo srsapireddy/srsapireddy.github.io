@@ -1062,7 +1062,7 @@ author_profile: true
           <button class="pub-button primary" onclick="toggleCitation('cite-2025-glsvlsi')">Citation</button>
           <button class="pub-button" onclick="copyCitation('cite-2025-glsvlsi')">Copy Citation</button>
           <a class="pub-link" href="https://doi.org/10.1145/3716368.3735217" target="_blank" rel="noopener">DOI</a>
-          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+          <a class="pub-link" href="https://srsapireddy.github.io/publications/C2.pdf" target="_blank" rel="noopener">PDF</a>
         </div>
       
         <div id="cite-2025-glsvlsi" class="citation-box">S. R. Sapireddy and M. Rahman, "On the Effectiveness of Piecewise Activation Approximations for Long-Term Short-Memory Networks," in Proceedings of the Great Lakes Symposium on VLSI 2025 (GLSVLSI '25), Association for Computing Machinery, New York, NY, USA, 2025, pp. 740-745, doi: 10.1145/3716368.3735217.</div>
