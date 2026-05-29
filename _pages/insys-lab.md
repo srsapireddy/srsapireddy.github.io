@@ -790,14 +790,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="section">
-    <h2>🏛️ Institutional Affiliation</h2>
-    <div class="divider"></div>
 
-    <p>
-      INSys Lab is an academic research initiative focused on intelligent signal systems, hardware-aware machine learning,
-      and edge computing within the College of Engineering at Illinois State University.
-    </p>
   </div>
 
 </div>
