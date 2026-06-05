@@ -867,7 +867,7 @@ author_profile: true
       <div class="pub-top">
         <span class="pub-year">2026</span>
         <span class="pub-type">IEEE Conference</span>
-        <span class="pub-award">To be submitted</span>
+        <span class="pub-award">Under Review</span>
       </div>
     
       <div class="pub-title">
