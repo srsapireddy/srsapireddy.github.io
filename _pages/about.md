@@ -699,7 +699,7 @@ author_profile: true
       </div>
 
       <div class="pub-card">
-        <span class="pub-venue">MDPI Memories 2024</span>
+        <span class="pub-venue">Elsevier Memories 2024</span>
         <div class="pub-title">
           Piecewise Linear Approximations of Activation Functions for Neural Networks
         </div>
