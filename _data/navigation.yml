@@ -16,14 +16,14 @@ main:
     url: /service/
   - title: "Certifications"
     url: /certifications/
-  - title: "Blog"
-    url: /blog/
+  - title: "Presentations"
+    url: /presentations/ 
   - title: "Gallery"
     url: /gallery/
   - title: "Moments"
     url: /moments/
-  - title: "Presentations"
-    url: /presentations/ 
+  - title: "Blog"
+    url: /blog/
   - title: "Projects"
     url: /projects/
   - title: "Search"
