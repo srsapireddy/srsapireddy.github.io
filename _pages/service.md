@@ -766,9 +766,10 @@ author_profile: true
         <div class="service-card isu">
           <h4>K-12 STEM Outreach and School Engagement Coordinator</h4>
           <p class="meta"><strong>Institution:</strong> Illinois State University, College of Engineering</p>
-          <p><strong>Role:</strong> Lead and coordinate outreach visits to middle schools and high schools to promote engineering education, STEM awareness, and pathways into the College of Engineering.</p>
-          <p><strong>Activities:</strong> Organizing school visits, coordinating faculty and student participation, and supporting hands-on STEM engagement kits for interactive demonstrations.</p>
-          <p><strong>Focus:</strong> Pre-college STEM exposure, recruitment pipeline development, and community engagement.</p>
+          <p><strong>Role:</strong> Coordinate and lead K-12 outreach visits to local schools to promote engineering education, STEM awareness, and student engagement with the College of Engineering.</p>
+          <p><strong>Activities:</strong> Preparing outreach materials, student handouts, presentation slides, and hands-on demonstration kits; organizing school visits; coordinating outreach activities; and conducting interactive engineering sessions for students.</p>
+          <p><strong>Recent Outreach Visits:</strong> Chiddix Junior High School, Bloomington, Illinois — June 8, 2026; continuing Monday visits through June 2026.</p>
+          <p><strong>Focus:</strong> Pre-college STEM exposure, electrical engineering awareness, community engagement, and student recruitment pathways.</p>
           <span class="pill active">Active</span>
         </div>
 
