@@ -768,7 +768,7 @@ author_profile: true
           <p class="meta"><strong>Institution:</strong> Illinois State University, College of Engineering</p>
           <p><strong>Role:</strong> Coordinate and lead K-12 outreach visits to local schools to promote engineering education, STEM awareness, and student engagement with the College of Engineering.</p>
           <p><strong>Activities:</strong> Preparing outreach materials, student handouts, presentation slides, and hands-on demonstration kits; organizing school visits; coordinating outreach activities; and conducting interactive engineering sessions for students.</p>
-          <p><strong>Recent Outreach Visits:</strong> Chiddix Junior High School, Bloomington, Illinois — June 8, 2026; continuing Monday visits through June 2026.</p>
+          <p><strong>Recent Outreach Visits:</strong> Chiddix Junior High School, Bloomington, Illinois - June 8, 2026; continuing Monday visits through June 2026.</p>
           <p><strong>Focus:</strong> Pre-college STEM exposure, electrical engineering awareness, community engagement, and student recruitment pathways.</p>
           <span class="pill active">Active</span>
         </div>
