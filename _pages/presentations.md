@@ -717,6 +717,29 @@ author_profile: true
 
       <div class="presentation-grid">
 
+        <div class="presentation-card" onclick="openPresentation('/publications/Chiddix_K12_Speaker_Demo_PPT_2026.pdf')">
+          <div class="presentation-thumb">
+            <img src="/images/Chiddix_K12_Speaker_Demo_2026.png" alt="Chiddix K-12 Speaker Demo Presentation 2026">
+            <div class="pres-badge">K-12 Outreach</div>
+            <div class="pres-year">2026</div>
+          </div>
+        
+          <div class="presentation-body">
+            <h4>K-12 Speaker Demo Outreach at Chiddix Junior High School</h4>
+            <p>
+              Hands-on electrical engineering outreach presentation introducing 5th and 8th grade students
+              to how a simple speaker works.
+            </p>
+        
+            <div class="pres-tags">
+              <span>K-12</span>
+              <span>Speaker Demo</span>
+              <span>Electrical Engineering</span>
+              <span>STEM Outreach</span>
+            </div>
+          </div>
+        </div>
+        
         <div class="presentation-card" onclick="openPresentation('/publications/IAB K-12 PPT Srinivas.pdf')">
           <div class="presentation-thumb">
             <img src="/images/IAB_K12_Outreach_1.png" alt="IAB K-12 STEM Outreach Presentation 2026">
