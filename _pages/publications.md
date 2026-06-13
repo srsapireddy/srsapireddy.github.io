@@ -868,8 +868,6 @@ author_profile: true
   
     <!-- Full title: R2ML: Interpretable Machine Learning for R-Value-Based RF Modulation Classification -->
 
-    </div>
-
     <div class="year-section" data-year-section="2026">
       <div class="year-header">
         <div class="year-title">📅 2026 Publications</div>
