@@ -879,7 +879,7 @@ author_profile: true
       </div>
     
       <div class="pub-venue">
-        Military Communications (MILCOM), National Capital Region, USA, 12 - 16 October 2026.
+        IEEE Aerospace Conference (AeroConf), Big Sky, Montana, USA, 7 March 2026 – 14 March 2026.
       </div>
     
       <div class="pub-note">
@@ -887,8 +887,8 @@ author_profile: true
       </div>
     
       <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-milcom-interference')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-milcom-interference')">Copy Citation</button>
+        <button class="pub-button primary" onclick="toggleCitation('cite-2026-aero-interference')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2026-aero-interference')">Copy Citation</button>
         <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
         <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
       </div>
