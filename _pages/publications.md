@@ -824,81 +824,86 @@ author_profile: true
       <button class="tab-button" onclick="filterPublications(event, 'earlier')">Earlier Work</button>
     </div>
 
-      <div class="year-section" data-year-section="2026">
-       <div class="year-header">
-         <div class="year-title">📅 2027 Publications</div>
-         <div class="year-pill">To be submitted publications</div>
-      </div>
-      
-      <div class="publication-card" data-type="conference">
-        <div class="pub-top">
+      <div class="year-section" data-year-section="2027">
+    <div class="year-header">
+      <div class="year-title">📅 2027 Publications</div>
+      <div class="year-pill">To be submitted publications</div>
+    </div>
+  
+    <div class="publication-card" data-type="conference">
+      <div class="pub-top">
         <span class="pub-year">2027</span>
         <span class="pub-type">IEEE Conference</span>
         <span class="pub-award">To be submitted</span>
       </div>
-      
+  
       <div class="pub-title">
         R2ML: Interpretable RF Modulation Classification
       </div>
-      
+  
       <div class="pub-authors">
         S. R. Sapireddy et al.
       </div>
-      
+  
       <div class="pub-venue">
         IEEE International Conference on Communications, Networks, and Satellite (COMNETSAT), Manado, Indonesia, 3–5 December 2026.
       </div>
-      
+  
       <div class="pub-note">
         DOI: Pending
       </div>
-      
+  
       <div class="pub-links">
         <button class="pub-button primary" onclick="toggleCitation('cite-2026-comnetsat-r2ml')">Citation</button>
         <button class="pub-button" onclick="copyCitation('cite-2026-comnetsat-r2ml')">Copy Citation</button>
         <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
         <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
       </div>
-      
+  
       <div id="cite-2026-comnetsat-r2ml" class="citation-box">
         S. R. Sapireddy et al., "R2ML: Interpretable RF Modulation Classification," IEEE International Conference on Communications, Networks, and Satellite (COMNETSAT), Manado, Indonesia, 2026.
       </div>
-      
-    <!-- R2ML: Interpretable Machine Learning for R-Value-Based RF Modulation Classification -->
-
-      <div class="publication-card" data-type="conference">
-        <div class="pub-top">
+    </div>
+  
+    <!-- Full title: R2ML: Interpretable Machine Learning for R-Value-Based RF Modulation Classification -->
+  
+    <div class="publication-card" data-type="conference">
+      <div class="pub-top">
         <span class="pub-year">2027</span>
-        <span class="pub-type">IEEE Conference</span>
+        <span class="pub-type">Conference</span>
         <span class="pub-award">To be submitted</span>
       </div>
-      
-    <div class="pub-title">
-      CARS: From Traffic Signals to Cyber Situational Awareness
+  
+      <div class="pub-title">
+        CARS: From Traffic Signals to Cyber Situational Awareness
+      </div>
+  
+      <div class="pub-authors">
+        S. R. Sapireddy et al.
+      </div>
+  
+      <div class="pub-venue">
+        International Conference on Advances in Intelligence Systems, Security, and Cybernetics, 29–30 January 2027.
+      </div>
+  
+      <div class="pub-note">
+        DOI: Pending
+      </div>
+  
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2027-aissc-cars')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2027-aissc-cars')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+  
+      <div id="cite-2027-aissc-cars" class="citation-box">
+        S. R. Sapireddy et al., "CARS: From Traffic Signals to Cyber Situational Awareness," International Conference on Advances in Intelligence Systems, Security, and Cybernetics, 2027.
+      </div>
     </div>
-    
-    <div class="pub-authors">
-      S. R. Sapireddy et al.
-    </div>
-    
-    <div class="pub-venue">
-      International Conference on Advances in Intelligence Systems, Security, and Cybernetics, 29–30 January 2027.
-    </div>
-    
-    <div class="pub-note">
-      DOI: Pending
-    </div>
-    
-    <div class="pub-links">
-      <button class="pub-button primary" onclick="toggleCitation('cite-2027-aissc-cars')">Citation</button>
-      <button class="pub-button" onclick="copyCitation('cite-2027-aissc-cars')">Copy Citation</button>
-      <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-      <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-    </div>
-    
-    <div id="cite-2027-aissc-cars" class="citation-box">
-      S. R. Sapireddy et al., "CARS: From Traffic Signals to Cyber Situational Awareness," International Conference on Advances in Intelligence Systems, Security, and Cybernetics, 2027.
-    </div>
+  
+    <!-- Full title: CARS: From Traffic Signals to Cyber Situational Awareness -->
+  </div>
 
 
 
