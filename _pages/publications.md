@@ -823,6 +823,7 @@ author_profile: true
       <button class="tab-button" onclick="filterPublications(event, 'thesis')">Dissertation / Thesis</button>
       <button class="tab-button" onclick="filterPublications(event, 'earlier')">Earlier Work</button>
     </div>
+        </div>
 
       <div class="year-section" data-year-section="2027">
     <div class="year-header">
@@ -862,8 +863,6 @@ author_profile: true
        <div id="cite-2027-aissc-cars" class="citation-box">Under Review</div>
     </div>
       </div>
-
-    </div>
   
     <!-- Full title: R2ML: Interpretable Machine Learning for R-Value-Based RF Modulation Classification -->
 
