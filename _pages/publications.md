@@ -682,481 +682,115 @@ author_profile: true
   text-decoration:underline;
 }
 
-.research-map-section {
-  width: 100%;
-  padding: 2.5rem 1rem;
-  background: linear-gradient(135deg, #ffffff 0%, #f7f9fc 100%);
+.research-mindmap-section {
+  margin: 2rem 0;
+  padding: 2rem 1rem;
   border-radius: 22px;
-  overflow: hidden;
+  background: linear-gradient(135deg, #ffffff 0%, #f7f9fc 100%);
 }
 
-.research-map-header {
+.research-mindmap-header {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
-.research-map-kicker {
+.mindmap-kicker {
   display: inline-block;
   padding: 0.35rem 0.8rem;
   border-radius: 999px;
   background: #eef5ff;
   color: #0b5bd3;
-  font-weight: 800;
-  font-size: 0.85rem;
-  margin-bottom: 0.6rem;
-}
-
-.research-map-header h2 {
-  margin: 0;
-  font-size: 2rem;
-  color: #0b1f44;
-  font-weight: 950;
-}
-
-.research-map-header p {
-  margin: 0.45rem auto 0;
-  color: #5f6368;
-  max-width: 680px;
-  line-height: 1.55;
-}
-
-/* Main canvas */
-.mindmap-wrap {
-  position: relative;
-  width: 100%;
-  max-width: 1180px;
-  height: 900px;
-  margin: 0 auto;
-  background:
-    radial-gradient(circle at center, rgba(11,31,68,0.05), transparent 34%),
-    #ffffff;
-  border-radius: 24px;
-  box-shadow: 0 18px 45px rgba(0,0,0,0.08);
-  overflow: hidden;
-}
-
-/* Center circle */
-.mind-center {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 220px;
-  height: 220px;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  background: radial-gradient(circle at 35% 30%, #173a63 0%, #06182b 75%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-  box-shadow: 0 18px 40px rgba(0,0,0,0.28);
-}
-
-.center-title {
-  color: #ffffff;
-  font-size: 2rem;
-  line-height: 1.15;
-  font-weight: 950;
-  text-align: center;
-}
-
-/* Shared cluster styles */
-.cluster {
-  position: absolute;
-  z-index: 3;
-}
-
-.cluster::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  filter: blur(0.1px);
-}
-
-.cluster-core,
-.node {
-  position: absolute;
-  border-radius: 50%;
-  color: #ffffff;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 900;
-  line-height: 1.18;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
-}
-
-.cluster-core {
-  width: 210px;
-  height: 210px;
-  font-size: 1.55rem;
-  z-index: 3;
-}
-
-.node {
-  width: 135px;
-  height: 135px;
-  font-size: 0.98rem;
-  z-index: 4;
-  padding: 0.45rem;
-}
-
-.node span {
-  display: block;
   font-weight: 850;
-  font-size: 0.88rem;
-  margin-top: 0.15rem;
+  font-size: 0.85rem;
+  margin-bottom: 0.55rem;
 }
 
-/* ================= RF cluster ================= */
-.rf-cluster {
-  left: 4%;
-  top: 2%;
-  width: 520px;
-  height: 420px;
+.research-mindmap-header h2 {
+  margin: 0;
+  color: #0b1f44;
+  font-size: 2rem;
+  font-weight: 950;
 }
 
-.rf-cluster::before {
-  left: 230px;
-  top: 190px;
-  width: 310px;
-  height: 60px;
-  background: linear-gradient(90deg, #ff7a00, #06182b);
-  transform: rotate(48deg);
-  border-radius: 60px;
+.research-mindmap-header p {
+  margin: 0.45rem 0 0;
+  color: #5f6368;
+  font-size: 1rem;
 }
 
-.rf-cluster .cluster-core,
-.rf-cluster .node {
-  background: linear-gradient(135deg, #ff8c00 0%, #f06a00 100%);
+.research-mindmap-box {
+  max-width: 1180px;
+  margin: 0 auto;
+  overflow-x: auto;
+  border-radius: 28px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+  background: #ffffff;
 }
 
-.rf-cluster .cluster-core {
-  left: 205px;
-  top: 150px;
+.research-mindmap-svg {
+  width: 100%;
+  min-width: 1050px;
+  height: auto;
+  display: block;
 }
 
-.rf-cluster .n1 { left: 70px; top: 10px; }
-.rf-cluster .n2 { left: 250px; top: 0; }
-.rf-cluster .n3 { left: 390px; top: 100px; }
-.rf-cluster .n4 { left: 400px; top: 250px; }
-.rf-cluster .n5 { left: 25px; top: 255px; }
-.rf-cluster .n6 { left: 0; top: 105px; }
-
-/* Organic connectors for RF */
-.rf-cluster .cluster-core::before,
-.rf-cluster .cluster-core::after {
-  content: "";
-  position: absolute;
-  background: #f57700;
-  border-radius: 999px;
-  z-index: -1;
+.center-text {
+  fill: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 900;
 }
 
-.rf-cluster .cluster-core::before {
-  width: 420px;
-  height: 42px;
-  left: -110px;
-  top: 83px;
-  transform: rotate(-22deg);
+.cluster-title {
+  fill: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  font-weight: 900;
 }
 
-.rf-cluster .cluster-core::after {
-  width: 390px;
-  height: 42px;
-  left: -80px;
-  top: 90px;
-  transform: rotate(42deg);
+.node-text {
+  fill: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
 }
 
-/* ================= AI cluster ================= */
-.ai-cluster {
-  right: 4%;
-  top: 3%;
-  width: 480px;
-  height: 390px;
+.node-sub {
+  fill: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 850;
 }
 
-.ai-cluster::before {
-  right: 245px;
-  top: 255px;
-  width: 270px;
-  height: 60px;
-  background: linear-gradient(90deg, #06182b, #0072ce);
-  transform: rotate(-56deg);
-  border-radius: 60px;
+.small-node-text {
+  fill: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 900;
 }
 
-.ai-cluster .cluster-core,
-.ai-cluster .node {
-  background: linear-gradient(135deg, #0078d7 0%, #0053b8 100%);
+.small-node-sub {
+  fill: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 850;
 }
 
-.ai-cluster .cluster-core {
-  left: 105px;
-  top: 155px;
-}
-
-.ai-cluster .n1 { left: 220px; top: 0; }
-.ai-cluster .n2 { left: 365px; top: 110px; }
-.ai-cluster .n3 { left: 330px; top: 260px; }
-
-.ai-cluster .cluster-core::before,
-.ai-cluster .cluster-core::after {
-  content: "";
-  position: absolute;
-  background: #0068c8;
-  border-radius: 999px;
-  z-index: -1;
-}
-
-.ai-cluster .cluster-core::before {
-  width: 315px;
-  height: 42px;
-  left: 55px;
-  top: 75px;
-  transform: rotate(-25deg);
-}
-
-.ai-cluster .cluster-core::after {
-  width: 310px;
-  height: 42px;
-  left: 75px;
-  top: 95px;
-  transform: rotate(34deg);
-}
-
-/* ================= Cyber cluster ================= */
-.cyber-cluster {
-  left: 2%;
-  top: 48%;
-  width: 430px;
-  height: 350px;
-}
-
-.cyber-cluster::before {
-  left: 285px;
-  top: 75px;
-  width: 255px;
-  height: 60px;
-  background: linear-gradient(90deg, #e11616, #06182b);
-  transform: rotate(-16deg);
-  border-radius: 60px;
-}
-
-.cyber-cluster .cluster-core,
-.cyber-cluster .node {
-  background: linear-gradient(135deg, #f51d1d 0%, #c90000 100%);
-}
-
-.cyber-cluster .cluster-core {
-  left: 205px;
-  top: 90px;
-}
-
-.cyber-cluster .n1 { left: 10px; top: 0; }
-.cyber-cluster .n2 { left: 0; top: 180px; }
-
-.cyber-cluster .cluster-core::before,
-.cyber-cluster .cluster-core::after {
-  content: "";
-  position: absolute;
-  background: #e11212;
-  border-radius: 999px;
-  z-index: -1;
-}
-
-.cyber-cluster .cluster-core::before {
-  width: 260px;
-  height: 42px;
-  left: -150px;
-  top: 55px;
-  transform: rotate(22deg);
-}
-
-.cyber-cluster .cluster-core::after {
-  width: 250px;
-  height: 42px;
-  left: -145px;
-  top: 118px;
-  transform: rotate(-35deg);
-}
-
-/* ================= VLSI cluster ================= */
-.vlsi-cluster {
-  right: 2%;
-  top: 49%;
-  width: 470px;
-  height: 350px;
-}
-
-.vlsi-cluster::before {
-  right: 290px;
-  top: 75px;
-  width: 255px;
-  height: 60px;
-  background: linear-gradient(90deg, #06182b, #5b3bb6);
-  transform: rotate(18deg);
-  border-radius: 60px;
-}
-
-.vlsi-cluster .cluster-core,
-.vlsi-cluster .node {
-  background: linear-gradient(135deg, #7251d1 0%, #4e32a3 100%);
-}
-
-.vlsi-cluster .cluster-core {
-  left: 60px;
-  top: 90px;
-}
-
-.vlsi-cluster .n1 { left: 330px; top: 0; }
-.vlsi-cluster .n2 { left: 355px; top: 150px; }
-.vlsi-cluster .n3 { left: 205px; top: 245px; }
-
-.vlsi-cluster .cluster-core::before,
-.vlsi-cluster .cluster-core::after {
-  content: "";
-  position: absolute;
-  background: #5b3bb6;
-  border-radius: 999px;
-  z-index: -1;
-}
-
-.vlsi-cluster .cluster-core::before {
-  width: 300px;
-  height: 42px;
-  left: 105px;
-  top: 65px;
-  transform: rotate(-18deg);
-}
-
-.vlsi-cluster .cluster-core::after {
-  width: 330px;
-  height: 42px;
-  left: 95px;
-  top: 130px;
-  transform: rotate(28deg);
-}
-
-/* ================= Applied cluster ================= */
-.applied-cluster {
-  left: 50%;
-  bottom: 2%;
-  width: 480px;
-  height: 330px;
-  transform: translateX(-50%);
-}
-
-.applied-cluster::before {
-  left: 210px;
-  bottom: 250px;
-  width: 60px;
-  height: 220px;
-  background: linear-gradient(180deg, #06182b, #008c68);
-  border-radius: 60px;
-}
-
-.applied-cluster .cluster-core,
-.applied-cluster .node {
-  background: linear-gradient(135deg, #00a77a 0%, #007f5f 100%);
-}
-
-.applied-cluster .cluster-core {
-  left: 135px;
-  top: 0;
-}
-
-.applied-cluster .n1 { left: 0; top: 185px; }
-.applied-cluster .n2 { left: 300px; top: 185px; }
-
-.applied-cluster .cluster-core::before,
-.applied-cluster .cluster-core::after {
-  content: "";
-  position: absolute;
-  background: #008c68;
-  border-radius: 999px;
-  z-index: -1;
-}
-
-.applied-cluster .cluster-core::before {
-  width: 230px;
-  height: 40px;
-  left: -105px;
-  top: 145px;
-  transform: rotate(35deg);
-}
-
-.applied-cluster .cluster-core::after {
-  width: 230px;
-  height: 40px;
-  left: 85px;
-  top: 145px;
-  transform: rotate(-35deg);
-}
-
-/* ================= Responsive ================= */
-@media (max-width: 950px) {
-  .mindmap-wrap {
-    height: auto;
-    padding: 2rem 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.4rem;
+@media (max-width: 700px) {
+  .research-mindmap-section {
+    padding: 1.3rem 0.5rem;
   }
 
-  .mind-center,
-  .cluster,
-  .cluster-core,
-  .node {
-    position: relative;
-    left: auto !important;
-    right: auto !important;
-    top: auto !important;
-    bottom: auto !important;
-    transform: none !important;
+  .research-mindmap-header h2 {
+    font-size: 1.5rem;
   }
 
-  .mind-center {
-    order: 0;
-    margin: 0 auto;
-    width: 190px;
-    height: 190px;
+  .research-mindmap-box {
+    border-radius: 18px;
   }
 
-  .center-title {
-    font-size: 1.65rem;
-  }
-
-  .cluster {
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    gap: 0.75rem;
-  }
-
-  .cluster::before,
-  .cluster-core::before,
-  .cluster-core::after {
-    display: none;
-  }
-
-  .cluster-core {
-    width: 190px;
-    height: 190px;
-    font-size: 1.35rem;
-    margin-bottom: 0.25rem;
-  }
-
-  .node {
-    width: min(92%, 330px);
-    height: auto;
-    min-height: 70px;
-    border-radius: 22px;
-    font-size: 0.95rem;
+  .research-mindmap-svg {
+    min-width: 1000px;
   }
 }
 </style>
@@ -1285,81 +919,209 @@ author_profile: true
     </div>
   </div>
 
-    <!-- ================= Research Mind Map Section ================= -->
-  <section class="research-map-section">
-    <div class="research-map-header">
-      <span class="research-map-kicker">Research Portfolio</span>
-      <h2>Research Mind Map</h2>
-      <p>
-        A visual overview of publications grouped by research direction.
-      </p>
-    </div>
-  
-    <div class="mindmap-wrap">
-  
+  <!-- ================= Research Mind Map SVG Section ================= -->
+<section class="research-mindmap-section">
+  <div class="research-mindmap-header">
+    <span class="mindmap-kicker">Research Portfolio</span>
+    <h2>Research Mind Map</h2>
+    <p>Publications grouped by major research direction.</p>
+  </div>
+
+  <div class="research-mindmap-box">
+    <svg class="research-mindmap-svg" viewBox="0 0 1400 950" role="img" aria-label="Research Mind Map of S. R. Sapireddy publications">
+
+      <defs>
+        <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.18"/>
+        </filter>
+
+        <linearGradient id="centerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#173a63"/>
+          <stop offset="100%" stop-color="#06182b"/>
+        </linearGradient>
+
+        <linearGradient id="rfGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#ff9800"/>
+          <stop offset="100%" stop-color="#f06a00"/>
+        </linearGradient>
+
+        <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#0984e3"/>
+          <stop offset="100%" stop-color="#0053b8"/>
+        </linearGradient>
+
+        <linearGradient id="cyberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#ff2b2b"/>
+          <stop offset="100%" stop-color="#c90000"/>
+        </linearGradient>
+
+        <linearGradient id="vlsiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#7b5bd6"/>
+          <stop offset="100%" stop-color="#4e32a3"/>
+        </linearGradient>
+
+        <linearGradient id="appGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#00a77a"/>
+          <stop offset="100%" stop-color="#007f5f"/>
+        </linearGradient>
+      </defs>
+
+      <!-- Background -->
+      <rect x="20" y="20" width="1360" height="910" rx="35" fill="#ffffff"/>
+
+      <!-- Main connector arms -->
+      <path d="M700 475 C570 430, 500 340, 430 260" stroke="#f06a00" stroke-width="32" fill="none" stroke-linecap="round" opacity="0.95"/>
+      <path d="M700 475 C830 420, 885 330, 970 250" stroke="#0053b8" stroke-width="32" fill="none" stroke-linecap="round" opacity="0.95"/>
+      <path d="M700 475 C560 535, 440 590, 330 650" stroke="#c90000" stroke-width="32" fill="none" stroke-linecap="round" opacity="0.95"/>
+      <path d="M700 475 C835 535, 960 590, 1080 650" stroke="#4e32a3" stroke-width="32" fill="none" stroke-linecap="round" opacity="0.95"/>
+      <path d="M700 475 C700 590, 700 680, 700 760" stroke="#007f5f" stroke-width="32" fill="none" stroke-linecap="round" opacity="0.95"/>
+
       <!-- Center -->
-      <div class="mind-center">
-        <div class="center-title">S. R. Sapireddy</div>
-      </div>
-  
-      <!-- RF Signal Intelligence -->
-      <div class="cluster rf-cluster">
-        <div class="cluster-core">
-          RF Signal<br>Intelligence
-        </div>
-  
-        <div class="node n1">Bin-Based R<br><span>[SoutheastCon ’26]</span></div>
-        <div class="node n2">Revisiting R<br><span>[RFCoN ’25]</span></div>
-        <div class="node n3">Spread Spectrum<br>Classification<br><span>[MILCOM ’26]</span></div>
-        <div class="node n4">Signal Detection &<br>Classification<br><span>[AeroConf ’26]</span></div>
-        <div class="node n5">R2ML: Interpretable<br>RF Classification<br><span>[COMNETSAT ’26]</span></div>
-        <div class="node n6">Ph.D. Dissertation<br><span>[UMKC ’25]</span></div>
-      </div>
-  
-      <!-- Hardware-Aware AI -->
-      <div class="cluster ai-cluster">
-        <div class="cluster-core">
-          Hardware-<br>Aware AI
-        </div>
-  
-        <div class="node n1">Linear Activation<br>Approximations<br><span>[Memories ’25]</span></div>
-        <div class="node n2">Piecewise Activations<br>for LSTM<br><span>[GLSVLSI ’25]</span></div>
-        <div class="node n3">Low-Power<br>Deep Learning<br><span>[Dissertation ’25]</span></div>
-      </div>
-  
-      <!-- Cyber / IoT -->
-      <div class="cluster cyber-cluster">
-        <div class="cluster-core">
-          Cyber, IoT &<br>Situational<br>Awareness
-        </div>
-  
-        <div class="node n1">Adversarial Examples<br>in IoT Networks<br><span>[Electronics ’25]</span></div>
-        <div class="node n2">CARS: Cyber<br>Situational Awareness<br><span>[AISSC ’27]</span></div>
-      </div>
-  
-      <!-- VLSI / Circuits -->
-      <div class="cluster vlsi-cluster">
-        <div class="cluster-core">
-          VLSI, Circuits &<br>Architectures
-        </div>
-  
-        <div class="node n1">Crosstalk Polymorphic<br>Circuits<br><span>[Memories ’24]</span></div>
-        <div class="node n2">CAM Cell Memory<br>Architecture<br><span>[IJAECS ’16]</span></div>
-        <div class="node n3">Two-Stage Operational<br>Amplifier<br><span>[IJETT ’16]</span></div>
-      </div>
-  
-      <!-- Applied Intelligent Systems -->
-      <div class="cluster applied-cluster">
-        <div class="cluster-core">
-          Applied<br>Intelligent<br>Systems
-        </div>
-  
-        <div class="node n1">Messaging-Based<br>Intelligent Computing<br><span>[2024]</span></div>
-        <div class="node n2">Medical Record<br>Dispatch System<br><span>[IJARSET ’18]</span></div>
-      </div>
-  
-    </div>
-  </section>
+      <circle cx="700" cy="475" r="115" fill="url(#centerGrad)" filter="url(#softShadow)"/>
+      <text x="700" y="455" text-anchor="middle" class="center-text">S. R.</text>
+      <text x="700" y="510" text-anchor="middle" class="center-text">Sapireddy</text>
+
+      <!-- RF Cluster -->
+      <circle cx="360" cy="230" r="120" fill="url(#rfGrad)" filter="url(#softShadow)"/>
+      <text x="360" y="215" text-anchor="middle" class="cluster-title">RF Signal</text>
+      <text x="360" y="255" text-anchor="middle" class="cluster-title">Intelligence</text>
+
+      <path d="M360 230 C260 170, 190 145, 135 120" stroke="#f06a00" stroke-width="22" fill="none" stroke-linecap="round"/>
+      <path d="M360 230 C350 130, 380 95, 420 70" stroke="#f06a00" stroke-width="22" fill="none" stroke-linecap="round"/>
+      <path d="M360 230 C470 175, 535 170, 600 165" stroke="#f06a00" stroke-width="22" fill="none" stroke-linecap="round"/>
+      <path d="M360 230 C470 280, 530 310, 595 350" stroke="#f06a00" stroke-width="22" fill="none" stroke-linecap="round"/>
+      <path d="M360 230 C250 285, 190 310, 125 345" stroke="#f06a00" stroke-width="22" fill="none" stroke-linecap="round"/>
+      <path d="M360 230 C240 230, 170 220, 100 215" stroke="#f06a00" stroke-width="22" fill="none" stroke-linecap="round"/>
+
+      <circle cx="125" cy="115" r="78" fill="url(#rfGrad)" filter="url(#softShadow)"/>
+      <circle cx="430" cy="75" r="78" fill="url(#rfGrad)" filter="url(#softShadow)"/>
+      <circle cx="620" cy="165" r="78" fill="url(#rfGrad)" filter="url(#softShadow)"/>
+      <circle cx="610" cy="355" r="78" fill="url(#rfGrad)" filter="url(#softShadow)"/>
+      <circle cx="125" cy="355" r="78" fill="url(#rfGrad)" filter="url(#softShadow)"/>
+      <circle cx="95" cy="220" r="78" fill="url(#rfGrad)" filter="url(#softShadow)"/>
+
+      <text x="125" y="95" text-anchor="middle" class="node-text">Bin-Based R</text>
+      <text x="125" y="123" text-anchor="middle" class="node-sub">[SoutheastCon ’26]</text>
+
+      <text x="430" y="55" text-anchor="middle" class="node-text">Revisiting R</text>
+      <text x="430" y="83" text-anchor="middle" class="node-sub">[RFCoN ’25]</text>
+
+      <text x="620" y="140" text-anchor="middle" class="node-text">Spread Spectrum</text>
+      <text x="620" y="166" text-anchor="middle" class="node-text">Classification</text>
+      <text x="620" y="194" text-anchor="middle" class="node-sub">[MILCOM ’26]</text>
+
+      <text x="610" y="330" text-anchor="middle" class="node-text">Signal Detection &</text>
+      <text x="610" y="356" text-anchor="middle" class="node-text">Classification</text>
+      <text x="610" y="384" text-anchor="middle" class="node-sub">[AeroConf ’26]</text>
+
+      <text x="125" y="325" text-anchor="middle" class="node-text">R2ML</text>
+      <text x="125" y="351" text-anchor="middle" class="node-text">Interpretable RF</text>
+      <text x="125" y="379" text-anchor="middle" class="node-sub">[COMNETSAT ’26]</text>
+
+      <text x="95" y="198" text-anchor="middle" class="node-text">Ph.D.</text>
+      <text x="95" y="224" text-anchor="middle" class="node-text">Dissertation</text>
+      <text x="95" y="252" text-anchor="middle" class="node-sub">[UMKC ’25]</text>
+
+      <!-- AI Cluster -->
+      <circle cx="1010" cy="235" r="120" fill="url(#aiGrad)" filter="url(#softShadow)"/>
+      <text x="1010" y="210" text-anchor="middle" class="cluster-title">Hardware-</text>
+      <text x="1010" y="250" text-anchor="middle" class="cluster-title">Aware AI</text>
+
+      <path d="M1010 235 C980 125, 990 95, 1015 70" stroke="#0053b8" stroke-width="22" fill="none" stroke-linecap="round"/>
+      <path d="M1010 235 C1110 170, 1190 165, 1270 160" stroke="#0053b8" stroke-width="22" fill="none" stroke-linecap="round"/>
+      <path d="M1010 235 C1115 285, 1190 325, 1265 365" stroke="#0053b8" stroke-width="22" fill="none" stroke-linecap="round"/>
+
+      <circle cx="1015" cy="75" r="78" fill="url(#aiGrad)" filter="url(#softShadow)"/>
+      <circle cx="1280" cy="160" r="78" fill="url(#aiGrad)" filter="url(#softShadow)"/>
+      <circle cx="1265" cy="370" r="78" fill="url(#aiGrad)" filter="url(#softShadow)"/>
+
+      <text x="1015" y="45" text-anchor="middle" class="node-text">Linear</text>
+      <text x="1015" y="71" text-anchor="middle" class="node-text">Activation</text>
+      <text x="1015" y="97" text-anchor="middle" class="node-text">Approximations</text>
+      <text x="1015" y="125" text-anchor="middle" class="node-sub">[Memories ’25]</text>
+
+      <text x="1280" y="130" text-anchor="middle" class="node-text">Piecewise</text>
+      <text x="1280" y="156" text-anchor="middle" class="node-text">Activations</text>
+      <text x="1280" y="182" text-anchor="middle" class="node-text">for LSTM</text>
+      <text x="1280" y="210" text-anchor="middle" class="node-sub">[GLSVLSI ’25]</text>
+
+      <text x="1265" y="345" text-anchor="middle" class="node-text">Low-Power</text>
+      <text x="1265" y="371" text-anchor="middle" class="node-text">Deep Learning</text>
+      <text x="1265" y="399" text-anchor="middle" class="node-sub">[Dissertation ’25]</text>
+
+      <!-- Cyber Cluster -->
+      <circle cx="320" cy="650" r="120" fill="url(#cyberGrad)" filter="url(#softShadow)"/>
+      <text x="320" y="615" text-anchor="middle" class="cluster-title">Cyber, IoT &</text>
+      <text x="320" y="655" text-anchor="middle" class="cluster-title">Situational</text>
+      <text x="320" y="695" text-anchor="middle" class="cluster-title">Awareness</text>
+
+      <path d="M320 650 C230 575, 155 535, 90 505" stroke="#c90000" stroke-width="22" fill="none" stroke-linecap="round"/>
+      <path d="M320 650 C210 705, 145 750, 85 795" stroke="#c90000" stroke-width="22" fill="none" stroke-linecap="round"/>
+
+      <circle cx="90" cy="505" r="78" fill="url(#cyberGrad)" filter="url(#softShadow)"/>
+      <circle cx="85" cy="795" r="78" fill="url(#cyberGrad)" filter="url(#softShadow)"/>
+
+      <text x="90" y="475" text-anchor="middle" class="node-text">Adversarial</text>
+      <text x="90" y="501" text-anchor="middle" class="node-text">Examples in IoT</text>
+      <text x="90" y="527" text-anchor="middle" class="node-text">Networks</text>
+      <text x="90" y="555" text-anchor="middle" class="node-sub">[Electronics ’25]</text>
+
+      <text x="85" y="765" text-anchor="middle" class="node-text">CARS</text>
+      <text x="85" y="791" text-anchor="middle" class="node-text">Cyber Awareness</text>
+      <text x="85" y="819" text-anchor="middle" class="node-sub">[AISSC ’27]</text>
+
+      <!-- VLSI Cluster -->
+      <circle cx="1080" cy="650" r="120" fill="url(#vlsiGrad)" filter="url(#softShadow)"/>
+      <text x="1080" y="625" text-anchor="middle" class="cluster-title">VLSI, Circuits &</text>
+      <text x="1080" y="665" text-anchor="middle" class="cluster-title">Architectures</text>
+
+      <path d="M1080 650 C1160 570, 1235 535, 1305 500" stroke="#4e32a3" stroke-width="22" fill="none" stroke-linecap="round"/>
+      <path d="M1080 650 C1195 650, 1245 655, 1308 660" stroke="#4e32a3" stroke-width="22" fill="none" stroke-linecap="round"/>
+      <path d="M1080 650 C1050 755, 1020 810, 990 855" stroke="#4e32a3" stroke-width="22" fill="none" stroke-linecap="round"/>
+
+      <circle cx="1305" cy="500" r="78" fill="url(#vlsiGrad)" filter="url(#softShadow)"/>
+      <circle cx="1308" cy="660" r="78" fill="url(#vlsiGrad)" filter="url(#softShadow)"/>
+      <circle cx="990" cy="855" r="78" fill="url(#vlsiGrad)" filter="url(#softShadow)"/>
+
+      <text x="1305" y="470" text-anchor="middle" class="node-text">Crosstalk</text>
+      <text x="1305" y="496" text-anchor="middle" class="node-text">Polymorphic</text>
+      <text x="1305" y="522" text-anchor="middle" class="node-text">Circuits</text>
+      <text x="1305" y="550" text-anchor="middle" class="node-sub">[Memories ’24]</text>
+
+      <text x="1308" y="632" text-anchor="middle" class="node-text">CAM Cell</text>
+      <text x="1308" y="658" text-anchor="middle" class="node-text">Memory</text>
+      <text x="1308" y="684" text-anchor="middle" class="node-text">Architecture</text>
+      <text x="1308" y="712" text-anchor="middle" class="node-sub">[IJAECS ’16]</text>
+
+      <text x="990" y="825" text-anchor="middle" class="node-text">Two-Stage</text>
+      <text x="990" y="851" text-anchor="middle" class="node-text">Operational</text>
+      <text x="990" y="877" text-anchor="middle" class="node-text">Amplifier</text>
+      <text x="990" y="905" text-anchor="middle" class="node-sub">[IJETT ’16]</text>
+
+      <!-- Applied Cluster -->
+      <circle cx="700" cy="770" r="115" fill="url(#appGrad)" filter="url(#softShadow)"/>
+      <text x="700" y="735" text-anchor="middle" class="cluster-title">Applied</text>
+      <text x="700" y="775" text-anchor="middle" class="cluster-title">Intelligent</text>
+      <text x="700" y="815" text-anchor="middle" class="cluster-title">Systems</text>
+
+      <path d="M700 770 C610 830, 550 855, 495 875" stroke="#007f5f" stroke-width="22" fill="none" stroke-linecap="round"/>
+      <path d="M700 770 C790 830, 850 855, 905 875" stroke="#007f5f" stroke-width="22" fill="none" stroke-linecap="round"/>
+
+      <circle cx="495" cy="875" r="68" fill="url(#appGrad)" filter="url(#softShadow)"/>
+      <circle cx="905" cy="875" r="68" fill="url(#appGrad)" filter="url(#softShadow)"/>
+
+      <text x="495" y="848" text-anchor="middle" class="small-node-text">Messaging-Based</text>
+      <text x="495" y="872" text-anchor="middle" class="small-node-text">Intelligent</text>
+      <text x="495" y="896" text-anchor="middle" class="small-node-text">Computing</text>
+      <text x="495" y="920" text-anchor="middle" class="small-node-sub">[2024]</text>
+
+      <text x="905" y="848" text-anchor="middle" class="small-node-text">Medical Record</text>
+      <text x="905" y="872" text-anchor="middle" class="small-node-text">Dispatch System</text>
+      <text x="905" y="896" text-anchor="middle" class="small-node-sub">[IJARSET ’18]</text>
+
+    </svg>
+  </div>
+</section>
 
   <div class="section">
     <h2>📚 Publications by Year</h2>
