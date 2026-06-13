@@ -681,6 +681,484 @@ author_profile: true
 .pub-hero a:hover{
   text-decoration:underline;
 }
+
+.research-map-section {
+  width: 100%;
+  padding: 2.5rem 1rem;
+  background: linear-gradient(135deg, #ffffff 0%, #f7f9fc 100%);
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.research-map-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.research-map-kicker {
+  display: inline-block;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  background: #eef5ff;
+  color: #0b5bd3;
+  font-weight: 800;
+  font-size: 0.85rem;
+  margin-bottom: 0.6rem;
+}
+
+.research-map-header h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #0b1f44;
+  font-weight: 950;
+}
+
+.research-map-header p {
+  margin: 0.45rem auto 0;
+  color: #5f6368;
+  max-width: 680px;
+  line-height: 1.55;
+}
+
+/* Main canvas */
+.mindmap-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 1180px;
+  height: 900px;
+  margin: 0 auto;
+  background:
+    radial-gradient(circle at center, rgba(11,31,68,0.05), transparent 34%),
+    #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 18px 45px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+/* Center circle */
+.mind-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 220px;
+  height: 220px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #173a63 0%, #06182b 75%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.28);
+}
+
+.center-title {
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 1.15;
+  font-weight: 950;
+  text-align: center;
+}
+
+/* Shared cluster styles */
+.cluster {
+  position: absolute;
+  z-index: 3;
+}
+
+.cluster::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  filter: blur(0.1px);
+}
+
+.cluster-core,
+.node {
+  position: absolute;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  line-height: 1.18;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.cluster-core {
+  width: 210px;
+  height: 210px;
+  font-size: 1.55rem;
+  z-index: 3;
+}
+
+.node {
+  width: 135px;
+  height: 135px;
+  font-size: 0.98rem;
+  z-index: 4;
+  padding: 0.45rem;
+}
+
+.node span {
+  display: block;
+  font-weight: 850;
+  font-size: 0.88rem;
+  margin-top: 0.15rem;
+}
+
+/* ================= RF cluster ================= */
+.rf-cluster {
+  left: 4%;
+  top: 2%;
+  width: 520px;
+  height: 420px;
+}
+
+.rf-cluster::before {
+  left: 230px;
+  top: 190px;
+  width: 310px;
+  height: 60px;
+  background: linear-gradient(90deg, #ff7a00, #06182b);
+  transform: rotate(48deg);
+  border-radius: 60px;
+}
+
+.rf-cluster .cluster-core,
+.rf-cluster .node {
+  background: linear-gradient(135deg, #ff8c00 0%, #f06a00 100%);
+}
+
+.rf-cluster .cluster-core {
+  left: 205px;
+  top: 150px;
+}
+
+.rf-cluster .n1 { left: 70px; top: 10px; }
+.rf-cluster .n2 { left: 250px; top: 0; }
+.rf-cluster .n3 { left: 390px; top: 100px; }
+.rf-cluster .n4 { left: 400px; top: 250px; }
+.rf-cluster .n5 { left: 25px; top: 255px; }
+.rf-cluster .n6 { left: 0; top: 105px; }
+
+/* Organic connectors for RF */
+.rf-cluster .cluster-core::before,
+.rf-cluster .cluster-core::after {
+  content: "";
+  position: absolute;
+  background: #f57700;
+  border-radius: 999px;
+  z-index: -1;
+}
+
+.rf-cluster .cluster-core::before {
+  width: 420px;
+  height: 42px;
+  left: -110px;
+  top: 83px;
+  transform: rotate(-22deg);
+}
+
+.rf-cluster .cluster-core::after {
+  width: 390px;
+  height: 42px;
+  left: -80px;
+  top: 90px;
+  transform: rotate(42deg);
+}
+
+/* ================= AI cluster ================= */
+.ai-cluster {
+  right: 4%;
+  top: 3%;
+  width: 480px;
+  height: 390px;
+}
+
+.ai-cluster::before {
+  right: 245px;
+  top: 255px;
+  width: 270px;
+  height: 60px;
+  background: linear-gradient(90deg, #06182b, #0072ce);
+  transform: rotate(-56deg);
+  border-radius: 60px;
+}
+
+.ai-cluster .cluster-core,
+.ai-cluster .node {
+  background: linear-gradient(135deg, #0078d7 0%, #0053b8 100%);
+}
+
+.ai-cluster .cluster-core {
+  left: 105px;
+  top: 155px;
+}
+
+.ai-cluster .n1 { left: 220px; top: 0; }
+.ai-cluster .n2 { left: 365px; top: 110px; }
+.ai-cluster .n3 { left: 330px; top: 260px; }
+
+.ai-cluster .cluster-core::before,
+.ai-cluster .cluster-core::after {
+  content: "";
+  position: absolute;
+  background: #0068c8;
+  border-radius: 999px;
+  z-index: -1;
+}
+
+.ai-cluster .cluster-core::before {
+  width: 315px;
+  height: 42px;
+  left: 55px;
+  top: 75px;
+  transform: rotate(-25deg);
+}
+
+.ai-cluster .cluster-core::after {
+  width: 310px;
+  height: 42px;
+  left: 75px;
+  top: 95px;
+  transform: rotate(34deg);
+}
+
+/* ================= Cyber cluster ================= */
+.cyber-cluster {
+  left: 2%;
+  top: 48%;
+  width: 430px;
+  height: 350px;
+}
+
+.cyber-cluster::before {
+  left: 285px;
+  top: 75px;
+  width: 255px;
+  height: 60px;
+  background: linear-gradient(90deg, #e11616, #06182b);
+  transform: rotate(-16deg);
+  border-radius: 60px;
+}
+
+.cyber-cluster .cluster-core,
+.cyber-cluster .node {
+  background: linear-gradient(135deg, #f51d1d 0%, #c90000 100%);
+}
+
+.cyber-cluster .cluster-core {
+  left: 205px;
+  top: 90px;
+}
+
+.cyber-cluster .n1 { left: 10px; top: 0; }
+.cyber-cluster .n2 { left: 0; top: 180px; }
+
+.cyber-cluster .cluster-core::before,
+.cyber-cluster .cluster-core::after {
+  content: "";
+  position: absolute;
+  background: #e11212;
+  border-radius: 999px;
+  z-index: -1;
+}
+
+.cyber-cluster .cluster-core::before {
+  width: 260px;
+  height: 42px;
+  left: -150px;
+  top: 55px;
+  transform: rotate(22deg);
+}
+
+.cyber-cluster .cluster-core::after {
+  width: 250px;
+  height: 42px;
+  left: -145px;
+  top: 118px;
+  transform: rotate(-35deg);
+}
+
+/* ================= VLSI cluster ================= */
+.vlsi-cluster {
+  right: 2%;
+  top: 49%;
+  width: 470px;
+  height: 350px;
+}
+
+.vlsi-cluster::before {
+  right: 290px;
+  top: 75px;
+  width: 255px;
+  height: 60px;
+  background: linear-gradient(90deg, #06182b, #5b3bb6);
+  transform: rotate(18deg);
+  border-radius: 60px;
+}
+
+.vlsi-cluster .cluster-core,
+.vlsi-cluster .node {
+  background: linear-gradient(135deg, #7251d1 0%, #4e32a3 100%);
+}
+
+.vlsi-cluster .cluster-core {
+  left: 60px;
+  top: 90px;
+}
+
+.vlsi-cluster .n1 { left: 330px; top: 0; }
+.vlsi-cluster .n2 { left: 355px; top: 150px; }
+.vlsi-cluster .n3 { left: 205px; top: 245px; }
+
+.vlsi-cluster .cluster-core::before,
+.vlsi-cluster .cluster-core::after {
+  content: "";
+  position: absolute;
+  background: #5b3bb6;
+  border-radius: 999px;
+  z-index: -1;
+}
+
+.vlsi-cluster .cluster-core::before {
+  width: 300px;
+  height: 42px;
+  left: 105px;
+  top: 65px;
+  transform: rotate(-18deg);
+}
+
+.vlsi-cluster .cluster-core::after {
+  width: 330px;
+  height: 42px;
+  left: 95px;
+  top: 130px;
+  transform: rotate(28deg);
+}
+
+/* ================= Applied cluster ================= */
+.applied-cluster {
+  left: 50%;
+  bottom: 2%;
+  width: 480px;
+  height: 330px;
+  transform: translateX(-50%);
+}
+
+.applied-cluster::before {
+  left: 210px;
+  bottom: 250px;
+  width: 60px;
+  height: 220px;
+  background: linear-gradient(180deg, #06182b, #008c68);
+  border-radius: 60px;
+}
+
+.applied-cluster .cluster-core,
+.applied-cluster .node {
+  background: linear-gradient(135deg, #00a77a 0%, #007f5f 100%);
+}
+
+.applied-cluster .cluster-core {
+  left: 135px;
+  top: 0;
+}
+
+.applied-cluster .n1 { left: 0; top: 185px; }
+.applied-cluster .n2 { left: 300px; top: 185px; }
+
+.applied-cluster .cluster-core::before,
+.applied-cluster .cluster-core::after {
+  content: "";
+  position: absolute;
+  background: #008c68;
+  border-radius: 999px;
+  z-index: -1;
+}
+
+.applied-cluster .cluster-core::before {
+  width: 230px;
+  height: 40px;
+  left: -105px;
+  top: 145px;
+  transform: rotate(35deg);
+}
+
+.applied-cluster .cluster-core::after {
+  width: 230px;
+  height: 40px;
+  left: 85px;
+  top: 145px;
+  transform: rotate(-35deg);
+}
+
+/* ================= Responsive ================= */
+@media (max-width: 950px) {
+  .mindmap-wrap {
+    height: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+
+  .mind-center,
+  .cluster,
+  .cluster-core,
+  .node {
+    position: relative;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+  }
+
+  .mind-center {
+    order: 0;
+    margin: 0 auto;
+    width: 190px;
+    height: 190px;
+  }
+
+  .center-title {
+    font-size: 1.65rem;
+  }
+
+  .cluster {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 0.75rem;
+  }
+
+  .cluster::before,
+  .cluster-core::before,
+  .cluster-core::after {
+    display: none;
+  }
+
+  .cluster-core {
+    width: 190px;
+    height: 190px;
+    font-size: 1.35rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .node {
+    width: min(92%, 330px);
+    height: auto;
+    min-height: 70px;
+    border-radius: 22px;
+    font-size: 0.95rem;
+  }
+}
 </style>
 
 <div class="pub-wrap">
@@ -806,6 +1284,82 @@ author_profile: true
       <span class="tag">Polymorphic Circuits</span>
     </div>
   </div>
+
+    <!-- ================= Research Mind Map Section ================= -->
+  <section class="research-map-section">
+    <div class="research-map-header">
+      <span class="research-map-kicker">Research Portfolio</span>
+      <h2>Research Mind Map</h2>
+      <p>
+        A visual overview of publications grouped by research direction.
+      </p>
+    </div>
+  
+    <div class="mindmap-wrap">
+  
+      <!-- Center -->
+      <div class="mind-center">
+        <div class="center-title">S. R. Sapireddy</div>
+      </div>
+  
+      <!-- RF Signal Intelligence -->
+      <div class="cluster rf-cluster">
+        <div class="cluster-core">
+          RF Signal<br>Intelligence
+        </div>
+  
+        <div class="node n1">Bin-Based R<br><span>[SoutheastCon ’26]</span></div>
+        <div class="node n2">Revisiting R<br><span>[RFCoN ’25]</span></div>
+        <div class="node n3">Spread Spectrum<br>Classification<br><span>[MILCOM ’26]</span></div>
+        <div class="node n4">Signal Detection &<br>Classification<br><span>[AeroConf ’26]</span></div>
+        <div class="node n5">R2ML: Interpretable<br>RF Classification<br><span>[COMNETSAT ’26]</span></div>
+        <div class="node n6">Ph.D. Dissertation<br><span>[UMKC ’25]</span></div>
+      </div>
+  
+      <!-- Hardware-Aware AI -->
+      <div class="cluster ai-cluster">
+        <div class="cluster-core">
+          Hardware-<br>Aware AI
+        </div>
+  
+        <div class="node n1">Linear Activation<br>Approximations<br><span>[Memories ’25]</span></div>
+        <div class="node n2">Piecewise Activations<br>for LSTM<br><span>[GLSVLSI ’25]</span></div>
+        <div class="node n3">Low-Power<br>Deep Learning<br><span>[Dissertation ’25]</span></div>
+      </div>
+  
+      <!-- Cyber / IoT -->
+      <div class="cluster cyber-cluster">
+        <div class="cluster-core">
+          Cyber, IoT &<br>Situational<br>Awareness
+        </div>
+  
+        <div class="node n1">Adversarial Examples<br>in IoT Networks<br><span>[Electronics ’25]</span></div>
+        <div class="node n2">CARS: Cyber<br>Situational Awareness<br><span>[AISSC ’27]</span></div>
+      </div>
+  
+      <!-- VLSI / Circuits -->
+      <div class="cluster vlsi-cluster">
+        <div class="cluster-core">
+          VLSI, Circuits &<br>Architectures
+        </div>
+  
+        <div class="node n1">Crosstalk Polymorphic<br>Circuits<br><span>[Memories ’24]</span></div>
+        <div class="node n2">CAM Cell Memory<br>Architecture<br><span>[IJAECS ’16]</span></div>
+        <div class="node n3">Two-Stage Operational<br>Amplifier<br><span>[IJETT ’16]</span></div>
+      </div>
+  
+      <!-- Applied Intelligent Systems -->
+      <div class="cluster applied-cluster">
+        <div class="cluster-core">
+          Applied<br>Intelligent<br>Systems
+        </div>
+  
+        <div class="node n1">Messaging-Based<br>Intelligent Computing<br><span>[2024]</span></div>
+        <div class="node n2">Medical Record<br>Dispatch System<br><span>[IJARSET ’18]</span></div>
+      </div>
+  
+    </div>
+  </section>
 
   <div class="section">
     <h2>📚 Publications by Year</h2>
