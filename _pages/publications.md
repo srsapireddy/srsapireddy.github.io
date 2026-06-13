@@ -860,7 +860,7 @@ author_profile: true
       </div>
   
       <div id="cite-2027-aissc-cars" class="citation-box">
-        S. R. Sapireddy et al., "CARS: From Traffic Signals to Cyber Situational Awareness," International Conference on Advances in Intelligence Systems, Security, and Cybernetics, 2027.
+        
       </div>
 
     </div>
