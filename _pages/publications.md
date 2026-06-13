@@ -859,8 +859,9 @@ author_profile: true
         <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
       </div>
   
-      <div id="cite-2027-aissc-cars" class="citation-box">
-        
+       <div id="cite-2027-aissc-cars" class="citation-box">Under Review</div>
+    </div>
+        To be submitted 
       </div>
 
     </div>
@@ -905,7 +906,7 @@ author_profile: true
         <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
       </div>
     
-      <div id="cite-2026-milcom-spread-spectrum" class="citation-box">S. R. Sapireddy and M. Rahman, "Lightweight Methods for Spread Spectrum Signal Classification," Military Communications (MILCOM), National Capital Region, USA, 2026.</div>
+      <div id="cite-2026-milcom-spread-spectrum" class="citation-box">Under Review</div>
     </div>
     
     <div class="publication-card" data-type="conference">
