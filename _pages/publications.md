@@ -830,7 +830,7 @@ author_profile: true
       <div class="year-pill">To be submitted publications</div>
     </div>
   
-    <div class="publication-card" data-type="conference">
+       <div class="publication-card" data-type="conference">
       <div class="pub-top">
         <span class="pub-year">2027</span>
         <span class="pub-type">IEEE Conference</span>
@@ -866,46 +866,8 @@ author_profile: true
     </div>
   
     <!-- Full title: R2ML: Interpretable Machine Learning for R-Value-Based RF Modulation Classification -->
-  
-    <div class="publication-card" data-type="conference">
-      <div class="pub-top">
-        <span class="pub-year">2027</span>
-        <span class="pub-type">Conference</span>
-        <span class="pub-award">To be submitted</span>
-      </div>
-  
-      <div class="pub-title">
-        CARS: From Traffic Signals to Cyber Situational Awareness
-      </div>
-  
-      <div class="pub-authors">
-        S. R. Sapireddy et al.
-      </div>
-  
-      <div class="pub-venue">
-        International Conference on Advances in Intelligence Systems, Security, and Cybernetics, 29–30 January 2027.
-      </div>
-  
-      <div class="pub-note">
-        DOI: Pending
-      </div>
-  
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2027-aissc-cars')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2027-aissc-cars')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-  
-      <div id="cite-2027-aissc-cars" class="citation-box">
-        S. R. Sapireddy et al., "CARS: From Traffic Signals to Cyber Situational Awareness," International Conference on Advances in Intelligence Systems, Security, and Cybernetics, 2027.
-      </div>
+
     </div>
-  
-    <!-- Full title: CARS: From Traffic Signals to Cyber Situational Awareness -->
-  </div>
-
-
 
     <div class="year-section" data-year-section="2026">
       <div class="year-header">
@@ -978,6 +940,43 @@ author_profile: true
     
       <div id="cite-2026-milcom-interference" class="citation-box">M. Butler, D. Riead, S. R. Sapireddy, and M. Rahman, "Signal Detection and Classification in the Presence of Interference," Military Communications (MILCOM), National Capital Region, USA, 2026.</div>
     </div>
+
+         <div class="publication-card" data-type="conference">
+      <div class="pub-top">
+        <span class="pub-year">2027</span>
+        <span class="pub-type">IEEE Conference</span>
+        <span class="pub-award">To be submitted</span>
+      </div>
+  
+      <div class="pub-title">
+        CARS: From Traffic Signals to Cyber Situational Awareness
+      </div>
+  
+      <div class="pub-authors">
+        S. R. Sapireddy et al.
+      </div>
+  
+      <div class="pub-venue">
+        International Conference on Advances in Intelligence Systems, Security, and Cybernetics, 29–30 January 2027.
+      </div>
+  
+      <div class="pub-note">
+        DOI: Pending
+      </div>
+  
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2027-aissc-cars')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2027-aissc-cars')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+  
+      <div id="cite-2027-aissc-cars" class="citation-box">
+        S. R. Sapireddy et al., "CARS: From Traffic Signals to Cyber Situational Awareness," International Conference on Advances in Intelligence Systems, Security, and Cybernetics, 2027.
+      </div>
+    </div>
+  
+    <!-- Full title: CARS: From Traffic Signals to Cyber Situational Awareness -->
     
     <div class="publication-card" data-type="conference">
       <div class="pub-top">
