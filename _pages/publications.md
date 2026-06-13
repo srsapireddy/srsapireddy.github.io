@@ -861,7 +861,6 @@ author_profile: true
   
        <div id="cite-2027-aissc-cars" class="citation-box">Under Review</div>
     </div>
-        To be submitted 
       </div>
 
     </div>
