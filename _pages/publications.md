@@ -940,7 +940,7 @@ author_profile: true
 
              <div class="publication-card" data-type="conference">
       <div class="pub-top">
-        <span class="pub-year">2027</span>
+        <span class="pub-year">2026</span>
         <span class="pub-type">IEEE Conference</span>
         <span class="pub-award">To be submitted</span>
       </div>
