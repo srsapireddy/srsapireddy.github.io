@@ -830,18 +830,50 @@ toc: false
       </div>
 
       <div class="course-card isu-course">
+        <div class="course-title">ELE 110 - Engineering Programming with MATLAB (3 Credit Hours)</div>
+        <div class="course-meta">Illinois State University · Fall 2026</div>
+
+        <div class="course-body">
+          <strong>Focus:</strong>  Introductory course in the design of solutions to engineering problems using MATLAB software.<br>
+        </div>
+
+        <div class="course-tags">
+          <span class="course-tag isu">Scheduled</span>
+          <span class="course-tag isu">Fall 2026</span>
+          <span class="course-tag">Circuits</span>
+          <span class="course-tag">engineering</span>
+        </div>
+      </div>
+
+      <div class="course-card isu-course">
+        <div class="course-title">ELE 210 - Electrical Circuits I (3 Credit Hours)</div>
+        <div class="course-meta">Illinois State University · Fall 2026</div>
+
+        <div class="course-body">
+          <strong>Focus:</strong>  Introduction to DC circuit analysis and design. Topics cover basic circuit laws, resistive circuits, Kirchhoff's laws,            node and mesh analysis, Thevenin and Norton theorems, operational amplifiers, capacitors, inductors, and first-order circuits transient and                steady state responses.<br>
+        </div>
+
+        <div class="course-tags">
+          <span class="course-tag isu">Scheduled</span>
+          <span class="course-tag isu">Fall 2026</span>
+          <span class="course-tag">software</span>
+          <span class="course-tag">engineering</span>
+        </div>
+      </div>
+
+      <div class="course-card isu-course">
         <div class="course-title">GENED XXX - Introduction to Cybersecurity and Digital Privacy (3 Credit Hours)</div>
         <div class="course-meta">Illinois State University · Course proposal submitted · Under review</div>
 
         <div class="course-body">
           <strong>Focus:</strong> Foundations of cybersecurity and digital privacy, including personal data protection,
           cyber risks in everyday technologies, ethical responsibility, and informed digital citizenship.<br>
-          <strong>Status:</strong> GenEd course proposal submitted via CourseDog; pending review and approval.
+          <strong>Status:</strong> GenEd course proposal submitted via CourseDog; Approved.
         </div>
 
         <div class="course-tags">
           <span class="course-tag isu">Submitted</span>
-          <span class="course-tag isu">Under Review</span>
+          <span class="course-tag isu">Approved</span>
           <span class="course-tag">Cybersecurity</span>
           <span class="course-tag">Digital Privacy</span>
         </div>
