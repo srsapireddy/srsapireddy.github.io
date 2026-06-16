@@ -841,7 +841,7 @@ toc: false
           <span class="course-tag isu">Scheduled</span>
           <span class="course-tag isu">Fall 2026</span>
           <span class="course-tag">Circuits</span>
-          <span class="course-tag">engineering</span>
+          <span class="course-tag">Engineering</span>
         </div>
       </div>
 
@@ -856,8 +856,8 @@ toc: false
         <div class="course-tags">
           <span class="course-tag isu">Scheduled</span>
           <span class="course-tag isu">Fall 2026</span>
-          <span class="course-tag">software</span>
-          <span class="course-tag">engineering</span>
+          <span class="course-tag">Software</span>
+          <span class="course-tag">Programming</span>
         </div>
       </div>
 
