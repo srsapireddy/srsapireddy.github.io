@@ -523,6 +523,12 @@ author_profile: true
       <div class="highlight-grid">
 
         <div class="highlight-card">
+          <span class="gallery-tag">School Visit</span>
+          <img src="/images/school.jpeg" alt="School visit for K-12 STEM outreach.">
+          <h4>School visit for K-12 STEM outreach.</h4>
+        </div>
+        
+        <div class="highlight-card">
           <span class="gallery-tag">Campus</span>
           <img src="/images/Gies.jpeg" alt="Campus visit to University of Illinois Urbana-Champaign.">
           <h4>Campus visit to University of Illinois Urbana-Champaign.</h4>
