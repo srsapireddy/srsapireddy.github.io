@@ -484,11 +484,6 @@ author_profile: true
       <div class="impact-sub">Academic and professional engagement</div>
     </div>
 
-        <div class="highlight-card">
-          <span class="gallery-tag">School Visit</span>
-          <img src="/images/school.jpeg" alt="School visit for K-12 STEM outreach.">
-          <h4>School visit for K-12 STEM outreach.</h4>
-        </div>
 
     <div class="impact-card">
       <div class="impact-number">UMKC</div>
@@ -527,6 +522,12 @@ author_profile: true
 
     <div id="all-tab" class="tab-panel active">
       <div class="highlight-grid">
+
+        <div class="highlight-card">
+          <span class="gallery-tag">School Visit</span>
+          <img src="/images/school.jpeg" alt="School visit for K-12 STEM outreach.">
+          <h4>School visit for K-12 STEM outreach.</h4>
+        </div>
         
         <div class="highlight-card">
           <span class="gallery-tag">Campus</span>
