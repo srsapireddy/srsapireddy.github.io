@@ -19,6 +19,88 @@ layout: default
   --border:rgba(26,115,232,0.18);
 }
 
+body{
+  background:#0f172a !important;
+  color:white;
+  overflow-x:hidden;
+}
+
+/* moving background circles */
+.bg-animation{
+  position:fixed;
+  width:100%;
+  height:100%;
+  inset:0;
+  z-index:-1;
+  overflow:hidden;
+  pointer-events:none;
+}
+
+.bg-animation span{
+  position:absolute;
+  display:block;
+  width:20px;
+  height:20px;
+  background:rgba(255,255,255,0.06);
+  animation:animateBg 25s linear infinite;
+  bottom:-150px;
+  border-radius:50%;
+}
+
+.bg-animation span:nth-child(1){
+  left:10%;
+  width:80px;
+  height:80px;
+  animation-delay:0s;
+}
+
+.bg-animation span:nth-child(2){
+  left:20%;
+  width:25px;
+  height:25px;
+  animation-delay:2s;
+  animation-duration:12s;
+}
+
+.bg-animation span:nth-child(3){
+  left:70%;
+  width:35px;
+  height:35px;
+  animation-delay:4s;
+}
+
+.bg-animation span:nth-child(4){
+  left:40%;
+  width:60px;
+  height:60px;
+  animation-delay:0s;
+  animation-duration:18s;
+}
+
+.bg-animation span:nth-child(5){
+  left:65%;
+  width:30px;
+  height:30px;
+  animation-delay:0s;
+}
+
+@keyframes animateBg{
+  0%{
+    transform:translateY(0) rotate(0deg);
+    opacity:1;
+  }
+  100%{
+    transform:translateY(-1000px) rotate(720deg);
+    opacity:0;
+  }
+}
+
+/* keep content above background */
+.home-wrap{
+  position:relative;
+  z-index:1;
+}
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(14px); }
   to { opacity: 1; transform: translateY(0); }
@@ -773,9 +855,91 @@ layout: default
     grid-template-columns:1fr;
   }
 }
+
+body{
+  background:#0f172a !important;
+  color:white;
+  overflow-x:hidden;
+}
+
+/* moving background circles */
+.bg-animation{
+  position:fixed;
+  width:100%;
+  height:100%;
+  inset:0;
+  z-index:-1;
+  overflow:hidden;
+  pointer-events:none;
+}
+
+.bg-animation span{
+  position:absolute;
+  display:block;
+  width:20px;
+  height:20px;
+  background:rgba(255,255,255,0.06);
+  animation:animateBg 25s linear infinite;
+  bottom:-150px;
+  border-radius:50%;
+}
+
+.bg-animation span:nth-child(1){
+  left:10%;
+  width:80px;
+  height:80px;
+  animation-delay:0s;
+}
+
+.bg-animation span:nth-child(2){
+  left:20%;
+  width:25px;
+  height:25px;
+  animation-delay:2s;
+  animation-duration:12s;
+}
+
+.bg-animation span:nth-child(3){
+  left:70%;
+  width:35px;
+  height:35px;
+  animation-delay:4s;
+}
+
+.bg-animation span:nth-child(4){
+  left:40%;
+  width:60px;
+  height:60px;
+  animation-delay:0s;
+  animation-duration:18s;
+}
+
+.bg-animation span:nth-child(5){
+  left:65%;
+  width:30px;
+  height:30px;
+  animation-delay:0s;
+}
+
+@keyframes animateBg{
+  0%{
+    transform:translateY(0) rotate(0deg);
+    opacity:1;
+  }
+  100%{
+    transform:translateY(-1000px) rotate(720deg);
+    opacity:0;
+  }
+}
+
+/* keep content above background */
+.home-wrap{
+  position:relative;
+  z-index:1;
+}
 </style>
 
-<div class="home-wrap">
+<div class="bg-animation">
 
   <div class="home-hero">
     <div class="hero-top">
