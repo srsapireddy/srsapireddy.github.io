@@ -757,135 +757,133 @@ toc: false
       </div>
     </div>
 
+    <div id="current-tab" class="tab-panel">
+  <div class="sch-grid">
+
     <div class="sch-card current">
-    <div class="sch-header">
-    <img src="/images/place.jpg" alt="Sai Anirudh Godavarthi" class="sch-photo">
+      <div class="sch-header">
+        <img src="/images/place.jpg" alt="Sai Anirudh Godavarthi" class="sch-photo">
 
-    <div class="sch-title">
-      <div class="sch-name">
-        Sai Anirudh Godavarthi
-        <span class="inline-icons">
-          <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
-        </span>
-      </div>
-
-      <div class="sch-sub">
-        UMKC — M.S. Computer Science (Present)
-      </div>
-
-      <div class="pills">
-        <span class="pill role-current">Current</span>
-        <span class="pill tag">RF Communications</span>
-        <span class="pill tag">Antenna Design</span>
-      </div>
-
-      <div class="sch-sec">Research interests</div>
-      <ul class="sch-list">
-        <li>RF communications</li>
-        <li>Antenna design and simulation</li>
-      </ul>
-
-      <div class="sch-sec">Active topics / papers</div>
-      <ul class="sch-list">
-        <li>RF communication and antenna design project in progress</li>
-      </ul>
-    </div>
-    </div>
-    </div>
-
-      </div>
-    </div>
-
-    <div id="alumni-tab" class="tab-panel">
-      <div class="sch-grid">
-
-        <div class="sch-card alumni">
-          <div class="sch-header">
-            <img src="/images/hemanth.png" alt="Hemanth Bandi" class="sch-photo">
-
-            <div class="sch-title">
-              <div class="sch-name">
-                Hemanth Bandi
-                <span class="inline-icons">
-                  <a href="https://www.linkedin.com/in/hemanth-bandi-095266859317574524/" target="_blank" rel="noopener">
-                    <img src="/images/linkedin.png" alt="LinkedIn" class="icon">
-                  </a>
-                  <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
-                </span>
-              </div>
-
-              <div class="sch-sub">
-                UMKC — M.S. Computer Science (Spring 2023)
-              </div>
-
-              <div class="pills">
-                <span class="pill role-alumni">Alumni</span>
-                <span class="pill tag">RF</span>
-                <span class="pill tag">Deep Learning</span>
-                <span class="pill tag">Reinforcement Learning</span>
-              </div>
-
-              <div class="sch-sec">Research interests</div>
-              <ul class="sch-list">
-                <li>RF modulation recognition</li>
-                <li>Reinforcement learning</li>
-              </ul>
-
-              <div class="sch-sec">Active topics / papers</div>
-              <ul class="sch-list">
-                <li>Reinforcement Learning manuscript (Springer, To be submitted)</li>
-                <li>Benchmarking R-aware binning with envelope-feature baselines (IEEE, submitted)</li>
-              </ul>
-            </div>
+        <div class="sch-title">
+          <div class="sch-name">
+            Sai Anirudh Godavarthi
+            <span class="inline-icons">
+              <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+            </span>
           </div>
-        </div>
 
-        <div id="current-tab" class="tab-panel">
-      <div class="sch-grid">
-
-        <div class="sch-card current">
-          <div class="sch-header">
-            <img src="/images/place.jpg" alt="Abreham Mesfin" class="sch-photo">
-
-            <div class="sch-title">
-              <div class="sch-name">
-                Abreham Mesfin
-                <span class="inline-icons">
-                  <a href="https://www.linkedin.com/in/abreham-mesfin-820084301?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank" rel="noopener">
-                    <img src="/images/linkedin.png" alt="LinkedIn" class="icon">
-                  </a>
-                  <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
-                </span>
-              </div>
-
-              <div class="sch-sub">
-                UMKC — B.S. Electrical and Computer Engineering (Expected 2028)
-              </div>
-
-              <div class="pills">
-                <span class="pill role-current">Current</span>
-                <span class="pill tag">Logic Design</span>
-                <span class="pill tag">Engineering Computation</span>
-              </div>
-
-              <div class="sch-sec">Research interests</div>
-              <ul class="sch-list">
-                <li>Minimization techniques for Boolean functions</li>
-                <li>Low-power circuit implementations</li>
-              </ul>
-
-              <div class="sch-sec">Active topics / papers</div>
-              <ul class="sch-list">
-                <li>Digital Circuit Optimization Techniques (To be submitted)</li>
-              </ul>
-            </div>
+          <div class="sch-sub">
+            UMKC — M.S. Computer Science (Present)
           </div>
-        </div>
 
+          <div class="pills">
+            <span class="pill role-current">Current</span>
+            <span class="pill tag">RF Communications</span>
+            <span class="pill tag">Antenna Design</span>
+          </div>
+
+          <div class="sch-sec">Research interests</div>
+          <ul class="sch-list">
+            <li>RF communications</li>
+            <li>Antenna design and simulation</li>
+          </ul>
+
+          <div class="sch-sec">Active topics / papers</div>
+          <ul class="sch-list">
+            <li>RF communication and antenna design project in progress</li>
+          </ul>
+        </div>
       </div>
     </div>
 
   </div>
+</div>
+
+<div id="alumni-tab" class="tab-panel">
+  <div class="sch-grid">
+
+    <div class="sch-card alumni">
+      <div class="sch-header">
+        <img src="/images/hemanth.png" alt="Hemanth Bandi" class="sch-photo">
+
+        <div class="sch-title">
+          <div class="sch-name">
+            Hemanth Bandi
+            <span class="inline-icons">
+              <a href="https://www.linkedin.com/in/hemanth-bandi-095266859317574524/" target="_blank" rel="noopener">
+                <img src="/images/linkedin.png" alt="LinkedIn" class="icon">
+              </a>
+              <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+            </span>
+          </div>
+
+          <div class="sch-sub">
+            UMKC — M.S. Computer Science (Spring 2023)
+          </div>
+
+          <div class="pills">
+            <span class="pill role-alumni">Alumni</span>
+            <span class="pill tag">RF</span>
+            <span class="pill tag">Deep Learning</span>
+            <span class="pill tag">Reinforcement Learning</span>
+          </div>
+
+          <div class="sch-sec">Research interests</div>
+          <ul class="sch-list">
+            <li>RF modulation recognition</li>
+            <li>Reinforcement learning</li>
+          </ul>
+
+          <div class="sch-sec">Active topics / papers</div>
+          <ul class="sch-list">
+            <li>Reinforcement Learning manuscript (Springer, To be submitted)</li>
+            <li>Benchmarking R-aware binning with envelope-feature baselines (IEEE, submitted)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="sch-card alumni">
+      <div class="sch-header">
+        <img src="/images/place.jpg" alt="Abreham Mesfin" class="sch-photo">
+
+        <div class="sch-title">
+          <div class="sch-name">
+            Abreham Mesfin
+            <span class="inline-icons">
+              <a href="https://www.linkedin.com/in/abreham-mesfin-820084301?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank" rel="noopener">
+                <img src="/images/linkedin.png" alt="LinkedIn" class="icon">
+              </a>
+              <img src="/images/UMKC.png" alt="UMKC Logo" class="logo">
+            </span>
+          </div>
+
+          <div class="sch-sub">
+            UMKC — B.S. Electrical and Computer Engineering
+          </div>
+
+          <div class="pills">
+            <span class="pill role-alumni">Alumni</span>
+            <span class="pill tag">Logic Design</span>
+            <span class="pill tag">Engineering Computation</span>
+          </div>
+
+          <div class="sch-sec">Research interests</div>
+          <ul class="sch-list">
+            <li>Minimization techniques for Boolean functions</li>
+            <li>Low-power circuit implementations</li>
+          </ul>
+
+          <div class="sch-sec">Research topics / papers</div>
+          <ul class="sch-list">
+            <li>Digital Circuit Optimization Techniques</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
 
   <div class="section">
     <h2>🧭 Mentoring Pathways</h2>
