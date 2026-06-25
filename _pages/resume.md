@@ -802,14 +802,14 @@ table.resume-table {
 
       <div>
         <div class="pub-card">
-          <span class="pub-venue">MDPI Memories 2024</span>
+          <span class="pub-venue">Elsevier Memories 2025</span>
           <div class="pub-title">
             Piecewise Linear Approximation of Activation Functions for Neural Networks
           </div>
         </div>
 
         <div class="pub-card">
-          <span class="pub-venue">MDPI Memories 2024</span>
+          <span class="pub-venue">MDPI Electronics 2024</span>
           <div class="pub-title">
             A Review of Crosstalk-Based Polymorphic Circuit Design
           </div>
