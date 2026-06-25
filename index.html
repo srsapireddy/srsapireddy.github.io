@@ -952,6 +952,78 @@ body{
   background:rgba(255,255,255,0.06) !important;
 }
 
+
+.home-hero {
+  min-height: 560px;
+  padding: 80px 7%;
+  display: grid;
+  grid-template-columns: 0.9fr 1.25fr;
+  align-items: center;
+  gap: 45px;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(37, 99, 235, 0.25), transparent 30%),
+    linear-gradient(135deg, #050816, #0f172a 55%, #111827);
+}
+
+.hero-left {
+  color: white;
+}
+
+.hero-label {
+  color: #93c5fd;
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.hero-left h1 {
+  font-size: clamp(2.4rem, 5vw, 4.6rem);
+  line-height: 1.05;
+  margin: 0 0 22px;
+  font-weight: 800;
+}
+
+.hero-desc {
+  color: #cbd5e1;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 560px;
+}
+
+.hero-image-box {
+  position: relative;
+  padding: 14px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+}
+
+.hero-image-box img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+}
+
+.image-caption {
+  position: absolute;
+  left: 28px;
+  bottom: 28px;
+  padding: 9px 14px;
+  border-radius: 10px;
+  background: rgba(15, 23, 42, 0.82);
+  color: #f8fafc;
+  font-size: 0.88rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+@media (max-width: 900px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+    padding: 55px 5%;
+  }
+}
 </style>
 
 <div class="tech-bg"></div>
@@ -1083,6 +1155,24 @@ body{
     </div>
   </div>
 
+ <section class="home-hero">
+  <div class="hero-left">
+    <p class="hero-label">RF • Antenna Design • CST Simulation</p>
+
+    <h1>Hardware-Aware AI for RF and Antenna Systems</h1>
+
+    <p class="hero-desc">
+      Research in antenna design, RF signal processing, CST-based simulation,
+      and machine-learning-assisted wireless systems.
+    </p>
+  </div>
+
+  <div class="hero-image-box">
+    <img src="/images/antenna-cst.png" alt="CST simulation of inset-fed microstrip patch antenna">
+    <div class="image-caption">Inset-Fed Microstrip Patch Antenna — CST Model</div>
+  </div>
+</section>
+  
   <div class="section">
     <h2>📰 Latest News</h2>
     <div class="divider"></div>
