@@ -953,75 +953,89 @@ body{
 }
 
 
-.home-hero {
-  min-height: 560px;
-  padding: 80px 7%;
+.antenna-showcase {
+  margin-top: 1.25rem;
+  padding: 2rem;
+  border-radius: 22px;
   display: grid;
-  grid-template-columns: 0.9fr 1.25fr;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 2rem;
   align-items: center;
-  gap: 45px;
   background:
-    radial-gradient(circle at 20% 20%, rgba(37, 99, 235, 0.25), transparent 30%),
-    linear-gradient(135deg, #050816, #0f172a 55%, #111827);
+    radial-gradient(circle at 85% 20%, rgba(6,182,212,0.18), transparent 32%),
+    linear-gradient(135deg, rgba(15,23,42,0.92), rgba(30,41,59,0.78));
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 18px 45px rgba(0,0,0,0.28);
+  backdrop-filter: blur(15px);
+  overflow: hidden;
 }
 
-.hero-left {
-  color: white;
+.antenna-text {
+  color: #f8fafc;
 }
 
-.hero-label {
+.antenna-label {
+  margin: 0 0 0.8rem 0;
   color: #93c5fd;
-  font-size: 0.9rem;
-  letter-spacing: 0.12em;
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  margin-bottom: 18px;
-}
-
-.hero-left h1 {
-  font-size: clamp(2.4rem, 5vw, 4.6rem);
-  line-height: 1.05;
-  margin: 0 0 22px;
   font-weight: 800;
 }
 
-.hero-desc {
+.antenna-text h2 {
+  margin: 0 0 1rem 0;
+  font-size: clamp(1.6rem, 3vw, 2.6rem);
+  line-height: 1.12;
+  color: #ffffff;
+}
+
+.antenna-text p {
+  margin: 0;
+  max-width: 520px;
   color: #cbd5e1;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.7;
-  max-width: 560px;
 }
 
-.hero-image-box {
+.antenna-card {
   position: relative;
-  padding: 14px;
-  border-radius: 22px;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+  padding: 12px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.42);
 }
 
-.hero-image-box img {
+.antenna-card img {
   width: 100%;
+  height: 330px;
+  object-fit: cover;
+  object-position: center;
   display: block;
-  border-radius: 16px;
+  border-radius: 15px;
 }
 
-.image-caption {
+.antenna-caption {
   position: absolute;
-  left: 28px;
-  bottom: 28px;
-  padding: 9px 14px;
+  left: 26px;
+  bottom: 26px;
+  padding: 8px 13px;
   border-radius: 10px;
-  background: rgba(15, 23, 42, 0.82);
+  background: rgba(15,23,42,0.82);
   color: #f8fafc;
-  font-size: 0.88rem;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 0.86rem;
+  border: 1px solid rgba(255,255,255,0.18);
 }
 
 @media (max-width: 900px) {
-  .home-hero {
+  .antenna-showcase {
     grid-template-columns: 1fr;
-    padding: 55px 5%;
+    padding: 1.4rem;
+  }
+
+  .antenna-card img {
+    height: 260px;
   }
 }
 </style>
@@ -1155,21 +1169,21 @@ body{
     </div>
   </div>
 
- <section class="home-hero">
-  <div class="hero-left">
-    <p class="hero-label">RF • Antenna Design • CST Simulation</p>
+  <section class="antenna-showcase">
+  <div class="antenna-text">
+    <p class="antenna-label">RF • Antenna Design • CST Simulation</p>
 
-    <h1>Hardware-Aware AI for RF and Antenna Systems</h1>
+    <h2>CST-Based Microstrip Patch Antenna Design</h2>
 
-    <p class="hero-desc">
-      Research in antenna design, RF signal processing, CST-based simulation,
-      and machine-learning-assisted wireless systems.
+    <p>
+      Inset-fed patch antenna modeling for RF communication, antenna optimization,
+      and machine-learning-assisted electromagnetic design.
     </p>
   </div>
 
-  <div class="hero-image-box">
+  <div class="antenna-card">
     <img src="/images/antenna-cst.png" alt="CST simulation of inset-fed microstrip patch antenna">
-    <div class="image-caption">Inset-Fed Microstrip Patch Antenna — CST Model</div>
+    <div class="antenna-caption">Inset-Fed Microstrip Patch Antenna — CST Model</div>
   </div>
 </section>
   
