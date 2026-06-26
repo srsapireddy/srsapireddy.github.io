@@ -743,7 +743,7 @@ author_profile: true
       <div class="service-grid">
 
     <div class="service-card isu">
-      <h4>Electric Circuits I Laboratory Manual Development - Ongoing</h4>
+      <h4>Electric Circuits I Laboratory Manual Development</h4>
       <p class="meta"><strong>Institution:</strong> Illinois State University</p>
       <p><strong>Focus:</strong> Development of laboratory manuals, experiment procedures, data tables, safety guidelines, and instructional materials for Electric Circuits I, supporting hands-on learning in DC circuits, Ohm’s law, resistor measurements, series and parallel circuits, nodal analysis, and mesh current methods.</p>
       <span class="pill ongoing">Ongoing</span>
