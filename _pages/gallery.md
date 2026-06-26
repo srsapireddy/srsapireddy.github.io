@@ -526,7 +526,7 @@ author_profile: true
         <div class="highlight-card">
           <span class="gallery-tag">School Visit</span>
           <img src="/images/Fair_1.jpeg" alt="Academic Department & Student Services Fair">
-          <h4>School visit for K-12 STEM outreach.</h4>
+          <h4>Academic Department & Student Services Fair.</h4>
         </div>
 
         <div class="highlight-card">
