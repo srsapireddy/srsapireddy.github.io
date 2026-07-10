@@ -877,10 +877,11 @@ author_profile: true
         </div>
 
         <div class="service-card research">
-          <h4>NSF Proposal</h4>
+          <h4>AI-enhanced undergraduate engineering education</h4>
           <p class="meta"><strong>Role:</strong> Principal Investigator</p>
           <p class="meta"><strong>Status:</strong> Internal Routing</p>
-          <p><strong>Focus:</strong> <p><strong>Focus:</strong> Enhancing undergraduate engineering education through innovative AI-enabled learning strategies, active learning, and computational reasoning.</p></p>
+          <<p><strong>Sponsor:</strong> NSF IUSE Program </p>
+          <p><strong>Focus:</strong> Enhancing undergraduate engineering education through innovative AI-enabled learning strategies, active learning, and computational reasoning.</p>
           <span class="pill pending">Pending Submission</span>
         </div>
 
