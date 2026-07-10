@@ -876,6 +876,14 @@ author_profile: true
           <span class="pill pending">Pending Submission</span>
         </div>
 
+        <div class="service-card research">
+          <h4>NSF Proposal</h4>
+          <p class="meta"><strong>Role:</strong> Principal Investigator</p>
+          <p class="meta"><strong>Status:</strong> Internal Routing</p>
+          <p><strong>Focus:</strong> AI-assisted engineering education.</p>
+          <span class="pill pending">Pending Submission</span>
+        </div>
+
         <div class="service-card isu research">
           <h4>Hardware-Aware Characterization of RF Transmission Lines and Antenna Arrays</h4>
           <p class="meta"><strong>Role:</strong> Principal Investigator</p>
