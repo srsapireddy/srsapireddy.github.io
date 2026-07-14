@@ -878,7 +878,7 @@ author_profile: true
 
         <div class="service-card research">
           <h4>AI-Enhanced Undergraduate Engineering Education</h4>
-          <p class="meta"><strong>Role:</strong> Principal Investigator</p>
+          <p class="meta"><strong>Role:</strong> Lead Principal Investigator</p>
           <p class="meta"><strong>Status:</strong> Submitted</p>
           <p><strong>Sponsor:</strong> NSF IUSE Program </p>
           <p><strong>Focus:</strong> Enhancing undergraduate engineering education through innovative AI-enabled learning strategies, active learning, and computational reasoning.</p>
@@ -903,7 +903,7 @@ author_profile: true
 
         <div class="service-card research">
           <h4>Energy and Compute-Aware Edge Systems: A Pilot Framework</h4>
-          <p class="meta"><strong>Role:</strong> Lead Principal Investigator</p>
+          <p class="meta"><strong>Role:</strong> Principal Investigator</p>
           <p class="meta"><strong>Sponsor:</strong> IIN</p>
           <p><strong>Focus:</strong> Pilot-scale research on energy and compute-aware edge systems, emphasizing lightweight intelligence, hardware-aware design, student involvement, and applied edge deployment.</p>
           <span class="pill pending">Not Funded</span>
