@@ -882,7 +882,7 @@ author_profile: true
           <p class="meta"><strong>Status:</strong> Submitted</p>
           <p><strong>Sponsor:</strong> NSF IUSE Program </p>
           <p><strong>Focus:</strong> Enhancing undergraduate engineering education through innovative AI-enabled learning strategies, active learning, and computational reasoning.</p>
-          <span class="pill pending">Pending Submission</span>
+          <span class="pill pending">Under Review</span>
         </div>
 
         <div class="service-card isu research">
