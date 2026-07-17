@@ -1042,35 +1042,55 @@ body{
 .featured-talk {
   max-width: 1100px;
   margin: 60px auto;
-  padding: 40px;
+  padding: 42px 60px;
   background: #f7f7f7;
   border-left: 5px solid #00629b;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .talk-label {
-  margin-bottom: 10px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  margin: 0 0 14px;
   color: #00629b;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .featured-talk h2 {
-  margin: 0 0 15px;
+  margin: 0 0 20px;
+  color: #1b1f24;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.featured-talk p {
+  color: #4b5563;
+  font-size: 1.05rem;
+  line-height: 1.7;
 }
 
 .talk-link {
   display: inline-block;
-  margin-top: 12px;
-  font-weight: 600;
+  margin-top: 18px;
   color: #00629b;
+  font-weight: 700;
   text-decoration: none;
 }
 
 .talk-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .featured-talk {
+    margin: 35px 20px;
+    padding: 30px 25px;
+  }
+
+  .featured-talk h2 {
+    font-size: 1.6rem;
+  }
 }
 </style>
 
