@@ -742,6 +742,15 @@ author_profile: true
     <div id="institutional-tab" class="tab-panel active">
       <div class="service-grid">
 
+    <div class="service-card isu">
+      <h4>Faculty Media Representative - New Engineering Building Opening 2026</h4>
+      <p class="meta"><strong>Institution:</strong> Illinois State University</p>
+      <p><strong>Media Outlets:</strong> WEEK TV and The Pantagraph</p>
+      <p><strong>Role:</strong> Represented the Department of Electrical Engineering during media interviews covering the move into the university’s new engineering building.</p>
+      <p><strong>Focus:</strong> Discussed the impact of the new offices, classrooms, and laboratory spaces on instruction, hands-on learning, student projects, and early engineering design experiences.</p>
+      <span class="pill completed">Completed</span>
+    </div>
+
     
     <div class="service-card isu">
       <h4>Academic Department & Student Services Fair - Summer Open House 2026</h4>
