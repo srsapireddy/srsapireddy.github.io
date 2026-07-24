@@ -547,7 +547,7 @@ author_profile: true
   <article class="moment-card">
     <div class="moment-image">
       <img
-        src="/images/engineering-building-interview.jpg"
+        src="/images/pantagraph.png"
         alt="The Pantagraph coverage of Illinois State University College of Engineering"
       >
 
