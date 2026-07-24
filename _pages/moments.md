@@ -541,6 +541,48 @@ author_profile: true
 
   <section class="moments-timeline">
 
+  <div class="moment-item">
+  <div class="moment-dot"></div>
+
+  <article class="moment-card">
+    <div class="moment-image">
+      <img
+        src="/images/engineering-building-interview.jpg"
+        alt="The Pantagraph coverage of Illinois State University College of Engineering"
+      >
+
+        <div class="moment-badge">Media Coverage</div>
+        <div class="moment-year">2026</div>
+        </div>
+    
+        <div class="moment-content">
+          <h3>Featured in The Pantagraph</h3>
+    
+          <p>
+            Featured in The Pantagraph’s coverage of Illinois State University’s
+            new College of Engineering building. Discussed the Digital and
+            Microcontrollers Laboratory and the role of hands-on learning in
+            electrical engineering education.
+          </p>
+    
+          <div class="moment-tags">
+            <span>The Pantagraph</span>
+            <span>Media Coverage</span>
+            <span>Engineering Education</span>
+          </div>
+    
+          <a
+            href="https://pantagraph.com/news/local/video_4dd9fcd5-99bd-548a-af33-ed2bc76f7506.html"
+            class="moment-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Media Coverage →
+          </a>
+        </div>
+      </article>
+    </div>
+
     <div class="moment-item">
       <div class="moment-dot"></div>
 
