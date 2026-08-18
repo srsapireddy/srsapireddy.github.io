@@ -1148,8 +1148,6 @@ toc: false
     </div>
   </div>
 
-</div>
-
 <script>
 function openCourseTab(event, panelId) {
   const panels = document.querySelectorAll(".tab-panel");
