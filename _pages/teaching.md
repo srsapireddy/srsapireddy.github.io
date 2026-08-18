@@ -830,12 +830,13 @@ toc: false
       </div>
 
       <div class="course-card isu-course">
-        <div class="course-title">ELE 110 - Engineering Programming with MATLAB (3 Credit Hours)</div>
-        <div class="course-meta">Illinois State University · Fall 2026</div>
-
+        <div class="course-title">ELE 110 – Engineering Programming with MATLAB (3 Credit Hours)</div>
+        <div class="course-meta">Illinois State University · Fall 2026 · Sections 5 and 9 · 51 Students</div>
+      
         <div class="course-body">
-          <strong>Focus:</strong>  Introductory course in the design of solutions to engineering problems using MATLAB software.<br>
+          <strong>Focus:</strong> Introductory course on designing solutions to engineering problems using MATLAB.
         </div>
+      </div>
 
         <div class="course-tags">
           <span class="course-tag isu">Scheduled</span>
@@ -846,12 +847,13 @@ toc: false
       </div>
 
       <div class="course-card isu-course">
-        <div class="course-title">ELE 210 - Electrical Circuits I (3 Credit Hours)</div>
-        <div class="course-meta">Illinois State University · Fall 2026</div>
-
+        <div class="course-title">ELE 210 – Electrical Circuits I (3 Credit Hours)</div>
+        <div class="course-meta">Illinois State University · Fall 2026 · Section 2 · 28 Students</div>
+      
         <div class="course-body">
-          <strong>Focus:</strong>  Introduction to DC circuit analysis and design. Topics cover basic circuit laws, resistive circuits, Kirchhoff's laws,            node and mesh analysis, Thevenin and Norton theorems, operational amplifiers, capacitors, inductors, and first-order circuits transient and                steady state responses.<br>
+          <strong>Focus:</strong> Introduction to DC circuit analysis and design. Topics include basic circuit laws, resistive circuits, Kirchhoff’s laws, nodal and mesh analysis, Thevenin and Norton theorems, operational amplifiers, capacitors, inductors, and the transient and steady-state responses of first-order circuits.
         </div>
+      </div>
 
         <div class="course-tags">
           <span class="course-tag isu">Scheduled</span>
