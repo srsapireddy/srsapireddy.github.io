@@ -891,8 +891,6 @@ toc: false
         </div>
       </div>
 
-      </div>
-
       <div class="course-card isu-course">
         <div class="course-title">GENED XXX - Introduction to Cybersecurity and Digital Privacy (3 Credit Hours)</div>
         <div class="course-meta">Illinois State University · Course proposal submitted · Under review</div>
@@ -963,6 +961,8 @@ toc: false
           <span class="course-tag">Modulation</span>
         </div>
       </div>
+
+    </div>
 
     </div>
 
