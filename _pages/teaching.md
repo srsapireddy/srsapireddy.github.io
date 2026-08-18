@@ -794,66 +794,104 @@ toc: false
       UMKC instructor-led courses, and graduate teaching assistant experience.
     </p>
 
-    <div class="course-tabs">
-      <button class="tab-button active" onclick="openCourseTab(event, 'isu-courses')">Illinois State University</button>
-      <button class="tab-button" onclick="openCourseTab(event, 'umkc-courses')">UMKC Instructor</button>
-      <button class="tab-button" onclick="openCourseTab(event, 'ta-courses')">Graduate Teaching Assistant</button>
+       <div class="course-tabs">
+      <button class="tab-button active" onclick="openCourseTab(event, 'isu-courses')">
+        Illinois State University
+      </button>
+      <button class="tab-button" onclick="openCourseTab(event, 'umkc-courses')">
+        UMKC Instructor
+      </button>
+      <button class="tab-button" onclick="openCourseTab(event, 'ta-courses')">
+        Graduate Teaching Assistant
+      </button>
     </div>
-
+    
     <div id="isu-courses" class="tab-panel active">
-
+    
+      <!-- EGR 130 -->
       <div class="course-card isu-course">
         <div class="course-feature-grid">
+    
           <div>
-            <div class="course-title">EGR 130 - Engineering Explorations (3 Credit Hours)</div>
-            <div class="course-meta">Illinois State University · Spring 2026 · Assistant Professor · 33 students</div>
-
+            <div class="course-title">
+              EGR 130 – Engineering Explorations (3 Credit Hours)
+            </div>
+    
+            <div class="course-meta">
+              Illinois State University · Spring 2026 · Guest Instructor · 33 Students
+            </div>
+    
             <div class="course-body">
               <strong>Focus:</strong> Guest instruction supporting foundational engineering concepts and course activities.<br>
               <strong>Status:</strong> Guest instruction.
             </div>
-
+    
             <div class="course-tags">
               <span class="course-tag isu">Spring 2026</span>
-              <span class="course-tag isu">Assistant Professor</span>
+              <span class="course-tag isu">Guest Instructor</span>
               <span class="course-tag">Engineering Foundations</span>
-              <span class="course-tag">33 students</span>
+              <span class="course-tag">33 Students</span>
             </div>
           </div>
-
+    
           <div>
             <a href="/images/ENGR130.jpeg" target="_blank" rel="noopener">
-              <img src="/images/ENGR130.jpeg" alt="EGR 130 Laboratory" class="course-img">
+              <img
+                src="/images/ENGR130.jpeg"
+                alt="EGR 130 engineering laboratory activity"
+                class="course-img"
+              >
             </a>
           </div>
+    
         </div>
       </div>
-
+    
+      <!-- ELE 110 -->
       <div class="course-card isu-course">
-        <div class="course-title">ELE 110 – Engineering Programming with MATLAB (3 Credit Hours)</div>
-        <div class="course-meta">Illinois State University · Fall 2026 · Sections 5 and 9 · 51 Students</div>
-      
+        <div class="course-title">
+          ELE 110 – Engineering Programming with MATLAB (3 Credit Hours)
+        </div>
+    
+        <div class="course-meta">
+          Illinois State University · Fall 2026 · Sections 5 and 9 · 51 Students
+        </div>
+    
         <div class="course-body">
           <strong>Focus:</strong> Introductory course on designing solutions to engineering problems using MATLAB.
         </div>
-      </div>
-
+    
         <div class="course-tags">
-          <span class="course-tag isu">Scheduled</span>
           <span class="course-tag isu">Fall 2026</span>
-          <span class="course-tag">Circuits</span>
-          <span class="course-tag">Engineering</span>
+          <span class="course-tag isu">Assistant Professor</span>
+          <span class="course-tag">MATLAB</span>
+          <span class="course-tag">51 Students</span>
         </div>
       </div>
-
+    
+      <!-- ELE 210 -->
       <div class="course-card isu-course">
-        <div class="course-title">ELE 210 – Electrical Circuits I (3 Credit Hours)</div>
-        <div class="course-meta">Illinois State University · Fall 2026 · Section 2 · 28 Students</div>
-      
+        <div class="course-title">
+          ELE 210 – Electrical Circuits I (3 Credit Hours)
+        </div>
+    
+        <div class="course-meta">
+          Illinois State University · Fall 2026 · Section 2 · 28 Students
+        </div>
+    
         <div class="course-body">
           <strong>Focus:</strong> Introduction to DC circuit analysis and design. Topics include basic circuit laws, resistive circuits, Kirchhoff’s laws, nodal and mesh analysis, Thevenin and Norton theorems, operational amplifiers, capacitors, inductors, and the transient and steady-state responses of first-order circuits.
         </div>
+    
+        <div class="course-tags">
+          <span class="course-tag isu">Fall 2026</span>
+          <span class="course-tag isu">Assistant Professor</span>
+          <span class="course-tag">Electrical Circuits</span>
+          <span class="course-tag">28 Students</span>
+        </div>
       </div>
+    
+    </div>
 
         <div class="course-tags">
           <span class="course-tag isu">Scheduled</span>
