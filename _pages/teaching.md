@@ -890,8 +890,6 @@ toc: false
           <span class="course-tag">28 Students</span>
         </div>
       </div>
-    
-    </div>
 
       </div>
 
