@@ -893,12 +893,6 @@ toc: false
     
     </div>
 
-        <div class="course-tags">
-          <span class="course-tag isu">Scheduled</span>
-          <span class="course-tag isu">Fall 2026</span>
-          <span class="course-tag">Software</span>
-          <span class="course-tag">Programming</span>
-        </div>
       </div>
 
       <div class="course-card isu-course">
