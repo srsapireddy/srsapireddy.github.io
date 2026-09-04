@@ -825,44 +825,47 @@ author_profile: true
     </div>
         </div>
 
-      <div class="year-section" data-year-section="2027">
-    <div class="year-header">
-      <div class="year-title">📅 2027 Publications</div>
-      <div class="year-pill">To be submitted publications</div>
+    <div class="year-section" data-year-section="2026">
+      <div class="year-header">
+        <div class="year-title">📅 2026 Publications</div>
+        <div class="year-pill">Accepted publications</div>
+      </div>
+    
+      <div class="publication-card" data-type="conference">
+        <div class="pub-top">
+          <span class="pub-year">2026</span>
+          <span class="pub-type">IEEE Conference</span>
+          <span class="pub-award">Accepted for publication</span>
+        </div>
+    
+        <div class="pub-title">
+          Cross-Domain Cyber Awareness Using Signal Intelligence Techniques
+        </div>
+    
+        <div class="pub-authors">
+          Srinivas Rahul Sapireddy, Priyanka S, Hemanth Bandi, and Sai Anirudh Godavarthi
+        </div>
+    
+        <div class="pub-venue">
+          In Proceedings of the 2026 IEEE 17th Annual Ubiquitous Computing, Electronics &amp; Mobile Communication Conference (UEMCON), New York, USA, Oct. 2026.
+        </div>
+    
+        <div class="pub-note">
+          DOI: Pending
+        </div>
+    
+        <div class="pub-links">
+          <button class="pub-button primary" onclick="toggleCitation('cite-2026-uemcon-cyber')">Citation</button>
+          <button class="pub-button" onclick="copyCitation('cite-2026-uemcon-cyber')">Copy Citation</button>
+          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+        </div>
+    
+        <div id="cite-2026-uemcon-cyber" class="citation-box">
+          S. R. Sapireddy, P. Siddappa, H. Bandi, and S. A. Godavarthi, “Cross-Domain Cyber Awareness Using Signal Intelligence Techniques,” in <em>Proceedings of the 2026 IEEE 17th Annual Ubiquitous Computing, Electronics &amp; Mobile Communication Conference (UEMCON)</em>, New York, NY, USA, Oct. 2026, accepted for publication.
+        </div>
+      </div>
     </div>
-              <div class="publication-card" data-type="conference">
-      <div class="pub-top">
-        <span class="pub-year">2027</span>
-        <span class="pub-type">IEEE Conference</span>
-        <span class="pub-award">To be submitted</span>
-      </div>
-  
-      <div class="pub-title">
-        CARS: From Traffic Signals to Cyber Situational Awareness
-      </div>
-  
-      <div class="pub-authors">
-        S. R. Sapireddy et al.
-      </div>
-  
-      <div class="pub-venue">
-        International Conference on Advances in Intelligence Systems, Security, and Cybernetics, 29–30 January 2027.
-      </div>
-  
-      <div class="pub-note">
-        DOI: Pending
-      </div>
-  
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2027-aissc-cars')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2027-aissc-cars')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-  
-       <div id="cite-2027-aissc-cars" class="citation-box">Under Review</div>
-    </div>
-      </div>
   
     <!-- Full title: R2ML: Interpretable Machine Learning for R-Value-Based RF Modulation Classification -->
 
