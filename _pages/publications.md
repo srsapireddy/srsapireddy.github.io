@@ -830,7 +830,7 @@ author_profile: true
     <div class="year-section" data-year-section="2026">
       <div class="year-header">
         <div class="year-title">📅 2026 Publications</div>
-        <div class="year-pill">1 publication</div>
+        <div class="year-pill">3 publications</div>
     </div>
     
       <div class="publication-card" data-type="conference">
