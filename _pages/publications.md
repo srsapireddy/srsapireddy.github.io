@@ -832,7 +832,7 @@ author_profile: true
         <div class="year-title">📅 2026 Publications</div>
         <div class="year-pill">3 publications</div>
     </div>
-    
+ 
       <div class="publication-card" data-type="conference">
         <div class="pub-top">
           <span class="pub-year">2026</span>
@@ -866,6 +866,48 @@ author_profile: true
         <div id="cite-2026-uemcon-cyber" class="citation-box">
           S. R. Sapireddy, P. Siddappa, H. Bandi, and S. A. Godavarthi, “Cross-Domain Cyber Awareness Using Signal Intelligence Techniques,” in <em>Proceedings of the 2026 IEEE 17th Annual Ubiquitous Computing, Electronics &amp; Mobile Communication Conference (UEMCON)</em>, New York, NY, USA, Oct. 2026, accepted for publication.
         </div>
+      </div>
+    </div>
+
+    <div class="publication-card" data-type="journal">
+      <div class="pub-top">
+        <span class="pub-year">2026</span>
+        <span class="pub-type">Journal Article</span>
+        <span class="pub-award">Published</span>
+      </div>
+    
+      <div class="pub-title">
+        Comparative Techno-Economic Assessment of Solar-Wind Hybrid Energy Systems Using HOMER
+      </div>
+    
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy, Hemanth Sairam Bandi, and Sravan Uppala
+      </div>
+    
+      <div class="pub-venue">
+        <em>International Journal of Electrical Engineering and Technology</em>, vol. 17, no. 4, pp. 1&ndash;14, 2026.
+      </div>
+    
+      <div class="pub-note">
+        DOI: Pending
+      </div>
+    
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2026-ijeet-homer')">
+          Citation
+        </button>
+        <button class="pub-button" onclick="copyCitation('cite-2026-ijeet-homer')">
+          Copy Citation
+        </button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+    
+      <div id="cite-2026-ijeet-homer" class="citation-box">
+        S. R. Sapireddy, H. S. Bandi, and S. Uppala, 
+        &ldquo;Comparative Techno-Economic Assessment of Solar-Wind Hybrid Energy Systems Using HOMER,&rdquo;
+        <em>International Journal of Electrical Engineering and Technology</em>, 
+        vol. 17, no. 4, pp. 1&ndash;14, 2026.
       </div>
     </div>
 
