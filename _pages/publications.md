@@ -869,12 +869,12 @@ author_profile: true
       </div>
     </div>
 
-    <div class="publication-card" data-type="journal">
-      <div class="pub-top">
-        <span class="pub-year">2026</span>
-        <span class="pub-type">Journal Article</span>
-        <span class="pub-award">Published</span>
-      </div>
+      <div class="publication-card" data-type="journal">
+        <div class="pub-top">
+          <span class="pub-year">2026</span>
+          <span class="pub-type">Journal Article</span>
+          <span class="pub-award">Published</span>
+        </div>
     
       <div class="pub-title">
         Comparative Techno-Economic Assessment of Solar-Wind Hybrid Energy Systems Using HOMER
@@ -889,7 +889,7 @@ author_profile: true
       </div>
     
       <div class="pub-note">
-        DOI: Pending
+        DOI: https://doi.org/10.34218/IJEET_17_04_001
       </div>
     
       <div class="pub-links">
