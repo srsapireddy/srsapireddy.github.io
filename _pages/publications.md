@@ -824,12 +824,14 @@ author_profile: true
       <button class="tab-button" onclick="filterPublications(event, 'earlier')">Earlier Work</button>
     </div>
         </div>
+  
+    <!-- Full title: R2ML: Interpretable Machine Learning for R-Value-Based RF Modulation Classification -->
 
     <div class="year-section" data-year-section="2026">
       <div class="year-header">
         <div class="year-title">📅 2026 Publications</div>
-        <div class="year-pill">Accepted publications</div>
-      </div>
+        <div class="year-pill">1 publication</div>
+    </div>
     
       <div class="publication-card" data-type="conference">
         <div class="pub-top">
@@ -865,14 +867,6 @@ author_profile: true
           S. R. Sapireddy, P. Siddappa, H. Bandi, and S. A. Godavarthi, “Cross-Domain Cyber Awareness Using Signal Intelligence Techniques,” in <em>Proceedings of the 2026 IEEE 17th Annual Ubiquitous Computing, Electronics &amp; Mobile Communication Conference (UEMCON)</em>, New York, NY, USA, Oct. 2026, accepted for publication.
         </div>
       </div>
-    </div>
-  
-    <!-- Full title: R2ML: Interpretable Machine Learning for R-Value-Based RF Modulation Classification -->
-
-    <div class="year-section" data-year-section="2026">
-      <div class="year-header">
-        <div class="year-title">📅 2026 Publications</div>
-        <div class="year-pill">1 publication</div>
     </div>
 
     <div class="publication-card" data-type="conference">
