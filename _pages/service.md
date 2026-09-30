@@ -852,10 +852,11 @@ author_profile: true
         </div>
 
         <div class="service-card">
-          <h4>Technical Program Committee Reviewer</h4>
-          <p class="meta"><strong>Organization:</strong> IEEE-affiliated conference ROSE 2026</p>
-          <p><strong>Focus:</strong> Peer review of technical manuscripts and evaluation of scholarly contributions.</p>
-          <span class="pill ongoing">Ongoing</span>
+          <h4>Session Chair</h4>
+          <p class="meta"><strong>Organization:</strong> IEEE UEMCON 2026</p>
+          <p><strong>Session:</strong> Session 19: Core Learning Algorithms</p>
+          <p><strong>Additional Role:</strong> Paper presenter for “Cross-Domain Cyber Awareness Using Signal Intelligence Techniques.”</p>
+          <span class="pill ongoing">Upcoming</span>
         </div>
 
         <div class="service-card isu">
