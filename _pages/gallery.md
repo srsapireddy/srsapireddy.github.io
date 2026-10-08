@@ -532,7 +532,7 @@ author_profile: true
         <div class="highlight-card">
           <span class="gallery-tag">UEMCON Conference 2026</span>
           <img src="/images/UEMCON_1.jpeg" alt="UEMCON Conference">
-          <h4>UEMCON Conference< 2026</h4>
+          <h4>UEMCON Conference 2026</h4>
         </div>
         
         <div class="highlight-card">
