@@ -464,6 +464,7 @@ author_profile: true
       <div class="slide-item"><span>●</span> UMKC Graduation</div>
       <div class="slide-item"><span>●</span> UIS Graduation</div>
       <div class="slide-item"><span>●</span> GLSVLSI Conference</div>
+      <div class="slide-item"><span>●</span> UEMCON Conference</div>
       <div class="slide-item"><span>●</span> Research Mentors</div>
       <div class="slide-item"><span>●</span> UIUC Visit</div>
       <div class="slide-item"><span>●</span> UMKC Orientation</div>
@@ -502,6 +503,12 @@ author_profile: true
       <div class="impact-label">Conference</div>
       <div class="impact-sub">Research presentation and networking</div>
     </div>
+
+    <div class="impact-card">
+      <div class="impact-number">UEMCONRF</div>
+      <div class="impact-label">Conference</div>
+      <div class="impact-sub">Research presentation and networking</div>
+    </div>
   </div>
 
   <div class="section">
@@ -524,13 +531,25 @@ author_profile: true
       <div class="highlight-grid">
 
         <div class="highlight-card">
-          <span class="gallery-tag">UEMCON Conference 2026</span>
+          <span class="gallery-tag">Conference</span>
+          <img src="/images/UEMCON_3.jpeg" alt="UEMCON Conference">
+          <h4>UEMCON Conference 2026</h4>
+        </div>
+        
+        <div class="highlight-card">
+          <span class="gallery-tag">Conference</span>
+          <img src="/images/UEMCON_4.jpeg" alt="UEMCON Conference">
+          <h4>UEMCON Conference 2026</h4>
+        </div>
+
+        <div class="highlight-card">
+          <span class="gallery-tag">Conference</span>
           <img src="/images/UEMCON_2.jpeg" alt="UEMCON Conference">
           <h4>UEMCON Conference 2026</h4>
         </div>
         
         <div class="highlight-card">
-          <span class="gallery-tag">UEMCON Conference 2026</span>
+          <span class="gallery-tag">Conference</span>
           <img src="/images/UEMCON_1.jpeg" alt="UEMCON Conference">
           <h4>UEMCON Conference 2026</h4>
         </div>
