@@ -532,6 +532,24 @@ author_profile: true
 
         <div class="highlight-card">
           <span class="gallery-tag green">Conference</span>
+          <img src="/images/UEMCON_9.jpeg" alt="UEMCON Conference">
+          <h4>UEMCON Conference 2026</h4>
+        </div>
+
+        <div class="highlight-card">
+          <span class="gallery-tag green">Conference</span>
+          <img src="/images/UEMCON_8.jpeg" alt="UEMCON Conference">
+          <h4>UEMCON Conference 2026</h4>
+        </div>
+
+        <div class="highlight-card">
+          <span class="gallery-tag green">Conference</span>
+          <img src="/images/UEMCON_7.jpeg" alt="UEMCON Conference">
+          <h4>UEMCON Conference 2026</h4>
+        </div>
+        
+        <div class="highlight-card">
+          <span class="gallery-tag green">Conference</span>
           <img src="/images/UEMCON_6.jpeg" alt="UEMCON Conference">
           <h4>UEMCON Conference 2026</h4>
         </div>
