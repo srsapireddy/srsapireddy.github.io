@@ -753,7 +753,7 @@ author_profile: true
 
     
     <div class="service-card isu">
-      <h4>Academic Department & Student Services Fair - Summer Open House 2026</h4>
+      <h4>Academic Department & Student Services Fair - Summer, Fall Open House 2026</h4>
       <p class="meta"><strong>Institution:</strong> Illinois State University</p>
       <p><strong>Location:</strong> Brown Ballroom</p>
       <p><strong>Focus:</strong> Represented the College of Engineering during the Summer Open House for prospective freshman and transfer students and their families. Engaged with attendees, provided information about Electrical Engineering programs, and supported student recruitment and admissions outreach.</p>
