@@ -531,6 +531,12 @@ author_profile: true
       <div class="highlight-grid">
 
         <div class="highlight-card">
+          <span class="gallery-tag">Academic Fair</span>
+          <img src="/images/Fair_2.jpeg" alt="Academic Department & Student Services Fair">
+          <h4>Academic Department & Student Services Fair.</h4>
+        </div>
+
+        <div class="highlight-card">
           <span class="gallery-tag green">Conference</span>
           <img src="/images/UEMCON_9.jpeg" alt="UEMCON Conference">
           <h4>UEMCON Conference 2026</h4>
