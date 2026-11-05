@@ -832,6 +832,41 @@ author_profile: true
         <div class="year-title">📅 2026 Publications</div>
         <div class="year-pill">3 publications</div>
     </div>
+
+      <div class="publication-card" data-type="conference">
+      <div class="pub-top">
+        <span class="pub-year">2026</span>
+        <span class="pub-type">IEEE Conference</span>
+        <span class="pub-award">Accepted for publication</span>
+      </div>
+    
+      <div class="pub-title">
+        Design and Analysis of a Hybrid Optical Illusion Using the Two-Dimensional Fourier Transform
+      </div>
+    
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy and Sai Anirudh Godavarthi
+      </div>
+    
+      <div class="pub-venue">
+        In Proceedings of the 2026 IEEE Silchar Subsection Conference (SILCON), Manipur, India, Dec. 2026.
+      </div>
+    
+      <div class="pub-note">
+        DOI: Pending
+      </div>
+    
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2026-silcon-optical')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2026-silcon-optical')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+    
+      <div id="cite-2026-silcon-optical" class="citation-box">
+        S. R. Sapireddy and S. A. Godavarthi, “Design and Analysis of a Hybrid Optical Illusion Using the Two-Dimensional Fourier Transform,” in <em>Proceedings of the 2026 IEEE Silchar Subsection Conference (SILCON)</em>, Manipur, India, Dec. 2026, accepted for publication.
+      </div>
+    </div>
  
       <div class="publication-card" data-type="conference">
         <div class="pub-top">
