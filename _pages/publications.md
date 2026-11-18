@@ -944,7 +944,8 @@ author_profile: true
         <div id="cite-2026-uemcon-cyber" class="citation-box">
           S. R. Sapireddy, P. Siddappa, H. Bandi and S. A. Godavarthi, "Cross-Domain Cyber Awareness Using Signal Intelligence Techniques," 2026 IEEE 17th Annual Ubiquitous Computing, Electronics & Mobile Communication Conference (UEMCON), New York, NY, USA, 2026, pp. 0290-0295, doi: 10.1109/UEMCON70256.2026.11775586.
         </div>
-    
+    </div>
+    </div>
 
       <div class="publication-card" data-type="journal">
         <div class="pub-top">
@@ -987,6 +988,7 @@ author_profile: true
         vol. 17, no. 4, pp. 1&ndash;14, 2026.
       </div>
     </div>
+    </div>
     
     <div class="publication-card" data-type="conference">
       <div class="pub-top">
@@ -1020,7 +1022,8 @@ author_profile: true
     
       <div id="cite-2026-milcom-interference" class="citation-box">M. Butler, D. Riead, S. R. Sapireddy, and M. Rahman, "Signal Detection and Classification in the Presence of Interference," Military Communications (MILCOM), National Capital Region, USA, 2026.</div>
     </div>
-
+     </div>
+    </div>
             
   
     <!-- Full title: CARS: From Traffic Signals to Cyber Situational Awareness -->
