@@ -829,52 +829,47 @@ author_profile: true
   
     <!-- Full title: R2ML: Interpretable Machine Learning for R-Value-Based RF Modulation Classification -->
 
-    <div class="year-section" data-year-section="2026">
+    <div class="year-section" data-year-section="2027">
       <div class="year-header">
-        <div class="year-title">📅 2027 Publications</div>
-        <div class="year-pill">4 publications</div>
-    </div>
-
+        <div class="year-title">📅 2027 Conference Submissions</div>
+        <div class="year-pill">2 submissions</div>
+      </div>
+    
       <div class="publication-card" data-type="conference">
-      <div class="pub-top">
-        <span class="pub-year">2027</span>
-        <span class="pub-type">IEEE Conference</span>
-        <span class="pub-award">Under Review</span>
+        <div class="pub-top">
+          <span class="pub-year">2027</span>
+          <span class="pub-type">IEEE Conference</span>
+          <span class="pub-award">Under Review</span>
+        </div>
+        <div class="pub-title">
+          From Waves to Parameters: Broadband Characterization of a Coaxial Link for Sub-6 GHz Wireless Testbeds
+        </div>
+        <div class="pub-authors">
+          Srinivas Rahul Sapireddy, Sai Anirudh Godavarthi, and Juan Valderrama
+        </div>
+        <div class="pub-venue">
+          2027 IEEE 17th Annual Computing and Communication Workshop and Conference (CCWC)
+        </div>
       </div>
     
-      <div class="pub-title">
-        From Waves to Parameters: Broadband Characterization of a Coaxial Link for Sub-6 GHz Wireless Testbeds
-      </div>
-    
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy, Sai Anirudh Godavarthi, and Juan Valderrama
-      </div>
-    
-      <div class="pub-venue">
-        2027 IEEE 17th Annual Computing and Communication Workshop and Conference (CCWC)
+      <div class="publication-card" data-type="conference">
+        <div class="pub-top">
+          <span class="pub-year">2027</span>
+          <span class="pub-type">IEEE Conference</span>
+          <span class="pub-award">Under Review</span>
+        </div>
+        <div class="pub-title">
+          Rethinking R: Observation Duration and Robustness in Lightweight RF Modulation Classification
+        </div>
+        <div class="pub-authors">
+          Srivanth Parsi and Srinivas Rahul Sapireddy
+        </div>
+        <div class="pub-venue">
+          2027 IEEE 17th Annual Computing and Communication Workshop and Conference (CCWC)
+        </div>
       </div>
     </div>
-    
-    <div class="publication-card" data-type="conference">
-      <div class="pub-top">
-        <span class="pub-year">2027</span>
-        <span class="pub-type">IEEE Conference</span>
-        <span class="pub-award">Under Review</span>
-      </div>
-    
-      <div class="pub-title">
-        Rethinking R: Observation Duration and Robustness in Lightweight RF Modulation Classification
-      </div>
-    
-      <div class="pub-authors">
-        Srivanth Parsi and Srinivas Rahul Sapireddy
-      </div>
-    
-      <div class="pub-venue">
-        2027 IEEE 17th Annual Computing and Communication Workshop and Conference (CCWC)
-      </div>
-    </div>
-
+  
       <div class="year-section" data-year-section="2026">
       <div class="year-header">
         <div class="year-title">📅 2026 Publications</div>
