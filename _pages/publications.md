@@ -888,18 +888,18 @@ author_profile: true
         </div>
     
         <div class="pub-note">
-          DOI: Pending
+          DOI: 10.1109/UEMCON70256.2026.11775586
         </div>
     
-        <div class="pub-links">
-          <button class="pub-button primary" onclick="toggleCitation('cite-2026-uemcon-cyber')">Citation</button>
-          <button class="pub-button" onclick="copyCitation('cite-2026-uemcon-cyber')">Copy Citation</button>
-          <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-          <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-        </div>
+     <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2026-uemcon-cyber')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2026-southeastcon-uemcon-cyber')">Copy Citation</button>
+        <a class="pub-link" href="https://ieeexplore.ieee.org/abstract/document/11775586" target="_blank" rel="noopener">DOI</a>
+        <a class="pub-link" href="https://srsapireddy.github.io/publications/C4.pdf" target="_blank" rel="noopener">PDF</a>
+      </div>
     
         <div id="cite-2026-uemcon-cyber" class="citation-box">
-          S. R. Sapireddy, P. Siddappa, H. Bandi, and S. A. Godavarthi, “Cross-Domain Cyber Awareness Using Signal Intelligence Techniques,” in <em>Proceedings of the 2026 IEEE 17th Annual Ubiquitous Computing, Electronics &amp; Mobile Communication Conference (UEMCON)</em>, New York, NY, USA, Oct. 2026, accepted for publication.
+          S. R. Sapireddy, P. Siddappa, H. Bandi and S. A. Godavarthi, "Cross-Domain Cyber Awareness Using Signal Intelligence Techniques," 2026 IEEE 17th Annual Ubiquitous Computing, Electronics & Mobile Communication Conference (UEMCON), New York, NY, USA, 2026, pp. 0290-0295, doi: 10.1109/UEMCON70256.2026.11775586.
         </div>
       </div>
     </div>
