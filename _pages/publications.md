@@ -824,6 +824,39 @@ author_profile: true
       <button class="tab-button" onclick="filterPublications(event, 'earlier')">Earlier Work</button>
     </div>
         </div>
+
+    <div class="publication-card" data-type="journal">
+      <div class="pub-top">
+        <span class="pub-year">2026</span>
+        <span class="pub-type">IEEE Journal</span>
+        <span class="pub-award">Under Review</span>
+      </div>
+    
+      <div class="pub-title">
+        Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Signals
+      </div>
+    
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy, Hatem Rizk and Mostafizur Rahman
+      </div>
+    
+      <div class="pub-venue">
+        IEEE Transactions on Aerospace and Electronic System
+      </div>
+    
+      <div class="pub-note">
+        DOI: Pending
+      </div>
+    
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2026-milcom-spread-spectrum')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2026-milcom-spread-spectrum')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+    
+      <div id="cite-2026-milcom-spread-spectrum" class="citation-box">Under Review</div>
+    </div>
   
     <!-- Full title: R2ML: Interpretable Machine Learning for R-Value-Based RF Modulation Classification -->
 
@@ -944,39 +977,6 @@ author_profile: true
         <em>International Journal of Electrical Engineering and Technology</em>, 
         vol. 17, no. 4, pp. 1&ndash;14, 2026.
       </div>
-    </div>
-
-    <div class="publication-card" data-type="conference">
-      <div class="pub-top">
-        <span class="pub-year">2026</span>
-        <span class="pub-type">IEEE Conference</span>
-        <span class="pub-award">Under Review</span>
-      </div>
-    
-      <div class="pub-title">
-        Lightweight Methods for Spread Spectrum Signal Classification
-      </div>
-    
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy and Mostafizur Rahman
-      </div>
-    
-      <div class="pub-venue">
-        Military Communications (MILCOM), National Capital Region, USA, 12 - 16 October 2026.
-      </div>
-    
-      <div class="pub-note">
-        DOI: Pending
-      </div>
-    
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-milcom-spread-spectrum')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-milcom-spread-spectrum')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-    
-      <div id="cite-2026-milcom-spread-spectrum" class="citation-box">Under Review</div>
     </div>
     
     <div class="publication-card" data-type="conference">
