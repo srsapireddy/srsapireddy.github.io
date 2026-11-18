@@ -873,7 +873,7 @@ author_profile: true
     <div class="year-section" data-year-section="2026">
   <div class="year-header">
     <div class="year-title">📅 2026 Publications</div>
-    <div class="year-pill">5 entries</div>
+    <div class="year-pill">4 Publications</div>
   </div>
 
   <div class="publication-card" data-type="conference">
@@ -900,7 +900,7 @@ author_profile: true
     <div class="pub-top">
       <span class="pub-year">2026</span>
       <span class="pub-type">IEEE Conference</span>
-      <span class="pub-award">Accepted for publication</span>
+      <span class="pub-award">Published</span>
     </div>
 
     <div class="pub-title">
