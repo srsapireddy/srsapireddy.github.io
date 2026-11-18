@@ -915,7 +915,7 @@ author_profile: true
       <div id="cite-2026-silcon-optical" class="citation-box">
         S. R. Sapireddy and S. A. Godavarthi, “Design and Analysis of a Hybrid Optical Illusion Using the Two-Dimensional Fourier Transform,” in <em>Proceedings of the 2026 IEEE Silchar Subsection Conference (SILCON)</em>, Manipur, India, Dec. 2026, accepted for publication.
       </div>
-    </div>
+    
 
       
     
