@@ -835,41 +835,6 @@ author_profile: true
         <div class="year-pill">4 publications</div>
     </div>
 
-           <div class="publication-card" data-type="journal">
-      <div class="pub-top">
-        <span class="pub-year">2026</span>
-        <span class="pub-type">IEEE Journal</span>
-        <span class="pub-award">Under Review</span>
-      </div>
-    
-      <div class="pub-title">
-        Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Signals
-      </div>
-    
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy, Hatem Rizk and Mostafizur Rahman
-      </div>
-    
-      <div class="pub-venue">
-        IEEE Transactions on Aerospace and Electronic System
-      </div>
-    
-      <div class="pub-note">
-        DOI: Pending
-      </div>
-
-    
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-milcom-spread-spectrum')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-milcom-spread-spectrum')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-    
-      <div id="cite-2026-milcom-spread-spectrum" class="citation-box">Under Review</div>
-    </div>
-      
-
       <div class="publication-card" data-type="conference">
       <div class="pub-top">
         <span class="pub-year">2026</span>
@@ -904,7 +869,47 @@ author_profile: true
         S. R. Sapireddy and S. A. Godavarthi, “Design and Analysis of a Hybrid Optical Illusion Using the Two-Dimensional Fourier Transform,” in <em>Proceedings of the 2026 IEEE Silchar Subsection Conference (SILCON)</em>, Manipur, India, Dec. 2026, accepted for publication.
       </div>
     </div>
- 
+
+      <div class="publication-card" data-type="conference">
+      <div class="pub-top">
+        <span class="pub-year">2027</span>
+        <span class="pub-type">IEEE Conference</span>
+        <span class="pub-award">Under Review</span>
+      </div>
+    
+      <div class="pub-title">
+        From Waves to Parameters: Broadband Characterization of a Coaxial Link for Sub-6 GHz Wireless Testbeds
+      </div>
+    
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy, Sai Anirudh Godavarthi, and Juan Valderrama
+      </div>
+    
+      <div class="pub-venue">
+        2027 IEEE 17th Annual Computing and Communication Workshop and Conference (CCWC)
+      </div>
+    </div>
+    
+    <div class="publication-card" data-type="conference">
+      <div class="pub-top">
+        <span class="pub-year">2027</span>
+        <span class="pub-type">IEEE Conference</span>
+        <span class="pub-award">Under Review</span>
+      </div>
+    
+      <div class="pub-title">
+        Rethinking R: Observation Duration and Robustness in Lightweight RF Modulation Classification
+      </div>
+    
+      <div class="pub-authors">
+        Srivanth Parsi and Srinivas Rahul Sapireddy
+      </div>
+    
+      <div class="pub-venue">
+        2027 IEEE 17th Annual Computing and Communication Workshop and Conference (CCWC)
+      </div>
+    </div>
+
       <div class="publication-card" data-type="conference">
         <div class="pub-top">
           <span class="pub-year">2026</span>
