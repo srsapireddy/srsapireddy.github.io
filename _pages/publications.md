@@ -824,16 +824,8 @@ author_profile: true
       <button class="tab-button" onclick="filterPublications(event, 'earlier')">Earlier Work</button>
     </div>
         </div>
-    
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-milcom-spread-spectrum')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-milcom-spread-spectrum')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-    
-      <div id="cite-2026-milcom-spread-spectrum" class="citation-box">Under Review</div>
-    </div>
+
+
   
     <!-- Full title: R2ML: Interpretable Machine Learning for R-Value-Based RF Modulation Classification -->
 
