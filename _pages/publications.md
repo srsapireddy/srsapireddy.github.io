@@ -837,41 +837,6 @@ author_profile: true
 
       <div class="publication-card" data-type="conference">
       <div class="pub-top">
-        <span class="pub-year">2026</span>
-        <span class="pub-type">IEEE Conference</span>
-        <span class="pub-award">Accepted for publication</span>
-      </div>
-    
-      <div class="pub-title">
-        Design and Analysis of a Hybrid Optical Illusion Using the Two-Dimensional Fourier Transform
-      </div>
-    
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy and Sai Anirudh Godavarthi
-      </div>
-    
-      <div class="pub-venue">
-        In Proceedings of the 2026 IEEE Silchar Subsection Conference (SILCON), Manipur, India, Dec. 2026.
-      </div>
-    
-      <div class="pub-note">
-        DOI: Pending
-      </div>
-    
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-silcon-optical')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-silcon-optical')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-    
-      <div id="cite-2026-silcon-optical" class="citation-box">
-        S. R. Sapireddy and S. A. Godavarthi, “Design and Analysis of a Hybrid Optical Illusion Using the Two-Dimensional Fourier Transform,” in <em>Proceedings of the 2026 IEEE Silchar Subsection Conference (SILCON)</em>, Manipur, India, Dec. 2026, accepted for publication.
-      </div>
-    </div>
-
-      <div class="publication-card" data-type="conference">
-      <div class="pub-top">
         <span class="pub-year">2027</span>
         <span class="pub-type">IEEE Conference</span>
         <span class="pub-award">Under Review</span>
@@ -916,6 +881,43 @@ author_profile: true
           <span class="pub-type">IEEE Conference</span>
           <span class="pub-award">Published</span>
         </div>
+
+      <div class="publication-card" data-type="conference">
+      <div class="pub-top">
+        <span class="pub-year">2026</span>
+        <span class="pub-type">IEEE Conference</span>
+        <span class="pub-award">Accepted for publication</span>
+      </div>
+    
+      <div class="pub-title">
+        Design and Analysis of a Hybrid Optical Illusion Using the Two-Dimensional Fourier Transform
+      </div>
+    
+      <div class="pub-authors">
+        Srinivas Rahul Sapireddy and Sai Anirudh Godavarthi
+      </div>
+    
+      <div class="pub-venue">
+        In Proceedings of the 2026 IEEE Silchar Subsection Conference (SILCON), Manipur, India, Dec. 2026.
+      </div>
+    
+      <div class="pub-note">
+        DOI: Pending
+      </div>
+    
+      <div class="pub-links">
+        <button class="pub-button primary" onclick="toggleCitation('cite-2026-silcon-optical')">Citation</button>
+        <button class="pub-button" onclick="copyCitation('cite-2026-silcon-optical')">Copy Citation</button>
+        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
+        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
+      </div>
+    
+      <div id="cite-2026-silcon-optical" class="citation-box">
+        S. R. Sapireddy and S. A. Godavarthi, “Design and Analysis of a Hybrid Optical Illusion Using the Two-Dimensional Fourier Transform,” in <em>Proceedings of the 2026 IEEE Silchar Subsection Conference (SILCON)</em>, Manipur, India, Dec. 2026, accepted for publication.
+      </div>
+    </div>
+
+      
     
         <div class="pub-title">
           Cross-Domain Cyber Awareness Using Signal Intelligence Techniques
@@ -1021,40 +1023,7 @@ author_profile: true
       <div id="cite-2026-milcom-interference" class="citation-box">M. Butler, D. Riead, S. R. Sapireddy, and M. Rahman, "Signal Detection and Classification in the Presence of Interference," Military Communications (MILCOM), National Capital Region, USA, 2026.</div>
     </div>
 
-             <div class="publication-card" data-type="conference">
-      <div class="pub-top">
-        <span class="pub-year">2026</span>
-        <span class="pub-type">IEEE Conference</span>
-        <span class="pub-award">To be submitted</span>
-      </div>
-  
-      <div class="pub-title">
-        R2ML: Interpretable RF Modulation Classification
-      </div>
-  
-      <div class="pub-authors">
-        S. R. Sapireddy et al.
-      </div>
-  
-      <div class="pub-venue">
-        IEEE International Conference on Communications, Networks, and Satellite (COMNETSAT), Manado, Indonesia, 3–5 December 2026.
-      </div>
-  
-      <div class="pub-note">
-        DOI: Pending
-      </div>
-  
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-comnetsat-r2ml')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-comnetsat-r2ml')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-  
-      <div id="cite-2026-comnetsat-r2ml" class="citation-box">
-        S. R. Sapireddy et al., "R2ML: Interpretable RF Modulation Classification," IEEE International Conference on Communications, Networks, and Satellite (COMNETSAT), Manado, Indonesia, 2026.
-      </div>
-    </div>
+            
   
     <!-- Full title: CARS: From Traffic Signals to Cyber Situational Awareness -->
     
