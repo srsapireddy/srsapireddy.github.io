@@ -831,7 +831,7 @@ author_profile: true
 
     <div class="year-section" data-year-section="2027">
       <div class="year-header">
-        <div class="year-title">📅 2027 Conference Submissions</div>
+        <div class="year-title">📅 2027 Publications</div>
         <div class="year-pill">2 submissions</div>
       </div>
     
