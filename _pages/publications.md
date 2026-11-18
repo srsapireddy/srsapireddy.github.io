@@ -1057,6 +1057,8 @@ author_profile: true
     
       <div id="cite-2026-southeastcon-bin-r" class="citation-box">S. R. Sapireddy, G. Surekha, and H. Bandi, "Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics," SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1-6, doi: 10.1109/SoutheastCon63549.2026.11476603.</div>
     </div>
+    </div>
+    </div>
 
     <div class="year-section" data-year-section="2025">
       <div class="year-header">
