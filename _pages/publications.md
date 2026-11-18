@@ -843,28 +843,7 @@ author_profile: true
         <div class="year-pill">4 publications</div>
     </div>
 
-          <div class="publication-card" data-type="journal">
-      <div class="pub-top">
-        <span class="pub-year">2026</span>
-        <span class="pub-type">IEEE Journal</span>
-        <span class="pub-award">Under Review</span>
-      </div>
-    
-      <div class="pub-title">
-        Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Signals
-      </div>
-    
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy, Hatem Rizk and Mostafizur Rahman
-      </div>
-    
-      <div class="pub-venue">
-        IEEE Transactions on Aerospace and Electronic System
-      </div>
-    
-      <div class="pub-note">
-        DOI: Pending
-      </div>
+      
 
       <div class="publication-card" data-type="conference">
       <div class="pub-top">
