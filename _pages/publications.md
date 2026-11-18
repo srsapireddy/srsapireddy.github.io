@@ -870,198 +870,177 @@ author_profile: true
       </div>
     </div>
   
-      <div class="year-section" data-year-section="2026">
-      <div class="year-header">
-        <div class="year-title">📅 2026 Publications</div>
-        <div class="year-pill">4 publications</div>
+    <div class="year-section" data-year-section="2026">
+  <div class="year-header">
+    <div class="year-title">📅 2026 Publications</div>
+    <div class="year-pill">5 entries</div>
+  </div>
+
+  <div class="publication-card" data-type="conference">
+    <div class="pub-top">
+      <span class="pub-year">2026</span>
+      <span class="pub-type">IEEE Conference</span>
+      <span class="pub-award">Accepted for publication</span>
     </div>
 
-      <div class="publication-card" data-type="conference">
-        <div class="pub-top">
-          <span class="pub-year">2026</span>
-          <span class="pub-type">IEEE Conference</span>
-          <span class="pub-award">Published</span>
-        </div>
-    
-      <div class="pub-title">
-        Design and Analysis of a Hybrid Optical Illusion Using the Two-Dimensional Fourier Transform
-      </div>
-    
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy and Sai Anirudh Godavarthi
-      </div>
-    
-      <div class="pub-venue">
-        In Proceedings of the 2026 IEEE Silchar Subsection Conference (SILCON), Manipur, India, Dec. 2026.
-      </div>
-    
-      <div class="pub-note">
-        DOI: Pending
-      </div>
-    
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-silcon-optical')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-silcon-optical')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-    
-      <div id="cite-2026-silcon-optical" class="citation-box">
-        S. R. Sapireddy and S. A. Godavarthi, “Design and Analysis of a Hybrid Optical Illusion Using the Two-Dimensional Fourier Transform,” in <em>Proceedings of the 2026 IEEE Silchar Subsection Conference (SILCON)</em>, Manipur, India, Dec. 2026, accepted for publication.
-      </div>
-      
-             <div class="publication-card" data-type="conference">
-      <div class="pub-top">
-        <span class="pub-year">2026</span>
-        <span class="pub-type">IEEE Conference</span>
-        <span class="pub-award">Accepted for publication</span>
-      </div>
-      
-    
-        <div class="pub-title">
-          Cross-Domain Cyber Awareness Using Signal Intelligence Techniques
-        </div>
-    
-        <div class="pub-authors">
-          Srinivas Rahul Sapireddy, Priyanka S, Hemanth Bandi, and Sai Anirudh Godavarthi
-        </div>
-    
-        <div class="pub-venue">
-          In Proceedings of the 2026 IEEE 17th Annual Ubiquitous Computing, Electronics &amp; Mobile Communication Conference (UEMCON), New York, USA, Oct. 2026.
-        </div>
-    
-        <div class="pub-note">
-          DOI: 10.1109/UEMCON70256.2026.11775586
-        </div>
-    
-     <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-uemcon-cyber')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-southeastcon-uemcon-cyber')">Copy Citation</button>
-        <a class="pub-link" href="https://ieeexplore.ieee.org/abstract/document/11775586" target="_blank" rel="noopener">DOI</a>
-        <a class="pub-link" href="https://srsapireddy.github.io/publications/C4.pdf" target="_blank" rel="noopener">PDF</a>
-      </div>
-    
-        <div id="cite-2026-uemcon-cyber" class="citation-box">
-          S. R. Sapireddy, P. Siddappa, H. Bandi and S. A. Godavarthi, "Cross-Domain Cyber Awareness Using Signal Intelligence Techniques," 2026 IEEE 17th Annual Ubiquitous Computing, Electronics & Mobile Communication Conference (UEMCON), New York, NY, USA, 2026, pp. 0290-0295, doi: 10.1109/UEMCON70256.2026.11775586.
-        </div>
-    </div>
+    <div class="pub-title">
+      Design and Analysis of a Hybrid Optical Illusion Using the Two-Dimensional Fourier Transform
     </div>
 
-      <div class="publication-card" data-type="journal">
-        <div class="pub-top">
-          <span class="pub-year">2026</span>
-          <span class="pub-type">Journal Article</span>
-          <span class="pub-award">Published</span>
-        </div>
-    
-      <div class="pub-title">
-        Comparative Techno-Economic Assessment of Solar-Wind Hybrid Energy Systems Using HOMER
-      </div>
-    
-      <div class="pub-authors">
-        Srinivas Rahul Sapireddy, Hemanth Sairam Bandi, and Sravan Uppala
-      </div>
-    
-      <div class="pub-venue">
-        <em>International Journal of Electrical Engineering and Technology</em>, vol. 17, no. 4, pp. 1&ndash;14, 2026.
-      </div>
-    
-      <div class="pub-note">
-        DOI: https://doi.org/10.34218/IJEET_17_04_001
-      </div>
-    
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-ijeet-homer')">
-          Citation
-        </button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-ijeet-homer')">
-          Copy Citation
-        </button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-    
-      <div id="cite-2026-ijeet-homer" class="citation-box">
-        S. R. Sapireddy, H. S. Bandi, and S. Uppala, 
-        &ldquo;Comparative Techno-Economic Assessment of Solar-Wind Hybrid Energy Systems Using HOMER,&rdquo;
-        <em>International Journal of Electrical Engineering and Technology</em>, 
-        vol. 17, no. 4, pp. 1&ndash;14, 2026.
-      </div>
+    <div class="pub-authors">
+      Srinivas Rahul Sapireddy and Sai Anirudh Godavarthi
     </div>
+
+    <div class="pub-venue">
+      2026 IEEE Silchar Subsection Conference (SILCON), Manipur, India, Dec. 2026.
     </div>
-    
-    <div class="publication-card" data-type="conference">
-      <div class="pub-top">
-        <span class="pub-year">2026</span>
-        <span class="pub-type">IEEE Conference</span>
-        <span class="pub-award">To be submitted</span>
-      </div>
-    
-      <div class="pub-title">
-        Signal Detection and Classification in the Presence of Interference
-      </div>
-    
-      <div class="pub-authors">
-        Marcus Butler, Donald Riead, Srinivas Rahul Sapireddy, and Mostafizur Rahman
-      </div>
-    
-      <div class="pub-venue">
-        IEEE Aerospace Conference (AeroConf), Big Sky, Montana, USA, 7 March 2026 – 14 March 2026.
-      </div>
-    
-      <div class="pub-note">
-        DOI: Pending
-      </div>
-    
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-aero-interference')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-aero-interference')">Copy Citation</button>
-        <a class="pub-link disabled" href="#" onclick="return false;">DOI pending</a>
-        <a class="pub-link disabled" href="#" onclick="return false;">PDF pending</a>
-      </div>
-    
-      <div id="cite-2026-milcom-interference" class="citation-box">M. Butler, D. Riead, S. R. Sapireddy, and M. Rahman, "Signal Detection and Classification in the Presence of Interference," Military Communications (MILCOM), National Capital Region, USA, 2026.</div>
+  </div>
+
+  <div class="publication-card" data-type="conference">
+    <div class="pub-top">
+      <span class="pub-year">2026</span>
+      <span class="pub-type">IEEE Conference</span>
+      <span class="pub-award">Accepted for publication</span>
     </div>
-     </div>
+
+    <div class="pub-title">
+      Cross-Domain Cyber Awareness Using Signal Intelligence Techniques
     </div>
-            
-  
-    <!-- Full title: CARS: From Traffic Signals to Cyber Situational Awareness -->
-    
-    <div class="publication-card" data-type="conference">
-      <div class="pub-top">
-        <span class="pub-year">2026</span>
-        <span class="pub-type">IEEE Conference</span>
-        <span class="pub-award">Published</span>
-      </div>
-    
-      <div class="pub-title">
-        Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics
-      </div>
-    
-      <div class="pub-authors">
-        S. R. Sapireddy, G. Surekha, and H. Bandi
-      </div>
-    
-      <div class="pub-venue">
-        SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1-6.
-      </div>
-    
-      <div class="pub-note">
-        DOI: 10.1109/SoutheastCon63549.2026.11476603
-      </div>
-    
-      <div class="pub-links">
-        <button class="pub-button primary" onclick="toggleCitation('cite-2026-southeastcon-bin-r')">Citation</button>
-        <button class="pub-button" onclick="copyCitation('cite-2026-southeastcon-bin-r')">Copy Citation</button>
-        <a class="pub-link" href="https://doi.org/10.1109/SoutheastCon63549.2026.11476603" target="_blank" rel="noopener">DOI</a>
-        <a class="pub-link" href="https://srsapireddy.github.io/publications/C3.pdf" target="_blank" rel="noopener">PDF</a>
-      </div>
-    
-      <div id="cite-2026-southeastcon-bin-r" class="citation-box">S. R. Sapireddy, G. Surekha, and H. Bandi, "Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics," SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1-6, doi: 10.1109/SoutheastCon63549.2026.11476603.</div>
+
+    <div class="pub-authors">
+      Srinivas Rahul Sapireddy, Priyanka S, Hemanth Bandi, and Sai Anirudh Godavarthi
     </div>
+
+    <div class="pub-venue">
+      In Proceedings of the 2026 IEEE 17th Annual Ubiquitous Computing,
+      Electronics &amp; Mobile Communication Conference (UEMCON),
+      New York, USA, Oct. 2026.
     </div>
+
+    <div class="pub-note">
+      DOI: 10.1109/UEMCON70256.2026.11775586
     </div>
+
+    <div class="pub-links">
+      <button type="button" class="pub-button primary" onclick="toggleCitation('cite-2026-uemcon-cyber')">
+        Citation
+      </button>
+      <button type="button" class="pub-button" onclick="copyCitation('cite-2026-uemcon-cyber')">
+        Copy Citation
+      </button>
+      <a class="pub-link" href="https://ieeexplore.ieee.org/abstract/document/11775586" target="_blank" rel="noopener">DOI</a>
+      <a class="pub-link" href="https://srsapireddy.github.io/publications/C4.pdf" target="_blank" rel="noopener">PDF</a>
+    </div>
+
+    <div id="cite-2026-uemcon-cyber" class="citation-box">
+      S. R. Sapireddy, P. Siddappa, H. Bandi, and S. A. Godavarthi,
+      &ldquo;Cross-Domain Cyber Awareness Using Signal Intelligence Techniques,&rdquo;
+      2026 IEEE 17th Annual Ubiquitous Computing, Electronics &amp; Mobile
+      Communication Conference (UEMCON), New York, NY, USA, 2026,
+      pp. 0290&ndash;0295, doi: 10.1109/UEMCON70256.2026.11775586.
+    </div>
+  </div>
+
+  <div class="publication-card" data-type="journal">
+    <div class="pub-top">
+      <span class="pub-year">2026</span>
+      <span class="pub-type">Journal Article</span>
+      <span class="pub-award">Published</span>
+    </div>
+
+    <div class="pub-title">
+      Comparative Techno-Economic Assessment of Solar-Wind Hybrid Energy Systems Using HOMER
+    </div>
+
+    <div class="pub-authors">
+      Srinivas Rahul Sapireddy, Hemanth Sairam Bandi, and Sravan Uppala
+    </div>
+
+    <div class="pub-venue">
+      <em>International Journal of Electrical Engineering and Technology</em>,
+      vol. 17, no. 4, pp. 1&ndash;14, 2026.
+    </div>
+
+    <div class="pub-note">
+      DOI: 10.34218/IJEET_17_04_001
+    </div>
+
+    <div class="pub-links">
+      <button type="button" class="pub-button primary" onclick="toggleCitation('cite-2026-ijeet-homer')">
+        Citation
+      </button>
+      <button type="button" class="pub-button" onclick="copyCitation('cite-2026-ijeet-homer')">
+        Copy Citation
+      </button>
+      <a class="pub-link" href="https://doi.org/10.34218/IJEET_17_04_001" target="_blank" rel="noopener">DOI</a>
+    </div>
+
+    <div id="cite-2026-ijeet-homer" class="citation-box">
+      S. R. Sapireddy, H. S. Bandi, and S. Uppala,
+      &ldquo;Comparative Techno-Economic Assessment of Solar-Wind Hybrid Energy Systems Using HOMER,&rdquo;
+      <em>International Journal of Electrical Engineering and Technology</em>,
+      vol. 17, no. 4, pp. 1&ndash;14, 2026, doi: 10.34218/IJEET_17_04_001.
+    </div>
+  </div>
+
+  <div class="publication-card" data-type="conference">
+    <div class="pub-top">
+      <span class="pub-year">2026</span>
+      <span class="pub-type">IEEE Conference</span>
+      <span class="pub-award">To be submitted</span>
+    </div>
+
+    <div class="pub-title">
+      Signal Detection and Classification in the Presence of Interference
+    </div>
+
+    <div class="pub-authors">
+      Marcus Butler, Donald Riead, Srinivas Rahul Sapireddy, and Mostafizur Rahman
+    </div>
+  </div>
+
+  <div class="publication-card" data-type="conference">
+    <div class="pub-top">
+      <span class="pub-year">2026</span>
+      <span class="pub-type">IEEE Conference</span>
+      <span class="pub-award">Published</span>
+    </div>
+
+    <div class="pub-title">
+      Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics
+    </div>
+
+    <div class="pub-authors">
+      S. R. Sapireddy, G. Surekha, and H. Bandi
+    </div>
+
+    <div class="pub-venue">
+      SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1&ndash;6.
+    </div>
+
+    <div class="pub-note">
+      DOI: 10.1109/SoutheastCon63549.2026.11476603
+    </div>
+
+    <div class="pub-links">
+      <button type="button" class="pub-button primary" onclick="toggleCitation('cite-2026-southeastcon-bin-r')">
+        Citation
+      </button>
+      <button type="button" class="pub-button" onclick="copyCitation('cite-2026-southeastcon-bin-r')">
+        Copy Citation
+      </button>
+      <a class="pub-link" href="https://doi.org/10.1109/SoutheastCon63549.2026.11476603" target="_blank" rel="noopener">DOI</a>
+      <a class="pub-link" href="https://srsapireddy.github.io/publications/C3.pdf" target="_blank" rel="noopener">PDF</a>
+    </div>
+
+    <div id="cite-2026-southeastcon-bin-r" class="citation-box">
+      S. R. Sapireddy, G. Surekha, and H. Bandi,
+      &ldquo;Bin-Based R: Resource-Efficient RF Modulation Classification Using Envelope Statistics,&rdquo;
+      SoutheastCon 2026, Huntsville, AL, USA, 2026, pp. 1&ndash;6,
+      doi: 10.1109/SoutheastCon63549.2026.11476603.
+    </div>
+  </div>
+</div>
 
     <div class="year-section" data-year-section="2025">
       <div class="year-header">
