@@ -876,6 +876,26 @@ author_profile: true
     <div class="year-pill">4 Publications</div>
   </div>
 
+    <div class="publication-card" data-type="journal">
+    <div class="pub-top">
+      <span class="pub-year">2026</span>
+      <span class="pub-type">IEEE Journal</span>
+      <span class="pub-award">Under Review</span>
+    </div>
+  
+    <div class="pub-title">
+      Lightweight Classification of Spread Spectrum Signals Using Cyclostationary Autocorrelation Signals
+    </div>
+  
+    <div class="pub-authors">
+      Srinivas Rahul Sapireddy
+    </div>
+  
+    <div class="pub-venue">
+      IEEE Transactions on Aerospace and Electronic Systems
+    </div>
+  </div>
+
   <div class="publication-card" data-type="conference">
     <div class="pub-top">
       <span class="pub-year">2026</span>
