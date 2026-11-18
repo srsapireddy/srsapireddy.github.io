@@ -831,7 +831,7 @@ author_profile: true
 
     <div class="year-section" data-year-section="2026">
       <div class="year-header">
-        <div class="year-title">📅 2026 Publications</div>
+        <div class="year-title">📅 2027 Publications</div>
         <div class="year-pill">4 publications</div>
     </div>
 
@@ -873,6 +873,12 @@ author_profile: true
       <div class="pub-venue">
         2027 IEEE 17th Annual Computing and Communication Workshop and Conference (CCWC)
       </div>
+    </div>
+
+      <div class="year-section" data-year-section="2026">
+      <div class="year-header">
+        <div class="year-title">📅 2026 Publications</div>
+        <div class="year-pill">4 publications</div>
     </div>
 
       <div class="publication-card" data-type="conference">
