@@ -888,7 +888,7 @@ author_profile: true
     </div>
   
     <div class="pub-authors">
-      Srinivas Rahul Sapireddy
+      Srinivas Rahul Sapireddy, Hatem Rizk and Mostafizur Rahman
     </div>
   
     <div class="pub-venue">
