@@ -532,7 +532,7 @@ author_profile: true
 
         <div class="highlight-card">
           <span class="gallery-tag">School Visit</span>
-          <img src="/images/school_1.jpeg" alt="School visit for K-12 STEM outreach.">
+          <img src="/images/school_1.jpg" alt="School visit for K-12 STEM outreach.">
           <h4>School visit for K-12 STEM outreach. (Parkside Jr High)</h4>
         </div>
 
