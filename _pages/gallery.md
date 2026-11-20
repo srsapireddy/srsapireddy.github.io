@@ -531,6 +531,12 @@ author_profile: true
       <div class="highlight-grid">
 
         <div class="highlight-card">
+          <span class="gallery-tag">School Visit</span>
+          <img src="/images/school_1.jpeg" alt="School visit for K-12 STEM outreach.">
+          <h4>School visit for K-12 STEM outreach. (Parkside Jr High)</h4>
+        </div>
+
+        <div class="highlight-card">
           <span class="gallery-tag">Academic Fair</span>
           <img src="/images/Fair_2.jpeg" alt="Academic Department & Student Services Fair">
           <h4>Academic Department & Student Services Fair.</h4>
@@ -599,7 +605,7 @@ author_profile: true
         <div class="highlight-card">
           <span class="gallery-tag">School Visit</span>
           <img src="/images/school.jpeg" alt="School visit for K-12 STEM outreach.">
-          <h4>School visit for K-12 STEM outreach.</h4>
+          <h4>School visit for K-12 STEM outreach (Chiddix).</h4>
         </div>
         
         <div class="highlight-card">
