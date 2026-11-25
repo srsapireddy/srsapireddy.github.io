@@ -768,7 +768,7 @@ toc: false
           <div class="sch-name">
             Juan Valderrama
             <span class="inline-icons">
-              <img src="/images/ISU.png" alt="ISU Logo" class="logo">
+              <img src="/images/isu.png" alt="ISU Logo" class="logo">
             </span>
           </div>
 
@@ -804,7 +804,7 @@ toc: false
           <div class="sch-name">
             Logan Bellas
             <span class="inline-icons">
-              <img src="/images/ISU.png" alt="ISU Logo" class="logo">
+              <img src="/images/isu.png" alt="ISU Logo" class="logo">
             </span>
           </div>
 
