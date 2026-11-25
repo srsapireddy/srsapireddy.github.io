@@ -760,7 +760,85 @@ toc: false
     <div id="current-tab" class="tab-panel">
   <div class="sch-grid">
 
+        <div class="sch-card current">
+      <div class="sch-header">
+        <img src="/images/place.jpg" alt="Juan Valderrama" class="sch-photo">
+
+        <div class="sch-title">
+          <div class="sch-name">
+            Juan Valderrama
+            <span class="inline-icons">
+              <img src="/images/ISU.png" alt="ISU Logo" class="logo">
+            </span>
+          </div>
+
+          <div class="sch-sub">
+            UMKC — B.S. Mechanical Engineering (Present)
+          </div>
+
+          <div class="pills">
+            <span class="pill role-current">Current</span>
+            <span class="pill tag">Sub-6 GHz Wireless Testbeds</span>
+            <span class="pill tag">VNA Simulation</span>
+          </div>
+
+          <div class="sch-sec">Research interests</div>
+          <ul class="sch-list">
+            <li>RF communications</li>
+            <li>Sub-6 GHz Wireless Testbeds</li>
+          </ul>
+
+          <div class="sch-sec">Active topics / papers</div>
+          <ul class="sch-list">
+            <li>Broadband Characterization of a Coaxial Link for Sub-6 GHz Wireless Testbeds</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <div class="sch-card current">
+      <div class="sch-header">
+        <img src="/images/place.jpg" alt="Logan Bellas" class="sch-photo">
+
+        <div class="sch-title">
+          <div class="sch-name">
+            Logan Bellas
+            <span class="inline-icons">
+              <img src="/images/ISU.png" alt="ISU Logo" class="logo">
+            </span>
+          </div>
+
+          <div class="sch-sub">
+            UMKC — B.S. Mechanical Engineering (Present)
+          </div>
+
+          <div class="pills">
+            <span class="pill role-current">Current</span>
+            <span class="pill tag">Signal Classification</span>
+            <span class="pill tag">Deep Learning</span>
+          </div>
+
+          <div class="sch-sec">Research interests</div>
+          <ul class="sch-list">
+            <li>RF communications</li>
+            <li>Deep Learning and Computer Vision</li>
+          </ul>
+
+          <div class="sch-sec">Active topics / papers</div>
+          <ul class="sch-list">
+            <li>RF communication and deep learning project in progress</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="alumni-tab" class="tab-panel">
+  <div class="sch-grid">
+
+        <div class="sch-card alumni">
       <div class="sch-header">
         <img src="/images/place.jpg" alt="Sai Anirudh Godavarthi" class="sch-photo">
 
@@ -795,12 +873,6 @@ toc: false
         </div>
       </div>
     </div>
-
-  </div>
-</div>
-
-<div id="alumni-tab" class="tab-panel">
-  <div class="sch-grid">
 
     <div class="sch-card alumni">
       <div class="sch-header">
