@@ -855,7 +855,7 @@ toc: false
           </div>
 
           <div class="pills">
-            <span class="pill role-current">Current</span>
+            <span class="pill role-alumni">Current</span>
             <span class="pill tag">RF Communications</span>
             <span class="pill tag">Antenna Design</span>
           </div>
